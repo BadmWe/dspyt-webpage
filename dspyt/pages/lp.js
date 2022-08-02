@@ -243,7 +243,7 @@ export default function Example() {
                   <div>
                     <img
                       className="h-11 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo"
                       alt="Workflow"
                     />
                   </div>
@@ -251,7 +251,7 @@ export default function Example() {
                     <div>
                       <a href="#" className="inline-flex space-x-4">
                         <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
-                          What's new
+                          What is new
                         </span>
                         <span className="inline-flex items-center text-sm font-medium text-indigo-600 space-x-1">
                           <span>Just shipped version 0.1.0</span>
