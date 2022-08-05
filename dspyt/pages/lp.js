@@ -1,5 +1,4 @@
-import * as IPFS from "ipfs-core";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import {
   CloudUploadIcon,
   CogIcon,
@@ -8,6 +7,7 @@ import {
   ServerIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/outline";
+
 import {
   ChevronRightIcon,
   ExternalLinkIcon,
@@ -203,33 +203,39 @@ const footerNavigation = {
 
 export default function Example() {
   const [input, setInput] = useState("");
-  const readFile = async (ipfs, cid) => {
-    const decoder = new TextDecoder();
-    let content = "";
-    for await (const chunk of ipfs.cat(cid)) {
-      content += decoder.decode(chunk);
-    }
 
-    return content;
-  };
-  useEffect(() => {
-    async function bla() {
-      const node = await IPFS.create();
-      const file = await node.add({
-        path: "hello.txt",
-        content: new TextEncoder().encode("Hello World 101"),
-      });
-      const content = await readFile(node, file.cid);
-      console.log(content);
-      //const { cid } = await client.add("Hello world!");
-    }
+  /*  useEffect(() => {
+    //
+    console.log();
+  }, []); */
 
-    bla();
-  }, []);
+  async function bla(email) {
+    //const node = await IPFS.create({ repo: "ok" + Math.random() });
+    //console.log(await node.id());
+    //const version = await node.version();
+    //console.log("Version:", version.version);
+    //const content = await readFile(node, file.cid);
+    /*  var content;
+    try {
+      content = await readFile(node, global.content);
+      console.log("content", content);
+    } catch {}
+
+    console.log(content + "\n" + email);
+    const file = await node.add({
+      path: "emails.txt",
+      content: new TextEncoder().encode(content + "\n" + email),
+    });
+
+    const newcontent = await readFile(node, file.cid);
+    console.log(newcontent);
+    console.log("Added file:", file.path, file.cid.toString()); */
+  }
 
   const handleSubmit = (event) => {
-    alert("Email was submitted: " + input);
     event.preventDefault();
+    bla(input);
+    alert("Email was submitted: " + input);
   };
 
   return (
@@ -745,3 +751,14 @@ export default function Example() {
     </div>
   );
 }
+
+/* export function getServerSideProps() {
+  const zustandStore = initializeStore();
+  return {
+    props: {
+      // the "stringify and then parse again" piece is required as next.js
+      // isn't able to serialize it to JSON properly
+      initialZustandState: JSON.parse(JSON.stringify(zustandStore.getState())),
+    },
+  };
+} */
