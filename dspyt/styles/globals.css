@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .card p {
+    @apply mt-6;
+  }
+
+  .card h2 {
+    @apply mt-6 text-2xl;
+  }
+
+  .post-body div {
+    @apply mt-5 text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1;
+  }
+}

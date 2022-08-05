@@ -1,10 +1,13 @@
 import fs from "fs";
 import path from "path";
+import { useState } from "react";
 import matter from "gray-matter";
 import Post from "../components/Post";
 import { sortByDate } from "../utils";
 
 export default function Home({ posts }) {
+  const [cnt, setCnt] = useState(0);
+
   return (
     <div className="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
       <div className="absolute inset-0">
@@ -21,7 +24,7 @@ export default function Home({ posts }) {
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.map((post, index) => (
+          {posts.slice(cnt, cnt + 5).map((post, index) => (
             <Post key={index} post={post} />
           ))}
         </div>
