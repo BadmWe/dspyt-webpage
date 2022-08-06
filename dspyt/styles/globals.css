@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  code {
+    padding: 5px;
+  }
+
+  .card iframe {
+    @apply mt-6;
+  }
+
   .card p {
     @apply mt-6;
   }
@@ -13,5 +21,15 @@
 
   .post-body div {
     @apply mt-5 text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1;
+  }
+
+  .card ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
   }
 }

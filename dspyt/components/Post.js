@@ -29,23 +29,26 @@ export default function Post({ post }) {
         </div>
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
-            <a href={"/" /* post.author.href */}>
-              <span className="sr-only">{"/" /* post.author.name */}</span>
+            <a className={"" /*href=post.frontmatter.author*/}>
+              <span className="sr-only">Pavel</span>
               <img
                 className="h-10 w-10 rounded-full"
-                src={"/" /* post.author.imageUrl */}
+                src={"/profile.jpeg"}
                 alt=""
               />
             </a>
           </div>
           <div className="ml-3">
             <p className="text-sm font-medium text-gray-900">
-              <a href={"/" /* post.author.href */} className="hover:underline">
-                {/* post.author.name */}
+              <a
+                classname={"" /* href=post.author.href */}
+                className="hover:underline"
+              >
+                Pavel
               </a>
             </p>
             <div className="flex space-x-1 text-sm text-gray-500">
-              <time dateTime={"/" /* post.datetime */}>
+              <time dateTime={post.frontmatter.date}>
                 {post.frontmatter.date}
               </time>
               <span aria-hidden="true">&middot;</span>
