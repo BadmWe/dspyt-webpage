@@ -83,6 +83,7 @@ export async function getStaticProps() {
     };
   });
 
+  console.log(posts.sort(sortByDate));
   return {
     props: {
       posts: posts.sort(sortByDate),

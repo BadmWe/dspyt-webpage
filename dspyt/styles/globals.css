@@ -7,6 +7,14 @@
     padding: 5px;
   }
 
+  .card a:link {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
   .card iframe {
     @apply mt-6;
   }

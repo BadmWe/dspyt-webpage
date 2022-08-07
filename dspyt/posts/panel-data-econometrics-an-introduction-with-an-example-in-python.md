@@ -1,6 +1,6 @@
 ---
 title: "How to Panel data python – An easy introduction"
-date: "March 5, 2021"
+date: "March 5, 2022"
 excerpt: "Django is a very powerful, high level Python framework for building web applications"
 cover_image: "/images/posts/paneldata.png"
 time_read: "5 min"
@@ -18,11 +18,11 @@ According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#pa
 
 Some experts refer to Pooled data as “time series of cross sections”, where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) units at multiple points in time. A panel-data observation has two dimensions:
 
-X{it}, where i runs from 1 to N and denotes the [cross-sectional] unit (https://dspyt.com/cross-sectional-data-an-easy-introduction/)and t runs from 1 to T and denotes the time of the observation.
+X{it}, where i runs from 1 to N and denotes the [cross-sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction/) and t runs from 1 to T and denotes the time of the observation.
 
 ## Advantages and Disadvantages of Panel data
 
-There are numerous benefits of panel data over [cross-sectional] and (https://dspyt.com/cross-sectional-data-an-easy-introduction/)time-series data:
+There are numerous benefits of panel data over [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) and time-series data:
 
 - In panel data multiple observations of the same entities allow us to control for unobserved characteristics.
 - Panel data facilitates causal inference which would be difficult with one cross-section or time-series data set.

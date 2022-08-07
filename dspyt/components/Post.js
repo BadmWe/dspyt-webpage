@@ -40,10 +40,7 @@ export default function Post({ post }) {
           </div>
           <div className="ml-3">
             <p className="text-sm font-medium text-gray-900">
-              <a
-                classname={"" /* href=post.author.href */}
-                className="hover:underline"
-              >
+              <a className={"hover:underline" /* href=post.author.href */}>
                 Pavel
               </a>
             </p>
