@@ -1,7 +1,7 @@
 ---
 title: "Simple Blockchain data indexing with TrueBlocks"
 date: "March 1, 2022"
-excerpt: ""
+excerpt: "In this article we discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database."
 cover_image: "/images/posts/trueblocks/pexels-vitaly-vlasov-1342460-e1658960499878.webp"
 time_read: "5 min"
 ---
@@ -65,8 +65,8 @@ Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/gran
 ## Further Resources
 
 - https://trueblocks.io/papers/
-- https://trueblocks.io/papers/2021/- the-difference-between-trueBlocks-and-rotki-and-trueBlocks-and-thegraph.pdf
+- https://trueblocks.io/papers/2021/the-difference-between-trueBlocks-and-rotki-and-trueBlocks-and-thegraph.pdf
 - https://trueblocks.io/blog/
-- https://trueblocks.io/docs/install/install-trueblocks//
+- https://trueblocks.io/docs/install/install-trueblocks/
 - https://trueblocks.io/docs/chifra/chaindata/
 - https://trueblocks.io/docs/

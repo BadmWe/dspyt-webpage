@@ -8,14 +8,15 @@
   }
 
   .card a:link {
-    text-decoration: underline;
+    color: #919dac;
+    font-weight: bold;
   }
 
-  a:hover {
+  .card a:hover {
     color: hotpink;
   }
 
-  .card iframe {
+  .card img {
     @apply mt-6;
   }
 
