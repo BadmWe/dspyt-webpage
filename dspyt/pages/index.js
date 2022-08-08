@@ -18,12 +18,11 @@ export default function Home({ posts }) {
             From the blog
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            libero labore natus atque, ducimus sed.
+            Data Science and Blockchain Based Projects
           </p>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.slice(cnt, cnt + 5).map((post, index) => (
+          {posts.slice(cnt, cnt + 6).map((post, index) => (
             <Post key={index} post={post} />
           ))}
         </div>
@@ -34,20 +33,20 @@ export default function Home({ posts }) {
           <div className="hidden sm:block">
             <p className="text-sm text-gray-700">
               Showing <span className="font-medium">{cnt + 1}</span> to{" "}
-              <span className="font-medium">{cnt + 5}</span> of{" "}
+              <span className="font-medium">{cnt + 6}</span> of{" "}
               <span className="font-medium">{posts.length}</span> results
             </p>
           </div>
           <div className="flex-1 flex justify-between sm:justify-end">
             <a
-              onClick={() => (cnt > 5 ? setCnt(cnt - 5) : setCnt(0))}
+              onClick={() => (cnt > 6 ? setCnt(cnt - 6) : setCnt(0))}
               className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
             >
               Previous
             </a>
             <a
               onClick={() =>
-                cnt + 5 > posts.length ? setCnt(cnt) : setCnt(cnt + 5)
+                cnt + 6 > posts.length ? setCnt(cnt) : setCnt(cnt + 6)
               }
               className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
             >
@@ -83,7 +82,6 @@ export async function getStaticProps() {
     };
   });
 
-  //console.log(posts.sort(sortByDate));
   return {
     props: {
       posts: posts.sort(sortByDate),

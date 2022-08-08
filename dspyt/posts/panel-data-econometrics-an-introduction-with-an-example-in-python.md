@@ -1,6 +1,6 @@
 ---
 title: "How to Panel data python – An easy introduction"
-date: "March 5, 2022"
+date: "May 5, 2022"
 excerpt: "In this article, we are introducing the concept of a panel data and illustrate the example of panel data python on the WHO births data set."
 cover_image: "/images/posts/paneldata.png"
 time_read: "5 min"
