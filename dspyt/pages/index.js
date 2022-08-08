@@ -10,7 +10,7 @@ export default function Home({ posts }) {
   const [cnt, setCnt] = useState(0);
 
   return (
-    <div className="relative  ">
+    <div className="relative">
       <Hero />
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">

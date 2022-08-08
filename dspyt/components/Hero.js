@@ -1,12 +1,40 @@
 import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
+import { Web3Storage } from "web3.storage";
+
+const token = process.env.NEXT_PUBLIC_TOKEN;
+
+function makeStorageClient() {
+  return new Web3Storage({ token });
+}
+
+function makeFileObjects(text) {
+  const obj = { email: text };
+  const blob = new Blob([JSON.stringify(obj)], { type: "application/json" });
+  const files = [new File([blob], "email.json")];
+  return files;
+}
+
+async function storeFiles(files) {
+  const client = makeStorageClient();
+  const cid = await client.put(files);
+  console.log(cid);
+  return cid;
+}
+
 export default function Hero() {
   const [input, setInput] = useState("");
+
+  async function sendEmail() {
+    storeFiles(makeFileObjects(input));
+  }
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    bla(input);
+    sendEmail(input);
     alert("Email was submitted: " + input);
   };
+
   return (
     <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
@@ -134,7 +162,7 @@ export default function Hero() {
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
               <img
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                src="screen.png"
+                src="/screen.png"
                 alt=""
               />
             </div>
