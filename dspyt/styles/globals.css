@@ -17,7 +17,7 @@
   }
 
   .card img {
-    @apply mt-6;
+    @apply mt-6 mb-6;
   }
 
   .card p {
