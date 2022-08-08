@@ -18,7 +18,7 @@ export default function Post({ post }) {
               {/*post.category.name*/}
             </a>
           </p>
-          <a href={`/blog/${post.slug}`} className="block mt-2">
+          <a href={`/${post.slug}`} className="block mt-2">
             <p className="text-xl font-semibold text-gray-900">
               {post.frontmatter.title}
             </p>
