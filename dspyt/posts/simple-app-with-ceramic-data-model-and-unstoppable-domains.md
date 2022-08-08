@@ -27,10 +27,11 @@ https://developers.ceramic.network/build/javascript/http/
 
 ## Libraries
 
+- @3id/connect
 - @ceramicnetwork/http-client
 - @ceramicnetwork/stream-tile
 - @ceramicnetwork/3id-did-resolver
-- @3id/connect
+-
 - dids
 - @unstoppabledomains/resolution
 
@@ -43,13 +44,24 @@ First we create an app by using React framework and cd into the directory:
 cd new-app
 </pre></td></tr></table></div>
 
-Then we install the dependencies:
+Then we install the dependencies for ceramic and unstoppbale domains:
 
 <div style="background: #ffffff; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">npm install @ceramicnetwork/http-client @ceramicnetwork/3id-did-resolver dids @3id/connect @ceramicnetwork/stream-tile @unstoppabledomains/resolution
 </pre></div>
 
+and install dependencies necessary to connect the pieces:
+
+<div style="background: #ffffff; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">npm install @ethersproject/providers @uauth/web3-react @web3-react/abstract-connector @web3-react/core @web3-react/injected-connector @web3-react/walletconnect-connector
+</pre></div>
+
 After the dependencies are installed we move into the <code> src </code> folder via <code> cd src </code> and create a new file where after a successful login we can access ceramic DID Datastore and update the data. This file we name as <code> DataModels.js </code>. We also create an additional css file for <code> Datamodels.js </code> that we name as <code>App.module.css</code>.
+
+Additionally, we create <code> connectors.js </code> file that we access in <code>App.js</code> to connect to Ethereum Providers.
 
 ## Coding the application
 
+In <code> connectors.js </code>
+
 In <code> App.js </code> we import following libraries and files:
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FApp.js%23L1-L11&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
