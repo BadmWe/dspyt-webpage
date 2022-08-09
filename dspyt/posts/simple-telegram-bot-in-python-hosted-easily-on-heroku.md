@@ -1,6 +1,6 @@
 ---
 title: "Simple and easy heroku telegram bot in Python"
-date: "May, 2022"
+date: "May 3, 2022"
 excerpt: "We create a heroku python telegram bot from scratch. We utilize python telebot library and host the project on Heroku."
 cover_image: "/images/posts/telegrambot/pexels-cottonbro-5077039-1-e1629301426265.jpg"
 time_read: "5 min"

@@ -1,6 +1,6 @@
 ---
 title: "How to Python jail escape (Newbie CTF 2019)"
-date: "May 3, 2022"
+date: "May 1, 2022"
 excerpt: "Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. We use built-in methods."
 cover_image: "/images/posts/jailescape/image-e1658960653261.webp"
 time_read: "5 min"
