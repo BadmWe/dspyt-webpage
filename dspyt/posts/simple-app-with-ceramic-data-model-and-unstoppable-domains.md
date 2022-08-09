@@ -1,6 +1,6 @@
 ---
 title: "Simple App with Ceramic Data Model and Unstoppable Domains"
-date: "OCtober 26, 2021"
+date: "October 26, 2021"
 excerpt: "Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage."
 cover_image: "/images/posts/ceramic/pexels-antonio-batinic-4164418.jpg"
 time_read: "5 min"
