@@ -5,7 +5,7 @@ import { marked } from "marked";
 import Head from "next/head";
 
 export default function PostPage({
-  frontmatter: { title, date, cover_image },
+  frontmatter: { title, excerpt, cover_image },
   slug,
   content,
 }) {
@@ -17,6 +17,7 @@ export default function PostPage({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"
         />
+        <meta name="description" content={excerpt} />
       </Head>
 
       <div className="relative px-4 sm:px-6 lg:px-8 mt-10">
