@@ -10,7 +10,7 @@ We developed web application in python Flask that generates QR code with the hel
 
 [The GitHub repository for the project](https://github.com/Pfed-prog/casper_QR).
 
-<iframe src="https://www.youtube.com/embed/xKFY1vxrMeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Python QR Code AWS App
 

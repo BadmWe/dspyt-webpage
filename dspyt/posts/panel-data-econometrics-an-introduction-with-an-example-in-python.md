@@ -10,7 +10,7 @@ In this article we discuss panel data python as well as panel data regression py
 
 Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) for each [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) unit in a data set. In other words, in a panel data we take into account the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) and pure [cross-sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction/) as a subset of panel data with only one dimension.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KKQOoXPgu04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Panel vs. Pooled data
 
@@ -115,8 +115,11 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 
 ## References
 
-- Bashtage.github.io. n.d. Examples — linearmodels v4.24 documentation. [online] Available at: https://bashtage.github.io/linearmodels/panel/examples/examples.html [Accessed 4 August 2021].
-- Cross Validated. n.d. What is the difference between pooled cross sectional data and panel data?. [online] Available at: https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data [Accessed 4 August 2021].
-- Eviews.com. n.d. EViews Help. [online] Available at: http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html [Accessed 4 August 2021].
+- Bashtage.github.io. n.d. Examples — linearmodels v4.24 documentation. [online] Available at:
+  https://bashtage.github.io/linearmodels/panel/examples/examples.html [Accessed 4 August 2021].
+- Cross Validated. n.d. What is the difference between pooled cross sectional data and panel data?. [online] Available at:
+  https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data [Accessed 4 August 2021].
+- Eviews.com. n.d. EViews Help. [online] Available at:
+  http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html [Accessed 4 August 2021].
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
 - Kaggle notebook: https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis

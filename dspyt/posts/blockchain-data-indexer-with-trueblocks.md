@@ -8,7 +8,7 @@ time_read: "5 min"
 
 In this article we are going to discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database in the way it stores information. A blockchain is a growing list of records, also called blocks, that are linked together using the latest cryptography technology. In general, each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.
 
-<iframe src="https://www.youtube.com/embed/TtRilzuXLkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/TtRilzuXLkA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For example, the transaction data in a Bitcoin Block contains information about the Sender, Receiver and the number of bitcoins to be transferred.
 
@@ -65,8 +65,13 @@ Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/gran
 ## Further Resources
 
 - https://trueblocks.io/papers/
+
 - https://trueblocks.io/papers/2021/the-difference-between-trueBlocks-and-rotki-and-trueBlocks-and-thegraph.pdf
+
 - https://trueblocks.io/blog/
+
 - https://trueblocks.io/docs/install/install-trueblocks/
+
 - https://trueblocks.io/docs/chifra/chaindata/
+
 - https://trueblocks.io/docs/
