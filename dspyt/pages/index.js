@@ -14,8 +14,9 @@ export default function Home({ posts }) {
     <div>
       <Head>
         <title>Data Science with Python | DSPYT</title>
-        <meta name="description" content="Data Sciece and blockchain DAO" />
+        <meta name="description" content="Data Science and blockchain DAO" />
         <meta property="og:image" content="/DSPYT.png" />
+        <link rel="icon" href="big-data-svgrepo.svg" />
       </Head>
       <div className="relative">
         <Hero />

@@ -69,5 +69,4 @@ git commit -m <span style="color: #4070a0">&quot;commit&quot;</span>
 git push heroku master
 </pre></div>
 
-The GitHub library for the bot:
-https://github.com/dspytdao/Telegram_bot_py_heroku
+[The GitHub library for the bot](https://github.com/dspytdao/Telegram_bot_py_heroku)

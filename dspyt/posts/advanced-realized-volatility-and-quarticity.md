@@ -63,5 +63,4 @@ Finally, we can explicitly separate quadratic variation into continuous and jump
 
 ## References
 
-Corsi, Fulvio & Mittnik, Stefan & Pigorsch, Christian & Pigorsch, Uta. (2008). The Volatility of Realized Volatility. Econometric Reviews. 27. 46-78. 10.1080/07474930701853616.
-https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility
+Corsi, Fulvio & Mittnik, Stefan & Pigorsch, Christian & Pigorsch, Uta. (2008). [The Volatility of Realized Volatility. Econometric Reviews](https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility). 27. 46-78.

@@ -67,6 +67,5 @@ Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/gran
 ## Further Resources
 
 - https://trueblocks.io/papers/
-- https://trueblocks.io/papers/2021/the-difference-between-trueBlocks-and-rotki-and-trueBlocks-and-thegraph.pdf
 - https://trueblocks.io/blog/
 - https://trueblocks.io/docs/

@@ -117,11 +117,9 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 
 ## References
 
-- Bashtage.github.io. n.d. Examples — linearmodels v4.24 documentation. [online] Available at:
-  https://bashtage.github.io/linearmodels/panel/examples/examples.html [Accessed 4 August 2021].
-- Cross Validated. n.d. What is the difference between pooled cross sectional data and panel data?. [online] Available at:
-  https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data [Accessed 4 August 2021].
-- Eviews.com. n.d. EViews Help. [online] Available at:
-  http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html [Accessed 4 August 2021].
+- Bashtage.github.io. n.d. [Examples — linearmodels v4.24 documentation](https://bashtage.github.io/linearmodels/panel/examples/examples.html).
+- Cross Validated. n.d. [What is the difference between pooled cross sectional data and panel data?](https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data).
+- Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
-- Kaggle notebook: https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis
+- Kaggle notebook:
+  https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis

@@ -22,8 +22,7 @@ The GitHub repository is at https://github.com/Pfed-prog/Ceramic_Unstoppable.
 
 Node.js v14 and npm v6
 
-For more detailed information look at:
-https://developers.ceramic.network/build/javascript/http/
+For more detailed information look at [Ceramic Developers Portal](https://developers.ceramic.network/build/javascript/http/)
 
 ## Libraries
 
