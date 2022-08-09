@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { useState } from "react";
+import Head from "next/head";
 import matter from "gray-matter";
 import Post from "../components/Post";
 import Hero from "../components/Hero";
