@@ -10,7 +10,9 @@ In this article we discuss panel data python as well as panel data regression py
 
 Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) for each [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) unit in a data set. In other words, in a panel data we take into account the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) and pure [cross-sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction/) as a subset of panel data with only one dimension.
 
-<iframe src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%;">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Panel vs. Pooled data
 

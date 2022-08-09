@@ -10,8 +10,9 @@ We developed web application in python Flask that generates QR code with the hel
 
 [The GitHub repository for the project](https://github.com/Pfed-prog/casper_QR).
 
-<iframe src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div style="position: relative; padding-bottom: 56.25%;">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ## Python QR Code AWS App
 
 The necessary condition for a Flask QR code application to run aws is initialize application = Flask(\_\_name\_\_)
