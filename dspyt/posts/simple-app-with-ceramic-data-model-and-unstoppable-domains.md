@@ -1,7 +1,7 @@
 ---
 title: "Simple App with Ceramic Data Model and Unstoppable Domains"
 date: "OCtober 26, 2021"
-excerpt: ""
+excerpt: "Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage."
 cover_image: "/images/posts/ceramic/pexels-antonio-batinic-4164418.jpg"
 time_read: "5 min"
 ---
@@ -9,8 +9,6 @@ time_read: "5 min"
 Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage.
 
 In this tutorial we set up an application to interact with JS HTTP Client through a public Ceramic node. In addition we create a deterministic Ceramic Tile and resolve an unstoppable domain which we store in the decentralized profile of the user.
-
-![](/images/posts/ceramic/qyg4dep.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IVo6tN8BpOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -31,9 +29,14 @@ https://developers.ceramic.network/build/javascript/http/
 - @ceramicnetwork/http-client
 - @ceramicnetwork/stream-tile
 - @ceramicnetwork/3id-did-resolver
--
 - dids
 - @unstoppabledomains/resolution
+- @ethersproject/providers
+- @uauth/web3-react
+- @web3-react/abstract-connector
+- @web3-react/core
+- @web3-react/injected-connector
+- @web3-react/walletconnect-connector
 
 ## Application dependencies and set up
 
@@ -60,8 +63,22 @@ Additionally, we create <code> connectors.js </code> file that we access in <cod
 
 ## Coding the application
 
-In <code> connectors.js </code>
+In <code> connectors.js </code> we create three wallet connectors: useWeb3React Injected connector to Ethereum Mainnet with MetaMask, Walletconnect and UAuthConnector for Unstoppable Domains.
 
-In <code> App.js </code> we import following libraries and files:
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2Fconnectors.js&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FApp.js%23L1-L11&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+In <code> App.js </code> we import following libraries, files and define a constant to initialize ceramic client:
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FApp.js%23L1-L13&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+Meanwhile the function App is where we define states, hooks and functions:
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FApp.js%23L15-L140&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+On the initial state the app display three buttons, which relate to a distinct wallet connector. Once the user pushes the button the state active becomes true, connecting to the wallet. After the wallet is connected the ceramic client initializes and connects to the decentralizes identity. Finally, following the successful ceramic client connection the user enters to the profile skills page.
+
+In <code>DataModels.js</code> we define the determenistic Ceramic tiles where the users edits and stores skills data.
+
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FDataModels.js&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+![Ceramic Unstoppable Domains skills page](/images/posts/ceramic/qyg4dep.jpg)
