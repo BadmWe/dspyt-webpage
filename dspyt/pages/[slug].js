@@ -13,10 +13,8 @@ export default function PostPage({
     <div>
       <Head>
         <title>{title}</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"
-        />
+        <meta property="og:image" content={cover_image} />
+        <link rel="icon" href="big-data-svgrepo.svg" />
         <meta name="description" content={excerpt} />
       </Head>
 
