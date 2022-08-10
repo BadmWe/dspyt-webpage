@@ -11,7 +11,7 @@ export default function Home({ posts }) {
   const [cnt, setCnt] = useState(0);
 
   return (
-    <div>
+    <>
       <Head>
         <title>Data Science with Python | DSPYT</title>
         <meta name="description" content="Data Science and blockchain DAO" />
@@ -64,7 +64,7 @@ export default function Home({ posts }) {
           </nav>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

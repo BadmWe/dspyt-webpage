@@ -38,11 +38,10 @@ export default function PostPage({
               alt={title}
               width={1200}
               height={753}
+              priority
             />
 
-            <div className="post-body">
-              <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-            </div>
+            <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
           </div>
         </div>
       </div>
