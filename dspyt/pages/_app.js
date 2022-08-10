@@ -12,14 +12,12 @@ function MyApp({ Component, pageProps }) {
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA}`}
       />
 
-      <Script id="gtm-script" strategy="afterInteractive">
+      <Script id="gtm-script" strategy="lazyOnload">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GA}', {
-        page_path: window.location.pathname,
-        });
+        gtag('config', '${process.env.NEXT_PUBLIC_GA}');
     `}
       </Script>
 
