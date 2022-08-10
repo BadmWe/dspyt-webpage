@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  code {
-    padding: 5px;
+  .card h1 {
+    @apply mb-6;
   }
 
   .card a:link {

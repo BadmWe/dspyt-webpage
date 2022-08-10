@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import profile from "../public/profile.jpeg";
+
 export default function Post({ post }) {
   return (
     <div
@@ -7,10 +9,12 @@ export default function Post({ post }) {
       className="flex flex-col rounded-lg shadow-lg overflow-hidden"
     >
       <div className="flex-shrink-0">
-        <img
-          className="h-48 w-full object-cover"
+        <Image
+          className="w-full object-cover"
+          height={300}
+          width={550}
           src={post.frontmatter.cover_image}
-          alt=""
+          alt={post.frontmatter.title}
         />
       </div>
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
@@ -33,10 +37,12 @@ export default function Post({ post }) {
           <div className="flex-shrink-0">
             <a className={"" /*href=post.frontmatter.author*/}>
               <span className="sr-only">Pavel</span>
-              <img
+              <Image
+                src={profile}
                 className="h-10 w-10 rounded-full"
-                src={"/profile.jpeg"}
-                alt=""
+                width={40}
+                height={40}
+                alt="profile picture dspyt"
               />
             </a>
           </div>

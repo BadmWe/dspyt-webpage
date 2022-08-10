@@ -29,6 +29,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <Image
                     height={32}
+                    width={320}
                     src={Logo}
                     alt="Dspyt : Data Science with Python"
                   />
