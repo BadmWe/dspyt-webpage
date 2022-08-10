@@ -2,11 +2,13 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+
 import Head from "next/head";
+import Image from "next/image";
 
 export default function PostPage({
   frontmatter: { title, excerpt, cover_image },
-  slug,
+  //slug,
   content,
 }) {
   return (
@@ -14,7 +16,7 @@ export default function PostPage({
       <Head>
         <title>{title}</title>
         <meta property="og:image" content={cover_image} />
-        <link rel="icon" href="big-data-svgrepo.svg" />
+        <link rel="icon" href="/big-data-svgrepo.svg" />
         <meta name="description" content={excerpt} />
       </Head>
 
@@ -30,10 +32,10 @@ export default function PostPage({
               </span>
             </h1>
 
-            <img
-              className=" mt-8 w-full rounded-lg"
+            <Image
+              className="mt-8 w-full rounded-lg"
               src={cover_image}
-              alt=""
+              alt={title}
               width={1310}
               height={873}
             />
@@ -74,7 +76,7 @@ export async function getStaticProps({ params: { slug } }) {
   return {
     props: {
       frontmatter,
-      slug,
+      //slug,
       content,
     },
   };

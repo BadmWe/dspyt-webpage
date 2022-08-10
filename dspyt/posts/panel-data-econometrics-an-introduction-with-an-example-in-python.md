@@ -121,5 +121,4 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 - Cross Validated. n.d. [What is the difference between pooled cross sectional data and panel data?](https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data).
 - Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
-- Kaggle notebook:
-  https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis
+- [Kaggle notebook](https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis)

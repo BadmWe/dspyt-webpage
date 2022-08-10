@@ -2,6 +2,9 @@ import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
 import { Web3Storage } from "web3.storage";
 
+import Image from "next/image";
+import HeroImage from "../public/screen.png";
+
 const token = process.env.NEXT_PUBLIC_TOKEN;
 
 function makeStorageClient() {
@@ -163,9 +166,9 @@ export default function Hero() {
               </svg>
             </div>
             <div className="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-              <img
+              <Image
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                src="/screen.png"
+                src={HeroImage}
                 alt=""
               />
             </div>

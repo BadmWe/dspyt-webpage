@@ -1,6 +1,10 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
+import Image from "next/image";
+
+import Logo from "../public/DSPYT.svg";
+
 const navigation = [{ name: "Home", href: "/" }];
 
 export default function Navbar() {
@@ -23,14 +27,14 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  <Image
                     className="block lg:hidden h-8 w-auto"
-                    src="/DSPYT.svg"
+                    src={Logo}
                     alt="Dspyt : Data Science with Python"
                   />
-                  <img
+                  <Image
                     className="hidden lg:block h-8 w-auto"
-                    src="/DSPYT.svg"
+                    src={Logo}
                     alt="Dspyt : Data Science with Python"
                   />
                 </div>
