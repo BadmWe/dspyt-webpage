@@ -41,7 +41,10 @@ export default function Hero() {
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
             <div>
-              <a href="https://pinsave.app" className="inline-flex space-x-4">
+              <a
+                href="https://dspyt-nft-s-evm.vercel.app/"
+                className="inline-flex space-x-4"
+              >
                 <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
                   What is new
                 </span>
