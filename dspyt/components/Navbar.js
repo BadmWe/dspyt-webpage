@@ -28,12 +28,7 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <Image
-                    className="block lg:hidden h-8 w-auto"
-                    src={Logo}
-                    alt="Dspyt : Data Science with Python"
-                  />
-                  <Image
-                    className="hidden lg:block h-8 w-auto"
+                    height={32}
                     src={Logo}
                     alt="Dspyt : Data Science with Python"
                   />
