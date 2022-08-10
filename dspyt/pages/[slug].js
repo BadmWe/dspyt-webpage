@@ -33,12 +33,12 @@ export default function PostPage({
             </h1>
 
             <Image
-              className="mt-12 w-full rounded-lg"
+              className="rounded-lg"
               src={cover_image}
               alt={title}
               width={1200}
               height={753}
-              priority
+              loading="lazy"
             />
 
             <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
