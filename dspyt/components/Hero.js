@@ -42,7 +42,7 @@ export default function Hero() {
           <div>
             <div>
               <a
-                href="https://dspyt-nft-s-evm.vercel.app/"
+                href="http://evm.pinsave.app/"
                 className="inline-flex space-x-4"
               >
                 <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
