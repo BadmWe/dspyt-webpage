@@ -78,7 +78,13 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-![](/images/posts/paneldata4.webp)
+<Image
+src="/images/posts/paneldata4.webp"
+className="h-10 w-10 rounded-full"
+height=300px
+width=550px
+alt="profile picture dspyt"
+/>
 
 ## Panel data python: data transformation
 
@@ -96,7 +102,13 @@ df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #6666
 df<span style="color: #666666">.</span>head()
 </pre></div>
 
-![](/images/posts/paneldata5.webp)
+<Image
+src="/images/posts/paneldata5.webp"
+className="h-10 w-10 rounded-full"
+height=300px
+width=550px
+alt="profile picture dspyt"
+/>
 
 ## Panel data analysis
 
@@ -113,7 +125,13 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-![](/images/posts/paneldata6.webp)
+<Image
+src="/images/posts/paneldata6.webp"
+className="h-10 w-10 rounded-full"
+height=300px
+width=550px
+alt="profile picture dspyt"
+/>
 
 ## References
 
