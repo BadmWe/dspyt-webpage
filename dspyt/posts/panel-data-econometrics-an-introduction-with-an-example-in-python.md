@@ -2,7 +2,7 @@
 title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "In this article, we are introducing the concept of a panel data and illustrate the example of panel data python on the WHO births data set."
-cover_image: "/images/posts/paneldata.png"
+cover_image: "/images/posts/paneldata.webp"
 time_read: "5 min"
 ---
 
@@ -62,7 +62,7 @@ df <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>
 df<span style="color: #666666">.</span>describe()
 </pre></div>
 
-![](/images/posts/paneldata3.png)
+![](/images/posts/paneldata3.webp)
 
 ## Panel data python with Pandas
 
@@ -78,7 +78,7 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-![](/images/posts/paneldata4.png)
+![](/images/posts/paneldata4.webp)
 
 ## Panel data python: data transformation
 
@@ -96,7 +96,7 @@ df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #6666
 df<span style="color: #666666">.</span>head()
 </pre></div>
 
-![](/images/posts/paneldata5.png)
+![](/images/posts/paneldata5.webp)
 
 ## Panel data analysis
 
@@ -113,7 +113,7 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-![](/images/posts/paneldata6.png)
+![](/images/posts/paneldata6.webp)
 
 ## References
 
