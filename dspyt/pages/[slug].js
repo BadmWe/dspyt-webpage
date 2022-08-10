@@ -33,6 +33,7 @@ export default function PostPage({
 
           <Image
             className="rounded-lg"
+            quality={25}
             src={cover_image}
             alt={title}
             width={1200}
