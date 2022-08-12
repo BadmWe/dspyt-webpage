@@ -2,7 +2,7 @@
 title: "How to python check proxy with aiohttp"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. Since the proxy hides and overlays your authentic IP address with its own IP, the destination server can only see the IP of the proxy."
-cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.jpg"
+cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
 time_read: "5 min"
 ---
 
@@ -12,7 +12,7 @@ To conduct data analysis, for example during the market research, we first need 
 
 A proxy server is a remote server through which you connect to obfuscate your initial address. Since the proxy hides and overlays your authentic IP address with its own IP, the destination server can only see the IP of the proxy. Hence, if you rotate proxies with each request, the endpoint will recognize them as separate ones since they are coming from different IP addresses. Thus, you increase the speed and chance of obtaining data for research.
 
-![](Proxy-Server.png)
+![proxy server](/images/posts/proxy/Proxy-Server.webp)
 
 ## Where is my proxy?
 
@@ -221,4 +221,4 @@ In this article we demonstrated how to scrape and utilize free proxies. Neverthe
 
 For more reliable service we recommend paid residential proxy servers that [Bright Data](https://brightdata.grsm.io/ntzo6z21fa32) provides. Formerly known as Luminaty the third-party service has a well-written api documentation for python that you can use to manage your proxies.
 
-![](image-5.png)
+![proxy server api](/images/posts/proxy/image-5.webp)
