@@ -2,7 +2,7 @@
 title: "Simple and easy heroku telegram bot in Python"
 date: "May 3, 2022"
 excerpt: "We create a heroku python telegram bot from scratch. We utilize python telebot library and host the project on Heroku."
-cover_image: "/images/posts/telegrambot/pexels-cottonbro-5077039-1-e1629301426265.jpg"
+cover_image: "/images/posts/telegrambot/pexels-cottonbro-5077039-1-e1629301426265.webp"
 time_read: "5 min"
 ---
 
@@ -35,7 +35,7 @@ In case we want to exit the virtual environment:
 
 To create a bot we have to message @BotFather in telegram. The command that creates a bot is /newbot and you have to also name the bot. After that BotFather sends us the HTTP API TOKEN.
 
-![telegram bot creation : Data Science with Python](/images/posts/telegrambot/image-7.png)
+![telegram bot creation : Data Science with Python](/images/posts/telegrambot/image-7.webp)
 
 ## Telegram bot in Python
 
