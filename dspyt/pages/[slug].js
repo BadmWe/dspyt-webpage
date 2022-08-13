@@ -37,12 +37,12 @@ export default function PostPage({
           </h1>
 
           <img
-            className="rounded-lg"
+            className="mx-auto rounded-lg"
             quality={25}
+            width={656}
+            height={324}
             src={cover_image}
             alt={title}
-            width={1200}
-            height={753}
           />
 
           <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
