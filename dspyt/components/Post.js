@@ -15,7 +15,6 @@ export default function Post({ post }) {
           width={550}
           src={post.frontmatter.cover_image}
           alt={post.frontmatter.title}
-          priority
         />
       </div>
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
