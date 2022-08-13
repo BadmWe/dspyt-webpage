@@ -20,11 +20,6 @@ export default function Post({ post }) {
       </div>
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
-          <p className="text-sm font-medium text-indigo-600">
-            <a href={"/" /*post.category.href*/} className="hover:underline">
-              {/*post.category.name*/}
-            </a>
-          </p>
           <a href={`/${post.slug}`} className="block mt-2">
             <p className="text-xl font-semibold text-gray-900">
               {post.frontmatter.title}
@@ -36,23 +31,17 @@ export default function Post({ post }) {
         </div>
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
-            <a className={"" /*href=post.frontmatter.author*/}>
-              <span className="sr-only">Pavel</span>
-              <Image
-                src={profile}
-                className="h-10 w-10 rounded-full"
-                width={40}
-                height={40}
-                alt="profile picture dspyt"
-              />
-            </a>
+            <span className="sr-only">Pavel</span>
+            <Image
+              src={profile}
+              className="h-10 w-10 rounded-full"
+              width={40}
+              height={40}
+              alt="profile picture dspyt"
+            />
           </div>
           <div className="ml-3">
-            <p className="text-sm font-medium text-gray-900">
-              <a className={"hover:underline" /* href=post.author.href */}>
-                Pavel
-              </a>
-            </p>
+            <p className="text-sm font-medium text-gray-900">Pavel</p>
             <div className="flex space-x-1 text-sm text-gray-500">
               <time dateTime={post.frontmatter.date}>
                 {post.frontmatter.date}
