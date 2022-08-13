@@ -2,6 +2,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import "lazysizes";
+// import a plugin
+//import "lazysizes/plugins/parent-fit/ls.parent-fit";
 
 import Head from "next/head";
 import Image from "next/image";
@@ -38,7 +41,7 @@ export default function PostPage({
             alt={title}
             width={1200}
             height={753}
-            loading="lazy"
+            class="lazyload"
           />
 
           <div dangerouslySetInnerHTML={{ __html: marked(content) }} />

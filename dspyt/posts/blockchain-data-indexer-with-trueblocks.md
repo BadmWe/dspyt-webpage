@@ -9,7 +9,7 @@ time_read: "5 min"
 In this article we are going to discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database in the way it stores information. A blockchain is a growing list of records, also called blocks, that are linked together using the latest cryptography technology. In general, each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.
 
 <div style=" position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/TtRilzuXLkA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazyload" style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/TtRilzuXLkA?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 For example, the transaction data in a Bitcoin Block contains information about the Sender, Receiver and the number of bitcoins to be transferred.
