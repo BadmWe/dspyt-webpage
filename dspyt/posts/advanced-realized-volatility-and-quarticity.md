@@ -2,7 +2,7 @@
 title: "How to implement Realized Volatility python"
 date: "April 25, 2022"
 excerpt: "Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series."
-cover_image: "/images/pexels-pixabay-210607.jpg"
+cover_image: "/images/posts/quarticity/pexels-pixabay-210607.webp"
 time_read: "5 min"
 ---
 
@@ -23,15 +23,15 @@ Furthermore, we estimate additional volatility estimators that we build upon rea
 
 The realized fourth-power variation or realized quarticity is a consistent estimator of the integrated quarticity
 
-![](/images/posts/quarticity/image-4.png)
+![](/images/posts/quarticity/image-4.webp)
 
 A more robust estimator, particularly in the presence of jumps, is the realized quad-power quarticity
 
-![](/images/posts/quarticity/image-5.png)
+![](/images/posts/quarticity/image-5.webp)
 
 Similarly robust estimator is also the realized tri-power quarticity
 
-![](/images/posts/quarticity/image-17.png)
+![](/images/posts/quarticity/image-17.webp)
 
 In python an implementation looks as following
 
@@ -43,7 +43,7 @@ In python an implementation looks as following
 
 Moreover, these estimates assist in estimation of three additional realized volatility estimators:
 
-![](/images/posts/quarticity/image-18.png)
+![](/images/posts/quarticity/image-18.webp)
 
 <iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=22&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
 

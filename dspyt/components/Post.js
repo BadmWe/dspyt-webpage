@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import profile from "../public/profile.jpeg";
+import profile from "../public/profile.webp";
 
 export default function Post({ post }) {
   return (
