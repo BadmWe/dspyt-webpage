@@ -3,11 +3,13 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import "lazysizes";
-// import a plugin
-//import "lazysizes/plugins/parent-fit/ls.parent-fit";
 
 import Head from "next/head";
 import Image from "next/image";
+
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 export default function PostPage({
   frontmatter: { title, excerpt, cover_image },
@@ -35,13 +37,12 @@ export default function PostPage({
           </h1>
 
           <Image
-            className="rounded-lg"
+            className="lazyload rounded-lg"
             quality={25}
             src={cover_image}
             alt={title}
             width={1200}
             height={753}
-            class="lazyload"
           />
 
           <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
