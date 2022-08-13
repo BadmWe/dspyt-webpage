@@ -52,7 +52,7 @@ const navigation = [
     name: "Discord",
     href: "https://discord.gg/peRHyNZrss",
     icon: (props) => (
-      <Image
+      <img
         src="/discord-icon-svgrepo-com.svg"
         alt="Discord Logo"
         height="24"
