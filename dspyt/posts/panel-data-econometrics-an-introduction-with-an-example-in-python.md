@@ -42,11 +42,15 @@ Econometricians also separate panel data into a wide or a long one. In a wide pa
 
 An example of a wide unbalanced panel data set is [World Health Organization crude birth rates data set available on Kaggle](https://www.kaggle.com/pavfedotov/birth-rate). For 10 of 239 countries and regions crude birth observations span 60 years from 1960 to 2019 while for others only a few periods. The large amount of missing values is likely due to the high administrative cost of collecting the necessary information.
 
-![WHO crude birth rates per 1000](/images/posts/paneldata2.png)
+<img
+        alt="WHO crude birth rates per 1000"
+        data-src="images/posts/paneldata2.webp"
+        class="lazyload"
+/>
 
 In the table above, we display crude birth rates for first 10 countries and regions in alphabetical order. We observe that United Arab Emirates, Antigua and Barbuda and Australia have no missing data points for from 1960 to 1980.
 
-[Pandas](https://pandas.pydata.org/) is an open source Python package that data scientists use for data analysis and machine learning tasks. It is built on top of package named Numpy. Numpy is one of the most commonly used packages for scientific computing in Python. It provides a multi-dimensional array object, as well as variations such as masks and matrices, which can be used for math operations.
+[Pandas](https://pandas.pydata.org/) is an open source Python package that data scientists use for data analysis and machine learning tasks. It is built on top of package d Numpy. Numpy is one of the most commonly used packages for scientific computing in Python. It provides a multi-dimensional array object, as well as variations such as masks and matrices, which can be used for math operations.
 
 Pandas is also supported by Dask, flexible open-source Python library for parallel computing.
 
@@ -58,11 +62,15 @@ Descriptive statistics includes the count of values, mean and standard deviation
 cols2skip <span style="color: #666666">=</span> [<span style="color: #40a070">1</span>,<span style="color: #40a070">2</span>,<span style="color: #40a070">3</span>]
 df <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>read_csv(<span style="color: #4070a0">&#39;file.csv&#39;</span>, skiprows<span style="color: #666666">=</span><span style="color: #40a070">3</span>, <span style="color: #666666">/</span>
  usecols<span style="color: #666666">=</span>[i <span style="color: #007020; font-weight: bold">for</span> i <span style="color: #007020; font-weight: bold">in</span> <span style="color: #007020">range</span>(<span style="color: #40a070">64</span>) <span style="color: #007020; font-weight: bold">if</span> i <span style="color: #007020; font-weight: bold">not</span> <span style="color: #007020; font-weight: bold">in</span> cols2skip], <span style="color: #666666">/</span>
- index_col<span style="color: #666666">=</span><span style="color: #4070a0">&#39;Country Name&#39;</span>)<span style="color: #666666">.</span>T
+ index_col<span style="color: #666666">=</span><span style="color: #4070a0">&#39;Country &#39;</span>)<span style="color: #666666">.</span>T
 df<span style="color: #666666">.</span>describe()
 </pre></div>
 
-![](/images/posts/paneldata3.webp)
+<img
+        alt="panel data regression"
+        data-src="/images/posts/paneldata3.webp"
+        class="lazyload"
+/>
 
 ## Panel data python with Pandas
 
@@ -78,7 +86,11 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-![](/images/posts/paneldata4.webp)
+<img
+        alt="panel data regression"
+        data-src="/images/posts/paneldata4.webp"
+        class="lazyload"
+/>
 
 ## Panel data python: data transformation
 
@@ -96,7 +108,11 @@ df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #6666
 df<span style="color: #666666">.</span>head()
 </pre></div>
 
-![](/images/posts/paneldata5.webp)
+<img
+        alt="panel data regression : dspyt"
+        data-src="/images/posts/paneldata5.webp"
+        class="lazyload"
+/>
 
 ## Panel data analysis
 
@@ -113,7 +129,11 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-![](/images/posts/paneldata6.webp)
+<img
+        alt="panel data regression python"
+        data-src="/images/posts/paneldata6.webp"
+        class="lazyload"
+/>
 
 ## References
 
