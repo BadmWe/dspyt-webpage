@@ -10,6 +10,10 @@ In this article we discuss panel data python as well as panel data regression py
 
 Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) for each [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) unit in a data set. In other words, in a panel data we take into account the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction/) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction/) and pure [cross-sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction/) as a subset of panel data with only one dimension.
 
+<div style="position: relative; padding-bottom: 56.25%;">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Panel vs. Pooled data
 
 According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html), pooled data refers to data with relatively few cross-sections, where variables are held in cross-section specific individual series, meanwhile panel data corresponds to data with large numbers of cross-sections, with variables held in single series in a stacked form.
@@ -38,15 +42,11 @@ Econometricians also separate panel data into a wide or a long one. In a wide pa
 
 An example of a wide unbalanced panel data set is [World Health Organization crude birth rates data set available on Kaggle](https://www.kaggle.com/pavfedotov/birth-rate). For 10 of 239 countries and regions crude birth observations span 60 years from 1960 to 2019 while for others only a few periods. The large amount of missing values is likely due to the high administrative cost of collecting the necessary information.
 
-<img
-        alt="WHO crude birth rates per 1000"
-        data-src="images/posts/paneldata2.webp"
-        class="lazyload"
-/>
+![WHO crude birth rates per 1000](/images/posts/paneldata2.webp)
 
 In the table above, we display crude birth rates for first 10 countries and regions in alphabetical order. We observe that United Arab Emirates, Antigua and Barbuda and Australia have no missing data points for from 1960 to 1980.
 
-[Pandas](https://pandas.pydata.org/) is an open source Python package that data scientists use for data analysis and machine learning tasks. It is built on top of package d Numpy. Numpy is one of the most commonly used packages for scientific computing in Python. It provides a multi-dimensional array object, as well as variations such as masks and matrices, which can be used for math operations.
+[Pandas](https://pandas.pydata.org/) is an open source Python package that data scientists use for data analysis and machine learning tasks. It is built on top of package named Numpy. Numpy is one of the most commonly used packages for scientific computing in Python. It provides a multi-dimensional array object, as well as variations such as masks and matrices, which can be used for math operations.
 
 Pandas is also supported by Dask, flexible open-source Python library for parallel computing.
 
@@ -58,15 +58,11 @@ Descriptive statistics includes the count of values, mean and standard deviation
 cols2skip <span style="color: #666666">=</span> [<span style="color: #40a070">1</span>,<span style="color: #40a070">2</span>,<span style="color: #40a070">3</span>]
 df <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>read_csv(<span style="color: #4070a0">&#39;file.csv&#39;</span>, skiprows<span style="color: #666666">=</span><span style="color: #40a070">3</span>, <span style="color: #666666">/</span>
  usecols<span style="color: #666666">=</span>[i <span style="color: #007020; font-weight: bold">for</span> i <span style="color: #007020; font-weight: bold">in</span> <span style="color: #007020">range</span>(<span style="color: #40a070">64</span>) <span style="color: #007020; font-weight: bold">if</span> i <span style="color: #007020; font-weight: bold">not</span> <span style="color: #007020; font-weight: bold">in</span> cols2skip], <span style="color: #666666">/</span>
- index_col<span style="color: #666666">=</span><span style="color: #4070a0">&#39;Country &#39;</span>)<span style="color: #666666">.</span>T
+ index_col<span style="color: #666666">=</span><span style="color: #4070a0">&#39;Country Name&#39;</span>)<span style="color: #666666">.</span>T
 df<span style="color: #666666">.</span>describe()
 </pre></div>
 
-<img
-        alt="panel data regression"
-        data-src="/images/posts/paneldata3.webp"
-        class="lazyload"
-/>
+![](/images/posts/paneldata3.webp)
 
 ## Panel data python with Pandas
 
@@ -82,11 +78,7 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-<img
-        alt="panel data regression"
-        data-src="/images/posts/paneldata4.webp"
-        class="lazyload"
-/>
+![](/images/posts/paneldata4.webp)
 
 ## Panel data python: data transformation
 
@@ -104,11 +96,7 @@ df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #6666
 df<span style="color: #666666">.</span>head()
 </pre></div>
 
-<img
-        alt="panel data regression : dspyt"
-        data-src="/images/posts/paneldata5.webp"
-        class="lazyload"
-/>
+![](/images/posts/paneldata5.webp)
 
 ## Panel data analysis
 
@@ -125,11 +113,7 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-<img
-        alt="panel data regression python"
-        data-src="/images/posts/paneldata6.webp"
-        class="lazyload"
-/>
+![](/images/posts/paneldata6.webp)
 
 ## References
 

@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
-import "lazysizes";
+//import "lazysizes";
 
 import Head from "next/head";
 import Image from "next/image";
@@ -37,7 +37,7 @@ export default function PostPage({
           </h1>
 
           <Image
-            className="lazyload rounded-lg"
+            className="rounded-lg"
             quality={25}
             src={cover_image}
             alt={title}
