@@ -36,7 +36,7 @@ export default function PostPage({
             </span>
           </h1>
 
-          <Image
+          <img
             className="rounded-lg"
             quality={25}
             src={cover_image}
