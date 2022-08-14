@@ -25,6 +25,13 @@ module.exports = {
         destination: "/easy-proxy-scraper-and-proxy-usage-in-python",
         permanent: true,
       },
+      {
+        source:
+          "/2021/05/27/panel-data-econometrics-an-introduction-with-an-example-in-python/",
+        destination:
+          "/panel-data-econometrics-an-introduction-with-an-example-in-python/",
+        permanent: true,
+      },
     ];
   },
 };
