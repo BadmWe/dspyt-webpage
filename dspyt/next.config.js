@@ -20,6 +20,11 @@ module.exports = {
         destination: "/simple-telegram-bot-in-python-hosted-easily-on-heroku",
         permanent: true,
       },
+      {
+        source: "/2021/07/11/easy-proxy-scraper-and-proxy-usage-in-python",
+        destination: "/easy-proxy-scraper-and-proxy-usage-in-python",
+        permanent: true,
+      },
     ];
   },
 };
