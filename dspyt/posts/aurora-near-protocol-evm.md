@@ -1,18 +1,18 @@
 ---
 title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
-excerpt: ""
+excerpt: "The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users."
 cover_image: "/images/posts/aurora/aurora.webp"
 time_read: "5 min"
 ---
 
-Blockchain technology is one of the most exuberant technologies at the moment.However, it can be very complicated, with technical challenges at every stage. The opportunity now is to bridge the innovative world of Web 3.0 with the convenience and familiarity of Web 2.0, in order to make it more widely adopted.
+Blockchain technology is one of the most exuberant technologies at the moment. However, it can be very complicated with technical challenges at every stage. The opportunity now is to bridge the innovative world of Web 3.0 with the convenience and familiarity of Web 2.0, in order to make it more widely adopted.
 
 Web 3 is exponentially growing, which is why developers build Layer 2 networks. They offload execution of programmable smart contracts from the Ethereum base layer to improve speed and reduce transaction costs.
 
 ## Aurora Overview
 
-The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The product delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.
+The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.
 
 Aurora is a layer 2 solution on top of the NEAR Protocol, which is a sharded proof-of-stake blockchain. This allows the creation of a highly scalable and fault-tolerant network that can be used for a variety of applications, as well as being compatible with the Ethereum Virtual Machine.
 
