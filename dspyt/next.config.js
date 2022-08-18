@@ -32,6 +32,11 @@ module.exports = {
           "/panel-data-econometrics-an-introduction-with-an-example-in-python/",
         permanent: true,
       },
+      {
+        source: "/2021/06/06/time-series-data-an-easy-introduction",
+        destination: "/time-series-data-an-easy-introduction",
+        permanent: true,
+      },
     ];
   },
 };

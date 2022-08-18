@@ -5,7 +5,7 @@ import { marked } from "marked";
 //import "lazysizes";
 
 import Head from "next/head";
-import Image from "next/image";
+//import Image from "next/image";
 
 export const config = {
   unstable_runtimeJS: false,
@@ -51,6 +51,8 @@ export default function PostPage({
     </>
   );
 }
+
+// Add Recent/Popular posts section
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("posts"));
