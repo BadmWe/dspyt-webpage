@@ -2,10 +2,8 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
-//import "lazysizes";
 
 import Head from "next/head";
-//import Image from "next/image";
 
 export const config = {
   unstable_runtimeJS: false,
