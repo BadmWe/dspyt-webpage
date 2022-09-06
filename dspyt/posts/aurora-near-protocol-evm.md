@@ -1,7 +1,7 @@
 ---
 title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
-excerpt: "Aurora delivers a solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
+excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
 cover_image: "/images/posts/aurora/aurora.webp"
 time_read: "5 min"
 ---
@@ -83,5 +83,5 @@ Aurora is a layer 2 solution that is built on top of the NEAR Protocol. It is co
 - [Auora New Engine](https://aurora.dev/blog/aurora-engine-2-4-0-release)
 - [Aurora Rainbow Bridge Anniversary](https://aurora.dev/blog/rainbow-bridge-1-year-anniversary)
 - [Rainbow Bridge](https://rainbowbridge.app/about)
-- [Consensus : Web3 Report Q3 2021](https://consensys.net/reports/web3-report-q3-2021/)
+- [Consensus: Web3 Report Q3 2021](https://consensys.net/reports/web3-report-q3-2021/)
 - [Bastion Protocol on Aurora](https://aurora.dev/ecosystem/bastion-protocol)

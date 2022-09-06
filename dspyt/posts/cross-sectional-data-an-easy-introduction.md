@@ -6,7 +6,7 @@ cover_image: "/images/posts/cross/image.png"
 time_read: "5 min"
 ---
 
-Econometric data sets come in numerous shapes, forms and types such as cross-sectional, [time-series](https://dspyt.com/2021/06/06/time-series-data-an-easy-introduction) and [panel data](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python). The data type affects the analysis and estimation methods that we as data scientists can use. In this article we are introducing the concept of cross-sectional data.
+Econometric data sets come in numerous shapes, forms and types such as cross-sectional, [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and [panel data](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python). The data type affects the analysis and estimation methods that we as data scientists can use. In this article we are introducing the concept of cross-sectional data.
 
 A cross-sectional data set consists of a sample of units such as individuals, households, firms, cities, states, countries at a given point in time. Sometimes, the data on all units does not correspond to the same time period. For example, researchers may conduct a survey during different weeks within a year on the number and characteristics of housing units as well as the households that occupy those units.
 

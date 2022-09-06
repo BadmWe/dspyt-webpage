@@ -14,7 +14,7 @@ On April 28 2021 the game has made a significant update introducing Ronin Bridge
 
 The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar prooduct on the exchange.
 
-![](/images/posts/parsiq/140820286-7b9a6fd7-2635-4095-9783-1931f02ea1ac.png)
+![AXS APY Binance](/images/posts/parsiq/140820286-7b9a6fd7-2635-4095-9783-1931f02ea1ac.png)
 
 In order to justify such returns the company would usually rely on large inflows and minor outflows from the cryptocurrency. Therefore, monitoring the most liquid day-to-day endpoints provides an indicator of the success of the staking solution.
 
