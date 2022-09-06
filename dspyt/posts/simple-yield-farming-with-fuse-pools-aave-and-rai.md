@@ -1,7 +1,7 @@
 ---
 title: "How to Yield Farm with Fuse Pools, Aave and RAI"
 date: "March 4, 2021"
-excerpt: "Simple Yield Farming Guide with Fuse Pools, Aave and RAI"
+excerpt: "Simple Yield Farming Guide with Fuse, Aave and RAI. Fuse - interest rate protocol that allows users to lend and borrow digital assets."
 cover_image: "/images/posts/reflexer/aave.jpg"
 time_read: "5 min"
 ---
@@ -85,3 +85,5 @@ The amount of flexibility and customization that Fuse protocol provides is treme
 - [Guide to Rari Capital Fuse](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
 - [Maximizing LP fees for RAI pools for advanced users](https://dspyt.com/maximizing-lp-fees-for-rai-pools-for-advanced-users)
 - [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards)
+- [How to Python jail escape (Newbie CTF 2019)](https://dspyt.com/how-to-python-jail-escape-newbie-ctf-2019)
+- [Parsiq Triggers for Axie Infinity](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity)

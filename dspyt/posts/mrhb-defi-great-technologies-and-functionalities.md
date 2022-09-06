@@ -1,7 +1,7 @@
 ---
 title: "Guide to Marhaba Decentralized Financial Platform"
 date: "March 3, 2021"
-excerpt: "Marhaba Decentralized Financial Platform is an ethical DeFi platform."
+excerpt: "Marhaba Decentralized Financial Platform is an ethical platform that targets an unmet demand of Muslims."
 cover_image: "/images/posts/mrhb/mrhb.jpg"
 time_read: "5 min"
 ---
@@ -36,3 +36,5 @@ The financing products comply with Shariah principles. The investment instrument
 
 - [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)
 - [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Simple and easy heroku telegram bot in Python](https://dspyt.com/simple-telegram-bot-in-python-hosted-easily-on-heroku)

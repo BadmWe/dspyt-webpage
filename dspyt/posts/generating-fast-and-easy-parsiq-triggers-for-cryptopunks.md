@@ -102,3 +102,11 @@ We also configured three separate Google Sheet spreadsheets that serve as real t
 Further we suggest to utilize the data for a more comprehensive analysis with parsiq.
 
 [GitHub repository for PARSIQ CryptoPunks Offers and Bids Tracking Dashboard](https://github.com/dspytdao/PARSIQ-CryptoPunks)
+
+## Related Posts
+
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
+- [Guide to Marhaba Decentralized Financial Platform](https://dspyt.com/mrhb-defi-great-technologies-and-functionalities)

@@ -16,7 +16,7 @@ export default function Home({ posts }) {
         <title>Data Science with Python | DSPYT</title>
         <meta
           name="description"
-          content="Data Science and blockchain DAO. We cover econometrics, python programming and many more topics."
+          content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
         <meta property="og:image" content="/DSPYT.png" />
         <link rel="icon" href="big-data-svgrepo.svg" />

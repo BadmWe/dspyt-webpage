@@ -78,7 +78,7 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-![](/images/posts/paneldata4.webp)
+![Panel data python with Pandas](/images/posts/paneldata4.webp)
 
 ## Panel data python: data transformation
 
@@ -122,3 +122,11 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 - Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
 - [Kaggle notebook](https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis)
+
+## Related Posts
+
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)

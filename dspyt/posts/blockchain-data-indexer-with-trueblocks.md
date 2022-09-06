@@ -16,7 +16,7 @@ For example, the transaction data in a Bitcoin Block contains information about 
 
 A blockchain database utilizes blockchain technology to create an immutable ledger of transactions. The first block in the chain is called the Genesis block. As each new block or transaction is recorded, it is added to the previous one to form a chain of data records or a blockchain. As a result, a blockchain contains every transaction recorded since the ledger was started. Blockchain data in a crypto space tends to be represented as a Merkle tree.
 
-![](/images/posts/trueblocks/R2H51P1-768x489.png)
+![Simple Blockchain data indexing with TrueBlocks](/images/posts/trueblocks/R2H51P1-768x489.png)
 
 ## Data Storage
 

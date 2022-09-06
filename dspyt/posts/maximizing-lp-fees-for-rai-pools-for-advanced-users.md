@@ -81,3 +81,13 @@ Following our investigation we enter the numbers as on the picture to maximize L
 In this article we provided an advanced guide to maximization of the fees for liquidity providers. We analyzed Uniswap available liquidity pair and ranked them based on LTV, 7 day volume and commission. Besides, we described opportunities to obtain RAI for the liquidity pair. Finally, we illustrated how to enter into optimal range on Uniswap, according to reflex.finance mechanics.
 
 Additionally, it is interesting to note that IDLE best yield statistic on RAI shows that historically to get the best rewards from RAI would be best to use AAVE with StkAAVE.
+
+## Related Posts
+
+- [Simple Yield Farming with Fuse Pools, AAVE and RAI](https://dspyt.com/simple-yield-farming-with-fuse-pools-aave-and-rai)
+- [Fuse explained](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)
+- [Guide to Rari Capital Fuse](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
+- [Maximizing LP fees for RAI pools for advanced users](https://dspyt.com/maximizing-lp-fees-for-rai-pools-for-advanced-users)
+- [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards)
+- [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)
+- [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)

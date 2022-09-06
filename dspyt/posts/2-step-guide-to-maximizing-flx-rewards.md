@@ -1,7 +1,7 @@
 ---
 title: "2 Step Guide to Maximizing FLX rewards on Reflexer Finance"
 date: "March 6, 2021"
-excerpt: "RAI is a stablecoin reminiscent of the early version of Single Collateral DAI."
+excerpt: "RAI is a stablecoin reminiscent of the early version of Single Collateral DAI. It is solely backed by ETH."
 cover_image: "/images/posts/reflexer/reflexer.webp"
 time_read: "5 min"
 ---
@@ -64,3 +64,13 @@ To maximize FLX rewards you need to stake all the borrowed RAI tokens on [Uniswa
 ## Conclusion
 
 We have provided a simple guide to move around the Reflexer finance system in 2 steps to maximize FLX using RAI/ETH Liquidity Pool on Uniswap v2 and RAI minting.
+
+## Related Posts
+
+- [Simple Yield Farming with Fuse Pools, AAVE and RAI](https://dspyt.com/simple-yield-farming-with-fuse-pools-aave-and-rai)
+- [Fuse explained](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)
+- [Guide to Rari Capital Fuse](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
+- [Maximizing LP fees for RAI pools for advanced users](https://dspyt.com/maximizing-lp-fees-for-rai-pools-for-advanced-users)
+- [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards)
+- [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)
+- [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)

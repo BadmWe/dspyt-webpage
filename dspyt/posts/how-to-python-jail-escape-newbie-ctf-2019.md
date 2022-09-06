@@ -8,7 +8,7 @@ time_read: "5 min"
 
 Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. It is generally a bad idea to allow users to input commands that will be executed, since there is a high chance that they could input something that would allow them to gain elevated permissions or access sensitive data. However, people often add condition checks in an attempt to prevent this from happening, even though it is rarely effective.
 
-![](/images/posts/jailescape/image-2.webp)
+![Python jail Escape](/images/posts/jailescape/image-2.webp)
 
 ## Python Jail escape: Code
 

@@ -35,3 +35,12 @@ Different variables sometimes correspond to different time periods in cross-sect
 ![Melbourne Housing Snapshot data set](/images/posts/cross/image-2-1024x327.png)
 
 The variable Price is a price in dollars which is the target of our study. The fact that prices correspond to different dates, does not lead to any special problems in treating this information as a cross-sectional data set. The creators of the data set ordered the observations alphabetically by suburb, but such ordering does not affect further analysis.
+
+## Related Posts
+
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)

@@ -55,15 +55,15 @@ Apart from collecting the data from the transaction we collect data using Chainl
 
 ## User Data
 
-Primitives :
+Primitives:
 
-![](/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
+![Parsiq Primitives](/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
 
 Table :
 
-![](/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.png)
+![Parsiq Table](/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.png)
 
-![](/images/posts/parsiq/140822678-717d0201-4b88-4ba4-9dd6-378ff47500cf.png)
+![Parsiq Table 2](/images/posts/parsiq/140822678-717d0201-4b88-4ba4-9dd6-378ff47500cf.png)
 
 ## Analysis
 
@@ -71,31 +71,31 @@ Table :
 
 There are 231 AXS token transactions in our ethereum dataset. Only 46 are from Ronin and Binance accounts.
 
-![](/images/posts/parsiq/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
+![AXS transactions accounts](/images/posts/parsiq/140833808-441336cc-4383-43b4-a40c-067279d44e0a.png)
 
-Meanwhile, the rest 80% are coming to the Ronin and Binance accounts.
+Meanwhile, the rest 80% are coming to Ronin and Binance accounts.
 
-![](/images/posts/parsiq/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.png)
+![Ronin and Binance accounts](/images/posts/parsiq/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.png)
 
 There are also more transactions to the native staking solution rather than Binance by a factor of 2. Nevertheless, when we analyze the volume of outflows vs. inflows the sum of outflows dominate.
 
-![](/images/posts/parsiq/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.png)
+![the volume of outflows vs. inflows](/images/posts/parsiq/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.png)
 
 This would indicate more incoming users and one or few significant withdrawals from Binance. We look at the more granular data and notice that one account is responsible for such bleak snapshot of AXS flows.
 
-![](/images/posts/parsiq/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.png)
+![snapshot of AXS flows](/images/posts/parsiq/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.png)
 
 Furthermore, we plot full ethereum dataset value of transactions against time. When plotted the inflows have a lot of spikes and more numerous for Binance.
 
-![](/images/posts/parsiq/140849815-79710dd7-80db-4ae8-8070-70d36c1cf141.png)
+![snapshot of AXS flows](/images/posts/parsiq/140849815-79710dd7-80db-4ae8-8070-70d36c1cf141.png)
 
 While the outflows are more steady.
 
-![](/images/posts/parsiq/140850027-cab9d8b4-02cb-4f46-af99-ffdc9ac723f8.png)
+![outflows data](/images/posts/parsiq/140850027-cab9d8b4-02cb-4f46-af99-ffdc9ac723f8.png)
 
 This picture is very similar for only AXS. With two spikes in Binance outflows against 0 in Ronin Bridge.
 
-![](/images/posts/parsiq/140851348-01692e99-9051-4da4-aa0a-de281140f1d5.png)
+![Ronin Bridge](/images/posts/parsiq/140851348-01692e99-9051-4da4-aa0a-de281140f1d5.png)
 
 We would need to further incorporate more data in our analysis to determine the scope of weekly and monthly flows in AXS token.
 
@@ -103,17 +103,17 @@ We would need to further incorporate more data in our analysis to determine the 
 
 In our BSC dataset we have 157 observations. The count of transactions is in favour of outflows from Binance Hot Wallets.
 
-![](/images/posts/parsiq/140844882-8a1650fc-ebbf-4913-9605-426e091543fb.png)
+![Binance Dataset](/images/posts/parsiq/140844882-8a1650fc-ebbf-4913-9605-426e091543fb.png)
 
 Whereas the sum of transferred AXS value out of Binance is nearly identical to the inflows.
 
-![](/images/posts/parsiq/140845336-028a5cb7-c38a-483e-9b4b-5ace63128f93.png)
+![AXS inflows Binance](/images/posts/parsiq/140845336-028a5cb7-c38a-483e-9b4b-5ace63128f93.png)
 
 ## Comparison of AXS on BSC and Ethereum
 
 The volume of transactions is much greater on Ethereum of AXS than on Binance Smart Chain.
 
-![](/images/posts/parsiq/140845836-17679545-5f28-4065-bd0f-1597593be00f.png)
+![The volume of transactions](/images/posts/parsiq/140845836-17679545-5f28-4065-bd0f-1597593be00f.png)
 
 ## Score of the addresses (in-built PARSIQ function)
 

@@ -1,5 +1,5 @@
 ---
-title: "A How to EfficientNet Classification"
+title: "A How to EfficientNet Keras Classification"
 date: "April 29, 2022"
 excerpt: "We discuss Convolutional Neural Networks, data augmentation, Efficientnet classification and how to achieve 100% accuracy."
 cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.jpg"
@@ -8,7 +8,7 @@ time_read: "5 min"
 
 Humans unlike computers make sense of what we see based on our experiences, memories and biological structure. Human brain extracts and analyses humongous volumes of data using visual cues. To understand the true effect of sight, 40% of our nerve fibers are linked to the retina, and 90% of information transmitted to the brain is visual. In fact, research at 3M Corporation concluded that we process visuals 60,000 times faster than text.
 
-![](/images/posts/efficientnet/pexels-pixabay-35550-2.jpg)
+![EfficientNet Keras](/images/posts/efficientnet/pexels-pixabay-35550-2.jpg)
 
 ## Computer Vision Tasks with efficientnet classification
 
@@ -16,7 +16,7 @@ To begin with, image classification is a fundamental task that assesses an entir
 
 Furthermore, the more advanced task of separating pixels in an image to a particular object or class requires computer vision techniques and methods. Data scientists and computer vision specialists refer to such task as a semantic segmentation or a dense prediction. Semantic segmentation is particularly a popular term in autonomous vehicles such as cars, drones and planes, in addition to medical image diagnosis. An example of Deep Learning based Semantic Segmentation | Keras on Kaggle.
 
-![](/images/posts/efficientnet/image.png)
+![Computer Vision Tasks with efficientnet classification](/images/posts/efficientnet/image.png)
 
 In this post we will discuss Convolutional Neural Networks, data augmentation, EfficientNet and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets.
 
@@ -154,7 +154,7 @@ model<span style="color: #666666">.</span>summary()
 
 Finally, we combine the augmentation pipeline, the data generator and our model to estimate the class of the image. On the fourth epoch the model reaches 100%. On the withheld dataset the model generated comparable 99.6%.
 
-![](/images/posts/efficientnet/image-1-1024x344.png)
+![EfficientNet Ketas training results](/images/posts/efficientnet/image-1-1024x344.png)
 
 ## References and Useful Links
 
