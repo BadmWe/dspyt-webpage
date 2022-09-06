@@ -1,7 +1,7 @@
 ---
 title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
-excerpt: "The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users."
+excerpt: "Aurora delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users."
 cover_image: "/images/posts/aurora/aurora.webp"
 time_read: "5 min"
 ---
