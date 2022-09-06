@@ -1,7 +1,7 @@
 ---
 title: "Improving Blockchain Credibility with UMA"
 date: "March 2, 2021"
-excerpt: "a coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential to increase its focus and reputation."
+excerpt: "oordination tool that brings the community together and outlines the roadmap for the project development has immediate potential"
 cover_image: "/images/posts/uma/uma.webp"
 time_read: "5 min"
 ---
@@ -37,3 +37,11 @@ To conclude, our proposal and the design of The Long Short Pair (LSP) template r
 2. Once these proposals are approved through UMA governance, you can launch your expiring KPI Options contract! This can be done in a few minutes by following the LSP deployment tutorial.
 3. After your expiring contract has been launched, you will be able to mint KPI tokens by locking collateral in the contract. Once minted, you can airdrop these KPI tokens in whatever manner and to whoever you wish.
 4. Upon contract expiry, the KPI Options will be redeemable for an amount determined by your KPI’s progress. Alternatively, your project could decide to “roll over” into new KPI options to attempt to compound your KPI’s growth
+
+## Related Posts
+
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
+- [Guide to Marhaba Decentralized Financial Platform](https://dspyt.com/mrhb-defi-great-technologies-and-functionalities)

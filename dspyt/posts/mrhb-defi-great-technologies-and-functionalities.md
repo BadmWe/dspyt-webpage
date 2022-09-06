@@ -14,13 +14,13 @@ The smart contracts are the backbone of the MRHB platform that are set to enforc
 
 Marhaba Decentralized Financial Platform is built on the Binance Smart Chain whcih greatly reduces costs of transactions and improves overall efficiency. The core services that MRHB provides are Saha walllet, Souq NFT and Liquidity Harvester, among others.
 
-# Sahal Wallet
+## Sahal Wallet
 
 One of the core features of MDFP is a Shariah compliant digital wallet, Sahal wallet. It is a non-custodial wallet which filters Shariah-screened tokens and has internal storage for NFTs. The wallet encompasses Shariah-governed DeFi functionalities to enable users to participate in charity and Zakat using web3.
 
 Sahal Wallet, is integrated into MRHB’s Shariah filtering technology that allows only compliant tokens to be stored, transacted, and managed by the user. The wallet serves as the gateway to the entire MRHB DeFi ecosystem where users interact with any ecosystem products within Sahal.
 
-# Souq NFT
+## Souq NFT
 
 Another great feature implemented on the platform is MRHB DeFi’s cross-chain “no-code” marketplace to encourage and promote Shariah compliant arts such as Islamic Arts and contemporary Calligraphy. An artist will have an option to create & upload an artwork with a click of a button and a couple of seconds.
 
@@ -31,3 +31,7 @@ Finally, the platform implements cross-chain passive income generator available 
 Liquidity Harvester is similar to a traditional Saving Accounts. Liquidity Harvester allows users to deposit and move their funds across the ecosystem and exploit the best investment opportunities.
 
 The financing products comply with Shariah principles. The investment instruments take the form of yield maximizing pools with each following different strategies. Some pools primarily focus on developing apps while others gain exposure to Shariah compliant established ERC-20 tokens in the DeFi space.
+
+## Related Posts
+
+- [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)

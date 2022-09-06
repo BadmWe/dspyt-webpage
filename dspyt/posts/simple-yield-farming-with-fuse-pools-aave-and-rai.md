@@ -84,4 +84,4 @@ The amount of flexibility and customization that Fuse protocol provides is treme
 - [Fuse explained](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)
 - [Guide to Rari Capital Fuse](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
 - [Maximizing LP fees for RAI pools for advanced users](https://dspyt.com/maximizing-lp-fees-for-rai-pools-for-advanced-users)
-- [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards()
+- [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards)
