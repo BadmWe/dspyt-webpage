@@ -64,8 +64,10 @@ TrueBlocks produces index data and publishes it at near-zero cost, effectively s
 
 Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/grants/184/trueblocks).
 
-## Further Resources
+## Related Posts
 
-- https://trueblocks.io/papers/
-- https://trueblocks.io/blog/
-- https://trueblocks.io/docs/
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)

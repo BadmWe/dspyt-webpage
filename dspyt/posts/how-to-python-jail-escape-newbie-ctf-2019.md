@@ -80,3 +80,11 @@ We could also encode the strings to display the hidden key:
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #c65d09; font-weight: bold">&gt;&gt;&gt; </span><span style="color: #007020; font-weight: bold">print</span>(<span style="color: #007020">getattr</span>(<span style="color: #007020">getattr</span>(<span style="color: #007020">getattr</span>(main, <span style="border: 1px solid #FF0000">‘</span>__globals__<span style="border: 1px solid #FF0000">’</span>)[<span style="border: 1px solid #FF0000">‘</span>__builtins__<span style="border: 1px solid #FF0000">’</span>], <span style="border: 1px solid #FF0000">‘</span>\x6f\x70\x65\x6e<span style="border: 1px solid #FF0000">’</span>)(<span style="border: 1px solid #FF0000">‘</span><span style="color: #666666">/</span>home<span style="color: #666666">/</span>python_jail<span style="color: #666666">/</span>flag<span style="border: 1px solid #FF0000">’</span>, <span style="border: 1px solid #FF0000">‘</span>rb<span style="border: 1px solid #FF0000">’</span>), <span style="border: 1px solid #FF0000">‘</span>\x72\x65\x61\x64<span style="border: 1px solid #FF0000">’</span>)())
 <span style="color: #888888">b’\xef\xbb\xbfKorNewbie{H311o_h0w_@r3_y0u_d0lng?}</span>
 </pre></div>
+
+## Related Posts
+
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
+- [Guide to Marhaba Decentralized Financial Platform](https://dspyt.com/mrhb-defi-great-technologies-and-functionalities)

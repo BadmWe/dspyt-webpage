@@ -74,3 +74,5 @@ You can access the data and code on [Kaggle](https://www.kaggle.com/pavfedotov/t
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
 - [Parsiq Triggers for Axie Infinity](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)

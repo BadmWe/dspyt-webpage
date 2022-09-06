@@ -35,3 +35,4 @@ The financing products comply with Shariah principles. The investment instrument
 ## Related Posts
 
 - [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)
+- [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)

@@ -64,3 +64,12 @@ Finally, we can explicitly separate quadratic variation into continuous and jump
 ## References
 
 Corsi, Fulvio & Mittnik, Stefan & Pigorsch, Christian & Pigorsch, Uta. (2008). [The Volatility of Realized Volatility. Econometric Reviews](https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility). 27. 46-78.
+
+## Related Posts
+
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)
