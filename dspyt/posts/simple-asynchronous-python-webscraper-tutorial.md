@@ -12,7 +12,7 @@ Many programming languages have an asynchronous (async) feature that improves th
 
 In short, a synchronous program works one step at a time. Meanwhile, an asynchronous program does not necessarily wait for a completion of a step before moving on to future steps. It is a smart way to efficiently handle tasks like network or input/output, especially when most of the time we wait for a time-consuming task to finish.
 
-In this post, we introduce the concepts of async & await and illustrate how we can use them in Python. This capability is relatively recent in Python 3, and many users might not be familiar with it. Besides, we also improve the vacancy scraper by adding coroutines with async and await syntax. Finally, we demonstrate how to use proxies with an asynchronous http client in Python and extend [proxy tutorial](https://dspyt.com/easy-proxy-scraper-and-proxy-usage-in-python/) where we obtain proxies
+In this post, we introduce the concepts of async & await and illustrate how we can use them in Python. This capability is relatively recent in Python 3, and many users might not be familiar with it. Besides, we also improve the vacancy scraper by adding coroutines with async and await syntax. Finally, we demonstrate how to use proxies with an asynchronous http client in Python and extend [proxy tutorial](https://dspyt.com/easy-proxy-scraper-and-proxy-usage-in-python) where we obtain proxies
 
 ## Synchronous vs. Asynchronous Python
 

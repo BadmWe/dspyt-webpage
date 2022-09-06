@@ -6,7 +6,7 @@ cover_image: "/images/posts/temperature/pexels-tom-fisk-6060188-scaled-e16293007
 time_read: "5 min"
 ---
 
-This post is a write up on machine learning time series python using traditional and established libraries like numpy, pandas, scipy and sklearn. In this post we are making a model for time-series data which we introduced in article [Kaggle time series data – An easy introduction](https://dspyt.com/time-series-data-an-easy-introduction/).
+This post is a write up on machine learning time series python using traditional and established libraries like numpy, pandas, scipy and sklearn. In this post we are making a model for time-series data which we introduced in article [Kaggle time series data – An easy introduction](https://dspyt.com/time-series-data-an-easy-introduction).
 
 We base the post om our experience gained in machine learning competition [Pressure predictor](https://unearthed.solutions/u/competitions/pressure-predictor) for Australian based platform Unearthed,dspyt team took 11th place out of 55 competitors on a private leaderboard. The company is very strict about the data and code that they provided. You can try the platform in Evergreen Challenges: [Exploration Data Science](https://unearthed.solutions/u/competitions/evergreen/exploration-data-science) and [HYDROSAVER](https://unearthed.solutions/u/competitions/evergreen/hydrosaver).
 
