@@ -7,7 +7,7 @@ const nextConfig = {
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-module.exports = withBundleAnalyzer({});
+module.exports = withBundleAnalyzer({ nextConfig });
 
 module.exports = nextConfig;
 
@@ -35,6 +35,11 @@ module.exports = {
       {
         source: "/2021/06/06/time-series-data-an-easy-introduction",
         destination: "/time-series-data-an-easy-introduction",
+        permanent: true,
+      },
+      {
+        source: "/simple-image-classification-with-efficientnet",
+        destination: "/efficientnet-classification",
         permanent: true,
       },
     ];
