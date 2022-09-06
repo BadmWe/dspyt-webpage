@@ -67,3 +67,10 @@ Clearly there is evidence for time-dependence and serial correlation. Hence, we 
 The plot of log-returns exhibits a constant mean, variance and auto-correlation function.
 
 You can access the data and code on [Kaggle](https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf).
+
+## Related Posts
+
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [Parsiq Triggers for Axie Infinity](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity)

@@ -78,7 +78,7 @@ You could further diversify your exposure or increase risk by depositing tokens 
 
 The amount of flexibility and customization that Fuse protocol provides is tremendous. In this article we illustrated only 3 strategies that interacted with Uniswap and Aave that ranged in potential APY from 10 to 25%. To better accommodate your risk appetite we advise to conduct your own research to better mix and match Fuse protocols with available decentralized exchanges tools.
 
-### Similar Posts
+## Related Posts
 
 - [Simple Yield Farming with Fuse Pools, AAVE and RAI](https://dspyt.com/simple-yield-farming-with-fuse-pools-aave-and-rai)
 - [Fuse explained](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)

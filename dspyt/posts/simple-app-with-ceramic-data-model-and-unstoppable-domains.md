@@ -83,3 +83,9 @@ In <code>DataModels.js</code> we define the determenistic Ceramic tiles where th
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FCeramic_Unstoppable%2Fblob%2Fmain%2FUnstoppable_Ceramic%2Fsrc%2FDataModels.js&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 
 ![Ceramic Unstoppable Domains skills page](/images/posts/ceramic/qyg4dep.jpg)
+
+## Related Posts
+
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)

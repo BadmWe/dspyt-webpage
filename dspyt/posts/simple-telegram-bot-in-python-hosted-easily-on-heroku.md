@@ -70,3 +70,9 @@ git push heroku master
 </pre></div>
 
 [The GitHub library for the bot](https://github.com/dspytdao/Telegram_bot_py_heroku)
+
+## Related Posts
+
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
