@@ -1,1 +1,1 @@
-# dspyt-web
+# dspyt
