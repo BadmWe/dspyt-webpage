@@ -18,8 +18,10 @@ export default function PostPage({
     <>
       <Head>
         <title>{title}</title>
-        <meta property="og:image" content={cover_image} />
         <link rel="icon" href="/big-data-svgrepo.svg" />
+        <meta property="og:image" content={cover_image} />
+        <meta property="og:title" content={title} />
+        <meta property="og:type" content="article" />
         <meta name="description" content={excerpt} />
       </Head>
 
