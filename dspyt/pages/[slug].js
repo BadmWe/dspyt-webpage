@@ -11,7 +11,7 @@ export const config = {
 
 export default function PostPage({
   frontmatter: { title, excerpt, cover_image },
-  //slug,
+  slug,
   content,
 }) {
   return (
@@ -19,10 +19,14 @@ export default function PostPage({
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/big-data-svgrepo.svg" />
-        <meta property="og:image" content={cover_image} />
+        <meta name="description" content={excerpt} />
         <meta property="og:title" content={title} />
         <meta property="og:type" content="article" />
-        <meta name="description" content={excerpt} />
+        <meta
+          property="og:image"
+          content={"https://dspyt.com/" + cover_image}
+        />
+        <meta property="og:url" content={"https://dspyt.com/" + slug} />
       </Head>
 
       <div className="relative px-4 sm:px-6 lg:px-8 mt-10">
@@ -80,7 +84,7 @@ export async function getStaticProps({ params: { slug } }) {
   return {
     props: {
       frontmatter,
-      //slug,
+      slug,
       content,
     },
   };

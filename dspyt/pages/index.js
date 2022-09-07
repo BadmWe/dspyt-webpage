@@ -14,12 +14,15 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Data Science with Python | DSPYT</title>
+        <link rel="icon" href="big-data-svgrepo.svg" />
         <meta
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
-        <meta property="og:image" content="/DSPYT.png" />
-        <link rel="icon" href="big-data-svgrepo.svg" />
+        <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
+        <meta property="og:url" content="https://dspyt.com" />
+        <meta property="og:title" content="Data Science with Python | DSPYT" />
+        <meta property="og:type" content="website" />
       </Head>
       <div className="relative">
         <Hero />
