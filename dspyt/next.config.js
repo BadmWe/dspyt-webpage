@@ -42,6 +42,16 @@ module.exports = {
         destination: "/efficientnet-classification",
         permanent: true,
       },
+      {
+        source: "/page/3/",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/author/fedotovn19/page/3/",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };
