@@ -3,9 +3,10 @@ import path from "path";
 import { useState } from "react";
 import Head from "next/head";
 import matter from "gray-matter";
-import Post from "../components/Post";
-import Hero from "../components/Hero";
-import { sortByDate } from "../utils";
+
+import Post from "@/components/Post";
+import Hero from "@/components/Hero";
+import { sortByDate } from "@/utils/index";
 
 export default function Home({ posts }) {
   const [cnt, setCnt] = useState(0);

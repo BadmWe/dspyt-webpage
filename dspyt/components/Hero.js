@@ -1,9 +1,9 @@
 import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
 import { Web3Storage } from "web3.storage";
-
 import Image from "next/image";
-import HeroImage from "../public/screen.webp";
+
+import HeroImage from "@/public/screen.webp";
 
 const token = process.env.NEXT_PUBLIC_TOKEN;
 
