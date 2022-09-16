@@ -59,7 +59,7 @@ Primitives:
 
 ![Parsiq Primitives](/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
 
-Table :
+Table:
 
 ![Parsiq Table](/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.png)
 

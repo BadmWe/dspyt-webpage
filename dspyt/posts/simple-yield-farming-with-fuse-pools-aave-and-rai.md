@@ -2,7 +2,7 @@
 title: "How to Yield Farm with Fuse Pools, Aave and RAI"
 date: "March 4, 2021"
 excerpt: "Simple Yield Farming Guide with Fuse, Aave and RAI. Fuse - interest rate protocol that allows users to lend and borrow digital assets."
-cover_image: "/images/posts/reflexer/aave.jpg"
+cover_image: "/images/posts/reflexer/aave.webp"
 time_read: "5 min"
 ---
 

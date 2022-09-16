@@ -2,13 +2,13 @@
 title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "In this article, we are introducing the concept of a panel data and illustrate the example of panel data python on the WHO births data set."
-cover_image: "/images/posts/paneldata.webp"
+cover_image: "/images/posts/panel/paneldata.webp"
 time_read: "5 min"
 ---
 
 In this article we discuss panel data python as well as panel data regression python.
 
-Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in a panel data we take into account the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross-sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
+Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in a panel data we take into account the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
 
 <div style="position: relative; padding-bottom: 56.25%;">
 <iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -20,11 +20,11 @@ According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#pa
 
 Some experts refer to Pooled data as “time series of cross sections”, where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
 
-X{it}, where i runs from 1 to N and denotes the [cross-sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T and denotes the time of the observation.
+X{it}, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T and denotes the time of the observation.
 
 ## Advantages and Disadvantages of Panel data
 
-There are numerous benefits of panel data over [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) and time-series data:
+There are numerous benefits of panel data over [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) and time-series data:
 
 - In panel data multiple observations of the same entities allow us to control for unobserved characteristics.
 - Panel data facilitates causal inference which would be difficult with one cross-section or time-series data set.
@@ -34,7 +34,7 @@ Nevertheless, for a data scientist it might be difficult to obtain panel data si
 
 ## Types of Panel data
 
-We can consider panel data as balanced or unbalanced. If each [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit is observed in all time periods panel data is balanced. While an unbalanced data set is one where units are not observed in all time periods and contain missing values.
+We can consider panel data as balanced or unbalanced. If each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit is observed in all time periods panel data is balanced. While an unbalanced data set is one where units are not observed in all time periods and contain missing values.
 
 Econometricians also separate panel data into a wide or a long one. In a wide panel data a row or a column represents one observational unit for all points in time, while in a long panel data a row or a column holds one observation per period.
 
@@ -42,7 +42,7 @@ Econometricians also separate panel data into a wide or a long one. In a wide pa
 
 An example of a wide unbalanced panel data set is [World Health Organization crude birth rates data set available on Kaggle](https://www.kaggle.com/pavfedotov/birth-rate). For 10 of 239 countries and regions crude birth observations span 60 years from 1960 to 2019 while for others only a few periods. The large amount of missing values is likely due to the high administrative cost of collecting the necessary information.
 
-![WHO crude birth rates per 1000](/images/posts/paneldata2.webp)
+![WHO crude birth rates per 1000](/images/posts/panel/paneldata2.webp)
 
 In the table above, we display crude birth rates for first 10 countries and regions in alphabetical order. We observe that United Arab Emirates, Antigua and Barbuda and Australia have no missing data points for from 1960 to 1980.
 
@@ -62,7 +62,7 @@ df <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>
 df<span style="color: #666666">.</span>describe()
 </pre></div>
 
-![Panel Data Dspyt](/images/posts/paneldata3.webp)
+![Panel Data Dspyt](/images/posts/panel/paneldata3.webp)
 
 ## Panel data python with Pandas
 
@@ -78,7 +78,7 @@ df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</
 plt<span style="color: #666666">.</span>show()
 </pre></div>
 
-![Panel data python with Pandas](/images/posts/paneldata4.webp)
+![Panel data python with Pandas](/images/posts/panel/paneldata4.webp)
 
 ## Panel data python: data transformation
 
@@ -96,7 +96,7 @@ df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #6666
 df<span style="color: #666666">.</span>head()
 </pre></div>
 
-![Panel Data Dspyt](/images/posts/paneldata5.webp)
+![Panel Data Dspyt](/images/posts/panel/paneldata5.webp)
 
 ## Panel data analysis
 
@@ -113,7 +113,7 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-![Panel Data Python Dspyt](/images/posts/paneldata6.webp)
+![Panel Data Python Dspyt](/images/posts/panel/paneldata6.webp)
 
 ## References
 

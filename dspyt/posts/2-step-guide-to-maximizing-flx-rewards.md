@@ -10,7 +10,7 @@ RAI is a stablecoin reminiscent of the early version of Single Collateral Dai. I
 
 [The statistics for the protocol](https://oldstats.reflexer.finance/)
 
-![Reflexer statistics](/images/posts/reflexer/reflexerstats.png)
+![Reflexer statistics](/images/posts/reflexer/reflexerstats.webp)
 
 The key element of the system is the funding rate which is either positive or negative. A positive rate is akin to a stability fee, meaning that RAI borrowers pay a fee as their RAI debt increases in value. Whereas, a negative rate compels market participants to sell RAI as it is traded at a premium.
 
@@ -27,22 +27,22 @@ In this article we are going to explain how liquidity providers can maximize the
 To qualify for the rewards a user first and foremost should mint RAI on either [app.reflexer.finance](https://app.reflexer.finance) or [DeFi Saver](https://app.defisaver.com/reflexer/manage).
 On app.reflexer.finance the minimum amount of RAI per safe is 1704 which as of 18 November 2021 is $3.02. Hence, 1704 multiplied by $3 is around $5112, not accounting for transaction fees and creation of the account which costs $400.
 
-![Reflexer Create Safe](/images/posts/reflexer/reflexercreate.png)
+![Reflexer Create Safe](/images/posts/reflexer/reflexercreate.webp)
 
-![Reflexer Safe creation cost](/images/posts/reflexer/reflxer2.png)
+![Reflexer Safe creation cost](/images/posts/reflexer/reflxer2.webp)
 
 DeFi Saver has similar conditions but provides more intuitive dashboard:
 
-![DeFi Saver creation](/images/posts/reflexer/reflxer3.png)
+![DeFi Saver creation](/images/posts/reflexer/reflxer3.webp)
 
 To mint RAI you would require ETH collateral that would cover at minimum 135% of the borrowing amount. However, the minimum 135% is extremely risky since it would require only a small downward price movement to liquidate your position. The dashboard recommends covering your position by over than 185%.
 
-![Risk Level](/images/posts/reflexer/reflexer.png)
+![Risk Level](/images/posts/reflexer/reflexer.webp)
 
 For instance, if you borrow 5000 RAI at 186% collateral ratio you would require 6.5 ETH. The math is as following:
 The borrowing amount is equal to 5000 RAI or $15100. Hence, the required collateral is $15100 \* 186%= $28076 in ETH. At $4319.66 per ETH the required collateral is 6.5 ETH.
 
-![Collateral ETH for RAI](/images/posts/reflexer/reflexer5.png)
+![Collateral ETH for RAI](/images/posts/reflexer/reflexer5.webp)
 
 ## Step 2: provide liquidity
 
@@ -55,11 +55,11 @@ The highest available Annual Percentage Rate (APR) listed on Reflexer is RAI/ETH
 
 It is also notable that the 186% collateral ratio is estimated to bring higher APR than 34% at around 45% since the ratio is riskier and has less leeway for the price movement. At such APR the strategy is even higher than advertised 38% provided by FLX/[ETH Uniswap v2 stakers solution](https://docs.reflexer.finance/incentives/flx-staking).
 
-![Current RAI Incentives](/images/posts/reflexer/reflexer8.png)
+![Current RAI Incentives](/images/posts/reflexer/reflexer8.webp)
 
 To maximize FLX rewards you need to stake all the borrowed RAI tokens on [Uniswap v2 pool](https://app.uniswap.org/#/add/v2/ETH/0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919) and use the same address to mint and stake.
 
-![Uniswap v2 RAI ETH Pool](/images/posts/reflexer/reflexer10.png)
+![Uniswap v2 RAI ETH Pool](/images/posts/reflexer/reflexer10.webp)
 
 ## Conclusion
 
