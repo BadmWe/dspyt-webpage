@@ -3,10 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Head from "next/head";
-
-export const config = {
-  unstable_runtimeJS: false,
-};
+import Image from "next/image";
 
 export default function PostPage({
   frontmatter: { title, excerpt, cover_image },
@@ -39,7 +36,7 @@ export default function PostPage({
             </span>
           </h1>
 
-          <img
+          <Image
             className="mx-auto rounded-lg"
             quality={25}
             width={656}

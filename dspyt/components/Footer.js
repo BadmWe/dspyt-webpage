@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const navigation = [
   {
     name: "Twitter",
@@ -25,7 +27,7 @@ const navigation = [
     name: "Discord",
     href: "https://discord.gg/peRHyNZrss",
     icon: (props) => (
-      <img
+      <Image
         src="/discord-icon-svgrepo-com.svg"
         alt="Discord Logo"
         height="24"

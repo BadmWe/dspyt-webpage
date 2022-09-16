@@ -1,9 +1,8 @@
+import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-/* import Image from "next/image";
-
-import Logo from "../public/DSPYT.svg"; */
+import Logo from "@/public/DSPYT.svg";
 
 const navigation = [{ name: "Home", href: "/" }];
 
@@ -27,10 +26,10 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  <Image
                     height={32}
                     width={120}
-                    src="/DSPYT.svg"
+                    src={Logo}
                     alt="Dspyt : Data Science with Python"
                   />
                 </div>
