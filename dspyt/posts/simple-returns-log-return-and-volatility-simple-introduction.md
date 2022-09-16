@@ -16,11 +16,11 @@ To begin with, the key benefit of using financial returns instead of prices is n
 
 The simple return on an asset is the amount we receive or lose after holding an asset for a certain time frame.
 
-![log returns vs simple returns](https://latex.codecogs.com/svg.latex?%5C%20R_%7Bt%7D%3D%5Cdfrac%7BP_%7Bt%7D-P_%7Bt-1%7D%7D%7BP_%7Bt-1%7D%7D%3D%20%5Cdfrac%7BP_%7Bt%7D%7D%7BP_%7Bt-1%7D%7D-1)
+![simple returns formula](https://latex.codecogs.com/svg.latex?%5C%20R_%7Bt%7D%3D%5Cdfrac%7BP_%7Bt%7D-P_%7Bt-1%7D%7D%7BP_%7Bt-1%7D%7D%3D%20%5Cdfrac%7BP_%7Bt%7D%7D%7BP_%7Bt-1%7D%7D-1)
 
 Meanwhile we calculate log returns as
 
-![log returns vs simple returns](https://latex.codecogs.com/svg.latex?r_%7Bt%7D%3D%5Cdfrac%7Blog%28P_%7Bt%7D%29%7D%7Blog%28P_%7Bt-1%7D%29%7D%3D%20log%28P_%7Bt%7D%29%20-%20log%28P_%7Bt-1%7D%29)
+![log returns formula](https://latex.codecogs.com/svg.latex?r_%7Bt%7D%3D%5Cdfrac%7Blog%28P_%7Bt%7D%29%7D%7Blog%28P_%7Bt-1%7D%29%7D%3D%20log%28P_%7Bt%7D%29%20-%20log%28P_%7Bt-1%7D%29)
 
 where P is price of an asset and t is a time period.
 
@@ -46,7 +46,7 @@ Traders and data scientist use realized volatility to assess the predictive perf
 
 The formula for realized volatility:
 
-![](https://latex.codecogs.com/svg.latex?%5Csigma%20%3D%20%5Csqrt%7B%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2%7D)
+![formula for realized volatility](https://latex.codecogs.com/svg.latex?%5Csigma%20%3D%20%5Csqrt%7B%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2%7D)
 
 In Python we create a function that calculates realized volatility with the help of numpy functions <code>sqrt</code> and <code>sum</code> and pandas <code>groupby</code> and <code>agg</code>.
 
@@ -56,10 +56,16 @@ In Python we create a function that calculates realized volatility with the help
 
 Andersen and Bollerslev (1998) have suggested an ex-post intra-daily volatility measure based on the sum of the squared intra-day returns. This concept is now known as realized variance, and this is an ex-post observable measure.
 
-![](https://latex.codecogs.com/svg.latex?%5Csigma%5E2%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2)
+![Realized variance formula](https://latex.codecogs.com/svg.latex?%5Csigma%5E2%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2)
 
 <iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=16&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
 
 ## References
 
 <ul><li>Andersen, T. and Bollerslev, T., 1998. Deutsche Mark-Dollar Volatility: Intraday Activity Patterns, Macroeconomic Announcements, and Longer Run Dependencies.&nbsp;<em>The Journal of Finance</em>, 53(1), pp.219-265.</li><li>Kaggle notebok: <a href="https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf/edit/run/69210765" target="_blank" rel="noreferrer noopener">https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf/edit/run/69210765</a></li></ul>
+
+## Related Posts
+
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
