@@ -217,8 +217,17 @@ loop<span style="color: #666666">.</span>close()
 
 ## Summary
 
-In this article we demonstrated how to scrape and utilize free proxies. Nevertheless, free proxy servers will quickly get flagged since too many people use them.
+In this article we demonstrated how to scrape and utilize free proxies. Nevertheless, free easy proxy servers will quickly get flagged since too many people use them.
 
 For more reliable service we recommend paid residential proxy servers that [Bright Data](https://brightdata.grsm.io/ntzo6z21fa32) provides. Formerly known as Luminaty the third-party service has a well-written api documentation for python that you can use to manage your proxies.
 
 ![proxy server api](/images/posts/proxy/image-5.webp)
+
+## Related Posts
+
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [Parsiq Triggers for Axie Infinity](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
