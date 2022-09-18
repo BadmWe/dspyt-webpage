@@ -18,17 +18,20 @@ export default function Home({ posts }) {
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
         <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
-        <meta property="og:url" content="https://dspyt.com/blog" />
+        <meta property="og:url" content="https://dspyt.com/" />
         <meta property="og:title" content="Data Science with Python | DSPYT" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dspytdao" />
+        <meta name="twitter:creator" content="@pfedprog" />
       </Head>
       <div className="relative">
         <Hero />
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
-            <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+            <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
               From the blog
-            </h2>
+            </h1>
             <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
               Data Science and Blockchain Based Projects
             </p>

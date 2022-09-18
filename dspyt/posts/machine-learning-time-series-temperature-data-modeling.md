@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning time series python"
+title: "Machine Learning time series python - Data Science with Python"
 date: "April 25, 2022"
 excerpt: "Sklearn pipeline with multiple regression models using traditional and established libraries like numpy, pandas, scipy and sklearn."
 cover_image: "/images/posts/temperature/pexels-tom-fisk-6060188-scaled-e1629300731444.jpg"
