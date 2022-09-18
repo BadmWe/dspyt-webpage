@@ -25,6 +25,9 @@ export default function Home({ posts }) {
         <meta property="og:url" content={`https://dspyt.com/blog/${number}`} />
         <meta property="og:title" content="Data Science with Python | DSPYT" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dspytdao" />
+        <meta name="twitter:creator" content="@pfedprog" />
       </Head>
       <div className="relative">
         <div className="relative max-w-7xl mx-auto mt-10">

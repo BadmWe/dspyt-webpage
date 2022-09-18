@@ -19,3 +19,10 @@ We developed web application in python Flask that generates QR code with the hel
 The necessary condition for a Flask QR code application to run aws is initialize application = Flask(\_\_name\_\_)
 
 <script src="https://emgithub.com/embed.js?target=https://github.com/Pfed-prog/casper_QR/blob/main/application.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
+- [How to Python jail escape (Newbie CTF 2019)](https://dspyt.com/how-to-python-jail-escape-newbie-ctf-2019)

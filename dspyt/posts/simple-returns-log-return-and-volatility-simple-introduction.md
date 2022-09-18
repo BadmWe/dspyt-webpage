@@ -66,6 +66,7 @@ Andersen and Bollerslev (1998) have suggested an ex-post intra-daily volatility 
 
 ## Related Posts
 
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)

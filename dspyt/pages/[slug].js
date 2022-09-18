@@ -23,6 +23,9 @@ export default function PostPage({
           content={"https://dspyt.com/" + cover_image}
         />
         <meta property="og:url" content={"https://dspyt.com/" + slug} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dspytdao" />
+        <meta name="twitter:creator" content="@pfedprog" />
       </Head>
 
       <div className="relative px-4 sm:px-6 lg:px-8 mt-10">
