@@ -26,3 +26,4 @@ The necessary condition for a Flask QR code application to run aws is initialize
 - [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
 - [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
 - [How to Python jail escape (Newbie CTF 2019)](https://dspyt.com/how-to-python-jail-escape-newbie-ctf-2019)
+- [How to python check proxy with aiohttp](https://dspyt.com/easy-proxy-scraper-and-proxy-usage-in-python)

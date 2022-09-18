@@ -67,3 +67,11 @@ The code is located in the [GitHub repository](https://github.com/Pfed-prog/Head
 In this post we have demonstrated how and where to get proxies and how to use them in http requests library for Python. In the future we can further improve the vacancy scraper by using multiple proxies to reduce drag created by the delay. Here is a good starting point on how we can use proxies with aiohttp.
 
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FPfed-prog%2FHeadHunter_async_parser%2Fblob%2Fmain%2Fasync_parser.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+## Related Posts
+
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Simple and easy heroku telegram bot in Python](https://dspyt.com/simple-telegram-bot-in-python-hosted-easily-on-heroku)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [How to python check proxy with aiohttp](https://dspyt.com/easy-proxy-scraper-and-proxy-usage-in-python)
