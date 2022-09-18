@@ -52,8 +52,6 @@ export default function PostPage({
   );
 }
 
-// Add Recent/Popular posts section
-
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("posts"));
 

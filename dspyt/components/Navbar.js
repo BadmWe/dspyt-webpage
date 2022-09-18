@@ -1,10 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import Logo from "@/public/DSPYT.svg";
 
-const navigation = [{ name: "Home", href: "/" }];
+const navigation = [
+  { name: "Home", href: "/" },
+  { name: "Blog", href: "/blog" },
+];
 
 export default function Navbar() {
   return (
@@ -36,15 +40,16 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={
-                          "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                        }
-                      >
-                        {item.name}
-                      </a>
+                      <Link href={item.href} passHref>
+                        <a
+                          key={item.name}
+                          className={
+                            "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                          }
+                        >
+                          {item.name}
+                        </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -55,16 +60,17 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={
-                    "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  }
-                >
-                  {item.name}
-                </Disclosure.Button>
+                <Link href={item.href} passHref>
+                  <Disclosure.Button
+                    key={item.name}
+                    as="a"
+                    className={
+                      "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                    }
+                  >
+                    {item.name}
+                  </Disclosure.Button>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>
