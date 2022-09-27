@@ -80,8 +80,10 @@ Below are some possible data sources which could be utilized in your research.
 - [Kaggle which include exploratory opensource analysis](https://www.kaggle.com/datasets/vagifa/ethereum-frauddetection-dataset)
 - [Insights on Kaggle Fraud Dataset](https://analyst-2.ai/analysis/kaggle-ethereum-fraud-detection-dataset-d749/dcfcefc9/)
 - [opensea-api-nft-sales python script](https://github.com/Checco9811/opensea-api-nft-sales)
+- [Dune analytics python unofficial library](https://github.com/itzmestar/duneanalytics)
 - [DirtyHash: Analyze suspicious wallet addresses, domains, NFTs with machine learning to detect frauds and scams, share them with the community](https://dirtyhash.com/search)
 - [Real-Time Crypto and NFT Insights](https://www.nansen.ai/)
+- [Instant Web3 Data](https://www.parsiq.net/)
 - [Twitter USDC blacklist bot](https://twitter.com/usdcblacklist)
 
 ## Summary
