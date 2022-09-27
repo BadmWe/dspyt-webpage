@@ -29,23 +29,23 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <Image
-                    height={32}
-                    width={120}
-                    src={Logo}
-                    alt="Dspyt : Data Science with Python"
-                  />
-                </div>
+                <Link href={"/"}>
+                  <div className="flex-shrink-0 flex items-center">
+                    <Image
+                      height={32}
+                      width={120}
+                      src={Logo}
+                      alt="Dspyt : Data Science with Python"
+                    />
+                  </div>
+                </Link>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link href={item.href} passHref>
+                      <Link key={`${item.name}Link`} href={item.href} passHref>
                         <a
-                          key={item.name}
-                          className={
-                            "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                          }
+                          key={`${item.name}text`}
+                          className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                         >
                           {item.name}
                         </a>
@@ -60,13 +60,11 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link href={item.href} passHref>
+                <Link key={`${item.name}hiddenLink`} href={item.href} passHref>
                   <Disclosure.Button
                     key={item.name}
                     as="a"
-                    className={
-                      "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                    }
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     {item.name}
                   </Disclosure.Button>
