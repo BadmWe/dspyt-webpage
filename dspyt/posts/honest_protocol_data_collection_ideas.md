@@ -104,8 +104,8 @@ Data gathering enables you to get first-hand knowledge and unique insights into 
 ## Honest Protocol Resources
 
 [Honest Protocol Twitter](https://twitter.com/Honest_Protocol)
-[Honest Protocol Website](https://www.honestprotocol.xyz/)
-[Honest Protocol Medium](https://medium.com/@convexlabs)
+[Website](https://www.honestprotocol.xyz/)
+[Medium](https://medium.com/@convexlabs)
 
 ## References
 
