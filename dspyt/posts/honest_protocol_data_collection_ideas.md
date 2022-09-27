@@ -51,15 +51,27 @@ Finally, seek out pre-existing datasets that have been compiled from sources lik
 ## Data sources
 
 To begin with, the archival research on Ethereum blockchain security, compliance, and authenticity might encompass investigation into historical events and their significance.
-Researchers may look into the Ethereum blockchain use cases and other financial fields such as decentralized exchanges, taxation, auditing, or fraud detection.
-For example, the Ethereum-based smart contracts can be examined for fraud and scam prevention in relation to [OFAC Guidelines](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
 
-Some notable articles on AML compliance include:
+Researchers may look into the Ethereum blockchain use cases and other financial fields such as decentralized exchanges, taxation, auditing, or fraud detection.
+
+For example, the Ethereum-based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
+
+Some notable articles on AML compliance and latest trends include:
 
 - [Building AML Compliance for NFT Marketplaces](https://sumsub.com/blog/nft-aml-compliance/)
 - [KYC and AML 2022—the Difference and Best Practices](https://sumsub.com/blog/kyc-and-aml/)
+- [Crypto Addresses Holding NFTs Worth $532k are Among the Latest Sanctioned by OFAC](https://www.elliptic.co/blog/crypto-addresses-holding-nfts-worth-532k-are-among-latest-sanctioned-by-ofac)
+- [OFAC Sanctions Popular Ethereum Mixer Tornado Cash for Laundering Crypto Stolen by North Korea’s Lazarus Group](https://blog.chainalysis.com/reports/tornado-cash-ofac-designation-sanctions/)
+- [Anonymous user is sending ETH from Tornado Cash sanctioned addresses](https://earlyminter.com/crypto/anonymous-user-is-sending-eth-from-tornado-cash-sanctioned-addresses/)
+- [Tornado Cash Adds Chainalysis Tool for Blocking OFAC-Sanctioned Wallets From Dapp](https://www.coindesk.com/tech/2022/04/15/tornado-cash-adds-chainalysis-tool-for-blocking-ofac-sanctioned-wallets-from-dapp/)
+- [Harmony Horizon Exploit Linked to North Korea, $10M Bounty Offered](https://www.coindesk.com/tech/2022/06/30/harmony-horizon-exploit-linked-to-north-korea-10m-bounty-offered-in-global-manhunt/)
+- [Crypto-Mixing Service Tornado Cash Blacklisted by US Treasury](https://www.coindesk.com/policy/2022/08/08/crypto-mixing-service-tornado-cash-blacklisted-by-us-treasury/)
 
 Below are some possible data sources which could be utilized in your research.
+
+- [Cyber-related Designation; North Korea Designation Update 05/06/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506)
+
+- [North Korea Designation Update; Counter Narcotics Designations Removals 04/22/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220422)
 
 - [Detection of illicit accounts over the Ethereum blockchain Study 2021](https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/GKAQYN)
 
@@ -67,7 +79,7 @@ Below are some possible data sources which could be utilized in your research.
 
 - [Premium Statista Dataset: crypto theft size](https://www.statista.com/statistics/1285057/crypto-theft-size/)
 
-- [Ocean Market](https://market.oceanprotocol.com/search?sort=_score&sortOrder=desc&text=security)
+- [Ocean Market: An Open-Source Community Marketplace for Data](https://market.oceanprotocol.com/search?sort=_score&sortOrder=desc&text=security)
 
 - [Dune Analytics](https://dune.com/browse/dashboards)
 
@@ -76,6 +88,24 @@ Below are some possible data sources which could be utilized in your research.
 - [Kaggle which include exploratory opensource analysis](https://www.kaggle.com/datasets/vagifa/ethereum-frauddetection-dataset)
 
 - [Insights on Kaggle Fraud Dataset](https://analyst-2.ai/analysis/kaggle-ethereum-fraud-detection-dataset-d749/dcfcefc9/)
+
+- [opensea-api-nft-sales python script](https://github.com/Checco9811/opensea-api-nft-sales)
+
+- [DirtyHash: Analyze suspicious wallet addresses, domains, NFTs with machine learning to detect frauds and scams, share them with the community](https://dirtyhash.com/search)
+
+- [Real-Time Crypto and NFT Insights](https://www.nansen.ai/)
+
+- [Twitter USDC blacklist bot](https://twitter.com/usdcblacklist)
+
+## Summary
+
+Data gathering enables you to get first-hand knowledge and unique insights into your research challenge. There are three types of research: exploratory, confirmatory and quantitative. Choosing the right research approach will determine the kind of methods you use for gathering the necessary data. If your aim is to test a hypothesis, measure something precisely, or gain large-scale statistical insights, collect quantitative data. If you have several aims, you can use a mixed-methods approach that collects both types of data.
+
+## Honest Protocol Resources
+
+[Honest Protocol Twitter](https://twitter.com/Honest_Protocol)
+[Honest Protocol Website](https://www.honestprotocol.xyz/)
+[Honest Protocol Medium](https://medium.com/@convexlabs)
 
 ## References
 
