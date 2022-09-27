@@ -1,7 +1,7 @@
 ---
 title: "Honest Protocol Data Collection Ideas"
 date: "26 September, 2022"
-excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering."
+excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.jpg"
 time_read: "5 min"
 ---
@@ -70,31 +70,18 @@ Some notable articles on AML compliance and latest trends include:
 Below are some possible data sources which could be utilized in your research.
 
 - [Cyber-related Designation; North Korea Designation Update 05/06/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506)
-
 - [North Korea Designation Update; Counter Narcotics Designations Removals 04/22/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220422)
-
 - [Detection of illicit accounts over the Ethereum blockchain Study 2021](https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/GKAQYN)
-
 - [Statista: theft of cryptocurrency value](https://www.statista.com/statistics/960226/theft-of-cryptocurrency-value/)
-
 - [Premium Statista Dataset: crypto theft size](https://www.statista.com/statistics/1285057/crypto-theft-size/)
-
 - [Ocean Market: An Open-Source Community Marketplace for Data](https://market.oceanprotocol.com/search?sort=_score&sortOrder=desc&text=security)
-
 - [Dune Analytics](https://dune.com/browse/dashboards)
-
 - [Google DataSet Search](https://datasetsearch.research.google.com/search?src=0&query=ethereum%20fraud&docid=L2cvMTFwM2Z3cWhweA%3D%3D)
-
 - [Kaggle which include exploratory opensource analysis](https://www.kaggle.com/datasets/vagifa/ethereum-frauddetection-dataset)
-
 - [Insights on Kaggle Fraud Dataset](https://analyst-2.ai/analysis/kaggle-ethereum-fraud-detection-dataset-d749/dcfcefc9/)
-
 - [opensea-api-nft-sales python script](https://github.com/Checco9811/opensea-api-nft-sales)
-
 - [DirtyHash: Analyze suspicious wallet addresses, domains, NFTs with machine learning to detect frauds and scams, share them with the community](https://dirtyhash.com/search)
-
 - [Real-Time Crypto and NFT Insights](https://www.nansen.ai/)
-
 - [Twitter USDC blacklist bot](https://twitter.com/usdcblacklist)
 
 ## Summary
