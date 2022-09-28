@@ -2,7 +2,7 @@
 title: "Honest Protocol Data Collection Ideas"
 date: "26 September, 2022"
 excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
-cover_image: "/images/posts/Honest/dataIdeas.jpg"
+cover_image: "/images/posts/Honest/dataIdeas.webp"
 time_read: "5 min"
 ---
 
