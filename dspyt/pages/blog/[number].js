@@ -40,7 +40,7 @@ export default function Home({ posts }) {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {posts.slice(number + 6, number + 12).map((post, index) => (
+            {posts.slice(number * 6, number * 6 + 6).map((post, index) => (
               <Post key={index} post={post} />
             ))}
           </div>
@@ -52,9 +52,9 @@ export default function Home({ posts }) {
               <p className="text-sm text-gray-700">
                 Showing <span className="font-medium">{1 + 6 * number}</span> to{" "}
                 <span className="font-medium">
-                  {7 + 6 * number > posts.length
+                  {6 * number + 6 > posts.length
                     ? posts.length
-                    : 7 + 6 * number}
+                    : 6 + 6 * number}
                 </span>{" "}
                 of <span className="font-medium">{posts.length}</span> results
               </p>
@@ -80,7 +80,7 @@ export default function Home({ posts }) {
                 ""
               )}
 
-              {7 + 6 * number >= posts.length ? (
+              {6 * number + 6 >= posts.length ? (
                 ""
               ) : (
                 <Link href={`/blog/${number + 1}`}>
@@ -103,6 +103,7 @@ export async function getStaticPaths() {
       { params: { number: "1" } },
       { params: { number: "2" } },
       { params: { number: "3" } },
+      { params: { number: "4" } },
     ],
     fallback: false, // can also be true or 'blocking'
   };
