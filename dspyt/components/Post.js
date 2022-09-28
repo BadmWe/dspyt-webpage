@@ -5,7 +5,7 @@ import profile from "@/public/profile.webp";
 
 export default function Post({ post }) {
   return (
-    <Link href={`/${post.slug}`} passHref>
+    <Link href={`https://dspyt.com/${post.slug}`} passHref>
       <div
         key={post.frontmatter.title}
         className="flex flex-col rounded-lg shadow-lg overflow-hidden"
