@@ -37,4 +37,14 @@
     margin-right: 0;
     padding-left: 40px;
   }
+
+  .card ol {
+    display: block;
+    list-style-type: space-counter;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
 }
