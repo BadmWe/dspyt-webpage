@@ -1,5 +1,5 @@
 ---
-title: "A How to efficientnet Keras Classification - DSPYT"
+title: "A How to efficientnet Keras Classification"
 date: "April 29, 2022"
 excerpt: "We discuss Convolutional Neural Networks, data augmentation, efficientnet classification and how to achieve 100% accuracy."
 cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.jpg"
