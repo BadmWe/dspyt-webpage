@@ -18,9 +18,7 @@ export async function getAllFilesFrontMatter() {
       allFrontMatter.push({
         ...frontmatter,
         slug: formatSlug(file),
-        date: frontmatter.date
-          ? new Date(frontmatter.date).toISOString()
-          : null,
+        date: frontmatter.date,
       });
     }
   });

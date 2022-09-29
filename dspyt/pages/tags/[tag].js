@@ -29,20 +29,37 @@ export default function Tag({ posts, tag }) {
   // Capitalize first letter and convert space to dash
   const title = tag[0].toUpperCase() + tag.split(" ").join("-").slice(1);
   return (
-    <div className="relative max-w-7xl mx-auto mt-10">
-      <div className="text-center">
-        <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-          Dspyt blog tag:
-        </h1>
-        <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-          {title}
-        </p>
+    <>
+      <Head>
+        <title>Data Science with Python {title} | DSPYT</title>
+        <link rel="icon" href="big-data-svgrepo.svg" />
+        <meta
+          name="description"
+          content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
+        />
+        <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
+        <meta property="og:url" content={`https://dspyt.com/tags/${title}`} />
+        <meta
+          property="og:title"
+          content={`Data Science with Python ${title} | DSPYT`}
+        />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@dspytdao" />
+        <meta name="twitter:creator" content="@pfedprog" />
+      </Head>
+      <div className="relative max-w-7xl mx-auto mt-10">
+        <div className="text-center">
+          <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl">
+            Dspyt blog tag: {title}
+          </h1>
+        </div>
+        <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+          {posts.slice(0, 6).map((post, index) => (
+            <Post key={index} post={post} />
+          ))}
+        </div>
       </div>
-      <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-        {posts.slice(0, 6).map((post, index) => (
-          <Post key={index} post={post} />
-        ))}
-      </div>
-    </div>
+    </>
   );
 }

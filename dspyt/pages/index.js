@@ -5,7 +5,7 @@ import matter from "gray-matter";
 
 import Post from "@/components/Post";
 import Hero from "@/components/Hero";
-import { sortByDate } from "@/utils/index";
+import { sortByDate } from "@/utils/sort";
 
 export default function Home({ posts }) {
   return (
