@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { getAllFilesFrontMatter } from "@/utils/mdx";
 import { getAllTags } from "@/utils/tags";
 import Post from "@/components/Post";
