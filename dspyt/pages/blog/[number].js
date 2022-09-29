@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import matter from "gray-matter";
 
 import Post from "@/components/Post";
-import { sortByDate } from "@/utils/index";
+import { sortByDate } from "@/utils/sort";
 
 export default function Home({ posts }) {
   const router = useRouter();
