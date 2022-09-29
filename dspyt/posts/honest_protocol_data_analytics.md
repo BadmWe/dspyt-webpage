@@ -4,7 +4,7 @@ date: "27 September, 2022"
 excerpt: "In this article, we collect and analyse the ethereum blockchain data with python and dune analytics."
 cover_image: "/images/posts/Honest/dataAnalytics.webp"
 time_read: "5 min"
-tags: ["honest protocol", "data"]
+tags: ["honest-protocol", "data"]
 ---
 
 ## Collected Data
