@@ -49,7 +49,8 @@ export default function PostPage({
             src={cover_image}
             alt={title}
           />
-          <div className="flex flex-wrap">
+
+          <div className="mt-2 flex flex-wrap place-content-center">
             {tags.map((tag) => (
               <Tag key={tag} text={tag} />
             ))}
