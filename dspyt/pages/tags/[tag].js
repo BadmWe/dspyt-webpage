@@ -36,7 +36,7 @@ export default function Tag({ posts, tag }) {
   return (
     <>
       <Head>
-        <title>Data Science with Python Tags | DSPYT</title>
+        <title>{`Data Science with Python ${title} | DSPYT`}</title>
         <link rel="icon" href="big-data-svgrepo.svg" />
         <meta
           name="description"
