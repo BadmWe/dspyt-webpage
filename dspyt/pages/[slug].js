@@ -5,8 +5,10 @@ import { marked } from "marked";
 import Head from "next/head";
 import Image from "next/image";
 
+import Tag from "@/components/Tag";
+
 export default function PostPage({
-  frontmatter: { title, excerpt, cover_image },
+  frontmatter: { title, excerpt, cover_image, tags },
   slug,
   content,
 }) {
@@ -47,6 +49,11 @@ export default function PostPage({
             src={cover_image}
             alt={title}
           />
+          <div className="flex flex-wrap">
+            {tags.map((tag) => (
+              <Tag key={tag} text={tag} />
+            ))}
+          </div>
 
           <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
         </div>
