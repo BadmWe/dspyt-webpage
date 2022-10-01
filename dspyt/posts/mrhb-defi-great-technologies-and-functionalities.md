@@ -4,6 +4,7 @@ date: "March 3, 2021"
 excerpt: "Marhaba Decentralized Financial Platform is an ethical platform that targets an unmet demand of Muslims."
 cover_image: "/images/posts/mrhb/mrhb.jpg"
 time_read: "5 min"
+tags: ["mrhb", "defi"]
 ---
 
 Marhaba Decentralized Financial Platform is an ethical DeFi platform. MRHB Founder and CEO Naquib Mohammed targets an unmet demand of Muslims for Shariah-certified DeFi products. He has launched the start-up mid-pandemic after nine months of laying the groundwork. The platform website states that

@@ -4,6 +4,7 @@ date: "April 20, 2022"
 excerpt: "In this article we are introducing the concept of cross sectional data. A cross sectional data example consists of a sample of units at a given point in time."
 cover_image: "/images/posts/cross/image.webp"
 time_read: "5 min"
+tags: ["data", "kaggle", "econometrics"]
 ---
 
 Econometric data sets come in numerous shapes, forms and types such as cross-sectional, [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and [panel data](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python). The data type affects the analysis and estimation methods that we as data scientists can use. In this article we are introducing the concept of cross sectional data and demonstrate cross sectional data examples.

@@ -4,6 +4,7 @@ date: "November 21, 2021"
 excerpt: "In this project we utilize PARSIQ Smart Triggers and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Bsc."
 cover_image: "/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
 time_read: "5 min"
+tags: ["parsiq", "data"]
 ---
 
 In this project we utilize [PARSIQ Smart Triggers](https://www.parsiq.net/en/) and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Binance Smart Chain that involves most liquid exchanges.

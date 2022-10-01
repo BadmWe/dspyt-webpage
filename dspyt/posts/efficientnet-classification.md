@@ -4,6 +4,7 @@ date: "April 29, 2022"
 excerpt: "We discuss Convolutional Neural Networks, data augmentation, efficientnet classification and how to achieve 100% accuracy."
 cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.jpg"
 time_read: "5 min"
+tags: ["keras", "python", "image-classification"]
 ---
 
 Humans unlike computers make sense of what we see based on our experiences, memories and biological structure. Human brain extracts and analyses humongous volumes of data using visual cues. To understand the true effect of sight, 40% of our nerve fibers are linked to the retina, and 90% of information transmitted to the brain is visual. In fact, research at 3M Corporation concluded that we process visuals 60,000 times faster than text.

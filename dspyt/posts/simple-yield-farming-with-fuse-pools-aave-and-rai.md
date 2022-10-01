@@ -4,6 +4,7 @@ date: "March 4, 2021"
 excerpt: "Simple Yield Farming Guide with Fuse, Aave and RAI. Fuse - interest rate protocol that allows users to lend and borrow digital assets."
 cover_image: "/images/posts/reflexer/aave.webp"
 time_read: "5 min"
+tags: ["defi", "RAI", "Fuse", "Reflexer"]
 ---
 
 Fuse is an open interest rate protocol that allows users to lend and borrow digital assets. The protocol enables anyone to create and deploy their own lending and borrowing pool. Fuse protocol also allows users to choose their custom parameters and isolate particular kind of risk. Pool creators can choose all the peculiar parameters they want: interest rate curves, oracles, collateral factors.

@@ -4,6 +4,7 @@ date: "April 25, 2022"
 excerpt: "Sklearn pipeline with multiple regression models using traditional and established libraries like numpy, pandas, scipy and sklearn."
 cover_image: "/images/posts/temperature/pexels-tom-fisk-6060188-scaled-e1629300731444.jpg"
 time_read: "5 min"
+tags: ["python", "sklearn", "pipeline", "machine-learning"]
 ---
 
 This post is a write up on machine learning time series python using traditional and established libraries like numpy, pandas, scipy and sklearn. In this post we are making a model for time-series data which we introduced in article [Kaggle time series data – An easy introduction](https://dspyt.com/time-series-data-an-easy-introduction).

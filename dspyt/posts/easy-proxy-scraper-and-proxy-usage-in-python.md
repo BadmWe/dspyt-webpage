@@ -4,6 +4,7 @@ date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
 cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
 time_read: "5 min"
+tags: ["proxy", "python"]
 ---
 
 To conduct data analysis, for example during the market research, we first need to determine the scope and collect the necessary data. Some websites and companies provide easy and convenient way to access the data via api. However, many limit the number of requests from one IP address. Therefore in order to scrape data anonymously and prevent your IP from being blocked by the web server, we recommend that you python check proxy.
