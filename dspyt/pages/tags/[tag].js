@@ -43,7 +43,7 @@ export default function Tag({ posts, tag }) {
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
         <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
-        <meta property="og:url" content={`https://dspyt.com/tags/${title}`} />
+        <meta property="og:url" content={`https://dspyt.com/tags/${tag}`} />
         <meta
           property="og:title"
           content={`Data Science with Python ${title} | DSPYT`}

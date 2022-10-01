@@ -4,7 +4,7 @@ date: "March 1, 2021"
 excerpt: "We choose liquidity pools on Uniswap V3 and obtain tokens for the best liquidity pair using Aave V2 and Fuse Pools"
 cover_image: "/images/posts/reflexer/maxlp.webp"
 time_read: "5 min"
-tags: ["RAI", "stablecoin", "defi", "Reflexer"]
+tags: ["RAI", "stablecoin", "defi", "Reflexer", "Uniswap"]
 ---
 
 To maximize the fees for liquidity providers we separated the article into three sections: choosing liquidity pools on Uniswap V3, obtaining tokens for the best liquidity pair using Aave V2 and Fuse Pools as well as configuring settings to provide the liquidity to the selected pool.

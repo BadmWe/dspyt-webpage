@@ -4,7 +4,7 @@ date: "April 22, 2022"
 excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
 cover_image: "/images/posts/aurora/aurora.webp"
 time_read: "5 min"
-tags: ["aurora", "near"]
+tags: ["aurora", "near", "evm"]
 ---
 
 Blockchain technology is one of the most exuberant technologies at the moment. However, it can be very complicated with technical challenges at every stage. The opportunity now is to bridge the innovative world of Web 3.0 with the convenience and familiarity of Web 2.0, in order to make it more widely adopted.

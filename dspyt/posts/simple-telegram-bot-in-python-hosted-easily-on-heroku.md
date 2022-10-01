@@ -4,7 +4,7 @@ date: "May 3, 2022"
 excerpt: "We create a heroku python telegram bot from scratch. We utilize python telebot library and host the project on Heroku"
 cover_image: "/images/posts/telegrambot/pexels-cottonbro-5077039-1-e1629301426265.webp"
 time_read: "5 min"
-tags: ["python", "telegram", "bot"]
+tags: ["python", "telegram", "bot", "heroku"]
 ---
 
 To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate public on computer security and protecting yourself online. The bot was running from our personal notebook and utilized telebot library. However, we experienced difficulties when we put on Heroku.
