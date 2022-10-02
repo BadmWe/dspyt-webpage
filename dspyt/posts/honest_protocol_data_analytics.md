@@ -85,25 +85,28 @@ _Top Scam Addresses Receivers Latest_
 _Amount of ETH sent to flagged addresses over time_
 ![Amount of ETH sent to flagged addresses over time](/images/posts/Honest/graph.webp)
 
-## Phishing&Scams going through Bitly Data Set
+## Phishing & Scams going through Bitly Data Set
 
-[Weekly Aggregated Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv)
-
-[Tabular Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyDepositsTabular810.csv)
-
-[Weekly Aggregated Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsWeekly815.csv)
-
-[Tabular Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsTabular812.csv)
+Here is a [medium article](https://medium.com/mycrypto/following-an-ethereum-phishing-scam-down-the-rabbit-hole-9790484c3431)detailing an example of phishing attack using Bitly links. Below we scrapped the Bitly data sets initially provided by [409h Dune Analytics User](https://dune.com/409h):
+[Weekly Aggregated Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
+[Tabular Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyDepositsTabular810.csv),
+[Weekly Aggregated Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsWeekly815.csv),
+[Tabular Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsTabular812.csv).
 
 [Bitly Fraud Dune Analytics](https://dune.com/pfedprog/phishingandscams-going-through-bitly)
+
+_Bitly 2017-2019_
+![Bitly phishing Data](/images/posts/Honest/Bitly.webp)
+
+On further research we noticed more recent similar scams: [OpenSea phishing scam swindled millions in NFTs](https://www.pcgamer.com/opensea-phishing-scam-swindled-millions-in-nfts/) and [Scam Alert: OpenSea Phishing Emails](https://news.trendmicro.com/2022/03/12/scam-alert-opensea-phishing-emails/) that require more thorough investigation.
+
+## More Collected Data Sets
 
 ### 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74 Scam address data
 
 [OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam related to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
 
 [OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
-
-## More Collected Data Sets
 
 [Premium Dataset. Hourly Crypto Market Anomaly Score: Ocean Protocol](https://market.oceanprotocol.com/asset/did:op:0d3c8845df538dff98a08e0cc9d572cf4703d9324eb5887e91e9c8d97474e8ae)
 
