@@ -41,15 +41,26 @@ To analyze the nature of transactions and identify trends, we transaction data w
 Dune can help users trace the flow of funds between contracts with a visual and data-centric interface.
 If a user receives tokens in one contract and sends it to another contract, Dune will trace the fund and show the attempted hidden movement between contracts. Dune Analytic also provides interactive charts which can help users do in-depth analysis of blockchain data and conduct better analysis.
 
-[Collected Weekly Deposits Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTxs1321434.csv)
+In particular we queried to ethereum blcokchain to obtain
+[weekly deposits transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTxs1321434.csv),
+[weekly withdrawals transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusWeeklyWithdrawalsTxs1322493.csv),
+[granular tabular transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTabularTxs1322519.csv),
+[ERC721 transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusNFTsTxs1322436.csv).
 
-[Collected Weekly Withdrawals Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusWeeklyWithdrawalsTxs1322493.csv)
-
-[Collected Tabular Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTabularTxs1322519.csv)
-
-[Collected ERC721 Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusNFTsTxs1322436.csv)
-
+Next we transform the data into tables and graphs with the help of Dune Analytics:
 [North Korean Lazarus Group Dashboard](https://dune.com/pfedprog/lazarus)
+
+_Lazarus Group Total Eth Value Deposited_
+![Lazarus Group Total Eth Value Deposited](/images/posts/Honest/TotalEth.webp)
+
+_Deposit Share by weekly period_
+![Deposit Share by periodLazarus Transactions](/images/posts/Honest/DepositShareW.webp)
+
+_NFT ERC721 Deposits_
+![NFT ERC721 Deposits](/images/posts/Honest/NFTs.webp)
+
+_Largest Transactions_
+![Granular Lazarus Tabular Data](/images/posts/Honest/Txs.webp)
 
 ## Etherscan Flagged Latest Data Set
 
