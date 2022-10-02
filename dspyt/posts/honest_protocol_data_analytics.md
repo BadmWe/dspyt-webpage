@@ -64,13 +64,26 @@ _Largest Transactions_
 
 ## Etherscan Flagged Latest Data Set
 
-[Weekly Aggregated Etherscan Flagged Latest DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv)
+Etherscan is the primary blockchain explorer, search, API, and analytics portal for Ethereum, a decentralized smart contract platform.
+In order to promote equitable access to blockchain data, Etherscan gives developers with direct access to Etherscan's block explorer data and services via GET/POST requests.
+Because Etherscan's APIs are provided as a community service with no warranties, the data may be skewed or contain incorrect labels.
 
-[Aggregated by Receiver Address](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedByAddress322768.csv)
+We obtained the following phisihing labeled addresses data sets using Dune Analytics Queries:
+[Weekly Aggregated Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
+[Aggregated by Receiver Address](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedByAddress322768.csv),
+[Tabular Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv).
 
-[Tabular Etherscan Flagged Latest DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv)
-
+Next visualize the data set with the help of Dune Analytics:
 [Etherscan Phishing Accounts Addresses Dune Analytics](https://dune.com/pfedprog/eth-sent-to-flagged-etherscam-addresses)
+
+_Etherscan Flagged Data Set Total Eth_
+![Etherscan Flagged Data Set Total](/images/posts/Honest/EtherScanTE.webp)
+
+_Top Scam Addresses Receivers Latest_
+![EtherScamDB Top Address Receivers Latest](/images/posts/Honest/DB.webp)
+
+_Amount of ETH sent to flagged addresses over time_
+![Amount of ETH sent to flagged addresses over time](/images/posts/Honest/graph.webp)
 
 ## Phishing&Scams going through Bitly Data Set
 
