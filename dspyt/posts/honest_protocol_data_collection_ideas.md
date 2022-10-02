@@ -4,7 +4,7 @@ date: "26 September, 2022"
 excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
 time_read: "5 min"
-tags: ["honest-protocol", "data"]
+tags: ["Honest-Protocol", "data", "blockchain", "Ethereum"]
 ---
 
 The systematic process of obtaining observations or measurements is referred to as data collection. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
