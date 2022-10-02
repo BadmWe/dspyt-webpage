@@ -96,6 +96,7 @@ Data gathering enables you to get first-hand knowledge and unique insights into 
 [Honest Protocol Twitter](https://twitter.com/Honest_Protocol)
 [Website](https://www.honestprotocol.xyz/)
 [Medium](https://medium.com/@convexlabs)
+[GitHub](https://github.com/Honest-Protocol)
 
 ## References
 
