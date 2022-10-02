@@ -1,19 +1,45 @@
 ---
 title: "Honest Protocol Data Analytics"
 date: "27 September, 2022"
-excerpt: "In this article, we collect and analyse the ethereum blockchain data with python and dune analytics."
+excerpt: "In this article, we collect and analyze the Ethereum blockchain data with Python and Dune Analytics."
 cover_image: "/images/posts/Honest/dataAnalytics.webp"
 time_read: "5 min"
-tags: ["honest-protocol", "data"]
+tags:
+  [
+    "Honest-Protocol",
+    "data",
+    "OFAC",
+    "Ethereum",
+    "Dune-Analytics",
+    "analytics",
+    "Python",
+  ]
 ---
 
-## Collected Data
+Security and regulatory compliance have emerged as the top objectives as cryptocurrencies move closer to being accepted by the general public.
+Forensic data analytics can help in tracking transactions and giving the proof to penalize wrongdoing in a data-centric society when a data-based protocol like Ethereum experiences fraud or other misbehavior. As a result, it's essential to develop data analytics solutions with case studies.
 
-### Lazarus OFAC sanctions data
+We have provided ideas for data collection and data collection methods in [Honest Protocol Data Collection Ideas post](https://dspyt.com/honest_protocol_data_collection_ideas)
+In this post, we use Python and Dune Analytics to collect and examine data from the Ethereum blockchain.
 
-[Lazarus Group](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506)
+## Lazarus OFAC sanctions data
 
+The Office of Foreign Assets Control (OFAC) of the United States Department of the Treasury sanctioned virtual currency mixer Blender, which is used by the Democratic People's Republic of Korea to facilitate hostile cyber operations and the laundering of stolen virtual currency.
+
+[According to OFAC](https://home.treasury.gov/news/press-releases/jy0768), a blockchain project connected to the online game Axie Infinity was the target of the largest virtual currency heist to date, worth nearly $620 million, on March 23, 2022, and Blender was used to process over $20.5 million of the illegal proceeds. Lazarus Group, a DPRK state-sponsored cyber hacking group, was responsible. The DPRK has turned to illegal actions, such as cyber-enabled heists from cryptocurrency exchanges and financial institutions, to raise money for its illegal weapons of mass destruction and ballistic missile programs as a result of severe U.S. and UN sanctions.
+
+OFAC has identified four more virtual currency wallet addresses used by the Lazarus Group to launder the remaining stolen earnings from the Axie Infinity crime in March 2022. OFAC has published updated [Lazarus Group](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506) list of Bitcoin and Ethereum addresses.
+This expands on OFAC's April 14, 2022, identification of the initial getaway wallet address and attribution of the DPRK's Lazarus Group as the culprits of the Axie Infinity crime.
+
+We have further assembled the list of Ethereum addresses in text document on GitHub:
 [Addresses List](https://github.com/dspytdao/Eth_Data/blob/main/LazarusGroup.txt)
+
+### Dune Analytics
+
+To analyze the nature of transactions and identify trends, we transaction data with the help of Dune Analytics queries and extract the related smart contract metadata with the help of [python script](https://github.com/dspytdao/Eth_Data/blob/main/script.py).
+
+Dune can help users trace the flow of funds between contracts with a visual and data-centric interface.
+If a user receives tokens in one contract and sends it to another contract, Dune will trace the fund and show the attempted hidden movement between contracts. Dune Analytic also provides interactive charts which can help users do in-depth analysis of blockchain data and conduct better analysis.
 
 [Collected Weekly Deposits Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTxs1321434.csv)
 
@@ -23,6 +49,8 @@ tags: ["honest-protocol", "data"]
 
 [Collected ERC721 Transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusNFTsTxs1322436.csv)
 
+[North Korean Lazarus Group Dashboard](https://dune.com/pfedprog/lazarus)
+
 ## Etherscan Flagged Latest Data Set
 
 [Weekly Aggregated Etherscan Flagged Latest DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv)
@@ -30,6 +58,8 @@ tags: ["honest-protocol", "data"]
 [Aggregated by Receiver Address](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedByAddress322768.csv)
 
 [Tabular Etherscan Flagged Latest DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv)
+
+[Etherscan Phishing Accounts Addresses Dune Analytics](https://dune.com/pfedprog/eth-sent-to-flagged-etherscam-addresses)
 
 ## Phishing&Scams going through Bitly Data Set
 
@@ -40,6 +70,8 @@ tags: ["honest-protocol", "data"]
 [Weekly Aggregated Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsWeekly815.csv)
 
 [Tabular Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsTabular812.csv)
+
+[Bitly Fraud Dune Analytics](https://dune.com/pfedprog/phishingandscams-going-through-bitly)
 
 ### 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74 Scam address data
 
@@ -60,14 +92,6 @@ tags: ["honest-protocol", "data"]
 [Eth-Phish/Hack (Phish/Hack in Ethereum)](https://paperswithcode.com/dataset/eth-phish-hack)
 Introduced by Zhou et al. in Behavior-aware Account De-anonymization on Ethereum Interaction Graph
 The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Interaction graph.
-
-## Data Visualisation
-
-[North Korean Lazarus Group Dashboard](https://dune.com/pfedprog/lazarus)
-
-[Etherscan Phishing Accounts Addresses Dune Analytics](https://dune.com/pfedprog/eth-sent-to-flagged-etherscam-addresses)
-
-[Bitly Fraud Dune Analytics](https://dune.com/pfedprog/phishingandscams-going-through-bitly)
 
 ## Honest Protocol Resources
 
