@@ -28,6 +28,10 @@
     @apply mt-6 text-2xl;
   }
 
+  .card h3 {
+    @apply mt-6 text-xl;
+  }
+
   .card ul {
     display: block;
     list-style-type: disc;
