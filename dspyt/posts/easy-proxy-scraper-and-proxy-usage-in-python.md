@@ -1,29 +1,30 @@
 ---
-title: "How to python check proxy with aiohttp"
+title: "How to implement python scaper for proxy servers with aiohttp"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
 cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
 time_read: "5 min"
-tags: ["proxy", "python", "aiohttp"]
+tags: ["proxy", "python", "aiohttp", "proxy-server", "proxy-scraper"]
 ---
 
-To conduct data analysis, for example during the market research, we first need to determine the scope and collect the necessary data. Some websites and companies provide easy and convenient way to access the data via api. However, many limit the number of requests from one IP address. Therefore in order to scrape data anonymously and prevent your IP from being blocked by the web server, we recommend that you python check proxy.
+To conduct data analysis, for example during the market research, we first need to determine the scope and collect the necessary data. Some websites and companies provide easy and convenient way to access the data via api. However, many limit the number of requests from one IP address. Therefore in order to scrape data anonymously and prevent your IP from being blocked by the web server, we recommend that you implement python scrapper for proxy servers.
 
 ## What is a proxy server?
 
 A proxy server is a remote server through which you connect to obfuscate your initial address. Since the proxy hides and overlays your authentic IP address with its own IP, the destination server can only see the IP of the proxy. Hence, if you rotate proxies with each request, the endpoint will recognize them as separate ones since they are coming from different IP addresses. Thus, you increase the speed and chance of obtaining data for research.
 
-![proxy server](/images/posts/proxy/Proxy-Server.webp)
+![python proxy server](/images/posts/proxy/Proxy-Server.webp)
 
 ## Where is my proxy?
 
-In this article we demonstrate how to obtain and check free proxies by using python libraries requests, selenium, BeautifulSoup and NumPy.
+In this article we demonstrate how to obtain, verify and implement python scrapper for free proxies by using python libraries [requests](https://docs.python-requests.org/en/master/), selenium, BeautifulSoup and NumPy.
 
 ## Python check proxy with requests
 
-In a simple recommendation system we used [python3 requests library](https://docs.python-requests.org/en/master/) to collect the vacancies data. Requests http library allows for the usage of proxies and multi-threading.
+Requests is a python http library which allows for the usage of proxies and multi-threading.
 
-To extend the script to work with proxies we need to check that proxy servers operate on the target website. Hence, we create a script that scrapes the proxy server list from https://free-proxy-list.net/ and saves only those that work with our target.
+To implement the python script to work with proxies we first need to check that proxy servers are comptabile with the target website.
+Hence, we create a python scraper that collects the proxy server list from https://free-proxy-list.net/ and saves only those that work with our target.
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">requests</span>
 <span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">bs4</span> <span style="color: #007020; font-weight: bold">import</span> BeautifulSoup
@@ -222,7 +223,7 @@ In this article we demonstrated how to scrape and utilize free proxies. Neverthe
 
 For more reliable service we recommend paid residential proxy servers that [Bright Data](https://brightdata.grsm.io/ntzo6z21fa32) provides. Formerly known as Luminaty the third-party service has a well-written api documentation for python that you can use to manage your proxies.
 
-![proxy server api](/images/posts/proxy/image-5.webp)
+![python proxy server api](/images/posts/proxy/image-5.webp)
 
 ## Related Posts
 

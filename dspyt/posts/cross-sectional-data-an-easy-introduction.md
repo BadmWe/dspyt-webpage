@@ -4,15 +4,20 @@ date: "April 20, 2022"
 excerpt: "In this article we are introducing the concept of cross sectional data. A cross sectional data example consists of a sample of units at a given point in time."
 cover_image: "/images/posts/cross/image.webp"
 time_read: "5 min"
-tags: ["data", "kaggle", "econometrics", "cross-sectional"]
+tags: ["data", "kaggle", "econometrics", "cross-sectional-data"]
 ---
 
 Econometric data sets come in numerous shapes, forms and types such as cross-sectional, [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and [panel data](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python). The data type affects the analysis and estimation methods that we as data scientists can use. In this article we are introducing the concept of cross sectional data and demonstrate cross sectional data examples.
 
-A cross sectional data set consists of a sample of units such as individuals, households, firms, cities, states, countries at a given point in time. Sometimes, the data on all units does not correspond to the same time period.
-For instance, the gross yearly income for each of 1000 randomly selected families in United States in 2022 constitutes a cross sectional data example.
+## What is cross sectional data?
 
-In a pure cross sectional analysis, we ignore any minor timing differences in collecting the data. If a researcher conducted a survey during different weeks of the same year, we would still consider this as a cross sectional data example. Cross sectional data differs from longitudinal data, which includes several observations for each unit throughout time.
+A cross sectional study includes cross sectional data. A cross sectional data set consists of a sample of units such as individuals, households, firms, cities, states, countries at a given point in time. A cross sectional data set compares differences between respondents.
+
+Essentially, cross sectional data is data that is obtained from all participants at the same time. During cross-sectional research,we do not regard time as a study variable. However, it is also true that in a cross-sectional research, not all the participants provide information at the same time.
+
+In a pure cross sectional analysis, we ignore any minor timing differences in a data example. If a researcher conducted a survey during different weeks of the same year, we would still consider this as a cross sectional data example. Cross sectional data differs from longitudinal data, which includes several observations for each unit throughout time.
+
+For instance, the gross yearly income for each of 1000 randomly selected families in United States in 2022 constitutes a cross sectional data example.
 
 ## Cross sectional data example: Titanic Kaggle Dataset
 

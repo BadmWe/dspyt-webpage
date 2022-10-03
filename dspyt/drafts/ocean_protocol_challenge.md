@@ -10,3 +10,5 @@ tags: ["ocean-protocol", "Kaggle", "python"]
 [Ocean Protocol :: Dimitra Bounty Phase 2](https://www.questbook.app/explore_grants/about_grant/?grantId=0x40f5698eb499b65b651803574e1745e6d552aa30&chainId=137&utm_source=Questbook)
 
 [Kaggle Notebook](https://www.kaggle.com/code/pavfedotov/soybean-yield)
+
+[AutoViz Medium Article](https://medium.com/geekculture/autoviz-create-simple-charts-from-any-dataset-in-python-6514db8252b6)

@@ -4,7 +4,7 @@ date: "December 27, 2021"
 excerpt: "asyncio python tutorial : smart way to efficiently handle tasks like network or input/output, especially for a time-consuming task to finish"
 cover_image: "/images/posts/asyncio/pexels-thisisengineering-3861969-1-e1629301351687.jpg"
 time_read: "5 min"
-tags: ["python", "asyncio"]
+tags: ["python", "asyncio", "proxy"]
 ---
 
 Many programming languages have an asynchronous (async) feature that improves their concurrency primitives. In 2015 Python 3.5 introduced coroutines with async and await syntax. Since then the async capability of Python has improved dramatically with the rise of libraries such as asyncio, library to write concurrent code using the async/await syntax, and AIOHTTP, an asynchronous HTTP Client/Server for asyncio and Python. Hence, we provide asyncio python tutorial.
