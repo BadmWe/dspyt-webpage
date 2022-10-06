@@ -51,9 +51,9 @@ Finally, seek out pre-existing datasets that have been compiled from sources lik
 
 ## Data sources
 
-To begin with, the archival research on Ethereum blockchain security, compliance, and authenticity might encompass investigation into historical events and their significance.
+First we advise to assemble the archival research on Ethereum blockchain security, compliance, and authenticity might encompass investigation into historical events and their significance.
 
-Researchers may look into the Ethereum blockchain use cases and other financial fields such as decentralized exchanges, taxation, auditing, or fraud detection.
+Ethereum blockchain use cases are not limited to speculation and trading. Meanwhile decentralized exchanges face regulatory scrutiny that involves taxation, audit, and fraud detection.
 
 For example, the Ethereum based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
 
