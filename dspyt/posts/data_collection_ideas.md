@@ -7,31 +7,31 @@ time_read: "5 min"
 tags: ["data", "blockchain", "Ethereum", "security"]
 ---
 
-The systematic process of obtaining observations or measurements is referred to as data collection. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
+Data collection is the systematic process of obtaining observations or measurements. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
 
-In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on topics that include security, compliance, and authenticity on Ethereum blockchain.
+In this article, we describe how to select a research topic, study technique, and provide resources for high-quality data gathering on topics that include security, compliance, and authenticity, in particular, on Ethereum blockchain.
 
 ## How to determine a research question
 
-Creating a strong research question is crucial when beginning a new research project. This is an important step in the research process because it will direct your research activity.
+Creating a strong research question is crucial when beginning a new research project. This is an important step in the research process because it directs your research activity.
 
 A well-written research question possesses several characteristics.
 
-- It should have a precise definition and be free of jargon.
-- The query needs to be specific enough to lead your investigation in the right direction. It should provide a summary of an important question or subject you wish to address through research—whether it be a literature review, an experiment, or a theoretical exercise.
-- It must be addressed within your constrained time frame and with other resources that are available (e.g., money, equipment, other resources).
+- It has a precise definition and be free of jargon.
+- The query is specific enough to lead your investigation in the right direction. It provides a summary of an important question or subject you wish to address through research, whether it be a literature review, an experiment, or a theoretical exercise.
+- It addresses within your constrained time frame and with other resources that are available (e.g., money, equipment, other resources).
 
 ## Research Methodology
 
-The most challenging and perplexing choice is the optimal research approach. Choosing a research technique is essential since it will determine the kind of methods you use. If you use the right research approach, you may gather the necessary data and achieve the study's objectives.
+The most challenging and perplexing choice is the optimal research approach. Choosing a research technique is essential since it determines the kind of methods you use. If you use the right research approach, you may gather the necessary data and achieve the objectives of the study.
 
 In general, there are three types of research:
 
-- Exploratory research: it helps to clarify a problem and may lead to the development of a hypothesis. As a result, it frequently uses qualitative research methodology.
-- Confirmatory research involves conducting empirical tests to verify a possible theory or hypothesis. Consequently, it frequently employs quantitative research.
-- The mixed-methods technique is used to develop a prospective theory or hypothesis and then test it empirically.
+1. Exploratory research: it helps to clarify a problem and may lead to the development of a hypothesis. As a result, it frequently uses qualitative research methodology.
+2. Confirmatory research involves conducting empirical tests to verify a possible theory or hypothesis. Consequently, it frequently employs quantitative research.
+3. The mixed methods technique that develops a prospective theory or hypothesis and then test the theory empirically.
 
-Gather quantitative data if your goal is to test a hypothesis, measure something precisely, or gain broad statistical insights. Collect qualitative data if your goal is to investigate concepts, comprehend experiences, or gain in-depth understanding of a particular situation. Use a mixed methods approach that gathers both kinds of data if you have multiple goals.
+Hence, gather quantitative data if your goal is to test a hypothesis, measure something precisely, or gain broad statistical insights. Collect qualitative data if your goal is to investigate concepts, comprehend experiences, or gain in-depth understanding of a particular situation. Use a mixed methods approach that gathers both kinds of data if you have multiple goals.
 
 ## Data Collection Methods
 
