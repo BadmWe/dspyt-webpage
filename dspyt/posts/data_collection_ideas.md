@@ -1,10 +1,10 @@
 ---
 title: "Ethereum Security Data Collection Ideas"
 date: "26 September, 2022"
-excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
+excerpt: "We describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
 time_read: "5 min"
-tags: ["data", "blockchain", "Ethereum"]
+tags: ["data", "blockchain", "Ethereum", "security"]
 ---
 
 The systematic process of obtaining observations or measurements is referred to as data collection. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
@@ -55,7 +55,7 @@ To begin with, the archival research on Ethereum blockchain security, compliance
 
 Researchers may look into the Ethereum blockchain use cases and other financial fields such as decentralized exchanges, taxation, auditing, or fraud detection.
 
-For example, the Ethereum-based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
+For example, the Ethereum based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
 
 Some notable articles on AML compliance and latest trends include:
 
