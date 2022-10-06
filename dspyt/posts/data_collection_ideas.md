@@ -41,9 +41,9 @@ Choose the approach that is most appropriate for your research based on the info
 - Qualitative methods include ethnographies, focus groups, and interviews.
 - Both quantitative and qualitative methods can be used when collecting secondary data from surveys, observations, archival research, and more.
 
-The first method is archival research, which involves accessing records from libraries or data online to comprehend current or historical events, conditions, or practices.
+To begin with, archival research involves accessing records from libraries or data online to comprehend current or historical events, conditions, or practices.
 
-To better understand people's impressions or thoughts on a topic, focus groups are sometimes employed.
+To better understand people's impressions or thoughts on a topic we recommend to employ focus groups.
 
 Besides, a survey involves distributing a list of questions to a sample of people online, in person, or over the phone in order to understand the general characteristics or opinions of a group of people.
 
