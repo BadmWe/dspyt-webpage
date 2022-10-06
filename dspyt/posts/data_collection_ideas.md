@@ -1,10 +1,10 @@
 ---
-title: "Honest Protocol Data Collection Ideas"
+title: "Ethereum Security Data Collection Ideas"
 date: "26 September, 2022"
 excerpt: "In this article, we will describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
 time_read: "5 min"
-tags: ["Honest-Protocol", "data", "blockchain", "Ethereum"]
+tags: ["data", "blockchain", "Ethereum"]
 ---
 
 The systematic process of obtaining observations or measurements is referred to as data collection. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
@@ -90,13 +90,6 @@ Below are some possible data sources which could be utilized in your research.
 ## Summary
 
 Data gathering enables you to get first-hand knowledge and unique insights into your research challenge. There are three types of research: exploratory, confirmatory and quantitative. Choosing the right research approach will determine the kind of methods you use for gathering the necessary data. If your aim is to test a hypothesis, measure something precisely, or gain large-scale statistical insights, collect quantitative data. If you have several aims, you can use a mixed-methods approach that collects both types of data.
-
-## Honest Protocol Resources
-
-[Honest Protocol Twitter](https://twitter.com/Honest_Protocol)
-[Website](https://www.honestprotocol.xyz/)
-[Medium](https://medium.com/@convexlabs)
-[GitHub](https://github.com/Honest-Protocol)
 
 ## References
 

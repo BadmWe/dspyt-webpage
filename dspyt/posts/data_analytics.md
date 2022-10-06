@@ -1,19 +1,10 @@
 ---
-title: "Honest Protocol Data Analytics"
+title: "Ethereum Security Data Analytics"
 date: "27 September, 2022"
 excerpt: "In this article, we collect and analyze the Ethereum blockchain data with Python and Dune Analytics."
 cover_image: "/images/posts/Honest/dataAnalytics.webp"
 time_read: "5 min"
-tags:
-  [
-    "Honest-Protocol",
-    "data",
-    "OFAC",
-    "Ethereum",
-    "Dune-Analytics",
-    "analytics",
-    "Python",
-  ]
+tags: ["data", "OFAC", "Ethereum", "Dune-Analytics", "analytics", "Python"]
 ---
 
 Security and regulatory compliance have emerged as the top objectives as cryptocurrencies move closer to being accepted by the general public.
@@ -121,10 +112,3 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 [Eth-Phish/Hack (Phish/Hack in Ethereum)](https://paperswithcode.com/dataset/eth-phish-hack)
 Introduced by Zhou et al. in Behavior-aware Account De-anonymization on Ethereum Interaction Graph
 The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Interaction graph.
-
-## Honest Protocol Resources
-
-[Honest Protocol Twitter](https://twitter.com/Honest_Protocol)
-[Website](https://www.honestprotocol.xyz/)
-[Medium](https://medium.com/@convexlabs)
-[GitHub](https://github.com/Honest-Protocol)
