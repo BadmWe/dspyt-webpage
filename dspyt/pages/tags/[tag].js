@@ -3,10 +3,10 @@ import Head from "next/head";
 import { getAllFilesFrontMatter } from "@/utils/mdx";
 import { getAllTags } from "@/utils/tags";
 import Post from "@/components/Post";
+import { sortDate } from "@/utils/sort";
 
 export async function getStaticPaths() {
   const tags = await getAllTags();
-  //console.log(tags);
   return {
     paths: Object.keys(tags).map((tag) => ({
       params: {
@@ -19,18 +19,13 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter();
-  //console.log(123, allPosts);
-  const filteredPosts = allPosts.filter(
-    (post) => post.draft !== true && post.tags.includes(params.tag)
-  );
-  //console.log(231, filteredPosts);
-  //console.log(params.tag);
+  const filteredPosts = allPosts
+    .filter((post) => post.draft !== true && post.tags.includes(params.tag))
+    .sort(sortDate);
   return { props: { posts: filteredPosts, tag: params.tag } };
 }
 
 export default function Tag({ posts, tag }) {
-  //console.log(tag);
-  //console.log(posts);
   // Capitalize first letter and convert space to dash
   const title = tag[0].toUpperCase() + tag.split(" ").join("-").slice(1);
   return (
@@ -56,12 +51,12 @@ export default function Tag({ posts, tag }) {
       <div className="relative max-w-7xl mx-auto mt-10">
         <div className="text-center">
           <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl">
-            Dspyt blog tag: {title}
+            Dspyt blog tag: <span> {title} </span>
           </h1>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.slice(0, 26).map((post, index) => (
-            <Post key={index} post={post} />
+            <Post key={index} post={post} slug={post.slug} />
           ))}
         </div>
       </div>

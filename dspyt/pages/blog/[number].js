@@ -41,7 +41,7 @@ export default function Home({ posts }) {
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {posts.slice(number * 6, number * 6 + 6).map((post, index) => (
-              <Post key={index} post={post} />
+              <Post key={index} post={post.frontmatter} slug={post.slug} />
             ))}
           </div>
           <nav
@@ -97,6 +97,7 @@ export default function Home({ posts }) {
   );
 }
 
+// implement for loop
 export async function getStaticPaths() {
   return {
     paths: [

@@ -4,7 +4,7 @@ date: "26 September, 2022"
 excerpt: "We describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
 time_read: "5 min"
-tags: ["data", "blockchain", "Ethereum", "security"]
+tags: ["data", "blockchain", "Ethereum", "security", "regulation", "AML"]
 ---
 
 Data collection is the systematic process of obtaining observations or measurements. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
@@ -57,6 +57,8 @@ Ethereum blockchain use cases are not limited to speculation and trading. Meanwh
 
 For example, the Ethereum based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
 
+## What is AML compliance?
+
 Some notable articles on AML compliance and latest trends include:
 
 - [Building AML Compliance for NFT Marketplaces](https://sumsub.com/blog/nft-aml-compliance/)
@@ -67,6 +69,8 @@ Some notable articles on AML compliance and latest trends include:
 - [Tornado Cash Adds Chainalysis Tool for Blocking OFAC-Sanctioned Wallets From Dapp](https://www.coindesk.com/tech/2022/04/15/tornado-cash-adds-chainalysis-tool-for-blocking-ofac-sanctioned-wallets-from-dapp/)
 - [Harmony Horizon Exploit Linked to North Korea, $10M Bounty Offered](https://www.coindesk.com/tech/2022/06/30/harmony-horizon-exploit-linked-to-north-korea-10m-bounty-offered-in-global-manhunt/)
 - [Crypto-Mixing Service Tornado Cash Blacklisted by US Treasury](https://www.coindesk.com/policy/2022/08/08/crypto-mixing-service-tornado-cash-blacklisted-by-us-treasury/)
+
+## Potential Data Sources
 
 Below are some possible data sources which could be utilized in your research.
 
@@ -99,3 +103,5 @@ Data gathering enables you to get first-hand knowledge and unique insights into 
 - [How To Choose Your Research Methodology](https://gradcoach.com/choose-research-methodology/)
 - [What (Exactly) Is Research Methodology?](https://gradcoach.com/what-is-research-methodology/)
 - [Data Collection | Definition, Methods & Examples](https://www.scribbr.com/methodology/data-collection/)
+
+## Related Posts

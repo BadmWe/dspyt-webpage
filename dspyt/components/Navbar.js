@@ -45,7 +45,7 @@ export default function Navbar() {
                       <Link key={`${item.name}Link`} href={item.href} passHref>
                         <a
                           key={`${item.name}text`}
-                          className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                          className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                         >
                           {item.name}
                         </a>

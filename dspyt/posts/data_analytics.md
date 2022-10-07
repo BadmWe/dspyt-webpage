@@ -4,14 +4,25 @@ date: "27 September, 2022"
 excerpt: "We collect and analyze the Ethereum blockchain data with Python and Dune Analytics, particularly focusing on Lazarus Group."
 cover_image: "/images/posts/Honest/dataAnalytics.webp"
 time_read: "5 min"
-tags: ["data", "OFAC", "Ethereum", "Dune-Analytics", "analytics", "Python"]
+tags:
+  [
+    "data",
+    "OFAC",
+    "Ethereum",
+    "Dune-Analytics",
+    "analytics",
+    "Python",
+    "DRPK",
+    "regulation",
+    "compliance",
+  ]
 ---
 
 Security and regulatory compliance have emerged as the top objectives as cryptocurrencies move closer to being accepted by the general public.
 Forensic data analytics can help in tracking transactions and giving the proof to penalize wrongdoing in a data-centric society when a data-based protocol like Ethereum experiences fraud or other misbehavior. As a result, it's essential to develop data analytics solutions with case studies.
 
-We have provided ideas for data collection and data collection methods in [Honest Protocol Data Collection Ideas post](https://dspyt.com/honest_protocol_data_collection_ideas)
-In this post, we use Python and Dune Analytics to collect and examine data from the Ethereum blockchain.
+We have provided ideas for data collection and data collection methods in [Data Collection Ideas post](https://dspyt.com/data_collection_ideas)
+In this post, we utilize Python and Dune Analytics to collect and examine data from the Ethereum blockchain.
 
 ## Lazarus OFAC sanctions data
 
@@ -112,3 +123,5 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 [Eth-Phish/Hack (Phish/Hack in Ethereum)](https://paperswithcode.com/dataset/eth-phish-hack)
 Introduced by Zhou et al. in Behavior-aware Account De-anonymization on Ethereum Interaction Graph
 The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Interaction graph.
+
+## Related Posts

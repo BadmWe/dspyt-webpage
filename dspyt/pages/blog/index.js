@@ -37,7 +37,7 @@ export default function Home({ posts }) {
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {posts.slice(0, 6).map((post, index) => (
-              <Post key={index} post={post} />
+              <Post key={index} post={post.frontmatter} slug={post.slug} />
             ))}
           </div>
           <nav
