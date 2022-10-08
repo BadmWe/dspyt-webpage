@@ -4,7 +4,7 @@ date: "April 27, 2022"
 excerpt: "In this article we discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database."
 cover_image: "/images/posts/trueblocks/pexels-vitaly-vlasov-1342460-e1658960499878.webp"
 time_read: "5 min"
-tags: ["TrueBlocks", "Indexer", "blockchain"]
+tags: ["TrueBlocks", "Indexer", "blockchain", "IPFS", "GitCoin", "Ethereum"]
 ---
 
 In this article we are going to discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database in the way it stores information. A blockchain is a growing list of records, also called blocks, that are linked together using the latest cryptography technology. In general, each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.

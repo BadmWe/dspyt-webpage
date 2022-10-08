@@ -49,7 +49,7 @@ Besides, a survey involves distributing a list of questions to a sample of peopl
 
 Finally, seek out pre-existing datasets that have been compiled from sources like governmental organizations or research institutes in order to evaluate data you cannot directly access.
 
-## Data sources
+## Ethereum Blockchain Security Data sources
 
 First we advise to assemble the archival research on Ethereum blockchain security, compliance, and authenticity might encompass investigation into historical events and their significance.
 
@@ -57,7 +57,7 @@ Ethereum blockchain use cases are not limited to speculation and trading. Meanwh
 
 For example, the Ethereum based smart contracts can be examined for compliance in relation to [OFAC Sanctions](https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information).
 
-## What is AML compliance?
+## Notable articles
 
 Some notable articles on AML compliance and latest trends include:
 
@@ -70,9 +70,9 @@ Some notable articles on AML compliance and latest trends include:
 - [Harmony Horizon Exploit Linked to North Korea, $10M Bounty Offered](https://www.coindesk.com/tech/2022/06/30/harmony-horizon-exploit-linked-to-north-korea-10m-bounty-offered-in-global-manhunt/)
 - [Crypto-Mixing Service Tornado Cash Blacklisted by US Treasury](https://www.coindesk.com/policy/2022/08/08/crypto-mixing-service-tornado-cash-blacklisted-by-us-treasury/)
 
-## Potential Data Sources
+## Available Online Data Sources
 
-Below are some possible data sources which could be utilized in your research.
+Below are relevant data sources which is in the research of Ethereum blockchain security, compliance and regulation.
 
 - [Cyber-related Designation; North Korea Designation Update 05/06/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506)
 - [North Korea Designation Update; Counter Narcotics Designations Removals 04/22/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220422)
@@ -105,3 +105,6 @@ Data gathering enables you to get first-hand knowledge and unique insights into 
 - [Data Collection | Definition, Methods & Examples](https://www.scribbr.com/methodology/data-collection/)
 
 ## Related Posts
+
+- [Ethereum Security Data Analytics](https://dspyt.com/data_analytics)
+- [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)

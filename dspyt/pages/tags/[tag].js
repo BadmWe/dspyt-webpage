@@ -32,7 +32,7 @@ export default function Tag({ posts, tag }) {
     <>
       <Head>
         <title>{`Data Science with Python ${title} | DSPYT`}</title>
-        <link rel="icon" href="big-data-svgrepo.svg" />
+        <link rel="icon" href="/big-data-svgrepo.svg" />
         <meta
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."

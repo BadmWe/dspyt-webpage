@@ -125,3 +125,6 @@ Introduced by Zhou et al. in Behavior-aware Account De-anonymization on Ethereum
 The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Interaction graph.
 
 ## Related Posts
+
+- [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
+- [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
