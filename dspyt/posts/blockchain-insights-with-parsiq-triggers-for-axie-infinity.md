@@ -135,5 +135,3 @@ In our AXS dataset on Ethereum we also obtained scores for addresses by using ge
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
-- [Data Analytics for Honest Protocol](https://dspyt.com/honest_protocol_data_analytics)
-- [Data Collection Ideas for Honest Protocol](https://dspyt.com/honest_protocol_data_collection_ideas)

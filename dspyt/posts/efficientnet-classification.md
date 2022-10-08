@@ -4,20 +4,29 @@ date: "April 29, 2022"
 excerpt: "We discuss Convolutional Neural Networks, data augmentation, efficientnet classification and how to achieve 100% accuracy."
 cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.jpg"
 time_read: "5 min"
-tags: ["keras", "python", "image-classification", "efficientnet"]
+tags:
+  [
+    "keras",
+    "python",
+    "image-classification",
+    "efficientnet",
+    "data",
+    "computer-vision",
+    "tensorflow",
+  ]
 ---
 
 Humans unlike computers make sense of what we see based on our experiences, memories and biological structure. Human brain extracts and analyses humongous volumes of data using visual cues. To understand the true effect of sight, 40% of our nerve fibers are linked to the retina, and 90% of information transmitted to the brain is visual. In fact, research at 3M Corporation concluded that we process visuals 60,000 times faster than text.
 
-![EfficientNet Keras](/images/posts/efficientnet/pexels-pixabay-35550-2.jpg)
+![efficientnet Keras](/images/posts/efficientnet/pexels-pixabay-35550-2.jpg)
 
-## Computer Vision Tasks with efficientnet classification
+## Computer Vision Tasks with efficientnet Keras classification
 
 To begin with, image classification is a fundamental task that assesses an entire image. The goal is to classify the image by assigning it to a specific label. Typically, image classification refers to images in which only one object appears and a computer analyses. Besides, object detection involves both classification and localization tasks, and analyses more realistic cases in which multiple objects may exist in an image. In general, there are two methods of classification: supervised and unsupervised.
 
-Furthermore, the more advanced task of separating pixels in an image to a particular object or class requires computer vision techniques and methods. Data scientists and computer vision specialists refer to such task as a semantic segmentation or a dense prediction. Semantic segmentation is particularly a popular term in autonomous vehicles such as cars, drones and planes, in addition to medical image diagnosis. An example of Deep Learning based Semantic Segmentation | Keras on Kaggle.
+Furthermore, the more advanced task of separating pixels in an image to a particular object or class requires computer vision techniques and methods. Data scientists and computer vision specialists refer to such task as a semantic segmentation or a dense prediction. Semantic segmentation is particularly a popular term in autonomous vehicles such as cars, drones and planes, in addition to medical image diagnosis.
 
-![Computer Vision Tasks with efficientnet classification](/images/posts/efficientnet/image.png)
+![Computer Vision Tasks with efficientnet Keras classification](/images/posts/efficientnet/image.png)
 
 In this post we will discuss Convolutional Neural Networks, data augmentation, EfficientNet and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets.
 
@@ -125,9 +134,9 @@ The following class reads images, resizes, augments the images and passes the ba
         <span style="color: #007020; font-weight: bold">return</span> <span style="color: #007020">int</span>(np<span style="color: #666666">.</span>floor(<span style="color: #007020">len</span>(<span style="color: #007020">self</span><span style="color: #666666">.</span>paths) <span style="color: #666666">/</span> <span style="color: #007020">self</span><span style="color: #666666">.</span>batch_size))
 </pre></div>
 
-## Efficientnet classification
+## efficientnet Keras classification
 
-EfficientNets are state of the art convolutional neural networks that Google Brain released open source. A family of image classification models achieve state-of-the-art accuracy, yet are an order-of-magnitude smaller and faster than previous models such as [ResNet-152](https://arxiv.org/abs/1512.03385) and [ResNet-50](https://arxiv.org/abs/1512.03385).
+EfficientNet is state of the art convolutional neural network that Google Brain released open source. A family of image classification models achieve state-of-the-art accuracy, yet are an order-of-magnitude smaller and faster than previous models such as [ResNet-152](https://arxiv.org/abs/1512.03385) and [ResNet-50](https://arxiv.org/abs/1512.03385).
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">create_model</span>(input_shape<span style="color: #666666">=</span>(<span style="color: #40a070">224</span>, <span style="color: #40a070">224</span>, <span style="color: #40a070">3</span>)):
     inputs <span style="color: #666666">=</span> Input(input_shape)
@@ -157,17 +166,14 @@ Finally, we combine the augmentation pipeline, the data generator and our model 
 
 ![EfficientNet Ketas training results](/images/posts/efficientnet/image-1-1024x344.png)
 
-## References and Useful Links
+## References and Related Links
 
 Would really like to thank the person who wrote the
 <a href="https://github.com/kineticmarginal/TargetClassification/blob/main/main.ipynb" target="_blank" rel="noreferrer noopener">entire script</a> Daniil Stepanov: <a href="https://t.me/kineticmarginal" target="_blank" rel="noreferrer noopener">telegram</a> and <a href="https://github.com/kineticmarginal" target="_blank" rel="noreferrer noopener">GitHub</a>.
 
 - Jeremy Jordan. 2018. An overview of semantic image segmentation.</em>. [online] Available at: <a href="https://www.jeremyjordan.me/semantic-segmentation/" target="_blank" rel="noreferrer noopener">https://www.jeremyjordan.me/semantic-segmentation/</a> [Accessed 1 September 2021].</li>
-
 - Le, J., 2018. <em>The 4 Convolutional Neural Network Models That Can Classify Your Fashion Images</em>. [online] Medium. Available at: <a href="https://towardsdatascience.com/the-4-convolutional-neural-network-models-that-can-classify-your-fashion-images-9fe7f3e5399d" target="_blank" rel="noreferrer noopener">https://towardsdatascience.com/the-4-convolutional-neural-network-models-that-can-classify-your-fashion-images-9fe7f3e5399d</a> [Accessed 1 September 2021].</li>
-
 - Tan, M. and Le, Q., 2020. <em>EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks</em>. [arXiv.org](https://arxiv.org/abs/1905.11946v5)
-
 - [EfficientNet on Github](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 - [Papers with Code Image Classification](https://paperswithcode.com/task/image-classification)
 - [Studies Confirm the Power of Visuals to Engage Your Audience in eLearning](https://www.shiftelearning.com/blog/bid/350326/studies-confirm-the-power-of-visuals-in-elearning)

@@ -1,5 +1,5 @@
 ---
-title: "How to Panel data python – An easy introduction - DSPYT"
+title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 cover_image: "/images/posts/panel/paneldata.webp"
@@ -131,5 +131,3 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
-- [Data Analytics for Honest Protocol](https://dspyt.com/honest_protocol_data_analytics)
-- [Data Collection Ideas for Honest Protocol](https://dspyt.com/honest_protocol_data_collection_ideas)
