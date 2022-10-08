@@ -103,9 +103,9 @@ df<span style="color: #666666">.</span>head()
 
 Panel data analysis is a statistical method widespread in the fields of economics, finance and epidemiology to analyze two-dimensional panel data. In a production environment regression estimation and data modeling traditionally follows the collection of a data set. The three most ubiquitous panel data models are a pooled model, a fixed effects model and a random effects model.
 
-## Panel data python: Pooled OLS
+## Panel data python: Pooled OLS regression
 
-For an estimation of pooled OLS we use linearmodels library and for a creation of a constant for a linear equation we use statsmodels library.
+For an estimation of pooled OLS regression we use linearmodels library. In addition, for a creation of a constant as input to linear equation we use statsmodels library.
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">exog_vars <span style="color: #666666">=</span> [<span style="color: #4070a0">&quot;Country&quot;</span>, <span style="color: #4070a0">&#39;year&#39;</span>]
 exog <span style="color: #666666">=</span> sm<span style="color: #666666">.</span>add_constant(df[exog_vars])
@@ -114,18 +114,16 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 <span style="color: #007020">print</span>(pooled_res)
 </pre></div>
 
-![Panel Data Python Dspyt](/images/posts/panel/paneldata6.webp)
+![Panel Data Python: Pooled OLS regression Dspyt](/images/posts/panel/paneldata6.webp)
 
-## References
+## References and Related Posts
 
 - Bashtage.github.io. n.d. [Examples — linearmodels v4.24 documentation](https://bashtage.github.io/linearmodels/panel/examples/examples.html).
 - Cross Validated. n.d. [What is the difference between pooled cross sectional data and panel data?](https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data).
 - Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
+
 - [Kaggle notebook](https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis)
-
-## Related Posts
-
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
