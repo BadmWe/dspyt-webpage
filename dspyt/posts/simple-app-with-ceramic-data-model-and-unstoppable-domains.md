@@ -15,13 +15,11 @@ In this tutorial we set up an application to interact with JS HTTP Client throug
 <iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/IVo6tN8BpOY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The app is hosted on Vercel at https://ceramic-unstoppable.vercel.app/.
-
-The GitHub repository is at https://github.com/Pfed-prog/Ceramic_Unstoppable.
+The app is hosted on [Vercel](https://ceramic-unstoppable.vercel.app/). [The GitHub repository](https://github.com/Pfed-prog/).
 
 ## Requirements
 
-Node.js v14 and npm v6
+- Node.js v14 and npm v6
 
 For more detailed information look at [Ceramic Developers Portal](https://developers.ceramic.network/build/javascript/http/)
 
