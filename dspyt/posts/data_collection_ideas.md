@@ -64,11 +64,11 @@ Some notable articles on AML compliance and latest trends include:
 - [Building AML Compliance for NFT Marketplaces](https://sumsub.com/blog/nft-aml-compliance/)
 - [KYC and AML 2022—the Difference and Best Practices](https://sumsub.com/blog/kyc-and-aml/)
 - [Crypto Addresses Holding NFTs Worth $532k are Among the Latest Sanctioned by OFAC](https://www.elliptic.co/blog/crypto-addresses-holding-nfts-worth-532k-are-among-latest-sanctioned-by-ofac)
+- [Crypto-Mixing Service Tornado Cash Blacklisted by US Treasury](https://www.coindesk.com/policy/2022/08/08/crypto-mixing-service-tornado-cash-blacklisted-by-us-treasury/)
 - [OFAC Sanctions Popular Ethereum Mixer Tornado Cash for Laundering Crypto Stolen by North Korea’s Lazarus Group](https://blog.chainalysis.com/reports/tornado-cash-ofac-designation-sanctions/)
 - [Anonymous user is sending ETH from Tornado Cash sanctioned addresses](https://earlyminter.com/crypto/anonymous-user-is-sending-eth-from-tornado-cash-sanctioned-addresses/)
 - [Tornado Cash Adds Chainalysis Tool for Blocking OFAC-Sanctioned Wallets From Dapp](https://www.coindesk.com/tech/2022/04/15/tornado-cash-adds-chainalysis-tool-for-blocking-ofac-sanctioned-wallets-from-dapp/)
 - [Harmony Horizon Exploit Linked to North Korea, $10M Bounty Offered](https://www.coindesk.com/tech/2022/06/30/harmony-horizon-exploit-linked-to-north-korea-10m-bounty-offered-in-global-manhunt/)
-- [Crypto-Mixing Service Tornado Cash Blacklisted by US Treasury](https://www.coindesk.com/policy/2022/08/08/crypto-mixing-service-tornado-cash-blacklisted-by-us-treasury/)
 
 ## Available Online Data Sources
 
