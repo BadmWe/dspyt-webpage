@@ -15,6 +15,7 @@ tags:
     "DRPK",
     "regulation",
     "compliance",
+    "blockchain",
   ]
 ---
 

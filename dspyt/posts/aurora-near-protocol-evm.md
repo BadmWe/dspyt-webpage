@@ -4,7 +4,7 @@ date: "April 22, 2022"
 excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
 cover_image: "/images/posts/aurora/aurora.webp"
 time_read: "5 min"
-tags: ["aurora", "near", "evm"]
+tags: ["aurora", "near", "evm", "near-protocol", "blockchain"]
 ---
 
 Blockchain technology is one of the most exuberant technologies at the moment. However, it can be very complicated with technical challenges at every stage. The opportunity now is to bridge the innovative world of Web 3.0 with the convenience and familiarity of Web 2.0, in order to make it more widely adopted.
@@ -14,6 +14,10 @@ Web 3 is exponentially growing, which is why developers build Layer 2 networks. 
 ## Aurora Overview
 
 The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.
+
+<div style="position: relative; padding-bottom: 56.25%;">
+<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/a5hKRYKJIPQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Aurora is a layer 2 solution on top of the NEAR Protocol, which is a sharded proof-of-stake blockchain. This allows the creation of a highly scalable and fault-tolerant network that can be used for a variety of applications, as well as being compatible with the Ethereum Virtual Machine.
 
