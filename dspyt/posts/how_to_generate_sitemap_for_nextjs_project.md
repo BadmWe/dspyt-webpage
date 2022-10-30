@@ -1,7 +1,7 @@
 ---
 title: "How to generate nextjs sitemap for your project"
 date: "October 29, 2022"
-excerpt: "We generate sitemap and robots.txt for our web badminton open-source nextjs project."
+excerpt: "We generate sitemap and robots.txt for our webbadminton open-source nextjs project with help of next-sitemap."
 cover_image: "/images/posts/sitemap/sitemap.webp"
 time_read: "1 min"
 tags: ["nextjs", "sitemap", "webbadminton", "next-sitemap", "npm"]
