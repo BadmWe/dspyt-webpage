@@ -1,13 +1,13 @@
 ---
 title: "Simple QR code generator on AWS with Flask - DSPYT"
 date: "April 28, 2022"
-excerpt: "We developed web application in python Flask that generates QR code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
+excerpt: "Web application in Flask python to generate qr code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
 cover_image: "/images/posts/qr code/pexels-ron-lach-9784240.webp"
 time_read: "5 min"
 tags: ["python", "flask", "AWS", "QR-code", "Casper"]
 ---
 
-We developed web application in python Flask that generates QR code with the help of qrcode python library. We hosted the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you onyl need to copy the code and configure AWS pipeline to deploy following application.
+We developed web application in Flask python to generate qr code with the help of qrcode python library. We hosted the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
 
 [The GitHub repository for the project](https://github.com/Pfed-prog/casper_QR).
 
@@ -17,7 +17,7 @@ We developed web application in python Flask that generates QR code with the hel
 
 ## Python QR Code AWS App
 
-The necessary condition for a Flask QR code application to run aws is initialize application = Flask(\_\_name\_\_)
+The necessary condition for a python Flask QR code application to sucessfully run aws is to initialize the app as following: application = Flask(\_\_name\_\_)
 
 <script src="https://emgithub.com/embed.js?target=https://github.com/Pfed-prog/casper_QR/blob/main/application.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 
