@@ -7,13 +7,13 @@ time_read: "5 min"
 tags: ["Python", "finance", "log-return", "econometrics"]
 ---
 
-In this blog post we are going to introduce the concepts of log returns vs simple returns and realized volatility.
+In this blog post, we are going to introduce the concepts of log returns vs simple returns and realized volatility.
 
-To illustrate the concept of log returns we are going to demonstrate the concepts with the help of python libraries: pandas and numpy.
+To illustrate the concept of log returns we are going to demonstrate the concepts with the help of python libraries: pandas and NumPy.
 
 ## Simple returns vs log returns
 
-To begin with, the key benefit of using financial returns instead of prices is normalization which allows us to measure and compare all financial instruments and assets. This is also a requirement for many multidimensional statistical analysis and advanced machine learning techniques.
+To begin with, the key benefit of using financial returns instead of prices is normalization which allows us to measure and compare all financial instruments and assets. This is also a requirement for many multidimensional statistical analyses and advanced machine-learning techniques.
 
 The simple financial return on an asset is the amount we receive or lose after holding an asset for a certain time frame.
 
