@@ -7,13 +7,13 @@ time_read: "5 min"
 tags: ["Python", "telegram", "bot", "heroku"]
 ---
 
-To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate public on computer security and protecting yourself online. The bot was running from our personal laptop and utilized python telebot library. However, we experienced difficulties when we put python telegram bot on Heroku.
+To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate the public on computer security and protecting yourself online. The bot was running from our personal laptop and utilized the python telebot library. However, we experienced difficulties when we put the python telegram bot on Heroku.
 
-As a result, in this blog post we conduct telegram optimizing. We optimize the python telegram bot template from scratch so we could host heroku telegram bot.
+As a result, in this blog post, we conduct telegram optimization. We optimize the python telegram bot template from scratch so we could host the Heroku telegram bot.
 
 ## Python Virtual Environment
 
-First, we need to save python dependencies to host telegram python bot on Heroku. In this tutorial related to telegram optimizing, we use python virtual environment library virtualenv. We install the python library:
+First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to telegram optimizing, we use the python virtual environment library virtualenv. We install the python library:
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip install virtualenv
 </pre></div>
@@ -24,12 +24,12 @@ Next, we start the virtual environment and activate it:
 <span style="color: #007020">source </span>project/Scripts/activate
 </pre></div>
 
-To save the dependencies for server such as Heroku, we run the following python command:
+To save the dependencies for the server such as Heroku, we run the following python command:
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip freeze &gt; requirements.txt
 </pre></div>
 
-In case we want to exit python virtual environment:
+In case we want to exit the python virtual environment:
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">deactivate
 </pre></div>
@@ -47,22 +47,21 @@ First, we install the key python telegram bot library which is python-telegram-b
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip install python-telegram-bot
 </pre></div>
 
-Next, we create a simple python telegram bot that uses /start and /help commands as well as echos user’s message. The script also uses a web-hook for Heroku hosting:
-
+Next, we create a simple python telegram bot that uses /start and /help commands as well as echoes the user’s message. The script also uses a web hook for Heroku hosting:
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdspytdao%2FTelegram_bot_py_heroku%2Fblob%2Fmain%2Fbot.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
 
 Do not forget to edit the created TOKEN and APP_NAME that you obtain through Heroku.
 
-## Deploying heroku python telegram bot
+## Deploying Heroku python telegram bot
 
-Besides, we create a Procfile that contains a following line:
+Besides, we create a Procfile that contains the following lin
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">web: python3 bot.py
 </pre></div>
 
-Our folder should contain three files: Procifle, the python script (in this case bot.py) and requirements.txt.
+Our folder should contain three files: Procifle, the python script (in this case bot.py), and requirements.txt.
 
-Finally, we deploy python telegram bot on Heroku:
+Finally, we deploy a python telegram bot on Heroku:
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">git init
 heroku create <span style="color: #4070a0">&quot;app-name&quot;</span> <span style="color: #60a0b0; font-style: italic"># This is the APP_NAME from the script</span>
@@ -73,6 +72,10 @@ git push heroku master
 </pre></div>
 
 [The GitHub library for the python telegram bot](https://github.com/dspytdao/Telegram_bot_py_heroku)
+
+## Summary
+
+In this tutorial, we create a simple python Heroku telegram bot that uses /start and /help commands as well as echoes the user's message. The script also uses a web hook for python Heroku hosting. To create a bot we have to message @BotFather in telegram. After that BotFather sends us the HTTP API TOKEN.
 
 ## Related Posts
 
