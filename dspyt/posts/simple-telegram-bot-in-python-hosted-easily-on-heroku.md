@@ -7,7 +7,8 @@ time_read: "5 min"
 tags: ["python", "telegram", "bot", "heroku"]
 ---
 
-To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate public on computer security and protecting yourself online. The bot was running from our personal notebook and utilized telebot library. However, we experienced difficulties when we put on Heroku.
+To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate public on computer security and protecting yourself online. The bot was running from our personal laptop and utilized python telebot library. However, we experienced difficulties when we put python telegram bot on Heroku.
+
 As a result, in this blog post we conduct telegram optimizing. We optimize the python telegram bot template from scratch so we could host heroku telegram bot.
 
 ## Python Virtual Environment

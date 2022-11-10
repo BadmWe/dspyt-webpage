@@ -74,9 +74,9 @@ Some notable articles on AML compliance and latest trends include:
 - [Tornado Cash Adds Chainalysis Tool for Blocking OFAC-Sanctioned Wallets From Dapp](https://www.coindesk.com/tech/2022/04/15/tornado-cash-adds-chainalysis-tool-for-blocking-ofac-sanctioned-wallets-from-dapp/)
 - [Harmony Horizon Exploit Linked to North Korea, $10M Bounty Offered](https://www.coindesk.com/tech/2022/06/30/harmony-horizon-exploit-linked-to-north-korea-10m-bounty-offered-in-global-manhunt/)
 
-## Available Online Data Sources
+## Available Online Ethereum Data Sources
 
-Below are relevant data sources which is in the research of Ethereum blockchain security, compliance and regulation.
+Below are relevant online data sources which could aid in the research of Ethereum blockchain security, compliance and regulation.
 
 - [Cyber-related Designation; North Korea Designation Update 05/06/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506)
 - [North Korea Designation Update; Counter Narcotics Designations Removals 04/22/2022](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220422)

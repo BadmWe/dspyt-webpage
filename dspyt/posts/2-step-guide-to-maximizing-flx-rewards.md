@@ -38,8 +38,6 @@ DeFi Saver has similar conditions but provides more intuitive dashboard:
 
 To mint RAI you would require ETH collateral that would cover at minimum 135% of the borrowing amount. However, the minimum 135% is extremely risky since it would require only a small downward price movement to liquidate your position. The dashboard recommends covering your position by over than 185%.
 
-![Reflexer Risk Level](/images/posts/reflexer/reflexer.webp)
-
 For instance, if you borrow 5000 RAI at 186% collateral ratio you would require 6.5 ETH. The math is as following:
 The borrowing amount is equal to 5000 RAI or $15100. Hence, the required collateral is $15100 \* 186%= $28076 in ETH. At $4319.66 per ETH the required collateral is 6.5 ETH.
 
