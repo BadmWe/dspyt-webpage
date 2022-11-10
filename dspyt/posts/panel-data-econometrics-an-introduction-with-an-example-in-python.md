@@ -4,7 +4,7 @@ date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 cover_image: "/images/posts/panel/paneldata.webp"
 time_read: "5 min"
-tags: ["panel-data", "python", "econometrics", "data"]
+tags: ["panel-data", "Python", "econometrics", "data"]
 ---
 
 In this article we discuss panel data python as well as panel data regression python.

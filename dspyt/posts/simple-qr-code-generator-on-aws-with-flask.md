@@ -4,7 +4,7 @@ date: "April 28, 2022"
 excerpt: "Web application in Flask python to generate qr code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
 cover_image: "/images/posts/qr code/pexels-ron-lach-9784240.webp"
 time_read: "5 min"
-tags: ["python", "flask", "AWS", "QR-code", "Casper"]
+tags: ["Python", "flask", "AWS", "QR-code", "Casper"]
 ---
 
 We developed web application in Flask python to generate qr code with the help of qrcode python library. We hosted the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
