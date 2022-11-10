@@ -30,7 +30,7 @@ export default function Post({
             ))}
           </div>
           <div className="block mt-2">
-            <Link href={`/${slug}`}>
+            <Link href={`/${slug}`} legacyBehavior>
               <a className="text-xl font-semibold text-gray-900">{title}</a>
             </Link>
             <p className="mt-3 text-base text-gray-500">{excerpt}</p>

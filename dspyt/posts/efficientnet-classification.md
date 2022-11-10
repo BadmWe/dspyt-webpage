@@ -7,7 +7,7 @@ time_read: "5 min"
 tags:
   [
     "keras",
-    "python",
+    "Python",
     "image-classification",
     "efficientnet",
     "data",
