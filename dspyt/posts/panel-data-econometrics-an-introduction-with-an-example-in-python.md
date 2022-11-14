@@ -7,7 +7,7 @@ time_read: "5 min"
 tags: ["panel-data", "Python", "econometrics", "data"]
 ---
 
-In this article we discuss panel data python as well as panel data regression python.
+In this article, we discuss panel data python as well as panel data regression python.
 
 Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in a panel data we take into account the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
 
