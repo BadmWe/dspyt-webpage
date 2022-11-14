@@ -4,12 +4,12 @@ date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 cover_image: "/images/posts/panel/paneldata.webp"
 time_read: "5 min"
-tags: ["panel-data", "Python", "econometrics", "data"]
+tags: ["panel-data", "Python", "econometrics", "data", "pooled-data"]
 ---
 
-In this article, we discuss panel data python as well as panel data regression python.
+Panel data (or longitudinal data) comprises [time series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in panel data, we consider the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
 
-Panel data (or longitudinal data) comprises [time-series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in a panel data we take into account the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
+In this article, we discuss panel data python and panel data regression python. We also provide the python panel data examples illustrating the econometrics concepts.
 
 <div style="position: relative; padding-bottom: 56.25%;">
 <iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -21,7 +21,7 @@ According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#pa
 
 Some experts refer to Pooled data as “time series of cross sections”, where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
 
-X{it}, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T and denotes the time of the observation.
+X{it}, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
 
 ## Advantages and Disadvantages of Panel data
 
@@ -31,7 +31,7 @@ There are numerous benefits of panel data over [cross sectional](https://dspyt.c
 - Panel data facilitates causal inference which would be difficult with one cross-section or time-series data set.
 - Panel data allows us to study significance of lags in behaviour and results of decision-making across time and entities.
 
-Nevertheless, for a data scientist it might be difficult to obtain panel data since it requires a replication of the same entities over multiple periods.
+Nevertheless, for a data scientist, it might be difficult to obtain panel data since it requires replication of the same entities over multiple periods.
 
 ## Types of Panel data
 
@@ -103,9 +103,15 @@ df<span style="color: #666666">.</span>head()
 
 Panel data analysis is a statistical method widespread in the fields of economics, finance and epidemiology to analyze two-dimensional panel data. In a production environment regression estimation and data modeling traditionally follows the collection of a data set. The three most ubiquitous panel data models are a pooled model, a fixed effects model and a random effects model.
 
+## Why panel data regression python?
+
+Since the fundamental principle of regression is to estimate the mean values and a single point in time, it might be interesting to investigate whether a linear model based on regression works in the case of multiple observations of the same entities in a panel data set. This is one of the reasons why panel data regression is an important data science tool in data science.
+
+Also, it is important to consider the time-variation of a variable in the cross-section of panel data to estimate its dependence on time. However, in data analysis, we usually use a regression model which is centered on the cross-section and allows us to estimate the dependency of a variable on the time (i.e., linear regression).
+
 ## Panel data python: Pooled OLS regression
 
-For an estimation of pooled OLS regression we use linearmodels library. In addition, for a creation of a constant as input to linear equation we use statsmodels library.
+For an estimation of pooled OLS regression we use python linearmodels library. In addition, for a creation of a constant as input to linear equation we use python statsmodels library.
 
 <div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">exog_vars <span style="color: #666666">=</span> [<span style="color: #4070a0">&quot;Country&quot;</span>, <span style="color: #4070a0">&#39;year&#39;</span>]
 exog <span style="color: #666666">=</span> sm<span style="color: #666666">.</span>add_constant(df[exog_vars])
@@ -122,7 +128,6 @@ pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666"
 - Cross Validated. n.d. [What is the difference between pooled cross sectional data and panel data?](https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data).
 - Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
-
 - [Kaggle notebook](https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
