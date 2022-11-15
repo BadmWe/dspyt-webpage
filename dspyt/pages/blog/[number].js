@@ -63,7 +63,7 @@ export default function Home({ posts }) {
               {number < 2 ? (
                 ""
               ) : (
-                <Link href={`/blog/${number - 1}`}>
+                <Link href={`/blog/${number - 1}`} legacyBehavior>
                   <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     Previous
                   </a>
@@ -71,7 +71,7 @@ export default function Home({ posts }) {
               )}
 
               {number === 1 ? (
-                <Link href={`/blog/`}>
+                <Link href={`/blog/`} legacyBehavior>
                   <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     Previous
                   </a>
@@ -83,7 +83,7 @@ export default function Home({ posts }) {
               {6 * number + 6 >= posts.length ? (
                 ""
               ) : (
-                <Link href={`/blog/${number + 1}`}>
+                <Link href={`/blog/${number + 1}`} legacyBehavior>
                   <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     Next
                   </a>

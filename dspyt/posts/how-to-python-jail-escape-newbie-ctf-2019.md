@@ -4,10 +4,12 @@ date: "May 1, 2022"
 excerpt: "Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. We use built-in methods."
 cover_image: "/images/posts/jailescape/image-e1658960653261.webp"
 time_read: "5 min"
-tags: ["python", "ctf", "ethical-hacking"]
+tags: ["Python", "ctf", "ethical-hacking"]
 ---
 
-Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. It is generally a bad idea to allow users to input commands that will be executed, since there is a high chance that they could input something that would allow them to gain elevated permissions or access sensitive data. However, people often add condition checks in an attempt to prevent this from happening, even though it is rarely effective.
+Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. It is generally a bad idea to allow users to input commands that will be executed since there is a high chance that they could input something that would allow them to gain elevated permissions or access sensitive data. However, people often add condition checks in an attempt to prevent this from happening, even though it is rarely effective.
+
+The jail is basically a set of python code that is executed on the python process when the user executes certain commands, in this case entering specific lines of text. This is possible since Python allows passing parameters to the application. In this particular case, the script only checks if the command passed is not banned.
 
 ![Python jail Escape](/images/posts/jailescape/image-2.webp)
 
