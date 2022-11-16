@@ -9,7 +9,7 @@ tags: ["nextjs", "sitemap", "webbadminton", "next-sitemap", "npm", "javascript"]
 
 ## What is a sitemap?
 
-A sitemap is a file that contains information about your site's pages, videos, and other assets, as well as the relationships between them. Search engines like Google read sitemap to crawl your site more efficiently. A sitemap tells Google which pages and files on your site you believe are significant. For example, sitemap  documents the latest update date of pages, and if there are any different language versions of the page.
+A sitemap is a file that contains information about your site's pages, videos, and other assets, as well as the relationships between them. Search engines like Google read sitemap to crawl your site more efficiently. A sitemap tells Google which pages and files on your site you believe are significant. For example, sitemap documents the latest update date of pages, and if there are any different language versions of the page.
 
 ## What are the disadvantages?
 
@@ -28,12 +28,21 @@ To run the process, you need a nextjs application. To install next-sitemap, you 
 
 ## Web Badminton
 
-Web badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
+Web Badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
 
 The application utilises JavaScript, NextJS, React, Tailwind Css and Wagmi library, IPFS, nft.storage and web3.storage.
 
 The smart contract is built with solidity, hardhat and polygon blockchain mumbai testnet.
 
-GitHub: https://github.com/BadmWe/WebBadminton
+[Web Badminton GitHub](https://github.com/BadmWe/WebBadminton)
 
-Demo: https://webbadminton.com
+[Web Badminton Demo](https://webbadminton.com)
+
+## Related Posts
+
+- [Simple Ceramic Data Model App](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)

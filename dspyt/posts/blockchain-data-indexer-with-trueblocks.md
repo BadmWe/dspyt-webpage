@@ -67,6 +67,7 @@ Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/gran
 
 ## Related Posts
 
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
