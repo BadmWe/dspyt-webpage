@@ -1,19 +1,45 @@
 ---
-title: "Web3Basketball"
+title: "Web3Basketball - Basketball statistics"
 date: "November 19, 2022"
 excerpt: "Basketball is one of the most popular sports in the world. Millions of people watch the sport, and thousands of supporters attend games."
 cover_image: "/images/posts/web3basketball/1.webp"
 time_read: "5 min"
 tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
 ---
-One of the most popular sports in the world is basketball. This is primarily because it is one of the most engrossing games ever created. Millions of people watch the sport, and thousands of supporters attend games. Accordingly, the National Basketball Association (NBA) is one of the world's most fiercely competitive leagues.
+Basketball improves overall health, benefits mental health, and keeps you fit. If your problem is extra pounds, basketball will help you quickly lose weight and gain the long-awaited harmony.
+
+**How basketball affects human psychology?** Very positively, because it forms in us many useful qualities and skills. For example, endurance is the ability to focus on a set goal, take initiative, work in a team, and take responsibility. Playing sports makes you happier or less stressed.
+
+With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
 
 <div style="position: relative; padding-bottom: 56.25%;">
 <iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
- 
+
+## What Web3Basketball does
+
+Web3Basketball Dapp introduces users to the sport of Basketball as well as contains an item store to track and ledger the delivery of basketball equipment. Each real equipment item is ledgered via a digital one with a smart contract logic system in place to determine the demand and track items. When delivery is completed the DApp NFTs should be exchanged for the physical items.
+
+A great win for the producers is to save on costs with improved inventory tracking and demand management. Web3Basketball DApp succeeds where off-chain software-ledger system products fail because they may go out of service, need updates, and crash with data losses. Web3Basketball DApp is a very low-cost business systems management product/tool.
+
+While competing software-based ledgering products carry monthly and or annual base fees, the only new costs accrued by the business utilizing the DApp are among new contract deployments. A new contract for a new batch of items only is needed every few months based on demand and delivery schedule.
+
+## How we built Web3Basketball
+
+We built the application using JavaScript, NextJS, React, Tailwind CSS, Polygon and ChainLink. The application is hosted on Vercel. Meanwhile, the IPFS data is stored using web3.storage and nft.storage with car file extension.
+
+We have utilised Price Feed from ChainLink oracle in the smart contract to calculate the fair price of the items in our market place. In particular we estimated Ethereum price in USD.
+
+## Useful links
+
+Twitter - https://twitter.com/Web3Basketball
+Website - website-cyan-seven.vercel.app
+
+## Interesting information
+One of the most popular sports in the world is basketball. This is primarily because it is one of the most engrossing games ever created. Millions of people watch the sport, and thousands of supporters attend games. Accordingly, the National Basketball Association (NBA) is one of the world's most fiercely competitive leagues.
+
 The NBA is a well-known basketball league that attracts viewers from all over the world. The world's best basketball players compete on this platform. There are a lot of thrilling plays and moments, including dunks, posterizations, blocks, and buzzer-beaters.
- 
+
 Thankfully, the NBA's governing body made it possible for everyone to watch, whether it be live on television or a basketball court. Real Research had therefore undertaken a study to ascertain NBA viewership. The study was conducted between December 24 and December 26, 2020.
 
 **Highlights**
