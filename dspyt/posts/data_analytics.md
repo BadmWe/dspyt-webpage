@@ -107,7 +107,7 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 
 ## More Collected Data Sets
 
-### 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74 Scam address data
+### Suspicious address data
 
 [OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam
 
@@ -129,3 +129,4 @@ The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Inte
 
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)

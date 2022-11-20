@@ -112,3 +112,4 @@ Data gathering enables you to get first-hand knowledge and unique insights into 
 
 - [Ethereum Security Data Analytics](https://dspyt.com/data_analytics)
 - [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)

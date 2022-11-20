@@ -6,6 +6,7 @@ cover_image: "/images/posts/web3basketball/1.webp"
 time_read: "5 min"
 tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
 ---
+
 Basketball improves overall health, benefits mental health, and keeps you fit. If your problem is extra pounds, basketball will help you quickly lose weight and gain the long-awaited harmony.
 
 **How basketball affects human psychology?** Very positively, because it forms in us many useful qualities and skills. For example, endurance is the ability to focus on a set goal, take initiative, work in a team, and take responsibility. Playing sports makes you happier or less stressed.
@@ -33,9 +34,11 @@ We have utilised Price Feed from ChainLink oracle in the smart contract to calcu
 ## Useful links
 
 Twitter - https://twitter.com/Web3Basketball
-Website - website-cyan-seven.vercel.app
+
+Website - https://website-cyan-seven.vercel.app
 
 ## Interesting information
+
 One of the most popular sports in the world is basketball. This is primarily because it is one of the most engrossing games ever created. Millions of people watch the sport, and thousands of supporters attend games. Accordingly, the National Basketball Association (NBA) is one of the world's most fiercely competitive leagues.
 
 The NBA is a well-known basketball league that attracts viewers from all over the world. The world's best basketball players compete on this platform. There are a lot of thrilling plays and moments, including dunks, posterizations, blocks, and buzzer-beaters.
@@ -122,3 +125,8 @@ When it comes to their preferred players, some basketball fans have biases. 37% 
 ![](https://realresearcher.com/media/wp-content/uploads/2020/12/nba-team-favorite-player.png)
 
 However, 16% of respondents prefer to consider the team's overall performance and play style. But 7% usually focus on the team management. The remainder retorted that their favorite team and player were distinct from one another.
+
+## Related Posts
+
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
