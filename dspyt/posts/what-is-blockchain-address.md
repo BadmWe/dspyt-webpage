@@ -29,7 +29,7 @@ In essence, it is a digital address set up specifically for sending and receivin
 A user's Bitcoin balance is represented by an address, which is merely a collection of random characters.
 A traditional bank account number can be linked to a Bitcoin wallet address. It uses an unusual set of alphanumeric keys.
 
-An example of a bitcoin wallet address is 1ExAmpLe0FaBiTco1NAdDr3sSV5tsGaMF6hd. It typically has 26 to 35 words and starts with (1, 3 or bc 1).
+An example of a bitcoin wallet address is 1ExAm...V5tsGaMF6hd. It typically has 26 to 35 words and starts with (1, 3 or bc 1).
 The entire system is set up to generate these alphanumeric characters as randomly as possible, which severely restricts personalization. Whatever characters make up a specific address are rigidly defined and cannot be changed. An address is produced concurrently with the creation of new bitcoin wallets.
 The wallet, which uses asymmetric encryption to create the private keys from the public keys—which are required to sign bitcoin transactions—is, in general, an effective representation of bitcoin public keys. The possibility of using someone else's money is eliminated by this public-private key pair. The data at a specific address can only be accessed and managed using a private key. Hash algorithms are used to generate bitcoin addresses, increasing security.
 

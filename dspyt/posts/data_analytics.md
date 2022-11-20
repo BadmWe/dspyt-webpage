@@ -109,9 +109,9 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 
 ### 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74 Scam address data
 
-[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam related to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
+[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam
 
-[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
+[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to a suspicious address
 
 [Premium Dataset. Hourly Crypto Market Anomaly Score: Ocean Protocol](https://market.oceanprotocol.com/asset/did:op:0d3c8845df538dff98a08e0cc9d572cf4703d9324eb5887e91e9c8d97474e8ae)
 

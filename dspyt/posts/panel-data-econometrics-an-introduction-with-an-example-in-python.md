@@ -19,7 +19,7 @@ In this article, we discuss panel data python and panel data regression python. 
 
 According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html), pooled data refers to data with relatively few cross-sections, where variables are held in cross-section specific individual series, meanwhile panel data corresponds to data with large numbers of cross-sections, with variables held in single series in a stacked form.
 
-Some experts refer to Pooled data as “time series of cross sections”, where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
+Some experts refer to Pooled data as "time series of cross sections", where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
 
 X{it}, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
 

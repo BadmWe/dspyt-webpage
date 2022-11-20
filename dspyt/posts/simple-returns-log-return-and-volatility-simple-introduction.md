@@ -61,12 +61,10 @@ Andersen and Bollerslev (1998) have suggested an ex-post intra-daily volatility 
 
 <iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=16&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
 
-## References
+## References and Related Posts
 
-<ul><li>Andersen, T. and Bollerslev, T., 1998. Deutsche Mark-Dollar Volatility: Intraday Activity Patterns, Macroeconomic Announcements, and Longer Run Dependencies.&nbsp;<em>The Journal of Finance</em>, 53(1), pp.219-265.</li><li>Kaggle notebok: <a href="https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf/edit/run/69210765" target="_blank" rel="noreferrer noopener">https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf/edit/run/69210765</a></li></ul>
-
-## Related Posts
-
+- [Deutsche Mark–Dollar Volatility: Intraday Activity Patterns, Macroeconomic Announcements, and Longer Run Dependencies](https://onlinelibrary.wiley.com/doi/abs/10.1111/0022-1082.85732)
+- [Kaggle log returns vs simple returns notebook](https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf)
 - [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
