@@ -11,8 +11,8 @@ Data collection is the systematic process of obtaining observations or measureme
 
 In this article, we describe how to select a research topic, study technique, and provide resources for high-quality data gathering on topics that include security, compliance, and authenticity, in particular, on Ethereum blockchain.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/Bpiu_vVFdTE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/Bpiu_vVFdTE?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 ## How to determine a research question

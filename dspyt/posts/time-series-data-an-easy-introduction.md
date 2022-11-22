@@ -2,14 +2,14 @@
 title: "Kaggle time series data – An easy introduction"
 date: "April 10, 2022"
 excerpt: "A time series is a collection of observations on at least one variable ordered along single dimension, time. time series forecasting is invaluable method."
-cover_image: "/images/posts/time-series/Time_series_of_norm_of_difference-map_increment_Δ_during_solving_random_3-SAT_instance.png"
+cover_image: "/images/posts/time-series/Time_series_of_norm_of_difference-map_increment_Δ_during_solving_random_3-SAT_instance.webp"
 time_read: "5 min"
 tags: ["Python", "time-series", "econometrics", "data"]
 ---
 
 A time series is a collection of observations on at least one variable ordered along single dimension, time. A time series data demonstrates properties such as large data size, abundant attributes and continuity. Time series forecasting is particularly useful in an analysis of a trend and forecasting in macroeconomics. In the field of finance time series data assists in forecasting volatility and an average price.
 
-![Bitcoin price Kaggle time series data example](/images/posts/time-series/time-series.png)
+![Bitcoin price Kaggle time series data example](/images/posts/time-series/time-series.webp)
 
 ## Kaggle Time Series Data Examples
 
@@ -33,39 +33,134 @@ To illustrate operations with time series data in python we use 6 years of 5 min
 
 First, we import necessary libraries and install new one in Kaggle environment:
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=4&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+import numpy as np
+import pandas as pd
 
-We also load the data set using pandas library <code>read_csv()</code> method. We process the date column with Datetime library <code>strptime()</code> method to a datetime data type comptible with Pandas DataFrame.
+from statsmodels.graphics.tsaplots import plot_pacf, plot_acf
+from statsmodels.tsa.stattools import adfuller
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.ar_model import AR
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=6-7&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+!pip install arch >/dev/null
+from arch.univariate import ARX,  ARCH, GARCH
 
-The pandas method<code>head(2)</code> displays first 2 rows of the data, meanwhile <code>info()</code> dispays information about the tpyes of the columns and DataFrame properties. We also set date column as an index:
+import warnings
+warnings.filterwarnings('ignore')
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=8-9&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+pd.set_option('display.max_rows', 1000)
+```
+
+We also load the data set using pandas library `read_csv()` method. We process the date column with Datetime library `strptime()` method to a datetime data type comptible with Pandas DataFrame.
+
+```python
+def parser(s):
+    return datetime.strptime(s[:19], '%Y-%m-%d %H:%M:%S')
+
+df = pd.read_csv("/kaggle/input/6-year-nifty50-historical-data-of-5-30-min-candle/5min_N50_10yr.csv", usecols = ['date','close'], parse_dates=['date'], date_parser=parser, index_col='date')
+```
+
+The pandas method`head(2)` displays first 2 rows of the data, meanwhile `info()` dispays information about the tpyes of the columns and DataFrame properties. We also set date column as an index:
+
+```python
+df.head(2)
+```
+
+![python pandas head method](/images/posts/time-series/head.webp)
+
+```python
+df.info()
+```
+
+![python pandas info method](/images/posts/time-series/info.webp)
 
 ## Visualization
 
 The stock price index data chart looks as following:
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=20&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+df.plot(figsize=(10,10))
+plt.savefig('plot.png')# to save the plot
+plt.show()
+```
+
+![python matplotlib NIFTY 50 time-series plot](/images/posts/time-series/plot.webp)
 
 Moreover, we can plot the data set and conduct a time series analysis using partial auto-correlation and auto-correlation plots that we will cover in details in the future:
 
 But first we save only daily stock close values to conduct daily stock price analysis. To conduct a higher frequency analysis we need tan access to more granular data from markets across the world.
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=27&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+data = df[(df.index.minute==25)&(df.index.hour==15)]
+data.head(2)
+```
+
+![python pandas head method on NIFTY50](/images/posts/time-series/nifty50head.webp)
 
 ## Autocorrelation plots
 
 For plotting auto-correlations we use statsmodels library. Here is an example of autocorrelation and partial autocorrelation plots for stock index price data.
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=29-30&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+plot_acf(data['close'])
+plt.savefig('acf.png')
+plt.show()
+```
 
-Clearly there is evidence for time-dependence and serial correlation. Hence, we should convert the prices to a log-price for symmetry around zero and difference the data for stationarity.
+![python autocorrelation plot NIFTY50](/images/posts/time-series/acf.webp)
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=36-41&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+plot_pacf(data['close'])
+plt.savefig('pacf.png')
+plt.show()
+```
 
-The plot of log-returns exhibits a constant mean, variance and auto-correlation function.
+![python partial autocorrelation plot NIFTY50](/images/posts/time-series/pacf.webp)
+
+Clearly there is evidence for time-dependence and serial correlation. Hence, we should convert the prices to a log-price due to the property of symmetry around zero and difference the data for stationarity.
+
+```python
+def log_return(list_stock_prices):
+    return np.log(list_stock_prices).diff()
+
+data['log_return'] = log_return(data.close)
+```
+
+We visualize the time series plot of log-price with matplotlib:
+
+```python
+data.log_return.plot(figsize=(10,10))
+plt.savefig('log.png')
+plt.show()
+```
+
+![time series plot of log-price with matplotlib](/images/posts/time-series/fplot.webp)
+
+We also provide comparative descriptive statistics. In a normal distribution mean equals median.
+
+```python
+data.describe()
+```
+
+![time series pandas python comparative statistics](/images/posts/time-series/cdescribe.webp)
+
+```python
+plot_pacf(data['log_return'].dropna())
+plt.savefig('dacf.png')
+plt.show()
+```
+
+![python differenced time-series autocorrelation plot NIFTY50](/images/posts/time-series/dacf.webp)
+
+```python
+plot_acf(data['log_return'].dropna())
+plt.savefig('dpacf.png')
+plt.show()
+```
+
+![python differenced time-series partial autocorrelation plot NIFTY50](/images/posts/time-series/dpacf.webp)
+
+The plot of differenced log-returns exhibits a constant mean, variance and auto-correlation function.
 
 You can access the data and code on [Kaggle](https://www.kaggle.com/pavfedotov/time-series-analysis-nifty50-stationarity-adf).
 

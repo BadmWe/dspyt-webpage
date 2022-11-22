@@ -26,7 +26,7 @@ In this article we are going to explain how liquidity providers can maximize the
 ## Step 1: Mint RAI
 
 To qualify for FLX rewards a user first and foremost should mint RAI on either [app.reflexer.finance](https://app.reflexer.finance) or [DeFi Saver](https://app.defisaver.com/reflexer/manage).
-On app.reflexer.finance the minimum amount of RAI per safe is 1704 which as of 18 November 2021 is $3.02. Hence, 1704 multiplied by $3 is around $5112, not accounting for transaction fees and creation of the account which costs $400.
+On app.reflexer.finance the minimum amount of RAI per safe is 1704 which as of 18 November 2021 is $3.02. Hence, 1704 multiplied by 3 USD is around 5112 USD, not accounting for transaction fees and creation of the account which costs 400 USD.
 
 ![Reflexer Create Safe to maximize flx rewards](/images/posts/reflexer/reflexercreate.webp)
 

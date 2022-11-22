@@ -13,8 +13,8 @@ Basketball improves overall health, benefits mental health, and keeps you fit. I
 
 With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 ## What Web3Basketball does

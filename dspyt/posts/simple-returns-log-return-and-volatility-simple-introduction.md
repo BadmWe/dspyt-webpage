@@ -25,17 +25,24 @@ Meanwhile we calculate log returns as
 
 where P is price of an asset and t is a time period.
 
-In pandas we calculate simple returns with an in-built pandas function <code>pct_change</code> that calculates percentage change and use numpy <code>log</code> to calculate log returns in addition to pandas <code>diff</code> that differences the series.
+In pandas we calculate simple returns with an in-built pandas function `pct_change` that calculates percentage change and use numpy `log` to calculate log returns in addition to pandas `diff` that differences the series.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">data[<span style="color: #4070a0">&#39;simple_returns&#39;</span>] <span style="color: #666666">=</span> data<span style="color: #666666">.</span>close<span style="color: #666666">.</span>pct_change()
-<span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">log_return</span>(list_stock_prices):
-    <span style="color: #007020; font-weight: bold">return</span> np<span style="color: #666666">.</span>log(list_stock_prices)<span style="color: #666666">.</span>diff()
-data[<span style="color: #4070a0">&#39;log_return&#39;</span>] <span style="color: #666666">=</span> log_return(data<span style="color: #666666">.</span>close)
-</pre></div>
+```python
+data['simple_returns'] = data.close.pct_change()
+def log_return(list_stock_prices):
+    return np.log(list_stock_prices).diff()
+data['log_return'] = log_return(data.close)
+```
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=41&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+We call pandas DataFrame `describe` method to provide generate descriptive statistics.
 
-The main advantage of log returns is that we can easily aggregate them across time unlike simple returns. For instance, the log return for a year is the sum of the log returns of the days within the year. Additionally, log returns are symmetric around 0 and log return values can range from minus infinity to plus infinity. Whereas, simple returns' downside is limited at -100%, meanwhile a negative movement of -25% (movement from 100$ to 75$) does not reverse the losses by going +25% (75$ to 93.75$).
+```python
+data.describe()
+```
+
+![pandas describe descriptive statistics](/images/posts/logreturns/descriptive.webp)
+
+The main advantage of log returns is that we can easily aggregate them across time unlike simple returns. For instance, the log return for a year is the sum of the log returns of the days within the year. Additionally, log returns are symmetric around 0 and log return values can range from minus infinity to plus infinity. Whereas, simple returns' downside is limited at -100%, meanwhile a negative movement of -25% (movement from 100 USD to 75 USD) does not reverse the losses by going +25% (75 USD to 93.75 USD).
 
 ## Realized Volatility
 
@@ -49,9 +56,16 @@ The formula for realized volatility:
 
 ![formula for realized volatility](https://latex.codecogs.com/svg.latex?%5Csigma%20%3D%20%5Csqrt%7B%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2%7D)
 
-In Python we create a function that calculates realized volatility with the help of numpy functions <code>sqrt</code> and <code>sum</code> and pandas <code>groupby</code> and <code>agg</code>.
+In Python we create a function that calculates realized volatility with the help of numpy functions `sqrt` and `sum` and pandas `groupby` and `agg`.
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=11&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_volatility(series):
+    series = np.log(series).diff()
+    return np.sqrt(np.sum(series**2))
+df.groupby(df.index.date).agg(realized_volatility)
+```
+
+![realized volatility](/images/posts/logreturns/rv.webp)
 
 ## Realized Variance
 
@@ -59,7 +73,13 @@ Andersen and Bollerslev (1998) have suggested an ex-post intra-daily volatility 
 
 ![Realized variance formula](https://latex.codecogs.com/svg.latex?%5Csigma%5E2%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7BT%7Dr_%7Bt%7D%5E2)
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=16&kernelSessionId=73089468" height="500" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_variance(series):
+    return np.sum(series**2)
+df.groupby(df.index.date).agg(realized_variance)
+```
+
+![realized variance](/images/posts/logreturns/rvar.webp)
 
 ## References and Related Posts
 

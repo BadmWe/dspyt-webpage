@@ -10,8 +10,8 @@ tags: ["blockchain", "Bitcoin", "blockchain-address", "Ethereum"]
 A blockchain address is a special identification number that acts as a digital location where cryptocurrency can be sent to and received.
 In this article, we go into greater detail regarding the subtleties of blockchain addresses.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/MoQa_zdmoKs?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/MoQa_zdmoKs?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 A blockchain address for cryptocurrency assets resembles a bank account. Each address is distinct and consists of 26–35 alphanumeric characters.

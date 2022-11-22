@@ -15,8 +15,8 @@ Web 3 is exponentially growing, which is why developers build Layer 2 networks. 
 
 The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/a5hKRYKJIPQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/a5hKRYKJIPQ?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 Aurora is a layer 2 solution on top of the NEAR Protocol, which is a sharded proof-of-stake blockchain. This allows the creation of a highly scalable and fault-tolerant network that can be used for a variety of applications, as well as being compatible with the Ethereum Virtual Machine.

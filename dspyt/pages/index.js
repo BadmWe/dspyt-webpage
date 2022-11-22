@@ -12,7 +12,6 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>Data Science with Python | DSPYT</title>
-        <link rel="icon" href="big-data-svgrepo.svg" />
         <meta
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
@@ -51,7 +50,7 @@ export async function getStaticProps() {
   const files = fs.readdirSync(path.join("posts"));
 
   const posts = files.map((filename) => {
-    const slug = filename.replace(".md", "");
+    const slug = filename.replace(/\.(mdx|md)/, "");
     const markdownWithMeta = fs.readFileSync(
       path.join("posts", filename),
       "utf-8"

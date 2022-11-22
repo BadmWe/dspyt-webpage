@@ -26,61 +26,62 @@ Requests is a python http library that allows for the usage of proxies and multi
 To implement the python script to work with proxies we first need to check those proxy servers are compatible with the target website.
 Hence, we create a python scraper that collects the proxy server list from https://free-proxy-list.net/ and saves only those that work with our target.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">requests</span>
-<span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">bs4</span> <span style="color: #007020; font-weight: bold">import</span> BeautifulSoup
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">numpy</span>
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">concurrent.futures</span>
+```python
+import requests
+from bs4 import BeautifulSoup
+import numpy
+import concurrent.futures
 
-<span style="color: #60a0b0; font-style: italic"># Get HTML response</span>
-html <span style="color: #666666">=</span> requests<span style="color: #666666">.</span>get(<span style="color: #4070a0">&#39;https://www.free-proxy-list.net/&#39;</span>)
+# Get HTML response
+html = requests.get('https://www.free-proxy-list.net/;)
 
-<span style="color: #60a0b0; font-style: italic"># Parse HTML response</span>
-content <span style="color: #666666">=</span> BeautifulSoup(html<span style="color: #666666">.</span>text, <span style="color: #4070a0">&#39;lxml&#39;</span>)
+# Parse HTML response
+content = BeautifulSoup(html.text, 'lxml')
 
-<span style="color: #60a0b0; font-style: italic"># Extract proxies table</span>
-table <span style="color: #666666">=</span> content<span style="color: #666666">.</span>find(<span style="color: #4070a0">&#39;table&#39;</span>)
+# Extract proxies table
+table = content.find('table')
 
-<span style="color: #60a0b0; font-style: italic"># Extract table rows</span>
-rows <span style="color: #666666">=</span> table<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;tr&#39;</span>)
+# Extract table rows
+rows = table.findAll('tr')
 
-<span style="color: #60a0b0; font-style: italic"># Create proxies result list</span>
-results <span style="color: #666666">=</span> []
+# Create proxies result list
+results = []
 
-<span style="color: #60a0b0; font-style: italic"># Loop over table rows</span>
-<span style="color: #007020; font-weight: bold">for</span> row <span style="color: #007020; font-weight: bold">in</span> rows:
-<span style="color: #60a0b0; font-style: italic"># Use only non-empty rows</span>
-    <span style="color: #007020; font-weight: bold">if</span> <span style="color: #007020">len</span>(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)):
-    <span style="color: #60a0b0; font-style: italic"># Append rows containing proxies to results list</span>
-        results<span style="color: #666666">.</span>append(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">0</span>]<span style="color: #666666">.</span>text <span style="color: #666666">+</span><span style="color: #4070a0">&#39;:&#39;</span> <span style="color: #666666">+</span> row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">1</span>]<span style="color: #666666">.</span>text)
+# Loop over table rows
+for row in rows:
+# Use only non-empty rows
+    if len(row.findAll('td')):
+    # Append rows containing proxies to results list
+        results.append(row.findAll('td')[0].text +':' + row.findAll('td')[1].text)
 
-<span style="color: #60a0b0; font-style: italic"># Create proxies final list</span>
-final <span style="color: #666666">=</span>[]
-<span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">test</span>(proxy):
-<span style="color: #60a0b0; font-style: italic">#test each proxy on whether it access api of hh.ru</span>
-    headers <span style="color: #666666">=</span> {<span style="color: #4070a0">&#39;User-Agent&#39;</span>: <span style="color: #4070a0">&#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0&#39;</span>}
-    <span style="color: #007020; font-weight: bold">try</span>:
-        params <span style="color: #666666">=</span> {
-        <span style="color: #4070a0">&#39;text&#39;</span>: f<span style="color: #4070a0">&#39;NAME:C++&#39;</span>,
-        <span style="color: #4070a0">&#39;area&#39;</span>: <span style="color: #40a070">113</span>,
-        <span style="color: #4070a0">&#39;page&#39;</span>: <span style="color: #40a070">0</span>,
-        <span style="color: #4070a0">&#39;per_page&#39;</span>: <span style="color: #40a070">100</span>
+# Create proxies final list
+final =[]
+def test(proxy):
+# test each proxy on whether it access api of hh.ru
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
+    try:
+        params = {
+        'text': f'NAME:C++',
+        'area': 113,
+        'page': 0,
+        'per_page': 100
         }
-        requests<span style="color: #666666">.</span>get(<span style="color: #4070a0">&#39;https://api.hh.ru/vacancies&#39;</span>, headers<span style="color: #666666">=</span>headers, proxies<span style="color: #666666">=</span>{<span style="color: #4070a0">&#39;http&#39;</span> : proxy}, timeout<span style="color: #666666">=</span><span style="color: #40a070">1</span>, params<span style="color: #666666">=</span>params)
-        final<span style="color: #666666">.</span>append(proxy)
-    <span style="color: #007020; font-weight: bold">except</span>:
-        <span style="color: #007020; font-weight: bold">pass</span>
-    <span style="color: #007020; font-weight: bold">return</span> proxy
+        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
+        final.append(proxy)
+    except:
+        pass
+    return proxy
 
-<span style="color: #60a0b0; font-style: italic">#test multiple proxies concurrently</span>
-<span style="color: #007020; font-weight: bold">with</span> concurrent<span style="color: #666666">.</span>futures<span style="color: #666666">.</span>ThreadPoolExecutor() <span style="color: #007020; font-weight: bold">as</span> executor:
-    executor<span style="color: #666666">.</span>map(test, results)
+# test multiple proxies concurrently
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.map(test, results)
 
-<span style="color: #60a0b0; font-style: italic">#to print the number of proxies</span>
-<span style="color: #60a0b0; font-style: italic">#print(len(final))</span>
+# to print the number of proxies
+print(len(final))
 
-<span style="color: #60a0b0; font-style: italic">#save the working proxies to a file</span>
-numpy<span style="color: #666666">.</span>save(<span style="color: #4070a0">&#39;file.npy&#39;</span>, final)
-</pre></div>
+# save the working proxies to a file
+numpy.save('file.npy', final)
+```
 
 This script yielded 295 proxy servers that work with our target website: HeadHunter.
 
@@ -88,96 +89,98 @@ This script yielded 295 proxy servers that work with our target website: HeadHun
 
 We also create a script that additionally uses selenium library to scrape and check the proxy server list from https://advanced.name/.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">selenium</span> <span style="color: #007020; font-weight: bold">import</span> webdriver
-<span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">bs4</span> <span style="color: #007020; font-weight: bold">import</span> BeautifulSoup
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">numpy</span> 
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">concurrent.futures</span>
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">requests</span>
+```python
+from selenium import webdriver
+from bs4 import BeautifulSoup
+import numpy
+import concurrent.futures
+import requests
 
-dr <span style="color: #666666">=</span> webdriver<span style="color: #666666">.</span>Chrome(executable_path<span style="color: #666666">=</span><span style="color: #4070a0">&quot;C:</span><span style="color: #4070a0; font-weight: bold">\\</span><span style="color: #4070a0">YourPath&quot;</span>)
-dr<span style="color: #666666">.</span>get(<span style="color: #4070a0">&quot;https://advanced.name/freeproxy?ddexp4attempt=1&amp;page=1&quot;</span>)
-content <span style="color: #666666">=</span> BeautifulSoup(dr<span style="color: #666666">.</span>page_source,<span style="color: #4070a0">&quot;lxml&quot;</span>)
-table <span style="color: #666666">=</span> content<span style="color: #666666">.</span>find(<span style="color: #4070a0">&#39;tbody&#39;</span>)
-rows <span style="color: #666666">=</span> table<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;tr&#39;</span>)
-results <span style="color: #666666">=</span> []
-<span style="color: #007020; font-weight: bold">for</span> row <span style="color: #007020; font-weight: bold">in</span> rows:
-<span style="color: #60a0b0; font-style: italic"># Use only non-empty rows</span>
-    <span style="color: #007020; font-weight: bold">if</span> <span style="color: #007020">len</span>(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)):
-        <span style="color: #60a0b0; font-style: italic"># Append rows containing proxies to results list</span>
-        results<span style="color: #666666">.</span>append(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">1</span>]<span style="color: #666666">.</span>text <span style="color: #666666">+</span><span style="color: #4070a0">&#39;:&#39;</span> <span style="color: #666666">+</span> row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">2</span>]<span style="color: #666666">.</span>text)
-        dr<span style="color: #666666">.</span>close()
+dr = webdriver.Chrome(executable_path="C:\YourPath")
+dr.get("https://advanced.name/freeproxy?ddexp4attempt=1&page=1")
+content = BeautifulSoup(dr.page_source,"lxml")
+table = content.find('tbody')
+rows = table.findAll('tr')
+results = []
+for row in rows:
+# Use only non-empty rows
+    if len(row.findAll('td')):
+        # Append rows containing proxies to results list
+        results.append(row.findAll('td')[1].text +':' + row.findAll('td')[2].text)
+        dr.close()
 
-final <span style="color: #666666">=</span>[]
-<span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">extract</span>(proxy):
-    <span style="color: #60a0b0; font-style: italic">#this was for when we took a list into the function, without conc futures.</span>
-    headers <span style="color: #666666">=</span> {<span style="color: #4070a0">&#39;User-Agent&#39;</span>: <span style="color: #4070a0">&#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0&#39;</span>}
-    <span style="color: #007020; font-weight: bold">try</span>:
-        <span style="color: #60a0b0; font-style: italic">#change the url to https://httpbin.org/ip that doesnt block anything</span>
-        params <span style="color: #666666">=</span> {
-        <span style="color: #4070a0">&#39;text&#39;</span>: f<span style="color: #4070a0">&#39;NAME:C++&#39;</span>,
-        <span style="color: #4070a0">&#39;area&#39;</span>: <span style="color: #40a070">113</span>,
-        <span style="color: #4070a0">&#39;page&#39;</span>: <span style="color: #40a070">0</span>,
-        <span style="color: #4070a0">&#39;per_page&#39;</span>: <span style="color: #40a070">100</span>
+final =[]
+def extract(proxy):
+    #this was for when we took a list into the function, without conc futures.
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
+    try:
+        #change the url to https://httpbin.org/ip that doesnt block anything
+        params = {
+        'text': f'NAME:C++',
+        'area': 113,
+        'page': 0,
+        'per_page': 100
         }
-        requests<span style="color: #666666">.</span>get(<span style="color: #4070a0">&#39;https://api.hh.ru/vacancies&#39;</span>, headers<span style="color: #666666">=</span>headers, proxies<span style="color: #666666">=</span>{<span style="color: #4070a0">&#39;http&#39;</span> : proxy}, timeout<span style="color: #666666">=</span><span style="color: #40a070">1</span>, params<span style="color: #666666">=</span>params)
-        final<span style="color: #666666">.</span>append(proxy)
-    <span style="color: #007020; font-weight: bold">except</span>:
-        <span style="color: #007020; font-weight: bold">pass</span>
-        <span style="color: #007020; font-weight: bold">return</span> proxy
+        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
+        final.append(proxy)
+    except:
+        pass
+        return proxy
 
-<span style="color: #007020; font-weight: bold">with</span> concurrent<span style="color: #666666">.</span>futures<span style="color: #666666">.</span>ThreadPoolExecutor() <span style="color: #007020; font-weight: bold">as</span> executor:
-    executor<span style="color: #666666">.</span>map(extract, results)
+with concurrent.futures.ThreadPoolExecutor() as executor:
+    executor.map(extract, results)
 
-<span style="color: #60a0b0; font-style: italic">#print(len(final))</span>
-numpy<span style="color: #666666">.</span>save(<span style="color: #4070a0">&#39;file.npy&#39;</span>, final)
+print(len(final))
+numpy.save('file.npy', final)
 
-<span style="color: #60a0b0; font-style: italic"># Parse HTML response</span>
-content <span style="color: #666666">=</span> BeautifulSoup(html<span style="color: #666666">.</span>text, <span style="color: #4070a0">&#39;lxml&#39;</span>)
+# Parse HTML response
+content = BeautifulSoup(html.text, 'lxml')
 
-<span style="color: #60a0b0; font-style: italic"># Extract proxies table</span>
-table <span style="color: #666666">=</span> content<span style="color: #666666">.</span>find(<span style="color: #4070a0">&#39;table&#39;</span>)
+# Extract proxies table
+table = content.find('table')
 
-<span style="color: #60a0b0; font-style: italic"># Extract table rows</span>
-rows <span style="color: #666666">=</span> table<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;tr&#39;</span>)
+# Extract table rows
+rows = table.findAll('tr')
 
-<span style="color: #60a0b0; font-style: italic"># Create proxies result list</span>
-results <span style="color: #666666">=</span> []
+# Create proxies result list
+results = []
 
-<span style="color: #60a0b0; font-style: italic"># Loop over table rows</span>
-<span style="color: #007020; font-weight: bold">for</span> row <span style="color: #007020; font-weight: bold">in</span> rows:
-<span style="color: #60a0b0; font-style: italic"># Use only non-empty rows</span>
-    <span style="color: #007020; font-weight: bold">if</span> <span style="color: #007020">len</span>(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)):
-        <span style="color: #60a0b0; font-style: italic"># Append rows containing proxies to results list</span>
-        results<span style="color: #666666">.</span>append(row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">0</span>]<span style="color: #666666">.</span>text <span style="color: #666666">+</span><span style="color: #4070a0">&#39;:&#39;</span> <span style="color: #666666">+</span> row<span style="color: #666666">.</span>findAll(<span style="color: #4070a0">&#39;td&#39;</span>)[<span style="color: #40a070">1</span>]<span style="color: #666666">.</span>text)
+# Loop over table rows
+for row in rows:
+# Use only non-empty rows
+    if len(row.findAll('td')):
+        # Append rows containing proxies to results list
+        results.append(row.findAll('td')[0].text +':' + row.findAll('td')[1].text)
 
-<span style="color: #60a0b0; font-style: italic"># Create proxies final list</span>
-final <span style="color: #666666">=</span>[]
-<span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">test</span>(proxy):
-    <span style="color: #60a0b0; font-style: italic">#test each proxy on whether it access api of hh.ru</span>
-    headers <span style="color: #666666">=</span> {<span style="color: #4070a0">&#39;User-Agent&#39;</span>: <span style="color: #4070a0">&#39;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0&#39;</span>}
-    <span style="color: #007020; font-weight: bold">try</span>:
-        params <span style="color: #666666">=</span> {
-        <span style="color: #4070a0">&#39;text&#39;</span>: f<span style="color: #4070a0">&#39;NAME:C++&#39;</span>,
-        <span style="color: #4070a0">&#39;area&#39;</span>: <span style="color: #40a070">113</span>,
-        <span style="color: #4070a0">&#39;page&#39;</span>: <span style="color: #40a070">0</span>,
-        <span style="color: #4070a0">&#39;per_page&#39;</span>: <span style="color: #40a070">100</span>
+
+# Create proxies final list
+final =[]
+def test(proxy):
+    #test each proxy on whether it access api of hh.ru
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
+    try:
+        params = {
+        'text': f'NAME:C++',
+        'area': 113,
+        'page': 0,
+        'per_page': 100
         }
-        requests<span style="color: #666666">.</span>get(<span style="color: #4070a0">&#39;https://api.hh.ru/vacancies&#39;</span>, headers<span style="color: #666666">=</span>headers, proxies<span style="color: #666666">=</span>{<span style="color: #4070a0">&#39;http&#39;</span> : proxy}, timeout<span style="color: #666666">=</span><span style="color: #40a070">1</span>, params<span style="color: #666666">=</span>params)
-        final<span style="color: #666666">.</span>append(proxy)
-    <span style="color: #007020; font-weight: bold">except</span>:
-        <span style="color: #007020; font-weight: bold">pass</span>
-    <span style="color: #007020; font-weight: bold">return</span> proxy
+        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
+        final.append(proxy)
+    except:
+        pass
+    return proxy
 
-<span style="color: #60a0b0; font-style: italic">#test multiple proxies concurrently</span>
-<span style="color: #007020; font-weight: bold">with</span> concurrent<span style="color: #666666">.</span>futures<span style="color: #666666">.</span>ThreadPoolExecutor() <span style="color: #007020; font-weight: bold">as</span> executor:
-executor<span style="color: #666666">.</span>map(test, results)
+#test multiple proxies concurrently
+with concurrent.futures.ThreadPoolExecutor() as executor:
+executor.map(test, results)
 
-<span style="color: #60a0b0; font-style: italic">#to print the number of proxies</span>
-<span style="color: #60a0b0; font-style: italic">#print(len(final))</span>
+# to print the number of proxies
+print(len(final))
 
-<span style="color: #60a0b0; font-style: italic">#save the working proxies to a file</span>
-numpy<span style="color: #666666">.</span>save(<span style="color: #4070a0">&#39;file.npy&#39;</span>, final)
-</pre></div>
+#save the working proxies to a file
+numpy.save('file.npy', final)
+```
 
 In turn, it determined 99 items in the proxy server list.
 
@@ -185,34 +188,37 @@ In turn, it determined 99 items in the proxy server list.
 
 We can also use the proxies in asynchronous HTTP client/server library [AIOHTTP](https://docs.aiohttp.org/en/stable/) for [asyncio](https://docs.aiohttp.org/en/stable/glossary.html#term-asyncio) and Python. Meanwhile [Aiohttp-proxy library](https://pypi.org/project/aiohttp-proxy/) assists with SOCKS proxy connector for [AIOHTTP](https://docs.aiohttp.org/en/stable/).
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">aiohttp</span>
-<span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">aiohttp_proxy</span> <span style="color: #007020; font-weight: bold">import</span> ProxyConnector, ProxyType
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">asyncio</span>
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">sys</span>
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">numpy</span>
+```python
+import aiohttp
+from aiohttp_proxy import ProxyConnector, ProxyType
+import asyncio
+import sys
+import numpy
 
-<span style="color: #007020; font-weight: bold">if</span> sys<span style="color: #666666">.</span>version_info[<span style="color: #40a070">0</span>] <span style="color: #666666">==</span> <span style="color: #40a070">3</span> <span style="color: #007020; font-weight: bold">and</span> sys<span style="color: #666666">.</span>version_info[<span style="color: #40a070">1</span>] <span style="color: #666666">&gt;=</span> <span style="color: #40a070">8</span> <span style="color: #007020; font-weight: bold">and</span> sys<span style="color: #666666">.</span>platform<span style="color: #666666">.</span>startswith(<span style="color: #4070a0">&#39;win&#39;</span>):
-asyncio<span style="color: #666666">.</span>set_event_loop_policy(asyncio<span style="color: #666666">.</span>WindowsSelectorEventLoopPolicy())
+if sys.version_info[0] == 3 and sys.version_info[1] >= 8 and sys.platform.startswith('win'):
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-async <span style="color: #007020; font-weight: bold">def</span> <span style="color: #06287e">fetch</span>(url, proxy):
-    host, port <span style="color: #666666">=</span> proxy<span style="color: #666666">.</span>split(<span style="color: #4070a0">&#39;:&#39;</span>)[<span style="color: #40a070">0</span>], proxy<span style="color: #666666">.</span>split(<span style="color: #4070a0">&#39;:&#39;</span>)[<span style="color: #40a070">1</span>]
-    connector <span style="color: #666666">=</span> ProxyConnector(
-    proxy_type<span style="color: #666666">=</span>ProxyType<span style="color: #666666">.</span>HTTP,
-    host<span style="color: #666666">=</span>host,
-    port<span style="color: #666666">=</span> <span style="color: #007020">int</span>(port),
+
+async def fetch(url, proxy):
+    host, port = proxy.split(':')[0], proxy.split(':')[1]
+    connector = ProxyConnector(
+    proxy_type=ProxyType.HTTP,
+    host=host,
+    port= int(port),
     )
-    async <span style="color: #007020; font-weight: bold">with</span> aiohttp<span style="color: #666666">.</span>ClientSession(connector<span style="color: #666666">=</span>connector,trust_env<span style="color: #666666">=</span><span style="color: #007020; font-weight: bold">True</span>) <span style="color: #007020; font-weight: bold">as</span> session:
-    async <span style="color: #007020; font-weight: bold">with</span> session<span style="color: #666666">.</span>get(url) <span style="color: #007020; font-weight: bold">as</span> response:
-    <span style="color: #007020; font-weight: bold">return</span> await response<span style="color: #666666">.</span>text()
+    async with aiohttp.ClientSession(connector=connector,trust_env=True) as session:
+    async with session.get(url) as response:
+    return await response.text()
 
-<span style="color: #007020; font-weight: bold">if</span> **name** <span style="color: #666666">==</span> <span style="color: #4070a0">&quot;**main**&quot;</span>:
-    data <span style="color: #666666">=</span> numpy<span style="color: #666666">.</span>load(<span style="color: #4070a0">&#39;file.npy&#39;</span>)
-    loop <span style="color: #666666">=</span> asyncio<span style="color: #666666">.</span>get_event_loop()
-    l <span style="color: #666666">=</span> loop<span style="color: #666666">.</span>run_until_complete(fetch(<span style="color: #4070a0">&#39;http://api.hh.ru/&#39;</span>, data[<span style="color: #666666">-</span><span style="color: #40a070">1</span>]))
-    <span style="color: #007020">print</span>(l)
-    loop<span style="color: #666666">.</span>run_until_complete(asyncio<span style="color: #666666">.</span>sleep(<span style="color: #40a070">0.1</span>))
-    loop<span style="color: #666666">.</span>close()
-</pre></div>
+
+if name == "main":
+    data = numpy.load('file.npy')
+    loop = asyncio.get_event_loop()
+    l = loop.run_until_complete(fetch('http://api.hh.ru/;, data[-1]))
+    print(l)
+    loop.run_until_complete(asyncio.sleep(0.1))
+    loop.close()
+```
 
 ## Summary
 
