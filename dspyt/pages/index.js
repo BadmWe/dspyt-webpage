@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         <meta name="twitter:site" content="@dspytdao" />
         <meta name="twitter:creator" content="@pfedprog" />
       </Head>
-      <div className="relative dark:bg-slate-700">
+      <div className="relative">
         <Hero />
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center">
