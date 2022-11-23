@@ -51,7 +51,7 @@ export default function Hero() {
                 <span className="rounded bg-indigo-50 dark:bg-indigo-200 px-2.5 py-1 text-xs font-semibold text-indigo-600 dark:text-indigo-700 tracking-wide uppercase">
                   What is new
                 </span>
-                <span className="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-700 space-x-1">
+                <span className="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-500 space-x-1">
                   <span>Just Added EVM</span>
                   <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
                 </span>
