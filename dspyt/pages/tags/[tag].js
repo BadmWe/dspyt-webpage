@@ -48,7 +48,7 @@ export default function Tag({ posts, tag }) {
         <meta name="twitter:site" content="@dspytdao" />
         <meta name="twitter:creator" content="@pfedprog" />
       </Head>
-      <div className="relative max-w-7xl mx-auto mt-10">
+      <div className="relative max-w-7xl mx-auto mt-10 dark:bg-slate-600">
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl">
             Dspyt blog tag: <span> {title} </span>

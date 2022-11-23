@@ -25,7 +25,7 @@ export default function Home({ posts }) {
         <meta name="twitter:site" content="@dspytdao" />
         <meta name="twitter:creator" content="@pfedprog" />
       </Head>
-      <div className="relative">
+      <div className="relative dark:bg-slate-600">
         <div className="relative max-w-7xl mx-auto mt-10">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl">
@@ -38,7 +38,7 @@ export default function Home({ posts }) {
             ))}
           </div>
           <nav
-            className="bg-white dark:bg-slate-600 px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6"
+            className="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6"
             aria-label="Pagination"
           >
             <div className="hidden sm:block">
