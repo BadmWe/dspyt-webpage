@@ -38,7 +38,7 @@ export default function Home({ posts }) {
             ))}
           </div>
           <nav
-            className="px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6"
+            className="px-4 py-3 flex items-center justify-between border-t sm:px-6"
             aria-label="Pagination"
           >
             <div className="hidden sm:block">
