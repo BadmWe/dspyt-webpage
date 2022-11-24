@@ -11,17 +11,17 @@ Panel data (or longitudinal data) comprises [time series](https://dspyt.com/time
 
 In this article, we discuss panel data python and panel data regression python. We also provide the python panel data examples illustrating the econometrics concepts.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/KKQOoXPgu04?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 ## Panel vs. Pooled data
 
 According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html), pooled data refers to data with relatively few cross-sections, where variables are held in cross-section specific individual series, meanwhile panel data corresponds to data with large numbers of cross-sections, with variables held in single series in a stacked form.
 
-Some experts refer to Pooled data as “time series of cross sections”, where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
+Some experts refer to Pooled data as "time series of cross sections", where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
 
-X{it}, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
+$$X_{it}$$, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
 
 ## Advantages and Disadvantages of Panel data
 
@@ -55,13 +55,14 @@ We use the WHO crude births data set to visualize features of the data set. You 
 
 Descriptive statistics includes the count of values, mean and standard deviation, minimum and maximum values as well as 25th percentile vale, 50th percentile value (also median) and 75th percentile.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">pandas</span> <span style="color: #007020; font-weight: bold">as</span> <span style="color: #0e84b5; font-weight: bold">pd</span>
-cols2skip <span style="color: #666666">=</span> [<span style="color: #40a070">1</span>,<span style="color: #40a070">2</span>,<span style="color: #40a070">3</span>]
-df <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>read_csv(<span style="color: #4070a0">&#39;file.csv&#39;</span>, skiprows<span style="color: #666666">=</span><span style="color: #40a070">3</span>, <span style="color: #666666">/</span>
- usecols<span style="color: #666666">=</span>[i <span style="color: #007020; font-weight: bold">for</span> i <span style="color: #007020; font-weight: bold">in</span> <span style="color: #007020">range</span>(<span style="color: #40a070">64</span>) <span style="color: #007020; font-weight: bold">if</span> i <span style="color: #007020; font-weight: bold">not</span> <span style="color: #007020; font-weight: bold">in</span> cols2skip], <span style="color: #666666">/</span>
- index_col<span style="color: #666666">=</span><span style="color: #4070a0">&#39;Country Name&#39;</span>)<span style="color: #666666">.</span>T
-df<span style="color: #666666">.</span>describe()
-</pre></div>
+```python
+import pandas as pd
+cols2skip = [1,2,3]
+df = pd.read_csv('file.csv', skiprows=3, /
+ usecols=[i for i in range(64) if i not in cols2skip], /
+ index_col='Country Name').T
+df.describe()
+```
 
 ![Panel Data Dspyt](/images/posts/panel/paneldata3.webp)
 
@@ -69,15 +70,17 @@ df<span style="color: #666666">.</span>describe()
 
 As we can see from the picture, some of the columns contain full NaNs, hence it is reasonable to drop such data:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">df <span style="color: #666666">=</span> df<span style="color: #666666">.</span>dropna(axis<span style="color: #666666">=</span><span style="color: #40a070">1</span>, how<span style="color: #666666">=</span><span style="color: #4070a0">&#39;all&#39;</span>)
-</pre></div>
+```python
+df = df.dropna(axis=1, how='all')
+```
 
 We further explore the patterns in the crude birth rates and display the data for the first 10 countries. For interactive visualizations in Python we use Matplotlib library.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">matplotlib.pyplot</span> <span style="color: #007020; font-weight: bold">as</span> <span style="color: #0e84b5; font-weight: bold">plt</span>
-df<span style="color: #666666">.</span>iloc[:,:<span style="color: #40a070">10</span>]<span style="color: #666666">.</span>plot(subplots<span style="color: #666666">=</span><span style="color: #007020; font-weight: bold">True</span>, figsize<span style="color: #666666">=</span>(<span style="color: #40a070">20</span>,<span style="color: #40a070">60</span>))
-plt<span style="color: #666666">.</span>show()
-</pre></div>
+```python
+import matplotlib.pyplot as plt
+df.iloc[:,:10].plot(subplots=True, figsize=(20,60))
+plt.show()
+```
 
 ![Panel data python with Pandas](/images/posts/panel/paneldata4.webp)
 
@@ -85,17 +88,18 @@ plt<span style="color: #666666">.</span>show()
 
 To conduct statistical analysis and model the birth rates we have to convert data into an appropriate format for panel data analysis. In the following code we use pandas.melt to massage a DataFrame into a format where one or more columns are identifier variables, while all other columns are measured variables. We also drop missing values, however, some consider interpolation or other techniques of filling missing values. The entity identifier is the index from the previous data frame and the year that we also convert into a separate categorical column for dummy variables creation.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">year <span style="color: #666666">=</span> df<span style="color: #666666">.</span>index
-df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #666666">=</span> year<span style="color: #666666">.</span>astype(<span style="color: #007020">int</span>)
-df <span style="color: #666666">=</span> df<span style="color: #666666">.</span>melt(id_vars<span style="color: #666666">=</span>[<span style="color: #4070a0">&quot;year&quot;</span>],
-        var_name<span style="color: #666666">=</span><span style="color: #4070a0">&quot;Country&quot;</span>,
-        value_name<span style="color: #666666">=</span><span style="color: #4070a0">&quot;Birth Rate&quot;</span>)<span style="color: #666666">/</span>
-        <span style="color: #666666">.</span>dropna()<span style="color: #666666">.</span>reset_index(drop<span style="color: #666666">=</span><span style="color: #007020; font-weight: bold">True</span>)
-year <span style="color: #666666">=</span> df<span style="color: #666666">.</span>year
-df <span style="color: #666666">=</span> df<span style="color: #666666">.</span>set_index([df<span style="color: #666666">.</span>index, <span style="color: #4070a0">&#39;year&#39;</span>])
-df[<span style="color: #4070a0">&#39;year&#39;</span>] <span style="color: #666666">=</span> pd<span style="color: #666666">.</span>Categorical(year)
-df<span style="color: #666666">.</span>head()
-</pre></div>
+```python
+year = df.index
+df['year'] = year.astype(int)
+df = df.melt(id_vars=["year"],
+        var_name="Country",
+        value_name="Birth Rate")/
+        .dropna().reset_index(drop=True)
+year = df.year
+df = df.set_index([df.index, 'year'])
+df['year'] = pd.Categorical(year)
+df.head()
+```
 
 ![Panel Data Dspyt](/images/posts/panel/paneldata5.webp)
 
@@ -113,12 +117,13 @@ Also, it is important to consider the time-variation of a variable in the cross-
 
 For an estimation of pooled OLS regression we use python linearmodels library. In addition, for a creation of a constant as input to linear equation we use python statsmodels library.
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">exog_vars <span style="color: #666666">=</span> [<span style="color: #4070a0">&quot;Country&quot;</span>, <span style="color: #4070a0">&#39;year&#39;</span>]
-exog <span style="color: #666666">=</span> sm<span style="color: #666666">.</span>add_constant(df[exog_vars])
-mod <span style="color: #666666">=</span> PooledOLS(df[<span style="color: #4070a0">&#39;Birth Rate&#39;</span>], exog)
-pooled_res <span style="color: #666666">=</span> mod<span style="color: #666666">.</span>fit()
-<span style="color: #007020">print</span>(pooled_res)
-</pre></div>
+```python
+exog_vars = ["Country", 'year']
+exog = sm.add_constant(df[exog_vars])
+mod = PooledOLS(df['Birth Rate'], exog)
+pooled_res = mod.fit()
+print(pooled_res)
+```
 
 ![Panel Data Python: Pooled OLS regression Dspyt](/images/posts/panel/paneldata6.webp)
 

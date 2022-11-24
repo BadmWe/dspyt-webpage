@@ -1,12 +1,19 @@
+import "@/styles/globals.css";
+import "@/styles/prism.css";
+
+import "@fontsource/inter/variable-full.css";
+import "katex/dist/katex.css";
+
 import Script from "next/script";
+import { ThemeProvider } from "next-themes";
+import siteMetadata from "@/components/siteMetadata";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import "@/styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA}`}
@@ -24,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Component {...pageProps} />
       <Footer />
-    </>
+    </ThemeProvider>
   );
 }
 

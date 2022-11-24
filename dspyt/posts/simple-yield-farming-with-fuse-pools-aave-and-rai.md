@@ -41,7 +41,7 @@ Besides, You will immediately receive an fToken that represents your share in th
 
 As you supply tokens, you open the opportunity to borrow assets in the same Fuse pool. This enables you to earn even higher return on your tokens.
 
-For instance, if you supplied $10,000 ethereum, you can borrow up to $7,700 RAI stablecoin. Nevertheless, we recommend in case of a decline in price of the token to limit your exposure to volatile assets by borrowing well below the threshold.
+For instance, if you supplied USD 10,000 ethereum, you can borrow up to USD 7,700 RAI stablecoin. Nevertheless, we recommend in case of a decline in price of the token to limit your exposure to volatile assets by borrowing well below the threshold.
 
 Note: There is a large amount of risk when borrowing assets. You should do your own research before using this strategy.
 

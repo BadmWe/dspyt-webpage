@@ -15,10 +15,11 @@ In this article, we discuss advanced metrics of volatility and measures of integ
 
 The libraries that we are using in the implementation of the math formulas are
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007020; font-weight: bold">from</span> <span style="color: #0e84b5; font-weight: bold">scipy.special</span> <span style="color: #007020; font-weight: bold">import</span> gamma
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">numpy</span> <span style="color: #007020; font-weight: bold">as</span> <span style="color: #0e84b5; font-weight: bold">np</span>
-<span style="color: #007020; font-weight: bold">import</span> <span style="color: #0e84b5; font-weight: bold">pandas</span> <span style="color: #007020; font-weight: bold">as</span> <span style="color: #0e84b5; font-weight: bold">pd</span>
-</pre></div>
+```python
+from scipy.special import gamma
+import numpy as np
+import pandas as pd
+```
 
 Furthermore, we estimate additional volatility estimators that we build upon realized quarticity, realized quad-power quarticity and realized tri-power quarticity.
 
@@ -36,23 +37,69 @@ Similarly robust estimator is also the realized tri-power quarticity
 
 In python an implementation looks as following
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=12&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_quarticity(series):
+    series = np.log(series).diff()
+    return np.sum(series**4)*series.shape[0]/3
+df.groupby(df.index.date).agg(realized_quarticity)
+```
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=13&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+![python numpy realized quarticity estimator](/images/posts/quarticity/rq.webp)
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=15&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_quadpower_quarticity(series):
+    series = np.log(series).diff()
+    series = abs(series.rolling(window=4).apply(np.product, raw=True))
+    return (np.sum(series) * series.shape[0] * (np.pi**2))/4
+df.groupby(df.index.date).agg(realized_quadpower_quarticity)
+```
+
+![python numpy realized quadpower quarticity estimator](/images/posts/quarticity/rqq.webp)
+
+```python
+def realized_tripower_quarticity(series):
+    series = np.log(series).diff() ** (4/3)
+    series = abs(series).rolling(window=3).apply(np.prod, raw=True)
+    return series.shape[0]*0.25*((gamma(1/2)**3)/(gamma(7/6)**3))*np.sum(series)
+df.groupby(df.index.date).agg(realized_quadpower_quarticity)
+```
+
+![python numpy realized tripower quarticity estimator](/images/posts/quarticity/rtq.webp)
 
 Moreover, these estimates assist in estimation of three additional realized volatility estimators:
 
 ![realized volatility estimators](/images/posts/quarticity/image-18.webp)
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=22&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_1(series):
+    series = np.log(series).diff()
+    return np.sqrt(np.sum(series**4)/(6*np.sum(series**2)))
+df.groupby(df.index.date).agg(realized_1)
+```
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=23&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+![python numpy realized volatility estimator 1](/images/posts/quarticity/r1.webp)
 
-<iframe src="https://www.kaggle.com/embed/pavfedotov/time-series-analysis-nifty50-stationarity-adf?cellIds=25&kernelSessionId=73089468" height="300" style="margin: 0 auto; width: 100%; max-width: 950px;" frameborder="0" scrolling="auto" title="Time series analysis Nifty50 (stationarity, ADF)"></iframe>
+```python
+def realized_2(series):
+    series = np.log(series).diff()
+    return np.sqrt(((np.pi**2)*np.sum(abs(series.rolling(window=4).apply(np.product, raw=True))))/(8*np.sum(series**2)))
+df.groupby(df.index.date).agg(realized_2)
+```
 
-## Further Ideas to explore
+![python numpy realized volatility estimator 2](/images/posts/quarticity/r2.webp)
+
+```python
+def realized_3(series):
+    series = np.log(series).diff()
+    numerator = (gamma(1/2)**3)*np.sum((abs(series)**(4/3)).rolling(window=3).apply(np.prod))
+    denominator = 8 * (gamma(7/6)**3)*np.sum(series**2)
+    return np.sqrt(numerator/denominator)
+df.groupby(df.index.date).agg(realized_3)
+```
+
+![python numpy realized volatility estimator 3](/images/posts/quarticity/r3.webp)
+
+## Further ideas to explore
 
 Corsi et al. (2008) research paper suggests that we can optimize our strategy by taking into account residuals from GARCH model. In particular, they demonstrate that the residuals of the commonly used time–series models for realized volatility exhibit non–Gaussian properties and volatility clustering. To accommodate these properties, authors extend models for realized volatility by replacing the Gaussian with the more flexible normal inverse Gaussian (NIG) distribution to allow for fat–tails and skewness.
 
@@ -62,12 +109,10 @@ Additionally, we might include current and lagged variables as proxies for the i
 
 Finally, we can explicitly separate quadratic variation into continuous and jump components in order to increase the robustness.
 
-## References
+## References and Related posts
 
-Corsi, Fulvio & Mittnik, Stefan & Pigorsch, Christian & Pigorsch, Uta. (2008). [The Volatility of Realized Volatility. Econometric Reviews](https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility). 27. 46-78.
-
-## Related Posts
-
+- [The Volatility of Realized Volatility. Econometric Reviews](https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility)
+- [Kaggle time-series realized volatility and realized variance notebook](https://www.kaggle.com/code/pavfedotov/time-series-analysis-nifty50-stationarity-adf)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)

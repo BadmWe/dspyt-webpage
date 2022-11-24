@@ -39,7 +39,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="bg-white pb-8 sm:pb-12 lg:pb-12">
+    <div className="pb-8 sm:pb-12 lg:pb-12">
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
@@ -48,20 +48,20 @@ export default function Hero() {
                 href="https://evm.pinsave.app/"
                 className="inline-flex space-x-4"
               >
-                <span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
+                <span className="rounded bg-indigo-50 dark:bg-indigo-200 px-2.5 py-1 text-xs font-semibold text-indigo-600 dark:text-indigo-700 tracking-wide uppercase">
                   What is new
                 </span>
-                <span className="inline-flex items-center text-sm font-medium text-indigo-600 space-x-1">
+                <span className="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-500 space-x-1">
                   <span>Just Added EVM</span>
                   <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
                 </span>
               </a>
             </div>
             <div className="mt-6 sm:max-w-xl">
-              <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
+              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl">
                 Pin Save: Decentralized Pinterest
               </h1>
-              <p className="mt-6 text-xl text-gray-500">
+              <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
                 Share Your Ideas as NFTs on Decentralized Storage
               </p>
             </div>
@@ -115,8 +115,8 @@ export default function Hero() {
                     aria-hidden="true"
                   />
                 </div>
-                <div className="min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3">
-                  <span className="font-medium text-gray-900">
+                <div className="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3 dark:text-gray-300">
+                  <span className="font-medium text-gray-900 dark:text-gray-100">
                     Rated 5 stars
                   </span>{" "}
                   by over{" "}

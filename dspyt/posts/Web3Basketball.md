@@ -4,16 +4,19 @@ date: "November 19, 2022"
 excerpt: "Basketball is one of the most popular sports in the world. Millions of people watch the sport, and thousands of supporters attend games."
 cover_image: "/images/posts/web3basketball/1.webp"
 time_read: "5 min"
+authors: ["Web3Basketball"]
 tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
 ---
+
 Basketball improves overall health, benefits mental health, and keeps you fit. If your problem is extra pounds, basketball will help you quickly lose weight and gain the long-awaited harmony.
 
-**How basketball affects human psychology?** Very positively, because it forms in us many useful qualities and skills. For example, endurance is the ability to focus on a set goal, take initiative, work in a team, and take responsibility. Playing sports makes you happier or less stressed.
+## How basketball affects human psychology?
+Very positively, because it forms in us many useful qualities and skills. For example, endurance is the ability to focus on a set goal, take initiative, work in a team, and take responsibility. Playing sports makes you happier or less stressed.
 
 With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
 </div>
 
 ## What Web3Basketball does
@@ -33,10 +36,12 @@ We have utilised Price Feed from ChainLink oracle in the smart contract to calcu
 ## Useful links
 
 1. Twitter - https://twitter.com/Web3Basketball
-2. Website - https://website-cyan-seven.vercel.app/
+2. Demo Website - https://website-cyan-seven.vercel.app/
+
 ![Logo](/images/posts/web3basketball/2.webp)
 
 ## Interesting information
+
 One of the most popular sports in the world is basketball. This is primarily because it is one of the most engrossing games ever created. Millions of people watch the sport, and thousands of supporters attend games. Accordingly, the National Basketball Association (NBA) is one of the world's most fiercely competitive leagues.
 
 The NBA is a well-known basketball league that attracts viewers from all over the world. The world's best basketball players compete on this platform. There are a lot of thrilling plays and moments, including dunks, posterizations, blocks, and buzzer-beaters.
@@ -72,7 +77,7 @@ There have been many outstanding games in NBA history, and some games are simply
 
 ![Viewers watch basketball live](/images/posts/web3basketball/4.webp)
 
-**Basketball Fans Follow and Watch NBA Games**
+## **Basketball Fans Follow and Watch NBA Games**
 
 Basketball is a sport that approximately 69% of the respondents say they enjoy. This demonstrates how popular and widely seen basketball is. Basketball games are watched by many people, but not everyone is a fan. Because of this, 30% of poll respondents don't consider themselves basketball aficionados.
 
@@ -110,7 +115,7 @@ The majority of respondents' (30%) preferred team is the Los Angeles Lakers. The
 
 ![ The Favorite Team of NBA Fans](/images/posts/web3basketball/10.webp)
 
-**Lebron James: The NBA’s Best Player**
+## **Lebron James: The NBA’s Best Player**
 
 A few names have a clear connection to basketball. Lebron James, one of the greatest NBA players ever, is one of them. Lebron James received 5,077 votes (25%), making him the best NBA player. In second place with 3,894 votes (19%) is Kawhi Leonard. James Harden comes in third with 2,602 (13% of the total). Harden is closely followed by Giannis Antekokounmpo with 2,460 votes (12%). Stephen Curry also made the list, coming in at 1,832 (9%).
 
@@ -123,3 +128,8 @@ When it comes to their preferred players, some basketball fans have biases. 37% 
 ![Favorite player and team](/images/posts/web3basketball/12.webp)
 
 However, 16% of respondents prefer to consider the team's overall performance and play style. But 7% usually focus on the team management. The remainder retorted that their favorite team and player were distinct from one another.
+
+## Related Posts
+
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)

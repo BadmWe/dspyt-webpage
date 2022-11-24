@@ -66,7 +66,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-600">
+          <p className="text-center text-base text-gray-600 dark:text-gray-300">
             &copy; 2021 Dspyt
           </p>
         </div>

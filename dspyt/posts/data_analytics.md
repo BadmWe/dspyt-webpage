@@ -29,7 +29,7 @@ In this post, we utilize Python and Dune Analytics to collect and examine data f
 
 The Office of Foreign Assets Control (OFAC) of the United States Department of the Treasury sanctioned virtual currency mixer Blender, which is used by the Democratic People's Republic of Korea to facilitate hostile cyber operations and the laundering of stolen virtual currency.
 
-[According to OFAC](https://home.treasury.gov/news/press-releases/jy0768), a blockchain project connected to the online game Axie Infinity was the target of the largest virtual currency heist to date, worth nearly $620 million, on March 23, 2022, and Blender was used to process over $20.5 million of the illegal proceeds. Lazarus Group, a DPRK state-sponsored cyber hacking group, was responsible. The DPRK has turned to illegal actions, such as cyber-enabled heists from cryptocurrency exchanges and financial institutions, to raise money for its illegal weapons of mass destruction and ballistic missile programs as a result of severe U.S. and UN sanctions.
+[According to OFAC](https://home.treasury.gov/news/press-releases/jy0768), a blockchain project connected to the online game Axie Infinity was the target of the largest virtual currency heist to date, worth nearly USD 620 million, on March 23, 2022, and Blender was used to process over USD 20.5 million of the illegal proceeds. Lazarus Group, a DPRK state-sponsored cyber hacking group, was responsible. The DPRK has turned to illegal actions, such as cyber-enabled heists from cryptocurrency exchanges and financial institutions, to raise money for its illegal weapons of mass destruction and ballistic missile programs as a result of severe U.S. and UN sanctions.
 
 OFAC has identified four more virtual currency wallet addresses used by the Lazarus Group to launder the remaining stolen earnings from the Axie Infinity crime in March 2022. OFAC has published updated [Lazarus Group](https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220506) list of Bitcoin and Ethereum addresses.
 This expands on OFAC's April 14, 2022, identification of the initial getaway wallet address and attribution of the DPRK's Lazarus Group as the culprits of the Axie Infinity crime.
@@ -107,11 +107,11 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 
 ## More Collected Data Sets
 
-### 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74 Scam address data
+### Suspicious address data
 
-[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam related to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
+[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam
 
-[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to 0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74
+[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to a suspicious address
 
 [Premium Dataset. Hourly Crypto Market Anomaly Score: Ocean Protocol](https://market.oceanprotocol.com/asset/did:op:0d3c8845df538dff98a08e0cc9d572cf4703d9324eb5887e91e9c8d97474e8ae)
 
@@ -129,3 +129,4 @@ The sampled 2-hop subgraphs centered on Phish/Hack accounts on the Ethereum Inte
 
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)

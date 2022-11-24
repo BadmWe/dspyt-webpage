@@ -23,36 +23,36 @@ In order to justify such returns the company would usually rely on large inflows
 
 Apart from collecting the data from the transaction we collect data using Chainlink and CryptoRank.
 
-<div style="background: #272822; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">stream</span> <span style="color: #a6e22e">_</span>
-<span style="color: #a6e22e">from</span> <span style="color: #a6e22e">TokenTransfers</span>
+```
+stream _
+from TokenTransfers
 
-<span style="color: #a6e22e">where</span> <span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span> <span style="color: #f92672">==</span> <span style="color: #a6e22e">AXScontract</span> <span style="color: #f92672">||</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span> <span style="color: #f92672">==</span> <span style="color: #a6e22e">AXScontract</span> <span style="color: #f92672">||</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span> <span style="color: #f92672">==</span> <span style="color: #a6e22e">Binance14</span> <span style="color: #f92672">||</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span> <span style="color: #f92672">==</span> <span style="color: #a6e22e">Binance14</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">&amp;&amp;</span> <span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">erc20</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">symbol</span> <span style="color: #f92672">==</span> <span style="color: #e6db74">&quot;AXS&quot;</span> <span style="color: #f92672">||</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">erc20</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">symbol</span> <span style="color: #f92672">==</span> <span style="color: #e6db74">&quot;SLP&quot;</span><span style="color: #f8f8f2">)</span>
+where (@from == AXScontract || @to == AXScontract || @from == Binance14 || @to == Binance14) && (@erc20.symbol == "AXS" || @erc20.symbol == "SLP")
 
-<span style="color: #a6e22e">process</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">symb</span> <span style="color: #f92672">=</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">erc20</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">symbol</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">cryptorankFiatRate</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">getRate</span><span style="color: #f8f8f2">(</span><span style="color: #a6e22e">symb</span><span style="color: #f8f8f2">)</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">fiat_value</span> <span style="color: #f92672">=</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">value</span> <span style="color: #f92672">\*</span> <span style="color: #a6e22e">cryptorankFiatRate</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">value</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">fiat_decimals</span> <span style="color: #f92672">=</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">erc20</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">decimals</span> <span style="color: #f92672">+</span> <span style="color: #a6e22e">cryptorankFiatRate</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">decimals</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">eth_usd_pair</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">getChainlinkPriceFeedPair</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;ETH/USD&quot;</span><span style="color: #f8f8f2">)</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">score_from</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">getScore</span><span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span><span style="color: #f8f8f2">)</span>
-<span style="color: #66d9ef">let</span> <span style="color: #a6e22e">score_to</span> <span style="color: #f92672">=</span> <span style="color: #a6e22e">getScore</span><span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span><span style="color: #f8f8f2">)</span>
-<span style="color: #a6e22e">emit</span> <span style="color: #f8f8f2">{</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">action_type</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">block_hash</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">code_address</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">gas_used</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">origin</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">value</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">fiat_value</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">fiat_decimals</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">eth_usd_pair</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">tx_hash</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">symb</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">block_timestamp</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">gas_price</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">score_from</span><span style="color: #f8f8f2">,</span> <span style="color: #a6e22e">score_to</span> <span style="color: #f8f8f2">}</span>
-<span style="color: #a6e22e">end</span>
-
-</pre></div>
+process
+let symb = @erc20.symbol
+let cryptorankFiatRate = getRate(symb)
+let fiat_value = @value * cryptorankFiatRate.value
+let fiat_decimals = @erc20.decimals + cryptorankFiatRate.decimals
+let eth_usd_pair = getChainlinkPriceFeedPair("ETH/USD")
+let score_from = getScore(@from)
+let score_to = getScore(@to)
+emit {@action_type, @block_hash, @code_address, @from, @gas_used, @origin, @to, @value, fiat_value, fiat_decimals, eth_usd_pair, @tx_hash, symb, @block_timestamp, @gas_price, score_from, score_to }
+end
+```
 
 ## Trigger for Token transfer from or to Binance Accounts of AXS token on Bsc
 
-<div style="background: #272822; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">stream</span> <span style="color: #a6e22e">_</span>
-<span style="color: #a6e22e">from</span> <span style="color: #a6e22e">BscBEP20Transfers</span>
+```
+stream _
+from BscBEP20Transfers
 
-<span style="color: #a6e22e">where</span> <span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">token</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">contract</span> <span style="color: #f92672">==</span> <span style="color: #a6e22e">ContractBSC</span><span style="color: #f8f8f2">)</span> <span style="color: #f92672">&amp;&amp;</span> <span style="color: #f8f8f2">(</span><span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span> <span style="color: #66d9ef">in</span> <span style="color: #a6e22e">BSCdata</span> <span style="color: #f92672">||</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span> <span style="color: #66d9ef">in</span> <span style="color: #a6e22e">BSCdata</span><span style="color: #f8f8f2">)</span>
+where (@token.contract == ContractBSC) && (@from in BSCdata || @to in BSCdata)
 
-<span style="color: #a6e22e">process</span>
-<span style="color: #a6e22e">emit</span> <span style="color: #f8f8f2">{</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">from</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">to</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">value</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">token</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">transaction</span><span style="color: #f8f8f2">,</span> <span style="color: #960050; background-color: #1e0010">@</span><span style="color: #a6e22e">block</span> <span style="color: #f8f8f2">}</span>
-<span style="color: #a6e22e">end</span>
-
-</pre></div>
+process
+emit { @from, @to, @value, @token, @transaction, @block }
+end
+```
 
 ## User Data
 
@@ -120,16 +120,13 @@ The volume of transactions is much greater on Ethereum of AXS than on Binance Sm
 
 In our AXS dataset on Ethereum we also obtained scores for addresses by using getScore in our trigger.What is interesting is that the system scores higher the Binance account (85) rather than Ronin Bridge (76). Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80. For outflows the number is 79 for Ronin and 77 for Binance.
 
-## Further Resources
+## Further Resources and Related Posts
 
 - [GitHub repository for this project](https://github.com/Pfed-prog/PARSIQ-AXS)
 - [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
 - [Axie Infinity Great Migration FAQ](https://www.notion.so/axie/Great-Migration-FAQ-fc64fd460c8046b2a45d8798d06c0feb)
 - [Python Notebook on Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
 - [PARSIQ testnet](https://staging.parsiq.net/monitoring/projects)
-
-## Related Posts
-
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)

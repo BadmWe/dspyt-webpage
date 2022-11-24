@@ -20,10 +20,10 @@ Using a sitemap effectively involves more work, as you have to create a proper, 
 We generate nextjs sitemap with next-sitemap npm package: https://www.npmjs.com/package/next-sitemap.
 
 To run the process, you need a nextjs application. To install next-sitemap, you can run:
-<code>yarn add next-sitemap</code>
+`yarn add next-sitemap`
 
-<div style="position: relative; padding-bottom: 56.25%;">
-    <iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 ## Web Badminton

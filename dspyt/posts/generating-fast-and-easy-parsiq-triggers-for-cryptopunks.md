@@ -61,43 +61,43 @@ By using ngrok, we receive the post requests from the triggers.
 
 For two out of three trigger we also post the data back on the Platform to update the User Tables with NodeJs.
 
-<div style="background: #f8f8f8; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #AA22FF; font-weight: bold">var</span> express <span style="color: #666666">=</span> require(<span style="color: #BB4444">&#39;express&#39;</span>)
-<span style="color: #AA22FF; font-weight: bold">var</span> request <span style="color: #666666">=</span> require(<span style="color: #BB4444">&#39;request&#39;</span>)
+```javascript
+var express = require('express')
+var request = require('request')
 
-<span style="color: #AA22FF; font-weight: bold">var</span> app <span style="color: #666666">=</span> express()
+var app = express()
 app.use(express.json())
 
-app.post(<span style="color: #BB4444">&#39;/&#39;</span>, <span style="color: #AA22FF; font-weight: bold">function</span>(req, res) {
+app.post('/', function(req, res) {
 console.log(JSON.stringify(req.body));
-<span style="color: #AA22FF; font-weight: bold">var</span> options <span style="color: #666666">=</span> {
-<span style="color: #BB4444">&#39;method&#39;</span><span style="color: #666666">:</span> <span style="color: #BB4444">&#39;POST&#39;</span>,
-<span style="color: #BB4444">&#39;url&#39;</span><span style="color: #666666">:</span> <span style="color: #BB4444">&#39;https://api.parsiq.net/v1/data/{key-of-the-table}&#39;</span>,
-<span style="color: #BB4444">&#39;headers&#39;</span><span style="color: #666666">:</span> {
-<span style="color: #BB4444">&#39;Authorization&#39;</span><span style="color: #666666">:</span> <span style="color: #BB4444">&#39;Bearer API-key-of-the-project&#39;</span>,
-<span style="color: #BB4444">&#39;Content-Type&#39;</span><span style="color: #666666">:</span> <span style="color: #BB4444">&#39;application/json&#39;</span>
+var options = {
+'method': 'POST',
+'url': 'https://api.parsiq.net/v1/data/{key-of-the-table}&#39;,
+'headers': {
+'Authorization': 'Bearer API-key-of-the-project',
+'Content-Type': 'application/json'
 },
-body<span style="color: #666666">:</span> JSON.stringify([
+body: JSON.stringify([
 {
-<span style="color: #BB4444">&quot;address&quot;</span><span style="color: #666666">:</span> req.body.fromAddress,
-<span style="color: #BB4444">&quot;Punk&quot;</span><span style="color: #666666">:</span> req.body.punkIndex,
-<span style="color: #BB4444">&quot;Event&quot;</span><span style="color: #666666">:</span>req.body.event
+"address": req.body.fromAddress,
+"Punk": req.body.punkIndex,
+"Event":req.body.event
 }
 ])};
 
-    request(options);
-    res.end();
+request(options);
+res.end();
 
 })
-<span style="color: #AA22FF; font-weight: bold">const</span> port <span style="color: #666666">=</span> process.env.PORT <span style="color: #666666">||</span> <span style="color: #666666">3000</span>
+const port = process.env.PORT || 3000
 
-app.listen(port, () <span style="color: #666666">=&gt;</span> console.log(<span style="border: 1px solid #FF0000">\`Application listening on port ${port} `</span>))
-
-</pre></div>
+app.listen(port, () => console.log(`Application listening on port ${port} `))
+```
 
 We also configured three separate Google Sheet spreadsheets that serve as real time database for CryptoPunks collection. We use R to host the database and display the CryptoPunks on-chain activity.
 
-<div style=" position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/5Be_iZKCQd0?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/5Be_iZKCQd0?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 Further we suggest to utilize the data for a more comprehensive analysis with parsiq.

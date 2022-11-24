@@ -13,26 +13,30 @@ As a result, in this blog post, we conduct telegram optimization. We optimize th
 
 ## Python Virtual Environment
 
-First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to telegram optimizing, we use the python virtual environment library virtualenv. We install the python library:
+First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to hosting python telegram bot on heroku, we use the python virtual environment library virtualenv. We install the python `virtualenv` library with PIP:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip install virtualenv
-</pre></div>
+```bash
+pip install virtualenv
+```
 
-Next, we start the virtual environment and activate it:
+Next, we create the python virtual environment and activate with the following commands:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">virtualenv project
-<span style="color: #007020">source </span>project/Scripts/activate
-</pre></div>
+```bash
+virtualenv project
+source project/Scripts/activate
+```
 
 To save the dependencies for the server such as Heroku, we run the following python command:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip freeze &gt; requirements.txt
-</pre></div>
+```bash
+pip freeze > requirements.txt
+```
 
 In case we want to exit the python virtual environment:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">deactivate
-</pre></div>
+```bash
+deactivate
+```
 
 ## Heroku python telegram optimizing
 
@@ -44,32 +48,97 @@ To create a bot we have to message @BotFather in telegram. The command that crea
 
 First, we install the key python telegram bot library which is python-telegram-bot:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">pip install python-telegram-bot
-</pre></div>
+```bash
+pip install python-telegram-bot
+```
 
 Next, we create a simple python telegram bot that uses /start and /help commands as well as echoes the user’s message. The script also uses a web hook for Heroku hosting:
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdspytdao%2FTelegram_bot_py_heroku%2Fblob%2Fmain%2Fbot.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+
+```python
+import logging
+import os
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+# Enable logging
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO)
+
+logger = logging.getLogger(__name__)
+
+PORT = int(os.environ.get('PORT', '8443'))
+
+# Define a few command handlers. These usually take the two arguments update and
+# context. Error handlers also receive the raised TelegramError object in error.
+def start(update, context):
+    """Send a message when the command /start is issued."""
+    update.message.reply_text('Hi!')
+
+
+def help(update, context):
+    """Send a message when the command /help is issued."""
+    update.message.reply_text('Help!')
+
+
+def echo(update, context):
+    """Echo the user message."""
+    update.message.reply_text(update.message.text)
+
+
+def error(update, context):
+    """Log Errors caused by Updates."""
+    logger.warning('Update "%s" caused error "%s"', update, context.error)
+
+
+def main():
+    """Start the bot."""
+    # Create the Updater and pass it your bot's token.
+    # Make sure to set use_context=True to use the new context based callbacks
+    # Post version 12 this will no longer be necessary
+    TOKEN = ''
+    APP_NAME='https://app-name.herokuapp.com/'
+
+    updater = Updater(TOKEN, use_context=True)
+
+    # Get the dispatcher to register handlers
+    dp = updater.dispatcher
+
+    # on different commands - answer in Telegram
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(CommandHandler("help", help))
+
+    # on noncommand i.e message - echo the message on Telegram
+    dp.add_handler(MessageHandler(Filters.text, echo))
+
+    # log all errors
+    dp.add_error_handler(error)
+    updater.start_webhook(listen="0.0.0.0",port=PORT,url_path=TOKEN,webhook_url=APP_NAME + TOKEN)
+    updater.idle()
+
+
+if __name__ == '__main__':
+    main()
+```
 
 Do not forget to edit the created TOKEN and APP_NAME that you obtain through Heroku.
 
 ## Deploying Heroku python telegram bot
 
-Besides, we create a Procfile that contains the following lin
+Besides, we create a Procfile that contains the following line:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">web: python3 bot.py
-</pre></div>
+`web: python3 bot.py`
 
 Our folder should contain three files: Procifle, the python script (in this case bot.py), and requirements.txt.
 
 Finally, we deploy a python telegram bot on Heroku:
 
-<div style="background: #f0f0f0; overflow:auto;width:auto;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">git init
-heroku create <span style="color: #4070a0">&quot;app-name&quot;</span> <span style="color: #60a0b0; font-style: italic"># This is the APP_NAME from the script</span>
+```bash
+git init
+heroku create "app-name" # This is the APP_NAME from the script
 git remote -v
 git add .
-git commit -m <span style="color: #4070a0">&quot;commit&quot;</span>
+git commit -m "commit"
 git push heroku master
-</pre></div>
+```
 
 [The GitHub library for the python telegram bot](https://github.com/dspytdao/Telegram_bot_py_heroku)
 

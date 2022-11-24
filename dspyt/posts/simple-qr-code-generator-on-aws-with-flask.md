@@ -9,17 +9,99 @@ tags: ["Python", "flask", "AWS", "QR-code", "Casper"]
 
 We developed web application in Flask python to generate qr code with the help of qrcode python library. We hosted the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
 
-[The GitHub repository for the project](https://github.com/Pfed-prog/casper_QR).
+[The GitHub repository for flask qr code generator](https://github.com/Pfed-prog/casper_QR).
 
-<div style="position: relative; padding-bottom: 56.25%;">
-<iframe style="border: 1; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 ## Python QR Code AWS App
 
-The necessary condition for a python Flask QR code application to sucessfully run aws is to initialize the app as following: application = Flask(\_\_name\_\_)
+The necessary condition for a python Flask QR code application to sucessfully run aws is to initialize the app as following: `application = Flask(__name__)`
 
-<script src="https://emgithub.com/embed.js?target=https://github.com/Pfed-prog/casper_QR/blob/main/application.py&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on&showCopy=on"></script>
+```python
+import base64
+from flask import Flask, render_template, request, send_from_directory
+from PIL import Image
+from io import BytesIO
+
+import qrcode
+from qrcode.image.styledpil import StyledPilImage
+from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
+from qrcode.image.styles.colormasks import SquareGradiantColorMask
+
+application = Flask(__name__)
+app = application
+
+def return_image(image):
+    data = BytesIO()
+    image.save(data, "PNG")
+    encoded_img_data = base64.b64encode(data.getvalue())
+    return encoded_img_data
+
+def generate_image(address:str='', amount=0, message:str='', transaction:str='', network:str='casper'):
+
+    QRcode = qrcode.QRCode(
+        error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=8, version=1,
+    )
+
+    # taking url or text
+    if network =='casper':
+        url = f"{network}:{address}?amount={amount}&message={message}&transfer_id={transaction}"
+    else:
+        url = f"{network}?recipient={address}&amount={amount}&transfer_id={transaction}"
+    # addingg URL or text to QRcode
+    QRcode.add_data(url)
+
+    # generating QR code
+    QRcode.make(fit=True)
+
+    # get the logo and resize it
+    Logo_link = './static/logo3.png'
+    # taking base width
+    basewidth = 100
+    logo = Image.open(Logo_link)
+    # adjust image size
+    wpercent = (basewidth/float(logo.size[0]))
+    hsize = int((float(logo.size[1])*float(wpercent)))
+    logo = logo.resize((basewidth, hsize), Image.ANTIALIAS)
+
+    # adding color to QR code
+    QRimg = QRcode.make_image(
+        back_color="white",\
+        image_factory=StyledPilImage,\
+        module_drawer=RoundedModuleDrawer(),\
+        #color_mask=SquareGradiantColorMask()\
+    ).convert('RGB')
+
+    # position the logo
+    pos = ((QRimg.size[0] - logo.size[0]) // 2,
+            (QRimg.size[1] - logo.size[1]) // 2)
+    QRimg.paste(logo,pos)# put QRimg.paste(logo,pos,log) to make the logo fully transparent
+
+    # set size of QR code
+    return QRimg.resize((400, 400), Image.ANTIALIAS)
+
+@app.route("/", methods=["GET","POST"])
+def home():
+    if request.method == "POST":
+        data = [x for x in request.form.values()]
+        image = generate_image(data[0], data[1], data[2], data[3], data[4])
+
+    else:
+        image = generate_image()
+
+    image.save('./static/output.png')
+    img_data = return_image(image)
+    return render_template("home.html", img_data = img_data.decode('utf-8'), mth=request.method)
+
+@app.route("/img", methods=["GET"])
+def send():
+    return send_from_directory(directory='./static/',path='output.png',as_attachment=True)
+
+if __name__ == "__main__":
+    app.run(debug=True)
+```
 
 ## Related Posts
 
