@@ -13,13 +13,13 @@ As a result, in this blog post, we conduct telegram optimization. We optimize th
 
 ## Python Virtual Environment
 
-First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to telegram optimizing, we use the python virtual environment library virtualenv. We install the python library:
+First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to hosting python telegram bot on heroku, we use the python virtual environment library virtualenv. We install the python `virtualenv` library with PIP:
 
 ```bash
 pip install virtualenv
 ```
 
-Next, we start the virtual environment and activate it:
+Next, we create the python virtual environment and activate with the following commands:
 
 ```bash
 virtualenv project
