@@ -28,7 +28,7 @@ Furthermore, the more advanced task of separating pixels in an image to a partic
 
 ![Computer Vision Tasks with efficientnet Keras classification](/images/posts/efficientnet/image.webp)
 
-In this post, we will discuss convolutional neural networks, data augmentation, EfficientNet, and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets.
+In this post, we will discuss convolutional neural networks, data augmentation, EfficientNet, and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets. Understanding Deep Convolutional Neural Networks (ConvNets or CNNs) are at the center of computer vision and in my view, deep learning applications.
 
 ## Convolutional Neural Networks
 
