@@ -180,3 +180,8 @@ Data augmentation takes the approach of generating additional training data from
 - [Papers with Code Image Classification](https://paperswithcode.com/task/image-classification)
 - [Studies Confirm the Power of Visuals to Engage Your Audience in eLearning](https://www.shiftelearning.com/blog/bid/350326/studies-confirm-the-power-of-visuals-in-elearning)
 - [TensorFlow data augmentation](https://www.tensorflow.org/tutorials/images/classification#data_augmentation)
+- [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
