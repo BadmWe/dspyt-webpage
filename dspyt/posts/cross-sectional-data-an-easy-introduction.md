@@ -4,7 +4,7 @@ date: "April 20, 2022"
 excerpt: "In this article we are introducing the concept of cross sectional data. A cross sectional data example consists of a sample of units at a given point in time."
 cover_image: "/images/posts/cross/image.webp"
 time_read: "5 min"
-tags: ["data", "kaggle", "econometrics", "cross-sectional-data"]
+tags: ["data", "kaggle", "econometrics", "cross sectional data", "time series"]
 ---
 
 Econometric data sets come in numerous shapes, forms and types such as cross-sectional, [time-series](https://dspyt.com/time-series-data-an-easy-introduction) and [panel data](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python). The data type affects the analysis and estimation methods that we as data scientists can use. In this article we are introducing the concept of cross sectional data and demonstrate cross sectional data examples.
@@ -18,6 +18,16 @@ Essentially, cross sectional data is data that is obtained from all participants
 In a pure cross sectional analysis, we ignore any minor timing differences in a data example. If a researcher conducted a survey during different weeks of the same year, we would still consider this as a cross sectional data example. Cross sectional data differs from longitudinal data, which includes several observations for each unit throughout time.
 
 For instance, the gross yearly income for each of 1000 randomly selected families in United States in 2022 constitutes a cross sectional data example.
+
+## Cross sectional data vs time series
+
+Cross sectional data is a type of data that is collected from a variety of different sources, such as surveys, interviews, and focus groups. Cross sectional data can be used to understand the behavior, preferences, and thoughts of a specific group of people. Time series data is a type of data that is collected from a single source, such as a single day or week. Time series data data can be used to understand the behavior, preferences, and thoughts of a specific group of people over time.
+
+Both cross sectional data and time series data are valuable data sources, but they have different purposes. Cross sectional data can be used to understand the behavior, preferences, and thoughts of a specific group of people, while time series data can be used to understand the behavior, preferences, and thoughts of a specific group of people over time. Cross sectional data and time series data can both be used to provide valuable insights into the world, but they are different types of data.
+
+## Cross sectional data analysis
+
+Cross sectional data analysis is a powerful tool that can be used to understand the behavior and preferences of a population of objects or people. By analyzing the data collected from a sample of objects or people, you can identify patterns and trends that can help you understand the behavior of your target population. This is especially important in business or marketing settings, where you need to understand the behavior of your target audience to make informed decisions. By using cross sectional data analysis, you can identify the types of customers who are most likely to purchase your product or service, and you can also identify the types of products or services that are most popular among your target audience.
 
 ## Cross sectional data example: Titanic Kaggle Dataset
 

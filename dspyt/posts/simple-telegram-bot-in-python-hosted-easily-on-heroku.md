@@ -7,9 +7,9 @@ time_read: "5 min"
 tags: ["Python", "telegram", "bot", "heroku"]
 ---
 
-To begin with, the idea for creating a telegram python bot came up during Safety & Security Lab Hackathon. Our team created a sample bot to educate the public on computer security and protecting yourself online. The bot was running from our personal laptop and utilized the python telebot library. However, we experienced difficulties when we put the python telegram bot on Heroku.
-
-As a result, in this blog post, we conduct telegram optimization. We optimize the python telegram bot template from scratch so we could host the Heroku telegram bot.
+A Python Telegram Bot is a simple, easy-to-use tool that allows you to send and receive messages through the Telegram app.
+In this article we create telegram bot which is a chatbot that uses the Telegram protocol to communicate with users.
+It can be used to send and receive messages, as well as to manage channels and users. Further we host python telegram on Heroku.
 
 ## Python Virtual Environment
 
@@ -40,19 +40,19 @@ deactivate
 
 ## Heroku python telegram optimizing
 
-To create a bot we have to message @BotFather in telegram. The command that creates a bot is /newbot and you have to also name the bot. After that BotFather sends us the HTTP API TOKEN.
+To create a bot we have to message @BotFather in telegram. The command that creates a bot is `/newbot` and you have to also name the bot. After that BotFather sends us the HTTP API TOKEN.
 
 ![python telegram bot creation: Data Science with Python](/images/posts/telegrambot/image-7.webp)
 
 ## Python telegram bot
 
-First, we install the key python telegram bot library which is python-telegram-bot:
+First, we install the key python telegram bot library which is `python-telegram-bot`:
 
 ```bash
 pip install python-telegram-bot
 ```
 
-Next, we create a simple python telegram bot that uses /start and /help commands as well as echoes the user’s message. The script also uses a web hook for Heroku hosting:
+Next, we create a simple python telegram bot that uses `/start` and `/help` commands as well as echoes the user’s message. The script also uses a web hook for Heroku hosting:
 
 ```python
 import logging
@@ -127,7 +127,7 @@ Besides, we create a Procfile that contains the following line:
 
 `web: python3 bot.py`
 
-Our folder should contain three files: Procifle, the python script (in this case bot.py), and requirements.txt.
+Our folder should contain three files: `Procifle`, the python script (in this case `bot.py`), and `requirements.txt`.
 
 Finally, we deploy a python telegram bot on Heroku:
 
@@ -140,11 +140,11 @@ git commit -m "commit"
 git push heroku master
 ```
 
-[The GitHub library for the python telegram bot](https://github.com/dspytdao/Telegram_bot_py_heroku)
+[The GitHub repository for the python telegram bot](https://github.com/dspytdao/Telegram_bot_py_heroku)
 
 ## Summary
 
-In this tutorial, we create a simple python Heroku telegram bot that uses /start and /help commands as well as echoes the user's message. The script also uses a web hook for python Heroku hosting. To create a bot we have to message @BotFather in telegram. After that BotFather sends us the HTTP API TOKEN.
+In this tutorial, we create a simple python Heroku telegram bot that uses `/start` and `/help` commands as well as echoes the user's message. The script also uses a web hook for python Heroku hosting. To create a bot we have to message @BotFather in telegram. After that BotFather sends us the HTTP API TOKEN.
 
 ## Related Posts
 
