@@ -3,9 +3,20 @@ title: "How to generate nextjs sitemap for your project"
 date: "29 October, 2022"
 excerpt: "We generate sitemap and robots.txt for our webbadminton open-source nextjs project with help of next-sitemap."
 cover_image: "/images/posts/sitemap/sitemap.webp"
-time_read: "1 min"
-tags: ["nextjs", "sitemap", "webbadminton", "next-sitemap", "npm", "javascript"]
+time_read: "2 min"
+tags:
+  [
+    "nextjs",
+    "sitemap",
+    "webbadminton",
+    "next-sitemap",
+    "npm",
+    "javascript",
+    "yarn",
+  ]
 ---
+
+Creating a sitemap for your nextjs project can be a daunting task. But with the right tools, it's easy to create a custom sitemap that is both efficient and effective. Here's a quick guide on how to create a sitemap for your nextjs project.
 
 ## What is a sitemap?
 
@@ -17,10 +28,20 @@ Using a sitemap effectively involves more work, as you have to create a proper, 
 
 ## Generating nextjs sitemap
 
-We generate nextjs sitemap with next-sitemap npm package: https://www.npmjs.com/package/next-sitemap.
+We generate nextjs sitemap with `next-sitemap` npm package: https://www.npmjs.com/package/next-sitemap.
 
-To run the process, you need a nextjs application. To install next-sitemap, you can run:
-`yarn add next-sitemap`
+To run the process, you need a nextjs application. To install `next-sitemap`, you can run:
+`yarn add next-sitemap`.
+
+Next in the config file which is `next-sitemap.config.js` you include the website url and options such as whthere to generate `robots.txt`:
+
+```js
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: "https://example.com",
+  generateRobotsTxt: true,
+};
+```
 
 <div className="flex justify-center">
     <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
