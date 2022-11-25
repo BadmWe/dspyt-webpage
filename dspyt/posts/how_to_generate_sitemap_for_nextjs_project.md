@@ -43,6 +43,15 @@ module.exports = {
 };
 ```
 
+Further adding `postbuild` script to `package.json` will automatically generate sitemap on the server hosted by vercel.
+
+```json
+{
+  "build": "next build",
+  "postbuild": "next-sitemap"
+}
+```
+
 <div className="flex justify-center">
     <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
