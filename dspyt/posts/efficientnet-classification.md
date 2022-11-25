@@ -28,7 +28,7 @@ Furthermore, the more advanced task of separating pixels in an image to a partic
 
 ![Computer Vision Tasks with efficientnet Keras classification](/images/posts/efficientnet/image.webp)
 
-In this post we will discuss Convolutional Neural Networks, data augmentation, EfficientNet and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets.
+In this post we will discuss Convolutional Neural Networks, data augmentation, efficientnet and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets.
 
 ## Convolutional Neural Networks
 
@@ -42,7 +42,7 @@ The sliding-window operations occur in the convolution layer of the neural netwo
 
 As an example, let’s say an image goes through a convolution layer on a weight matrix of 5 × 5 × 64. It generates 64 convolutions by sliding a 5 × 5 window. Therefore, this model has 5 × 5 × 64 = 1,600 parameters, which is remarkably fewer parameters than a fully connected network: 256 × 256 = 65,536.
 
-More often than not image classification datasets are significant in size. Nevertheless, we use data augmentation in order to further generalize the model. <a href="https://www.tensorflow.org/tutorials/images/data_augmentation">Data augmentation</a> takes the approach of generating additional training data from your existing examples by augmenting them using random transformations that yield similar-looking images. This exposes the model to more aspects of the data and prevents over-fitting.
+More often than not image classification datasets are significant in size. Nevertheless, we use data augmentation in order to further generalize the model. [Data augmentation](https://www.tensorflow.org/tutorials/images/data_augmentation) takes the approach of generating additional training data from your existing examples by augmenting them using random transformations that yield similar-looking images. This exposes the model to more aspects of the data and prevents over-fitting.
 
 According to documentation of [Tensorflow](https://www.tensorflow.org/tutorials/images/classification#data_augmentation), we can combine the data augmentation, rescalling and the CNN model in this manner:
 
@@ -138,7 +138,7 @@ class CustomDataGen(tf.keras.utils.Sequence):
 
 ## efficientnet Keras classification
 
-EfficientNet is state of the art convolutional neural network that Google Brain released open source. A family of image classification models achieve state-of-the-art accuracy, yet are an order-of-magnitude smaller and faster than previous models such as [ResNet-152](https://arxiv.org/abs/1512.03385) and [ResNet-50](https://arxiv.org/abs/1512.03385).
+Efficientnet is state of the art convolutional neural network that Google Brain released open source. A family of image classification models achieve state-of-the-art accuracy, yet are an order-of-magnitude smaller and faster than previous models such as [ResNet-152](https://arxiv.org/abs/1512.03385) and [ResNet-50](https://arxiv.org/abs/1512.03385).
 
 ```python
 def create_model(input_shape=(224, 224, 3)):
@@ -166,7 +166,13 @@ model.summary()
 
 Finally, we combine the augmentation pipeline, the data generator and our model to estimate the class of the image. On the fourth epoch the model reaches 100%. On the withheld dataset the model generated comparable 99.6%.
 
-![EfficientNet Ketas training results](/images/posts/efficientnet/image-1-1024x344.webp)
+![Efficientnet Ketas training results](/images/posts/efficientnet/image-1-1024x344.webp)
+
+## Summary
+
+In this post discussed Convolutional Neural Networks, data augmentation, EfficientNet and how to achieve nearly 100% accuracy on a classification of several classes of images. Data scientists and computer vision specialists refer to such task as a semantic segmentation or a dense prediction. Semantic segmentation is particularly a popular term in autonomous vehicles such as cars, drones and planes. The sliding-window operations occur in the convolution layer of the neural network. A convolution is a weighted sum of the pixel values of the image, as the window slides across the whole image.
+
+Data augmentation takes the approach of generating additional training data from your existing examples. This exposes the model to more aspects of the data and prevents over-fitting. In this example we are using Google Brain's EfficientNet family of image classification models, which are an order-of-magnitude smaller and faster than previous models such as ResNet-152 and Resnet-50. Albumentations is a fast and flexible library compatible with different neural networks.
 
 ## References and Related Links
 
