@@ -35,6 +35,18 @@ The wallet, which uses asymmetric encryption to create the private keys from the
 
 A set of private keys in a bitcoin wallet correspond to the user's blockchain address book. These keys are used to effectively sign transactions and give the user complete control over the bitcoins stored in that address. The bitcoins can, however, be transferred from that address to a different wallet if a user's private keys are compromised. Private keys are generated through the use of a random process with strong entropy sources.This ensures that an attacker cannot easily gain access to blockchain addresses, as even with unlimited computational power, it is very unlikely that a private key can be guessed correctly.
 
+## How Does a Blockchain Address Work?
+
+When a person wants to send bitcoins to another address, they must solve a complex cryptographic puzzle. The person who receives the funds then uses the public address to send bitcoins. So how exactly do you find the blockchain address of someone who sent you bitcoins? Opening a wallet is very easy. You simply download the app or extension and then access the wallet via a QR code or address bar. You can also enter the wallet address manually if you prefer. So in order to send bitcoins, all you have to do is scan the QR code of the person you want to send money to. Then, you enter the amount you want to send in the wallet. Once you’ve successfully sent funds, you can close the wallet and they are now safely stored in your wallet. But if you want to receive bitcoins, you will have to find the wallet address of the person you want to send money to. Once you’ve found it, you can simply copy and paste it into the wallet of your choice and complete the transaction.
+
+## How to Find Your Blockchain Address
+
+Now that you know how to find your blockchain address, let’s talk about how to locate your address in the first place. Finding your blockchain address is as simple as searching your address from an address book or website. Once you find your address, you can share it with your family and friends so that they can send you bitcoins as well. If you’re looking for a wallet that gives you control over your funds, you can also find your blockchain address by using the blockchain address lookup tool. This tool allows you to explore your address and see exactly where the bitcoins are being held.
+
+## Important Things to Remember When Using a Blockchain Address
+
+Address books and websites may store your address and steal your bitcoins. Therefore, it’s extremely important to keep your blockchain address safe. A good way to do this is to store your wallet and blockchain address on a piece of paper or in a password-protected website. It is also important to remember that your blockchain address is a unique identifier. Therefore, you should never share it with anyone. In fact, a blockchain address isn’t even that interesting. Most wallets will simply show a string of letters and numbers.
+
 ## Conclusion
 
 The bitcoin address is a key that allows the owner to send or receive bitcoin from other users. These addresses contain information about the recipient who can access the bitcoin sent to this address. It ultimately proves that you control the private key to a bitcoin address and are allowed to send a valid transaction from it.
