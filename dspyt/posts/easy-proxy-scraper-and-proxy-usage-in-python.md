@@ -7,7 +7,10 @@ time_read: "5 min"
 tags: ["proxy", "Python", "aiohttp", "proxy-server", "proxy-scraper"]
 ---
 
-To conduct data analysis, for example during market research, we first need to determine the scope and collect the necessary data. Some websites and companies provide an easy and convenient way to access data via API. However, many limit the number of requests from one IP address. Therefore to scrape data anonymously and prevent your IP from being blocked by the web server, we recommend that you implement python scrapper for proxy servers.
+To conduct data analysis, for example during market research, we first need to determine the scope and collect the necessary data. Some websites and companies provide an easy and convenient way to access data via API. However, many limit the number of requests from one IP address.
+Therefore to scrape data anonymously and prevent your IP from being blocked by the web server, we recommend that you implement python proxy scraper for proxy servers.
+
+A proxy scraper is a tool that allows you to access the websites of other people or websites through a proxy. This can be helpful if you want to view a website that is blocked on your device or if you want to view a website that is not authorized to be accessed by your computer. A proxy scraper can also be used to protect your privacy by hiding your personal data from third-party access.
 
 ## What is a proxy server?
 
@@ -17,13 +20,11 @@ A proxy server is a remote server through which you connect to obfuscate your in
 
 ## Where is my proxy?
 
-In this article, we demonstrate how to obtain, verify and implement python scrapper for free proxies by using python libraries [requests](https://docs.python-requests.org/en/master/), selenium, BeautifulSoup and NumPy.
+In this article, we demonstrate how to obtain, verify and implement python proxy scraper for free proxies by using python libraries [requests](https://docs.python-requests.org/en/master/), Selenium, BeautifulSoup and NumPy. In particular, we utilize requests which is a python http library that allows for the usage of proxies and multi-threading.
 
-## Python check proxy with requests
+## Python proxy scraper with requests
 
-Requests is a python http library that allows for the usage of proxies and multi-threading.
-
-To implement the python script to work with proxies we first need to check those proxy servers are compatible with the target website.
+To effectively implement python proxy scraper, we first need to check whether the proxy servers are compatible with the target website.
 Hence, we create a python scraper that collects the proxy server list from https://free-proxy-list.net/ and saves only those that work with our target.
 
 ```python
@@ -33,7 +34,7 @@ import numpy
 import concurrent.futures
 
 # Get HTML response
-html = requests.get('https://www.free-proxy-list.net/;)
+html = requests.get('https://www.free-proxy-list.net/)
 
 # Parse HTML response
 content = BeautifulSoup(html.text, 'lxml')
@@ -83,11 +84,11 @@ print(len(final))
 numpy.save('file.npy', final)
 ```
 
-This script yielded 295 proxy servers that work with our target website: HeadHunter.
+This python proxy scraper script yielded 295 proxy servers that work with our target website: HeadHunter.
 
-## Python check proxy with selenium
+## Python proxy scraper with selenium
 
-We also create a script that additionally uses selenium library to scrape and check the proxy server list from https://advanced.name/.
+We also create a python proxy scraper script that additionally uses selenium library to scrape and check the proxy server list from https://advanced.name/.
 
 ```python
 from selenium import webdriver
@@ -182,7 +183,7 @@ print(len(final))
 numpy.save('file.npy', final)
 ```
 
-In turn, it determined 99 items in the proxy server list.
+In turn, python proxy scraper determined 99 items in the proxy server list.
 
 ## Proxies with asynchronous HTTP client/server library
 
@@ -222,7 +223,8 @@ if name == "main":
 
 ## Summary
 
-In this article, we demonstrated how to scrape and utilize free proxies. Nevertheless, free easy proxy servers will quickly get flagged since too many people use them.
+In this article, we demonstrated how to implemet a python proxy scraper. A proxy scraper is a tool that allows you to access and extract data from websites that are not hosted on your own website. This can be useful for a variety of reasons, such as exploring a website that you can't access or for verifying the authenticity of a website.
+Nevertheless, free proxy servers will quickly get flagged since too many people use them.
 
 For more reliable service we recommend paid residential proxy servers that [Bright Data](https://brightdata.grsm.io/ntzo6z21fa32) provides. Formerly known as Luminaty the third-party service has a well-written api documentation for python that you can use to manage your proxies.
 
