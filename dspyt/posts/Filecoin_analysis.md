@@ -2,7 +2,7 @@
 title: "Filecoin Storage Network Energy Consumption Data Challenge"
 date: "10 December, 2022"
 excerpt: "We explore the evolution of the Filecoin storage network, the share of renewable energy used, and the correlation between Filecoin and the US Dollar, as well as an algorithm to predict future demand for Filecoin."
-cover_image: "/images/posts/Filecoin/intro.png"
+cover_image: "/images/posts/Filecoin/intro.webp"
 time_read: "4 min"
 tags: ["Python", "Filecoin", "data", "Ocean-Marketplace", "sklearn"]
 ---
@@ -18,50 +18,50 @@ The global data center industry has been rapidly expanding to meet the growing d
 Filecoin is a decentralized storage network that is aiming to use 100% renewable energy.
 As of 2022, Filecoin is responsible for over 24 exabytes of storage and has seen a steady increase in storage capacity since its launch in 2020. This growth is indicative of the increasing demand for cloud storage and Filecoin’s ability to meet this demand.
 
-![Filecoin is responsible for over 24 exabytes of storage](/images/posts/Filecoin/1.png)
+![Filecoin is responsible for over 24 exabytes of storage](/images/posts/Filecoin/1.webp)
 
 The network has performed incredibly well in 2021, reaching a peak for Data storage capacity added per day on September 10th 2021 of 66155072 GiB.
 
-![Data storage capacity added per day](/images/posts/Filecoin/2.png)
+![Data storage capacity added per day](/images/posts/Filecoin/2.webp)
 
 Filecoin has also seen an increase in energy efficiency since its launch. Filecoin's storage network estimated to use only 6.298506 MW/EiB on October 16th 2022, compared to August 24th 2020 10618.24561 MW/EiB. This is indicative of the efficiency gains achieved by Filecoin's decentralized storage network.
 The network has also seen an increase in the number of nodes and miners, allowing it to become more resilient and fault-tolerant. This has led to fewer storage failures and reduced downtime, providing a superior user experience.
 
-![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/3.png)
+![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/3.webp)
 
-![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/4.png)
+![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/4.webp)
 
 ## The evolution of the share of renewable energy used by Filecoin
 
 Filecoin has been continuously working towards using 100% renewable energy since its launch in 2020. In fact, Filecoin has made over 1452033144 kWh in renewable energy certificate (REC) purchases over time.
 
-![renewable energy certificate (REC) purchases over time](/images/posts/Filecoin/5.png)
+![renewable energy certificate (REC) purchases over time](/images/posts/Filecoin/5.webp)
 
 The share of renewable energy has sharply risen over Spring in 2021 and has been on a slight decline trend in 2022. Meanwhile the mean estimate of the renewable share of the total energy is at 1.197482%.
 
-![share of renewable energy used by Filecoin](/images/posts/Filecoin/6.png)
+![share of renewable energy used by Filecoin](/images/posts/Filecoin/6.webp)
 
 ### Filecoin Summary Statistics
 
-![2020 Filecoin Summary Statistics](/images/posts/Filecoin/7.png)
+![2020 Filecoin Summary Statistics](/images/posts/Filecoin/7.webp)
 
-![2021 Filecoin Summary Statistics](/images/posts/Filecoin/8.png)
+![2021 Filecoin Summary Statistics](/images/posts/Filecoin/8.webp)
 
-![2022 Filecoin Summary Statistics](/images/posts/Filecoin/9.png)
+![2022 Filecoin Summary Statistics](/images/posts/Filecoin/9.webp)
 
 ## Filecoin Correlation with US Dollar
 
 We found a moderately positive correlation between daily price estimates such as Open, High, Low, Close and Adjusted Close and the energy used to seal the Filecoin data. We also found slightly weaker positive correlation between volume and the energy used to seal the Filecoin data. Hence, there is a positive relationship between higher price, volume and the energy used to seal the Filecoin data.
 
-![the energy used to seal the Filecoin data correlation with price](/images/posts/Filecoin/10.png)
+![the energy used to seal the Filecoin data correlation with price](/images/posts/Filecoin/10.webp)
 
 We found a moderately positive correlation between daily price estimates such as Open, High, Low, Close and Adjusted Close and Data storage capacity added per day. We also found slightly weaker positive correlation between volume and Data storage capacity added per day. Hence, there is a positive relationship between higher price, volume and Data storage capacity added per day similar to the energy used to seal the Filecoin data.
 
-![Data storage capacity added per day correlation with price](/images/posts/Filecoin/11.png)
+![Data storage capacity added per day correlation with price](/images/posts/Filecoin/11.webp)
 
 We found a little correlation between daily price estimates such as Open, High, Low, Close and Adjusted Close and the energy consumption rate of the Filecoin network. We also found a very weak positive correlation between volume and the energy consumption rate. Hence, there is a little relationship between higher price, volume and the energy consumption rate.
 
-![the energy consumption rate of the Filecoin network correlation with price](/images/posts/Filecoin/12.png)
+![the energy consumption rate of the Filecoin network correlation with price](/images/posts/Filecoin/12.webp)
 
 ### Correlation: Conclusion
 
@@ -80,32 +80,44 @@ The algorithm should take into account all of the above factors to accurately pr
 
 First we connect, extract and merge the latest data with Filecoin Green Energy Consumption API:
 
-![Filecoin Green Energy Consumption API Data Extraction](/images/posts/Filecoin/13.png)
+![Filecoin Green Energy Consumption API Data Extraction](/images/posts/Filecoin/13.webp)
 
-![Filecoin Green Energy Consumption API Data Transformation](/images/posts/Filecoin/14.png)
+![Filecoin Green Energy Consumption API Data Transformation](/images/posts/Filecoin/14.webp)
 
 Next we obtain recent data from Binance API:
 
-![Binance FIL/USDT data daily](/images/posts/Filecoin/15.png)
+![Binance FIL/USDT data daily](/images/posts/Filecoin/15.webp)
 
 Further, we aggregate the data columns by month and year with median, mean and sum function in NumPy. We shift the columns one period, in order to predict one step ahead period which is December 2022.
 We train the model to estimate the median of the Data Storage capacity added per day. The sklearn pipeline looks as following:
 
-![Sklearn Machine Learning Pipeline](/images/posts/Filecoin/16.png)
+![Sklearn Machine Learning Pipeline](/images/posts/Filecoin/16.webp)
 
 We estimated the median of the Data Storage capacity added per day:
 
-![estimated the median of the Data Storage capacity added per day](/images/posts/Filecoin/17.png)
+![estimated the median of the Data Storage capacity added per day](/images/posts/Filecoin/17.webp)
 
 ## Bonus
 
 We include Energy demand in data centers worldwide from 2015 to 2021, by type dataset which assists in determining the trends in data center storage industry.
 The traditional data center industry has seen a reduction in energy demand since 2015, with estimates suggesting that this figure will reach nearly 33 terawatt-hours by 2021. However, the demand for energy by hyperscale data centers has doubled in the same period of time.
 
-![Energy demand in data centers worldwide from 2015 to 2021](/images/posts/Filecoin/18.png)
+![Energy demand in data centers worldwide from 2015 to 2021](/images/posts/Filecoin/18.webp)
 
 ## Conslusion
 
 Traditional data center operators have been traditionally focused on maximizing output and performance, often overlooking the power implications. This has led to an increase in energy consumption as additional data centers were built to meet the increased demand for computing power. However, the availability of cloud computing resources, which require no floor space, has enabled organizations to shut down legacy data centers and move operations to the cloud. Non-hyperscale cloud data centers have kept their energy consumption steady, while large, hyperscale cloud data centers have steadily increased their energy usage and effectively managed it.
 
 Filecoin storage has the potential to be significantly more energy-efficient than conventional data centers. The decentralized storage network is aiming to use 100% renewable energy, and has seen an increase in energy efficiency since its launch. It has also seen an increase in the number of nodes and miners, allowing it to become more resilient and fault-tolerant. In comparison, traditional data centers have seen a decrease in energy demand since 2015, but large, hyperscale cloud data centers have steadily increased their energy usage. Filecoin storage has the potential to be more energy-efficient, and to reduce its carbon footprint, while still meeting the growing demand for digital transactions.
+
+## Related Posts
+
+- [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
+- [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)

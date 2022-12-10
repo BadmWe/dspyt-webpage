@@ -4,7 +4,7 @@ date: "23 November, 2022"
 excerpt: "Captcha is a test to determine whether or not the user is human. 2Captcha is the best provider of automatic captcha solving software on the market now."
 cover_image: "/images/posts/captcha/pexels-christina-morillo-1181263.webp"
 time_read: "4 min"
-tags: ["Python", "captcha"]
+tags: ["Python", "captcha", "data"]
 ---
 
 You may have already solved a number of captchas while filling out a form or registering for a website. The basic goal of Captcha is to determine whether the user is human or a bot. Captcha is an abbreviation for "Completely Automated Public Turing Test," which is used to distinguish between computers and humans. Companies use Captchas to prevent blog spam, access bots, and to make a website more secure.
@@ -120,3 +120,9 @@ result = solver.recaptcha(
 Captcha is an abbreviation for "Completely Automated Public Turing Test." A CAPTCHA is a type of challenge-response test used in computing to determine whether or not the user is human. Companies use captchas to prevent blog spam, block access bots, and make a website more secure. [2Captcha](https://2captcha.com?from=16036084) is the best provider of automatic captcha solving software on the market now. 2Captcha.com is one of the biggest, yet most affordable, providers of outsourcing captcha solving software on the Internet. The service provides cheap and highly accurate image-to-text translation for the processing of any captchas.
 
 It also makes it simple for developers to implement any captcha solving software capability. To bypass Captcha in Python, a user has to sign up at [2Captcha](https://2captcha.com?from=16036084) and generate their own private key. There are a maximum of 7 arguments that we can pass to the TwoCaptcha object as kwargs. The server argument is the web server URL that receives the captcha recognition result. The pollingInterval argument specifies the interval in seconds between requests to the API endpoint (setting values less than 5 seconds is not recommended).
+
+## Related Posts
+
+- [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
+- [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
