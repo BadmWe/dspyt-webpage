@@ -9,6 +9,8 @@ tags: ["Python", "Filecoin", "data", "Ocean-Marketplace", "sklearn"]
 
 Filecoin Green is an initiative from Protocol Labs to create a sustainable digital future. This report will explore the challenges associated with the global data center industry, and Filecoin Green's potential to use 100% renewable energy, measure and reduce environmental impacts, and provide the world's best tools to do so. We will also examine the evolution of the Filecoin storage network, the share of renewable energy used by Filecoin, and the correlation between Filecoin and the US Dollar. Finally, an algorithm to predict the future demand for Filecoin will be presented.
 
+[GitHub repository with algorithm code](https://github.com/Pfed-prog/Filecoin-Challenge)
+
 ## Introduction
 
 The global data center industry has been rapidly expanding to meet the growing demand for digital transactions. This exponential growth has put a strain on energy supplies, with the data center industry accounting for 4% of global electricity consumption and 1% of global greenhouse gas emissions. Filecoin Green is an initiative from Protocol Labs that is aiming to address this issue. It is a decentralized storage network that will enable storage providers to use 100% renewable energy and to measure and reduce environmental impacts. Filecoin Green will provide the world's best tools to measure and reduce environmental impacts, creating a future of Web3 powered by verifiably clean energy. This report will explore the challenges associated with the global data center industry and Filecoin Green's potential to create a sustainable digital future.
@@ -89,6 +91,9 @@ Next we obtain recent data from Binance API:
 ![Binance FIL/USDT data daily](/images/posts/Filecoin/15.webp)
 
 Further, we aggregate the data columns by month and year with median, mean and sum function in NumPy. We shift the columns one period, in order to predict one step ahead period which is December 2022.
+
+The aggragated dataset is available on [Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:557997940dedae59b0b3c072fe08d1405ba8a77bdf11600c21e20f72131e0aa3)
+
 We train the model to estimate the median of the Data Storage capacity added per day. The sklearn pipeline looks as following:
 
 ![Sklearn Machine Learning Pipeline](/images/posts/Filecoin/16.webp)
@@ -102,6 +107,8 @@ We estimated the median of the Data Storage capacity added per day:
 We include Energy demand in data centers worldwide from 2015 to 2021, by type dataset which assists in determining the trends in data center storage industry.
 The traditional data center industry has seen a reduction in energy demand since 2015, with estimates suggesting that this figure will reach nearly 33 terawatt-hours by 2021. However, the demand for energy by hyperscale data centers has doubled in the same period of time.
 
+The dataset is available on [Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:e25a4d0341637e9bb6269aea05bb7bb03c14b3c73836faedc1b5328dd4eb77f1)
+
 ![Energy demand in data centers worldwide from 2015 to 2021](/images/posts/Filecoin/18.webp)
 
 ## Conslusion
@@ -109,6 +116,8 @@ The traditional data center industry has seen a reduction in energy demand since
 Traditional data center operators have been traditionally focused on maximizing output and performance, often overlooking the power implications. This has led to an increase in energy consumption as additional data centers were built to meet the increased demand for computing power. However, the availability of cloud computing resources, which require no floor space, has enabled organizations to shut down legacy data centers and move operations to the cloud. Non-hyperscale cloud data centers have kept their energy consumption steady, while large, hyperscale cloud data centers have steadily increased their energy usage and effectively managed it.
 
 Filecoin storage has the potential to be significantly more energy-efficient than conventional data centers. The decentralized storage network is aiming to use 100% renewable energy, and has seen an increase in energy efficiency since its launch. It has also seen an increase in the number of nodes and miners, allowing it to become more resilient and fault-tolerant. In comparison, traditional data centers have seen a decrease in energy demand since 2015, but large, hyperscale cloud data centers have steadily increased their energy usage. Filecoin storage has the potential to be more energy-efficient, and to reduce its carbon footprint, while still meeting the growing demand for digital transactions.
+
+[GitHub repository with algorithm code](https://github.com/Pfed-prog/Filecoin-Challenge)
 
 ## Related Posts
 
