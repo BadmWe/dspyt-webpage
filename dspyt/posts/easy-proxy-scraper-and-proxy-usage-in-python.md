@@ -25,7 +25,7 @@ In this article, we demonstrate how to obtain, verify and implement python proxy
 ## Python proxy scraper with requests
 
 To effectively implement python proxy scraper, we first need to check whether the proxy servers are compatible with the target website.
-Hence, we create a python scraper that collects the proxy server list from https://free-proxy-list.net/ and saves only those that work with our target.
+Hence, we create a python scraper that collects the proxy server list from [Free Proxy List](https://free-proxy-list.net/) and saves only those that work with our target.
 
 ```python
 import requests
@@ -88,7 +88,7 @@ This python proxy scraper script yielded 295 proxy servers that work with our ta
 
 ## Python proxy scraper with selenium
 
-We also create a python proxy scraper script that additionally uses selenium library to scrape and check the proxy server list from https://advanced.name/.
+We also create a python proxy scraper script that additionally uses selenium library to scrape and check the proxy server list from [Advanced Name](https://advanced.name/).
 
 ```python
 from selenium import webdriver
