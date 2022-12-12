@@ -4,7 +4,7 @@ date: "April 25, 2022"
 excerpt: "Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series."
 cover_image: "/images/posts/quarticity/pexels-pixabay-210607.webp"
 time_read: "5 min"
-tags: ["Python", "finance", "realized-volatility"]
+tags: ["Python", "finance", "realized-volatility", "Pandas", "NumPy", "SciPy"]
 ---
 
 Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series.
@@ -109,12 +109,15 @@ Additionally, we might include current and lagged variables as proxies for the i
 
 Finally, we can explicitly separate quadratic variation into continuous and jump components in order to increase the robustness.
 
+## Conclusion
+
+Realized Volatility python is a metric that helps to measure the time-variability of financial series. It is used to measure the volatility of returns and capture the time-variability of financial series. In this article, we discussed advanced metrics of volatility and measures of integrated quarticity. We implemented the estimators in Pandas, NumPy and SciPy python libraries. We discussed the realized fourth-power variation or realized quarticity, realized quad-power quarticity, and realized tri-power quarticity. We also discussed additional volatility estimators such as realized volatility estimator 1, realized volatility estimator 2, and realized volatility estimator 3. Furthermore, we discussed ideas to explore such as the use of residuals from GARCH model, the use of ARFIMA model, the use of current and lagged variables as proxies for the information arrival process, and the separation of quadratic variation into continuous and jump components.
+
 ## References and Related posts
 
 - [The Volatility of Realized Volatility. Econometric Reviews](https://www.researchgate.net/publication/24079644_The_Volatility_of_Realized_Volatility)
 - [Kaggle time-series realized volatility and realized variance notebook](https://www.kaggle.com/code/pavfedotov/time-series-analysis-nifty50-stationarity-adf)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
-- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)

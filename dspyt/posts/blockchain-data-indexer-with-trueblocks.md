@@ -73,3 +73,4 @@ Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/gran
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
 - [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
