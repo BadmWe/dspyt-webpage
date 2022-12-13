@@ -1,7 +1,7 @@
 ---
 title: "Filecoin Storage Network Energy Consumption Data Challenge"
 date: "10 December, 2022"
-excerpt: "We explore the evolution of the Filecoin storage network, the share of renewable energy used, and the correlation between Filecoin and the US Dollar, as well as an algorithm to predict future demand for Filecoin."
+excerpt: "We investigate Filecoin's storage network, renewable energy use, and USD/Filecoin correlation, plus a prediction algorithm for future Filecoin demand."
 cover_image: "/images/posts/Filecoin/intro.webp"
 time_read: "4 min"
 tags: ["Python", "Filecoin", "data", "Ocean-Marketplace", "sklearn"]

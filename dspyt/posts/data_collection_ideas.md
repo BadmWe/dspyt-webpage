@@ -1,5 +1,5 @@
 ---
-title: "Ethereum Security Data Collection Ideas"
+title: "Ethereum Security Data Collection Ideas - DSPYT"
 date: "26 September, 2022"
 excerpt: "We describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
