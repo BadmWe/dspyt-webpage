@@ -73,13 +73,9 @@ export default function Home({ posts }) {
                     Previous
                   </a>
                 </Link>
-              ) : (
-                ""
-              )}
+              ) : null}
 
-              {6 * number + 6 >= posts.length ? (
-                ""
-              ) : (
+              {6 * number + 6 >= posts.length ? null : (
                 <Link href={`/blog/${number + 1}`} legacyBehavior>
                   <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     Next
@@ -102,6 +98,7 @@ export async function getStaticPaths() {
       { params: { number: "2" } },
       { params: { number: "3" } },
       { params: { number: "4" } },
+      { params: { number: "5" } },
     ],
     fallback: false, // can also be true or 'blocking'
   };
