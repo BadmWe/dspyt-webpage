@@ -28,7 +28,7 @@ Using a sitemap effectively involves more work, as you have to create a proper, 
 
 ## Generating nextjs sitemap
 
-We generate nextjs sitemap with `next-sitemap` npm package: https://www.npmjs.com/package/next-sitemap.
+We generate nextjs sitemap with `next-sitemap` [npm package](https://www.npmjs.com/package/next-sitemap).
 
 To run the process, you need a nextjs application. To install `next-sitemap`, you can run:
 `yarn add next-sitemap`.
@@ -52,11 +52,23 @@ Further adding `postbuild` script to `package.json` will automatically generate 
 }
 ```
 
+You can also add extra options to the next-sitemap.config.js file. These include options to exclude paths, specify priority levels for different types of pages, and even add extra metadata to each page. You can also customize the sitemap format with a custom XSLT template.
+
+Once you have the sitemap generated, you can submit it to Google and other search engines. This will ensure that your site is indexed quickly and accurately.
+
+You can also use the sitemap to create a custom navigation bar for your site. This can help users find the content they are looking for quickly and easily.
+
+Finally, you can use the sitemap to create a sitemap index file. This will make it easier for search engines to find your sitemaps and index your site faster.
+
+## Submitting Your Nextjs Sitemap to Search Engines
+
+Submitting your nextjs sitemap to search engines is the best way to ensure that your website is indexed quickly and accurately. To do this, you need to submit the sitemap to Google, Bing, and other search engines. This can be done by adding the URL of your sitemap in the robots.txt file of your website or by manually submitting it to each search engine. It is important to keep the sitemap up to date as search engines use it to crawl your website. Regularly updating your sitemap will help make sure that your site is indexed correctly and efficiently.
+
+## NextJs Sitemap Example: Web Badminton
+
 <div className="flex justify-center">
     <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
-
-## Web Badminton
 
 Web Badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
 
