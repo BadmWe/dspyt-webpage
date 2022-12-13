@@ -54,7 +54,7 @@ export default function Home({ posts }) {
                   Next
                 </a>
               </Link>
-              <Link href={"/blog/4"} legacyBehavior>
+              <Link href={"/blog/5"} legacyBehavior>
                 <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                   Last
                 </a>
