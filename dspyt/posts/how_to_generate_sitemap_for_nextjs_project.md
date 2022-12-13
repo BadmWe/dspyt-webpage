@@ -80,6 +80,10 @@ The smart contract is built with solidity, hardhat and polygon blockchain mumbai
 
 [Web Badminton Demo](https://webbadminton.com)
 
+## Conclusion
+
+Creating a sitemap for your nextjs project is a great way to ensure that your site is indexed quickly and accurately by search engines. By using the right tools, such as the next-sitemap npm package and adding postbuild scripts to your package.json file, you can easily generate a sitemap for your project. Furthermore, submitting your sitemap to search engines can help them index your site faster and more accurately. With the right tools and techniques, creating a sitemap for your nextjs project is easy and efficient.
+
 ## Related Posts
 
 - [Simple Ceramic Data Model App](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
