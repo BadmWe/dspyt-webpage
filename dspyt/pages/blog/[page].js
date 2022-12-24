@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 import { getAllFilesFrontMatter } from "@/lib/mdx";
 import Post from "@/components/Post";
@@ -89,7 +88,7 @@ export default function Home({ posts, pagination }) {
 // implement for loop
 export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter("posts");
-  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
+  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE) - 1;
   const paths = Array.from({ length: totalPages }, (_, i) => ({
     params: { page: (i + 1).toString() },
   }));
