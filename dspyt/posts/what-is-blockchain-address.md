@@ -1,10 +1,10 @@
 ---
 title: "What is a blockchain address?"
 date: "November 15, 2022"
-excerpt: "A blockchain address resembles a bank account.  A blockchain address acts as a digital location for cryptocurrency."
+excerpt: "A blockchain address resembles a bank account. A blockchain address acts as a digital location for cryptocurrency."
 cover_image: "/images/posts/blockchain_address/0.webp"
 time_read: "5 min"
-tags: ["blockchain", "Bitcoin", "blockchain-address", "Ethereum"]
+tags: ["blockchain", "Bitcoin", "blockchain address", "Ethereum"]
 ---
 
 You may have heard of the digital currency known as Bitcoin, but what exactly is a blockchain address? A blockchain address is a string of letters and numbers used to identify Bitcoin wallets. Wallets are digital aliases that serve as your cash wallet. In other words, an address acts as your signature and is used for receiving payments. Before you can understand how a blockchain address works, it’s important to know the difference between an address and a wallet. An address is simply a digital alias that functions as your signature; it’s like your passport in the world of money. A wallet, on the other hand, is similar to your home or personal bank account; it’s where you keep your cash, credit cards, and other financial assets. Unlike addresses, however, wallets are not limited to just one location. Instead, they can be accessed from different devices in various locations across the world.

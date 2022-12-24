@@ -11,6 +11,7 @@ tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
 Basketball improves overall health, benefits mental health, and keeps you fit. If your problem is extra pounds, basketball will help you quickly lose weight and gain the long-awaited harmony.
 
 ## How basketball affects human psychology?
+
 Very positively, because it forms in us many useful qualities and skills. For example, endurance is the ability to focus on a set goal, take initiative, work in a team, and take responsibility. Playing sports makes you happier or less stressed.
 
 With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
@@ -35,8 +36,8 @@ We have utilised Price Feed from ChainLink oracle in the smart contract to calcu
 
 ## Useful links
 
-1. Twitter - https://twitter.com/Web3Basketball
-2. Demo Website - https://website-cyan-seven.vercel.app/
+1. [Twitter](https://twitter.com/Web3Basketball)
+2. [Demo Website](https://website-cyan-seven.vercel.app/)
 
 ![Logo](/images/posts/web3basketball/2.webp)
 
@@ -48,7 +49,7 @@ The NBA is a well-known basketball league that attracts viewers from all over th
 
 Thankfully, the NBA's governing body made it possible for everyone to watch, whether it be live on television or a basketball court. Real Research had therefore undertaken a study to ascertain NBA viewership. The study was conducted between December 24 and December 26, 2020.
 
-**Highlights**
+## Highlights
 
 1. 77% of those surveyed say they watch basketball matches live or on television.
 2. Nearly 70% of people play basketball and identify as basketball aficionados.
@@ -69,7 +70,7 @@ In addition, 11,115 of the 20,000 poll respondents are between the ages of 19 an
 
 ![Statistics on the number of women and men, as well as statistics on age](/images/posts/web3basketball/3.webp)
 
-**77% of viewers watch basketball live**
+## **77% of viewers watch basketball live**
 
 There have been many outstanding games in NBA history, and some games are simply too compelling for some fans to overlook. The most watched basketball events are the NBA finals since they are the peak of the sport internationally.
 
@@ -107,7 +108,7 @@ The outcome of this data demonstrates that not everyone can afford live NBA game
 
 ![If they paid for tickets to live NBA games or live streaming subscriptions](/images/posts/web3basketball/9.webp)
 
-**Los Angeles Lakers: The Favorite Team of NBA Fans**
+## **Los Angeles Lakers: The Favorite Team of NBA Fans**
 
 There are numerous teams, but only a select number are receiving media attention. This is a typical scenario in practically all sports. Popular clubs are often those that have consistently performed well and kept their rankings at the top. They become many fans' favorite teams as a result. It doesn't necessarily follow that others aren't doing well, either.
 
@@ -133,3 +134,9 @@ However, 16% of respondents prefer to consider the team's overall performance an
 
 - [How to Panel data python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
 - [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
+- [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)

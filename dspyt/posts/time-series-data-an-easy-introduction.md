@@ -4,7 +4,7 @@ date: "April 10, 2022"
 excerpt: "A time series is a collection of observations on at least one variable ordered along single dimension, time. time series forecasting is invaluable method."
 cover_image: "/images/posts/time-series/Time_series_of_norm_of_difference-map_increment_Δ_during_solving_random_3-SAT_instance.webp"
 time_read: "5 min"
-tags: ["Python", "time-series", "econometrics", "data"]
+tags: ["Python", "time series", "econometrics", "data", "data science"]
 ---
 
 A time series is a collection of observations on at least one variable ordered along single dimension, time. A time series data demonstrates properties such as large data size, abundant attributes and continuity. Time series forecasting is particularly useful in an analysis of a trend and forecasting in macroeconomics. In the field of finance time series data assists in forecasting volatility and an average price.
