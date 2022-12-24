@@ -4,7 +4,7 @@ date: "March 6, 2021"
 excerpt: "RAI is a stablecoin reminiscent of the early version of Single Collateral DAI. It is solely backed by ETH."
 cover_image: "/images/posts/reflexer/reflexer.webp"
 time_read: "5 min"
-tags: ["RAI", "Reflexer", "stablecoin", "flx-rewards"]
+tags: ["RAI", "Reflexer", "stablecoin", "flx-rewards", "defi"]
 ---
 
 RAI is a stablecoin reminiscent of the early version of Single Collateral Dai. RAI is solely backed by ETH with a trajectory to an autonomous existence. RAI uses a funding rate to automatically balance market forces and keep itself stable.

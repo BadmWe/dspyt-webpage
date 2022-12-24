@@ -4,7 +4,16 @@ date: "November 21, 2021"
 excerpt: "In this project we utilize PARSIQ Smart Triggers and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Bsc."
 cover_image: "/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
 time_read: "5 min"
-tags: ["parsiq", "data", "smart-triggers"]
+tags:
+  [
+    "parsiq",
+    "data",
+    "smart-triggers",
+    "axs",
+    "data science",
+    "binance smart chain",
+    "axie infinity",
+  ]
 ---
 
 In this project we utilize [PARSIQ Smart Triggers](https://www.parsiq.net/en/) and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Binance Smart Chain that involves most liquid exchanges.
@@ -56,19 +65,17 @@ end
 
 ## User Data
 
-Primitives:
+Parsiq Primitives:
 
 ![Parsiq Primitives](/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.png)
 
-Table:
+Parsiq Table:
 
 ![Parsiq Table](/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.png)
 
 ![Parsiq Table 2](/images/posts/parsiq/140822678-717d0201-4b88-4ba4-9dd6-378ff47500cf.png)
 
-## Analysis
-
-## Ethereum Axie Infinity
+## Ethereum Axie Infinity Analysis
 
 There are 231 AXS token transactions in our ethereum dataset. Only 46 are from Ronin and Binance accounts.
 
@@ -100,7 +107,7 @@ This picture is very similar for only AXS. With two spikes in Binance outflows a
 
 We would need to further incorporate more data in our analysis to determine the scope of weekly and monthly flows in AXS token.
 
-## BSC AXS
+## BSC AXS Analysis
 
 In our BSC dataset we have 157 observations. The count of transactions is in favour of outflows from Binance Hot Wallets.
 
@@ -118,7 +125,7 @@ The volume of transactions is much greater on Ethereum of AXS than on Binance Sm
 
 ## Score of the addresses (in-built PARSIQ function)
 
-In our AXS dataset on Ethereum we also obtained scores for addresses by using getScore in our trigger.What is interesting is that the system scores higher the Binance account (85) rather than Ronin Bridge (76). Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80. For outflows the number is 79 for Ronin and 77 for Binance.
+In our AXS dataset on Ethereum we also obtained scores for addresses by using `getScore` in our trigger. What is interesting is that the system scores higher the Binance account (85) rather than Ronin Bridge (76). Besides, the average address that transacts to Ronin has score of 79. For Binance this figure is 80. For outflows the number is 79 for Ronin and 77 for Binance.
 
 ## Further Resources and Related Posts
 
