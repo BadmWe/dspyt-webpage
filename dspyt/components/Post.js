@@ -53,7 +53,6 @@ export default function Post({
             <div className="flex space-x-1 text-sm text-gray-500">
               <time dateTime={date}>{formatDate(date)}</time>
               <span aria-hidden="true">&middot;</span>
-              <span>{time_read} read</span>
             </div>
           </div>
         </div>

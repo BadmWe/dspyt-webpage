@@ -1,10 +1,10 @@
 ---
 title: "Improving Blockchain Credibility with UMA"
 date: "March 2, 2021"
-excerpt: "oordination tool that brings the community together and outlines the roadmap for the project development has immediate potential"
+excerpt: "Coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential"
 cover_image: "/images/posts/uma/uma.webp"
 time_read: "5 min"
-tags: ["uma", "kpi", "credibility", "blockchain"]
+tags: ["uma", "kpi", "credibility", "blockchain", "community"]
 ---
 
 > **Key Performance Indicator (KPI) options are synthetic tokens that will pay out more rewards if a project’s KPI reaches predetermined targets before a given expiry date. Every KPI option holder has an incentive to improve that KPI because their option will be worth more. This is intended to align individual token holder interests with the collective interests of the protocol.**

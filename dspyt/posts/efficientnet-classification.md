@@ -8,11 +8,12 @@ tags:
   [
     "keras",
     "Python",
-    "image-classification",
+    "image classification",
     "efficientnet",
     "data",
-    "computer-vision",
+    "computer vision",
     "tensorflow",
+    "data science",
   ]
 ---
 
