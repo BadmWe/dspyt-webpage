@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import Tag from "@/components/Tag";
 import profile from "@/public/profile.webp";
+import formatDate from "@/lib/utils/formatDate";
 
 export default function Post({
   post: { title, date, excerpt, cover_image, time_read, tags },
@@ -50,7 +51,7 @@ export default function Post({
           <div className="ml-3">
             <p className="text-sm font-medium text-gray-900">Pavel</p>
             <div className="flex space-x-1 text-sm text-gray-500">
-              <time dateTime={date}>{date}</time>
+              <time dateTime={date}>{formatDate(date)}</time>
               <span aria-hidden="true">&middot;</span>
               <span>{time_read} read</span>
             </div>

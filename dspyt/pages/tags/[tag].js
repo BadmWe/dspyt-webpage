@@ -1,12 +1,13 @@
 import Head from "next/head";
 
-import { getAllFilesFrontMatter } from "@/utils/mdx";
-import { getAllTags } from "@/utils/tags";
+import { getAllFilesFrontMatter } from "@/lib/mdx";
+import { getAllTags } from "@/lib/tags";
 import Post from "@/components/Post";
-import { sortDate } from "@/utils/sort";
+import kebabCase from "@/lib/utils/kebabCase";
 
 export async function getStaticPaths() {
   const tags = await getAllTags();
+
   return {
     paths: Object.keys(tags).map((tag) => ({
       params: {
@@ -18,10 +19,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter();
-  const filteredPosts = allPosts
-    .filter((post) => post.draft !== true && post.tags.includes(params.tag))
-    .sort(sortDate);
+  const allPosts = await getAllFilesFrontMatter("posts");
+  const filteredPosts = allPosts.filter(
+    (post) =>
+      post.draft !== true &&
+      post.tags.map((t) => kebabCase(t)).includes(params.tag)
+  );
   return { props: { posts: filteredPosts, tag: params.tag } };
 }
 
@@ -31,7 +34,7 @@ export default function Tag({ posts, tag }) {
   return (
     <>
       <Head>
-        <title>{`Data Science with Python ${title} | DSPYT`}</title>
+        <title>{`Data Science with Python ${title} - DSPYT`}</title>
         <link rel="icon" href="/big-data-svgrepo.svg" />
         <meta
           name="description"
@@ -41,7 +44,7 @@ export default function Tag({ posts, tag }) {
         <meta property="og:url" content={`https://dspyt.com/tags/${tag}`} />
         <meta
           property="og:title"
-          content={`Data Science with Python ${title} | DSPYT`}
+          content={`Data Science with Python ${title} - DSPYT`}
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
