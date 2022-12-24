@@ -6,6 +6,7 @@ import {
   getFileBySlug,
   getFiles,
 } from "@/lib/mdx";
+import generateRss from "@/lib/generate-rss";
 
 const DEFAULT_LAYOUT = "PostLayout";
 
@@ -37,10 +38,10 @@ export async function getStaticProps({ params }) {
   const authorDetails = await Promise.all(authorPromise);
 
   // rss
-  /*   if (allPosts.length > 0) {
+  if (allPosts.length > 0) {
     const rss = generateRss(allPosts);
     fs.writeFileSync("./public/feed.xml", rss);
-  } */
+  }
 
   return { props: { post, authorDetails, prev, next } };
 }

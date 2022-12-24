@@ -37,7 +37,7 @@ export default function Home({ posts }) {
               Data Science and Blockchain DSPYT Blog
             </h1>
           </div>
-          <div className="relative max-w-lg mt-6">
+          <div className="relative max-w-lg mt-6 ml-10 mr-10">
             <input
               aria-label="Search articles"
               type="text"
