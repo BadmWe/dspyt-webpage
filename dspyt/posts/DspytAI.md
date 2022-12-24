@@ -4,7 +4,7 @@ date: "December 12, 2022"
 excerpt: "Unlock your trading potential with DspytAI - a real-time portfolio tracking & price prediction tool using ML & on-chain data. Try it now!"
 cover_image: "/images/posts/dspytai/1.webp"
 time_read: "5 min"
-tags: ["Uniswap", "finance", "AI", "LSTM", "Algovera", "Python"]
+tags: ["Uniswap", "Finance", "AI", "LSTM", "Algovera", "Python", "Defi"]
 ---
 
 Welcome to [DspytAI](https://github.com/dspytdao/dspytai), the Uniswap powered Dapp that uses on-chain data and machine learning to predict potential price fluctuations in real-time. With our browser-based frontend, you can determine price averages for any ERC20 contract and access simple, free to use downloadable price prediction data in both text based csv format and image based png and svg formats. Unlock the future of Uniswap trading with DspytAI and track your Uniswap portfolio with confidence.
