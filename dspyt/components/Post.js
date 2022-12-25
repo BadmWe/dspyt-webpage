@@ -52,7 +52,6 @@ export default function Post({
             <p className="text-sm font-medium text-gray-900">Pavel</p>
             <div className="flex space-x-1 text-sm text-gray-500">
               <time dateTime={date}>{formatDate(date)}</time>
-              <span aria-hidden="true">&middot;</span>
             </div>
           </div>
         </div>

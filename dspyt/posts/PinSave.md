@@ -2,9 +2,18 @@
 title: "Unlock the Power of Decentralization with PinSave: decentralised Pinterest"
 date: "24 December, 2022"
 excerpt: "Experience the benefits of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize your content."
-cover_image: "/images/posts/Pinsave/Pin Save.png"
-time_read: "4 min"
-tags: ["IPFS", "Ethereum", "Pinsave"]
+cover_image: "/images/posts/Pinsave/Pin Save.webp"
+tags:
+  [
+    "IPFS",
+    "Ethereum",
+    "Pinsave",
+    "nextjs",
+    "evm",
+    "ERC-725",
+    "Fantom",
+    "Gitcoin",
+  ]
 ---
 
 [PinSave](https://evm.pinsave.app) is a revolutionary decentralized image sharing and content aggregation platform that allows users to control the content and the platform itself. With PinSave, users can leverage the power of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize their content. PinSave provides users with secure storage and access to the latest technology, making it the perfect choice for those looking to take control of their content.
@@ -25,6 +34,20 @@ PinSave provides users with a secure and efficient way to protect and monetize t
 
 PinSave is the perfect platform for users looking to experience the benefits of decentralization. With PinSave, users can take advantage of the platform’s secure storage, smart contracts, and creator ownership of intellectual property. These features provide users with the ultimate control over their content, allowing them to protect and monetize their content in a safe and secure manner. PinSave is the perfect choice for those looking to unlock the power of decentralization.
 
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/PS5V446aarE?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+</div>
+
 ## Conclusion
 
 PinSave is the perfect platform for users looking to take control of their content and experience the benefits of decentralization. With PinSave, users can leverage the power of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize their content. PinSave also provides users with an easy and secure way to discover and share content with its decentralized Feed. Unlock the power of decentralization with PinSave and take control of your content today.
+
+Do not forget to vote for PinSave on [Gitcoin Fantom round](https://grant-explorer.gitcoin.co/#/round/250/0xebdb4156203c8b35b7a7c6f320786b98e5ac67c3/0x1207e7650bc9cd89d2ae967b0b63f591162bbe5fc2f64dea3a749dfda5b67449-0xebdb4156203c8b35b7a7c6f320786b98e5ac67c3).
+
+## Related Links and Posts
+
+- [PinSave EVM GitHub repository](https://github.com/dspytdao/PinSave-EVM)
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
+- [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)
+- [Simple App with Ceramic Data Model and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)

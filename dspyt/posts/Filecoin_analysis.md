@@ -124,8 +124,8 @@ Filecoin storage has the potential to be significantly more energy-efficient tha
 
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
-- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
+- [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
