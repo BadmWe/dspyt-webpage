@@ -8,11 +8,17 @@ tags: ["blockchain", "XDC", "XRC", "DeFi", "AMM", "finance"]
 
 The rise of decentralized finance (DeFi) has revolutionized the financial world, allowing anyone to access a variety of financial services and investments without relying on a centralized entity. One of the most important aspects of DeFi is the ability to access liquidity and trade tokens in a secure and private manner. This is where [XRC Swap](https://xrcswap.com/) comes in.
 
+## Secure and Reliable: Building XRC-Swap Protocol for Automated Token Exchange
+
 [XRC Swap](https://xrcswap.com/) is a decentralized protocol for automated token exchange on XDC. It provides a trustless and permissionless system for users to easily swap between XRC20 tokens, as well as providing liquidity to other projects and protocols. The protocol was built using a combination of Solidity smart contracts and a React Framework Nextjs. The smart contracts handle the exchange of tokens, while Nextjs provides serves an decentralised application to an end user.
 
 The primary challenge faced while building [XRC Swap](https://xrcswap.com/) was ensuring that the protocol was secure and reliable. The team had to ensure that the smart contracts were written in a way that would protect users from potential exploits and would handle unexpected errors gracefully. They also had to ensure that Nextjs was written in a way that would provide a secure and user-friendly interface for users to interact with the protocol.
 
+## Continuously Improving: XRC Swap Protocol Offering Secure and Reliable Liquidity Solution
+
 The team is proud of having built a secure, reliable, and user-friendly protocol for token exchange. They also provided liquidity to other projects and protocols, allowing them to access the necessary resources to grow and scale. Moving forward, the team plans to continue to improve the protocol and make it more secure and reliable. They plan to introduce new features that will enable users to access more liquidity, as well as providing additional security and transparency. They also plan to expand their platform to support more tokens and protocols, allowing users to access a greater variety of liquidity options.
+
+## Unlocking Liquidity with XRC-Swap: Revolutionizing Token Exchange with DeFi
 
 [XRC Swap](https://xrcswap.com/) is an example of how DeFi can revolutionize the way we access liquidity and trade tokens. By providing a trustless, secure, and user-friendly platform, [XRC Swap](https://xrcswap.com/) is allowing users to unlock liquidity with ease and confidence.
 
@@ -25,6 +31,7 @@ Ultimately, the goal of XRC-Swap is to provide a secure and reliable platform th
 ## Related Links and Posts
 
 - [XRC-Swap GitHub repository](https://github.com/Pfed-prog/XRC-Swap)
+- [XRC Swap Devpost](https://devpost.com/software/xrc-swap)
 - [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)
