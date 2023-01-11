@@ -1,5 +1,5 @@
 ---
-title: "Unlock the Power of Decentralization with PinSave: decentralised Pinterest"
+title: "Unlock the Power of Decentralization with PinSave"
 date: "24 December, 2022"
 excerpt: "Experience the benefits of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize your content."
 cover_image: "/images/posts/Pinsave/Pin Save.webp"
@@ -13,6 +13,7 @@ tags:
     "ERC-725",
     "Fantom",
     "Gitcoin",
+    "blockchain",
   ]
 ---
 
