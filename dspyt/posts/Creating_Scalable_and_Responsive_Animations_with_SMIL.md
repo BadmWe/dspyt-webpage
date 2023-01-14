@@ -49,3 +49,11 @@ SMIL is a powerful, scalable, and responsive language for creating animations. I
 to create complex animations without having to write a lot of code. And, it makes it easy to
 make your animations look good on any device.If you’re looking for a way to add life to your website, SMIL is definitely worth considering.
 Give it a try and see what you can create!
+
+## Related Posts
+
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
