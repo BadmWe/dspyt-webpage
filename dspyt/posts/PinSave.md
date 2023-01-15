@@ -7,7 +7,7 @@ tags:
   [
     "IPFS",
     "Ethereum",
-    "Pinsave",
+    "Pin Save",
     "nextjs",
     "evm",
     "ERC-725",
@@ -52,3 +52,4 @@ Do not forget to vote for PinSave on [Gitcoin Fantom round](https://grant-explor
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)
 - [Simple App with Ceramic Data Model and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)

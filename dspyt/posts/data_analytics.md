@@ -3,7 +3,6 @@ title: "Ethereum Security Data Analytics - DSPYT"
 date: "27 September, 2022"
 excerpt: "We collect and analyze the Ethereum blockchain data with Python and Dune Analytics, particularly focusing on Lazarus Group."
 cover_image: "/images/posts/Honest/dataAnalytics.webp"
-time_read: "5 min"
 tags:
   [
     "data",

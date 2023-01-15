@@ -3,7 +3,6 @@ title: "How to implement Realized Volatility python - DSPYT"
 date: "April 25, 2022"
 excerpt: "Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series."
 cover_image: "/images/posts/quarticity/pexels-pixabay-210607.webp"
-time_read: "5 min"
 tags: ["Python", "finance", "realized volatility", "Pandas", "NumPy", "SciPy"]
 ---
 

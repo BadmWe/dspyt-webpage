@@ -3,7 +3,6 @@ title: "2 Step Guide to Maximizing FLX rewards on Reflexer Finance - DSPYT"
 date: "March 6, 2021"
 excerpt: "RAI is a stablecoin reminiscent of the early version of Single Collateral DAI. It is solely backed by ETH."
 cover_image: "/images/posts/reflexer/reflexer.webp"
-time_read: "5 min"
 tags: ["RAI", "Reflexer", "stablecoin", "flx-rewards", "defi"]
 ---
 

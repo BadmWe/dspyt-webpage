@@ -3,7 +3,7 @@ title: "XRC Swap: Unlocking Liquidity with a Decentralized Token Exchange Protoc
 date: "January 11, 2023"
 excerpt: "Unlock liquidity with XRC-Swap - empowering decentralized finance."
 cover_image: "/images/posts/xrcswap/image.webp"
-tags: ["blockchain", "XDC", "XRC", "DeFi", "AMM", "finance"]
+tags: ["blockchain", "XDC", "XRC", "DeFi", "AMM", "finance", "ERC-20"]
 ---
 
 The rise of decentralized finance (DeFi) has revolutionized the financial world, allowing anyone to access a variety of financial services and investments without relying on a centralized entity. One of the most important aspects of DeFi is the ability to access liquidity and trade tokens in a secure and private manner. This is where [XRC Swap](https://xrcswap.com/) comes in.
