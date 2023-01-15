@@ -3,7 +3,6 @@ title: "Improving Blockchain Credibility with UMA"
 date: "March 2, 2021"
 excerpt: "Coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential"
 cover_image: "/images/posts/uma/uma.webp"
-time_read: "5 min"
 tags: ["uma", "kpi", "credibility", "blockchain", "community"]
 ---
 

@@ -3,7 +3,6 @@ title: "Kaggle time series data – An easy introduction"
 date: "April 10, 2022"
 excerpt: "A time series is a collection of observations on at least one variable ordered along single dimension, time. time series forecasting is invaluable method."
 cover_image: "/images/posts/time-series/Time_series_of_norm_of_difference-map_increment_Δ_during_solving_random_3-SAT_instance.webp"
-time_read: "5 min"
 tags: ["Python", "time series", "econometrics", "data", "data science"]
 ---
 

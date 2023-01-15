@@ -3,7 +3,6 @@ title: "Guide to maximizing Liquidity Pool RAI fees"
 date: "March 1, 2021"
 excerpt: "We choose liquidity pools on Uniswap V3 and obtain tokens for the best liquidity pair using Aave V2 and Fuse Pools"
 cover_image: "/images/posts/reflexer/maxlp.webp"
-time_read: "5 min"
 tags: ["RAI", "stablecoin", "defi", "Reflexer", "Uniswap"]
 ---
 

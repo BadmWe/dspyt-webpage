@@ -3,7 +3,6 @@ title: "Guide to Marhaba Decentralized Financial Platform"
 date: "March 3, 2021"
 excerpt: "Marhaba Decentralized Financial Platform is an ethical platform that targets an unmet demand of Muslims."
 cover_image: "/images/posts/mrhb/mrhb.jpg"
-time_read: "5 min"
 tags: ["mrhb", "defi", "finance"]
 ---
 

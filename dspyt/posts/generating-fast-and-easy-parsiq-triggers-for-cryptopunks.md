@@ -3,8 +3,7 @@ title: "How to generate parsiq wallet triggers for CryptoPunks - DSPYT"
 date: "November 7, 2021"
 excerpt: "We create 3 PARSIQ Platform Smart Triggers that respond to Crypto Punks directly related on-chain events and follow custom logic with parsiq wallet tracking."
 cover_image: "/images/posts/parsiq/soc-e1658960455528.webp"
-time_read: "5 min"
-tags: ["parsiq", "crypto-punks", "data", "smart-triggers"]
+tags: ["parsiq", "crypto punks", "data", "smart triggers"]
 ---
 
 In this post we create three parsiq platform smart Triggers that respond to CryptoPunks directly related on-chain events and follow custom logic to deliver all necessary transaction information about the price action.
