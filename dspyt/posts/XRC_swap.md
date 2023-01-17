@@ -1,7 +1,7 @@
 ---
-title: "XRC Swap: Unlocking Liquidity with a Decentralized Token Exchange Protocol"
+title: "XRC Swap: Unlocking Liquidity with an Automated Market Maker"
 date: "January 11, 2023"
-excerpt: "Unlock liquidity with XRC-Swap - empowering decentralized finance."
+excerpt: "XRC-Swap is a decentralized protocol for automated token exchange on XDC, providing trustless, permissionless access to liquidity."
 cover_image: "/images/posts/xrcswap/image.webp"
 tags: ["blockchain", "XDC", "XRC", "DeFi", "AMM", "finance", "ERC-20"]
 ---
@@ -27,6 +27,10 @@ The team behind XRC-Swap is dedicated to ensuring that their protocol is secure 
 In addition to their ongoing development work, the team is also working on expanding their user base and reaching out to potential partners and collaborators. This will help to ensure that XRC-Swap is accessible to users around the world and that the platform is able to provide the necessary liquidity to projects and protocols.
 
 Ultimately, the goal of XRC-Swap is to provide a secure and reliable platform that allows users to access liquidity and trade tokens with ease. By continuing to develop their protocol, expanding their user base, and reaching out to potential partners, the team is dedicated to making XRC-Swap a leader in the DeFi space.
+
+## Conclusion
+
+XRC-Swap is a decentralized protocol for automated token exchange on XDC. It provides a trustless and permissionless system for users to easily swap between XRC20 tokens, as well as providing liquidity to other projects and protocols. The team behind XRC-Swap is dedicated to ensuring that their protocol is secure and reliable, and is constantly working on new features and updates to improve the platform. XRC-Swap is revolutionizing the way we access liquidity and trade tokens, and is a leader in the DeFi space.
 
 ## Related Links and Posts
 
