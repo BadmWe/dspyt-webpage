@@ -1,32 +1,23 @@
 import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
-import { Web3Storage } from "web3.storage";
 import Image from "next/image";
+// const mailchimp = require("@mailchimp/mailchimp_marketing");
+import mailchimp from "@mailchimp/mailchimp_marketing";
 
-import HeroImage from "@/public/screen.webp";
+import HeroImage from "@/public/pinsave.webp";
 
-const token = process.env.NEXT_PUBLIC_TOKEN;
-
-function makeStorageClient() {
-  return new Web3Storage({ token });
-}
-
-function makeFileObjects(text) {
-  const obj = { email: text };
-  const blob = new Blob([JSON.stringify(obj)], { type: "application/json" });
-  const files = [new File([blob], "email.json")];
-  return files;
-}
-
-async function storeFiles(files) {
-  const client = makeStorageClient();
-  const cid = await client.put(files);
-  console.log(cid);
-  return cid;
-}
+mailchimp.setConfig({
+  apiKey: process.env.NEXT_PUBLIC_MAILCHIMP_API,
+  server: "us21",
+});
 
 export default function Hero() {
   const [input, setInput] = useState("");
+
+  async function callPing() {
+    const response = await mailchimp.ping.get();
+    console.log(response);
+  }
 
   async function sendEmail() {
     storeFiles(makeFileObjects(input));
@@ -34,7 +25,8 @@ export default function Hero() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    sendEmail(input);
+    callPing();
+    //sendEmail(input);
     alert("Email was submitted: " + input);
   };
 
@@ -52,7 +44,7 @@ export default function Hero() {
                   What is new
                 </span>
                 <span className="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-500 space-x-1">
-                  <span>Just Added EVM</span>
+                  <span>Just Added Livepeer</span>
                   <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
                 </span>
               </a>
