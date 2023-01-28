@@ -1,33 +1,25 @@
 import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
 import Image from "next/image";
-// const mailchimp = require("@mailchimp/mailchimp_marketing");
-import mailchimp from "@mailchimp/mailchimp_marketing";
 
 import HeroImage from "@/public/pinsave.webp";
 
-mailchimp.setConfig({
-  apiKey: process.env.NEXT_PUBLIC_MAILCHIMP_API,
-  server: "us21",
-});
-
 export default function Hero() {
-  const [input, setInput] = useState("");
+  const [email, setEmail] = useState("");
 
-  async function callPing() {
-    const response = await mailchimp.ping.get();
-    console.log(response);
-  }
-
-  async function sendEmail() {
-    storeFiles(makeFileObjects(input));
-  }
-
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    callPing();
-    //sendEmail(input);
-    alert("Email was submitted: " + input);
+    await fetch("/api/signup", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email_address: email,
+        status: "subscribed",
+      }),
+    });
+    alert("Email was submitted: " + email);
   };
 
   return (
@@ -67,8 +59,8 @@ export default function Hero() {
                 </label>
                 <input
                   id="hero-email"
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   type="email"
                   className="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                   placeholder="Enter your email"
