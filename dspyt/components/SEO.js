@@ -165,6 +165,7 @@ export const BlogSEO = ({
         canonicalUrl={canonicalUrl}
       />
       <Script
+        id="my-script"
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData, null, 2),
