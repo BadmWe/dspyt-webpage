@@ -1,5 +1,5 @@
 ---
-title: "Unlock the Future of Uniswap Trading with DspytAI"
+title: "DspytAI Real-Time Portfolio Tracking & Price Prediction Tool"
 date: "December 12, 2022"
 excerpt: "Unlock your trading potential with DspytAI - a real-time portfolio tracking & price prediction tool using ML & on-chain data. Try it now!"
 cover_image: "/images/posts/dspytai/1.webp"
