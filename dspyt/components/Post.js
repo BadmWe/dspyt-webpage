@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 import Tag from "@/components/Tag";
@@ -6,7 +6,7 @@ import profile from "@/public/profile.webp";
 import formatDate from "@/lib/utils/formatDate";
 
 export default function Post({
-  post: { title, date, excerpt, cover_image, time_read, tags },
+  post: { title, date, excerpt, cover_image, tags },
   slug,
 }) {
   return (
@@ -14,15 +14,13 @@ export default function Post({
       key={title}
       className="flex flex-col rounded-lg shadow-lg overflow-hidden"
     >
-      <div className="flex-shrink-0">
-        <Image
-          className="w-full object-cover"
-          height={300}
-          width={600}
-          src={cover_image}
-          alt={title}
-        />
-      </div>
+      <Image
+        className="w-full object-cover"
+        height={300}
+        width={600}
+        src={cover_image}
+        alt={title}
+      />
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex-1">
           <div className="flex flex-wrap">
