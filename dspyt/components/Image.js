@@ -1,5 +1,5 @@
-import NextImage from "next/image";
+import Image from "next/legacy/image";
 
-const Image = ({ ...rest }) => <NextImage {...rest} />;
+const ImageDspyt = ({ ...rest }) => <Image {...rest} />;
 
-export default Image;
+export default ImageDspyt;

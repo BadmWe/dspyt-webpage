@@ -2,7 +2,7 @@ import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
 import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
-import Image from "@/components/Image";
+import ImageDspyt from "@/components/Image";
 import Tag from "@/components/Tag";
 import siteMetadata from "@/components/siteMetadata";
 //import Comments from "@/components/comments";
@@ -60,11 +60,11 @@ export default function PostLayout({
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
-              <Image
+              <ImageDspyt
                 className="mx-auto rounded-lg"
                 quality={25}
                 width={656}
-                height={224}
+                height={300}
                 src={cover_image}
                 alt={title}
                 priority
@@ -85,7 +85,7 @@ export default function PostLayout({
                       key={author.name}
                     >
                       {author.avatar && (
-                        <Image
+                        <ImageDspyt
                           src={author.avatar}
                           width="38"
                           height="38"
