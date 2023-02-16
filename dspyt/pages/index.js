@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import { getAllFilesFrontMatter } from "@/lib/mdx";
 import Post from "@/components/Post";
@@ -33,6 +34,14 @@ export default function Home({ posts }) {
             {posts.slice(0, 6).map((post, index) => (
               <Post key={index} post={post} slug={post.slug} />
             ))}
+          </div>
+          <div className="pt-4 xl:pt-8 ml-8">
+            <Link
+              href="/blog"
+              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              Go to the blog
+            </Link>
           </div>
         </div>
       </div>
