@@ -1,7 +1,7 @@
 ---
 title: "What are Stablecoins and How Do They Impact Decentralized Finance"
 date: "February 12, 2023"
-excerpt: "Stablecoins are cryptocurrencies that are designed to have their value remain consistent and are becoming increasingly popular in the DeFi market due to their ability to maintain a steady value."
+excerpt: "Stablecoins are designed to remain consistent and are becoming increasingly popular in the DeFi market due to their ability to maintain a steady value."
 cover_image: "/images/posts/defi/pexels-worldspectrum-844124.webp"
 tags: ["stablecoins", "DeFi", "blockchain", "USDC", "Circle"]
 ---
