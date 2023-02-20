@@ -12,49 +12,37 @@ Offers for Sale of the limited CryptoPunks collection are particularly vital to 
 
 Cryptopunks is the NFT collection of 10000 uniquely generated characters. The collection has a highest market capitalization and market volume as of November 4th 2021.
 
-![Cryptopunks](/images/posts/parsiq/140242896-9c339336-e36b-4388-8aa9-56760bf8cd4a.png)
+![Cryptopunks](/images/posts/parsiq/140242896-9c339336-e36b-4388-8aa9-56760bf8cd4a.webp)
 
 ## Simple Walkthrough
 
 1. We created parsiq account with an Empty project instead of a template as it allows us to edit the trigger code.
-
-![parsiq account with an Empty project](/images/posts/parsiq/140244531-09e16a47-fa12-40f6-bc77-7d139a8be8f4.png)
+   ![parsiq account with an Empty project](/images/posts/parsiq/140244531-09e16a47-fa12-40f6-bc77-7d139a8be8f4.webp)
 
 2. Next, to monitor the NFT collection we added its contract ABI in the User stream on parsiq platform.
-
-![monitor the NFT collection](/images/posts/parsiq/140627741-bea5116d-0b93-4f4d-af08-6fb4e321223e.png)
-
-We select the ABI straight from the page and export into RAW/TEXT format and upload to parsiq platform.
-
-![export abi](/images/posts/parsiq/140244623-07f2cb8d-c07c-448d-a9d3-809bb6d66600.png)
+   ![monitor the NFT collection](/images/posts/parsiq/140627741-bea5116d-0b93-4f4d-af08-6fb4e321223e.webp)
+   We select the ABI straight from the page and export into RAW/TEXT format and upload to parsiq platform.
+   ![export abi](/images/posts/parsiq/140244623-07f2cb8d-c07c-448d-a9d3-809bb6d66600.webp)
 
 3. Following data from Etherscan we choose three most frequent events so that we could use them with ParsiQL to create a trigger.
-
-![Parsiq Trigger](/images/posts/parsiq/140629662-b5a2820d-e445-4846-9640-60b68ca4f946.png)
-
-In our instance, we added the events: PunkOffered, PunkBidEntered and PunkBidWithdrawn.
-
-![Parsiq Events](/images/posts/parsiq/140629515-5b5ccb36-07ed-46bc-ac06-1293bd50eb78.png)
+   ![Parsiq Trigger](/images/posts/parsiq/140629662-b5a2820d-e445-4846-9640-60b68ca4f946.webp)
+   In our instance, we added the events: PunkOffered, PunkBidEntered and PunkBidWithdrawn.
+   ![Parsiq Events](/images/posts/parsiq/140629515-5b5ccb36-07ed-46bc-ac06-1293bd50eb78.webp)
 
 4. Back in our Project we also included transports to get the necessary data. There are four options: Web, Discord, Telegram and Google Sheets. In this project we implemented Web, Telegram and Google Sheets transports.
-
-![Parsiq Transports](/images/posts/parsiq/image-768x333.png)
+   ![Parsiq Transports](/images/posts/parsiq/image-768x333.webp)
 
 5. As we implemented the necessary details we combine them as a final product. In our Project we create triggers for each of the events with similar ParsiQL code, deploy them and add transports. Here are some details on the code and configuration:
-
-![ParsiQL code](/images/posts/parsiq/140609712-a9a03f36-60b8-4e35-b46d-0bede069844d.png)
-
-![ParsiQL code 2](/images/posts/parsiq/140251634-7ab5aeeb-613b-4921-8e32-718ae099d980.png)
-
-![ParsiQL code 3](/images/posts/parsiq/140609790-05521031-d2b7-4904-a67f-3b3a9412eb60.png)
-
-![ParsiQL code 4](/images/posts/parsiq/140245287-348d09c4-b07d-4762-b06a-7034bda3d7bd.png)
+   ![ParsiQL code](/images/posts/parsiq/140609712-a9a03f36-60b8-4e35-b46d-0bede069844d.webp)
+   ![ParsiQL code 2](/images/posts/parsiq/140251634-7ab5aeeb-613b-4921-8e32-718ae099d980.webp)
+   ![ParsiQL code 3](/images/posts/parsiq/140609790-05521031-d2b7-4904-a67f-3b3a9412eb60.webp)
+   ![ParsiQL code 4](/images/posts/parsiq/140245287-348d09c4-b07d-4762-b06a-7034bda3d7bd.webp)
 
 ## Results
 
 We get immediate notifications through a telegram bot in the private channel.
 
-![telegram bot in the private channel](/images/posts/parsiq/140609836-eb44988a-9017-4802-bb92-17279241a2f8.png)
+![telegram bot in the private channel](/images/posts/parsiq/140609836-eb44988a-9017-4802-bb92-17279241a2f8.webp)
 
 By using ngrok, we receive the post requests from the triggers.
 
@@ -108,5 +96,5 @@ Further we suggest to utilize the data for a more comprehensive analysis with pa
 - [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
 - [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)
 - [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
-- [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
+- [Great blockchain insights with PARSIQ triggers for AXS](https://dspyt.com/blockchain-insights-with-parsiq-triggers-for-axie-infinity)
 - [Guide to Marhaba Decentralized Financial Platform](https://dspyt.com/mrhb-defi-great-technologies-and-functionalities)

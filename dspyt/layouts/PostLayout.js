@@ -57,9 +57,7 @@ export default function PostLayout({
                   </dd>
                 </div>
               </dl>
-              <div>
-                <PageTitle>{title}</PageTitle>
-              </div>
+              <PageTitle>{title}</PageTitle>
               <ImageDspyt
                 className="mx-auto rounded-lg"
                 quality={25}
