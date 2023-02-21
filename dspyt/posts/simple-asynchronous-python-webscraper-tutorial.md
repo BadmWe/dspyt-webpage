@@ -1,5 +1,5 @@
 ---
-title: "How to implement asyncio python tutorial"
+title: "How to implement asyncio python tutorial - DSPYT"
 date: "December 27, 2021"
 excerpt: "asyncio python tutorial : smart way to efficiently handle tasks like network or input/output, especially for a time-consuming task to finish"
 cover_image: "/images/posts/asyncio/pexels-thisisengineering-3861969-1-e1629301351687.webp"

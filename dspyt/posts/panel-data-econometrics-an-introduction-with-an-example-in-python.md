@@ -1,5 +1,5 @@
 ---
-title: "How to Panel data python – An easy introduction"
+title: "How to Panel data python – An easy introduction - DSPYT"
 date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 cover_image: "/images/posts/panel/paneldata.webp"
