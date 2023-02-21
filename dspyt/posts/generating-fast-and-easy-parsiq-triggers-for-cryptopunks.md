@@ -84,7 +84,7 @@ app.listen(port, () => console.log(`Application listening on port ${port} `))
 We also configured three separate Google Sheet spreadsheets that serve as real time database for CryptoPunks collection. We use R to host the database and display the CryptoPunks on-chain activity.
 
 <div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/5Be_iZKCQd0?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/5Be_iZKCQd0?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"\>
 </div>
 
 Further we suggest to utilize the data for a more comprehensive analysis with parsiq.

@@ -2,7 +2,7 @@
 title: "Simple sklearn ensemble machine learning - DSPYT"
 date: "April 1, 2021"
 excerpt: "A write up on sklearn ensemble pipeline for multiple target columns using libraries such as numpy, pandas and sklearn."
-cover_image: "/images/posts/ensemble/1_IHNY-j3mp00H_i6gb5DA-w.png"
+cover_image: "/images/posts/ensemble/1_IHNY-j3mp00H_i6gb5DA-w.webp"
 tags:
   [
     "Python",
@@ -20,7 +20,7 @@ This post further extends [article on sklearn pipeline for time-series data](htt
 
 Some of the ideas for this post came from researching for machine learning competition Sound the Alarm 2 for Australian based platform Unearthed, where Dspyt team took 10th place on a private leader-board. The company is very strict about the data and code that they provided. You can try the platform in Evergreen Challenges.
 
-![Simple sklearn ensemble machine learning Dspyt](/images/posts/ensemble/image-3.png)
+![Simple sklearn ensemble machine learning Dspyt](/images/posts/ensemble/image-3.webp)
 
 ## Loading Libraries
 
