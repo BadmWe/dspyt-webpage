@@ -1,5 +1,5 @@
 ---
-title: "Exploring and Refactoring Contraktor: A Comprehensive Ethereum Explorer"
+title: "Exploring and Refactoring Contraktor - Ethereum Explorer"
 date: "February 25, 2023"
 excerpt: "Refactored an archived open source Ethereum explorer called Contraktor, connecting Rainbowkit Wagmi Ethers to the explorer."
 cover_image: "/images/posts/explorer/explorer.webp"
