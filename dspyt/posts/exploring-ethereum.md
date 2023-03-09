@@ -33,6 +33,8 @@ Overall, Etherscan, Ethplorer, Bitquery and BlockScout are all excellent tools f
 
 ## Further Resources and Related Posts
 
+- [NextJs Ethereum Explorer](https://github.com/Pfed-prog/NextJsExplorer)
+- [Exploring and Refactoring Contraktor - Ethereum Explorer](https://dspyt.com/refactoring-contraktor)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
