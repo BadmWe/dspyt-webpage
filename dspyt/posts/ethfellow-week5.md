@@ -1,0 +1,33 @@
+---
+title: "Enhancing User Experience: Our Recent UI Improvements"
+date: "March 10, 2023"
+excerpt: ""
+cover_image: "/images/posts/explorer/pexels-markus-spiske-225769.webp"
+authors: ["dspytdao"]
+tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+---
+
+As our society continues to rely heavily on technology, the value of a user-friendly interface is increasing. We understand the significance of a good user experience, which is why we recently made some major improvements to our platform's UI.
+
+Our team has been working tirelessly to make the platform more engaging and intuitive for our users. We are pleased to announce that we have added new colors and buttons, restructured the layout, and added a feature to view the transaction details of a contract.
+
+One of our main goals was to improve the search card experience. We recognized that users were spending too much time trying to search for information on the platform, so we optimized the search card to make it more efficient.
+
+Our new feature to view the transaction details of a contract was also received with excitement by our users who were seeking a more comprehensive transaction view.
+
+We've also started working on some additional features for the platform. In the next week, we will continue developing the detailed information view and begin working on the network activity view on the homepage.
+
+These latest UI improvements are just the beginning, and we are constantly striving to make the platform a more enjoyable and seamless experience for our users. We believe that by continuing to listen to our users' feedback and implementing their suggestions, we can continue to enhance the platform's user experience.
+
+In conclusion, we are thrilled to unveil these improvements to our platform's UI. As always, we welcome your feedback on our new design and remain committed to providing the most user-friendly experience possible.
+
+## Further Resources and Related Posts
+
+- [NextJs Ethereum Explorer](https://github.com/Pfed-prog/NextJsExplorer)
+- [Exploring and Refactoring Contraktor - Ethereum Explorer](https://dspyt.com/refactoring-contraktor)
+- [Exploring Ethereum Network with Etherscan and BlockScout](https://dspyt.com/exploring-ethereum)
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
