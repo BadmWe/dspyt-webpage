@@ -1,25 +1,41 @@
 ---
-title: "Enhancing User Experience: Our Recent UI Improvements"
+title: "Enhancing User Experience: NextJs Explorer UI Improvements"
 date: "March 10, 2023"
-excerpt: ""
-cover_image: "/images/posts/explorer/pexels-markus-spiske-225769.webp"
+excerpt: "Our platform has recently undergone major improvements to enhance the user experience. New colors and buttons, restructured layout, and a feature to view transaction details."
+cover_image: "/images/posts/explorer/pexels-lukas-577210.webp"
 authors: ["dspytdao"]
 tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
 ---
 
 As our society continues to rely heavily on technology, the value of a user-friendly interface is increasing. We understand the significance of a good user experience, which is why we recently made some major improvements to our platform's UI.
 
+## New UI Design
+
 Our team has been working tirelessly to make the platform more engaging and intuitive for our users. We are pleased to announce that we have added new colors and buttons, restructured the layout, and added a feature to view the transaction details of a contract.
+
+![defi contracts](/images/posts/explorer/explorer_5.webp)
+
+![organization contracts](/images/posts/explorer/org_5.webp)
+
+## Search Card
 
 One of our main goals was to improve the search card experience. We recognized that users were spending too much time trying to search for information on the platform, so we optimized the search card to make it more efficient.
 
+![nextjs explorer homepage](/images/posts/explorer/home_5.webp)
+
+## Transaction Details
+
 Our new feature to view the transaction details of a contract was also received with excitement by our users who were seeking a more comprehensive transaction view.
+
+![detailed contract](/images/posts/explorer/contract_5.webp)
+
+## Upcoming Features
 
 We've also started working on some additional features for the platform. In the next week, we will continue developing the detailed information view and begin working on the network activity view on the homepage.
 
-These latest UI improvements are just the beginning, and we are constantly striving to make the platform a more enjoyable and seamless experience for our users. We believe that by continuing to listen to our users' feedback and implementing their suggestions, we can continue to enhance the platform's user experience.
+## Conclusion
 
-In conclusion, we are thrilled to unveil these improvements to our platform's UI. As always, we welcome your feedback on our new design and remain committed to providing the most user-friendly experience possible.
+These latest UI improvements are just the beginning, and we are constantly striving to make the platform a more enjoyable and seamless experience for our users. We believe that by continuing to listen to our users' feedback and implementing their suggestions, we can continue to enhance the platform's user experience.
 
 ## Further Resources and Related Posts
 
