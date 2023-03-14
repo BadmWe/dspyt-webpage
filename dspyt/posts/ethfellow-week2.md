@@ -1,5 +1,5 @@
 ---
-title: "Ethereum Contract Explorer: Exploring Ethereum Contracts and Their Associated Data"
+title: "Exploring Ethereum Contracts and Their Associated Data"
 date: "February 16, 2023"
 excerpt: "This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data."
 cover_image: "/images/posts/explorer/pexels-oluwaseun-duncan-226232.webp"

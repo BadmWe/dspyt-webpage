@@ -1,7 +1,7 @@
 ---
 title: "Enhancing User Experience: NextJs Explorer UI Improvements"
 date: "March 10, 2023"
-excerpt: "Our platform has recently undergone major improvements to enhance the user experience. New colors and buttons, restructured layout, and a feature to view transaction details."
+excerpt: "Our platform has enhanced the user experience. New colours and buttons, restructured layout, and a feature to view transaction details."
 cover_image: "/images/posts/explorer/pexels-lukas-577210.webp"
 authors: ["dspytdao"]
 tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
