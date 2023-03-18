@@ -1,13 +1,19 @@
 ---
-title: "Enhancing User Experience: NextJs Explorer UI Improvements"
+title: "Enhancing NextJS Explorer: Dashboard UI Improvements"
 date: "March 17, 2023"
-excerpt: "Our platform has enhanced the user experience. New colours and buttons, restructured layout, and a feature to view transaction details."
+excerpt: "NextJS Explorer has enhanced the homepage. We added a logo, dune dashboard to track real time ethereum transactions costs for different actions."
 cover_image: "/images/posts/explorer/pexels-mike-b-887843.webp"
 authors: ["dspytdao"]
 tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
 ---
 
-This week I worked on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. With this project, I aim to provide users with an easy to use interface for exploring Ethereum contracts. I added a Dune Dashboard for cost of 8 actions on ethereum and a real time display of the latest block. The contract interface was also improved to provide more detailed information about the contract such as the code, current states, events, contract balance and functions.
+This week I worked on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. With this project, I aim to provide users with an easy to use interface for exploring Ethereum contracts.
+
+I added a Dune Dashboard for cost of 8 actions on ethereum and a real time display of the latest block.
+
+![dune update](/images/posts/explorer/dune6.webp)
+
+The contract interface was also improved to provide more detailed information about the contract such as the code, current states, events, contract balance and functions.
 
 ![contract details update](/images/posts/explorer/contract6.webp)
 
