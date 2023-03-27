@@ -12,7 +12,7 @@ Marhaba Decentralized Financial Platform is an ethical DeFi platform. MRHB Found
 
 The smart contracts are the backbone of the MRHB platform that are set to enforce the Shariah compliance and prohibit the use of any asset that is unlawful according to Shariah Law. The supervision of duly experienced and highly qualified in-house Shariah advisors ensure that the activities on the platform are Shariah-compliant.
 
-Marhaba Decentralized Financial Platform is built on the Binance Smart Chain whcih greatly reduces costs of transactions and improves overall efficiency. The core services that MRHB provides are Saha walllet, Souq NFT and Liquidity Harvester, among others.
+Marhaba Decentralized Financial Platform is built on the Binance Smart Chain whcih greatly reduces costs of transactions and improves overall efficiency. The core services that MRHB provides are Saha wallet, Souq NFT and Liquidity Harvester, among others.
 
 ## Sahal Wallet
 

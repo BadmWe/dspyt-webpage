@@ -21,7 +21,7 @@ AXS is an Ethereum token that powers Axie Infinity, a blockchain-based game wher
 
 On April 28 2021 the game has made a significant update introducing Ronin Bridge, Axie Infinity Ethereum sidechain. The contract has since become the crucial link in the Axie Infinity ecosystem and largely contributes to the price action of AXS. With the update the bridge has become the only available option for Axie marketplace, breeding, and morphing contracts.
 
-The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar prooduct on the exchange.
+The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar product on the exchange.
 
 ![AXS APY Binance](/images/posts/parsiq/140820286-7b9a6fd7-2635-4095-9783-1931f02ea1ac.webp)
 

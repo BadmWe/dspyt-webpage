@@ -31,7 +31,7 @@ While competing software-based ledgering products carry monthly and or annual ba
 
 We built the application using JavaScript, NextJS, React, Tailwind CSS, Polygon and ChainLink. The application is hosted on Vercel. Meanwhile, the IPFS data is stored using web3.storage and nft.storage with car file extension.
 
-We have utilised Price Feed from ChainLink oracle in the smart contract to calculate the fair price of the items in our market place. In particular we estimated Ethereum price in USD.
+We have utilized Price Feed from ChainLink oracle in the smart contract to calculate the fair price of the items in our market place. In particular we estimated Ethereum price in USD.
 
 ## Useful links
 

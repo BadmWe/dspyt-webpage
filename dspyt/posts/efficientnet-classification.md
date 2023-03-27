@@ -174,7 +174,7 @@ Finally, we combine the augmentation pipeline, the data generator and our model 
 
 In this post, we discussed convolutional neural networks, data augmentation, EfficientNet, and how to achieve nearly 100% accuracy on a classification of several classes of images. Data scientists and computer vision specialists refer to such tasks as "semantic segmentation" or "dense prediction." Semantic segmentation is a particularly popular term in autonomous vehicles such as cars, drones, and planes. The sliding-window operations occur in the convolution layer of the neural network. A convolution is a weighted sum of the pixel values of the image, as the window slides across the whole thing.
 
-Data augmentation is the process of generating additional training data from your existing examples. This exposes the model to more aspects of the data and prevents over-fitting. In this example, we are using Google Brain's EfficientNet family of image classification models, which are an order-of-magnitude smaller and faster than previous models such as ResNet-152 and Resnet-50. Albumentations is a fast and flexible library compatible with different neural networks.
+Data augmentation is the process of generating additional training data from your existing examples. This exposes the model to more aspects of the data and prevents over-fitting. In this example, we are using Google Brain's EfficientNet family of image classification models, which are an order-of-magnitude smaller and faster than previous models such as ResNet-152 and Resnet-50. `Albumentations` is a fast and flexible library compatible with different neural networks.
 
 ## References and Related Links
 

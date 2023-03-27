@@ -71,7 +71,7 @@ Submitting your nextjs sitemap to search engines is the best way to ensure that 
 
 Web Badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
 
-The application utilises JavaScript, NextJS, React, Tailwind Css and Wagmi library, IPFS, nft.storage and web3.storage.
+The application utilizes JavaScript, NextJS, React, Tailwind Css and Wagmi library, IPFS, nft.storage and web3.storage.
 
 The smart contract is built with solidity, hardhat and polygon blockchain mumbai testnet.
 
@@ -81,7 +81,7 @@ The smart contract is built with solidity, hardhat and polygon blockchain mumbai
 
 ## Conclusion
 
-Creating a sitemap for your nextjs project is a great way to ensure that your site is indexed quickly and accurately by search engines. By using the right tools, such as the next-sitemap npm package and adding postbuild scripts to your package.json file, you can easily generate a sitemap for your project. Furthermore, submitting your sitemap to search engines can help them index your site faster and more accurately. With the right tools and techniques, creating a sitemap for your nextjs project is easy and efficient.
+Creating a sitemap for your nextjs project is a great way to ensure that your site is indexed quickly and accurately by search engines. By using the right tools, such as the next-sitemap npm package and adding `postbuild` scripts to your package.json file, you can easily generate a sitemap for your project. Furthermore, submitting your sitemap to search engines can help them index your site faster and more accurately. With the right tools and techniques, creating a sitemap for your nextjs project is easy and efficient.
 
 ## Related Posts
 

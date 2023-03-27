@@ -61,11 +61,11 @@ According to [Dune Analytics Dashboard](https://dune.com/zavodil/rainbow-bridge)
 
 ![Dune Analytics Aurora Dashboard](/images/posts/aurora/au4.webp)
 
-## Decentralised finance (DeFi) on Aurora
+## Decentralized finance (DeFi) on Aurora
 
-Cryptocurrencies and tokens are not just transforming finance and money, but also the ways in which creators can form Internet-native organisations to create and share value. Web3 has become a proxy for new economic ideas and value creation.
+Cryptocurrencies and tokens are not just transforming finance and money, but also the ways in which creators can form Internet-native organizations to create and share value. Web3 has become a proxy for new economic ideas and value creation.
 
-Ethereum-powered decentralised exchanges are a fast growing market. With the ability to conduct real-time, low-cost trades, they are opening up a new class of users. These exchanges will offer a level of privacy and security that is not possible on centralized exchanges. In addition, they also need to be fast, scalable, secure, highly available, resilient and user-friendly. This is where Aurora comes in. It provides the security and speed of Layer 1 and the scalability of Layer 2.
+Ethereum-powered decentralized exchanges are a fast growing market. With the ability to conduct real-time, low-cost trades, they are opening up a new class of users. These exchanges will offer a level of privacy and security that is not possible on centralized exchanges. In addition, they also need to be fast, scalable, secure, highly available, resilient and user-friendly. This is where Aurora comes in. It provides the security and speed of Layer 1 and the scalability of Layer 2.
 
 Popular DeFi dApps on Aurora include Curve and Bastion Protocol. Curve is an exchange liquidity pool on Ethereum for efficient stablecoin trading with low risk. The latter is an algorithmic, DeFi lending protocol on Aurora.
 
@@ -84,7 +84,7 @@ Aurora is a layer 2 solution that is built on top of the NEAR Protocol. It is co
 - [Aurora](https://aurora.dev/)
 - [Aurora DAO](https://aurora.dev/dao)
 - [Aurora Token List](https://aurora.dev/tokens)
-- [Auora New Engine](https://aurora.dev/blog/aurora-engine-2-4-0-release)
+- [Aurora New Engine](https://aurora.dev/blog/aurora-engine-2-4-0-release)
 - [Aurora Rainbow Bridge Anniversary](https://aurora.dev/blog/rainbow-bridge-1-year-anniversary)
 - [Rainbow Bridge](https://rainbowbridge.app/about)
 - [Consensus: Web3 Report Q3 2021](https://consensys.net/reports/web3-report-q3-2021/)

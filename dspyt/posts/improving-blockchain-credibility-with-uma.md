@@ -22,7 +22,7 @@ Besides, to tackle the risk of discoordination and asymmetry of information we a
 
 ## Weeding out pump and dump
 
-The utilization of UMA KPI option signals to the knowledgable shareholders an alignment of personal contributors’ goals with an overarching purpose. Meanwhile it further increases the transparency of the governance structure.
+The utilization of UMA KPI option signals to the knowledgeable shareholders an alignment of personal contributors’ goals with an overarching purpose. Meanwhile it further increases the transparency of the governance structure.
 
 For instance, we note the lack of collateral and transparency in the following projects that remind highly-conscious users the consequences of its absence:
 

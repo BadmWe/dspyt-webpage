@@ -26,9 +26,9 @@ and get started with.
 
 SMIL works by defining a timeline for the animation. This timeline consists of a series of
 events that occur at different times. Each event is defined as an "attribute" and can be used
-to control the animation’s behaviour.
+to control the animation’s behavior.
 For example, you can define an attribute that changes the position of an object on the
-timeline. You can also define attributes that control the size, colour, or other properties of an
+timeline. You can also define attributes that control the size, color, or other properties of an
 object.
 Once the timeline is set up, you can start the animation by calling the SMIL animation
 function. This will cause the animation to start playing.

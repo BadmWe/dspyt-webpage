@@ -18,7 +18,7 @@ In this article we develop web application in Flask python to generate qr code w
 
 ## Python QR Code AWS App
 
-The necessary condition for a python Flask QR code application to sucessfully run aws is to initialize the app as following: `application = Flask(__name__)`
+The necessary condition for a python Flask QR code application to successfully run aws is to initialize the app as following: `application = Flask(__name__)`
 
 ```python
 import base64

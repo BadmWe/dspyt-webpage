@@ -28,7 +28,7 @@ There are numerous benefits of panel data over [cross sectional](https://dspyt.c
 
 - In panel data multiple observations of the same entities allow us to control for unobserved characteristics.
 - Panel data facilitates causal inference which would be difficult with one cross-section or time-series data set.
-- Panel data allows us to study significance of lags in behaviour and results of decision-making across time and entities.
+- Panel data allows us to study significance of lags in behavior and results of decision-making across time and entities.
 
 Nevertheless, for a data scientist, it might be difficult to obtain panel data since it requires replication of the same entities over multiple periods.
 

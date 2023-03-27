@@ -29,9 +29,9 @@ The network has performed incredibly well in 2021, reaching a peak for Data stor
 Filecoin has also seen an increase in energy efficiency since its launch. Filecoin's storage network estimated to use only 6.298506 MW/EiB on October 16th 2022, compared to August 24th 2020 10618.24561 MW/EiB. This is indicative of the efficiency gains achieved by Filecoin's decentralized storage network.
 The network has also seen an increase in the number of nodes and miners, allowing it to become more resilient and fault-tolerant. This has led to fewer storage failures and reduced downtime, providing a superior user experience.
 
-![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/3.webp)
+![Filecoin Energy Intensity Estimate](/images/posts/Filecoin/3.webp)
 
-![Filecoin Energy Intesity Estimate](/images/posts/Filecoin/4.webp)
+![Filecoin Energy Intensity Estimate](/images/posts/Filecoin/4.webp)
 
 ## The evolution of the share of renewable energy used by Filecoin
 
@@ -92,7 +92,7 @@ Next we obtain recent data from Binance API:
 
 Further, we aggregate the data columns by month and year with median, mean and sum function in NumPy. We shift the columns one period, in order to predict one step ahead period which is December 2022.
 
-The aggragated dataset is available on [Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:557997940dedae59b0b3c072fe08d1405ba8a77bdf11600c21e20f72131e0aa3)
+The aggregated dataset is available on [Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:557997940dedae59b0b3c072fe08d1405ba8a77bdf11600c21e20f72131e0aa3)
 
 We train the model to estimate the median of the Data Storage capacity added per day. The sklearn pipeline looks as following:
 
@@ -111,7 +111,7 @@ The dataset is available on [Ocean Marketplace](https://market.oceanprotocol.com
 
 ![Energy demand in data centers worldwide from 2015 to 2021](/images/posts/Filecoin/18.webp)
 
-## Conslusion
+## Conclusion
 
 Traditional data center operators have been traditionally focused on maximizing output and performance, often overlooking the power implications. This has led to an increase in energy consumption as additional data centers were built to meet the increased demand for computing power. However, the availability of cloud computing resources, which require no floor space, has enabled organizations to shut down legacy data centers and move operations to the cloud. Non-hyperscale cloud data centers have kept their energy consumption steady, while large, hyperscale cloud data centers have steadily increased their energy usage and effectively managed it.
 

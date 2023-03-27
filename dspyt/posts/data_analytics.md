@@ -43,7 +43,7 @@ To analyze the nature of transactions and identify trends, we transaction data w
 Dune can help users trace the flow of funds between contracts with a visual and data-centric interface.
 If a user receives tokens in one contract and sends it to another contract, Dune will trace the fund and show the attempted hidden movement between contracts. Dune Analytic also provides interactive charts which can help users do in-depth analysis of blockchain data and conduct better analysis.
 
-In particular we queried to ethereum blcokchain to obtain
+In particular, we queried to ethereum blockchain to obtain
 [weekly deposits transactions Data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTxs1321434.csv),
 [weekly withdrawals transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusWeeklyWithdrawalsTxs1322493.csv),
 [granular tabular transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTabularTxs1322519.csv),
@@ -70,7 +70,7 @@ Etherscan is the primary blockchain explorer, search, API, and analytics portal 
 In order to promote equitable access to blockchain data, Etherscan gives developers with direct access to Etherscan's block explorer data and services via GET/POST requests.
 Because Etherscan's APIs are provided as a community service with no warranties, the data may be skewed or contain incorrect labels.
 
-We obtained the following phisihing labeled addresses data sets using Dune Analytics Queries:
+We obtained the following phishing labeled addresses data sets using Dune Analytics Queries:
 [Weekly Aggregated Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
 [Aggregated by Receiver Address](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedByAddress322768.csv),
 [Tabular Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv).

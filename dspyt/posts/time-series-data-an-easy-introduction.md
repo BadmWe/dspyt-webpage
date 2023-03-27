@@ -50,7 +50,7 @@ warnings.filterwarnings('ignore')
 pd.set_option('display.max_rows', 1000)
 ```
 
-We also load the data set using pandas library `read_csv()` method. We process the date column with Datetime library `strptime()` method to a datetime data type comptible with Pandas DataFrame.
+We also load the data set using pandas library `read_csv()` method. We process the date column with Datetime library `strptime()` method to a datetime data type compatible with Pandas DataFrame.
 
 ```python
 def parser(s):

@@ -12,7 +12,7 @@ It can be used to send and receive messages, as well as to manage channels and u
 
 ## Python Virtual Environment
 
-First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to hosting python telegram bot on heroku, we use the python virtual environment library virtualenv. We install the python `virtualenv` library with PIP:
+First, we need to save python dependencies to host the telegram python bot on Heroku. In this tutorial related to hosting python telegram bot on heroku, we use the python virtual environment library `virtualenv`. We install the python `virtualenv` library with PIP:
 
 ```bash
 pip install virtualenv
