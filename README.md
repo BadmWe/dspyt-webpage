@@ -12,14 +12,32 @@ Our mission involves the following key areas:
 
 4. Encouraging Diversity and Inclusion: DspytDAO acknowledges the importance of creating opportunities for diverse perspectives and experiences across the Web3 community. We actively work towards advocating for increased representation and inclusivity in the tech ecosystem, thereby fostering a more innovative and equitable landscape for all.
 
-## Our Projects
+## Our Content
 
-We are currently working on several projects in the JavaScript and Next.js communities, including:
+We are currently working on several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities including:
 
 - **[Pin Save EVM](https://github.com/dspytdao/PinSave-EVM)**: EVM compatible version of Pin Save. Decentralized Pinterest.
 - **[Algo AMM](https://github.com/dspytdao/Algo_AMM)**: Automated Prediction Market Maker on Algorand.
 - **[Dspyt AI](https://github.com/dspytdao/dspytai)**: Dapp that utilizes on-chain data to model potential price fluctuations in real-time.
 
+We have also collaborated with Ceramic, TrueBlocks and broader ecosystem to cover topics:
+
+- "What is a blockchain address?"
+- "Simple Blockchain data indexing with TrueBlocks"
+- "How ERC-4626 is Fueling the Next Wave of DeFi"
+- "Aurora — EVM on the NEAR Protocol blockchain"
+- "Improving Blockchain Credibility with UMA"
+
 ## Get Involved
 
 We welcome developers of all experience levels to join us in our mission. If you'd like to get involved, please check out our [GitHub repositories](https://github.com/orgs/dspytdao/repositories) or join our [Discord Channel](https://discord.gg/GzhgdRmbM8). We hope to see you soon!
+
+## Useful Links
+
+[DspytDAO YouTube](https://www.youtube.com/channel/UCpssd9fVzqvTB6mWSaJ4lUw)
+
+[DspytDAO GitHub](https://github.com/dspytdao)
+
+[DspytDAO Twitter](https://twitter.com/dspytdao)
+
+[DspytDAO LinkedIn](https://www.linkedin.com/company/dspytdao/)
