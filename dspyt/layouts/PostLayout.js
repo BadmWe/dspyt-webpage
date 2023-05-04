@@ -93,9 +93,11 @@ export default function PostLayout({
                       )}
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
                         <dt className="sr-only">Name</dt>
-                        <dd className="text-gray-900 dark:text-gray-100">
-                          {author.name}
-                        </dd>
+                        <Link href={`/profile/${author.slug}`}>
+                          <dd className="text-gray-900 dark:text-gray-100">
+                            {author.name}
+                          </dd>
+                        </Link>
                         <dt className="sr-only">Twitter</dt>
                         <dd>
                           {author.twitter && (
