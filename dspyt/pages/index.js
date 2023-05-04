@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { getAllFilesFrontMatter } from "@/lib/mdx";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Post from "@/components/Post";
 import Hero from "@/components/Hero";
 
@@ -31,16 +31,15 @@ export default function Home({ posts }) {
             </h2>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {posts.slice(0, 6).map((post, index) => (
+            {posts?.map((post, index) => (
               <Post key={index} post={post} slug={post.slug} />
             ))}
           </div>
-          <div className="pt-4 xl:pt-8 ml-8">
-            <Link
-              href="/blog"
-              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-            >
-              Go to the blog
+          <div className="pt-4 xl:pt-8 ml-8 border-gray-900">
+            <Link href="/blog" legacyBehavior>
+              <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                Go to the blog
+              </a>
             </Link>
           </div>
         </div>
@@ -50,6 +49,21 @@ export default function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter("posts");
+  let posts = await getAllFilesFrontMatter("posts");
+
+  posts = posts.slice(0, 6);
+
+  for (let i = 0; i < posts.length; i++) {
+    const obj = posts[i];
+    const name =
+      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "pavel-fedotov";
+
+    const authorResults = await getFileBySlug("authors", name);
+
+    posts[i].authorName = authorResults.frontMatter.name;
+    posts[i].authorAvatar = authorResults.frontMatter.avatar;
+    posts[i].authorSlug = authorResults.frontMatter.slug;
+  }
+
   return { props: { posts } };
 }

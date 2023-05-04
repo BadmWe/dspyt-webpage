@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 
-import { getAllFilesFrontMatter } from "@/lib/mdx";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Post from "@/components/Post";
 
 export default function Home({ posts }) {
@@ -106,5 +106,18 @@ export default function Home({ posts }) {
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("posts");
+
+  for (let i = 0; i < posts.length; i++) {
+    const obj = posts[i];
+    const name =
+      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "pavel-fedotov";
+
+    const authorResults = await getFileBySlug("authors", name);
+
+    posts[i].authorName = authorResults.frontMatter.name;
+    posts[i].authorAvatar = authorResults.frontMatter.avatar;
+    posts[i].authorSlug = authorResults.frontMatter.slug;
+  }
+
   return { props: { posts } };
 }

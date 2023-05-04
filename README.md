@@ -14,25 +14,25 @@ Our mission involves the following key areas:
 
 ## Our Content
 
-We are currently working on several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities including:
+We are currently working on several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities:
 
 - **[Pin Save EVM](https://github.com/dspytdao/PinSave-EVM)**: EVM compatible version of Pin Save. Decentralized Pinterest.
 - **[Algo AMM](https://github.com/dspytdao/Algo_AMM)**: Automated Prediction Market Maker on Algorand.
 - **[Dspyt AI](https://github.com/dspytdao/dspytai)**: Dapp that utilizes on-chain data to model potential price fluctuations in real-time.
 
-We have also collaborated with Ceramic, TrueBlocks and broader ecosystem to cover topics:
+We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains and broader ecosystem to cover topics in article and video:
 
 - "What is a blockchain address?"
 - "Simple Blockchain data indexing with TrueBlocks"
 - "How ERC-4626 is Fueling the Next Wave of DeFi"
 - "Aurora — EVM on the NEAR Protocol blockchain"
 - "Improving Blockchain Credibility with UMA"
-
-## Get Involved
-
-We welcome developers of all experience levels to join us in our mission. If you'd like to get involved, please check out our [GitHub repositories](https://github.com/orgs/dspytdao/repositories) or join our [Discord Channel](https://discord.gg/GzhgdRmbM8). We hope to see you soon!
+- "Simple App with Ceramic Data Model and Unstoppable Domains"
+- "Ethereum Security Data Collection Ideas"
 
 ## Useful Links
+
+[DspytDAO Home Page](https://dspyt.com)
 
 [DspytDAO YouTube](https://www.youtube.com/channel/UCpssd9fVzqvTB6mWSaJ4lUw)
 
@@ -41,3 +41,7 @@ We welcome developers of all experience levels to join us in our mission. If you
 [DspytDAO Twitter](https://twitter.com/dspytdao)
 
 [DspytDAO LinkedIn](https://www.linkedin.com/company/dspytdao/)
+
+## Get Involved
+
+We welcome developers of all experience levels to join us in our mission. If you'd like to get involved, please check out our [GitHub repositories](https://github.com/orgs/dspytdao/repositories) or join our [Discord Channel](https://discord.gg/GzhgdRmbM8). We hope to see you soon!

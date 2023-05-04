@@ -3,7 +3,7 @@ title: "Web3Basketball - Basketball statistics"
 date: "November 19, 2022"
 excerpt: "Basketball is one of the most popular sports in the world. Millions of people watch the sport, and thousands of supporters attend games."
 cover_image: "/images/posts/web3basketball/1.webp"
-authors: ["Web3Basketball"]
+authors: ["web3basketball"]
 tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
 ---
 

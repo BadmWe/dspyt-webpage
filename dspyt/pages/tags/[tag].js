@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { getAllFilesFrontMatter } from "@/lib/mdx";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import { getAllTags } from "@/lib/tags";
 import Post from "@/components/Post";
 import kebabCase from "@/lib/utils/kebabCase";
@@ -25,6 +25,19 @@ export async function getStaticProps({ params }) {
       post.draft !== true &&
       post.tags.map((t) => kebabCase(t)).includes(params.tag)
   );
+
+  for (let i = 0; i < filteredPosts.length; i++) {
+    const obj = filteredPosts[i];
+    const name =
+      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "pavel-fedotov";
+
+    const authorResults = await getFileBySlug("authors", name);
+
+    filteredPosts[i].authorName = authorResults.frontMatter.name;
+    filteredPosts[i].authorAvatar = authorResults.frontMatter.avatar;
+    filteredPosts[i].authorSlug = authorResults.frontMatter.slug;
+  }
+
   return { props: { posts: filteredPosts, tag: params.tag } };
 }
 
