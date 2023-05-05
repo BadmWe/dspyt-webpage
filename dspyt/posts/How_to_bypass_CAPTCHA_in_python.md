@@ -3,7 +3,7 @@ title: "How to bypass CAPTCHA in python"
 date: "23 November, 2022"
 excerpt: "Captcha is a test to determine whether or not the user is human. 2Captcha is the best provider of automatic captcha solving software on the market now."
 cover_image: "/images/posts/captcha/pexels-christina-morillo-1181263.webp"
-tags: ["Python", "captcha", "data"]
+tags: ["Python", "captcha", "data", "security", "software"]
 ---
 
 You may have already solved a number of captchas while filling out a form or registering for a website. The basic goal of Captcha is to determine whether the user is human or a bot. Captcha is an abbreviation for "Completely Automated Public Turing Test," which is used to distinguish between computers and humans. Companies use Captchas to prevent blog spam, access bots, and to make a website more secure.

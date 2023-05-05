@@ -3,7 +3,7 @@ title: "2 Step Guide to Maximizing FLX rewards on Reflexer Finance - DSPYT"
 date: "March 6, 2021"
 excerpt: "RAI is a stablecoin reminiscent of the early version of Single Collateral DAI. It is solely backed by ETH."
 cover_image: "/images/posts/reflexer/reflexer.webp"
-tags: ["RAI", "Reflexer", "stablecoin", "flx-rewards", "defi"]
+tags: ["RAI", "Reflexer", "stablecoin", "flx-rewards", "defi", "blockchain"]
 ---
 
 RAI is a stablecoin reminiscent of the early version of Single Collateral Dai. RAI is solely backed by ETH with a trajectory to an autonomous existence. RAI uses a funding rate to automatically balance market forces and keep itself stable.
@@ -18,7 +18,7 @@ The key element of the system is the funding rate which is either positive or ne
 
 Apart from implementing a stablecoin, Reflexer Finance has developed FLX rewards and staking systems.
 
-The Stacking system protects the RAI protocol from insolvency. [FLX/ETH Uniswap v2](https://v2.info.uniswap.org/pair/0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9) LP tokens smart contract constantly checks whether RAI is well capitalized. In case the protocol has bad debt the staking pool starts to auction FLX/ETH Liquidity Pool tokens in exchange for RAI. In turn it brings the protocol above water. Meanwhile stakers in exchange for protecting the protocol accrue more FLX rewards.
+The Stacking system protects the RAI protocol from insolvency. [FLX/ETH Uniswap v2](https://v2.info.uniswap.org/pair/0xd6f3768e62ef92a9798e5a8cedd2b78907cecef9) LP tokens smart contract constantly checks whether RAI is well capitalized. In case the protocol has bad debt the staking pool starts to auction FLX/ETH Liquidity Pool tokens in exchange for RAI. In turn it brings the protocol above water. Meanwhile stackers in exchange for protecting the protocol accrue more FLX rewards.
 
 In this article we are going to explain how liquidity providers can maximize their FLX rewards for an asset pair with RAI.
 
@@ -51,7 +51,7 @@ In order to receive FLX rewards the user must in addition to minting RAI provide
 
 The highest available Annual Percentage Rate (APR) listed on Reflexer is RAI/ETH Uniswap v2 strategy. It is estimated to bring 34.32% APR with a safe 250% collateral ratio. Compared to Uniswap V3 RAI/DAI strategy that brings only 23.13%.
 
-It is also notable that the 186% collateral ratio is estimated to bring higher APR than 34% at around 45% since the ratio is riskier and has less leeway for the price movement. At such APR the strategy is even higher than advertised 38% provided by [FLX/ETH Uniswap v2 stakers solution](https://docs.reflexer.finance/incentives/flx-staking).
+It is also notable that the 186% collateral ratio is estimated to bring higher APR than 34% at around 45% since the ratio is riskier and has less leeway for the price movement. At such APR the strategy is even higher than advertised 38% provided by [FLX/ETH Uniswap v2 stackers solution](https://docs.reflexer.finance/incentives/flx-staking).
 
 ![Current RAI Incentives](/images/posts/reflexer/reflexer8.webp)
 

@@ -7,12 +7,11 @@ tags:
   [
     "Python",
     "sklearn",
-    "pipeline",
+    "Pandas",
+    "NumPy",
     "machine learning",
     "data science",
     "data",
-    "NumPy",
-    "Pandas",
   ]
 ---
 

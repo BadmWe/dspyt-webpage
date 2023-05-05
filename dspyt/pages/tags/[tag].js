@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState } from "react";
 
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import { getAllTags } from "@/lib/tags";
@@ -23,7 +24,7 @@ export async function getStaticProps({ params }) {
   const filteredPosts = allPosts.filter(
     (post) =>
       post.draft !== true &&
-      post.tags.map((t) => kebabCase(t)).includes(params.tag)
+      post.tags.map((tag) => kebabCase(tag)).includes(params.tag)
   );
 
   for (let i = 0; i < filteredPosts.length; i++) {
@@ -42,6 +43,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Tag({ posts, tag }) {
+  const [page, setPage] = useState(1);
   // Capitalize first letter and convert space to dash
   const title = tag[0].toUpperCase() + tag.split(" ").join("-").slice(1);
   return (
@@ -71,10 +73,18 @@ export default function Tag({ posts, tag }) {
           </h1>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.slice(0, 26).map((post, index) => (
+          {posts.slice(0, 6 * page).map((post, index) => (
             <Post key={index} post={post} slug={post.slug} />
           ))}
         </div>
+        {posts.length > 6 * page ? (
+          <a
+            onClick={() => setPage(page + 1)}
+            className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+          >
+            Load More Posts
+          </a>
+        ) : null}
       </div>
     </>
   );

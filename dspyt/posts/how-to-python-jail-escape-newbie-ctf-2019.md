@@ -3,7 +3,7 @@ title: "How to Python jail escape (Newbie CTF 2019) - DSPYT"
 date: "May 1, 2022"
 excerpt: "Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. We use built-in methods."
 cover_image: "/images/posts/jailescape/image-e1658960653261.webp"
-tags: ["Python", "ctf", "ethical hacking"]
+tags: ["Python", "ctf", "ethical hacking", "security", "built-in methods"]
 ---
 
 Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. It is generally a bad idea to allow users to input commands that will be executed since there is a high chance that they could input something that would allow them to gain elevated permissions or access sensitive data. However, people often add condition checks in an attempt to prevent this from happening, even though it is rarely effective.
@@ -42,7 +42,7 @@ RUN
 
 The source code for the program is available, so we can figure out what needs to be done in order to beat the condition checks. The functions that could be used to get the flag are not allowed :'eval’, ‘exec’, ‘import’, ‘open’, ‘os’, ‘read’, ‘system’, ‘write’. However, we could utilize the concatenation of strings to evade the restriction as well as using [Built-in functions](https://docs.python.org/3/library/functions.html).
 
-In order to understand how Python evaluates statements, let’s take a look at an example. If you write “import os” in a Python script, Python will retrieve a function object called “import” and pass it the input “os”. This will return a class called “os” with the relevant methods. Besides, you can use built-in objects in Python by using the **builtins** module. This module is not typically accessed directly by most applications. Nevertheless, it can be useful for modules that provide objects with the same name as a built-in value.
+In order to understand how Python evaluates statements, let’s take a look at an example. If you write “import os” in a Python script, Python will retrieve a function object called `import` and pass it the input `os`. This will return a class called “os” with the relevant methods. Besides, you can use built-in objects in Python by using the **built-in** module. This module is not typically accessed directly by most applications. Nevertheless, it can be useful for modules that provide objects with the same name as a built-in value.
 
 ```bash
 >>> print(getattr(getattr(globals()['__builtins__'], '__im'+'port__')('o'+'s'), 'sys'+'tem')('ls .'))

@@ -3,16 +3,16 @@ title: "How to generate parsiq wallet triggers for CryptoPunks - DSPYT"
 date: "November 7, 2021"
 excerpt: "We create 3 PARSIQ Platform Smart Triggers that respond to Crypto Punks directly related on-chain events and follow custom logic with parsiq wallet tracking."
 cover_image: "/images/posts/parsiq/soc-e1658960455528.webp"
-tags: ["parsiq", "crypto punks", "data", "smart triggers"]
+tags: ["parsiq", "crypto punks", "data", "smart triggers", "blockchain"]
 ---
 
 In this post we create three parsiq platform smart Triggers that respond to CryptoPunks directly related on-chain events and follow custom logic to deliver all necessary transaction information about the price action.
 
 Offers for Sale of the limited CryptoPunks collection are particularly vital to traders and collectors. New listings might prove to be an opportunity to profit from the immediate purchase. Meanwhile for traders new sales provide indicators for the demand and supply within the collections as well as for the market, in general.
 
-Cryptopunks is the NFT collection of 10000 uniquely generated characters. The collection has a highest market capitalization and market volume as of November 4th 2021.
+Crypto punks is the NFT collection of 10000 uniquely generated characters. The collection has a highest market capitalization and market volume as of November 4th 2021.
 
-![Cryptopunks](/images/posts/parsiq/140242896-9c339336-e36b-4388-8aa9-56760bf8cd4a.webp)
+![Crypto punks](/images/posts/parsiq/140242896-9c339336-e36b-4388-8aa9-56760bf8cd4a.webp)
 
 ## Simple Walkthrough
 

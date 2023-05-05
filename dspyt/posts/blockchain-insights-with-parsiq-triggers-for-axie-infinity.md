@@ -19,7 +19,7 @@ In this project we utilize [PARSIQ Smart Triggers](https://www.parsiq.net/en/) a
 
 AXS is an Ethereum token that powers Axie Infinity, a blockchain-based game where players can battle, collect, and build a digital kingdom for their pets. AXS holders can claim rewards for staking their tokens, playing the game, and participating in governance. The token is available on multiple chains including Ethereum and Binance Smart Chain.
 
-On April 28 2021 the game has made a significant update introducing Ronin Bridge, Axie Infinity Ethereum sidechain. The contract has since become the crucial link in the Axie Infinity ecosystem and largely contributes to the price action of AXS. With the update the bridge has become the only available option for Axie marketplace, breeding, and morphing contracts.
+On April 28 2021 the game has made a significant update introducing Ronin Bridge, Axie Infinity Ethereum side chain. The contract has since become the crucial link in the Axie Infinity ecosystem and largely contributes to the price action of AXS. With the update the bridge has become the only available option for Axie marketplace, breeding, and morphing contracts.
 
 The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar product on the exchange.
 
@@ -38,14 +38,14 @@ from TokenTransfers
 where (@from == AXScontract || @to == AXScontract || @from == Binance14 || @to == Binance14) && (@erc20.symbol == "AXS" || @erc20.symbol == "SLP")
 
 process
-let symb = @erc20.symbol
-let cryptorankFiatRate = getRate(symb)
+let symbol = @erc20.symbol
+let cryptorankFiatRate = getRate(symbol)
 let fiat_value = @value * cryptorankFiatRate.value
 let fiat_decimals = @erc20.decimals + cryptorankFiatRate.decimals
 let eth_usd_pair = getChainlinkPriceFeedPair("ETH/USD")
 let score_from = getScore(@from)
 let score_to = getScore(@to)
-emit {@action_type, @block_hash, @code_address, @from, @gas_used, @origin, @to, @value, fiat_value, fiat_decimals, eth_usd_pair, @tx_hash, symb, @block_timestamp, @gas_price, score_from, score_to }
+emit {@action_type, @block_hash, @code_address, @from, @gas_used, @origin, @to, @value, fiat_value, fiat_decimals, eth_usd_pair, @tx_hash, symbol, @block_timestamp, @gas_price, score_from, score_to }
 end
 ```
 

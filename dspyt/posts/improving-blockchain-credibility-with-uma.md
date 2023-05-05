@@ -8,7 +8,7 @@ tags: ["uma", "kpi", "credibility", "blockchain", "community"]
 
 > **Key Performance Indicator (KPI) options are synthetic tokens that will pay out more rewards if a project’s KPI reaches predetermined targets before a given expiry date. Every KPI option holder has an incentive to improve that KPI because their option will be worth more. This is intended to align individual token holder interests with the collective interests of the protocol.**
 
-[Harvard Business Review article on incentive plans](https://hbr.org/1993/09/why-incentive-plans-cannot-work) advocates that peformance-based plans for an employee, or shareholder for this matter, create a dangerous environment and underperform in comparison to no explicit incentive as people become less interested in the collective benefit and more in the opportunistic personal gain.
+[Harvard Business Review article on incentive plans](https://hbr.org/1993/09/why-incentive-plans-cannot-work) advocates that performance-based plans for an employee, or shareholder for this matter, create a dangerous environment and underperform in comparison to no explicit incentive as people become less interested in the collective benefit and more in the opportunistic personal gain.
 
 Therefore, a coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential to increase its focus and reputation.
 

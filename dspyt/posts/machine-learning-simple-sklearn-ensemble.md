@@ -8,10 +8,10 @@ tags:
     "Python",
     "sklearn",
     "pipeline",
+    "NumPy",
     "machine learning",
     "ensemble",
     "Pandas",
-    "NumPy",
   ]
 ---
 

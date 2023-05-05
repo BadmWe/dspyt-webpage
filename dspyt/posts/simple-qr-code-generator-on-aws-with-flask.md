@@ -3,12 +3,13 @@ title: "Simple QR code generator on AWS with Flask - DSPYT"
 date: "April 28, 2022"
 excerpt: "Web application in Flask python to generate qr code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
 cover_image: "/images/posts/qr code/pexels-ron-lach-9784240.webp"
-tags: ["Python", "flask", "AWS", "QR-code", "Casper"]
+tags:
+  ["Python", "flask", "AWS", "QR-code", "Casper", "blockchain", "Elasticbean"]
 ---
 
 If you're looking for a fun and easy way to generate QR codes, Python is the perfect language for you. With Python, you can create QR codes in minutes, and you can use them to create fun and interesting things like websites and apps. You can also use Python to create simple QR code generators, which is perfect for creating quick and easy QR codes. All you need to do is input a few basic parameters, and you'll be able to generate a QR code that looks and feels amazing!
 
-In this article we develop web application in Flask python to generate qr code with the help of qrcode python library. Next, we host the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
+In this article we develop web application in Flask python to generate qr code with the help of `qrcode` python library. Next, we host the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
 
 [The GitHub repository for flask qr code generator](https://github.com/Pfed-prog/casper_QR).
 
@@ -51,7 +52,7 @@ def generate_image(address:str='', amount=0, message:str='', transaction:str='',
         url = f"{network}:{address}?amount={amount}&message={message}&transfer_id={transaction}"
     else:
         url = f"{network}?recipient={address}&amount={amount}&transfer_id={transaction}"
-    # addingg URL or text to QRcode
+    # adding URL or text to QRcode
     QRcode.add_data(url)
 
     # generating QR code

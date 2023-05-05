@@ -21,6 +21,22 @@ Creating a sitemap for your nextjs project can be a daunting task. But with the 
 
 A sitemap is a file that contains information about your site's pages, videos, and other assets, as well as the relationships between them. Search engines like Google read sitemap to crawl your site more efficiently. A sitemap tells Google which pages and files on your site you believe are significant. For example, sitemap documents the latest update date of pages, and if there are any different language versions of the page.
 
+## NextJs Sitemap Example: Web Badminton
+
+<div className="flex justify-center">
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+</div>
+
+Web Badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
+
+The application utilizes JavaScript, NextJS, React, Tailwind Css and Wagmi library, IPFS, nft.storage and web3.storage.
+
+The smart contract is built with solidity, hardhat and polygon blockchain mumbai testnet.
+
+[Web Badminton GitHub](https://github.com/BadmWe/WebBadminton)
+
+[Web Badminton Demo](https://webbadminton.com)
+
 ## What are the disadvantages?
 
 Using a sitemap effectively involves more work, as you have to create a proper, structured one. You can use a link-reduction service like Yoast SEO to generate your sitemap for you, but then you have to maintain and update it on a regular basis. There are also some SEO risks involved, like modifying page elements within your sitemap without taking out any pages. It's worth keeping in mind that with a well-organized sitemap, Googlebot will still index your site even without a title tag, category tags, internal links, image alt tags, article text, meta descriptions, or other HTML tags.
@@ -32,7 +48,7 @@ We generate nextjs sitemap with `next-sitemap` [npm package](https://www.npmjs.c
 To run the process, you need a nextjs application. To install `next-sitemap`, you can run:
 `yarn add next-sitemap`.
 
-Next in the config file which is `next-sitemap.config.js` you include the website url and options such as whthere to generate `robots.txt`:
+Next in the config file which is `next-sitemap.config.js` you include the website url and options such as where to generate `robots.txt`:
 
 ```js
 /** @type {import('next-sitemap').IConfig} */
@@ -62,22 +78,6 @@ Finally, you can use the sitemap to create a sitemap index file. This will make 
 ## Submitting Your Nextjs Sitemap to Search Engines
 
 Submitting your nextjs sitemap to search engines is the best way to ensure that your website is indexed quickly and accurately. To do this, you need to submit the sitemap to Google, Bing, and other search engines. This can be done by adding the URL of your sitemap in the robots.txt file of your website or by manually submitting it to each search engine. It is important to keep the sitemap up to date as search engines use it to crawl your website. Regularly updating your sitemap will help make sure that your site is indexed correctly and efficiently.
-
-## NextJs Sitemap Example: Web Badminton
-
-<div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/Dud9a8ShCVM?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
-</div>
-
-Web Badminton is a decentralized badminton centered dapp on IPFS and Polygon Blockchain.
-
-The application utilizes JavaScript, NextJS, React, Tailwind Css and Wagmi library, IPFS, nft.storage and web3.storage.
-
-The smart contract is built with solidity, hardhat and polygon blockchain mumbai testnet.
-
-[Web Badminton GitHub](https://github.com/BadmWe/WebBadminton)
-
-[Web Badminton Demo](https://webbadminton.com)
 
 ## Conclusion
 
