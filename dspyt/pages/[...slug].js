@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
   const prev = allPosts[postIndex + 1] || null;
   const next = allPosts[postIndex - 1] || null;
   const post = await getFileBySlug("posts", params.slug.join("/"));
-  const authorList = post.frontMatter.authors || ["default"];
+  const authorList = post.frontMatter.authors || ["pavel-fedotov"];
   const authorPromise = authorList.map(async (author) => {
     const authorResults = await getFileBySlug("authors", [author]);
     return authorResults.frontMatter;
