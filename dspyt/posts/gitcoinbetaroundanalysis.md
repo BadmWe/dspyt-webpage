@@ -7,7 +7,11 @@ authors: ["dspytdao"]
 tags: ["gitcoin", "python", "blockchain", "data", "pandas", "numpy"]
 ---
 
-URL to the dataset [https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ](https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ)
+## Introduction
+
+Welcome to this post on Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. data represents the different rounds of grants provided by an organization or platform, with each round having a unique Round ID and name. The column "Total Projects" indicates the number of projects that were funded in each respective round. Additionally, the data includes the Ethereum wallet addresses associated with each round. Join us as we explore this data and gain insights into the grant funding process.
+
+## Beta Round Stats. What are the rounds, how many grants in each round?
 
 ```python
 import numpy as np
@@ -86,8 +90,6 @@ From the data table, we can see that the "Total projects" variable contains inte
 The histogram also shows that the distribution of the "Total projects" variable is heavily skewed to the right, which means that there are a few projects with extremely high numbers of total projects that are driving the average value up. This skewness should be taken into account when interpreting any statistical analyses or models that use this variable as a predictor or outcome.
 
 ## Beta Round Data Set. Summary stats at the time this was gathered by each round
-
-dataset available at https://ipfs.io/ipfs/Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R?filename=Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R
 
 ![data3](/images/posts/betaround/stats3.webp)
 
@@ -273,8 +275,6 @@ The correlation matrix can be used to identify which columns are strongly correl
 
 ## Beta Round Votes. Transactions by wallet and more
 
-dataset available at https://ipfs.io/ipfs/Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN?filename=Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN
-
 ```python
 datavotes
 ```
@@ -347,8 +347,6 @@ The scatter plot shows the relationship between blockNumber and cummul, with the
 cummul is a cumulative sum of some quantity, and Round name refers to a round of voting or funding. The scatter plot shows how the cumulative sum changes over time i.e., block number for each round, and whether there are any patterns or trends in the data.
 
 ## Beta Round Overall Round Data. More metadata like cap level and summary info
-
-dataset available at https://ipfs.io/ipfs/QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh?filename=QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh
 
 ```python
 dataoverall
@@ -488,3 +486,17 @@ The "P>|t|" column shows the p-value for each coefficient, which represents the 
 The "R-squared" value (0.994) is a measure of how well the model fits the data, with values closer to 1 indicating a better fit. In this case, the high R-squared value suggests that the model explains a large proportion of the variation in the dependent variable.
 
 The "Omnibus", "Prob(Omnibus)", "Skew", "Kurtosis", and "Cond. No." rows provide additional diagnostic information about the model's assumptions and fit.
+
+## Conclusion
+In conclusion, this data on Beta Round Stats provides valuable insights into the grant funding process of an organization or platform. By analyzing the unique Round ID and Round name, along with the number of projects funded in each round, we can see the progression of projects and the impact of funding over time. Additionally, the inclusion of Ethereum wallet addresses associated with each round adds an extra layer of transparency and accountability. Overall, this data serves as a helpful resource for those interested in understanding the grant funding process and the impact of such funding on various projects.
+
+
+URL to the dataset https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ
+
+dataset available at https://ipfs.io/ipfs/Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R?filename=Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R
+
+
+dataset available at https://ipfs.io/ipfs/Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN?filename=Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN
+
+
+dataset available at https://ipfs.io/ipfs/QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh?filename=QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh
