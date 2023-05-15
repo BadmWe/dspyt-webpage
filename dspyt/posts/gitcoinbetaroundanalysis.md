@@ -7,11 +7,11 @@ authors: ["dspytdao"]
 tags: ["gitcoin", "python", "blockchain", "data", "pandas", "numpy"]
 ---
 
-## Introduction
-
-Welcome to this post on Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. data represents the different rounds of grants provided by an organization or platform, with each round having a unique Round ID and name. The column "Total Projects" indicates the number of projects that were funded in each respective round. Additionally, the data includes the Ethereum wallet addresses associated with each round. Join us as we explore this data and gain insights into the grant funding process.
+Welcome to this post on Gitcoin Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. Join us as we explore this data and gain insights into the grant funding process.
 
 ## Beta Round Stats. What are the rounds, how many grants in each round?
+
+First we import the python libraries:
 
 ```python
 import numpy as np
@@ -22,6 +22,8 @@ import scipy.stats as stats
 import statsmodels.api as sm
 import plotly.express as px
 ```
+
+Here is the data on rounds:
 
 ```python
 data
@@ -487,16 +489,14 @@ The "R-squared" value (0.994) is a measure of how well the model fits the data, 
 
 The "Omnibus", "Prob(Omnibus)", "Skew", "Kurtosis", and "Cond. No." rows provide additional diagnostic information about the model's assumptions and fit.
 
-## Conclusion
-In conclusion, this data on Beta Round Stats provides valuable insights into the grant funding process of an organization or platform. By analyzing the unique Round ID and Round name, along with the number of projects funded in each round, we can see the progression of projects and the impact of funding over time. Additionally, the inclusion of Ethereum wallet addresses associated with each round adds an extra layer of transparency and accountability. Overall, this data serves as a helpful resource for those interested in understanding the grant funding process and the impact of such funding on various projects.
+## Further Resources
 
+- [Granular Grant dataset on Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:87722169068147eda8a9574f4e7e72b2d6934902c9e259e806c119f66860c55a)
 
-URL to the dataset https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ
+dataset available at https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ
 
 dataset available at https://ipfs.io/ipfs/Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R?filename=Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R
 
-
 dataset available at https://ipfs.io/ipfs/Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN?filename=Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN
-
 
 dataset available at https://ipfs.io/ipfs/QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh?filename=QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh
