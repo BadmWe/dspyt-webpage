@@ -2,7 +2,7 @@
 import os
 from PIL import Image
 
-DIR = '../dspyt/public/images/posts/explorer/'
+DIR = '../dspyt/public/images/posts/betaround/'
 
 files = os.listdir(DIR)
 images = [file for file in files if file.endswith(('jpg', 'png'))]
