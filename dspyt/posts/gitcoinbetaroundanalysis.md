@@ -1,7 +1,7 @@
 ---
 title: "Gitcoin beta round data analysis"
 date: "May 15, 2023"
-excerpt: "We explore what are the gitcoin rounds, how many grants in each round?"
+excerpt: "we explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We analyze the rounds and the number of grants in each round, examine the summary statistics."
 cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.jpg"
 authors: ["dspytdao"]
 tags: ["gitcoin", "python", "blockchain", "data", "pandas", "numpy"]
