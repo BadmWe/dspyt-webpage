@@ -1,13 +1,13 @@
 ---
 title: "Gitcoin beta round data analysis"
 date: "May 15, 2023"
-excerpt: "We explore what are the gitcoin rounds, how many grants in each round?"
-cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.jpg"
+excerpt: "we explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We analyze the rounds and the number of grants in each round, examine the summary statistics."
+cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.webp"
 authors: ["dspytdao"]
 tags: ["gitcoin", "python", "blockchain", "data", "pandas", "numpy"]
 ---
 
-Welcome to this post on Gitcoin Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. Join us as we explore this data and gain insights into the grant funding process.
+Welcome to this post on Gitcoin Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. In this post, we will explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We will analyze the rounds and the number of grants in each round, examine the summary statistics of the funding amounts, and explore the correlations between different variables. Join us on this data-driven journey as we delve into the fascinating world of grant funding and uncover valuable insights from the Gitcoin Beta Round Stats.
 
 ## Beta Round Stats. What are the rounds, how many grants in each round?
 
@@ -92,6 +92,10 @@ From the data table, we can see that the "Total projects" variable contains inte
 The histogram also shows that the distribution of the "Total projects" variable is heavily skewed to the right, which means that there are a few projects with extremely high numbers of total projects that are driving the average value up. This skewness should be taken into account when interpreting any statistical analyses or models that use this variable as a predictor or outcome.
 
 ## Beta Round Data Set. Summary stats at the time this was gathered by each round
+
+```python
+data2
+```
 
 ![data3](/images/posts/betaround/stats3.webp)
 
@@ -348,6 +352,8 @@ px.scatter(datavotes, x = datavotes.blockNumber, y = datavotes.cummul, color="Ro
 The scatter plot shows the relationship between blockNumber and cummul, with the points colored by Round name.
 cummul is a cumulative sum of some quantity, and Round name refers to a round of voting or funding. The scatter plot shows how the cumulative sum changes over time i.e., block number for each round, and whether there are any patterns or trends in the data.
 
+We have loaded data here datavotes.to_csv('dataframe.csv') You can buy them by clicking on the link.
+
 ## Beta Round Overall Round Data. More metadata like cap level and summary info
 
 ```python
@@ -409,7 +415,7 @@ The "count" row shows the number of non-missing values for each column, the "mea
 
 ```python
 df = pd.read_csv('../Untitled Folder/overall.csv')
-print(df.describe())
+df.describe()
 ```
 
 ![overall](/images/posts/betaround/overallstatis.webp)
@@ -489,14 +495,10 @@ The "R-squared" value (0.994) is a measure of how well the model fits the data, 
 
 The "Omnibus", "Prob(Omnibus)", "Skew", "Kurtosis", and "Cond. No." rows provide additional diagnostic information about the model's assumptions and fit.
 
+## Conclusion
+
+In conclusion, this post provided an analysis of the Gitcoin Beta Round Stats, exploring the rounds and the number of grants in each round. The data revealed that there were 19 rounds with an average of 52.79 projects funded per round. The histogram visualization showed that most rounds had relatively low numbers of total projects, with a few rounds having significantly higher numbers. The summary statistics provided insights into the funding amounts, votes received, matching funds, and unique contributors for each round. The correlation matrix demonstrated strong positive correlations between funding amounts, votes, and unique contributors, indicating their interdependency. Overall, this analysis sheds light on the grant funding process and provides valuable information for understanding the dynamics of the Gitcoin Beta Rounds.
+
 ## Further Resources
 
 - [Granular Grant dataset on Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:87722169068147eda8a9574f4e7e72b2d6934902c9e259e806c119f66860c55a)
-
-dataset available at https://ipfs.io/ipfs/QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ?filename=QmeuaS1k84bfNwYVMnkqC26rsPdmZqrcBRwCTWK1rJB1gJ
-
-dataset available at https://ipfs.io/ipfs/Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R?filename=Qmf8FfDzneM2on6HStm7b5EEDVadqpKgmWgfddaBDbNH4R
-
-dataset available at https://ipfs.io/ipfs/Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN?filename=Qmaf4U2MJUzEcf1BZx9RBpoANoxwA2rkYugcugtfS9oHoN
-
-dataset available at https://ipfs.io/ipfs/QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh?filename=QmWx9MtUgaauXCGpn1CXNaXLcrAtx9qqEH49oguqutz7Yh
