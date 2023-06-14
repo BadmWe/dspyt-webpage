@@ -22,7 +22,7 @@
     "gray-matter": "^4.0.3",
     "image-size": "1.0.0",
     "katex": "^0.16.3",
-    "marked": "^4.0.18",
+    "marked": "^5.1.0",
     "mdx-bundler": "^8.0.0",
     "next": "^13.0.2",
     "next-sitemap": "^3.1.21",
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
-    "@types/marked": "^4.0.3",
+    "@types/marked": "^5.0.0",
     "@types/react": "^18.0.17",
     "autoprefixer": "10.4.14",
     "eslint": "^8.21.0",
