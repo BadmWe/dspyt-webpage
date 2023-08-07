@@ -412,10 +412,10 @@
   resolved "https://registry.yarnpkg.com/@fal-works/esbuild-plugin-global-externals/-/esbuild-plugin-global-externals-2.1.2.tgz#c05ed35ad82df8e6ac616c68b92c2282bd083ba4"
   integrity sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==
 
-"@fontsource/inter@^4.5.14":
-  version "4.5.15"
-  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.15.tgz#eed1873d68755d3b52d6fcfcfa3493118430a512"
-  integrity sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==
+"@fontsource/inter@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-5.0.8.tgz#61b50cb0eb72b14ae1938d47c4a9a91546d2a50c"
+  integrity sha512-28knWH1BfOiRalfLs90U4sge5mpQ8ZH6FS0PTT+IZMKrZ7wNHDHRuKa1kQJg+uHcc6axBppnxll+HXM4c7zo/Q==
 
 "@headlessui/react@^1.6.6":
   version "1.7.16"
