@@ -1,12 +1,12 @@
 ---
 title: "Mina Protocol: Unlocking the Power of the Mini-Blockchain Ecosystem"
 date: "4 July, 2023"
-excerpt: "Mina Protocol's lightweight, scalable, and privacy-friendly infrastructure is revolutionizing blockchain technology and opening up new opportunities for decentralized systems."
+excerpt: "Mina Protocol infrastructure is revolutionizing blockchain technology and opening up new opportunities for decentralized systems."
 cover_image: "/images/posts/Mina/Mina-protocol-portada.webp"
 tags: ["Mina", "blockchain", "zkps", "NFTs", "node operators"]
 ---
 
-Blockchain technology has transformed the way we and store data, bringing about new opportunities for decentralized systems. Mina Protocol, a groundbreaking platform, offers a lightweight, scalable, and privacy-friendly infrastructure. In this blog post, we will explore the world of Mina Protocol, understand its features, benefits, and provide a comprehensive guide on getting started in this innovative ecosystem.
+Blockchain technology has transformed the way we store data, bringing about new opportunities for decentralized systems. Mina Protocol, a groundbreaking platform, offers a lightweight, scalable, and privacy-friendly infrastructure. In this blog post, we will explore the world of Mina Protocol, understand its features, benefits, and provide a comprehensive guide on getting started in this innovative ecosystem.
 
 ## Understanding Mina Protocol
 
@@ -47,4 +47,3 @@ Mina Protocol is a game-changer in the blockchain landscape, offering a lightwei
 3. [Mina Protocol Discord](https://discord.com/invite/minaprotocol)
 4. [Mina Protocol Telegram](https://t.me/minaprotocol)
 5. [Mina Protocol Reddit](https://www.reddit.com/r/MinaProtocol/)
-6. [Mantine Mina NextJs template](https://github.com/Pfed-prog/Mina-Mantine-Template)

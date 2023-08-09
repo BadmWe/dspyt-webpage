@@ -1,14 +1,24 @@
-import SocialIcon from "@/components/social-icons";
 import Image from "@/components/Image";
 import { PageSEO } from "@/components/SEO";
 
 export default function AuthorLayout({ frontMatter, children }) {
-  const { name, avatar, company, email, twitter, linkedin, github } =
-    frontMatter;
+  const {
+    name,
+    avatar,
+    company,
+    email,
+    twitter,
+    linkedin,
+    github,
+    description,
+  } = frontMatter;
 
   return (
     <>
-      <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
+      <PageSEO
+        title={`About - ${name}`}
+        description={`${name}: ${description}`}
+      />
 
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -24,15 +34,6 @@ export default function AuthorLayout({ frontMatter, children }) {
               {name}
             </h3>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
-
-            {/*
-            <div className="flex space-x-3 pt-6">
-              <SocialIcon kind="mail" href={`mailto:${email}`} />
-              <SocialIcon kind="github" href={github} />
-              <SocialIcon kind="linkedin" href={linkedin} />
-              <SocialIcon kind="twitter" href={twitter} />
-            </div>
-*/}
           </div>
           <div className="prose max-w-none pt-8 pb-8 pr-8 pl-8 dark:prose-dark xl:col-span-2">
             {children}

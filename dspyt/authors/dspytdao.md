@@ -6,11 +6,13 @@ email: "dspytdao@gmail.com"
 twitter: "https://twitter.com/dspytdao"
 linkedin: "https://www.linkedin.com"
 github: "https://github.com/pfed-prog"
+description: "DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem."
 ---
 
 # DspytDAO - Fostering Innovation and Education in Web3 Technologies
 
-DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem. Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
+DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem.
+Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
 
 Our mission involves the following key areas:
 
@@ -22,4 +24,4 @@ Our mission involves the following key areas:
 
 4. Encouraging Diversity and Inclusion: DspytDAO acknowledges the importance of creating opportunities for diverse perspectives and experiences across the Web3 community. We actively work towards advocating for increased representation and inclusivity in the tech ecosystem, thereby fostering a more innovative and equitable landscape for all.
 
-DspytDAO is excited to participate in the Gitcoin Beta round - Web3 Community and Education to continue its commitment to enhancing the Web3 ecosystem. Our proven track record and dedication to long-term goals make us an ideal candidate for receiving support as we strive to advance the decentralized era of technology.
+Our proven track record and dedication to long-term goals make us an ideal candidate for receiving support as we strive to advance the decentralized era of technology.

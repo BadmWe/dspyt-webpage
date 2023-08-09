@@ -6,6 +6,7 @@ email: fedorovn19@gmail.com
 twitter: https://twitter.com/pfedprog
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
+description: "Full Stack Blockchain Developer with over 3 years of experience in engineering decentralized applications with Rust, Solidity, Python, JavaScript, React and NextJs."
 ---
 
 # Pavel Fedotov DspytDAO profile
