@@ -1,7 +1,6 @@
 import "@/styles/globals.css";
 import "@/styles/prism.css";
 
-import "@fontsource/inter/variable-full.css";
 import "katex/dist/katex.css";
 
 import Script from "next/script";
