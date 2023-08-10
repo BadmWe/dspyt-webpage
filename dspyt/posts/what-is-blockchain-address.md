@@ -1,5 +1,5 @@
 ---
-title: "What is a blockchain address? - DSPYT"
+title: "What is a blockchain address?"
 date: "November 15, 2022"
 excerpt: "A blockchain address resembles a bank account. A blockchain address acts as a digital location for cryptocurrency."
 cover_image: "/images/posts/blockchain_address/0.webp"

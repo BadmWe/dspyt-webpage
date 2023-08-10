@@ -6,7 +6,7 @@ email: "dspytdao@gmail.com"
 twitter: "https://twitter.com/dspytdao"
 linkedin: "https://www.linkedin.com"
 github: "https://github.com/pfed-prog"
-description: "DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem."
+description: "a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem."
 ---
 
 # DspytDAO - Fostering Innovation and Education in Web3 Technologies
