@@ -38,7 +38,7 @@ Uniswap.fish is an open-source project, which means that it welcomes contributio
 
 ## Conclusion
 
-[Uniswap.fish](https://uniswap.fish/) offers traders and liquidity providers on the Uniswap decentralized exchange a comprehensive suite of tools to enhance their trading strategies. With the Uniswap V3 Fee Calculator, users can accurately calculate fees and estimate the amount of tokens required for deposits. The Liquidity Position Histogram enables users to analyze liquidity concentration and make well-informed trading decisions. The Correlation Chart helps users identify potential arbitrage and hedging opportunities by understanding the correlation between different liquidity positions. Additionally, as an open-source project, Uniswap.fishinvites contributions and ideas from the Uniswap community, ensuring constant innovation and improvement.
+[Uniswap.fish](https://uniswap.fish/) offers traders and liquidity providers on the Uniswap decentralized exchange a comprehensive suite of tools to enhance their trading strategies. With the Uniswap V3 Fee Calculator, users can accurately calculate fees and estimate the amount of tokens required for deposits. The Liquidity Position Histogram enables users to analyze liquidity concentration and make well-informed trading decisions. The Correlation Chart helps users identify potential arbitrage and hedging opportunities by understanding the correlation between different liquidity positions. Additionally, as an open-source project, Uniswap.fish invites contributions and ideas from the Uniswap community, ensuring constant innovation and improvement.
 
 ### Important Disclaimers
 
