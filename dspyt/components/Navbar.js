@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Disclosure } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import Logo from "@/public/DSPYT.svg";
 
@@ -22,9 +22,9 @@ export default function Navbar() {
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>
@@ -42,7 +42,12 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link key={`${item.name}Link`} href={item.href} passHref legacyBehavior>
+                      <Link
+                        key={`${item.name}Link`}
+                        href={item.href}
+                        passHref
+                        legacyBehavior
+                      >
                         <a
                           key={`${item.name}text`}
                           className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
@@ -60,7 +65,12 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link key={`${item.name}hiddenLink`} href={item.href} passHref legacyBehavior>
+                <Link
+                  key={`${item.name}hiddenLink`}
+                  href={item.href}
+                  passHref
+                  legacyBehavior
+                >
                   <Disclosure.Button
                     key={item.name}
                     as="a"

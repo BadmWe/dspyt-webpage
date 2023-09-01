@@ -1,4 +1,4 @@
-import { ChevronRightIcon, StarIcon } from "@heroicons/react/solid";
+import { ChevronRightIcon, StarIcon } from "@heroicons/react/20/solid";
 import React, { useState } from "react";
 import Image from "next/image";
 
