@@ -37,8 +37,8 @@ export default function Home({ posts }) {
               Data Science and Blockchain Blog
             </h1>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="relative max-w-lg mt-6 ml-10 mr-10">
+          <div className="items-center justify-center">
+          <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
               <input
                 aria-label="Search articles"
                 type="text"
@@ -84,7 +84,7 @@ export default function Home({ posts }) {
               aria-label="Pagination"
             >
               <div className="hidden sm:block">
-                <p className="text-sm text-gray-700">
+                <p className="text-sm text-gray-700 dark:text-white">
                   Showing <span className="font-medium">{1}</span> to{" "}
                   <span className="font-medium">{6}</span> of{" "}
                   <span className="font-medium">{posts.length}</span> results
@@ -92,7 +92,7 @@ export default function Home({ posts }) {
               </div>
               <div className="flex-1 flex justify-between sm:justify-end">
                 <Link href={"/blog/1"} legacyBehavior>
-                  <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                  <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                     Next
                   </a>
                 </Link>

@@ -40,8 +40,8 @@ export default function Home({ posts, pagination }) {
               Data Science and Blockchain DSPYT Blog
             </h1>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="relative max-w-lg mt-6 ml-10 mr-10">
+          <div className="items-center justify-center">
+            <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
               <input
                 aria-label="Search articles"
                 type="text"
@@ -86,7 +86,7 @@ export default function Home({ posts, pagination }) {
               aria-label="Pagination"
             >
               <div className="hidden sm:block">
-                <p className="text-sm text-gray-700">
+                <p className="text-sm text-gray-700 dark:text-white">
                   Showing <span className="font-medium">{1 + 6 * number}</span>{" "}
                   to{" "}
                   <span className="font-medium">
@@ -108,7 +108,7 @@ export default function Home({ posts, pagination }) {
 
                 {number === 1 ? (
                   <Link href={`/blog/`} legacyBehavior>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Previous
                     </a>
                   </Link>
@@ -116,7 +116,7 @@ export default function Home({ posts, pagination }) {
 
                 {6 * number + 6 >= posts.length ? null : (
                   <Link href={`/blog/${number + 1}`} legacyBehavior>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                    <a className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Next
                     </a>
                   </Link>
