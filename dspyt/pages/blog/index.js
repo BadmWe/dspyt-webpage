@@ -17,7 +17,7 @@ export default function Home({ posts }) {
   return (
     <>
       <Head>
-        <title>Data Science with Python - DSPYT</title>
+        <title>Data Science with Python</title>
         <meta
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."

@@ -42,7 +42,7 @@ export default function Hero() {
               </a>
             </div>
             <div className="mt-6 sm:max-w-xl">
-              <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl">
+              <h1 className="text-4xl tracking-wide font-extrabold text-gray-900 dark:text-gray-100 sm:text-5xl">
                 Pin Save: Decentralized Pinterest
               </h1>
               <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
