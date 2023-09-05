@@ -2,7 +2,7 @@ import { bundleMDX } from "mdx-bundler";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import readingTime from "reading-time";
+
 import getAllFilesRecursively from "./utils/files";
 // Remark packages
 import remarkGfm from "remark-gfm";
@@ -72,7 +72,7 @@ export async function getFileBySlug(type, slug) {
     source,
     // mdx imports can be automatically source from the components directory
     cwd: path.join(root, "components"),
-    xdmOptions(options, frontmatter) {
+    xdmOptions(options) {
       // this is the recommended way to add custom remark/rehype plugins:
       // The syntax might look weird, but it protects you in case we add/remove
       // plugins in the future.
@@ -110,7 +110,6 @@ export async function getFileBySlug(type, slug) {
     mdxSource: code,
     toc,
     frontMatter: {
-      readingTime: readingTime(code),
       slug: slug || null,
       fileName: fs.existsSync(mdxPath) ? `${slug}.mdx` : `${slug}.md`,
       ...frontmatter,
