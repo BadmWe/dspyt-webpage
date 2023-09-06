@@ -3,7 +3,7 @@ title: "How to python check proxy with aiohttp"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
 cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
-tags: ["proxy", "Python", "aiohttp", "proxy-server", "proxy-scraper"]
+tags: ["proxy", "Python", "aiohttp", "proxy-server", "proxy-scraper", "data"]
 ---
 
 Data analysis often requires collecting a large amount of data from various sources. However, to prevent getting blocked by web servers due to IP restrictions, it is recommended to use a python proxy scraper to access data anonymously. A proxy server acts as an intermediary between your device and the web server, allowing you to hide your IP and access websites that may be blocked or restricted. In this article, we provide a step-by-step guide on how to implement a python proxy scraper using various libraries such as requests, Selenium, BeautifulSoup, and NumPy. Additionally, we also demonstrate how to utilize proxies with AIOHTTP, an asynchronous HTTP client/server library for Python.
@@ -18,7 +18,11 @@ A proxy server is a remote server through which you connect to obfuscate your in
 
 ## Where is my proxy?
 
-In this article, we demonstrate how to obtain, verify and implement python proxy scraper for free proxies by using python libraries [requests](https://docs.python-requests.org/en/master/), Selenium, BeautifulSoup and NumPy. In particular, we utilize requests which is a python http library that allows for the usage of proxies and multi-threading.
+In this article, we demonstrate how to obtain, verify and implement python proxy scraper for free proxies by using python libraries requests, Selenium, BeautifulSoup and NumPy. In particular, we utilize [requests](https://docs.python-requests.org/) which is a python http library that allows for the usage of proxies and multi-threading.
+
+To install pip packages for our tutorial:
+
+`pip install beautifulsoup4 requests numpy selenium lxml`
 
 ## Python proxy scraper with requests
 
@@ -32,7 +36,7 @@ import numpy
 import concurrent.futures
 
 # Get HTML response
-html = requests.get('https://www.free-proxy-list.net/)
+html = requests.get('https://www.free-proxy-list.net/')
 
 # Parse HTML response
 content = BeautifulSoup(html.text, 'lxml')
@@ -59,14 +63,9 @@ def test(proxy):
 # test each proxy on whether it access api of hh.ru
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
     try:
-        params = {
-        'text': f'NAME:C++',
-        'area': 113,
-        'page': 0,
-        'per_page': 100
-        }
-        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
-        final.append(proxy)
+        r = requests.get("https://httpbin.org/ip", headers=headers, proxies={'http' : proxy}, timeout=1)
+        if r.status_code==200:
+            final.append(proxy)
     except:
         pass
     return proxy
@@ -76,6 +75,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     executor.map(test, results)
 
 # to print the number of proxies
+print(final)
 print(len(final))
 
 # save the working proxies to a file
@@ -120,7 +120,7 @@ def extract(proxy):
         'page': 0,
         'per_page': 100
         }
-        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
+        requests.get('https://api.hh.ru/vacancies', headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
         final.append(proxy)
     except:
         pass
@@ -159,12 +159,12 @@ def test(proxy):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
     try:
         params = {
-        'text': f'NAME:C++',
-        'area': 113,
-        'page': 0,
-        'per_page': 100
+            'text': f'NAME:C++',
+            'area': 113,
+            'page': 0,
+            'per_page': 100
         }
-        requests.get('https://api.hh.ru/vacancies;, headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
+        requests.get('https://api.hh.ru/vacancies', headers=headers, proxies={'http' : proxy}, timeout=1, params=params)
         final.append(proxy)
     except:
         pass
@@ -213,7 +213,7 @@ async def fetch(url, proxy):
 if name == "main":
     data = numpy.load('file.npy')
     loop = asyncio.get_event_loop()
-    l = loop.run_until_complete(fetch('http://api.hh.ru/;, data[-1]))
+    l = loop.run_until_complete(fetch('http://api.hh.ru/', data[-1]))
     print(l)
     loop.run_until_complete(asyncio.sleep(0.1))
     loop.close()
