@@ -42,7 +42,7 @@
     "remark-math": "^5.1.1",
     "sharp": "^0.32.5",
     "tailwindcss": "^3.1.7",
-    "unist-util-visit": "^4.0.0",
+    "unist-util-visit": "^5.0.0",
     "xdm": "^3.4.0"
   },
   "devDependencies": {
