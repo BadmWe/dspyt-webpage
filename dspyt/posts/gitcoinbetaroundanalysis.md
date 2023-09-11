@@ -83,7 +83,7 @@ plt.show()
 ![data2](/images/posts/betaround/stats2.webp)
 This code creates a histogram of the 'Total projects' column of the DataFrame 'data'. The 'Total projects' column contains the number of projects funded in each round of the grants program.
 
-The histogram shows the distribution of the number of projects funded across the different rounds. The x-axis represents the 'Total projects', and the y-axis represents the frequency of the number of rounds with a particular number of projects funded.The histogram is divided into 5 bars.
+The histogram shows the distribution of the number of projects funded across the different rounds. The x-axis represents the `Total projects``, and the y-axis represents the frequency of the number of rounds with a particular number of projects funded.The histogram is divided into 5 bars.
 
 The x-axis label is set to "Total projects", and the y-axis label is set to "Frequency".
 
@@ -139,32 +139,64 @@ The columns include:
 - roundEndTime: the end time of the round
 - createdAtBlock: the block at which the funding round was created
 - updatedAtBlock: the block at which the funding round was last updated
-- applicationMetadata.lastUpdatedOn: the date and time at which the metadata for the project was last updated
-- applicationMetadata.applicationSchema: information about the schema used for the project application
+- applicationMetadata.
+lastUpdatedOn: the date and time at which the metadata for the project was last updated
+- applicationMetadata.
+applicationSchema: information about the schema used for the project application
 - metadata.name: the name of the project
 - metadata.description: a description of the project
-- metadata.matchingFunds.matchingCap: the maximum amount of matching funds available for the project
-- metadata.matchingFunds.matchingFundsAvailable: the amount of matching funds available for the project
+- metadata.matchingFunds. matchingCap: the maximum amount of matching funds available for the project
+- metadata.matchingFunds. matchingFundsAvailable: the amount of matching funds available for the project
 - metadata.support.type: the type of support offered by the project
 - metadata.support.info: additional information about the support offered by the project
-- metadata.eligibility.description: a description of the eligibility requirements for the project
-- metadata.eligibility.requirements: the specific requirements for eligibility for the project
-- metadata.programContractAddress: the address of the contract for project
-- metadata.matchingFunds.matchingCapAmount: the maximum amount of matching funds available for the project
-- applicationMetadata.applicationSchema.questions: the questions asked in the project application
-- applicationMetadata.applicationSchema.requirements.twitter.required: whether a Twitter account is required for the project
-- applicationMetadata.applicationSchema.requirements.twitter.verification: whether a Twitter account needs to be verified for the project
-- applicationMetadata.applicationSchema.requirements.github.required: whether a GitHub account is required for the project
-- applicationMetadata.applicationSchema.requirements.github.verification: whether a GitHub account needs to be verified for the project
+- metadata.eligibility.
+description: a description of the eligibility requirements for the project
+- metadata.eligibility.
+requirements: the specific requirements for eligibility for the project
+- metadata.
+programContractAddress: the address of the contract for project
+- metadata.matchingFunds.
+matchingCapAmount: the maximum amount of matching funds available for the project
+- applicationMetadata.
+applicationSchema.questions: the questions asked in the project application
+- applicationMetadata.
+applicationSchema.
+requirements.
+twitter.required: whether a Twitter account is required for the project
+- applicationMetadata.
+applicationSchema.
+requirements.
+twitter.verification: whether a Twitter account needs to be verified for the project
+- applicationMetadata.
+applicationSchema.
+requirements.
+github.required: whether a GitHub account is required for the project
+- applicationMetadata.
+applicationSchema.
+requirements.
+github.verification: whether a GitHub account needs to be verified for the project
 - applicationMetadata.version: the version of the project application schema used
 - metadata.feesPercentage: the percentage of fees charged by the platform for the project
 - metadata.feesAddress: the address to which fees are sent for the project
-- metadata.quadraticFundingConfig.matchingFundsAvailable: the amount of matching funds available for the project
-- metadata.quadraticFundingConfig.matchingCap: the maximum amount of matching funds available for the project
-- metadata.quadraticFundingConfig.minDonationThreshold: the minimum donation required to be eligible for matching funds
-- metadata.quadraticFundingConfig.sybilDefense: the sybil defense mechanism used for the project
-- metadata.quadraticFundingConfig.matchingCapAmount: the maximum amount of matching funds available for the project
-- metadata.quadraticFundingConfig.minDonationThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
+- metadata.
+quadraticFundingConfig.
+matchingFundsAvailable: the amount of matching funds available for the project
+- metadata.
+quadraticFundingConfig.
+matchingCap: the maximum amount of matching funds available for the project
+- metadata.
+quadraticFundingConfig.
+minDonationThreshold: the minimum donation required to be eligible for matching funds
+- metadata.
+quadraticFundingConfig.
+sybilDefense: the sybil defense mechanism used for the project
+- metadata.
+quadraticFundingConfig.
+matchingCapAmount: the maximum amount of matching funds available for the project
+- metadata.
+quadraticFundingConfig.
+minDonation
+ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
 
 ```python
 data2.describe()
@@ -191,12 +223,19 @@ The columns included in this summary are:
 - uniqueContributors: the number of unique contributors in the round
 - createdAtBlock: the block at which the funding round was created
 - updatedAtBlock: the block at which the funding round was last updated
-- metadata.matchingFunds.matchingFundsAvailable: the amount of matching funds available for the project
-- metadata.matchingFunds.matchingCapAmount: the maximum amount of matching funds available for the project
+- metadata.matchingFunds. matchingFundsAvailable: the amount of matching funds available for the project
+- metadata.matchingFunds. matchingCapAmount: the maximum amount of matching funds available for the project
 - metadata.feesPercentage: the percentage of fees charged by the platform for the project
-- metadata.quadraticFundingConfig.matchingFundsAvailable: the amount of matching funds available for the project
-- metadata.quadraticFundingConfig.matchingCapAmount: the maximum amount of matching funds available for the project
-- metadata.quadraticFundingConfig.minDonationThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
+- metadata.
+quadraticFundingConfig.
+matchingFundsAvailable: the amount of matching funds available for the project
+- metadata.
+quadraticFundingConfig.
+matchingCapAmount: the maximum amount of matching funds available for the project
+- metadata.
+quadraticFundingConfig.
+minDonation
+ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
 
 For example, we can see that the mean amount of funding for a round is USD 13,050.97, with a standard deviation of USD 28,146.69. The median number of votes received for a project in a round is 423. The minimum and maximum amounts of matching funds available for a project are USD 185.80 and USD 350,180.61 respectively. The mean amount of quadratic funding cap enforced by the platform is 12.52% of the matching amount.
 
@@ -253,11 +292,15 @@ print(summary)
 
 ![data70](/images/posts/betaround/stats7.webp)
 
-This is the summary statistics for additional columns in the pandas DataFrame "data2": "createdAtBlock", "updatedAtBlock", "applicationMetadata.applicationSchema", "metadata.description", and "metadata.matchingFunds.matchingFundsAvailable".
+This is the summary statistics for additional columns in the pandas DataFrame "data2": "createdAtBlock", "updatedAtBlock", "applicationMetadata.
+applicationSchema", "metadata.description", and 
+
+"metadata.matchingFunds. matchingFundsAvailable".
 
 For the columns "createdAtBlock" and "updatedAtBlock", the summary statistics show the minimum, maximum, mean, and standard deviation of the block number where the project was created and last updated.
 
-For the columns "applicationMetadata.applicationSchema" and "metadata.description", the count is 0, indicating that there is no data available for these columns.
+For the columns "applicationMetadata.
+applicationSchema" and "metadata.description", the count is 0, indicating that there is no data available for these columns.
 
 These additional summary statistics provide more details about the data in the DataFrame, such as when the projects were created and updated, and the availability of matching funds for the projects. However, some of the columns have missing data or only have data available for some of the rows. It is important to keep these limitations in mind when interpreting the summary statistics.
 
@@ -403,13 +446,21 @@ This data shows various statistics for 29 crowdfunding campaigns. Here is an exp
 - uniqueContributors: the number of unique contributors to the campaign
 - createdAtBlock: the block number at which the campaign was created
 - updatedAtBlock: the block number at which the campaign was last updated
-- metadata.matchingFunds.matchingFundsAvailable: whether matching funds were available for the campaign
-- metadata.matchingFunds.matchingCapAmount: the maximum amount of matching funds available
+- metadata.matchingFunds.
+matchingFundsAvailable: whether matching funds were available for the campaign
+- metadata.matchingFunds. matchingCapAmount: the maximum amount of matching funds available
 - metadata.feesPercentage: the percentage of fees charged by the platform for the campaign
 - metadata.feesAddress: the address to which fees were sent
-- metadata.quadraticFundingConfig.matchingFundsAvailable: whether quadratic funding was enabled for the campaign
-- metadata.quadraticFundingConfig.matchingCapAmount: the maximum amount of matching funds available for quadratic funding
-- metadata.quadraticFundingConfig.minDonationThresholdAmount: the minimum donation amount required to qualify for quadratic funding
+- metadata.
+quadraticFundingConfig.
+matchingFundsAvailable: whether quadratic funding was enabled for the campaign
+- metadata.
+quadraticFundingConfig.
+matchingCapAmount: the maximum amount of matching funds available for quadratic funding
+- metadata.
+quadraticFundingConfig.
+minDonation
+ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
 
 The "count" row shows the number of non-missing values for each column, the "mean" row shows the average value for each column, and the "std" row shows the standard deviation for each column. The "min" row shows the minimum value for each column, and the "max" row shows the maximum value for each column.
 
@@ -442,13 +493,20 @@ Here's a brief explanation of the columns:
 - uniqueContributors: the number unique contributors to the campaign
 - createdAtBlock: the block number at which the campaign was created
 - updatedAtBlock: the block number at which the campaign was last updated
-- metadata.matchingFunds.matchingFundsAvailable: whether matching funds were available for the campaign
-- metadata.matchingFunds.matchingCapAmount: the maximum amount of matching funds available
+- metadata.matchingFunds. matchingFundsAvailable: whether matching funds were available for the campaign
+- metadata.matchingFunds. matchingCapAmount: the maximum amount of matching funds available
 - metadata.feesPercentage: the percentage of fees charged by the platform for the campaign
 - metadata.feesAddress: the address to which fees were sent
-- metadata.quadraticFundingConfig.matchingFundsAvailable: whether quadratic funding was enabled for the campaign
-- metadata.quadraticFundingConfig.matchingCapAmount: the maximum amount of matching funds available for quadratic funding
-- metadata.quadraticFundingConfig.minDonationThresholdAmount: the minimum donation amount required to qualify for quadratic funding
+- metadata.
+quadraticFundingConfig.
+matchingFundsAvailable: whether quadratic funding was enabled for the campaign
+- metadata.
+quadraticFundingConfig.
+matchingCapAmount: the maximum amount of matching funds available for quadratic funding
+- metadata.
+quadraticFundingConfig.
+minDonation
+ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
 
 For some columns, such as "metadata.feesAddress", there are no non-missing values, which means that this feature was not recorded for any of the campaigns.
 
@@ -502,3 +560,10 @@ In conclusion, this post provided an analysis of the Gitcoin Beta Round Stats, e
 ## Further Resources
 
 - [Granular Grant dataset on Ocean Marketplace](https://market.oceanprotocol.com/asset/did:op:87722169068147eda8a9574f4e7e72b2d6934902c9e259e806c119f66860c55a)
+- [Exploring and Refactoring Contraktor - Ethereum Explorer](https://dspyt.com/refactoring-contraktor)
+- [Exploring Ethereum Network with Etherscan and BlockScout](https://dspyt.com/exploring-ethereum)
+- [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
