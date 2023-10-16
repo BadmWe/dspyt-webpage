@@ -1,9 +1,8 @@
+import Post from "@/components/Post";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import Post from "@/components/Post";
 
 const POSTS_PER_PAGE = 6;
 

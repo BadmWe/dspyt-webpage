@@ -1,14 +1,11 @@
 import "@/styles/globals.css";
 import "@/styles/prism.css";
-
 import "katex/dist/katex.css";
-
-import Script from "next/script";
-import { ThemeProvider } from "next-themes";
-import siteMetadata from "@/components/siteMetadata";
-
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import siteMetadata from "@/components/siteMetadata";
+import { ThemeProvider } from "next-themes";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,8 +1,7 @@
-import Image from "next/legacy/image";
-import Link from "next/link";
-
 import Tag from "@/components/Tag";
 import formatDate from "@/lib/utils/formatDate";
+import Image from "next/legacy/image";
+import Link from "next/link";
 
 export default function Post({ post, slug }) {
   const {

@@ -1,26 +1,23 @@
-import { bundleMDX } from "mdx-bundler";
+import remarkCodeTitles from "./remark-code-title";
+import remarkExtractFrontmatter from "./remark-extract-frontmatter";
+import remarkImgToJsx from "./remark-img-to-jsx";
+import remarkTocHeadings from "./remark-toc-headings";
+import getAllFilesRecursively from "./utils/files";
 import fs from "fs";
 import matter from "gray-matter";
+import { bundleMDX } from "mdx-bundler";
 import path from "path";
-
-import getAllFilesRecursively from "./utils/files";
-
-// Remark packages
-import remarkGfm from "remark-gfm";
-import remarkFootnotes from "remark-footnotes";
-import remarkMath from "remark-math";
-
-import remarkExtractFrontmatter from "./remark-extract-frontmatter";
-import remarkCodeTitles from "./remark-code-title";
-import remarkTocHeadings from "./remark-toc-headings";
-import remarkImgToJsx from "./remark-img-to-jsx";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeCitation from "rehype-citation";
+import rehypeKatex from "rehype-katex";
+import rehypePresetMinify from "rehype-preset-minify";
+import rehypePrismPlus from "rehype-prism-plus";
 // Rehype packages
 import rehypeSlug from "rehype-slug";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypeKatex from "rehype-katex";
-import rehypeCitation from "rehype-citation";
-import rehypePrismPlus from "rehype-prism-plus";
-import rehypePresetMinify from "rehype-preset-minify";
+import remarkFootnotes from "remark-footnotes";
+// Remark packages
+import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
 
 const root = process.cwd();
 

@@ -1,9 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
+import Logo from "@/public/DSPYT.svg";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
-import Logo from "@/public/DSPYT.svg";
+import Image from "next/image";
+import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "/" },

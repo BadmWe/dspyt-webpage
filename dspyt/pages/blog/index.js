@@ -1,9 +1,8 @@
+import Post from "@/components/Post";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import Post from "@/components/Post";
 
 export default function Home({ posts }) {
   const [searchValue, setSearchValue] = useState("");
@@ -38,7 +37,7 @@ export default function Home({ posts }) {
             </h1>
           </div>
           <div className="items-center justify-center">
-          <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
+            <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
               <input
                 aria-label="Search articles"
                 type="text"

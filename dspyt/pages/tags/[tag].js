@@ -1,10 +1,9 @@
-import Head from "next/head";
-import { useState } from "react";
-
+import Post from "@/components/Post";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import { getAllTags } from "@/lib/tags";
-import Post from "@/components/Post";
 import kebabCase from "@/lib/utils/kebabCase";
+import Head from "next/head";
+import { useState } from "react";
 
 export async function getStaticPaths() {
   const tags = await getAllTags();

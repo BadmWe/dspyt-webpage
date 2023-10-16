@@ -1,8 +1,8 @@
+import { getFiles } from "./mdx";
+import kebabCase from "./utils/kebabCase";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import { getFiles } from "./mdx";
-import kebabCase from "./utils/kebabCase";
 
 export async function getAllTags() {
   const files = await getFiles("posts");

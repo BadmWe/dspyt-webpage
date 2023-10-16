@@ -1,5 +1,5 @@
-import PageTitle from "@/components/PageTitle";
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
+import PageTitle from "@/components/PageTitle";
 import {
   formatSlug,
   getAllFilesFrontMatter,

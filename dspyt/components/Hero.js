@@ -1,8 +1,7 @@
-import { ChevronRightIcon, StarIcon } from "@heroicons/react/20/solid";
-import React, { useState } from "react";
-import Image from "next/image";
-
 import HeroImage from "@/public/pinsave.webp";
+import { ChevronRightIcon, StarIcon } from "@heroicons/react/20/solid";
+import Image from "next/image";
+import React, { useState } from "react";
 
 export default function Hero() {
   const [email, setEmail] = useState("");

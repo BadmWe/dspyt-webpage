@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "prettier:write": "prettier --write \"**/*.{js,jsx}\"",
+    "prettier:check": "prettier --check \"**/*.{js,jsx}\""
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",

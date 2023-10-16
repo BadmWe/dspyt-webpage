@@ -1,9 +1,8 @@
+import Hero from "@/components/Hero";
+import Post from "@/components/Post";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Head from "next/head";
 import Link from "next/link";
-
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import Post from "@/components/Post";
-import Hero from "@/components/Hero";
 
 export default function Home({ posts }) {
   return (
@@ -36,13 +35,13 @@ export default function Home({ posts }) {
             ))}
           </div>
           <div className="grid place-items-end">
-          <div className="pt-4 lg:pt-8 mr-8 sm:mr-20 border-gray-900">
-            <Link href="/blog" legacyBehavior>
-              <a className="relative px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
-                Go to the blog
-              </a>
-            </Link>
-          </div>
+            <div className="pt-4 lg:pt-8 mr-8 sm:mr-20 border-gray-900">
+              <Link href="/blog" legacyBehavior>
+                <a className="relative px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
+                  Go to the blog
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
