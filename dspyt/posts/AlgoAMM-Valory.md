@@ -4,7 +4,16 @@ date: "September 21, 2023"
 excerpt: "AI and Prediction Markets: Revolutionizing Accessibility, Efficiency, and Opportunities."
 cover_image: "/images/posts/algoamm/DevNTell Algo AMM_ Automated Prediction Market Maker.webp"
 tags:
-  ["Uniswap", "Finance", "AI", "Algo AMM", "Defi", "data", "prediction markets"]
+  [
+    "Uniswap",
+    "Finance",
+    "AI",
+    "Algo AMM",
+    "Defi",
+    "data",
+    "prediction markets",
+    "blockchain",
+  ]
 ---
 
 ## What are the prediction markets?
@@ -69,11 +78,11 @@ With Algo AMM, users gain the convenience of a one-stop shop, enabling them to s
 
 How we approach the solution
 
-- **Creating a Robust Platform **: We are building a highly robust and scalable platform that integrates multiple prediction market platforms, enabling seamless access to a wide range of prediction opportunities in one place.
+- **Creating a Robust Platform**: We are building a highly robust and scalable platform that integrates multiple prediction market platforms, enabling seamless access to a wide range of prediction opportunities in one place.
 
-- **Aggregating Liquidity **: Our unique innovation lies in aggregating prediction market liquidity from various platforms, consolidating it into a single hub, and offering users a comprehensive pool of liquidity to enhance trading efficiency.
+- **Aggregating Liquidity**: Our unique innovation lies in aggregating prediction market liquidity from various platforms, consolidating it into a single hub, and offering users a comprehensive pool of liquidity to enhance trading efficiency.
 
-- **Bridging Prediction Networks **: We aim to bridge prediction market networks by establishing partnerships and collaborations with different prediction market platforms, creating a unified ecosystem that allows users to easily navigate and trade across multiple markets without the need to switch between platforms.
+- **Bridging Prediction Networks**: We aim to bridge prediction market networks by establishing partnerships and collaborations with different prediction market platforms, creating a unified ecosystem that allows users to easily navigate and trade across multiple markets without the need to switch between platforms.
 
 ## Why AMM is better than orderbook for prediction markets
 
