@@ -2,7 +2,7 @@
 name: Pavel Fedotov
 avatar: /profile.webp
 company: "Dspyt"
-email: fedorovn19@gmail.com
+email: pfedprog@gmail.com
 twitter: https://twitter.com/pfedprog
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
@@ -15,8 +15,10 @@ Full Stack Blockchain Developer with over 3 years of experience in engineering d
 
 I have also excelled in Python programming and worked with teams of developers to improve the data analysis pipeline. I am a native English and Russian speaker with working knowledge of Spanish. I also have a BA in Business Studies and Economics from the University of Manchester, graduating with Honors and publishing a popular academic article titled: ["Critical analysis of the electric vehicle industry: Five forces and strategic action fields"](https://doi.org/10.31273/eirj.v10i1.362).
 
-[GitHub profile](https://github.com/pfed-prog/)
+## More information
 
-[Twitter](https://twitter.com/pfedprog)
+- [GitHub profile](https://github.com/pfed-prog/)
 
-[LinkedIn](https://www.linkedin.com/in/pavel-fedotov-pinsave/)
+- [Twitter](https://twitter.com/pfedprog)
+
+- [LinkedIn](https://www.linkedin.com/in/pavel-fedotov-pinsave/)
