@@ -56,7 +56,7 @@ export default function PostLayout({
               className="mx-auto rounded-lg"
               quality={25}
               width={656}
-              height={300}
+              height={320}
               src={cover_image}
               alt={title}
               priority
