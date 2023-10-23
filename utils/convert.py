@@ -2,15 +2,18 @@
 import os
 from PIL import Image
 
-DIR = '../dspyt/public/images/posts/uniswap/'
+DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'ceramic')
 
 files = os.listdir(DIR)
 images = [file for file in files if file.endswith(('jpg', 'png'))]
 
 for element in images:
-    #print(os.path.getsize(f'{DIR}/{element}'))
-    image = Image.open(f'{DIR}/{element}')
-    image = image.convert('RGB')
-    image_name = element.split('.')[0]
-    image.save(f'{DIR}/{image_name}.webp', 'webp')
-    #print(os.path.getsize(f'{DIR}/{image_name}.webp'))
+    file_path = os.path.join(DIR, element)
+    with Image.open(file_path) as image:
+        initial_size = os.path.getsize(file_path)
+        image = image.convert('RGB')
+        image_name, _ = os.path.splitext(element)
+        webp_file_path = os.path.join(DIR, f'{image_name}.webp')
+        image.save(webp_file_path, 'webp', quality=50)
+        final_size = os.path.getsize(webp_file_path)
+        print(f"{element} size reduction:{(initial_size - final_size)/(1024 * 1024):.2f} MB")

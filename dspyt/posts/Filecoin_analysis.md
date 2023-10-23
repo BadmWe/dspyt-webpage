@@ -4,7 +4,15 @@ date: "10 December, 2022"
 excerpt: "We investigate Filecoin's storage network, renewable energy use, and USD/Filecoin correlation, plus a prediction algorithm for future Filecoin demand."
 cover_image: "/images/posts/Filecoin/Challenge presentation.webp"
 tags:
-  ["Python", "Filecoin", "data", "Ocean Marketplace", "sklearn", "data science"]
+  [
+    "Python",
+    "Filecoin",
+    "data",
+    "sklearn",
+    "data science",
+    "Ocean Marketplace",
+    "blockchain",
+  ]
 ---
 
 Filecoin Green is an initiative from Protocol Labs to create a sustainable digital future. This report will explore the challenges associated with the global data center industry, and Filecoin Green's potential to use 100% renewable energy, measure and reduce environmental impacts, and provide the world's best tools to do so. We will also examine the evolution of the Filecoin storage network, the share of renewable energy used by Filecoin, and the correlation between Filecoin and the US Dollar. Finally, an algorithm to predict the future demand for Filecoin will be presented.
@@ -121,9 +129,9 @@ Filecoin storage has the potential to be significantly more energy-efficient tha
 
 ## Related Posts
 
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [Panel data with python – An easy introduction](https://dspyt.com/panel-data-econometrics-an-introduction-with-an-example-in-python)
-- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Blockchain data indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
