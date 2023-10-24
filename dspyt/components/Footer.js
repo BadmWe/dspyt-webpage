@@ -25,7 +25,7 @@ const navigation = [
   },
   {
     name: "Discord",
-    href: "https://discord.gg/peRHyNZrss",
+    href: "https://discord.gg/TMEZau6SQ2",
     icon: (props) => (
       <svg width="22px" height="22px" viewBox="0 -28.5 256 256" {...props}>
         <path
