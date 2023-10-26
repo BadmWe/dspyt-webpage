@@ -1,7 +1,7 @@
 ---
 title: "Algo AMM: Revolutionizing Accessibility, Efficiency, and Opportunities"
 date: "September 21, 2023"
-excerpt: "AI and Prediction Markets: Revolutionizing Accessibility, Efficiency, and Opportunities."
+excerpt: "Explore prediction markets and their alignment with blockchain technology. Discover the potential applications and Algo AMM, the bridge to prediction liquidity."
 cover_image: "/images/posts/algoamm/DevNTell Algo AMM_ Automated Prediction Market Maker.webp"
 tags:
   [
