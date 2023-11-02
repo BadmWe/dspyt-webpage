@@ -3,7 +3,7 @@ title: "How to post your content on our website"
 date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content on our platform."
 cover_image: "/images/posts/faq/contentpreview.webp"
-authors: ["Dmitrii-Fedotov"]
+authors: ["dmitrii-fedotov"]
 tags: ["faq", "data", "Web3", "dspyt"]
 ---
 
