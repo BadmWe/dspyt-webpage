@@ -4,7 +4,7 @@ date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content on our platform."
 cover_image: "/images/posts/faq/contentpreview.webp"
 authors: ["Dmitrii-Fedotov"]
-tags: ["faq", "data", "Web3"]
+tags: ["faq", "data", "Web3", "dspyt"]
 ---
 
 If you want to edit or publish an article, then this post is especially for you!
