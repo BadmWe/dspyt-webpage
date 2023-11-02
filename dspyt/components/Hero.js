@@ -1,4 +1,4 @@
-import HeroImage from "@/public/pinsave.webp";
+import HeroImage from "@/public/mainsave.webp";
 import { ChevronRightIcon, StarIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -40,12 +40,13 @@ export default function Hero() {
                 </span>
               </a>
             </div>
-            <div className="mt-6 sm:max-w-xl">
+            <div className="sm:max-w-xl">
               <h1 className="text-4xl tracking-wide font-extrabold text-gray-900 dark:text-gray-100 sm:text-5xl">
-                Pin Save: Decentralized Pinterest
+              DSPYT - CodeVerse
               </h1>
               <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
-                Share Your Ideas as NFTs on Decentralized Storage
+              CodeVerse: is the place to discover, collect, and discuss all things programming.
+              It provides a space for individuals to share and curate a wide range of programming-related content.
               </p>
             </div>
             <form
@@ -104,10 +105,11 @@ export default function Hero() {
                   </span>{" "}
                   by over{" "}
                   <span className="font-medium text-indigo-600">
-                    500 beta users
+                    250 beta users
                   </span>
                 </div>
               </div>
+              <p className="text-l text-gray-500 dark:text-gray-300"> Share your content <a className="text-indigo-600 dark:text-indigo-500" href="/faq"> here </a> </p>
             </div>
           </div>
         </div>
@@ -152,7 +154,7 @@ export default function Hero() {
               <Image
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
                 src={HeroImage}
-                alt="PinSave - Decentralized Pinterest"
+                alt="DSPYT - CodeVerse"
                 priority
               />
             </div>
