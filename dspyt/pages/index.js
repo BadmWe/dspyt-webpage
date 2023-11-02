@@ -57,7 +57,7 @@ export async function getStaticProps() {
   for (let i = 0; i < posts.length; i++) {
     const obj = posts[i];
     const name =
-      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "pavel-fedotov";
+      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
 
     const authorResults = await getFileBySlug("authors", name);
 
