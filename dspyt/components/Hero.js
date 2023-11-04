@@ -30,7 +30,7 @@ export default function Hero() {
               <h1 className="text-4xl tracking-wide font-extrabold text-gray-900 dark:text-gray-100 sm:text-5xl">
                 DSPYT - CodeVerse
               </h1>
-              <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
+              <p className="mt-6 text-xl text-black  dark:text-gray-300">
                 CodeVerse: is the place to discover, collect, and discuss all
                 things programming. It provides a space for individuals to share
                 and curate a wide range of programming-related content.
