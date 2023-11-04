@@ -13,7 +13,7 @@ class MyDocument extends Document {
           media="(prefers-color-scheme: light)"
           content="#fff"
         />
-        <body className="bg-white text-black antialiased dark:bg-slate-700 dark:text-white">
+        <body className="bg-gradient-to-br from-cyan-700 to-cyan-950 text-white">
           <Main />
           <NextScript />
         </body>

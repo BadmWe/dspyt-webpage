@@ -91,7 +91,7 @@ export default function Hero() {
                     Rated 5 stars
                   </span>{" "}
                   by over{" "}
-                  <span className="font-medium text-indigo-600">
+                  <span className="font-medium text-indigo-600 dark:text-gray-100">
                     250 beta users
                   </span>
                 </div>

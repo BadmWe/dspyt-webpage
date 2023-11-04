@@ -82,7 +82,7 @@ export default function PostLayout({
                         className="h-10 w-10 rounded-full"
                       />
                     )}
-                    <dl className="whitespace-nowrap text-sm font-medium leading-5">
+                    <dl className="whitespace-nowrap text-l font-medium leading-5">
                       <dt className="sr-only">Name</dt>
                       <Link href={`/profile/${author.slug}`}>
                         <dd className="text-gray-900 dark:text-gray-100">
