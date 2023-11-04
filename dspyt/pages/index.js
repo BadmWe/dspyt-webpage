@@ -35,7 +35,12 @@ export default function Home({ posts }) {
             ))}
           </div>
           <div className="grid place-items-end">
-            <div className="pt-4 lg:pt-8 mr-8 sm:mr-20 border-gray-900">
+            <div className="pt-4 lg:pt-8 mr-8 p sm:mr-20 border-gray-900">
+              <Link href="/faq" legacyBehavior>
+                <a className="relative px-4 py-2 mr-5 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
+                  Share your content here
+                </a>
+              </Link>
               <Link href="/blog" legacyBehavior>
                 <a className="relative px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                   Go to the blog

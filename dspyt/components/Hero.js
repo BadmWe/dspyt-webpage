@@ -26,27 +26,14 @@ export default function Hero() {
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
-            <div>
-              <a
-                href="https://evm.pinsave.app/"
-                className="inline-flex space-x-4"
-              >
-                <span className="rounded bg-indigo-50 dark:bg-indigo-200 px-2.5 py-1 text-xs font-semibold text-indigo-600 dark:text-indigo-700 tracking-wide uppercase">
-                  What is new
-                </span>
-                <span className="inline-flex items-center text-sm font-medium text-indigo-600 dark:text-indigo-500 space-x-1">
-                  <span>Just Added Livepeer</span>
-                  <ChevronRightIcon className="h-5 w-5" aria-hidden="true" />
-                </span>
-              </a>
-            </div>
             <div className="sm:max-w-xl">
               <h1 className="text-4xl tracking-wide font-extrabold text-gray-900 dark:text-gray-100 sm:text-5xl">
-              DSPYT - CodeVerse
+                DSPYT - CodeVerse
               </h1>
               <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
-              CodeVerse: is the place to discover, collect, and discuss all things programming.
-              It provides a space for individuals to share and curate a wide range of programming-related content.
+                CodeVerse: is the place to discover, collect, and discuss all
+                things programming. It provides a space for individuals to share
+                and curate a wide range of programming-related content.
               </p>
             </div>
             <form
@@ -109,7 +96,6 @@ export default function Hero() {
                   </span>
                 </div>
               </div>
-              <p className="text-l text-gray-500 dark:text-gray-300"> Share your content <a className="text-indigo-600 dark:text-indigo-500" href="/faq"> here </a> </p>
             </div>
           </div>
         </div>
