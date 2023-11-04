@@ -3,7 +3,7 @@ import { MDXLayoutRenderer } from "@/components/MDXComponents";
 import { getFileBySlug } from "@/lib/mdx";
 import { getAllProfiles } from "@/lib/profiles";
 
-const DEFAULT_LAYOUT = "AuthorLayout";
+const DEFAULT_LAYOUT = "AuthorLayoutCard";
 
 export async function getStaticPaths() {
   const profiles = await getAllProfiles();
