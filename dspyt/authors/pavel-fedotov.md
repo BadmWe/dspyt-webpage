@@ -4,6 +4,7 @@ avatar: /profile.webp
 company: "Dspyt"
 email: pfedprog@gmail.com
 twitter: https://twitter.com/pfedprog
+instagram: /
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
 description: "Fullstack blockchain developer with over 3 years of experience in Rust, Solidity, Python, JavaScript, React and NextJs."

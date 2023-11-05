@@ -1,7 +1,7 @@
 import Post from "@/components/Post";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import { getAllTags } from "@/lib/tags";
-import kebabCase from "@/lib/utils/kebabCase";
+import { convertToSlug } from "@/lib/utils/convertToSlug";
 import Head from "next/head";
 import { useState } from "react";
 
@@ -23,7 +23,7 @@ export async function getStaticProps({ params }) {
   const filteredPosts = allPosts.filter(
     (post) =>
       post.draft !== true &&
-      post.tags.map((tag) => kebabCase(tag)).includes(params.tag)
+      post.tags.map((tag) => convertToSlug(tag)).includes(params.tag)
   );
 
   for (let i = 0; i < filteredPosts.length; i++) {

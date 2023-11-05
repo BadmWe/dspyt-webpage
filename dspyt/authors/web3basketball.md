@@ -1,6 +1,8 @@
 ---
 name: "Web3Basketball"
 avatar: "/authors/9GfGBdln_400x400.jpg"
+linkedin: /
+instagram: /
 twitter: "https://twitter.com/Web3Basketball"
 description: "Web3Basketball Dapp focuses on the sport of Basketball and contains an item store to track and ledger the delivery of basketball equipment."
 ---

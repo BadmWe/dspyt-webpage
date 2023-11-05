@@ -1,8 +1,8 @@
-import { getFiles } from "./mdx";
-import kebabCase from "./utils/kebabCase";
 import fs from "fs";
-import matter from "gray-matter";
 import path from "path";
+import matter from "gray-matter";
+import { getFiles } from "./mdx";
+import { convertToSlug } from "./utils/convertToSlug";
 
 export async function getAllTags() {
   const files = await getFiles("posts");
@@ -13,7 +13,7 @@ export async function getAllTags() {
     const { data } = matter(source);
     if (data.tags && data.draft !== true) {
       data.tags.forEach((tag) => {
-        const formattedTag = kebabCase(tag);
+        const formattedTag = convertToSlug(tag);
         if (formattedTag in tagCount) {
           tagCount[formattedTag] += 1;
         } else {

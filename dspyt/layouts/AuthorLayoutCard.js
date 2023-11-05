@@ -1,6 +1,7 @@
 import Image from "@/components/Image";
 import { PageSEO } from "@/components/SEO";
 import GitHubIcon from "@/styles/GitHubIcon";
+import Instagram from "@/styles/Instagram";
 import LinkedInIcon from "@/styles/LinkedInIcon";
 import TwitterIcon from "@/styles/TwitterIcon";
 
@@ -13,6 +14,7 @@ export default function AuthorLayout({ frontMatter, children }) {
     twitter,
     linkedin,
     github,
+    instagram,
     description,
   } = frontMatter;
 
@@ -33,11 +35,6 @@ export default function AuthorLayout({ frontMatter, children }) {
 
             <p className="text-gray-500 dark:text-gray-400">{`${company}`}</p>
             <div className="flex space-x-4 justify-center py-3">
-              {twitter && (
-                <a href={twitter} target="_blank" rel="noopener noreferrer">
-                  <TwitterIcon />
-                </a>
-              )}
               {linkedin && (
                 <a href={linkedin} target="_blank" rel="noopener noreferrer">
                   <LinkedInIcon />
@@ -46,6 +43,16 @@ export default function AuthorLayout({ frontMatter, children }) {
               {github && (
                 <a href={github} target="_blank" rel="noopener noreferrer">
                   <GitHubIcon />
+                </a>
+              )}
+              {twitter && (
+                <a href={twitter} target="_blank" rel="noopener noreferrer">
+                  <TwitterIcon />
+                </a>
+              )}
+              {instagram && (
+                <a href={instagram} target="_blank" rel="noopener noreferrer">
+                  <Instagram />
                 </a>
               )}
             </div>

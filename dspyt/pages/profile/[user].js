@@ -19,13 +19,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const authorResults = await getFileBySlug("authors", params.user);
-
   return { props: { profile: authorResults } };
 }
 
 export default function Profile({ profile }) {
   const { mdxSource, frontMatter } = profile;
-
   return (
     <>
       {
