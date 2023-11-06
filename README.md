@@ -33,6 +33,20 @@ We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains and broa
 - ["Simple App with Ceramic Data Model and Unstoppable Domains"](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
 - ["Ethereum Security Data Collection Ideas"](https://dspyt.com/data_collection_ideas)
 
+## How to post your content on our website
+
+[How to post your content on our website](https://dspyt.com/faq)
+
+How to submit
+
+1. Fork repository to your personal GitHub account
+2. Implement modifications to your copy of the repository
+3. Propose a pull request from your version to the main branch of this repository
+4. Await authorization. Any feedback will be provided directly within the pull request
+
+How to submit v2
+You can use the button on the top, in the right corner
+
 ## Navigation, Design, Screenshots
 
 We have 2 versions on our website: dark and white
