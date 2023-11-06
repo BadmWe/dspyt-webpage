@@ -1,6 +1,12 @@
-# DspytDAO - Fostering Innovation and Education in Web3 Technologies
+# Dspyt-CodeVerse - Fostering Innovation and Education in Web3 Technologies
 
+<<<<<<< HEAD
 [Dspyt](https://dspyt.com) is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem. Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
+=======
+[Dspyt-CodeVerse](https://dspyt.com) is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem. Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
+
+![image](https://github.com/BadmWe/dspyt-webpage/assets/108738511/4e3d55b6-9949-4658-b642-3abb8c7ae3c3)
+>>>>>>> 16e50ffe7d081cbb60f1a4376b9633e812687190
 
 Our mission involves the following key areas:
 
@@ -29,6 +35,26 @@ We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains and broa
 - "Improving Blockchain Credibility with UMA"
 - "Simple App with Ceramic Data Model and Unstoppable Domains"
 - "Ethereum Security Data Collection Ideas"
+  
+## Navigation, Design, Screenshots
+
+We have 2 versions on our website: dark and white
+
+![Dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/620e690a-e06c-49c3-9895-2100381a9f47)
+
+![White mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/7a9d4963-9bab-4d94-a17f-d9f471bdfc04)
+
+Blog page: people can suggest their content and after verification it will be published
+
+![Blog, dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/a8b6fca4-da47-40c9-bc16-b0460fdbe54a)
+
+![Blog, white mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/f1942edc-d0fa-46d7-9a7e-658e85abbb58)
+
+You can find out who the author if a particular post is; the user can click on the author of the post and view his profile
+
+![Dark mode profile](https://github.com/BadmWe/dspyt-webpage/assets/108738511/5b28c27c-2189-4fb5-a061-bf73f7f1a6ae)
+
+![White mode profile](https://github.com/BadmWe/dspyt-webpage/assets/108738511/6059fee1-a12e-4929-8587-c65d24054900)
 
 ## Useful Links
 
