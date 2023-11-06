@@ -36,6 +36,10 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 3. Propose a pull request from your version to the main branch of this repository
 4. Await authorization. Any feedback will be provided directly within the pull request
 
+## How to submit v2
+
+You can use the button on the top, in the right corner
+
 ## Dspyt Approval
 
 Typically, we will respond promptly, usually within a few days. We may add comments to your pull request and request revisions. If the article falls significantly short of our quality standards, we will issue a rejection message and close the pull request. In such a case, don't hesitate to publish your work on other platforms, and consider returning to us with fresh content at a later time.
