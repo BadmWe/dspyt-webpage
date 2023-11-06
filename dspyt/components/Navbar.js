@@ -1,5 +1,6 @@
 import Logo from "@/public/DSPYT.svg";
 import { Disclosure } from "@headlessui/react";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
@@ -27,6 +28,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
+
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <Link href={"/"} legacyBehavior>
                   <div className="flex-shrink-0 flex items-center">
@@ -38,6 +40,7 @@ export default function Navbar() {
                     />
                   </div>
                 </Link>
+
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -58,6 +61,17 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
+              <Link
+                type="button"
+                className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                href="https://forms.gle/VyhbutzPbHFaviDJA"
+              >
+                Add your blog
+                <CheckCircleIcon
+                  className="-mr-0.5 h-5 w-5"
+                  aria-hidden="true"
+                />
+              </Link>
             </div>
           </div>
 

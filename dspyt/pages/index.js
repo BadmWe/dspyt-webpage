@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Post from "@/components/Post";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -29,6 +30,7 @@ export default function Home({ posts }) {
               Data Science and Blockchain
             </h2>
           </div>
+
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {posts?.map((post, index) => (
               <Post key={index} post={post} slug={post.slug} />
