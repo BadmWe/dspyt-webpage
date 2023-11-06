@@ -16,22 +16,23 @@ Our mission involves the following key areas:
 
 ## Our Content
 
-We are currently working on several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities:
+We are currently collaborating with several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities:
 
-- **[Pin Save EVM](https://github.com/dspytdao/PinSave-EVM)**: EVM compatible version of Pin Save. Decentralized Pinterest.
+- **[Pin Save EVM](https://github.com/pinsavedao/PinSave-EVM)**: EVM compatible version of Pin Save. Decentralized Pinterest.
 - **[Algo AMM](https://github.com/dspytdao/Algo_AMM)**: Automated Prediction Market Maker on Algorand.
 - **[Dspyt AI](https://github.com/dspytdao/dspytai)**: Dapp that utilizes on-chain data to model potential price fluctuations in real-time.
+- **[TradeCoin](https://github.com/AlexFedotovqq/TradeCoin)**: TradeCoin provides DeFi tools for token holders & businesses to buy, trade, create, and secure crypto assets with confidence.
 
 We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains and broader ecosystem to cover topics in article and video:
 
-- "What is a blockchain address?"
-- "Simple Blockchain data indexing with TrueBlocks"
-- "How ERC-4626 is Fueling the Next Wave of DeFi"
-- "Aurora — EVM on the NEAR Protocol blockchain"
-- "Improving Blockchain Credibility with UMA"
-- "Simple App with Ceramic Data Model and Unstoppable Domains"
-- "Ethereum Security Data Collection Ideas"
-  
+- ["What is a blockchain address?"](https://dspyt.com/what-is-blockchain-address)
+- ["Simple Blockchain data indexing with TrueBlocks"](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
+- ["How ERC-4626 is Fueling the Next Wave of DeFi"](https://dspyt.com/erc4626)
+- ["Aurora — EVM on the NEAR Protocol blockchain"](https://dspyt.com/aurora-near-protocol-evm)
+- ["Improving Blockchain Credibility with UMA"](https://dspyt.com/improving-blockchain-credibility-with-uma)
+- ["Simple App with Ceramic Data Model and Unstoppable Domains"](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- ["Ethereum Security Data Collection Ideas"](https://dspyt.com/data_collection_ideas)
+
 ## Navigation, Design, Screenshots
 
 We have 2 versions on our website: dark and white
@@ -66,4 +67,4 @@ You can find out who the author if a particular post is; the user can click on t
 
 ## Get Involved
 
-We welcome developers of all experience levels to join us in our mission. If you'd like to get involved, please check out our [GitHub repositories](https://github.com/orgs/dspytdao/repositories) or join our [Discord Channel](https://discord.gg/GzhgdRmbM8). We hope to see you soon!
+We welcome developers of all experience levels to join us in our mission. If you'd like to get involved, please check out our [GitHub repositories](https://github.com/orgs/dspytdao/repositories) or join our [Discord Channel](https://discord.gg/VAgsC7CHy2). We hope to see you soon!
