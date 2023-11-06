@@ -3,7 +3,6 @@
 [Dspyt-CodeVerse](https://dspyt.com) is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem. Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
 
 ![image](https://github.com/BadmWe/dspyt-webpage/assets/108738511/4e3d55b6-9949-4658-b642-3abb8c7ae3c3)
->>>>>>> 16e50ffe7d081cbb60f1a4376b9633e812687190
 
 Our mission involves the following key areas:
 
