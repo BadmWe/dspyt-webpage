@@ -7,8 +7,7 @@ twitter: https://twitter.com/AlexFedotovqq
 linkedin: /
 instagram: /
 github: https://github.com/AlexFedotovqq
-description: "Python, JavaScript, React and NextJs.Creator of the "TradeCoin" project"
-
+description: "Python, JavaScript, React and NextJs.Creator of the TradeCoin project"
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
