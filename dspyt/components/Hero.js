@@ -17,7 +17,7 @@ export default function Hero() {
               </a>
               <a
                 href="/faq"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100"
               >
                 Share your content here<span aria-hidden="true"> → </span>
               </a>
