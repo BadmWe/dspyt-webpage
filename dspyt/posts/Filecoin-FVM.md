@@ -2,6 +2,7 @@
 title: "Unlocking the Full Potential of Filecoin with the FVM"
 date: "September 27, 2023"
 excerpt: "The Filecoin Virtual Machine (FVM) enhances developer tooling and services for building data applications on the network."
+authors: ["pavel-fedotov"]
 cover_image: "/images/posts/Filecoin/Understanding the Filecoin FVM.webp"
 tags: ["Filecoin", "FVM", "ethereum", "data", "ipfs", "blockchain", "wasm"]
 ---
