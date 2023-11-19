@@ -1,10 +1,10 @@
 ---
-title: "SushiSwap wstETH/DAI liquidity pool incentive program"
+title: "SushiSwap LIDO wstETH/DAI liquidity pool incentive program"
 date: "March 22, 2023"
-excerpt: ""
-cover_image: "/images/posts/sushi/c3a57e0f4518f6002f3fe2ed000a1e17.jpg"
+excerpt: "We assess SushiSwap's wstETH/DAI liquidity pool incentive program. The incentive program offered rewards to liquidity providers."
+cover_image: "/images/posts/sushi/c3a57e0f4518f6002f3fe2ed000a1e17.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "sushiswap", "Lido", "staking","defi"]
+tags: ["Ethereum", "smart contracts", "sushiswap", "Lido", "staking", "defi", "LIDO"]
 ---
 
 This report evaluates the success of SushiSwap's wstETH/DAI liquidity pool incentive program, which began on August 18, 2021. The incentive program offered rewards to liquidity providers and was intended to attract capital and provide liquidity to the pool. To evaluate the program's success, we examined the pool's average TVL before the program began, the percentage increase in APR incentivized by the program, the percentage increase in TVL achieved, the percentage of liquidity providers who became yield farmers during the program, the average duration of the program, and the percentage of TVL pulled out from the pool after the program ended. After reviewing the data, we concluded that the program was successful in meeting its goals.
@@ -23,19 +23,19 @@ Users can provide wstETH (wrapped stETH) as liquidity to the respective pool to 
 
 The pool will be allocated 200,000 LDO for the first month, with up to 13,500 SUSHI allocated from SushiSwap as well."
 
-![twitter](/images/posts/sushi/twitter.jpg)
+![twitter](/images/posts/sushi/twitter.webp)
 
 ## Weekly Staking Volume of wstETH/DAI Over Time - Incentive Program : 2021/08/18 - 2021-09-18
 
-![stakingVolume](/images/posts/sushi/stakingVolume.jpg)
+![stakingVolume](/images/posts/sushi/stakingVolume.webp)
 
 ## Average Monthly SLP Deposit Amount
 
-![Average Monthly SLP Deposit Amount](/images/posts/sushi/avdep.jpg)
+![Average Monthly SLP Deposit Amount](/images/posts/sushi/avdep.webp)
 
 ## Average Monthly SLP Depositors
 
-![Average Monthly SLP Depositors](/images/posts/sushi/avMdep.jpg)
+![Average Monthly SLP Depositors](/images/posts/sushi/avMdep.webp)
 
 ## Analysis
 
@@ -43,15 +43,15 @@ The first look at the above graphs leads to the conclusion that this program was
 
 ## Weekly Net Deposit Volume (Deposit minus Withdrawal) of wstETH/DAI SLP Tokens - Incentive Program : 2021/08/18 - 2021-09-18
 
-![Weekly Net Deposit Volume](/images/posts/sushi/balance.jpg)
+![Weekly Net Deposit Volume](/images/posts/sushi/balance.webp)
 
 ## Depositors vs Unstakers from wstETH/DAI Yield Farm
 
-![Depositors vs Unstakers from wstETH/DAI Yield Farm](/images/posts/sushi/depVsUnstakers.jpg)
+![Depositors vs Unstakers from wstETH/DAI Yield Farm](/images/posts/sushi/depVsUnstakers.webp)
 
 ## Weekly Cumulative Deposit / Withdraw / Current Farm Balance (Net Deposit)
 
-![Weekly Cumulative Deposit](/images/posts/sushi/netDeposits.jpg)
+![Weekly Cumulative Deposit](/images/posts/sushi/netDeposits.webp)
 
 ## Findings
 
