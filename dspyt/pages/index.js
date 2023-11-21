@@ -12,16 +12,16 @@ import React, { useState } from "react";
 const people = [
   {
     name: "Dmitrii Fedotov",
-    role: "Developer,Copywriter",
+    role: "Lead Developer",
     imageUrl: "/ava.jpg",
     twitterUrl: "https://twitter.com/DmitriFedotov",
-    linkedinUrl: "#",
+    linkedinUrl: "",
     githubUrl: "https://github.com/BadmWe/",
     InstagramUrl: "",
   },
   {
     name: "Pavel Fedotov",
-    role: "Main Developer",
+    role: "Advisor",
     imageUrl: "/profile.webp",
     twitterUrl: "https://twitter.com/pfedprog",
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
@@ -30,10 +30,10 @@ const people = [
   },
   {
     name: "Alexander Fedotov",
-    role: "Design developer",
+    role: "Front-End developer",
     imageUrl: "/avasasha.webp",
     twitterUrl: "https://twitter.com/AlexFedotovqq",
-    linkedinUrl: "#",
+    linkedinUrl: "",
     githubUrl: "https://github.com/AlexFedotovqq",
     InstagramUrl: "",
   },
@@ -87,98 +87,19 @@ export default function Home({ posts }) {
             ))}
           </div>
         </div>
-        <div className="bg-white py-32 dark:bg-cyan-950">
-          <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
-            <div className="mx-auto max-w-2xl">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">
-                Meet our team
-              </h2>
-              <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                We’re a dynamic group of individuals who are passionate about
-                what we do.
-              </p>
-            </div>
-            <ul
-              role="list"
-              className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-            >
-              {people.map((person) => (
-                <li key={person.name}>
-                  <img
-                    className="mx-auto h-56 w-56 rounded-full"
-                    src={person.imageUrl}
-                    alt=""
-                  />
-                  <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-100">
-                    {person.name}
-                  </h3>
-                  <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-                    {person.role}
-                  </p>
-                  <ul role="list" className="mt-6 flex justify-center gap-x-6">
-                    <li>
-                      <span className="sr-only">Twitter</span>
-                      <a
-                        href={person.twitterUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-900 hover:text-gray-700 dark:text-gray-100 "
-                      >
-                        <TwitterIcon />
-                      </a>
-                    </li>
-                    <li>
-                      <span className="sr-only">Instagram</span>
-                      <a
-                        href={person.InstagramUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                      >
-                        <Instagram />
-                      </a>
-                    </li>
-                    <li>
-                      <span className="sr-only">LinkedIn</span>
-                      <a
-                        href={person.linkedinUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                      >
-                        <LinkedInIcon />
-                      </a>
-                    </li>
-                    <li>
-                      <span className="sr-only">Github</span>
-                      <a
-                        href={person.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                      >
-                        <GitHubIcon />
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
 
-        <div className=" grid relative mx-auto items-center justify-center">
-          <div className="mt-4 text-center sm:max-w-xl">
-            <h1 className="text-center mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl dark:text-gray-100 sm:text-6xl">
+        <div className="grid relative mx-auto items-center justify-center ml-4 mr-4">
+          <div className="mt-20 text-center sm:max-w-xl">
+            <h1 className="text-center text-6xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
               Join the newsletter!
             </h1>
-            <p className="text-center mt-2 text-2x1 leading-6 text-gray-600 dark:text-gray-300">
+            <p className="text-center mt-6 text-2xl leading-6 text-gray-600 dark:text-gray-300">
               Subscribe to get the latest content by email.
             </p>
           </div>
           <form
             onSubmit={handleSubmit}
-            className="mt-4 sm:max-w-lg sm:w-full sm:flex"
+            className="mt-6 sm:max-w-lg sm:w-full sm:flex"
           >
             <div className="min-w-0 flex-1">
               <label htmlFor="hero-email" className="sr-only">
@@ -193,7 +114,8 @@ export default function Home({ posts }) {
                 placeholder="Enter your email"
               />
             </div>
-            <div className="mt-4 sm:mt-0 sm:ml-3">
+
+            <div className="mt-4 sm:mt-0 sm:ml-4">
               <button
                 type="submit"
                 className="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-600 text-base font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10"
@@ -202,42 +124,114 @@ export default function Home({ posts }) {
               </button>
             </div>
           </form>
-          <div className="mt-6">
-            <div className="inline-flex items-center divide-x divide-gray-300">
-              <div className="flex-shrink-0 flex pr-5">
-                <StarIcon
-                  className="h-5 w-5 text-yellow-400"
-                  aria-hidden="true"
-                />
-                <StarIcon
-                  className="h-5 w-5 text-yellow-400"
-                  aria-hidden="true"
-                />
-                <StarIcon
-                  className="h-5 w-5 text-yellow-400"
-                  aria-hidden="true"
-                />
-                <StarIcon
-                  className="h-5 w-5 text-yellow-400"
-                  aria-hidden="true"
-                />
-                <StarIcon
-                  className="h-5 w-5 text-yellow-400"
-                  aria-hidden="true"
-                />
-              </div>
-              <div className="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3 dark:text-gray-300">
-                <span className="font-medium text-gray-900 dark:text-gray-100">
-                  Rated 5 stars
-                </span>{" "}
-                by over{" "}
-                <span className="font-medium text-indigo-600 dark:text-gray-100">
-                  250 beta users
-                </span>
-              </div>
+
+          <div className="mt-6 ml-6 inline-flex items-center divide-x divide-gray-300">
+            <div className="flex-shrink-0 flex pr-5">
+              <StarIcon
+                className="h-5 w-5 text-yellow-400"
+                aria-hidden="true"
+              />
+              <StarIcon
+                className="h-5 w-5 text-yellow-400"
+                aria-hidden="true"
+              />
+              <StarIcon
+                className="h-5 w-5 text-yellow-400"
+                aria-hidden="true"
+              />
+              <StarIcon
+                className="h-5 w-5 text-yellow-400"
+                aria-hidden="true"
+              />
+              <StarIcon
+                className="h-5 w-5 text-yellow-400"
+                aria-hidden="true"
+              />
+            </div>
+            <div className="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3 dark:text-gray-300">
+              <span className="font-medium text-gray-900 dark:text-gray-100">
+                Rated 5 stars
+              </span>{" "}
+              by over{" "}
+              <span className="font-medium text-indigo-600 dark:text-gray-100">
+                250 beta users
+              </span>
             </div>
           </div>
         </div>
+
+        <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-100">
+            Meet our team
+          </h2>
+          <ul
+            role="list"
+            className="mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+          >
+            {people.map((person) => (
+              <li key={person.name}>
+                <img
+                  className="mx-auto h-56 w-56 rounded-full"
+                  src={person.imageUrl}
+                  alt={person.name}
+                />
+                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-100">
+                  {person.name}
+                </h3>
+                <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
+                  {person.role}
+                </p>
+                <ul role="list" className="mt-6 flex justify-center gap-x-6">
+                  <li>
+                    <span className="sr-only">Twitter</span>
+                    <a
+                      href={person.twitterUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100 "
+                    >
+                      <TwitterIcon />
+                    </a>
+                  </li>
+                  <li>
+                    <span className="sr-only">Instagram</span>
+                    <a
+                      href={person.InstagramUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    >
+                      <Instagram />
+                    </a>
+                  </li>
+                  <li>
+                    <span className="sr-only">LinkedIn</span>
+                    <a
+                      href={person.linkedinUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    >
+                      <LinkedInIcon />
+                    </a>
+                  </li>
+                  <li>
+                    <span className="sr-only">Github</span>
+                    <a
+                      href={person.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    >
+                      <GitHubIcon />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="mt-40"></div>
       </div>
     </>
   );
