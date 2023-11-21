@@ -72,28 +72,25 @@ export default function Home({ posts }) {
         <meta name="twitter:site" content="@dspytdao" />
         <meta name="twitter:creator" content="@pfedprog" />
       </Head>
-      <div className="relative">
+      <div>
         <Hero />
-        <div className="relative max-w-7xl mx-auto">
-          <div className="text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-              Data Science and Blockchain
-            </h2>
-          </div>
 
-          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {posts?.map((post, index) => (
-              <Post key={index} post={post} slug={post.slug} />
-            ))}
-          </div>
+        <h2 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+          Data Science and Blockchain
+        </h2>
+
+        <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
+          {posts?.map((post, index) => (
+            <Post key={index} post={post} slug={post.slug} />
+          ))}
         </div>
 
         <div className="grid relative mx-auto items-center justify-center ml-4 mr-4">
           <div className="mt-20 text-center sm:max-w-xl">
-            <h1 className="text-center text-6xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+            <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
               Join the newsletter!
             </h1>
-            <p className="text-center mt-6 text-2xl leading-6 text-gray-600 dark:text-gray-300">
+            <p className="text-center mt-6 text-xl leading-6 text-gray-600 dark:text-gray-300">
               Subscribe to get the latest content by email.
             </p>
           </div>
