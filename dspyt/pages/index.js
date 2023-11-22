@@ -18,6 +18,7 @@ const people = [
     linkedinUrl: "",
     githubUrl: "https://github.com/BadmWe/",
     InstagramUrl: "",
+    authors: ["profile/dmitrii-fedotov"],
   },
   {
     name: "Pavel Fedotov",
@@ -27,6 +28,7 @@ const people = [
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",
     InstagramUrl: "",
+    authors: ["profile/pavel-fedotov"],
   },
   {
     name: "Alexander Fedotov",
@@ -36,6 +38,7 @@ const people = [
     linkedinUrl: "",
     githubUrl: "https://github.com/AlexFedotovqq",
     InstagramUrl: "",
+    authors: ["profile/alexfedotovqq"],
   },
 ];
 
@@ -172,8 +175,9 @@ export default function Home({ posts }) {
                   src={person.imageUrl}
                   alt={person.name}
                 />
+
                 <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-100">
-                  {person.name}
+                  <a href={person.authors}>{person.name}</a>
                 </h3>
                 <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
                   {person.role}
