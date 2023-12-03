@@ -1,6 +1,5 @@
 import HeroImage from "@/public/mainsave.webp";
 import Image from "next/image";
-import React, { useState } from "react";
 
 export default function Hero() {
   return (
@@ -28,7 +27,7 @@ export default function Hero() {
                 DSPYT - CodeVerse
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                CodeVerse: is the place to discover, collect, and discuss all
+                The place to discover, collect, and discuss all
                 things programming. It provides a space for individuals to share
                 and curate a wide range of programming-related content.
               </p>

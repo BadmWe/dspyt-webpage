@@ -49,3 +49,16 @@ Typically, we will respond promptly, usually within a few days. We may add comme
 Upon receiving approval, we will merge your pull request! Once it's merged, our system will initiate site rebuilding, and your story will be accessible to the public.
 
 ![Approved](/images/posts/faq/approved.webp)
+
+## References and Related posts
+
+- [Add your post to Dspyt Blog](https://forms.gle/VyhbutzPbHFaviDJA)
+- [How to implement Advanced Realized Volatility python Dspyt](https://dspyt.com/advanced-realized-volatility-and-quarticity)
+- [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [How to implement asyncio python tutorial](https://dspyt.com/simple-asynchronous-python-webscraper-tutorial)
+- [Aurora — EVM on the NEAR Protocol blockchain](https://dspyt.com/aurora-near-protocol-evm)
+- [How to Python jail escape (Newbie CTF 2019)](https://dspyt.com/how-to-python-jail-escape-newbie-ctf-2019)
+- [How to python check proxy with aiohttp](https://dspyt.com/easy-proxy-scraper-and-proxy-usage-in-python)
+- [Simple Ceramic Data Model App and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Simple QR code generator on AWS with Flask](https://dspyt.com/simple-qr-code-generator-on-aws-with-flask)

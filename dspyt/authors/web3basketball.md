@@ -11,7 +11,7 @@ description: "Web3Basketball Dapp focuses on the sport of Basketball and contain
     Web3Basketball DspytDAO profile
 </h1>
 
-<h3 className="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
+<div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
 Web3Basketball Dapp focuses on the sport of Basketball and contains an item store to track and ledger the delivery of basketball equipment.
 
 - [DoraHacks](https://dorahacks.io/buidl/3798)
@@ -24,4 +24,4 @@ How basketball affects human psychology? Very positively, because it forms in us
 
 With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
 
-</h3>
+</div>

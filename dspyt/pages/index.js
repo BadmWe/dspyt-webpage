@@ -90,9 +90,9 @@ export default function Home({ posts }) {
 
         <div className="grid relative mx-auto items-center justify-center ml-4 mr-4">
           <div className="mt-20 text-center sm:max-w-xl">
-            <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
+            <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
               Join the newsletter!
-            </h1>
+            </h2>
             <p className="text-center mt-6 text-xl leading-6 text-gray-600 dark:text-gray-300">
               Subscribe to get the latest content by email.
             </p>

@@ -13,7 +13,7 @@ description: "a forward-thinking organization committed to promoting open-source
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
     DspytDAO - Fostering Innovation and Education in Web3 Technologies
 </h1>
-<h3 className="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
+<div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
 DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem.
 Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
 
@@ -29,4 +29,4 @@ Our mission involves the following key areas:
 
 Our proven track record and dedication to long-term goals make us an ideal candidate for receiving support as we strive to advance the decentralized era of technology.
 
-</h3>
+</div>
