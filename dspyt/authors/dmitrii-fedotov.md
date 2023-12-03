@@ -26,4 +26,3 @@ I am honored to have received recognition from prominent entities in the blockch
 As I continue to make strides in both sports and technology, my unwavering dedication remains focused on fostering innovation and making a lasting impact at the intersection of sports and the digital world. Join me on this exciting journey as we explore new horizons in badminton and contribute to the ever-evolving landscape of technology.
 
 </div>
-s
