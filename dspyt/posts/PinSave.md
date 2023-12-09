@@ -2,6 +2,7 @@
 title: "Unlock the Power of Decentralization with PinSave"
 date: "24 December, 2022"
 excerpt: "Experience the benefits of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize your content."
+authors: ["pavel-fedotov"]
 cover_image: "/images/posts/Pinsave/Pin Save.webp"
 tags:
   [
@@ -17,7 +18,7 @@ tags:
   ]
 ---
 
-[Pin Save](https://evm.pinsave.app) is a revolutionary decentralized image sharing and content aggregation platform that allows users to control the content and the platform itself. With Pin Save, users can leverage the power of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize their content. Pin Save provides users with secure storage and access to the latest technology, making it the perfect choice for those looking to take control of their content.
+[Pin Save](https://pinsave.app) is a revolutionary decentralized image sharing and content aggregation platform that allows users to control the content and the platform itself. With Pin Save, users can leverage the power of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize their content. Pin Save provides users with secure storage and access to the latest technology, making it the perfect choice for those looking to take control of their content.
 
 ## Enjoy Optimal Content Control with Pin Save
 

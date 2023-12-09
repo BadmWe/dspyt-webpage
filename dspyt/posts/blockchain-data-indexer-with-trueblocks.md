@@ -9,7 +9,7 @@ tags: ["TrueBlocks", "Indexer", "blockchain", "IPFS", "GitCoin", "Ethereum"]
 In this article we are going to discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database in the way it stores information. A blockchain is a growing list of records, also called blocks, that are linked together using the latest cryptography technology. In general, each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.
 
 <div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/TtRilzuXLkA?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
+    <iframe width="600" height="350" src="https://www.youtube.com/embed/c9Yx3Niv-Gs?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
 For example, the transaction data in a Bitcoin Block contains information about the Sender, Receiver and the number of bitcoins to be transferred.
@@ -62,7 +62,7 @@ To illustrate this functionality TrueBlocks has conducted a study and found sign
 
 TrueBlocks produces index data and publishes it at near-zero cost, effectively sharing that data without creating a competition among users. Additionally, as the more people will use the data, the cheaper and more readily available it will become.
 
-Consider donating to TrueBlocks through [GitCoin Grants](https://gitcoin.co/grants/184/trueblocks).
+Consider donating to TrueBlocks through [GitCoin Grants](https://grants.gitcoin.co/).
 
 ## Related Posts
 
