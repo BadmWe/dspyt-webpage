@@ -14,7 +14,7 @@ const people = [
   {
     name: "Dmitrii Fedotov",
     role: "Lead Developer",
-    imageUrl: "/ava.jpg",
+    imageUrl: "/ava.webp",
     twitterUrl: "https://twitter.com/DmitriFedotov",
     linkedinUrl: "",
     githubUrl: "https://github.com/BadmWe/",
