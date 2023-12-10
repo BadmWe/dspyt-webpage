@@ -1,57 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*
-@layer base {
-  .card h1 {
-    @apply mb-6;
-  }
 
-  .card a:link {
-    color: #575e67;
-    font-weight: bold;
-  }
-
-  .card a:hover {
-    color: hotpink;
-  }
-
-  .card img {
-    @apply mt-6 mb-6 mx-auto;
-  }
-
-  .card p {
-    @apply mt-6;
-  }
-
-  .card h2 {
-    @apply mt-6 text-2xl;
-  }
-
-  .card h3 {
-    @apply mt-6 text-xl;
-  }
-
-  .card ul {
-    display: block;
-    list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
-  }
-
-  .card ol {
-    display: block;
-    list-style-type: space-counter;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
-  }
-}*/
+.homepage-h2 {
+  @apply text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14
+}
 
 .task-list-item::before {
   @apply hidden;
