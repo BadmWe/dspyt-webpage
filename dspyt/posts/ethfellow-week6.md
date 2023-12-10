@@ -4,7 +4,17 @@ date: "March 17, 2023"
 excerpt: "NextJS Explorer has enhanced the homepage. We added a logo, dune dashboard to track real time ethereum transactions costs for different actions."
 cover_image: "/images/posts/explorer/pexels-mike-b-887843.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+tags:
+  [
+    "Ethereum",
+    "smart contracts",
+    "explorer",
+    "blockscout",
+    "nextjs",
+    "etherscan",
+    "vercel",
+    "Dune Dashboard",
+  ]
 ---
 
 This week I worked on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. With this project, I aim to provide users with an easy to use interface for exploring Ethereum contracts.

@@ -3,7 +3,8 @@ title: "Ethereum Security Data Collection Ideas - DSPYT"
 date: "26 September, 2022"
 excerpt: "We describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
-tags: ["data", "blockchain", "Ethereum", "security", "regulation", "AML"]
+tags: ["data", "blockchain", "Ethereum", "security", "regulation", "AML", 
+"compliance", "blog", "ideas", "research", "KYC", "data sources"]
 ---
 
 Data collection is the systematic process of obtaining observations or measurements. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.

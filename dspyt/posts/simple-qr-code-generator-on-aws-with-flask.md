@@ -4,7 +4,19 @@ date: "April 28, 2022"
 excerpt: "Web application in Flask python to generate qr code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
 cover_image: "/images/posts/qr code/pexels-ron-lach-9784240.webp"
 tags:
-  ["Python", "flask", "AWS", "QR-code", "Casper", "blockchain", "Elasticbean"]
+  [
+    "Python",
+    "flask",
+    "AWS",
+    "QR code",
+    "Casper",
+    "blockchain",
+    "PIL",
+    "IO",
+    "base64",
+    "github",
+    "Elasticbean",
+  ]
 ---
 
 If you're looking for a fun and easy way to generate QR codes, Python is the perfect language for you. With Python, you can create QR codes in minutes, and you can use them to create fun and interesting things like websites and apps. You can also use Python to create simple QR code generators, which is perfect for creating quick and easy QR codes. All you need to do is input a few basic parameters, and you'll be able to generate a QR code that looks and feels amazing!

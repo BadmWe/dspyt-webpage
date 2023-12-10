@@ -4,7 +4,18 @@ date: "March 3, 2023"
 excerpt: "This week I had a call with Jordan Ellis from Polywrap who provided me with valuable insight into contract explorers in the open-source ecosystem."
 cover_image: "/images/posts/explorer/pexels-markus-spiske-225769.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+tags:
+  [
+    "Ethereum",
+    "smart contracts",
+    "explorer",
+    "blockscout",
+    "nextjs",
+    "etherscan",
+    "vercel",
+    "Polywrap",
+    "API",
+  ]
 ---
 
 In the world of blockchain and cryptocurrency, there is a need for better tools to explore the data on the network. With the increasing popularity of Ethereum, it is important to have a tool that allows users to explore the Ethereum network and its contracts in an easy and intuitive way. This is why I have been working on developing an open source contract explorer for Ethereum.

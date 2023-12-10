@@ -3,7 +3,19 @@ title: "What are Stablecoins and How Do They Impact Decentralized Finance"
 date: "February 12, 2023"
 excerpt: "Stablecoins are designed to remain consistent and are becoming increasingly popular in the DeFi market due to their ability to maintain a steady value."
 cover_image: "/images/posts/defi/pexels-worldspectrum-844124.webp"
-tags: ["stablecoins", "DeFi", "blockchain", "USDC", "Circle", "finance"]
+tags:
+  [
+    "stablecoins",
+    "DeFi",
+    "USDC",
+    "Circle",
+    "finance",
+    "API",
+    "commodity",
+    "treasury",
+    "EUROC",
+    "blockchain",
+  ]
 ---
 
 Circle is an international financial technology company dedicated to helping money move quickly and securely using USD Coin (USDC) and Euro Coin (EUROC). They strive for a financial system that is accessible 24/7, with fast processing times and minimal fees. Circle is committed to transparency and stability in their operations, working with regulatory bodies and providing detailed reports on the backing of their stablecoins. They offer a comprehensive API to enable users and businesses to manage their digital currencies, as well as a Circle account that allows developers to use their full suite of payment, treasury, and liquidity solutions.

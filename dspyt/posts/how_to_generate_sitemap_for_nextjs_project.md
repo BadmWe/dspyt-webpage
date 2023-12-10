@@ -8,10 +8,12 @@ tags:
     "nextjs",
     "sitemap",
     "webbadminton",
-    "next-sitemap",
     "npm",
     "javascript",
     "yarn",
+    "google",
+    "sitemap",
+    "next-sitemap",
   ]
 ---
 

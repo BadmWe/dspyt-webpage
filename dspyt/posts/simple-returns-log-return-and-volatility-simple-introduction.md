@@ -3,7 +3,17 @@ title: "How to illustrate log returns vs simple returns"
 date: "May 4, 2022"
 excerpt: "In this blog post we are introducing the concepts of log returns vs simple returns, realized volatility and realized variance."
 cover_image: "/images/posts/logreturns/pexels-andrew-neel-9067435-e1629301269244.webp"
-tags: ["Python", "finance", "log-return", "econometrics", "log-returns"]
+tags:
+  [
+    "Python",
+    "finance",
+    "log return",
+    "NumPy",
+    "econometrics",
+    "log returns",
+    "statistics",
+    "Realized Variance",
+  ]
 ---
 
 In this blog post, we are going to introduce the concepts of log returns vs. simple returns and realized volatility.

@@ -4,7 +4,18 @@ date: "March 10, 2023"
 excerpt: "Our platform has enhanced the user experience. New colours and buttons, restructured layout, and a feature to view transaction details."
 cover_image: "/images/posts/explorer/pexels-lukas-577210.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+tags:
+  [
+    "Ethereum",
+    "smart contracts",
+    "explorer",
+    "blockscout",
+    "nextjs",
+    "etherscan",
+    "vercel",
+    "UI",
+    "defi",
+  ]
 ---
 
 As our society continues to rely heavily on technology, the value of a user-friendly interface is increasing. We understand the significance of a good user experience, which is why we recently made some major improvements to our platform's UI.

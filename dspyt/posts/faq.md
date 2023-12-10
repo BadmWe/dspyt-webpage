@@ -1,10 +1,22 @@
 ---
-title: "How to post your content on our website"
+title: "How to post your content on DSPYT"
 date: "November 4, 2023"
-excerpt: "In this post you will learn how to post your content on our platform. If you want to edit or publish an article, then this post is especially for you!"
+excerpt: "In this post you will learn how to post your content DSPYT. If you want to edit or publish an article, then this post is especially for you!"
 cover_image: "/images/posts/faq/contentpreview.webp"
 authors: ["dmitrii-fedotov"]
-tags: ["faq", "data", "Web3", "dspyt", "data science"]
+tags:
+  [
+    "blockchain",
+    "faq",
+    "data",
+    "Web3",
+    "blog",
+    "dspyt",
+    "content",
+    "github",
+    "publish",
+    "data science",
+  ]
 ---
 
 If you want to edit or publish an article, then this post is especially for you!
@@ -52,7 +64,8 @@ Upon receiving approval, we will merge your pull request! Once it's merged, our 
 
 ## References and Related posts
 
-- [Add your post to Dspyt Blog](https://forms.gle/VyhbutzPbHFaviDJA)
+- [Add your post to Dspyt Blog - Google Form](https://forms.gle/VyhbutzPbHFaviDJA)
+- [Data Collection Ideas for blog post on Dspyt](https://dspyt.com/data_collection_ideas)
 - [How to implement Advanced Realized Volatility python Dspyt](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)

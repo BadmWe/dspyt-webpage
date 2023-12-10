@@ -9,8 +9,11 @@ tags:
     "DeFi",
     "blockchain",
     "statistics",
+    "amm",
+    "dex",
     "Liquidity Providers",
     "ethereum",
+    "open-source",
   ]
 ---
 

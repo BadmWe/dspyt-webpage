@@ -3,7 +3,18 @@ title: "How to python check proxy with aiohttp"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
 cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
-tags: ["proxy", "Python", "aiohttp", "proxy-server", "proxy-scraper", "data"]
+tags:
+  [
+    "proxy",
+    "Python",
+    "aiohttp",
+    "proxy server",
+    "data",
+    "Bright Data",
+    "data",
+    "http",
+    "proxy scraper",
+  ]
 ---
 
 Data analysis often requires collecting a large amount of data from various sources. However, to prevent getting blocked by web servers due to IP restrictions, it is recommended to use a python proxy scraper to access data anonymously. A proxy server acts as an intermediary between your device and the web server, allowing you to hide your IP and access websites that may be blocked or restricted. In this article, we provide a step-by-step guide on how to implement a python proxy scraper using various libraries such as requests, Selenium, BeautifulSoup, and NumPy. Additionally, we also demonstrate how to utilize proxies with AIOHTTP, an asynchronous HTTP client/server library for Python.

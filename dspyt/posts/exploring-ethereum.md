@@ -4,7 +4,17 @@ date: "February 9, 2023"
 excerpt: "Powerful tools for exploring Ethereum networks and their associated contracts provide users with an easy-to-use interface for searching and exploring contracts."
 cover_image: "/images/posts/explorer/pexels-pixabay-163064.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "etherscan"]
+tags:
+  [
+    "Ethereum",
+    "explorer",
+    "etherscan",
+    "data",
+    "blockhain",
+    "ethplorer",
+    "interface",
+    "smart contracts",
+  ]
 ---
 
 The Ethereum blockchain is a powerful tool for developers, providing a platform for the creation and deployment of smart contracts. With the increasing popularity of decentralized applications, there is a need for an efficient way to explore and analyze the Ethereum network and its associated contracts.

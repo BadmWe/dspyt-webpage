@@ -3,7 +3,19 @@ title: "Simple App with Ceramic Data Model and Unstoppable Domains - DSPYT"
 date: "April 24, 2022"
 excerpt: "Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage."
 cover_image: "/images/posts/ceramic/pexels-antonio-batinic-4164418.webp"
-tags: ["javascript", "ceramic", "React", "Node", "blockchain"]
+tags:
+  [
+    "javascript",
+    "yarn",
+    "ceramic",
+    "React",
+    "vercel",
+    "data",
+    "Node",
+    "blockchain",
+    "data model",
+    "unstoppable domains",
+  ]
 ---
 
 Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage.
@@ -105,17 +117,16 @@ export default connectors;
 In `App.js` we import following libraries, files and define a constant to initialize ceramic client:
 
 ```javascript
+import { EthereumAuthProvider, ThreeIdConnect } from "@3id/connect";
+import ThreeIdResolver from "@ceramicnetwork/3id-did-resolver";
+import CeramicClient from "@ceramicnetwork/http-client";
 import { useWeb3React } from "@web3-react/core";
 import { WalletConnectConnector } from "@web3-react/walletconnect-connector";
-import { useEffect, useState } from "react";
-import CeramicClient from "@ceramicnetwork/http-client";
-import ThreeIdResolver from "@ceramicnetwork/3id-did-resolver";
-import { ThreeIdConnect, EthereumAuthProvider } from "@3id/connect";
 import { DID } from "dids";
-
+import { useEffect, useState } from "react";
 import "./css/App.css";
-import DataModels from "./DataModels";
 import connectors from "./connectors";
+import DataModels from "./DataModels";
 
 const API_URL = "https://ceramic-clay.3boxlabs.com";
 ```
@@ -256,9 +267,9 @@ On the initial state the app display three buttons, which relate to a distinct w
 In `DataModels.js` we define the determenistic Ceramic tiles where the users edits and stores skills data.
 
 ```javascript
-import { useEffect, useState } from "react";
 import { TileDocument } from "@ceramicnetwork/stream-tile";
 import Resolution from "@unstoppabledomains/resolution";
+import { useEffect, useState } from "react";
 import styles from "./css/App.module.css";
 
 const resolution = new Resolution();

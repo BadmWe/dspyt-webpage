@@ -5,9 +5,9 @@ excerpt: "We discuss Convolutional Neural Networks, data augmentation, efficient
 cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.webp"
 tags:
   [
+    "image classification",
     "keras",
     "Python",
-    "image classification",
     "efficientnet",
     "data",
     "computer vision",

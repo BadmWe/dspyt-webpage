@@ -5,11 +5,12 @@ excerpt: "In this article we are introducing the concept of cross sectional data
 cover_image: "/images/posts/cross/image.webp"
 tags:
   [
+    "cross sectional data",
     "data",
     "kaggle",
     "econometrics",
-    "cross sectional data",
     "time series",
+    "analysis",
     "data science",
   ]
 ---

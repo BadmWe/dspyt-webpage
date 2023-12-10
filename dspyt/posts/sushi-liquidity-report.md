@@ -4,7 +4,18 @@ date: "March 22, 2023"
 excerpt: "We assess SushiSwap's wstETH/DAI liquidity pool incentive program. The incentive program offered rewards to liquidity providers."
 cover_image: "/images/posts/sushi/c3a57e0f4518f6002f3fe2ed000a1e17.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "sushiswap", "Lido", "staking", "defi", "LIDO"]
+tags:
+  [
+    "Ethereum",
+    "smart contracts",
+    "sushiswap",
+    "Lido",
+    "staking",
+    "defi",
+    "LIDO",
+    "Analysis",
+    "Ocean Marketplace",
+  ]
 ---
 
 This report evaluates the success of SushiSwap's wstETH/DAI liquidity pool incentive program, which began on August 18, 2021. The incentive program offered rewards to liquidity providers and was intended to attract capital and provide liquidity to the pool. To evaluate the program's success, we examined the pool's average TVL before the program began, the percentage increase in APR incentivized by the program, the percentage increase in TVL achieved, the percentage of liquidity providers who became yield farmers during the program, the average duration of the program, and the percentage of TVL pulled out from the pool after the program ended. After reviewing the data, we concluded that the program was successful in meeting its goals.

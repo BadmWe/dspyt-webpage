@@ -4,7 +4,17 @@ date: "March 24, 2023"
 excerpt: "We enhanced NextJS Explorer by adding latest transactions and a modal for functions, current state, events, constructor, views, fallbacks and payables."
 cover_image: "/images/posts/explorer/pexels-clément-proust-16038653.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+tags:
+  [
+    "smart contracts",
+    "Ethereum",
+    "explorer",
+    "nextjs",
+    "etherscan",
+    "UI",
+    "modal",
+    "blockscout",
+  ]
 ---
 
 We continued to work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. With this project, I aim to provide users with an easy to use interface for exploring Ethereum contracts.

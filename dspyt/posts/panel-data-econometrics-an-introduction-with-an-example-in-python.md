@@ -3,7 +3,18 @@ title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 cover_image: "/images/posts/panel/paneldata.webp"
-tags: ["panel-data", "Python", "econometrics", "data", "pooled-data"]
+tags:
+  [
+    "panel data",
+    "Python",
+    "econometrics",
+    "data",
+    "pooled data",
+    "WHO",
+    "regression",
+    "pandas",
+    "matplotlib",
+  ]
 ---
 
 Panel data (or longitudinal data) comprises [time series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in panel data, we consider the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.

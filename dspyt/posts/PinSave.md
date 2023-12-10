@@ -14,6 +14,8 @@ tags:
     "ERC-725",
     "Fantom",
     "Gitcoin",
+    "NFTs",
+    "ERC",
     "blockchain",
   ]
 ---

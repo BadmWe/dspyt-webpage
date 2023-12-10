@@ -9,9 +9,12 @@ tags:
     "sklearn",
     "pipeline",
     "NumPy",
-    "machine learning",
+    "AI",
+    "pip",
+    "scipy",
     "ensemble",
     "Pandas",
+    "machine learning",
   ]
 ---
 

@@ -4,7 +4,21 @@ date: "September 27, 2023"
 excerpt: "The Filecoin Virtual Machine (FVM) enhances developer tooling and services for building data applications on the network."
 authors: ["pavel-fedotov"]
 cover_image: "/images/posts/Filecoin/Understanding the Filecoin FVM.webp"
-tags: ["Filecoin", "FVM", "ethereum", "data", "ipfs", "blockchain", "wasm"]
+tags:
+  [
+    "Filecoin",
+    "FVM",
+    "ethereum",
+    "data",
+    "ipfs",
+    "blockchain",
+    "wasm",
+    "web3",
+    "remix",
+    "hardhat",
+    "network",
+    "IDE",
+  ]
 ---
 
 Filecoin has established itself as a leading decentralized storage network, providing a robust infrastructure for storing and retrieving data. While Filecoin primarily focuses on data storage, its recent integration with the Filecoin Virtual Machine (FVM) has opened up new possibilities for developers to build complex applications on the network. In this blog post, we'll explore the Filecoin FVM, its features, and the exciting opportunities it brings for developers.

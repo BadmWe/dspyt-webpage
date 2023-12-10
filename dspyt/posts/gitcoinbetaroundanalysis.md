@@ -4,7 +4,20 @@ date: "May 15, 2023"
 excerpt: "We explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We analyze grants in each round and its statistics."
 cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.webp"
 authors: ["dspytdao"]
-tags: ["gitcoin", "python", "blockchain", "data", "pandas", "numpy"]
+tags:
+  [
+    "gitcoin",
+    "python",
+    "blockchain",
+    "data",
+    "AI",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "statsmodels",
+  ]
 ---
 
 Welcome to this post on Gitcoin Beta Round Stats! In the world of grants and funding, organizations and platforms often have multiple rounds of funding to support a variety of projects. In this post, we will explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We will analyze the rounds and the number of grants in each round, examine the summary statistics of the funding amounts, and explore the correlations between different variables. Join us on this data-driven journey as we delve into the fascinating world of grant funding and uncover valuable insights from the Gitcoin Beta Round Stats.
@@ -140,9 +153,9 @@ The columns include:
 - createdAtBlock: the block at which the funding round was created
 - updatedAtBlock: the block at which the funding round was last updated
 - applicationMetadata.
-lastUpdatedOn: the date and time at which the metadata for the project was last updated
+  lastUpdatedOn: the date and time at which the metadata for the project was last updated
 - applicationMetadata.
-applicationSchema: information about the schema used for the project application
+  applicationSchema: information about the schema used for the project application
 - metadata.name: the name of the project
 - metadata.description: a description of the project
 - metadata.matchingFunds. matchingCap: the maximum amount of matching funds available for the project
@@ -150,53 +163,53 @@ applicationSchema: information about the schema used for the project application
 - metadata.support.type: the type of support offered by the project
 - metadata.support.info: additional information about the support offered by the project
 - metadata.eligibility.
-description: a description of the eligibility requirements for the project
+  description: a description of the eligibility requirements for the project
 - metadata.eligibility.
-requirements: the specific requirements for eligibility for the project
+  requirements: the specific requirements for eligibility for the project
 - metadata.
-programContractAddress: the address of the contract for project
+  programContractAddress: the address of the contract for project
 - metadata.matchingFunds.
-matchingCapAmount: the maximum amount of matching funds available for the project
+  matchingCapAmount: the maximum amount of matching funds available for the project
 - applicationMetadata.
-applicationSchema.questions: the questions asked in the project application
+  applicationSchema.questions: the questions asked in the project application
 - applicationMetadata.
-applicationSchema.
-requirements.
-twitter.required: whether a Twitter account is required for the project
+  applicationSchema.
+  requirements.
+  twitter.required: whether a Twitter account is required for the project
 - applicationMetadata.
-applicationSchema.
-requirements.
-twitter.verification: whether a Twitter account needs to be verified for the project
+  applicationSchema.
+  requirements.
+  twitter.verification: whether a Twitter account needs to be verified for the project
 - applicationMetadata.
-applicationSchema.
-requirements.
-github.required: whether a GitHub account is required for the project
+  applicationSchema.
+  requirements.
+  github.required: whether a GitHub account is required for the project
 - applicationMetadata.
-applicationSchema.
-requirements.
-github.verification: whether a GitHub account needs to be verified for the project
+  applicationSchema.
+  requirements.
+  github.verification: whether a GitHub account needs to be verified for the project
 - applicationMetadata.version: the version of the project application schema used
 - metadata.feesPercentage: the percentage of fees charged by the platform for the project
 - metadata.feesAddress: the address to which fees are sent for the project
 - metadata.
-quadraticFundingConfig.
-matchingFundsAvailable: the amount of matching funds available for the project
+  quadraticFundingConfig.
+  matchingFundsAvailable: the amount of matching funds available for the project
 - metadata.
-quadraticFundingConfig.
-matchingCap: the maximum amount of matching funds available for the project
+  quadraticFundingConfig.
+  matchingCap: the maximum amount of matching funds available for the project
 - metadata.
-quadraticFundingConfig.
-minDonationThreshold: the minimum donation required to be eligible for matching funds
+  quadraticFundingConfig.
+  minDonationThreshold: the minimum donation required to be eligible for matching funds
 - metadata.
-quadraticFundingConfig.
-sybilDefense: the sybil defense mechanism used for the project
+  quadraticFundingConfig.
+  sybilDefense: the sybil defense mechanism used for the project
 - metadata.
-quadraticFundingConfig.
-matchingCapAmount: the maximum amount of matching funds available for the project
+  quadraticFundingConfig.
+  matchingCapAmount: the maximum amount of matching funds available for the project
 - metadata.
-quadraticFundingConfig.
-minDonation
-ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
+  quadraticFundingConfig.
+  minDonation
+  ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
 
 ```python
 data2.describe()
@@ -227,15 +240,15 @@ The columns included in this summary are:
 - metadata.matchingFunds. matchingCapAmount: the maximum amount of matching funds available for the project
 - metadata.feesPercentage: the percentage of fees charged by the platform for the project
 - metadata.
-quadraticFundingConfig.
-matchingFundsAvailable: the amount of matching funds available for the project
+  quadraticFundingConfig.
+  matchingFundsAvailable: the amount of matching funds available for the project
 - metadata.
-quadraticFundingConfig.
-matchingCapAmount: the maximum amount of matching funds available for the project
+  quadraticFundingConfig.
+  matchingCapAmount: the maximum amount of matching funds available for the project
 - metadata.
-quadraticFundingConfig.
-minDonation
-ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
+  quadraticFundingConfig.
+  minDonation
+  ThresholdAmount: the minimum donation required to be eligible for matching funds, in the token used for funding.
 
 For example, we can see that the mean amount of funding for a round is USD 13,050.97, with a standard deviation of USD 28,146.69. The median number of votes received for a project in a round is 423. The minimum and maximum amounts of matching funds available for a project are USD 185.80 and USD 350,180.61 respectively. The mean amount of quadratic funding cap enforced by the platform is 12.52% of the matching amount.
 
@@ -293,7 +306,7 @@ print(summary)
 ![data70](/images/posts/betaround/stats7.webp)
 
 This is the summary statistics for additional columns in the pandas DataFrame "data2": "createdAtBlock", "updatedAtBlock", "applicationMetadata.
-applicationSchema", "metadata.description", and 
+applicationSchema", "metadata.description", and
 
 "metadata.matchingFunds. matchingFundsAvailable".
 
@@ -447,20 +460,20 @@ This data shows various statistics for 29 crowdfunding campaigns. Here is an exp
 - createdAtBlock: the block number at which the campaign was created
 - updatedAtBlock: the block number at which the campaign was last updated
 - metadata.matchingFunds.
-matchingFundsAvailable: whether matching funds were available for the campaign
+  matchingFundsAvailable: whether matching funds were available for the campaign
 - metadata.matchingFunds. matchingCapAmount: the maximum amount of matching funds available
 - metadata.feesPercentage: the percentage of fees charged by the platform for the campaign
 - metadata.feesAddress: the address to which fees were sent
 - metadata.
-quadraticFundingConfig.
-matchingFundsAvailable: whether quadratic funding was enabled for the campaign
+  quadraticFundingConfig.
+  matchingFundsAvailable: whether quadratic funding was enabled for the campaign
 - metadata.
-quadraticFundingConfig.
-matchingCapAmount: the maximum amount of matching funds available for quadratic funding
+  quadraticFundingConfig.
+  matchingCapAmount: the maximum amount of matching funds available for quadratic funding
 - metadata.
-quadraticFundingConfig.
-minDonation
-ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
+  quadraticFundingConfig.
+  minDonation
+  ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
 
 The "count" row shows the number of non-missing values for each column, the "mean" row shows the average value for each column, and the "std" row shows the standard deviation for each column. The "min" row shows the minimum value for each column, and the "max" row shows the maximum value for each column.
 
@@ -498,15 +511,15 @@ Here's a brief explanation of the columns:
 - metadata.feesPercentage: the percentage of fees charged by the platform for the campaign
 - metadata.feesAddress: the address to which fees were sent
 - metadata.
-quadraticFundingConfig.
-matchingFundsAvailable: whether quadratic funding was enabled for the campaign
+  quadraticFundingConfig.
+  matchingFundsAvailable: whether quadratic funding was enabled for the campaign
 - metadata.
-quadraticFundingConfig.
-matchingCapAmount: the maximum amount of matching funds available for quadratic funding
+  quadraticFundingConfig.
+  matchingCapAmount: the maximum amount of matching funds available for quadratic funding
 - metadata.
-quadraticFundingConfig.
-minDonation
-ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
+  quadraticFundingConfig.
+  minDonation
+  ThresholdAmount: the minimum donation amount required to qualify for quadratic funding
 
 For some columns, such as "metadata.feesAddress", there are no non-missing values, which means that this feature was not recorded for any of the campaigns.
 

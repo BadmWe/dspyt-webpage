@@ -1,10 +1,21 @@
 ---
 title: "Exploring and Refactoring Contraktor - Ethereum Explorer"
 date: "February 25, 2023"
-excerpt: "Refactored an archived open source Ethereum explorer called Contraktor, connecting Rainbowkit Wagmi Ethers to the explorer."
+excerpt: "Refactored an archived open source Ethereum explorer called Contraktor, connecting Rainbowkit, Wagmi and Ethers to the explorer."
 cover_image: "/images/posts/explorer/explorer.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "etherscan", "nextjs"]
+tags:
+  [
+    "smart contracts",
+    "Ethereum",
+    "explorer",
+    "etherscan",
+    "nextjs",
+    "Rainbowkit",
+    "wagmi",
+    "ethers",
+    "refactoring",
+  ]
 ---
 
 This week I explored and refactored an archived open source Ethereum explorer called [Contraktor](https://github.com/wslyvh/contraktor). The project had not been updated in some time and was not working properly, so I took it upon myself to bring it back to life.

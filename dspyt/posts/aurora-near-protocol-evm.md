@@ -3,7 +3,19 @@ title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
 excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
 cover_image: "/images/posts/aurora/aurora.webp"
-tags: ["aurora", "near", "evm", "near-protocol", "blockchain"]
+tags:
+  [
+    "aurora",
+    "near",
+    "evm",
+    "near-protocol",
+    "L2",
+    "web3",
+    "ethereum",
+    "blockchain",
+    "scalable",
+    "Rainbow Bridge",
+  ]
 ---
 
 Blockchain technology is one of the most exuberant technologies at the moment. However, it can be very complicated with technical challenges at every stage. The opportunity now is to bridge the innovative world of Web 3.0 with the convenience and familiarity of Web 2.0, in order to make it more widely adopted.

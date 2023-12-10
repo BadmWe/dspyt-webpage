@@ -9,9 +9,11 @@ tags:
     "sklearn",
     "Pandas",
     "NumPy",
-    "machine learning",
+    "AI",
     "data science",
     "data",
+    "time series",
+    "machine learning",
   ]
 ---
 

@@ -10,8 +10,10 @@ tags:
     "smart-triggers",
     "axs",
     "data science",
-    "binance smart chain",
     "axie infinity",
+    "Ethereum",
+    "Ronin Bridge",
+    "binance smart chain",
   ]
 ---
 

@@ -4,7 +4,18 @@ date: "November 19, 2022"
 excerpt: "Basketball is one of the most popular sports in the world. Millions of people watch the sport, and thousands of supporters attend games."
 cover_image: "/images/posts/web3basketball/1.webp"
 authors: ["web3basketball"]
-tags: ["blockchain", "Polygon", "Ethereum", "ChainLink"]
+tags:
+  [
+    "blockchain",
+    "Polygon",
+    "Ethereum",
+    "ChainLink",
+    "Basketball",
+    "sports",
+    "health",
+    "harmony",
+    "statistics",
+  ]
 ---
 
 Basketball improves overall health, benefits mental health, and keeps you fit. If your problem is extra pounds, basketball will help you quickly lose weight and gain the long-awaited harmony.

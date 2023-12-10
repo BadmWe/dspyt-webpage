@@ -7,11 +7,16 @@ cover_image: "/images/posts/cryptostandarts/btc.webp"
 tags:
   [
     "Ethereum",
+    "ERC",
+    "BRC",
+    "BEP",
+    "SPL",
     "blockchain",
     "Bitcoin",
     "Solana",
-    "IPFS",
-    "NFTS"
+    "NFTS",
+    "Fungible",
+    "Token Standards",
   ]
 ---
 

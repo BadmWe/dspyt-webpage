@@ -3,7 +3,17 @@ title: "How to implement Realized Volatility python"
 date: "April 25, 2022"
 excerpt: "Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series."
 cover_image: "/images/posts/quarticity/pexels-pixabay-210607.webp"
-tags: ["Python", "finance", "realized volatility", "Pandas", "NumPy", "SciPy"]
+tags:
+  [
+    "Python",
+    "finance",
+    "realized volatility",
+    "Pandas",
+    "NumPy",
+    "SciPy",
+    "quarticity",
+    "estimators",
+  ]
 ---
 
 Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series.

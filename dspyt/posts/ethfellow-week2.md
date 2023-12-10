@@ -4,7 +4,17 @@ date: "February 16, 2023"
 excerpt: "This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data."
 cover_image: "/images/posts/explorer/pexels-oluwaseun-duncan-226232.webp"
 authors: ["dspytdao"]
-tags: ["Ethereum", "smart contracts", "explorer", "blockscout", "nextjs"]
+tags:
+  [
+    "Ethereum",
+    "smart contracts",
+    "explorer",
+    "blockscout",
+    "nextjs",
+    "etherscan",
+    "vercel",
+    "tailwind",
+  ]
 ---
 
 This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. We set up the development environment and began coding the project. We started by developing the basic user interface for exploring Ethereum contracts. This included creating the application in Next js and Tailwind, a simple home page, navbar and search bar. We also worked on implementing scalable application and search functionality.

@@ -3,7 +3,18 @@ title: "Creating Scalable and Responsive Animations with SMIL"
 date: "January 14, 2023"
 excerpt: "SMIL is a powerful, scalable, and responsive language for creating animations, making it easy to make your animations look good on any device."
 cover_image: "/images/posts/smil/pexels-uzunov-rostislav-10458835.webp"
-tags: ["SMIL", "animations", "XML", "Declarative", "Scalable"]
+tags:
+  [
+    "SMIL",
+    "animations",
+    "XML",
+    "Declarative",
+    "Scalable",
+    "Language",
+    "speed",
+    "height",
+    "Multimedia",
+  ]
 ---
 
 Animations can bring life to a website, but it’s not always easy to make them look good on all

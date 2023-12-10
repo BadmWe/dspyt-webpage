@@ -3,7 +3,18 @@ title: "How to Python jail escape (Newbie CTF 2019)"
 date: "May 1, 2022"
 excerpt: "Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. We use built-in methods."
 cover_image: "/images/posts/jailescape/image-e1658960653261.webp"
-tags: ["Python", "ctf", "ethical hacking", "security", "built-in methods"]
+tags:
+  [
+    "Python",
+    "ctf",
+    "ethical hacking",
+    "security",
+    "Newbie CTF",
+    "pyjail",
+    "bash",
+    "data",
+    "built-in methods",
+  ]
 ---
 
 Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. It is generally a bad idea to allow users to input commands that will be executed since there is a high chance that they could input something that would allow them to gain elevated permissions or access sensitive data. However, people often add condition checks in an attempt to prevent this from happening, even though it is rarely effective.

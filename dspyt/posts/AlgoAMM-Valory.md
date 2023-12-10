@@ -13,6 +13,9 @@ tags:
     "data",
     "prediction markets",
     "blockchain",
+    "zkml",
+    "dex",
+    "amm",
   ]
 ---
 
