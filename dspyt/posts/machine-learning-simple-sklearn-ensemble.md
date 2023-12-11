@@ -1,6 +1,6 @@
 ---
 title: "Simple sklearn ensemble machine learning - DSPYT"
-date: "April 1, 2021"
+date: "February 8, 2021"
 excerpt: "A write up on sklearn ensemble pipeline for multiple target columns using libraries such as numpy, pandas and sklearn."
 cover_image: "/images/posts/ensemble/1_IHNY-j3mp00H_i6gb5DA-w.webp"
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Guide to maximizing Liquidity Pool RAI fees"
-date: "March 1, 2021"
+date: "November 20, 2021"
 excerpt: "We choose liquidity pools on Uniswap V3 and obtain tokens for the best liquidity pair using Aave V2 and Fuse Pools"
 cover_image: "/images/posts/reflexer/maxlp.webp"
 tags:
@@ -28,7 +28,7 @@ On the Uniswap V3 page for RAI we can find the highest staked value as well as 
 
 From the total of 19 pools we can see that most have 0 volume for both 24 hours and 7 days. Meanwhile 4 pools had liquidity action in the past 7 days as of 19 November 2021. Therefore, it would be reasonable to focus on these pools to maximize the liquidity providers fees.
 
-RAI/DAI and RAI/USDC pools are by far the most utilized pools. However, we investigate in more detail Uniswap pools to maximize the fees.
+RAI / DAI and RAI / USDC pools are by far the most utilized pools. However, we investigate in more detail Uniswap pools to maximize the fees.
 
 We create an index to rank the liquidity pools using data from the Uniswap V3 dashboard.
 
@@ -96,9 +96,9 @@ Additionally, it is interesting to note that IDLE best yield statistic on RAI 
 
 ## Related Posts
 
+- [Fuse explained - Medium](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)
+- [Guide to Rari Capital Fuse - Medium](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
 - [Simple Yield Farming with Fuse Pools, AAVE and RAI](https://dspyt.com/simple-yield-farming-with-fuse-pools-aave-and-rai)
-- [Fuse explained](https://medium.com/rari-capital/fuse-explained-3ef2e0747953)
-- [Guide to Rari Capital Fuse](https://medium.com/stakingbits/guide-to-rari-capital-fuse-permissionless-money-markets-2632a2a72929)
 - [Maximizing LP fees for RAI pools for advanced users](https://dspyt.com/maximizing-lp-fees-for-rai-pools-for-advanced-users)
 - [2 Step Guide to Maximizing FLX rewards on Reflexer Finance](https://dspyt.com/2-step-guide-to-maximizing-flx-rewards)
 - [Improving Blockchain Credibility with UMA](https://dspyt.com/improving-blockchain-credibility-with-uma)

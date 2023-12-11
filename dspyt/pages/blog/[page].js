@@ -4,10 +4,13 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 
-const POSTS_PER_PAGE = 6;
+const POSTS_PER_PAGE = 9;
 
 export default function Home({ posts, pagination }) {
   const number = pagination.currentPage;
+  const startPostNumber = number * POSTS_PER_PAGE;
+  const endPostNumber = startPostNumber + POSTS_PER_PAGE;
+
   const [searchValue, setSearchValue] = useState("");
 
   const filteredBlogPosts = posts.filter((frontMatter) => {
@@ -68,16 +71,14 @@ export default function Home({ posts, pagination }) {
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {!searchValue &&
               posts
-                .slice(number * 6, number * 6 + 6)
+                .slice(startPostNumber, endPostNumber)
                 .map((post, index) => (
                   <Post key={index} post={post} slug={post.slug} />
                 ))}
             {searchValue &&
-              filteredBlogPosts
-                .slice(0, 26)
-                .map((post, index) => (
-                  <Post key={index} post={post} slug={post.slug} />
-                ))}
+              filteredBlogPosts.map((post, index) => (
+                <Post key={index} post={post} slug={post.slug} />
+              ))}
           </div>
           {!searchValue && (
             <nav
@@ -86,12 +87,12 @@ export default function Home({ posts, pagination }) {
             >
               <div className="hidden sm:block">
                 <p className="text-sm text-gray-700 dark:text-white">
-                  Showing <span className="font-medium">{1 + 6 * number}</span>{" "}
-                  to{" "}
+                  Showing{" "}
+                  <span className="font-medium">{1 + startPostNumber}</span> to{" "}
                   <span className="font-medium">
-                    {6 * number + 6 > posts.length
+                    {endPostNumber > posts.length
                       ? posts.length
-                      : 6 + 6 * number}
+                      : endPostNumber}
                   </span>{" "}
                   of <span className="font-medium">{posts.length}</span> results
                 </p>
@@ -113,7 +114,7 @@ export default function Home({ posts, pagination }) {
                   </Link>
                 ) : null}
 
-                {6 * number + 6 >= posts.length ? null : (
+                {endPostNumber >= posts.length ? null : (
                   <Link href={`/blog/${number + 1}`} legacyBehavior>
                     <a className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Next

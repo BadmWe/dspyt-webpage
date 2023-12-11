@@ -4,6 +4,8 @@ import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
 
+const POSTS_PER_PAGE = 9;
+
 export default function Home({ posts }) {
   const [searchValue, setSearchValue] = useState("");
 
@@ -64,14 +66,12 @@ export default function Home({ posts }) {
 
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
             {searchValue &&
-              filteredBlogPosts
-                .slice(0, 26)
-                .map((post, index) => (
-                  <Post key={index} post={post} slug={post.slug} />
-                ))}
+              filteredBlogPosts.map((post, index) => (
+                <Post key={index} post={post} slug={post.slug} />
+              ))}
             {!searchValue &&
               posts
-                .slice(0, 9)
+                .slice(0, POSTS_PER_PAGE)
                 .map((post, index) => (
                   <Post key={index} post={post} slug={post.slug} />
                 ))}
@@ -85,7 +85,7 @@ export default function Home({ posts }) {
               <div className="hidden sm:block">
                 <p className="text-sm text-gray-700 dark:text-white">
                   Showing <span className="font-medium">{1}</span> to{" "}
-                  <span className="font-medium">{6}</span> of{" "}
+                  <span className="font-medium">{POSTS_PER_PAGE}</span> of{" "}
                   <span className="font-medium">{posts.length}</span> results
                 </p>
               </div>

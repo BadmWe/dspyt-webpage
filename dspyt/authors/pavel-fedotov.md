@@ -11,7 +11,7 @@ description: "Fullstack blockchain developer with over 3 years of experience in 
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
-    Pavel Fedotov DspytDAO profile
+    Pavel Fedotov Dspyt DAO profile
 </h1>
 
 <div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">

@@ -1,6 +1,6 @@
 ---
 title: "Improving Blockchain Credibility with UMA"
-date: "March 2, 2021"
+date: "November 23, 2021"
 excerpt: "Coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential."
 cover_image: "/images/posts/uma/uma.webp"
 tags:
