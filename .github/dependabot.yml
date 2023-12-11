@@ -1,6 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/dspyt" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/dspyt"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "pip"
+    directory: "/utils"
     schedule:
       interval: "weekly"

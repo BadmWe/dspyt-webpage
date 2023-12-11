@@ -75,9 +75,9 @@ These problems hinder the efficiency and effectiveness of prediction market oper
 
 ## Introducing Algo AMM: Bridging Prediction Liquidity
 
-Algo AMM serves as a powerful aggregator that efficiently pools and bridges prediction liquidity from multiple platforms, creating a centralized hub for users to access various prediction markets.
+[Algo AMM](https://algoamm.com) serves as a powerful aggregator that efficiently pools and bridges prediction liquidity from multiple platforms, creating a centralized hub for users to access various prediction markets.
 
-With Algo AMM, users gain the convenience of a one-stop shop, enabling them to seamlessly explore and engage with a wide range of prediction markets all in one place.
+With [Algo AMM](https://algoamm.com), users gain the convenience of a one-stop shop, enabling them to seamlessly explore and engage with a wide range of prediction markets all in one place.
 
 How we approach the solution
 
