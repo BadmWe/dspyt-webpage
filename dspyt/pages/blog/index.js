@@ -71,7 +71,7 @@ export default function Home({ posts }) {
                 ))}
             {!searchValue &&
               posts
-                .slice(0, 6)
+                .slice(0, 9)
                 .map((post, index) => (
                   <Post key={index} post={post} slug={post.slug} />
                 ))}

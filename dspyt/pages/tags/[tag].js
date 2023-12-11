@@ -72,14 +72,14 @@ export default function Tag({ posts, tag }) {
           </h1>
         </div>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          {posts.slice(0, 6 * page).map((post, index) => (
+          {posts.slice(0, 9 * page).map((post, index) => (
             <Post key={index} post={post} slug={post.slug} />
           ))}
         </div>
-        {posts.length > 6 * page ? (
+        {posts.length > 9 * page ? (
           <a
             onClick={() => setPage(page + 1)}
-            className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+            className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300"
           >
             Load More Posts
           </a>
