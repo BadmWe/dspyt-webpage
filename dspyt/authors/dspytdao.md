@@ -1,6 +1,6 @@
 ---
 name: "dspytdao"
-avatar: "/DSPYT.webp"
+avatar: "/DspytWhiteOnBlue.webp"
 company: "Dspyt"
 email: "dspytdao@gmail.com"
 twitter: "https://twitter.com/dspytdao"
