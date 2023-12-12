@@ -11,9 +11,9 @@ tags:
     "defi",
     "nfts",
     "cbdcs",
-    "cryptonews",
-    "digitalassets",
-    "blockchaintechnology",
+    "crypto news",
+    "digital assets",
+    "blockchain technology",
   ]
 ---
 
