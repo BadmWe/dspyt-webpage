@@ -15,7 +15,7 @@ description: "Fullstack blockchain developer with over 3 years of experience in 
 </h1>
 
 <div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
-Full Stack Blockchain Developer with over 3 years of experience in engineering decentralized applications with Rust, Solidity, Python, JavaScript, React and NextJs. I have achieved multiple awards from Filecoin, Uniswap, Algorand, Near, Fuel Blockchain, Ceramic and PARSIQ. With [Pin Save decentralized Pinterest](https://evm.pinsave.app) completed Filecoin grant to advance decentralized Identity (ERC-725) in combination with NFT standards.
+Full Stack Blockchain Developer with over 3 years of experience in engineering decentralized applications with Rust, Solidity, Python, JavaScript, React and NextJs. I have achieved multiple awards from Filecoin, Uniswap, Algorand, Near, Fuel Blockchain, Ceramic and PARSIQ. With [Pin Save decentralized Pinterest](https://pinsave.app) completed Filecoin grant to advance decentralized Identity (ERC-725) in combination with NFT standards.
 
 I have also excelled in Python programming and worked with teams of developers to improve the data analysis pipeline. I am a native English and Russian speaker with working knowledge of Spanish. I also have a BA in Business Studies and Economics from the University of Manchester, graduating with Honors and publishing a popular academic article titled: ["Critical analysis of the electric vehicle industry: Five forces and strategic action fields"](https://doi.org/10.31273/eirj.v10i1.362).
 

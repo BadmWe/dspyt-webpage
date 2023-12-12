@@ -130,12 +130,11 @@ In our AXS dataset on Ethereum we also obtained scores for addresses by using `g
 
 ## Further Resources and Related Posts
 
-- [GitHub repository for this project](https://github.com/Pfed-prog/PARSIQ-AXS)
+- [GitHub repository for AXS PARSIQ triggers](https://github.com/Pfed-prog/PARSIQ-AXS)
 - [CryptoPunks with PARSIQ](https://github.com/Pfed-prog/PARSIQ-CryptoPunks)
 - [How to generate parsiq wallet triggers for CryptoPunks](https://dspyt.com/generating-fast-and-easy-parsiq-triggers-for-cryptopunks)
 - [Axie Infinity Great Migration FAQ](https://www.notion.so/axie/Great-Migration-FAQ-fc64fd460c8046b2a45d8798d06c0feb)
 - [Python Notebook on Kaggle](https://www.kaggle.com/pavfedotov/parsiq-axs)
-- [PARSIQ testnet](https://staging.parsiq.net/monitoring/projects)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
 - [Machine Learning with Sklearn](https://dspyt.com/machine-learning-time-series-temperature-data-modeling)

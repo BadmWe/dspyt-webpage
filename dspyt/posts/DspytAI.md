@@ -37,11 +37,11 @@ DspytAI is the perfect tool for tracking your Uniswap portfolio. We provide simp
 
 ## Further Resources
 
-- [GitHub repository](https://github.com/dspytdao/dspytai)
-- [Algovera Proposal](https://forum.algovera.ai/t/dspyt-ai-uniswap-portfolio-tracker/184/5)
+- [GitHub repository Dspyt AI](https://github.com/dspytdao/dspytai)
+- [Algovera Proposal: Dspyt AI](https://forum.algovera.ai/t/dspyt-ai-uniswap-portfolio-tracker/184/5)
 - [Algovera](https://www.algovera.ai/)
 - [Ethereum Price Prediction with LSTM Kaggle Notebook](https://www.kaggle.com/code/pavfedotov/ethereum-price-prediction)
-- [DspytAI LSTM Uniswap Kaggle Notebook](https://www.kaggle.com/code/pavfedotov/dspyt-ai)
+- [Dspyt AI LSTM Uniswap Kaggle Notebook](https://www.kaggle.com/code/pavfedotov/dspyt-ai)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Machine Learning with Simple Sklearn Ensemble](https://dspyt.com/machine-learning-simple-sklearn-ensemble)
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)

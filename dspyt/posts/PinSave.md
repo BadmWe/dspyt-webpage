@@ -24,11 +24,11 @@ tags:
 
 ## Enjoy Optimal Content Control with Pin Save
 
-Pin Save provides users with the ultimate control over their content. The platform's decentralized architecture enables users to store and manage their content securely, while also providing them with options to monetize their content. Smart contracts and decentralized identity (ERC-725) allow users to maintain their anonymity and data protection. Pin Save also provides users with an upgradeable, resilient, and open decentralized storage system to ensure their content is always safe. With Pin Save, users can rest assured that their content will always be secured and protected.
+[Pin Save](https://pinsave.app) provides users with the ultimate control over their content. The platform's decentralized architecture enables users to store and manage their content securely, while also providing them with options to monetize their content. Smart contracts and decentralized identity (ERC-725) allow users to maintain their anonymity and data protection. Pin Save also provides users with an upgradeable, resilient, and open decentralized storage system to ensure their content is always safe. With Pin Save, users can rest assured that their content will always be secured and protected.
 
 ## Discover Content and Receive Feedback with the Decentralized Feed
 
-Pin Save's decentralized Feed provides users with an easy and secure way to discover and share content. With the Feed, users can follow other users’ posts and receive feedback from other users. This feedback can be used to improve content and engage with others in the Pin Save community. The Feed also allows users to explore new and emerging trends, giving them a better understanding of the Pin Save platform and the content being shared. With the Feed, users can discover and share content in a secure and efficient way.
+Pin Save's decentralized feed provides users with an easy and secure way to discover and share content. With the Feed, users can follow other users’ posts and receive feedback from other users. This feedback can be used to improve content and engage with others in the Pin Save community. The Feed also allows users to explore new and emerging trends, giving them a better understanding of the Pin Save platform and the content being shared. With the Feed, users can discover and share content in a secure and efficient way.
 
 ## Protect and Monetize Content with Pin Save
 
