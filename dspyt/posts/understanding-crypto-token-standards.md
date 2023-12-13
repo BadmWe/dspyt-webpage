@@ -1,7 +1,7 @@
 ---
 title: "Understanding Crypto Token Standards: ERC vs BRC vs BEP vs SPL"
 date: "10 December, 2023"
-excerpt: "Discover the nuances of crypto token standards like ERC, BRC, BEP, and SPL in our guide. From Ethereum's smart contracts to Bitcoin's fungibility, explore the dynamics shaping decentralized landscapes for the future."
+excerpt: "Explore crypto token standards like ERC, BRC, BEP, and SPL in our guide. From Ethereum's smart contracts to Bitcoin's fungibility, discover the dynamics shaping decentralized landscapes for the future."
 authors: ["dmitrii-fedotov"]
 cover_image: "/images/posts/cryptostandarts/btc.webp"
 tags:

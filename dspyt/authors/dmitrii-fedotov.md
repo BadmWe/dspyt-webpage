@@ -3,10 +3,10 @@ name: "Dmitrii Fedotov"
 avatar: "/DmitriiAva.webp"
 company: "Dspyt"
 twitter: "https://twitter.com/DmitriFedotov"
-linkedin: /
+linkedin: https://www.linkedin.com/in/dmitrii-fedotov
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
-description: "Fluent in Python, JavaScript, React and NextJs.I am the creator of the WebBadminton project. A Spanish badminton player with a passion for coding, I strive to bring innovation to both the tech and sports worlds."
+description: "Fluent in Python, JavaScript, React and NextJs. Creator of WebBadminton. Passionate Spanish badminton player, merging tech and sports innovation to drive positive change."
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
