@@ -27,7 +27,7 @@ Filecoin has established itself as a leading decentralized storage network, prov
     <iframe width="600" height="350" src="https://www.youtube.com/embed/QIgxWPk8K00?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
 
-## Understanding the Filecoin FVM:
+## Understanding the Filecoin FVM
 
 The Filecoin FVM is a runtime environment that allows developers to deploy smart contracts and execute code on the Filecoin network. Inspired by the Ethereum Virtual Machine (EVM), the FVM provides a familiar development environment for developers, making it easier to migrate existing Ethereum applications or build new ones on Filecoin.
 
@@ -54,7 +54,6 @@ The Filecoin Virtual Machine (FVM) brings exciting opportunities for developers 
 ## Further Resources
 
 - [Filecoin Storage Network Energy Consumption Data Challenge](https://dspyt.com/Filecoin_analysis)
-- [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
