@@ -45,8 +45,6 @@ We have utilized Price Feed from ChainLink oracle in the smart contract to calcu
 1. [Twitter](https://twitter.com/Web3Basketball)
 2. [Demo Website](https://website-cyan-seven.vercel.app/)
 
-![Logo](/images/posts/web3basketball/2.webp)
-
 ## Interesting information
 
 One of the most popular sports in the world is basketball. This is primarily because it is one of the most engrossing games ever created. Millions of people watch the sport, and thousands of supporters attend games. Accordingly, the National Basketball Association (NBA) is one of the world's most fiercely competitive leagues.
@@ -120,7 +118,7 @@ There are numerous teams, but only a select number are receiving media attention
 
 The majority of respondents' (30%) preferred team is the Los Angeles Lakers. The Philadelphia 76ers are in third place, followed by the Atlanta Hawks (12%) and Portland Trail (13%). Numerous survey respondents' lists of preferred teams included the remaining 26 teams as well. However, 7% of respondents admitted that they have no preferred team.
 
-![ The Favorite Team of NBA Fans](/images/posts/web3basketball/10.webp)
+![The Favorite Team of NBA Fans](/images/posts/web3basketball/10.webp)
 
 ## **Lebron James: The NBA’s Best Player**
 

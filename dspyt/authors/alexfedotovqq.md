@@ -1,6 +1,6 @@
 ---
 name: Alexander Fedotov
-avatar: /avasasha.webp
+avatar: /authors/avasasha.webp
 company: "Fedotov, LLC"
 email: alexkekfedotov@gmail.com
 twitter: https://twitter.com/AlexFedotovqq

@@ -28,7 +28,7 @@ for element in images:
             initial_size = os.path.getsize(file_path)
             with Image.open(file_path) as image:
                 image = image.convert('RGB')
-                image.save(webp_file_path, 'webp', quality=30)
+                image.save(webp_file_path, 'webp', quality=10)
             new_size = os.path.getsize(webp_file_path)
 
             if new_size < initial_size:

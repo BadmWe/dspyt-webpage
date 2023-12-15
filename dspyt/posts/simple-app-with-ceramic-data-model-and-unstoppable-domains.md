@@ -22,10 +22,6 @@ Ceramic allows users to have complete ownership over their data by providing dec
 
 In this tutorial we set up an application to interact with JS HTTP Client through a public Ceramic node. In addition we create a deterministic Ceramic Tile and resolve an unstoppable domain which we store in the decentralized profile of the user.
 
-<div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/IVo6tN8BpOY?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
-</div>
-
 The app is hosted on [Vercel](https://ceramic-unstoppable.vercel.app/) and the code is available at [GitHub repository](https://github.com/Pfed-prog/).
 
 ## Requirements

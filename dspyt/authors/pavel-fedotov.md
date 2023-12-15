@@ -1,6 +1,6 @@
 ---
 name: Pavel Fedotov
-avatar: /profile.webp
+avatar: /authors/profile.webp
 company: "Dspyt"
 email: pfedprog@gmail.com
 twitter: https://twitter.com/pfedprog

@@ -1,6 +1,6 @@
 ---
 name: "Dmitrii Fedotov"
-avatar: "/DmitriiAva.webp"
+avatar: "/authors/DmitriiAva.webp"
 company: "Dspyt"
 twitter: "https://twitter.com/DmitriFedotov"
 linkedin: https://www.linkedin.com/in/dmitrii-fedotov
