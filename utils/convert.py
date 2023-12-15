@@ -2,7 +2,7 @@
 import os
 from PIL import Image
 
-DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'web3basketball')
+DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'betaround')
 #DIR = os.path.join('..', 'dspyt', 'public', 'authors')
 #DIR = os.path.join('..', 'dspyt', 'public')
 
