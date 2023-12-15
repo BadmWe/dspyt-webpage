@@ -26,11 +26,7 @@ Web 3 is exponentially growing, which is why developers build Layer 2 networks. 
 
 The NEAR Protocol created Aurora, an Ethereum Virtual Machine. The technology delivers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.
 
-<div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/a5hKRYKJIPQ?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
-</div>
-
-Aurora is a layer 2 solution on top of the NEAR Protocol, which is a sharded proof-of-stake blockchain. This allows the creation of a highly scalable and fault-tolerant network that can be used for a variety of applications, as well as being compatible with the Ethereum Virtual Machine.
+[Aurora](https://aurora.dev/) is a layer 2 solution on top of the NEAR Protocol, which is a sharded proof-of-stake blockchain. This allows the creation of a highly scalable and fault-tolerant network that can be used for a variety of applications, as well as being compatible with the Ethereum Virtual Machine.
 
 Aurora is the perfect platform for developers who want to create high-performance decentralised applications.
 
@@ -38,7 +34,7 @@ Aurora is the perfect platform for developers who want to create high-performanc
 
 DAO is an entity owned and managed by their collective membership with no central authority and operating through smart contracts that automatically execute whenever a specific set of criteria are met. Token holders can propose and vote on new ideas and changes, and that is the main way that Aurora grows and improves.
 
-Aurora DAO functions similarly to a traditional Board of Directors, in that there is a “Council” of seats, the holders of which vote on high-level protocol matters, authorise and direct subordinate organisations to achieve those objectives.
+[Aurora DAO](https://aurora.dev/dao) functions similarly to a traditional Board of Directors, in that there is a “Council” of seats, the holders of which vote on high-level protocol matters, authorise and direct subordinate organisations to achieve those objectives.
 
 The bootstrap Council consists of Aurora Labs, the entity that has developed and maintains the Aurora protocol along with a diverse set of early investors and ecosystem partners. Holders of AURORA tokens periodically vote on the constituency of the Council.
 
@@ -65,7 +61,7 @@ To describe in more details, when you send a transaction to an Aurora RPC endpoi
 
 The Rainbow Bridge allows users to seamlessly migrate assets to NEAR developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed. This is possible because the NEAR protocol is compatible with Ethereum’s smart contracts. As a result, users can move their assets from Ethereum to NEAR without having to worry about losing any of the functionality or security.
 
-Rainbow Bridge currently supports a total of 73 tokens. The following popular tokens with common ERC-20 functionality are able to interoperate with NEAR, including but not limited to:
+[Rainbow Bridge](https://rainbowbridge.app/about) currently supports a total of 73 tokens. The following popular tokens with common ERC-20 functionality are able to interoperate with NEAR, including but not limited to:
 
 Stablecoins like USDT (Tether), DAI, and TUSD; wrapped assets like WBTC and WETH; DEX tokens like UNI and 1INCH; lending tokens like AAVE and COMP; service company tokens like HT (Huobi) and CRO (Crypto.com). Users can send these ERC-20 assets directly from MetaMask or other Web3 wallets to NEAR wallets and apps, and vice versa.
 
@@ -90,17 +86,6 @@ Bastion chose to build on Aurora/NEAR because they believe the ecosystem has the
 ## Conclusion
 
 Aurora is a layer 2 solution that is built on top of the NEAR Protocol. It is compatible with the Ethereum Virtual Machine and offers a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform. The team behind Aurora has a wealth of experience in building scalable systems and the platform is perfect for developers who want to create high-performance decentralised applications.
-
-## References
-
-- [Aurora](https://aurora.dev/)
-- [Aurora DAO](https://aurora.dev/dao)
-- [Aurora Token List](https://aurora.dev/tokens)
-- [Aurora New Engine](https://aurora.dev/blog/aurora-engine-2-4-0-release)
-- [Aurora Rainbow Bridge Anniversary](https://aurora.dev/blog/rainbow-bridge-1-year-anniversary)
-- [Rainbow Bridge](https://rainbowbridge.app/about)
-- [Consensus: Web3 Report Q3 2021](https://consensys.net/reports/web3-report-q3-2021/)
-- [Bastion Protocol on Aurora](https://aurora.dev/ecosystem/bastion-protocol)
 
 ## Related Posts
 

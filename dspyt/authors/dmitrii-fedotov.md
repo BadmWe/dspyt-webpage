@@ -6,7 +6,7 @@ twitter: "https://twitter.com/DmitriFedotov"
 linkedin: https://www.linkedin.com/in/dmitrii-fedotov
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
-description: "Fluent in Python, JavaScript, React and NextJs. Passionate Spanish badminton player, merging tech and sports innovation to drive positive change."
+description: "Fluent in Python, JavaScript, React and NextJs. Passionate badminton player, merging tech and sports innovation to drive positive change."
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
@@ -15,7 +15,7 @@ description: "Fluent in Python, JavaScript, React and NextJs. Passionate Spanish
 
 <div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
 
-Hello, I am Dmitrii Fedotov — a professional Spanish badminton player and the creative mind behind ["the WebBadminton platform"](https://twitter.com/WebBadminton4u). My journey has been a unique blend of athleticism and technology, reflecting my passion for both sports and innovation.
+Hello, I am Dmitrii Fedotov — a professional Spanish badminton player and the creative mind behind [WebBadminton platform](https://twitter.com/WebBadminton4u). My journey has been a unique blend of athleticism and technology, reflecting my passion for both sports and innovation.
 
 On the badminton court, I have dedicated myself to achieving excellence, showcasing not only my skills but also a competitive spirit that drives me to push boundaries. Beyond the world of sports, I have ventured into the realm of technology, bringing my creativity to life through the WebBadminton platform. This project is a testament to my commitment to enhancing the sports experience through digital means, fostering a sense of community among badminton enthusiasts.
 
