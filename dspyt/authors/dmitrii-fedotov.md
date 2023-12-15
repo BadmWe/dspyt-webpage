@@ -6,7 +6,7 @@ twitter: "https://twitter.com/DmitriFedotov"
 linkedin: https://www.linkedin.com/in/dmitrii-fedotov
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
-description: "Fluent in Python, JavaScript, React and NextJs. Creator of WebBadminton. Passionate Spanish badminton player, merging tech and sports innovation to drive positive change."
+description: "Fluent in Python, JavaScript, React and NextJs. Passionate Spanish badminton player, merging tech and sports innovation to drive positive change."
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">

@@ -7,7 +7,7 @@ twitter: https://twitter.com/AlexFedotovqq
 linkedin: /
 instagram: /
 github: https://github.com/AlexFedotovqq
-description: "Fluent in Python, JavaScript, React, and NextJs. Creator of innovative TradeCoin. Pivotal in engineering its decentralized framework. Dedication to shaping digital finance's future and fostering blockchain innovation."
+description: "Fluent in Python, JavaScript, React, and NextJs. Shaping digital finance's future and fostering blockchain innovation with TradeCoin."
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">

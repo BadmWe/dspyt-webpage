@@ -26,10 +26,6 @@ Very positively, because it forms in us many useful qualities and skills. For ex
 
 With decentralized storage provider IPFS and blockchain technology, we are building a decentralized platform for you to learn how to play basketball. We all know that sport is good for physical health. Basketball also has many psychological benefits.
 
-<div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/afNBQ0piKhg?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
-</div>
-
 ## What Web3Basketball does
 
 Web3Basketball Dapp introduces users to the sport of Basketball as well as contains an item store to track and ledger the delivery of basketball equipment. Each real equipment item is ledgered via a digital one with a smart contract logic system in place to determine the demand and track items. When delivery is completed the DApp NFTs should be exchanged for the physical items.

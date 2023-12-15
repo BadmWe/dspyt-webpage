@@ -1,5 +1,5 @@
 ---
-title: "Uniswap.fish: Explore New Horizons in Swap Fee Monitoring on Uniswap"
+title: "Explore New Horizons in Swap Fee Monitoring on Uniswap"
 date: "August 28, 2023"
 excerpt: "Uniswap.fish offers Uniswap V3 Fee Calculator, Liquidity Position Histogram, and Correlation Chart, to assist traders and liquidity providers on the Uniswap."
 cover_image: "/images/posts/uniswap/uniswap-fish.webp"

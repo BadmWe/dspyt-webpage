@@ -1,7 +1,7 @@
 ---
-title: "Nurturing Innovation and Impact: Exploring the Optimism Ecosystem and RetroPGF"
+title: "The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact"
 date: "12 December, 2023"
-excerpt: "The Optimism Collective's RetroPGF program rewards impactful contributions within its thriving ecosystem, fostering innovation and diverse community involvement."
+excerpt: "The Optimism Collective RetroPGF program rewards impactful contributions within its thriving ecosystem, fostering innovation and diverse community involvement."
 cover_image: "/images/posts/optimism/retropgf3.webp"
 tags:
   [

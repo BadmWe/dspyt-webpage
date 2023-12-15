@@ -1,7 +1,7 @@
 ---
-title: "Nurturing Digital Public Goods: The Influence of Gitcoin Grants and Quadratic Funding"
+title: "Nurturing Digital Public Goods: Gitcoin Grants and Quadratic Funding"
 date: "December 14, 2023"
-excerpt: "Explore the transformative impact of Gitcoin Grants and Quadratic Funding on digital public goods. Learn how Gitcoin empowers communities to fund and build essential resources collaboratively."
+excerpt: "Explore how Gitcoin Grants and Quadratic Funding transform digital public goods. Discover how Gitcoin empowers communities to collaboratively fund and build."
 cover_image: "/images/posts/gitcoingrants/picturegitcoin.webp"
 authors: ["dmitrii-fedotov"]
 tags:
@@ -18,6 +18,7 @@ tags:
     "quadratic Funding",
   ]
 ---
+
 In the Dynamic Realm of Digital Public Goods:
 Since its establishment in 2017, Gitcoin has been a driving force, dedicated to the creation and sustenance of crucial digital public goods. It has played a central role in nurturing a vibrant community actively contributing to the progression of these essential resources. In this discourse, we explore the profound significance of public goods, the role of Gitcoin Grants, and the revolutionary concept of Quadratic Funding (QF).
 

@@ -4,9 +4,9 @@ avatar: "/DspytWhiteOnBlue.webp"
 company: "Dspyt"
 email: "dspytdao@gmail.com"
 twitter: "https://twitter.com/dspytdao"
-linkedin: "https://www.linkedin.com"
+linkedin: "https://www.linkedin.com/company/dspytdao/"
 instagram: /
-github: "https://github.com/pfed-prog"
+github: "https://github.com/dspytdao"
 description: "a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem."
 ---
 
