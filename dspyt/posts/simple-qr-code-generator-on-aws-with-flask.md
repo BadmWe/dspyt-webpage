@@ -25,10 +25,6 @@ In this article we develop web application in Flask python to generate qr code w
 
 [The GitHub repository for flask qr code generator](https://github.com/Pfed-prog/casper_QR).
 
-<div className="flex justify-center">
-    <iframe width="600" height="350" src="https://www.youtube.com/embed/xKFY1vxrMeU?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
-</div>
-
 ## Python QR Code AWS App
 
 The necessary condition for a python Flask QR code application to successfully run aws is to initialize the app as following: `application = Flask(__name__)`
@@ -116,6 +112,24 @@ def send():
 if __name__ == "__main__":
     app.run(debug=True)
 ```
+
+### Python QR Code Flask explanation
+
+The given snippet is a Python Flask application that generates a QR code for cryptocurrency transactions. Let's break down the key components and functionalities:
+
+**Flask Web Application**: The code initializes a Flask web application that serves as the framework for handling HTTP requests and responses.
+
+**QR Code Generation**: The application uses the 'qrcode' library to dynamically generate a QR code based on the user's input. The code takes into account the recipient's address, transaction amount, message, transaction ID, and cryptocurrency network.
+
+**Image Handling**: The 'PIL' (Python Imaging Library) is used to handle image-related operations, such as creating and manipulating the QR code image.
+
+**Styling and Customization**: The QR code is styled and customized using the 'qrcode.image.styledpil' module, implementing rounded module drawers and color masks to enhance its visual appearance.
+
+**Web Routes and Templates**: Two routes ('/', '/img') are defined for handling requests. A template ('home.html') is rendered to display the generated QR code.
+
+**File Handling**: The application saves the generated QR code image to a static directory and provides it for download when requested.
+
+Overall, this snippet demonstrates the use of Flask, qrcode, PIL, and web routing to create a web application that dynamically generates customized QR codes for cryptocurrency transactions.
 
 ## Related Posts
 
