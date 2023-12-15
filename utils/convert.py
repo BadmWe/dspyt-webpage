@@ -2,12 +2,12 @@
 import os
 from PIL import Image
 
-DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'filecoin')
+DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'quarticity')
 #DIR = os.path.join('..', 'dspyt', 'public', 'authors')
 #DIR = os.path.join('..', 'dspyt', 'public')
 
 files = os.listdir(DIR)
-images = [file for file in files if file.endswith(('jpg', 'png'))]
+images = [file for file in files if file.endswith(('jpg', 'png', "webp"))]
 
 for element in images:
     file_path = os.path.join(DIR, element)
