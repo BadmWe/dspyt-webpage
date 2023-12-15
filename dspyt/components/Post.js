@@ -47,6 +47,7 @@ export default function Post({ post, slug }) {
               className="h-10 w-10 rounded-full"
               width={40}
               height={40}
+              loading="lazy"
               alt={`dspyt.com profile picture ${authorName}`}
             />
           </div>
