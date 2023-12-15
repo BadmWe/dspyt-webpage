@@ -26,6 +26,7 @@ export default function Post({ post, slug }) {
         width={600}
         src={cover_image}
         alt={title}
+        loading="lazy"
       />
       <div className="flex-1 bg-white p-6 flex flex-col justify-between">
         <div className="flex flex-wrap">

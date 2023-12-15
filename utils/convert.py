@@ -2,8 +2,8 @@
 import os
 from PIL import Image
 
-#DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'zeroknowledge')
-DIR = os.path.join('..', 'dspyt', 'public', 'authors')
+DIR = os.path.join('..', 'dspyt', 'public', 'images', 'posts', 'tokenomics')
+#DIR = os.path.join('..', 'dspyt', 'public', 'authors')
 #DIR = os.path.join('..', 'dspyt', 'public')
 
 files = os.listdir(DIR)
