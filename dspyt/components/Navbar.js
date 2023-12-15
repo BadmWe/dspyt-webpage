@@ -44,18 +44,13 @@ export default function Navbar() {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
-                        key={`${item.name}Link`}
-                        href={item.href}
-                        passHref
-                        legacyBehavior
-                      >
-                        <a
+                      <Link key={`${item.name}Link`} href={item.href} passHref>
+                        <p
                           key={`${item.name}text`}
                           className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                         >
                           {item.name}
-                        </a>
+                        </p>
                       </Link>
                     ))}
                   </div>

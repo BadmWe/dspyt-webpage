@@ -6,14 +6,14 @@ const CustomLink = ({ href, ...rest }) => {
 
   if (isInternalLink) {
     return (
-      <Link href={href} legacyBehavior>
-        <a {...rest} />
+      <Link href={href}>
+        <p {...rest} />
       </Link>
     );
   }
 
   if (isAnchorLink) {
-    return <a href={href} {...rest} />;
+    return <p href={href} {...rest} />;
   }
 
   return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />;
