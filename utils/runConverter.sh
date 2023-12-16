@@ -20,7 +20,6 @@ source $SCRIPT_DIR/venv/Scripts/activate
 
 echo "DEBUG: Virtual environment activated"
 
-# Install dependencies (assuming requirements.txt exists)
 pip install -r $SCRIPT_DIR/requirements.txt
 
 python $SCRIPT_DIR/convert.py
