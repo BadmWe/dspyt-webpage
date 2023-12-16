@@ -43,7 +43,7 @@ export default function Tag({ posts, tag }) {
 
   const lastPost = 9 * page;
 
-  const title = tag.charAt(0).toUpperCase() + tag.split(" ").join("-").slice(1);
+  const title = tag.charAt(0).toUpperCase() + tag.split("-").join(" ").slice(1);
   return (
     <>
       <Head>
@@ -65,7 +65,10 @@ export default function Tag({ posts, tag }) {
         <meta name="twitter:creator" content="@dspytdao" />
       </Head>
       <div className="relative max-w-7xl mx-auto mt-10">
-        <h1 className="text-center text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl">
+        <h1
+          className="relative text-center text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl"
+          style={{ margin: "20px" }}
+        >
           Dspyt blog tag: <span> {title} </span>
         </h1>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">

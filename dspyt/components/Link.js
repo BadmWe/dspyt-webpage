@@ -7,13 +7,13 @@ const CustomLink = ({ href, ...rest }) => {
   if (isInternalLink) {
     return (
       <Link href={href}>
-        <p {...rest} />
+        <div {...rest} />
       </Link>
     );
   }
 
   if (isAnchorLink) {
-    return <p href={href} {...rest} />;
+    return <div href={href} {...rest} />;
   }
 
   return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />;

@@ -7,18 +7,12 @@ export default function Hero() {
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
-            <div className="mt-10 flex items-center gap-x-6">
+            <div className="flex items-center gap-x-6">
               <a
                 href="/blog"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Go to the blog
-              </a>
-              <a
-                href="/faq"
-                className="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-100"
-              >
-                Share your content here<span aria-hidden="true"> → </span>
               </a>
             </div>
 
@@ -27,9 +21,9 @@ export default function Hero() {
                 DSPYT - CodeVerse
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                The place to discover, collect, and discuss all
-                things programming. It provides a space for individuals to share
-                and curate a wide range of programming-related content.
+                The place to discover, collect, and discuss all things
+                programming. It provides a space for individuals to share and
+                curate a wide range of programming-related content.
               </p>
             </div>
           </div>
