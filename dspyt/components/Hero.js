@@ -7,15 +7,6 @@ export default function Hero() {
       <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
           <div>
-            <div className="flex items-center gap-x-6">
-              <a
-                href="/blog"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Go to the blog
-              </a>
-            </div>
-
             <div className="sm:max-w-xl">
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-gray-100">
                 DSPYT - CodeVerse

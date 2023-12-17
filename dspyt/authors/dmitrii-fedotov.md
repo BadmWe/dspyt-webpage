@@ -3,7 +3,7 @@ name: "Dmitrii Fedotov"
 avatar: "/authors/DmitriiAva.webp"
 company: "Dspyt"
 twitter: "https://twitter.com/DmitriFedotov"
-linkedin: https://www.linkedin.com/in/dmitrii-fedotov
+linkedin: "https://www.linkedin.com/in/dmitrii-fedotov"
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
 description: "Fluent in Python, JavaScript, React and NextJs. Passionate badminton player, merging tech and sports innovation to drive positive change."
