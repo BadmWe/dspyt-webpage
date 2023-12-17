@@ -6,9 +6,8 @@ import { useState } from "react";
 
 const POSTS_PER_PAGE = 9;
 
-export default function Home({ posts, pagination }) {
-  const number = pagination.currentPage;
-  const startPostNumber = number * POSTS_PER_PAGE;
+export default function Home({ posts, pageNumber }) {
+  const startPostNumber = pageNumber * POSTS_PER_PAGE;
   const endPostNumber = startPostNumber + POSTS_PER_PAGE;
 
   const [searchValue, setSearchValue] = useState("");
@@ -27,8 +26,11 @@ export default function Home({ posts, pagination }) {
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
-        <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
-        <meta property="og:url" content={`https://dspyt.com/blog/${number}`} />
+        <meta property="og:image" content="https://dspyt.com/DSPYT.webp" />
+        <meta
+          property="og:url"
+          content={`https://dspyt.com/blog/${pageNumber}`}
+        />
         <meta property="og:title" content="Data Science with Python | DSPYT" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
@@ -101,15 +103,15 @@ export default function Home({ posts, pagination }) {
                 </p>
               </div>
               <div className="flex-1 flex justify-between sm:justify-end">
-                {number < 2 ? null : (
-                  <Link href={`/blog/${number - 1}`}>
+                {pageNumber < 2 ? null : (
+                  <Link href={`/blog/${pageNumber - 1}`}>
                     <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                       Previous
                     </div>
                   </Link>
                 )}
 
-                {number === 1 ? (
+                {pageNumber === 1 ? (
                   <Link href={`/blog/`}>
                     <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Previous
@@ -118,7 +120,7 @@ export default function Home({ posts, pagination }) {
                 ) : null}
 
                 {endPostNumber >= posts.length ? null : (
-                  <Link href={`/blog/${number + 1}`}>
+                  <Link href={`/blog/${pageNumber + 1}`}>
                     <div className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Next
                     </div>
@@ -135,9 +137,9 @@ export default function Home({ posts, pagination }) {
 
 export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter("posts");
-  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE) - 1;
+  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
   const paths = Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: (i + 1).toString() },
+    params: { page: i.toString() },
   }));
 
   return {
@@ -153,15 +155,9 @@ export async function getStaticProps(context) {
   const posts = await getAllFilesFrontMatter("posts");
   const pageNumber = parseInt(page);
 
-  const pagination = {
-    currentPage: pageNumber,
-    totalPages: Math.ceil(posts.length / POSTS_PER_PAGE),
-  };
-
   for (let i = 0; i < posts.length; i++) {
     const obj = posts[i];
-    const name =
-      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
+    const name = obj.authors?.length > 0 ? obj.authors[0] : "dspytdao";
 
     const authorResults = await getFileBySlug("authors", name);
 
@@ -173,7 +169,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       posts,
-      pagination,
+      pageNumber,
     },
   };
 }

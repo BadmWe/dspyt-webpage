@@ -77,12 +77,12 @@ export default function Tag({ posts, tag }) {
           ))}
         </div>
         {posts.length > lastPost ? (
-          <a
+          <div
             onClick={() => setPage(page + 1)}
             className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300"
           >
             Load More Posts
-          </a>
+          </div>
         ) : null}
       </div>
     </>
