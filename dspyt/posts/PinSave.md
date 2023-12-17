@@ -28,11 +28,11 @@ tags:
 
 ## Discover Content and Receive Feedback with the Decentralized Feed
 
-Pin Save's decentralized feed provides users with an easy and secure way to discover and share content. With the Feed, users can follow other users’ posts and receive feedback from other users. This feedback can be used to improve content and engage with others in the Pin Save community. The Feed also allows users to explore new and emerging trends, giving them a better understanding of the Pin Save platform and the content being shared. With the Feed, users can discover and share content in a secure and efficient way.
+The decentralized feed provides users with an easy and secure way to discover and share content. With the feed, users can follow other users’ posts and receive feedback from other users. This feedback can be used to improve content and engage with others in the Pin Save community. The decentralized feed also allows users to explore new and emerging trends, giving them a better understanding of the Pin Save platform and the content being shared. With the Feed, users can discover and share content in a secure and efficient way.
 
 ## Protect and Monetize Content with Pin Save
 
-Pin Save provides users with a secure and efficient way to protect and monetize their content. The platform’s smart contracts enable users to securely serve web experiences directly to users and protect their intellectual property. Pin Save also allows users to leverage their content to generate income by monetizing it with sponsorships and advertising. With Pin Save, users can feel safe knowing that their content is always protected and that they can benefit from the platform’s opportunities to monetize it.
+Pin Save provides users with a secure and efficient way to protect and monetize their content. The smart contracts enable users to securely serve web experiences directly to users and protect their intellectual property. Pin Save also allows users to leverage their content to generate income by monetizing it with sponsorships and advertising. With Pin Save, users can feel safe knowing that their content is always protected and that they can benefit from opportunities to monetize it.
 
 ## Experience the Benefits of Decentralization with Pin Save
 
@@ -53,4 +53,3 @@ Pin Save is the perfect platform for users looking to take control of their cont
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)
 - [Simple App with Ceramic Data Model and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
-- [Pin Save in Gitcoin Fantom round](https://grant-explorer.gitcoin.co/#/round/250/0xebdb4156203c8b35b7a7c6f320786b98e5ac67c3/0x1207e7650bc9cd89d2ae967b0b63f591162bbe5fc2f64dea3a749dfda5b67449-0xebdb4156203c8b35b7a7c6f320786b98e5ac67c3)

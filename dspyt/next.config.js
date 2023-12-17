@@ -43,6 +43,21 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/tabular-playground-overfitting-solvers-club/",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/data-science-playground-solvers-club/",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/honest_protocol_data_analytics/",
+        destination: "/data_analytics/",
+        permanent: true,
+      },
     ];
   },
 };
