@@ -1,10 +1,10 @@
 import Hero from "@/components/Hero";
 import Post from "@/components/Post";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
+import Instagram from "@/components/SocialMediaIcons/Instagram";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import Instagram from "@/styles/Instagram";
 import { StarIcon } from "@heroicons/react/20/solid";
 import Head from "next/head";
 import Image from "next/image";

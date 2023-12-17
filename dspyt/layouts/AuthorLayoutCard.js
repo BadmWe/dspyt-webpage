@@ -1,8 +1,8 @@
 import { PageSEO } from "@/components/SEO";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
+import Instagram from "@/components/SocialMediaIcons/Instagram";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
-import Instagram from "@/styles/Instagram";
 import Image from "next/image";
 import Link from "next/link";
 

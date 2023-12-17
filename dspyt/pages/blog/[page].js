@@ -102,26 +102,26 @@ export default function Home({ posts, pagination }) {
               </div>
               <div className="flex-1 flex justify-between sm:justify-end">
                 {number < 2 ? null : (
-                  <Link href={`/blog/${number - 1}`} legacyBehavior>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                  <Link href={`/blog/${number - 1}`}>
+                    <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                       Previous
-                    </a>
+                    </div>
                   </Link>
                 )}
 
                 {number === 1 ? (
-                  <Link href={`/blog/`} legacyBehavior>
-                    <a className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
+                  <Link href={`/blog/`}>
+                    <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Previous
-                    </a>
+                    </div>
                   </Link>
                 ) : null}
 
                 {endPostNumber >= posts.length ? null : (
-                  <Link href={`/blog/${number + 1}`} legacyBehavior>
-                    <a className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
+                  <Link href={`/blog/${number + 1}`}>
+                    <div className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                       Next
-                    </a>
+                    </div>
                   </Link>
                 )}
               </div>
