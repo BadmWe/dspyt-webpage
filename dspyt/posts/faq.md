@@ -41,16 +41,16 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 14. Cross-posting is only permissible if you set the canonical URL on those platforms to direct to the DSPYT-CodeVerse post
 15. Thoroughly review and edit your article, then review it once more for good measure
 
-## How to submit
+## How to submit (The easiest way)
+
+- [Follow this link and fill out the form.](https://docs.google.com/forms/d/1c-T15H41dhtt0qUm-ZtLcDCBTr5pABz2SEodtkMsKdI/edit)
+
+## How to submit v2
 
 1. Fork repository to your personal GitHub account
 2. Implement modifications to your copy of the repository
 3. Propose a pull request from your version to the main branch of this repository
 4. Await authorization. Any feedback will be provided directly within the pull request
-
-## How to submit v2
-
-You can use the button on the top, in the right corner
 
 ## Dspyt Approval
 
