@@ -1,12 +1,7 @@
-import remarkCodeTitles from "./remark-code-title";
-import remarkExtractFrontmatter from "./remark-extract-frontmatter";
-import remarkImgToJsx from "./remark-img-to-jsx";
-import remarkTocHeadings from "./remark-toc-headings";
-import getAllFilesRecursively from "./utils/files";
 import fs from "fs";
+import path from "path";
 import matter from "gray-matter";
 import { bundleMDX } from "mdx-bundler";
-import path from "path";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeCitation from "rehype-citation";
 import rehypeKatex from "rehype-katex";
@@ -18,6 +13,11 @@ import remarkFootnotes from "remark-footnotes";
 // Remark packages
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
+import remarkCodeTitles from "./remark-code-title";
+import remarkExtractFrontmatter from "./remark-extract-frontmatter";
+import remarkImgToJsx from "./remark-img-to-jsx";
+import remarkTocHeadings from "./remark-toc-headings";
+import getAllFilesRecursively from "./utils/files";
 
 const root = process.cwd();
 

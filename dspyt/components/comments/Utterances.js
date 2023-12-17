@@ -1,6 +1,6 @@
 import siteMetadata from "@/components/siteMetadata";
 import { useTheme } from "next-themes";
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 const Utterances = () => {
   const [enableLoadComments, setEnabledLoadComments] = useState(true);

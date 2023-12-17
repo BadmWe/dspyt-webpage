@@ -1,9 +1,9 @@
+import Comments from "@/components/comments";
 import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
-import { BlogSEO } from "@/components/SEO";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
 import SectionContainer from "@/components/SectionContainer";
-import Comments from "@/components/comments";
+import { BlogSEO } from "@/components/SEO";
 import siteMetadata from "@/components/siteMetadata";
 import formatDate from "@/lib/utils/formatDate";
 
