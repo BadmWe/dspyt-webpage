@@ -15,12 +15,11 @@ fi
 if [ ! -d "venv" ]
 then
     virtualenv venv
+    pip install -r $SCRIPT_DIR/requirements.txt
 fi
 source $SCRIPT_DIR/venv/Scripts/activate
 
 echo "DEBUG: Virtual environment activated"
-
-pip install -r $SCRIPT_DIR/requirements.txt
 
 python $SCRIPT_DIR/convert.py
 

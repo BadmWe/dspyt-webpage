@@ -1,9 +1,9 @@
-import Image from "@/components/Image";
 import { PageSEO } from "@/components/SEO";
-import GitHubIcon from "@/styles/GitHubIcon";
+import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
+import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
+import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
 import Instagram from "@/styles/Instagram";
-import LinkedInIcon from "@/styles/LinkedInIcon";
-import TwitterIcon from "@/styles/TwitterIcon";
+import Image from "next/image";
 
 export default function AuthorLayout({ frontMatter, children }) {
   const {
@@ -28,7 +28,13 @@ export default function AuthorLayout({ frontMatter, children }) {
       <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700">
         <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
           <div className="card">
-            <img src={avatar} alt={name} style={{ width: "100%" }} />
+            <Image
+              width={600}
+              height={400}
+              src={avatar}
+              alt={name}
+              style={{ width: "100%" }}
+            />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
               {name}
             </h3>
