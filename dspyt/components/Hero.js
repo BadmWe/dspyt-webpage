@@ -61,7 +61,6 @@ export default function Hero() {
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
                 src={HeroImage}
                 alt="DSPYT - CodeVerse"
-                priority
               />
             </div>
           </div>

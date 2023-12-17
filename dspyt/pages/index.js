@@ -7,6 +7,8 @@ import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import Instagram from "@/styles/Instagram";
 import { StarIcon } from "@heroicons/react/20/solid";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const people = [
@@ -18,7 +20,7 @@ const people = [
     linkedinUrl: "",
     githubUrl: "https://github.com/BadmWe/",
     InstagramUrl: "",
-    authors: ["profile/dmitrii-fedotov"],
+    authors: "/profile/dmitrii-fedotov",
   },
   {
     name: "Pavel Fedotov",
@@ -28,7 +30,7 @@ const people = [
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",
     InstagramUrl: "",
-    authors: ["profile/pavel-fedotov"],
+    authors: "/profile/pavel-fedotov",
   },
   {
     name: "Alexander Fedotov",
@@ -38,7 +40,7 @@ const people = [
     linkedinUrl: "",
     githubUrl: "https://github.com/AlexFedotovqq",
     InstagramUrl: "",
-    authors: ["profile/alexfedotovqq"],
+    authors: "/profile/alexfedotovqq",
   },
 ];
 
@@ -93,14 +95,17 @@ export default function Home({ posts }) {
           >
             {people.map((person) => (
               <li key={person.name}>
-                <img
+                <Image
                   className="mx-auto h-56 w-56 rounded-full"
+                  width={400}
+                  height={400}
                   src={person.imageUrl}
                   alt={person.name}
+                  loading="lazy"
                 />
 
                 <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-100">
-                  <a href={person.authors}>{person.name}</a>
+                  <Link href={person.authors}>{person.name}</Link>
                 </h3>
                 <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
                   {person.role}
@@ -108,47 +113,50 @@ export default function Home({ posts }) {
                 <ul role="list" className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <span className="sr-only">Twitter</span>
-                    <a
-                      href={person.twitterUrl}
+                    <Link
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100 "
+                      href={person.twitterUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
                     >
                       <TwitterIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <span className="sr-only">Instagram</span>
-                    <a
-                      href={person.InstagramUrl}
+                    <Link
                       target="_blank"
                       rel="noopener noreferrer"
+                      href={person.InstagramUrl}
                       className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
                     >
                       <Instagram />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <span className="sr-only">LinkedIn</span>
-                    <a
-                      href={person.linkedinUrl}
+                    <Link
                       target="_blank"
                       rel="noopener noreferrer"
+                      href={person.linkedinUrl}
                       className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
                     >
                       <LinkedInIcon />
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <span className="sr-only">Github</span>
-                    <a
-                      href={person.githubUrl}
+                    <Link
                       target="_blank"
                       rel="noopener noreferrer"
+                      href={person.githubUrl}
                       className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
                     >
                       <GitHubIcon />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
