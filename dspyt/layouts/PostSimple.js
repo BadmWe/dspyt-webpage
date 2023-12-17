@@ -1,4 +1,3 @@
-import Comments from "@/components/comments";
 import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
@@ -49,7 +48,6 @@ export default function PostLayout({
                 {children}
               </div>
             </div>
-            <Comments frontMatter={frontMatter} />
             <footer>
               <div className="flex flex-col text-sm font-medium sm:flex-row sm:justify-between sm:text-base">
                 {prev && (

@@ -1,7 +1,6 @@
 import ImageDspyt from "@/components/Image";
 import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
-//import Comments from "@/components/comments";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
 import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
@@ -120,9 +119,6 @@ export default function PostLayout({
               {` • `}
               <Link href={editUrl(fileName)}>{"View on GitHub"}</Link>
             </div>
-            {/*
-              <Comments frontMatter={frontMatter} />
-              */}
           </div>
           <footer>
             <div className="text-sm font-medium leading-5 xl:col-start-1 xl:row-start-2">
