@@ -3,8 +3,21 @@ title: "Ethereum Security Data Collection Ideas - DSPYT"
 date: "26 September, 2022"
 excerpt: "We describe how to select a research topic, study technique, and resources for high-quality data gathering on ethereum blockchain."
 cover_image: "/images/posts/Honest/dataIdeas.webp"
-tags: ["data", "blockchain", "Ethereum", "security", "regulation", "AML", 
-"compliance", "blog", "ideas", "research", "KYC", "data sources"]
+tags:
+  [
+    "data",
+    "blockchain",
+    "Ethereum",
+    "security",
+    "regulation",
+    "AML",
+    "compliance",
+    "blog",
+    "ideas",
+    "research",
+    "KYC",
+    "data sources",
+  ]
 ---
 
 Data collection is the systematic process of obtaining observations or measurements. Data gathering enables you to get first-hand knowledge and unique insights into your research challenge, whether you are conducting experiments for business, governmental, or academic objectives. Although methods and objectives may vary across fields, the general data collection procedure is basically the same.
@@ -98,15 +111,6 @@ Below are relevant online data sources which could aid in the research of Ethere
 ## Summary
 
 Data gathering enables you to get first-hand knowledge and unique insights into your research challenge. There are three types of research: exploratory, confirmatory and quantitative. Choosing the right research approach will determine the kind of methods you use for gathering the necessary data. If your aim is to test a hypothesis, measure something precisely, or gain large-scale statistical insights, collect quantitative data. If you have several aims, you can use a mixed-methods approach that collects both types of data.
-
-## References
-
-- [How to Identify a Meaningful Research Question](https://www.enago.com/academy/things-need-know-writing-good-research-question/)
-- [How to Choose Best Research Methodology for Your Study](https://www.enago.com/academy/choose-best-research-methodology/)
-- [What Is a Research Methodology? | Steps & Tips](https://www.scribbr.com/dissertation/methodology/)
-- [How To Choose Your Research Methodology](https://gradcoach.com/choose-research-methodology/)
-- [What (Exactly) Is Research Methodology?](https://gradcoach.com/what-is-research-methodology/)
-- [Data Collection | Definition, Methods & Examples](https://www.scribbr.com/methodology/data-collection/)
 
 ## Related Posts
 

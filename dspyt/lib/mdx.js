@@ -12,7 +12,6 @@ import rehypeSlug from "rehype-slug";
 import remarkFootnotes from "remark-footnotes";
 // Remark packages
 import remarkGfm from "remark-gfm";
-import remarkMath from "remark-math";
 import remarkCodeTitles from "./remark-code-title";
 import remarkExtractFrontmatter from "./remark-extract-frontmatter";
 import remarkImgToJsx from "./remark-img-to-jsx";
@@ -82,7 +81,6 @@ export async function getFileBySlug(type, slug) {
         remarkGfm,
         remarkCodeTitles,
         [remarkFootnotes, { inlineNotes: true }],
-        remarkMath,
         remarkImgToJsx,
       ];
       options.rehypePlugins = [

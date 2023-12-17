@@ -31,7 +31,7 @@ According to [Eviews documentation](http://www.eviews.com/help/helpintro.html#pa
 
 Some experts refer to Pooled data as "time series of cross sections", where observations in each cross section do not necessarily refer to the same unit. Whereas, panel data refers to samples of the same [cross-sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units at multiple points in time. A panel-data observation has two dimensions:
 
-$$X_{it}$$, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
+A variable denoted by X indexed by two subscripts i and t, where i runs from 1 to N and denotes the [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) and t runs from 1 to T, and denotes the time of the observation.
 
 ## Advantages and Disadvantages of Panel data
 
@@ -141,7 +141,6 @@ print(pooled_res)
 
 - Bashtage.github.io. n.d. [Examples — linearmodels v4.24 documentation](https://bashtage.github.io/linearmodels/panel/examples/examples.html).
 - Cross Validated. n.d. [What is the difference between pooled cross sectional data and panel data?](https://stats.stackexchange.com/questions/45236/what-is-the-difference-between-pooled-cross-sectional-data-and-panel-data).
-- Eviews.com. n.d. [EViews Help](http://www.eviews.com/help/helpintro.html#page/content/sec_panel.html).
 - Wooldridge, J., 2019. Introductory econometrics. 7th ed.
 - [Kaggle notebook](https://www.kaggle.com/pavfedotov/who-birth-rates-panel-data-analysis)
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
