@@ -1,11 +1,11 @@
 import ImageDspyt from "@/components/Image";
-import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
 import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
 import siteMetadata from "@/components/siteMetadata";
 import Tag from "@/components/Tag";
+import Link from "next/link";
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/posts/${fileName}`;
 const discussUrl = (slug) =>
@@ -58,7 +58,6 @@ export default function PostLayout({
               height={320}
               src={cover_image}
               alt={title}
-              priority
             />
           </div>
         </header>
@@ -122,18 +121,21 @@ export default function PostLayout({
           </div>
           <footer>
             <div className="text-sm font-medium leading-5 xl:col-start-1 xl:row-start-2">
-              {tags && (
-                <div className="py-4 xl:py-8">
-                  <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                    Tags
-                  </h2>
-                  <div className="flex flex-wrap">
-                    {tags.map((tag) => (
-                      <Tag key={tag} text={tag} />
-                    ))}
-                  </div>
-                </div>
-              )}
+              <div className="py-4 xl:py-8">
+                <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                  Tags
+                </h2>
+                <p className="flex-wrap break-words p-1">
+                  {tags?.map((tag) => (
+                    <Tag
+                      key={tag}
+                      text={tag}
+                      paddingPx={"0.8px"}
+                      textRounded="rounded-sm"
+                    />
+                  ))}
+                </p>
+              </div>
               {(next || prev) && (
                 <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
                   {prev && (

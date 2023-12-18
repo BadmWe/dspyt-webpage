@@ -1,15 +1,21 @@
 import { convertToSlug } from "@/lib/utils/convertToSlug";
 import Link from "next/link";
 
-const Tag = ({ text }) => {
+const Tag = ({ text, paddingPx = "2px", textRounded = "rounded-md" }) => {
   return (
     <Link
       href={`/tags/${convertToSlug(text)}`}
-      className="flex items-center mt-1 mr-3"
+      className="items-center tracking-wide"
     >
-      <div className="rounded-md bg-blue-100 font-medium uppercase px-2 py-0.5 text-xs text-blue-800 hover:text-primary-600 dark:hover:text-primary-400">
-        {text.split("-").join(" ")}
-      </div>
+      <span
+        className={
+          textRounded +
+          " bg-blue-100 font-medium uppercase text-xs text-blue-900 hover:text-primary-600 dark:hover:text-primary-400"
+        }
+        style={{ padding: paddingPx, marginRight: "4px" }}
+      >
+        {text}{" "}
+      </span>
     </Link>
   );
 };

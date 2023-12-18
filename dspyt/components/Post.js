@@ -28,12 +28,12 @@ export default function Post({ post, slug }) {
         alt={title}
         loading="lazy"
       />
-      <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-        <div className="flex flex-wrap">
-          {tags?.map((tag) => (
-            <Tag key={tag} text={tag} />
+      <div className="flex flex-1 bg-white p-6 flex-col justify-between">
+        <p className="flex-wrap break-words">
+          {tags?.map((tag, index) => (
+            <Tag text={tag} key={index} />
           ))}
-        </div>
+        </p>
         <div className="block mt-2">
           <Link href={`/${slug}`}>
             <p className="text-xl font-semibold text-gray-900">{title}</p>
