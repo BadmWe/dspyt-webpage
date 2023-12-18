@@ -11,7 +11,7 @@ export default function Hero() {
               <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-gray-100">
                 DSPYT - CodeVerse
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 tracking-wide">
                 Join our community to explore the latest trends in data science,
                 share insights on blockchain technology, and participate in
                 discussions about DSPYT DAO, the decentralized autonomous
