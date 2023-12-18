@@ -38,7 +38,7 @@ One of the primary advantages of synthetic assets is the ability to trade 24/7, 
 
 ## The Power of SNX Token
 
-Central to the Synthetix ecosystem is its native utility token, SNX. This token serves a dual purpose, acting both as collateral for the issuance of synthetic assets and as a governance tool. SNX holders play a vital role in maintaining the stability and security of the platform by staking their tokens. In return, they earn rewards and contribute to the collateral pool, facilitating the issuance of synths 
+Central to the Synthetix ecosystem is its native utility token, SNX. This token serves a dual purpose, acting both as collateral for the issuance of synthetic assets and as a governance tool. SNX holders play a vital role in maintaining the stability and security of the platform by staking their tokens. In return, they earn rewards and contribute to the collateral pool, facilitating the issuance of synths.
 
 ![Token](/images/posts/defi/crypto.webp)
 
@@ -69,5 +69,4 @@ Synthetix stands as a beacon in the transformative landscape of decentralized fi
 - [Stablecoins - How Do They Impact Decentralized Finance](https://dspyt.com/stablecoins)
 - [Explore New Horizons in Swap Fee Monitoring on Uniswap](hhttps://dspyt.com/uniswap.fish)
 - [Crypto Horizons 2023: Innovation, Regulation, and Sustainability](https://dspyt.com/Crypto-Horizons-2023-Navigating-Innovation-Regulation-and-Sustainability)
-- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
--[The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf/)
+- [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity) -[The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf/)
