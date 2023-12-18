@@ -12,9 +12,12 @@ export default function Hero() {
                 DSPYT - CodeVerse
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                The place to discover, collect, and discuss all things
-                programming. It provides a space for individuals to share and
-                curate a wide range of programming-related content.
+                Join our community to explore the latest trends in data science,
+                share insights on blockchain technology, and participate in
+                discussions about DSPYT DAO, the decentralized autonomous
+                organization shaping the future of programming. Discover,
+                collect, and curate valuable programming-related content with
+                like-minded individuals.
               </p>
             </div>
           </div>
