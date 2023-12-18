@@ -18,9 +18,10 @@ tags:
     "Ethereum",
   ]
 ---
+
 The first 2 hours are pure excitement, it's finally begun- you find your idea, your niche. You manage to convince your team on the usability of your product and you're off to the races.
 
-Next 5 hours, You hit your first hurdle, rethink your sponsor tracks, and question your initial idea. Your teammate hits a bump 
+Next 5 hours, You hit your first hurdle, rethink your sponsor tracks, and question your initial idea. Your teammate hits a bump.
 with a certain integration/ technical challenge. You're thrown off your track. But it's no sweat, head in the game.
 
 ![Travel](/images/posts/ethIndia/travel.webp)

@@ -53,9 +53,8 @@ export default function PostLayout({
             <PageTitle>{title}</PageTitle>
             <ImageDspyt
               className="mx-auto rounded-lg"
-              quality={25}
-              width={656}
-              height={320}
+              width={460}
+              height={220}
               src={cover_image}
               alt={title}
             />
