@@ -129,8 +129,9 @@ export default function PostLayout({
                     <Tag
                       key={tag}
                       text={tag}
-                      paddingPx={"0.8px"}
-                      textRounded="rounded-sm"
+                      textRounded="rounded-lg"
+                      paddingUpDown="1px"
+                      paddingLeftRight="10px"
                     />
                   ))}
                 </p>

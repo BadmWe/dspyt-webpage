@@ -1,7 +1,12 @@
 import { convertToSlug } from "@/lib/utils/convertToSlug";
 import Link from "next/link";
 
-const Tag = ({ text, paddingPx = "2px", textRounded = "rounded-md" }) => {
+const Tag = ({
+  text,
+  textRounded = "rounded-md",
+  paddingUpDown = "3px",
+  paddingLeftRight = "4px",
+}) => {
   return (
     <span style={{ userSelect: "none" }}>
       <Link
@@ -13,7 +18,12 @@ const Tag = ({ text, paddingPx = "2px", textRounded = "rounded-md" }) => {
             textRounded +
             " bg-blue-100 font-medium uppercase text-xs text-blue-900 hover:text-primary-600 dark:hover:text-primary-400"
           }
-          style={{ padding: paddingPx, marginRight: "2px" }}
+          style={{
+            paddingTop: paddingUpDown,
+            paddingBottom: paddingUpDown,
+            paddingRight: paddingLeftRight,
+            paddingLeft: paddingLeftRight,
+          }}
         >
           {text}
         </span>
