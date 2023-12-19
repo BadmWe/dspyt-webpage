@@ -41,3 +41,21 @@ input:-webkit-autofill:focus {
   color: grey;
   font-size: 18px;
 }
+
+.outlinedImage {
+  position: relative;
+}
+
+.outlinedImage::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  border: 2px solid #00ffcc; /* Neon color */
+  border-radius: 10px; /* Adjust as needed */
+  z-index: -1;
+  opacity: 0.7; /* Adjust the opacity as needed */
+  box-shadow: 0 0 20px 10px #00ffcc; /* Neon glow effect */
+}
