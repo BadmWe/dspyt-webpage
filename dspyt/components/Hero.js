@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="sm:mx-auto sm:max-w-3xl sm:px-6">
           <div className="py-28 sm:relative sm:mt-28 sm:py-12 lg:absolute lg:inset-y-2 lg:right-0 lg:w-1/2">
             <div
-              className={`outlinedImage ${styles.outlinedImage} relative sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full `}
+              className={`outlinedImage ${styles.outlinedImage} relative sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-max lg:h-full `}
             >
               <Image
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
