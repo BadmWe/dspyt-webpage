@@ -16,13 +16,15 @@ export default function remarkCodeTitles() {
         return;
       }
 
-      const className = "remark-code-title";
-
       const titleNode = {
         type: "mdxJsxFlowElement",
         name: "div",
         attributes: [
-          { type: "mdxJsxAttribute", name: "className", value: className },
+          {
+            type: "mdxJsxAttribute",
+            name: "className",
+            value: "remark-code-title",
+          },
         ],
         children: [{ type: "text", value: title }],
         data: { _xdmExplicitJsx: true },
