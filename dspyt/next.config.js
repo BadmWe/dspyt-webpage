@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  //trailingSlash: true,
   async redirects() {
     return [
       {
@@ -56,6 +55,11 @@ const nextConfig = {
       {
         source: "/honest_protocol_data_analytics",
         destination: "/data_analytics",
+        permanent: true,
+      },
+      {
+        source: "/blog/0",
+        destination: "/blog",
         permanent: true,
       },
     ];

@@ -139,7 +139,7 @@ export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter("posts");
   const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
   const paths = Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: i.toString() },
+    params: { page: (i + 1).toString() },
   }));
 
   return {
