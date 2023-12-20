@@ -1,5 +1,5 @@
 ---
-title: "Synthetix: Unleashing the Power of Synthetic Assets in Decentralized Finance (DeFi)"
+title: "Synthetix: Empowering DeFi with Synthetic Assets"
 date: "18 December, 2023"
 excerpt: "Explore Synthetix: DeFi on Ethereum. Diverse synthetic assets, decentralized trading, and the SNX token power the future of finance."
 authors: ["dmitrii-fedotov"]
@@ -70,4 +70,4 @@ Synthetix stands as a beacon in the transformative landscape of decentralized fi
 - [Explore New Horizons in Swap Fee Monitoring on Uniswap](hhttps://dspyt.com/uniswap.fish)
 - [Crypto Horizons 2023: Innovation, Regulation, and Sustainability](https://dspyt.com/Crypto-Horizons-2023-Navigating-Innovation-Regulation-and-Sustainability)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
-- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf/)
+- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf)

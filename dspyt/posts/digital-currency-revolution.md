@@ -1,5 +1,5 @@
 ---
-title: "CBDCs: Navigating the Digital Financial Future - A Paradigm Shift, Motivations, Challenges, and Global Initiatives"
+title: "CBDCs: Shaping Digital Finance - Motivations, Challenges, Global Initiatives"
 date: "December 16, 2023"
 excerpt: "Explore the finance future with CBDCs. Uncover benefits, global initiatives, and their impact on policies. Join us in navigating the digital currency landscape."
 cover_image: "/images/posts/defi/CBDC.webp"
@@ -21,7 +21,6 @@ tags:
     "regulatory clarity",
     "digital economy",
     "monetary policies",
-    "collaboration",
   ]
 ---
 
