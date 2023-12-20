@@ -1,5 +1,5 @@
 ---
-title: "Synthetix: Unleashing the Power of Synthetic Assets in Decentralized Finance (DeFi)"
+title: "Synthetix: Empowering DeFi with Synthetic Assets"
 date: "18 December, 2023"
 excerpt: "Explore Synthetix: DeFi on Ethereum. Diverse synthetic assets, decentralized trading, and the SNX token power the future of finance."
 authors: ["dmitrii-fedotov"]
