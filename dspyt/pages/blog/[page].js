@@ -137,7 +137,7 @@ export default function Home({ posts, pageNumber }) {
 
 export async function getStaticPaths() {
   const totalPosts = await getAllFilesFrontMatter("posts");
-  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
+  const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE) - 1;
   const paths = Array.from({ length: totalPages }, (_, i) => ({
     params: { page: (i + 1).toString() },
   }));

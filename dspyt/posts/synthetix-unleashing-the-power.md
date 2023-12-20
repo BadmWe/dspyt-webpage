@@ -70,4 +70,4 @@ Synthetix stands as a beacon in the transformative landscape of decentralized fi
 - [Explore New Horizons in Swap Fee Monitoring on Uniswap](hhttps://dspyt.com/uniswap.fish)
 - [Crypto Horizons 2023: Innovation, Regulation, and Sustainability](https://dspyt.com/Crypto-Horizons-2023-Navigating-Innovation-Regulation-and-Sustainability)
 - [Advanced Realized Volatility and Quarticity](https://dspyt.com/advanced-realized-volatility-and-quarticity)
-- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf/)
+- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf)
