@@ -17,6 +17,11 @@ tags:
     "finance",
     "decentralized",
     "it",
+    "collaboration",
+    "regulatory clarity",
+    "digital economy",
+    "monetary policies",
+    "collaboration",
   ]
 ---
 

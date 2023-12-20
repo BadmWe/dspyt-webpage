@@ -18,6 +18,10 @@ tags:
     "finance",
     "decentralized",
     "it",
+    "security challenges",
+    "trust",
+    "widespread adoption",
+    "financial future",
   ]
 ---
 

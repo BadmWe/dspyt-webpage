@@ -4,7 +4,7 @@ from PIL import Image
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-DIR = os.path.abspath(os.path.join(script_dir,'..', 'dspyt',  'public', 'images', 'posts', 'defi',))
+DIR = os.path.abspath(os.path.join(script_dir,'..', 'dspyt',  'public', 'images', 'posts', 'cybersecurity',))
 #DIR = os.path.join('..', 'dspyt', 'public', 'authors')
 #DIR = os.path.join('..', 'dspyt', 'public')
 
