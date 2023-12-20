@@ -1,7 +1,7 @@
 ---
 title: "How we won at ETHIndia'23"
 date: "December 17, 2023"
-excerpt: "Experience the intense journey of ETHIndia'23: from ideation to exhaustion. Teams conquer hurdles, fueled by caffeine and camaraderie. Witness the thrill, innovation, and the sweet taste of success."
+excerpt: "Experience ETHIndia'23: teams navigate ideation to triumph, fueled by caffeine and camaraderie. Witness thrill, innovation, and sweet success."
 cover_image: "/images/posts/ethIndia/mainpage.webp"
 authors: ["gyanesh-samanta"]
 tags:
@@ -36,7 +36,7 @@ It's 9 pm now, feels like it's 3am, you all share a sad dinner rethinking your p
 
 No, the team's working, the devs who came from all over the world are on the bean bags, you take a second look at your ETHIndia bracelet. You're back in the game.
 
-![Bands](/images/posts/ethIndia/bands.webp)
+![ethIndia Bands](/images/posts/ethIndia/bands.webp)
 
 "Alright, huddle up, we got an odd 30 hours left, how do we make the best out of the V1 we currently have?" Initiates a 2 hour long discussion that seems to complicate the problem further than it solves.
 
@@ -53,7 +53,7 @@ Back to the races, but a different game this time, you got to make your killer p
 
 You rush to the washroom, spray some water on your hair, rub it hard with a tissue, force it to be presentable, back to the workstation.
 
-You start recording, "Hey folks, I'm Gyanesh and this is my team---, what is the name of our team?"
+You start recording, "Hey folks, I'm Gyanesh and this is my team --- , what is the name of our team?"
 "Hey folks, I'm Gyanesh, with team GPT and this is our submission to ETHIndia 2022, ah 2023."
 "We present to you CrossDrop, your- "
 Bhai tagline decide nahi kiya
@@ -71,14 +71,14 @@ You wash your face, drink some water, caffeine, nicotine, back to the races.
 
 Here comes the challenging part, even if you're building something in deep tech, you always have to present your pitch in something like 4 mins, depending on which sponsor you are presenting to, you need to tailor your pitch in that direction. One size fits all, just ain't true here.
 
-![Judjing](/images/posts/ethIndia/judjing.webp)
+![ETH India 23 Judjing](/images/posts/ethIndia/judjing.webp)
 
 Now you're done with the judging, you manage to scrape through all the pitches with a smile, hiding away all your pain and anguish from the sleeplessness, but the sudden human interaction has propelled a new energy within you. You are excited to showcase your usecase and the tech to people who are genuinely interested to know more about it.
 
 You stood through the lines of judging, demonstrated your project successfully to a bunch of people. Now it's time to wait.
 You just find the nearest bean bag and (possibly) pass out.
 
-![Rest](/images/posts/ethIndia/rest.webp)
+![eth India Rest](/images/posts/ethIndia/rest.webp)
 
 It's almost 5, you catch up with your friends, get to know some more people, say goodbye to a few who are leaving early, that's when it strikes, the grandstand opens up and the winner declaration is about to begin
 
@@ -86,18 +86,18 @@ It's almost 5, you catch up with your friends, get to know some more people, say
 
 But wait---
 
-![Singing](/images/posts/ethIndia/singing.webp)
+![ethIndia Singing](/images/posts/ethIndia/singing.webp)
 
 There's some singing, some cheering, a few short speeches to wake everyone up before the judging results are showcased.
 But first, the demo's of the finalist teams.
 
 There were 13 Finalists this year, who presented their projects in front of everyone.
 
-![Poster](/images/posts/ethIndia/poster.webp)
+![ethIndia Poster](/images/posts/ethIndia/poster.webp)
 
 Finally, the moment shines, you read as fast as your eyes can through the sponsor prizes, and there it is.
 
-![Thread](/images/posts/ethIndia/thread.webp)
+![ethIndia Thread](/images/posts/ethIndia/thread.webp)
 
 All your efforts for the past 50 odd hours are worth it now. You feel the peace to fall asleep on your way back to Delhi after a awesome weekend of Builder Energy.
 
