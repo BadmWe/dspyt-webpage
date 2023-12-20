@@ -6,7 +6,7 @@ twitter: "https://twitter.com/samanta_gyanesh"
 linkedin: "https://www.linkedin.com/in/gyanesh-samanta/"
 instagram: "/"
 github: "https://github.com/GyaneshSamanta"
-description: "Transforming data into seamless product excellence. Visualize efficient, tailored solutions for core objectives. Elevate with synchronized data insights and innovation."
+description: "Unleashing data for product excellence. Visualize tailored solutions, elevate with synchronized insights, and drive innovation."
 ---
 
 <h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
