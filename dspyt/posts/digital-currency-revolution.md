@@ -1,7 +1,7 @@
 ---
 title: "CBDCs: Navigating the Digital Financial Future - A Paradigm Shift, Motivations, Challenges, and Global Initiatives"
 date: "December 16, 2023"
-excerpt: "Explore the future of finance with Central Bank Digital Currencies (CBDCs). Uncover benefits, global initiatives, and their impact on monetary policies. Join us in navigating the digital currency landscape."
+excerpt: "Explore the finance future with CBDCs. Uncover benefits, global initiatives, and their impact on policies. Join us in navigating the digital currency landscape."
 cover_image: "/images/posts/defi/CBDC.webp"
 authors: ["dmitrii-fedotov"]
 tags:

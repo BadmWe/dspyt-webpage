@@ -1,7 +1,7 @@
 ---
 title: "How we won at ETHIndia'23"
 date: "December 17, 2023"
-excerpt: "Experience the intense journey of ETHIndia'23: from ideation to exhaustion. Teams conquer hurdles, fueled by caffeine and camaraderie. Witness the thrill, innovation, and the sweet taste of success."
+excerpt: "Experience ETHIndia'23: teams navigate ideation to triumph, fueled by caffeine and camaraderie. Witness thrill, innovation, and sweet success."
 cover_image: "/images/posts/ethIndia/mainpage.webp"
 authors: ["gyanesh-samanta"]
 tags:

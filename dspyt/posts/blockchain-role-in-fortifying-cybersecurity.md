@@ -1,7 +1,7 @@
 ---
 title: "The Crucial Alliance: Blockchain's Role in Fortifying Cybersecurity"
 date: "December 16, 2023"
-excerpt: "As cyber threats continue to evolve in sophistication and scale, the integration of blockchain technology emerges as a formidable ally in the battle against cyber adversaries."
+excerpt: "Blockchain tech, a potent ally against cyber threats, counters evolving challenges in scale and sophistication, bolstering the fight against adversaries."
 cover_image: "/images/posts/cybersecurity/cybersecurity.webp"
 authors: ["alexfedotovqq"]
 tags:
