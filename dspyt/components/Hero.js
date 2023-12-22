@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="mx-auto max-w-md sm:max-w-xl lg:max-w-7xl px-4 sm:px-6 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24">
           <div className="max-w-xl">
             <h1 className="text-4xl sm:text-6xl text-center sm:text-left font-bold tracking-tight text-gray-900 dark:text-gray-100">
-              DSPYT - CodeVerse
+              DSPYT - into CodeVerse
             </h1>
             <p className="mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300 tracking-tight sm:tracking-wide">
               Join our community to explore the latest trends in data science,
@@ -28,6 +28,7 @@ export default function Hero() {
                 className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
                 src={HeroImage}
                 alt="DSPYT - CodeVerse"
+                loading="lazy"
               />
             </div>
           </div>
