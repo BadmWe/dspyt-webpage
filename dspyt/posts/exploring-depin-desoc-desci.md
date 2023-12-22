@@ -1,21 +1,26 @@
 ---
 title: "Exploring Three New De's in the Crypto Space: DePIN, DeSci, and DeSoc"
 date: "December 22, 2023"
-excerpt: ""
+excerpt: "Exploring DePIN, DeSoc, DeSci: Decentralized infrastructure, social media revenue, and scientific innovation promise transformative opportunities in crypto."
 cover_image: "/images/posts/arbitrum/3Ds.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
+    "revenue distribution platforms",
     "social media",
-    "Ethereum",
+    "VitaDAO",
+    "decentralized",
     "defi",
     "desci",
     "depin",
     "daos",
     "desoc",
-    "VitaDAO",
     "crypto",
     "non-financial sector",
+    "blockchain",
+    "infrastructure services",
+    "beyond DeFi",
+    "Decentralized infrastructure services",
   ]
 ---
 
