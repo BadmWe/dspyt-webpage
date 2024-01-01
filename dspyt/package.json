@@ -40,7 +40,7 @@
     "rehype-slug": "^6.0.0",
     "remark-footnotes": "^4.0.1",
     "remark-gfm": "^3.0.1",
-    "sharp": "^0.32.5",
+    "sharp": "^0.33.1",
     "tailwindcss": "^3.1.7",
     "unist-util-visit": "^5.0.0",
     "xdm": "^3.4.0"
