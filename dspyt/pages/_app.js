@@ -1,5 +1,9 @@
 import "@/styles/globals.css";
 import "@/styles/prism.css";
+
+import "@uiw/react-md-editor/markdown-editor.css";
+import "@uiw/react-markdown-preview/markdown.css";
+
 import "katex/dist/katex.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
