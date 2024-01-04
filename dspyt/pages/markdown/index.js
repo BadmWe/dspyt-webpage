@@ -9,7 +9,7 @@ const MDEditor = dynamic(
 );
 
 function HomePage() {
-  /* const [markdown, setMarkdown] = useState(
+const [markdown, setMarkdown] = useState(
  `---
   title: ""
   date: ""
@@ -21,10 +21,10 @@ function HomePage() {
       "",
       "",
     ]
-  ---`
-    ); */
+---`
+    ); 
 
-    const [markdown, setMarkdown] = useState("")
+    // const [markdown, setMarkdown] = useState("")
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -57,7 +57,11 @@ function HomePage() {
   }} type="file" accept="image/*" onChange={handleFileChange} />
 <MDEditor
         value={markdown}
-        
+        preview="edit"
+        maxHeight={2000}
+        minHeight={600}
+        highlightEnable={false}
+
         onChange={
           setMarkdown
         }
