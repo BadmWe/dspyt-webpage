@@ -84,7 +84,7 @@ function HomePage() {
         value={markdown}
         preview="edit"
         maxHeight={2000}
-        minHeight={600}
+        minHeight={650}
         highlightEnable={false}
 
         onChange={
