@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import onImagePasted from "@/components/markdown/onImagePasted";
 
@@ -9,8 +9,9 @@ const MDEditor = dynamic(
 );
 
 function HomePage() {
-const [markdown, setMarkdown] = useState(
- `---
+  const [markdown, setMarkdown] = useState(() => {
+    if (typeof window !== "undefined") {
+    return localStorage.getItem("markdown") || `---
   title: ""
   date: ""
   excerpt: ""
@@ -21,19 +22,42 @@ const [markdown, setMarkdown] = useState(
       "",
       "",
     ]
----`
-    ); 
-
+---`;
+    }
+    return "";
+  });
     // const [markdown, setMarkdown] = useState("")
+
+  useEffect(() => {
+  // Save markdown content to local storage
+  if (typeof window !== "undefined") {
+  localStorage.setItem("markdown", markdown);
+  }
+}, [markdown]);
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
+
     if (file) {
-      const imagePath = `images/${file.name}`;
-      const updatedMarkdown = markdown.replace('cover_image: ""', `cover_image: "${imagePath}"`);
-      setMarkdown(updatedMarkdown);
+      const allowedTypes = ['image/png', 'image/webp', 'image/jpeg'];
+      if (allowedTypes.includes(file.type)) {
+        const imagePath = `images/${file.name}`;
+        const updatedMarkdown = markdown.replace('cover_image: ""', `cover_image: "${imagePath}"`);
+        setMarkdown(updatedMarkdown);
+      } else {
+        alert('Invalid file type. Please select a PNG, WebP, or JPEG image.');
+      }
     }
-  };
+  }
+
+  //   const file = event.target.files[0];
+  //   if (file) {
+  //     const imagePath = `images/${file.name}`;
+  //     const updatedMarkdown = markdown.replace('cover_image: ""', `cover_image: "${imagePath}"`);
+  //     setMarkdown(updatedMarkdown);
+  //   }
+  // };
+
   function exportUserInfo(userInfo) {
     const markdownData = userInfo;
     const blob = new Blob([markdownData], { type: "text/plain" });
@@ -44,17 +68,18 @@ const [markdown, setMarkdown] = useState(
     link.click();
   }
 
-  return (
+
+  return ( 
     <div>
-    <input  style={{
-    padding: '5px 10px',
-    backgroundColor: '#291BA8',
-    color: 'white',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    fontSize: '15px',
-  }} type="file" accept="image/*" onChange={handleFileChange} />
+<label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
+  Select a preview image
+  <input
+    type="file"
+    accept="image/*"
+    onChange={handleFileChange}
+    className="hidden"
+  />
+</label>
 <MDEditor
         value={markdown}
         preview="edit"
@@ -73,19 +98,11 @@ const [markdown, setMarkdown] = useState(
       }
 
       style={{
-        minHeight : "500px"
+        minHeight : "520px"
       }}
       />
 <button
-  style={{
-    padding: '9px 18px',
-    backgroundColor: '#291BA8',
-    color: 'white',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    fontSize: '15px',
-  }}
+  className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out"
   onClick={() => exportUserInfo(markdown)}
 >
   Create markdown
