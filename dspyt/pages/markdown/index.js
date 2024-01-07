@@ -84,9 +84,9 @@ function HomePage() {
         value={markdown}
         preview="edit"
         maxHeight={2000}
-        minHeight={650}
+        minHeight={700}
         highlightEnable={false}
-
+        
         onChange={
           setMarkdown
         }
@@ -98,7 +98,7 @@ function HomePage() {
       }
 
       style={{
-        minHeight : "520px"
+        minHeight : "500px"
       }}
       />
 <button
