@@ -1,11 +1,9 @@
-import FadeInSection from "@/components/FadeInSection";
 import HeroImage from "@/public/mainsave.webp";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <div className="pb-8 sm:pb-10 lg:pb-12">
-      <FadeInSection>
         <div className="pt-6 overflow-hidden sm:pt-8 lg:relative lg:py-48">
           <div className="mx-auto max-w-md sm:max-w-xl lg:max-w-7xl px-4 sm:px-6 lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24">
             <div className="max-w-xl">
@@ -36,7 +34,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </FadeInSection>
     </div>
   );
 }

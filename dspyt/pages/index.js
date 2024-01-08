@@ -1,4 +1,3 @@
-import FadeInSection from "@/components/FadeInSection";
 import Hero from "@/components/Hero";
 import Post from "@/components/Post";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
@@ -80,7 +79,6 @@ export default function Home({ posts }) {
       </Head>
       <div>
         <Hero />
-        <FadeInSection>
           <h2 className="homepage-h2">Data Science and Blockchain</h2>
 
           <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
@@ -88,8 +86,6 @@ export default function Home({ posts }) {
               <Post key={index} post={post} slug={post.slug} />
             ))}
           </div>
-        </FadeInSection>
-        <FadeInSection>
           <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
             <h2 className="homepage-h2">Meet our team</h2>
             <ul
@@ -166,8 +162,6 @@ export default function Home({ posts }) {
               ))}
             </ul>
           </div>
-        </FadeInSection>
-        <FadeInSection>
           <div className="grid relative mx-auto items-center justify-center ml-4 mr-4 mt-10">
             <div className="mt-20 text-center sm:max-w-xl">
               <h2 className="homepage-h2">Join the newsletter!</h2>
@@ -236,7 +230,6 @@ export default function Home({ posts }) {
               </div>
             </div>
           </div>
-        </FadeInSection>
         <div className="mt-20"></div>
       </div>
     </>
