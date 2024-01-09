@@ -42,7 +42,7 @@
     "remark-footnotes": "^4.0.1",
     "remark-gfm": "^3.0.1",
     "sharp": "^0.32.5",
-    "tailwindcss": "^3.1.7",
+    "tailwindcss": "^3.4.1",
     "unist-util-visit": "^5.0.0",
     "xdm": "^3.4.0"
   },
@@ -53,6 +53,6 @@
     "eslint-config-prettier": "^9.0.0",
     "postcss": "^8.4.14",
     "prettier": "2.x",
-    "tailwindcss": "^3.1.7"
+    "tailwindcss": "^3.4.1"
   }
 }
