@@ -6,22 +6,11 @@ cover_image: "/images/posts/auro/auro.jpg"
 authors: ["alexfedotovqq"]
 tags:
   [
-    "Cryptocurrency",
-    "Bitcoin",
-    "Blockchain",
-    "Cryptocurrency Mining",
-    "Proof-of-Work (PoW)",
-    "Environmental Impact",
-    "Renewable Energy",
-    "Green Technology",
-    "Sustainability",
-    "Eco-friendly Mining",
-    "Regulatory Measures",
-    "Technology Innovation",
-    "Carbon Footprint",
-    "Decentralization",
-    "Cryptocurrency Industry",
-    "Responsible Mining",
+    "Auro Wallet",
+    "Blockchain Integration",
+    "Decentralized Finance (DeFi)",
+    "Cryptocurrency Wallet",
+    "Frontend Development",
   ]
 ---
 
