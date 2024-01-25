@@ -6,9 +6,9 @@ import "katex/dist/katex.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import siteMetadata from "@/components/siteMetadata";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import Script from "next/script";
-import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
   return (
