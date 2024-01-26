@@ -2,7 +2,7 @@
 title: "Connecting Auro Wallet to Your Website"
 date: "January 25, 2024"
 excerpt: "Open your website in a browser, ensure that the Auro Wallet is installed, and click the Connect Wallet button. Verify that the wallet address is displayed upon successful connection."
-cover_image: "/images/posts/auro/auro.jpg"
+cover_image: "/images/posts/auro/auro.webp"
 authors: ["alexfedotovqq"]
 tags:
   [
@@ -132,11 +132,11 @@ Adjust the button styling in the `WalletButton` component according to your webs
 
 Open your website in a browser, ensure that the Auro Wallet is installed, and click the Connect Wallet button. Verify that the wallet address is displayed upon successful connection.
 
-1. ![1](/images/posts/auro/1.png)
+1. ![1](/images/posts/auro/1.webp)
 
-2. ![2](/images/posts/auro/2.png)
+2. ![2](/images/posts/auro/2.webp)
 
-3. ![3](/images/posts/auro/3.png)
+3. ![3](/images/posts/auro/3.webp)
 
 That&apos;s it! You have successfully integrated the Auro Wallet connection function
 
