@@ -36,7 +36,9 @@ export default function Post({ post, slug }) {
         </p>
         <div className="block mt-2">
           <Link href={`/${slug}`}>
-            <p className="text-xl font-semibold text-gray-900 hover:text-primary-600 dark:hover:text-primary-400">{title}</p>
+            <p className="text-xl font-semibold text-gray-900 hover:text-primary-600 dark:hover:text-primary-400">
+              {title}
+            </p>
           </Link>
           <p className="mt-3 text-base text-gray-500">{excerpt}</p>
         </div>

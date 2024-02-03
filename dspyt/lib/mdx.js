@@ -3,15 +3,11 @@ import path from "path";
 import matter from "gray-matter";
 import { bundleMDX } from "mdx-bundler";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypeCitation from "rehype-citation";
-import rehypeKatex from "rehype-katex";
 import rehypePresetMinify from "rehype-preset-minify";
 import rehypePrismPlus from "rehype-prism-plus";
 // Rehype packages
 import rehypeSlug from "rehype-slug";
-import remarkFootnotes from "remark-footnotes";
 // Remark packages
-import remarkGfm from "remark-gfm";
 import remarkCodeTitles from "./remark-code-title";
 import remarkExtractFrontmatter from "./remark-extract-frontmatter";
 import remarkImgToJsx from "./remark-img-to-jsx";
@@ -78,17 +74,13 @@ export async function getFileBySlug(type, slug) {
         ...(options.remarkPlugins ?? []),
         remarkExtractFrontmatter,
         [remarkTocHeadings, { exportRef: toc }],
-        remarkGfm,
         remarkCodeTitles,
-        [remarkFootnotes, { inlineNotes: true }],
         remarkImgToJsx,
       ];
       options.rehypePlugins = [
         ...(options.rehypePlugins ?? []),
         rehypeSlug,
         rehypeAutolinkHeadings,
-        rehypeKatex,
-        [rehypeCitation, { path: path.join(root, "data") }],
         [rehypePrismPlus, { ignoreMissing: true }],
         rehypePresetMinify,
       ];

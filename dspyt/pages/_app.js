@@ -2,12 +2,11 @@ import "@/styles/globals.css";
 import "@/styles/prism.css";
 import "@uiw/react-md-editor/markdown-editor.css";
 import "@uiw/react-markdown-preview/markdown.css";
-import "katex/dist/katex.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import siteMetadata from "@/components/siteMetadata";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "next-themes";
 import Script from "next/script";
 
