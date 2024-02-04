@@ -1,7 +1,5 @@
 import "@/styles/globals.css";
 import "@/styles/prism.css";
-import "@uiw/react-md-editor/markdown-editor.css";
-import "@uiw/react-markdown-preview/markdown.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import siteMetadata from "@/components/siteMetadata";
