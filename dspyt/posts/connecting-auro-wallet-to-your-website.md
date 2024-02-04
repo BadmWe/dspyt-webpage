@@ -20,11 +20,11 @@ In this guide, I will tell you about the process of connecting Auro Wallet to yo
 
 - Ensure that the [Auro Wallet](https://www.aurowallet.com/) is installed on your device.
 
-## Let&apos;s get started!
+## Let&apos;s get started
 
-### 1. Import Necessary Libraries:
+### 1. Import Necessary Libraries
 
-```jsx
+```js {1, 2}
 import { effect, signal } from "@preact/signals-react";
 import { useEffect, useState } from "react";
 ```
@@ -33,7 +33,7 @@ Ensure you have these dependencies installed and properly configured in your pro
 
 ### 2. Define Local Storage Key
 
-```jsx
+```js
 const LOCAL_STORAGE_KEY = "MINA";
 ```
 
@@ -111,7 +111,7 @@ This component displays a button that either shows the connected wallet address 
 
 Place the `WalletButton` component where you want the wallet connection button to appear on your website. For example:
 
-```jsx
+```jsx showLineNumbers
 import { WalletButton } from "./path/to/WalletButton";
 
 function App() {

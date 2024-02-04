@@ -1,18 +1,18 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import { bundleMDX } from "mdx-bundler";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypePresetMinify from "rehype-preset-minify";
-import rehypePrismPlus from "rehype-prism-plus";
-// Rehype packages
-import rehypeSlug from "rehype-slug";
 // Remark packages
 import remarkCodeTitles from "./remark-code-title";
 import remarkExtractFrontmatter from "./remark-extract-frontmatter";
 import remarkImgToJsx from "./remark-img-to-jsx";
 import remarkTocHeadings from "./remark-toc-headings";
 import getAllFilesRecursively from "./utils/files";
+import fs from "fs";
+import matter from "gray-matter";
+import { bundleMDX } from "mdx-bundler";
+import path from "path";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypePresetMinify from "rehype-preset-minify";
+import rehypePrismPlus from "rehype-prism-plus";
+// Rehype packages
+import rehypeSlug from "rehype-slug";
 
 const root = process.cwd();
 
@@ -66,7 +66,7 @@ export async function getFileBySlug(type, slug) {
     source,
     // mdx imports can be automatically source from the components directory
     cwd: path.join(root, "components"),
-    xdmOptions(options) {
+    mdxOptions(options) {
       // this is the recommended way to add custom remark/rehype plugins:
       // The syntax might look weird, but it protects you in case we add/remove
       // plugins in the future.

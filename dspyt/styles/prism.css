@@ -40,15 +40,23 @@
   content: attr(line);
 }
 
+.token.punctuation {
+  color: rgb(199, 146, 234);
+}
+
+.token.imports {
+  color: rgb(80, 172, 208);
+}
+
+.token.keyword.module {
+  color:  rgb(199, 146, 234);
+}
+
 .token.comment,
 .token.prolog,
 .token.cdata {
   color: rgb(99, 119, 119);
   font-style: italic;
-}
-
-.token.punctuation {
-  color: rgb(199, 146, 234);
 }
 
 .namespace {
