@@ -40,16 +40,14 @@
   content: attr(line);
 }
 
-.token.punctuation {
+.token.punctuation,
+.token.keyword.control-flow,
+.token.keyword.module {
   color: rgb(199, 146, 234);
 }
 
 .token.imports {
   color: rgb(80, 172, 208);
-}
-
-.token.keyword.module {
-  color:  rgb(199, 146, 234);
 }
 
 .token.comment,

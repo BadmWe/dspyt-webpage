@@ -9,6 +9,11 @@ tags:
     "Auro Wallet",
     "Blockchain Integration",
     "Decentralized Finance (DeFi)",
+    "DeFi",
+    "Mina",
+    "Blockchain",
+    "Wallet",
+    "Privacy",
     "Cryptocurrency Wallet",
     "Frontend Development",
   ]
@@ -132,11 +137,17 @@ Adjust the button styling in the `WalletButton` component according to your webs
 
 Open your website in a browser, ensure that the Auro Wallet is installed, and click the Connect Wallet button. Verify that the wallet address is displayed upon successful connection.
 
-1. ![1](/images/posts/auro/1.webp)
+- Step `1`
 
-2. ![2](/images/posts/auro/2.webp)
+![Auro Wallet 1](/images/posts/auro/1.webp)
 
-3. ![3](/images/posts/auro/3.webp)
+- Step `2`
+
+![Auro Wallet 2](/images/posts/auro/2.webp)
+
+- Step `3`
+
+![Auro Wallet 3](/images/posts/auro/3.webp)
 
 That&apos;s it! You have successfully integrated the Auro Wallet connection function
 
