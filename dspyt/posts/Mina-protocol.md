@@ -15,6 +15,18 @@ tags:
     "Privacy",
     "security",
     "decentralized",
+    "Mina Protocol",
+    "Mini-Blockchain",
+    "Blockchain Technology",
+    "Zero Knowledge Proofs",
+    "Scalability",
+    "Developer-Friendly",
+    "Lightweight Blockchain",
+    "Decentralized Applications",
+    "Privacy-Centric Infrastructure",
+    "Blockchain Development",
+    "Mina Community",
+    "Blockchain Innovation",
   ]
 ---
 

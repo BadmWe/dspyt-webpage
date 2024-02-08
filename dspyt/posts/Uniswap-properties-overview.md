@@ -14,6 +14,16 @@ tags:
     "finance",
     "ethereum",
     "constant product markets",
+    "PRICE ORACLE",
+    "CRYPTOCURRENCY",
+    "AUTOMATED MARKET MAKER",
+    "CRYPTO TRADING",
+    "SMART CONTRACTS",
+    "ASSET PRICING",
+    "RESILIENT",
+    "ON-CHAIN ASSETS",
+    "TOKEN SWAPS",
+    "LIQUIDITY PROTOCOL",
   ]
 authors: ["pavel-fedotov"]
 ---

@@ -8,7 +8,7 @@ tags:
   [
     "Auro Wallet",
     "Blockchain Integration",
-    "Decentralized Finance (DeFi)",
+    "Decentralized Finance",
     "DeFi",
     "Mina",
     "Blockchain",
@@ -16,6 +16,7 @@ tags:
     "Privacy",
     "Cryptocurrency Wallet",
     "Frontend Development",
+    "NextJs",
   ]
 ---
 
