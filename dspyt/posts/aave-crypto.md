@@ -6,22 +6,22 @@ cover_image: "/images/posts/defi/aavearticle.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
-  "Decentralized Finance",
-  "Flash Loans",
-  "AAVE",
-  "DeFi",
-  "Crypto",
-  "Governance Token",
-  "Smart Contracts",
-  "it",
-  "Financial Inclusion",
-  "Crypto Innovation",
-  "content",
-  "Variable Interest Rates",
-  "Decentralized",
-  "Ethereum",
-  "Collateralized Borrowing",
-  "Liquidity Provider",
+    "Decentralized Finance",
+    "Flash Loans",
+    "AAVE",
+    "DeFi",
+    "Crypto",
+    "Governance Token",
+    "Smart Contracts",
+    "it",
+    "Financial Inclusion",
+    "Crypto Innovation",
+    "content",
+    "Variable Interest Rates",
+    "Decentralized",
+    "Ethereum",
+    "Collateralized Borrowing",
+    "Liquidity Provider",
   ]
 ---
 
@@ -48,8 +48,6 @@ Unlike traditional lending models with fixed interest rates, AAVE employs a vari
 **4. Governance and AAVE Tokens**
 
 AAVE's governance model relies on its native utility token, AAVE. Holders of AAVE tokens have the power to propose and vote on changes to the protocol, influencing its development and direction. This decentralized governance structure emphasizes community involvement and democratizes decision-making within the AAVE ecosystem.
-
-![AAVE Token](/images/posts/defi/tokenaave.webp)
 
 ## Role in the DeFi Ecosystem
 
