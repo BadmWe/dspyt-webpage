@@ -57,7 +57,9 @@ The main advantage of log returns is that we can easily aggregate them across ti
 
 Volatility plays an important role in trading and financial model forecasting. Next to directly modeling high–frequency returns, intra–day returns are also used to construct lower–frequency daily volatility measures, known as realized volatility. The application of volatility has tremendously increased due to the availability of high-frequency data and computational resources.
 
-<p><strong>Layman’s definition:&nbsp;</strong>&nbsp; Realized volatility is the magnitude of daily price movements, regardless of direction, over a specific period. </p><p><strong>Technical definition:</strong>&nbsp;  Realized volatility is the daily standard deviation of log returns of an underlying asset, index, instrument, security, or ETF over a defined period with an assumed mean of zero.</p>
+**Layman’s definition**: Realized volatility is the magnitude of daily price movements, regardless of direction, over a specific period.
+
+**Technical definition**: Realized volatility is the daily standard deviation of log returns of an underlying asset, index, instrument, security, or ETF over a defined period with an assumed mean of zero.
 
 Traders and data scientists use "realized volatility" to assess the predictive performance and adequacy of existing models and strategies due to our ability to observe the metric's non-latent character. Realized volatility is a particularly powerful indicator of price risk and its dynamics.
 
@@ -92,7 +94,7 @@ df.groupby(df.index.date).agg(realized_variance)
 
 ## Summary
 
-Using financial returns instead of prices allows us to measure and compare all financial instruments and assets. In Pandas, we calculate simple returns with an in-built pandas function called `pct_change` that calculates percentage change and use numpy's `log` to calculate log returns. The main advantage of log returns is that we can easily aggregate them across time, unlike simple returns. Log returns are symmetric around 0, and log return values can range from minus infinity to plus infinity. Whereas, simple returns' downside is limited to -100%, a negative movement of -25% (movement from 100 USD to 75 USD) does not reverse the losses by going +25%. (75 USD to 93.75 USD).
+Using financial returns instead of prices allows us to measure and compare all financial instruments and assets. In Pandas, we calculate simple returns with an in-built pandas function called `pct_change` that calculates percentage change and use numpy's `log` to calculate log returns. The main advantage of log returns is that we can easily aggregate them across time, unlike simple returns. Log returns are symmetric around 0, and log return values can range from minus infinity to plus infinity. Whereas, simple returns' downside is limited to `-100%`, a negative movement of `-25%` (movement from 100 USD to 75 USD) does not reverse the losses by going `+25%`. (75 USD to 93.75 USD).
 
 ## References and Related Posts
 
