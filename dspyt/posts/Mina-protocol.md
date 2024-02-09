@@ -28,6 +28,7 @@ tags:
     "Mina Community",
     "Blockchain Innovation",
   ]
+authors: ["pavel-fedotov"]
 ---
 
 Blockchain technology has transformed the way we store data, bringing about new opportunities for decentralized systems. Mina Protocol, a groundbreaking platform, offers a lightweight, scalable, and privacy-friendly infrastructure. In this blog post, we will explore the world of Mina Protocol, understand its features, benefits, and provide a comprehensive guide on getting started in this innovative ecosystem.
@@ -59,6 +60,15 @@ b) Privacy and Security: Mina Protocol is designed with privacy in mind. Zero Kn
 c) Accessibility and Affordability: Mina Protocol's lightweight design and minimal storage requirements allow even resource-constrained devices and networks to participate in transactions. This accessibility makes Mina suitable for diverse use cases and enables a wider range of users and devices to interact with the blockchain.
 
 d) Development Opportunities: Mina Protocol provides a developer-friendly environment that fosters innovation. With its concise codebase, simple syntax, and comprehensive libraries, developers can quickly build decentralized applications (dApps) and contribute to the growth of the ecosystem. The Mina community embraces collaboration and provides extensive documentation and support for developers to explore and experiment.
+
+## Developer Resources
+
+[MinaExplorer FAQs](https://docs.minaexplorer.com/minaexplorer/faqs)
+
+Testnet Berkeley explorers:
+
+- [MinaExplorer Berkeley](https://berkeley.minaexplorer.com/)
+- [Minascan Berkeley](https://minascan.io/berkeley/home)
 
 ## Conclusion
 
