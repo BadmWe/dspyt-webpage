@@ -70,6 +70,12 @@ Testnet Berkeley explorers:
 - [MinaExplorer Berkeley](https://berkeley.minaexplorer.com/)
 - [Minascan Berkeley](https://minascan.io/berkeley/home)
 
+GraphQL API Endpoints:
+
+- [Auro Wallet Berkeley](https://mina-berkeley-graphql.aurowallet.com/graphql)
+- [Auro Wallet Mainnet](https://mina-mainnet-graphql.aurowallet.com/graphql)
+- [StakeTab GraphQL list of endpoints Berkeley](https://services.staketab.org/docs/mina/endpoints/)
+
 ## Conclusion
 
 Mina Protocol is a game-changer in the blockchain landscape, offering a lightweight, scalable, and privacy-centric infrastructure that facilitates decentralized innovation. By following the steps outlined in this blog post, you can easily immerse yourself in the Mina ecosystem, harness its advantages, and contribute to the growth of this cutting-edge platform. Embrace this novel technology, join the Mina communities, and get ready to unlock the unlimited possibilities that Mina Protocol presents.
