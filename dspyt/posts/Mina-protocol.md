@@ -41,25 +41,25 @@ Mina Protocol is a next-generation blockchain powered by Zero Knowledge Proofs (
 
 To begin your journey in the Mina Protocol ecosystem, follow these steps:
 
-a) Install the Mina Protocol Node: The first step is to download and install the Mina Protocol node software. This software allows you to interact with the Mina network, participate in the consensus mechanism, and earn rewards for securing the blockchain.
+1. **Install the Mina Protocol Node**: The first step is to download and install the Mina Protocol node software. This software allows you to interact with the Mina network, participate in the consensus mechanism, and earn rewards for securing the blockchain.
 
-b) Create a Wallet: Once the node is installed, create a wallet to securely store your MINA tokens. Your wallet will serve as your gateway to participating in transactions, staking, and delegating. Ensure you keep your wallet credentials safe and back up your wallet for added security.
+2. **Create a Wallet**: Once the node is installed, create a wallet to securely store your MINA tokens. Your wallet will serve as your gateway to participating in transactions, staking, and delegating. Ensure you keep your wallet credentials safe and back up your wallet for added security.
 
-c) Join the Mina Communities: Engaging with the vibrant Mina communities is crucial for gaining insights, support, and connecting with like-minded individuals. Join the official Mina Discord, Telegram, and Reddit communities to become part of the growing ecosystem. These platforms provide valuable resources, tutorials, and discussions to help you navigate the Mina Protocol.
+3. **Join the Mina Communities**: Engaging with the vibrant Mina communities is crucial for gaining insights, support, and connecting with like-minded individuals. Join the official Mina Discord, Telegram, and Reddit communities to become part of the growing ecosystem. These platforms provide valuable resources, tutorials, and discussions to help you navigate the Mina Protocol.
 
-d) Explore Mina Projects: The Mina ecosystem is home to a diverse range of projects being built on top of the protocol. Keep an eye out for decentralized finance (DeFi) applications, privacy-focused tools, NFT platforms, and much more. Exploring these projects not only expands your understanding of the Mina ecosystem but also presents opportunities for collaboration or innovation.
+4. **Explore Mina Projects**: The Mina ecosystem is home to a diverse range of projects being built on top of the protocol. Keep an eye out for decentralized finance (DeFi) applications, privacy-focused tools, NFT platforms, and much more. Exploring these projects not only expands your understanding of the Mina ecosystem but also presents opportunities for collaboration or innovation.
 
 ## Advantages of Working in the Mina Protocol Ecosystem
 
 Working within the Mina Protocol ecosystem offers numerous benefits, including:
 
-a) Scalability: Mina Protocol's commitment to lightweight blockchains ensures exceptional scalability. With its succinct representation of the blockchain, Mina eliminates the need for extensive hardware infrastructure. This opens doors for applications that require fast and efficient processing without compromising decentralization.
+1. **Scalability**: Mina Protocol's commitment to lightweight blockchains ensures exceptional scalability. With its succinct representation of the blockchain, Mina eliminates the need for extensive hardware infrastructure. This opens doors for applications that require fast and efficient processing without compromising decentralization.
 
-b) Privacy and Security: Mina Protocol is designed with privacy in mind. Zero Knowledge Proofs enable users to prove the correctness of transactions and computations without sensitive data. Transactions and personal information are not visible on the blockchain, ensuring robust privacy and enhanced security.
+2. **Privacy and Security**: Mina Protocol is designed with privacy in mind. Zero Knowledge Proofs enable users to prove the correctness of transactions and computations without sensitive data. Transactions and personal information are not visible on the blockchain, ensuring robust privacy and enhanced security.
 
-c) Accessibility and Affordability: Mina Protocol's lightweight design and minimal storage requirements allow even resource-constrained devices and networks to participate in transactions. This accessibility makes Mina suitable for diverse use cases and enables a wider range of users and devices to interact with the blockchain.
+3. **Accessibility and Affordability**: Mina Protocol's lightweight design and minimal storage requirements allow even resource-constrained devices and networks to participate in transactions. This accessibility makes Mina suitable for diverse use cases and enables a wider range of users and devices to interact with the blockchain.
 
-d) Development Opportunities: Mina Protocol provides a developer-friendly environment that fosters innovation. With its concise codebase, simple syntax, and comprehensive libraries, developers can quickly build decentralized applications (dApps) and contribute to the growth of the ecosystem. The Mina community embraces collaboration and provides extensive documentation and support for developers to explore and experiment.
+4. **Development Opportunities**: Mina Protocol provides a developer-friendly environment that fosters innovation. With its concise codebase, simple syntax, and comprehensive libraries, developers can quickly build decentralized applications (dApps) and contribute to the growth of the ecosystem. The Mina community embraces collaboration and provides extensive documentation and support for developers to explore and experiment.
 
 ## Developer Resources
 
