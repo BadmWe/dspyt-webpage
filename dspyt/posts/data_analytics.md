@@ -72,7 +72,6 @@ Because Etherscan's APIs are provided as a community service with no warranties,
 
 We obtained the following phishing labeled addresses data sets using Dune Analytics Queries:
 [Weekly Aggregated Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
-[Aggregated by Receiver Address](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedByAddress322768.csv),
 [Tabular Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv).
 
 Next visualize the data set with the help of Dune Analytics:
