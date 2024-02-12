@@ -28,14 +28,19 @@ In this guide, I will tell you about the process of connecting Auro Wallet to yo
 
 ## Let&apos;s get started
 
-### 1. Import Necessary Libraries
+In case, you do not have react library installed:
 
-```js {1, 2}
-import { effect, signal } from "@preact/signals-react";
+`npm install react`
+
+This will install the React library into your project.
+
+### 1. Import Necessary hooks
+
+After that, you can use the hooks by importing them as shown:
+
+```js {1}
 import { useEffect, useState } from "react";
 ```
-
-Ensure you have these dependencies installed and properly configured in your project.
 
 ### 2. Define Local Storage Key
 
