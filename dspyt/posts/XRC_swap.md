@@ -23,9 +23,9 @@ The rise of decentralized finance (DeFi) has revolutionized the financial world,
 
 ## Secure and Reliable: Building XRC Swap Protocol for Automated Token Exchange
 
-[XRC Swap](https://github.com/Pfed-prog/XRC-Swap) is a decentralized protocol for automated token exchange on XDC. It provides a trustless and permissionless system for users to easily swap between XRC20 tokens, as well as providing liquidity to other projects and protocols. The protocol was built using a combination of Solidity smart contracts and a React Framework Nextjs. The smart contracts handle the exchange of tokens, while Nextjs provides serves an decentralized application to an end user.
+XRC Swap is a decentralized protocol for automated token exchange on XDC. It provides a trustless and permissionless system for users to easily swap between XRC20 tokens, as well as providing liquidity to other projects and protocols. The protocol was built using a combination of Solidity smart contracts and a React Framework Nextjs. The smart contracts handle the exchange of tokens, while Nextjs provides serves an decentralized application to an end user.
 
-The primary challenge faced while building [XRC Swap](https://github.com/Pfed-prog/XRC-Swap) was ensuring that the protocol was secure and reliable. The team had to ensure that the smart contracts were written in a way that would protect users from potential exploits and would handle unexpected errors gracefully. They also had to ensure that Nextjs was written in a way that would provide a secure and user-friendly interface for users to interact with the protocol.
+The primary challenge faced while building XRC Swap was ensuring that the protocol was secure and reliable. The team had to ensure that the smart contracts were written in a way that would protect users from potential exploits and would handle unexpected errors gracefully. They also had to ensure that Nextjs was written in a way that would provide a secure and user-friendly interface for users to interact with the protocol.
 
 ## Continuously Improving: XRC Swap Protocol Offering Secure and Reliable Liquidity Solution
 
@@ -47,7 +47,6 @@ XRC Swap is a decentralized protocol for automated token exchange on XDC. It pro
 
 ## Related Links and Posts
 
-- [XRC Swap GitHub repository](https://github.com/Pfed-prog/XRC-Swap)
 - [XRC Swap Devpost](https://devpost.com/software/xrc-swap)
 - [What is a blockchain address?](https://dspyt.com/what-is-blockchain-address)
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)

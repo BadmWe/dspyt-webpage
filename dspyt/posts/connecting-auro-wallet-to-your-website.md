@@ -1,7 +1,7 @@
 ---
 title: "Connecting Auro Wallet to Your Website"
 date: "January 25, 2024"
-excerpt: "Open your website in a browser, ensure that the Auro Wallet is installed, and click the Connect Wallet button. Verify that the wallet address is displayed upon successful connection."
+excerpt: "Open your website, ensure Auro Wallet is installed, click Connect Wallet, and verify displayed wallet address upon connection."
 cover_image: "/images/posts/auro/auro.webp"
 authors: ["alexfedotovqq"]
 tags:

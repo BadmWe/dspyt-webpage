@@ -36,7 +36,7 @@ First, You have to select the pool you want to lend or borrow. Once you select t
 
 ## First Strategy: Pool #46 + Uniswap
 
-Our first strategy takes into account the Pool numbered 46 available at: [Link](https://app.rari.capital/fuse/pool/46). As this is an emerging pool it has relatively high risk in comparison to other pools. This provides an opportunity to earn interest on the collateral and farm RAI stablecoin on Uniswap.
+Our first strategy takes into account the Pool numbered 46. As this is an emerging pool it has relatively high risk in comparison to other pools. This provides an opportunity to earn interest on the collateral and farm RAI stablecoin on Uniswap.
 
 ## First Step: Supplying Tokens
 

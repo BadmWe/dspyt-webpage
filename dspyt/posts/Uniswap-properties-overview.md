@@ -1,5 +1,5 @@
 ---
-title: "Uniswap as a Price Oracle: Resilience, Properties, and Theoretical Soundness"
+title: "Uniswap: Price Oracle Resilience & Theoretical Soundness"
 date: "February 8, 2024"
 excerpt: "Uniswap's innovative constant-product market model positions it as a robust and reliable source for on-chain asset pricing."
 cover_image: "/images/posts/defi/Anime_Pastel_Dream_Create_a_pastel_animestyle_unicorn_in_a_Uni_0.webp"
