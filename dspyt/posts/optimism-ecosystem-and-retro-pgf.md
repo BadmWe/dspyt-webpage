@@ -9,6 +9,7 @@ tags:
     "Ethereum",
     "retropgf",
     "governance",
+    "governance forum",
     "OP",
     "blockchain",
     "community",
