@@ -19,7 +19,7 @@ tags:
   ]
 ---
 
-The rise of decentralized finance (DeFi) has revolutionized the financial world, allowing anyone to access a variety of financial services and investments without relying on a centralized entity. One of the most important aspects of DeFi is the ability to access liquidity and trade tokens in a secure and private manner. This is where [XRC Swap](https://github.com/Pfed-prog/XRC-Swap) comes in.
+The rise of decentralized finance (DeFi) has revolutionized the financial world, allowing anyone to access a variety of financial services and investments without relying on a centralized entity. One of the most important aspects of DeFi is the ability to access liquidity and trade tokens in a secure and private manner. This is where XRC Swap comes in.
 
 ## Secure and Reliable: Building XRC Swap Protocol for Automated Token Exchange
 
