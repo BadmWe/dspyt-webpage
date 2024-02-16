@@ -39,7 +39,7 @@ export default function remarkImgToJsx() {
           node.type = "div";
           node.children = [imageNode];
         }
-      }
+      },
     );
   };
 }

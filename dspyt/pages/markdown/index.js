@@ -27,7 +27,6 @@ function HomePage() {
     }
     return "";
   });
-  // const [markdown, setMarkdown] = useState("")
 
   useEffect(() => {
     // Save markdown content to local storage
@@ -45,7 +44,7 @@ function HomePage() {
         const imagePath = `images/${file.name}`;
         const updatedMarkdown = markdown.replace(
           'cover_image: ""',
-          `cover_image: "${imagePath}"`
+          `cover_image: "${imagePath}"`,
         );
         setMarkdown(updatedMarkdown);
       } else {
@@ -53,14 +52,6 @@ function HomePage() {
       }
     }
   };
-
-  //   const file = event.target.files[0];
-  //   if (file) {
-  //     const imagePath = `images/${file.name}`;
-  //     const updatedMarkdown = markdown.replace('cover_image: ""', `cover_image: "${imagePath}"`);
-  //     setMarkdown(updatedMarkdown);
-  //   }
-  // };
 
   function exportUserInfo(userInfo) {
     const markdownData = userInfo;
@@ -74,6 +65,7 @@ function HomePage() {
 
   return (
     <div>
+      <h2 className="dspyt-h2 mt-4">Create Markdown for Dspyt</h2>
       <label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
         Select a preview image
         <input
