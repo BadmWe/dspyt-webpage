@@ -1,7 +1,7 @@
 ---
-title: "The Dspyt Initiative: Addressing Low Participation Rates in AAVE Governance"
+title: "Addressing Low Participation Rates in AAVE Governance"
 date: "February 11, 2024"
-excerpt: "AAVE Governance: Low Participation Rates. How Dspyt could increase AAVE participation rates by 2.4%, increase legitimacy, promote inclusive decision-making in DeFi."
+excerpt: "AAVE Governance: Low Participation Rates. How Dspyt could increase AAVE participation rates by 2.4%, increase legitimacy, promote decision-making in DeFi."
 cover_image: "/images/posts/defi/aavemain.webp"
 authors: ["dmitrii-fedotov"]
 tags:
