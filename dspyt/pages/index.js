@@ -80,7 +80,7 @@ export default function Home({ posts }) {
       <div>
         <Hero />
 
-        <h2 className="homepage-h2">Data Science and Blockchain</h2>
+        <h2 className="dspyt-h2">Data Science and Blockchain</h2>
 
         <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
           {posts?.map((post, index) => (
@@ -88,7 +88,7 @@ export default function Home({ posts }) {
           ))}
         </div>
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
-          <h2 className="homepage-h2">Meet our team</h2>
+          <h2 className="dspyt-h2">Meet our team</h2>
           <ul
             role="list"
             className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
@@ -165,7 +165,7 @@ export default function Home({ posts }) {
         </div>
         <div className="grid relative mx-auto items-center justify-center ml-4 mr-4 mt-10">
           <div className="mt-20 text-center sm:max-w-xl">
-            <h2 className="homepage-h2">Join the newsletter!</h2>
+            <h2 className="dspyt-h2">Join the newsletter!</h2>
             <p className="text-center mt-10 text-2xl leading-6 text-gray-600 dark:text-gray-300">
               Subscribe to get the latest content by email.
             </p>

@@ -14,7 +14,7 @@ export default async function handler(req, res) {
       {
         email_address,
         status,
-      }
+      },
     );
   } catch (err) {
     return res.status(400).send({ error: true });

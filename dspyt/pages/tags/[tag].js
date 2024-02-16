@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const allPosts = await getAllFilesFrontMatter("posts");
   const filteredPosts = allPosts.filter((post) =>
-    post.tags.map((tag) => convertToSlug(tag)).includes(params.tag)
+    post.tags.map((tag) => convertToSlug(tag)).includes(params.tag),
   );
 
   for (let i = 0; i < filteredPosts.length; i++) {

@@ -27,7 +27,6 @@ function HomePage() {
     }
     return "";
   });
-  // const [markdown, setMarkdown] = useState("")
 
   useEffect(() => {
     // Save markdown content to local storage
@@ -45,7 +44,7 @@ function HomePage() {
         const imagePath = `images/${file.name}`;
         const updatedMarkdown = markdown.replace(
           'cover_image: ""',
-          `cover_image: "${imagePath}"`
+          `cover_image: "${imagePath}"`,
         );
         setMarkdown(updatedMarkdown);
       } else {
@@ -53,14 +52,6 @@ function HomePage() {
       }
     }
   };
-
-  //   const file = event.target.files[0];
-  //   if (file) {
-  //     const imagePath = `images/${file.name}`;
-  //     const updatedMarkdown = markdown.replace('cover_image: ""', `cover_image: "${imagePath}"`);
-  //     setMarkdown(updatedMarkdown);
-  //   }
-  // };
 
   function exportUserInfo(userInfo) {
     const markdownData = userInfo;
