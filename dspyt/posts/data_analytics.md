@@ -88,7 +88,7 @@ _Amount of ETH sent to flagged addresses over time_
 
 ## Phishing & Scams going through Bitly Data Set
 
-According to [Ranjeet Vidwans](https://www.clearedin.com/blog/shortened-urls-in-phishing-scams), in case of shortened links scams, the real domain name of the website is hidden behind random letters and digits when URL shorteners compress a link. These random numbers include no information that would alert the receiver that they were visiting a malicious link or being sent to a spoofing website where their credentials may be stolen. Since the majority of people don't know any better or can't resist, compromised shortened URLs appear in phishing emails and on social media postings, which would normally discourage some people from clicking.
+According to Ranjeet Vidwans, in case of shortened links scams, the real domain name of the website is hidden behind random letters and digits when URL shorteners compress a link. These random numbers include no information that would alert the receiver that they were visiting a malicious link or being sent to a spoofing website where their credentials may be stolen. Since the majority of people don't know any better or can't resist, compromised shortened URLs appear in phishing emails and on social media postings, which would normally discourage some people from clicking.
 
 Here is a [medium article](https://medium.com/mycrypto/following-an-ethereum-phishing-scam-down-the-rabbit-hole-9790484c3431)detailing an example of phishing attack using Bitly links. Below we scrapped the Bitly data sets initially provided by [409h Dune Analytics User](https://dune.com/409h):
 [Weekly Aggregated Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
