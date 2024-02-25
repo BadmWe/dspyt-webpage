@@ -22,7 +22,7 @@
     "esbuild": "^0.20.0",
     "gray-matter": "^4.0.3",
     "image-size": "1.1.1",
-    "marked": "^10.0.0",
+    "marked": "^12.0.0",
     "mdx-bundler": "^10.0.1",
     "next": "^14.0.1",
     "next-remove-imports": "^1.0.12",
