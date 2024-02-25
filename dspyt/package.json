@@ -19,7 +19,7 @@
     "@uiw/react-md-editor": "^4.0.2",
     "@vercel/analytics": "^1.2.1",
     "@vercel/speed-insights": "^1.0.8",
-    "esbuild": "^0.20.0",
+    "esbuild": "^0.20.1",
     "gray-matter": "^4.0.3",
     "image-size": "1.1.1",
     "marked": "^12.0.0",
