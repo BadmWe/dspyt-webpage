@@ -12,6 +12,7 @@ tags:
     "sklearn",
     "Protocol Labs",
     "blockchain",
+    "Ocean Market",
     "Ocean Marketplace",
   ]
 ---

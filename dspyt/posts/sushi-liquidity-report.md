@@ -14,6 +14,7 @@ tags:
     "defi",
     "LIDO",
     "Analysis",
+    "Ocean Market",
     "Ocean Marketplace",
   ]
 ---

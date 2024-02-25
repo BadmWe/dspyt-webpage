@@ -9,6 +9,7 @@ tags:
     "IPFS",
     "Ethereum",
     "Pin Save",
+    "PinSave",
     "nextjs",
     "evm",
     "ERC-725",
