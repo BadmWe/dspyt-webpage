@@ -3,7 +3,7 @@ title: "Futarchy - a form of governance, mechanism of the Meta-DAO"
 date: "February 25, 2024"
 excerpt: "What is Futarchy and How It Works. Why futarchy may be better than other forms of governance, participating in MetaDAO"
 cover_image: "/images/posts/defi/futarchy.webp"
-authors: ["dmitrii-fedotov"]
+authors: ["dspytdao"]
 tags:
   [
     "Meta-DAO",
