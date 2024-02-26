@@ -29,7 +29,7 @@
     "next-sitemap": "^4.2.3",
     "next-themes": "^0.2.1",
     "postcss": "^8.4.35",
-    "preact": "^10.6.2",
+    "preact": "^10.19.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "rehype-autolink-headings": "^7.1.0",
