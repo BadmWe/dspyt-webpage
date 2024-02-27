@@ -44,7 +44,7 @@ function HomePage() {
         const imagePath = `images/${file.name}`;
         const updatedMarkdown = markdown.replace(
           'cover_image: ""',
-          `cover_image: "${imagePath}"`,
+          `cover_image: "${imagePath}"`
         );
         setMarkdown(updatedMarkdown);
       } else {
