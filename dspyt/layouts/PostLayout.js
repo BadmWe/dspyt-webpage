@@ -10,7 +10,7 @@ import Link from "next/link";
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/posts/${fileName}`;
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `${siteMetadata.siteUrl}/${slug}`,
+    `${siteMetadata.siteUrl}/${slug}`
   )}`;
 
 const postDateTemplate = {
@@ -46,7 +46,7 @@ export default function PostLayout({
               <time dateTime={date}>
                 {new Date(date).toLocaleDateString(
                   siteMetadata.locale,
-                  postDateTemplate,
+                  postDateTemplate
                 )}
               </time>
             </dd>
@@ -95,7 +95,7 @@ export default function PostLayout({
                           >
                             {author.twitter.replace(
                               "https://twitter.com/",
-                              "@",
+                              "@"
                             )}
                           </Link>
                         )}

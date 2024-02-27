@@ -21,7 +21,7 @@ const onImagePasted = async (dataTransfer, setMarkdown) => {
         return;
       }
       setMarkdown(insertedMarkdown);
-    }),
+    })
   );
 };
 
