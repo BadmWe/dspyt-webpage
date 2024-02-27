@@ -69,6 +69,7 @@ export default function Home({ posts }) {
           name="description"
           content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
         />
+        <meta property="og:description" content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics." />
         <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
         <meta property="og:url" content="https://dspyt.com/" />
         <meta property="og:title" content="DSPYT: Data Science with Python" />
@@ -76,6 +77,9 @@ export default function Home({ posts }) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@dspytdao" />
         <meta name="twitter:creator" content="@pfedprog" />
+        <meta property="twitter:image" content="https://dspyt.com/DSPYT.png" />
+        <meta property="twitter:title" content="DSPYT: Data Science with Python" />
+        <meta property="twitter:description" content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics." />
       </Head>
       <div>
         <Hero />
