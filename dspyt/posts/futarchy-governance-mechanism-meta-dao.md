@@ -159,7 +159,7 @@ When an entrepreneur raises a project proposal, they specify a budget. That budg
 
 ![meta dao participate](/images/posts/defi/finishmetadao.webp)
 
-### To participate
+### Proposals and How to Participate
 
 We can classify proposals by their area and scope. Along the area axis, we have **business proposals** and **operations proposals**. Along the scope axis, we have **projects** and **direct actions**.
 
@@ -187,3 +187,10 @@ Futarchy represents a bold experiment in governance that seeks to overcome tradi
 
 
 ## Useful links
+
+- [The Meta-DAO Dashboard](https://dune.com/metadaohogs/themetadao)
+- [Governance Token](https://solscan.io/token/METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr)
+- [Meta-DAO Docs](https://docs.themetadao.org/)
+- [Twitter Meta-DAO](https://twitter.com/MetaDAOProject)
+- [Meta-DAO GitHub](https://github.com/metaDAOproject)
+- [Meta Dao Metrics](https://flipsidecrypto.xyz/pine/meta-dao-metrics-yG-0MP)
