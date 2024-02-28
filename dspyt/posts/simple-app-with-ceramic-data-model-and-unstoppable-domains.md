@@ -90,14 +90,7 @@ export const uauth = new UAuthConnector({
   clientID: process.env.REACT_APP_CLIENT_ID,
   clientSecret: process.env.REACT_APP_CLIENT_SECRET,
   redirectUri: process.env.REACT_APP_REDIRECT_URI,
-  //postLogoutRedirectUri: process.env.REACT_APP_POST_LOGOUT_REDIRECT_URI,
-  //fallbackIssuer: process.env.REACT_APP_FALLBACK_ISSUER,
-
-  // Scope must include openid and wallet
   scope: "openid wallet",
-
-  // Injected and walletconnect connectors are required
-  //connectors: {injected, walletconnect},
   connectors: { injected },
 });
 
@@ -262,255 +255,25 @@ On the initial state the app display three buttons, which relate to a distinct w
 
 In `DataModels.js` we define the determenistic Ceramic tiles where the users edits and stores skills data.
 
-```javascript
-import { TileDocument } from "@ceramicnetwork/stream-tile";
-import Resolution from "@unstoppabledomains/resolution";
-import { useEffect, useState } from "react";
-import styles from "./css/App.module.css";
+The `DataModels` component integrates with the Ceramic Network using the `TileDocument` library and resolves domain names using the `Resolution` library from Unstoppable Domains.
 
-const resolution = new Resolution();
+When initialized, `DataModels` component does the following:
 
-function DataModels(props) {
-  const [Data, setData] = useState();
-  const ceramic = props.ceramic;
-  const setAppStarted = props.setAppStarted;
-  const [Name, setName] = useState();
-  const [ID, setID] = useState();
-  const [Desc, setDesc] = useState();
-  const [ImageURL, setImageURL] = useState();
-  const [loadingMessage, setLoadingMessage] = useState("Loading...");
-  const [document, setDocument] = useState();
-  const [Decode, setDecoded] = useState();
-
-  useEffect(() => {
-    if (ceramic) {
-      setLoadingMessage("Loading your skills...");
-
-      (async () => {
-        const doc = await TileDocument.create(
-          ceramic,
-          null,
-          {
-            controllers: [ceramic.did.id],
-            deterministic: true,
-          },
-          { anchor: false, publish: false }
-        );
-        if (doc.content.description) {
-          setDesc(doc.content.description);
-        }
-        if (doc.content.name) {
-          setName(doc.content.name);
-        }
-        if (doc.content.image) {
-          setImageURL(doc.content.image);
-        }
-        if (doc.content.id) {
-          setID(doc.content.id);
-          await setDecoded(getResolution(doc.content.id));
-        }
-        if (doc.content.decode) {
-          setDecoded(doc.content.decode);
-        }
-        if (
-          doc.content.description ||
-          doc.content.name ||
-          doc.content.id ||
-          doc.content.image
-        ) {
-          setData({
-            name: Name,
-            id: ID,
-            description: Desc,
-            decode: Decode,
-            image: ImageURL,
-          });
-        }
-
-        setDocument(doc);
-        setLoadingMessage("");
-      })();
-    }
-  }, [ceramic]);
-
-  function getResolution(input) {
-    var promise = new Promise((resolve) => {
-      if (true) {
-        resolve(resolution.addr(input, "ETH"));
-      }
-    });
-
-    promise.then(
-      (result) => {
-        setDecoded(result);
-      },
-      function (error) {
-        setDecoded("");
-      }
-    );
-  }
-
-  function display() {
-    let Panel = (
-      <div className={styles.csnSkillRecord}>
-        <div className={styles.csnSkillRecordRight}>
-          <img
-            src={ImageURL}
-            alt="value"
-            className="image1"
-            width="200"
-            height="200"
-          />
-          <div className={styles.csnSkillName}>
-            <h1>{Name}</h1>
-          </div>
-          <div className={styles.csnSkillDesc}>
-            <h2> {ID} </h2>
-          </div>
-          <div className={styles.csnSkillDesc}>
-            <h2> {Decode} </h2>
-          </div>
-          <div className={styles.csnSkillDesc}>
-            <h2> {Desc} </h2>
-          </div>
-        </div>
-      </div>
-    );
-
-    return Panel;
-  }
-
-  function handleSubmit(e) {
-    setLoadingMessage("Updating...");
-    let t = setTimeout(() => {
-      setLoadingMessage("");
-    }, 20000);
-
-    if (ID) {
-      getResolution(ID);
-    }
-
-    let Data = {
-      name: Name,
-      id: ID,
-      description: Desc,
-      decode: Decode,
-      image: ImageURL,
-    };
-
-    setData(Data);
-
-    if (Data) {
-      (async () => {
-        await document.update(Data);
-        setLoadingMessage("");
-        clearTimeout(t);
-      })();
-    }
-
-    e.preventDefault();
-  }
-
-  function getSimpleSkillForm() {
-    return (
-      <form onSubmit={(e) => handleSubmit(e)}>
-        <div className={styles.csnFormLabel}>
-          <h2>Name</h2>
-        </div>
-        <div className={styles.csnFormInput}>
-          <input
-            type="text"
-            name="skill-name"
-            value={Name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-
-        <div className={styles.csnFormLabel}>
-          <h2>ID:Eth</h2>
-        </div>
-        <div className={styles.csnFormInput}>
-          <input
-            type="text"
-            name="skill-id"
-            value={ID}
-            onChange={(e) => setID(e.target.value)}
-          />
-        </div>
-
-        <div className={styles.csnFormLabel}>
-          <h2>Description</h2>
-        </div>
-        <div className={styles.csnFormInput}>
-          <input
-            name="skill-desc"
-            value={Desc}
-            onChange={(e) => setDesc(e.target.value)}
-          ></input>
-        </div>
-
-        <div className={styles.csnFormInput}>
-          <div className={styles.csnFormLabel}>
-            <h2>Image Url</h2>
-          </div>
-          <input
-            type="text"
-            name="skill-image-url"
-            value={ImageURL}
-            onChange={(e) => setImageURL(e.target.value)}
-          />
-        </div>
-
-        <input type="submit" name="submit" value="submit" />
-      </form>
-    );
-  }
-
-  function getSkillsPage() {
-    let skillsContent = (
-      <div className={styles.csnSkillsPage}>
-        <h1> Take Control of Your Data with TtD </h1>
-        <div className={styles.csnSkillsPageHeadingRow}>
-          <div onClick={() => setAppStarted(false)}></div>
-        </div>
-        <div className={styles.csnSkillsPageMainRow}>
-          {loadingMessage && (
-            <div className={styles.csnOverlay}>
-              <div className={styles.csnOverlayContent}>
-                <div className={styles.csnOverlayTextUpper}>
-                  <h2>{loadingMessage}</h2>
-                </div>
-              </div>
-            </div>
-          )}
-
-          <div className={styles.csnSkillsFormContainer}>
-            <div className={styles.csnSkillsFormContainerContent}>
-              <div>
-                <div>{getSimpleSkillForm()}</div>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.csnSkillsContainer}>
-            <div className="data-models">
-              {Data ? display(Data) : <h1>You need to add some data!</h1>}
-            </div>
-          </div>
-        </div>
-        <div className="Footer">
-          <h1>T+D</h1>
-        </div>
-      </div>
-    );
-    return skillsContent;
-  }
-
-  return getSkillsPage();
-}
-
-export default DataModels;
-```
+1. Initializes state variables to store data, the Ceramic document, and other necessary fields such as `Name`, `ID`, `Desc`, and `ImageURL` using the `useState` hook.
+2. The `useEffect` hook is used to perform actions upon component mounting and when `ceramic` prop changes.
+   - If the `ceramic` instance is available, it begins loading data.
+   - An asynchronous function is executed to create a new TileDocument on the Ceramic Network. The document is created with the specified controller (user ID) and other required parameters.
+   - Contents of the document, such as `description`, `name`, `image`, and `id`, are extracted and stored in the component state using corresponding `setState` functions.
+   - If there's an `ID`, the `getResolution` function is called to resolve the domain name into an address, which is then stored in the state.
+   - The `Data` state variable is then set with the collected information.
+   - The loaded document from Ceramic is stored in the `document` state variable, and the loading message is cleared after the data has been fetched.
+3. The `getResolution` function uses the `Resolution` library to resolve domain names to addresses.
+   - It returns a promise which resolves by setting the resolved address into the `Decode` state.
+4. The `handleSubmit` function updates the document on Ceramic Network with the data specified in the state when the form is submitted.
+5. The `display` function returns JSX to render UI elements showing the loaded data or the data input by the user.
+6. The `getSimpleSkillForm` function returns JSX for a simple form, allowing a user to input the name, ID, description, and image URL of their skill and submit the data.
+7. Finally, `getSkillsPage` constructs and returns the overall page layout combining loading messages, form, and display components.
+8. The `DataModels` component is exported at the end, making it available for import in other parts of the application.
 
 ![Ceramic Unstoppable Domains skills page](/images/posts/ceramic/qyg4dep.webp)
 
