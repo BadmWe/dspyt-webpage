@@ -1,5 +1,5 @@
 ---
-title: "Elevating Data Science Competence: An In-Depth Exploration of Time Series Analysis"
+title: "Elevating Data Science: Exploration of Time Series Analysis"
 date: "October 15, 2022"
 excerpt: "Exploring data science topics, from decentralized apps to time series forecasting, leveraging diverse resources for skill enhancement."
 cover_image: "/images/posts/time-series/Default_Generate_an_image_of_a_futuristic_decentralized_app_wi.webp"
