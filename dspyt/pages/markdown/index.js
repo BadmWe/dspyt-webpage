@@ -3,6 +3,7 @@ import "@uiw/react-markdown-preview/markdown.css";
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 import onImagePasted from "@/components/markdown/onImagePasted";
 import { PageSEO } from "@/components/SEO";
