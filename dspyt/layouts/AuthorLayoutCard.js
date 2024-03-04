@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { PageSEO } from "@/components/SEO";
+import { BlogSEO } from "@/components/SEO";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
 import Instagram from "@/components/SocialMediaIcons/Instagram";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
@@ -21,7 +21,7 @@ export default function AuthorLayout({ frontMatter, children }) {
 
   return (
     <div>
-      <PageSEO
+      <BlogSEO
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />

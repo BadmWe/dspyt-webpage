@@ -32,12 +32,7 @@ export default function PostLayout({
     frontMatter;
   return (
     <SectionContainer>
-      <BlogSEO
-        url={`${siteMetadata.siteUrl}/${slug}`}
-        authorDetails={authorDetails}
-        summary={excerpt}
-        {...frontMatter}
-      />
+      <BlogSEO title={title} description={excerpt} />
       <ScrollTopAndComment />
       <article>
         <header className="pt-6 xl:pb-6">

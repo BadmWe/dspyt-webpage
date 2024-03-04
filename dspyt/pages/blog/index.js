@@ -1,8 +1,9 @@
-import Post from "@/components/Post";
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
+
+import Post from "@/components/Post";
+import { PageSEO } from "@/components/SEO";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 
 const POSTS_PER_PAGE = 9;
 
@@ -16,22 +17,8 @@ export default function Home({ posts, lastPage }) {
   });
 
   return (
-    <>
-      <Head>
-        <title>Data Science and Blockchain Blog</title>
-        <meta
-          name="description"
-          content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
-        />
-        <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
-        <meta property="og:url" content="https://dspyt.com/blog" />
-        <meta property="og:title" content="Data Science with Python | DSPYT" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dspytdao" />
-        <meta name="twitter:creator" content="@pfedprog" />
-      </Head>
-
+    <div>
+      <PageSEO title={"Dspyt: Blog"} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <div className="text-center">
           <h1
@@ -108,7 +95,7 @@ export default function Home({ posts, lastPage }) {
           </nav>
         )}
       </div>
-    </>
+    </div>
   );
 }
 

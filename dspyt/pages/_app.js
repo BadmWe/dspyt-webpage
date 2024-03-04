@@ -1,12 +1,14 @@
 import "@/styles/globals.css";
 import "@/styles/prism.css";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import siteMetadata from "@/components/siteMetadata";
+
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "next-themes";
 import Script from "next/script";
+
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import siteMetadata from "@/components/siteMetadata";
 
 function MyApp({ Component, pageProps }) {
   return (

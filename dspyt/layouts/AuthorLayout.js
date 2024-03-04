@@ -1,12 +1,12 @@
 import Image from "@/components/Image";
-import { PageSEO } from "@/components/SEO";
+import { BlogSEO } from "@/components/SEO";
 
 export default function AuthorLayout({ frontMatter, children }) {
   const { name, avatar, company, description } = frontMatter;
 
   return (
     <div>
-      <PageSEO
+      <BlogSEO
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />
