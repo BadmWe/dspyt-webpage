@@ -5,7 +5,7 @@ export default function AuthorLayout({ frontMatter, children }) {
   const { name, avatar, company, description } = frontMatter;
 
   return (
-    <>
+    <div>
       <PageSEO
         title={`About - ${name}`}
         description={`${name}: ${description}`}
@@ -31,6 +31,6 @@ export default function AuthorLayout({ frontMatter, children }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

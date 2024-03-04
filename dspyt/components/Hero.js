@@ -1,5 +1,6 @@
-import HeroImage from "@/public/mainsave.webp";
 import Image from "next/image";
+
+import HeroImage from "@/public/mainsave.webp";
 
 export default function Hero() {
   return (

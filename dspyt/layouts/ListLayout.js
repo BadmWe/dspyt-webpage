@@ -1,8 +1,9 @@
+import { useState } from "react";
+
 import Link from "@/components/Link";
 import Pagination from "@/components/Pagination";
 import Tag from "@/components/Tag";
 import formatDate from "@/lib/utils/formatDate";
-import { useState } from "react";
 
 export default function ListLayout({
   posts,
@@ -11,6 +12,7 @@ export default function ListLayout({
   pagination,
 }) {
   const [searchValue, setSearchValue] = useState("");
+
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent =
       frontMatter.title + frontMatter.summary + frontMatter.tags.join(" ");
@@ -24,7 +26,7 @@ export default function ListLayout({
       : filteredBlogPosts;
 
   return (
-    <>
+    <div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -99,6 +101,6 @@ export default function ListLayout({
           totalPages={pagination.totalPages}
         />
       )}
-    </>
+    </div>
   );
 }

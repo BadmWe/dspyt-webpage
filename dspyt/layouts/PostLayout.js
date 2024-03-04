@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import ImageDspyt from "@/components/Image";
 import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
@@ -5,7 +7,6 @@ import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
 import siteMetadata from "@/components/siteMetadata";
 import Tag from "@/components/Tag";
-import Link from "next/link";
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/posts/${fileName}`;
 const discussUrl = (slug) =>

@@ -1,5 +1,5 @@
 ---
-title: "Pin Save: Revamping Decentralized Image Sharing and Content Aggregation"
+title: "Pin Save: Revamping Decentralized Image Sharing & Content Aggregation"
 date: "28 October, 2022"
 excerpt: "Pin Save: Decentralized image sharing platform with NFTs, blockchain tech, and democratic ownership model led by a stellar team."
 authors: ["dspytdao"]

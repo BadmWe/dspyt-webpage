@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+
 import { getFiles } from "./mdx";
 import { convertToSlug } from "./utils/convertToSlug";
 
