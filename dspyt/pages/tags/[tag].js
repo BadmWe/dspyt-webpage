@@ -1,9 +1,10 @@
+import { useState } from "react";
+
 import Post from "@/components/Post";
+import { BlogSEO } from "@/components/SEO";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import { getAllTags } from "@/lib/tags";
 import { convertToSlug } from "@/lib/utils/convertToSlug";
-import Head from "next/head";
-import { useState } from "react";
 
 export async function getStaticPaths() {
   const tags = await getAllTags();
@@ -45,25 +46,8 @@ export default function Tag({ posts, tag }) {
 
   const title = tag.charAt(0).toUpperCase() + tag.split("-").join(" ").slice(1);
   return (
-    <>
-      <Head>
-        <title>{`Data Science with Python ${title}`}</title>
-        <link rel="icon" href="/big-data-svgrepo.svg" />
-        <meta
-          name="description"
-          content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
-        />
-        <meta property="og:image" content="https://dspyt.com/DSPYT.webp" />
-        <meta property="og:url" content={`https://dspyt.com/tags/${tag}`} />
-        <meta
-          property="og:title"
-          content={`Data Science with Python ${title}`}
-        />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dspytdao" />
-        <meta name="twitter:creator" content="@dspytdao" />
-      </Head>
+    <div>
+      <BlogSEO title={`Data Science with Python ${title}`} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1
           className="relative text-center text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl"
@@ -85,6 +69,6 @@ export default function Tag({ posts, tag }) {
           </div>
         ) : null}
       </div>
-    </>
+    </div>
   );
 }

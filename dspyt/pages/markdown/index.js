@@ -1,9 +1,12 @@
 import "@uiw/react-md-editor/markdown-editor.css";
 import "@uiw/react-markdown-preview/markdown.css";
-import onImagePasted from "@/components/markdown/onImagePasted";
+
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import Head from "next/head";
+
+import onImagePasted from "@/components/markdown/onImagePasted";
+import { PageSEO } from "@/components/SEO";
 
 const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
 
@@ -65,22 +68,9 @@ function HomePage() {
   }
 
   return (
-    <>
-      <Head>
-        <title>Create Markdown | DSPYT</title>
-        <meta
-          name="description"
-          content="Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics."
-        />
-        <meta property="og:image" content="https://dspyt.com/DSPYT.png" />
-        <meta property="og:url" content="https://dspyt.com/markdown" />
-        <meta property="og:title" content="Create a new Article | DSPYT" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@dspytdao" />
-        <meta name="twitter:creator" content="@DmitriFedotov" />
-      </Head>
     <div>
+      <PageSEO title={"Dspyt: Markdown"} />
+      <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
       <label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
         Select a preview image
         <input
@@ -112,7 +102,6 @@ function HomePage() {
         Create markdown
       </button>
     </div>
-    </>
   );
 }
 export default HomePage;

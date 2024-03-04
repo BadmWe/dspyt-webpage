@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import ImageDspyt from "@/components/Image";
 import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
@@ -5,7 +7,6 @@ import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
 import siteMetadata from "@/components/siteMetadata";
 import Tag from "@/components/Tag";
-import Link from "next/link";
 
 const editUrl = (fileName) => `${siteMetadata.siteRepo}/posts/${fileName}`;
 const discussUrl = (slug) =>
@@ -31,12 +32,7 @@ export default function PostLayout({
     frontMatter;
   return (
     <SectionContainer>
-      <BlogSEO
-        url={`${siteMetadata.siteUrl}/${slug}`}
-        authorDetails={authorDetails}
-        summary={excerpt}
-        {...frontMatter}
-      />
+      <BlogSEO title={title} description={excerpt} />
       <ScrollTopAndComment />
       <article>
         <header className="pt-6 xl:pb-6">

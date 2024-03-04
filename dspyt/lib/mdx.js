@@ -1,9 +1,3 @@
-// Remark packages
-import remarkCodeTitles from "./remark-code-title";
-import remarkExtractFrontmatter from "./remark-extract-frontmatter";
-import remarkImgToJsx from "./remark-img-to-jsx";
-import remarkTocHeadings from "./remark-toc-headings";
-import getAllFilesRecursively from "./utils/files";
 import fs from "fs";
 import matter from "gray-matter";
 import { bundleMDX } from "mdx-bundler";
@@ -11,8 +5,13 @@ import path from "path";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePresetMinify from "rehype-preset-minify";
 import rehypePrismPlus from "rehype-prism-plus";
-// Rehype packages
 import rehypeSlug from "rehype-slug";
+
+import remarkCodeTitles from "./remark-code-title";
+import remarkExtractFrontmatter from "./remark-extract-frontmatter";
+import remarkImgToJsx from "./remark-img-to-jsx";
+import remarkTocHeadings from "./remark-toc-headings";
+import getAllFilesRecursively from "./utils/files";
 
 const root = process.cwd();
 
@@ -131,6 +130,8 @@ export async function getAllFilesFrontMatter(folder) {
           ? new Date(frontmatter.date).toISOString()
           : null,
       });
+      if (frontmatter.title.length > 70)
+        console.log(frontmatter.title, frontmatter.title.length, "characters");
     }
   });
 

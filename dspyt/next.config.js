@@ -62,6 +62,11 @@ const nextConfig = {
         destination: "/blog",
         permanent: true,
       },
+      {
+        source: "/.Unlock",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };

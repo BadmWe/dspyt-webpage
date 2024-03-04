@@ -1,12 +1,12 @@
 import Image from "@/components/Image";
-import { PageSEO } from "@/components/SEO";
+import { BlogSEO } from "@/components/SEO";
 
 export default function AuthorLayout({ frontMatter, children }) {
   const { name, avatar, company, description } = frontMatter;
 
   return (
-    <>
-      <PageSEO
+    <div>
+      <BlogSEO
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />
@@ -31,6 +31,6 @@ export default function AuthorLayout({ frontMatter, children }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

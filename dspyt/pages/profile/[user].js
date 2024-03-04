@@ -1,4 +1,3 @@
-// import { getAllFilesFrontMatter } from "@/lib/mdx";
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
 import { getFileBySlug } from "@/lib/mdx";
 import { getAllProfiles } from "@/lib/profiles";
@@ -25,14 +24,10 @@ export async function getStaticProps({ params }) {
 export default function Profile({ profile }) {
   const { mdxSource, frontMatter } = profile;
   return (
-    <>
-      {
-        <MDXLayoutRenderer
-          layout={DEFAULT_LAYOUT}
-          mdxSource={mdxSource}
-          frontMatter={frontMatter}
-        />
-      }
-    </>
+    <MDXLayoutRenderer
+      layout={DEFAULT_LAYOUT}
+      mdxSource={mdxSource}
+      frontMatter={frontMatter}
+    />
   );
 }

@@ -1,7 +1,8 @@
+import Link from "next/link";
+
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
-import Link from "next/link";
 
 const navigation = [
   {
