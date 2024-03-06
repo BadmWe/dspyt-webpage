@@ -3,7 +3,6 @@ import "@uiw/react-markdown-preview/markdown.css";
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import Head from "next/head";
 
 import onImagePasted from "@/components/markdown/onImagePasted";
 import { PageSEO } from "@/components/SEO";
@@ -71,6 +70,7 @@ function HomePage() {
     <div>
       <PageSEO title={"Dspyt: Markdown"} />
       <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
+      <p className="text-center mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">It is important to follow all the rules for writing an article, the rules and submission methods are available here.  How to use commands correctly in markdown?  All information is available via the question mark button in the top panel of the markdown <a href="https://dspyt.com/faq" className="text-indigo-600">here</a>.</p>
       <label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
         Select a preview image
         <input
@@ -96,7 +96,7 @@ function HomePage() {
         }}
       />
       <button
-        className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out"
+        className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out absolute"
         onClick={() => exportUserInfo(markdown)}
       >
         Create markdown
