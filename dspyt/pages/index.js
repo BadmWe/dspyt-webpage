@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
@@ -65,7 +65,6 @@ export default function Home({ posts }) {
   return (
     <div>
       <PageSEO />
-
       <Hero />
       <h2 className="dspyt-h2">Data Science and Blockchain</h2>
       <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
@@ -110,6 +109,18 @@ export default function Home({ posts }) {
                   </Link>
                 </li>
                 <li>
+                  <span className="sr-only">Github</span>
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={person.githubUrl}
+                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    passHref
+                  >
+                    <GitHubIcon />
+                  </Link>
+                </li>
+                <li>
                   <span className="sr-only">Instagram</span>
                   <Link
                     target="_blank"
@@ -130,18 +141,6 @@ export default function Home({ posts }) {
                     passHref
                   >
                     <LinkedInIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">Github</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.githubUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <GitHubIcon />
                   </Link>
                 </li>
               </ul>
