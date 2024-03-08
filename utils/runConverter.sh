@@ -17,7 +17,7 @@ then
     virtualenv venv
     pip install -r $SCRIPT_DIR/requirements.txt
 fi
-source $SCRIPT_DIR/venv/Scripts/activate
+source /venv/Scripts/activate
 
 echo "DEBUG: Virtual environment activated"
 
