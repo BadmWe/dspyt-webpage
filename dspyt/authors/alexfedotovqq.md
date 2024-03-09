@@ -26,6 +26,7 @@ Remaining steadfast in my commitment to the [TradeCoin](https://tradecoin.dev/) 
 <h2 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
 Links to TradeCoin
 </h2>
+
 <div className="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
 
 - [TradeCoin Website](https://tradecoin.dev/)

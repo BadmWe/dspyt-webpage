@@ -18,16 +18,14 @@ export default function Home({ posts, lastPage }) {
 
   return (
     <div>
-      <PageSEO title={"Dspyt: Blog"} />
+      <PageSEO title={"Dspyt: Blog Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
-        <div className="text-center">
-          <h1
-            className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl"
-            style={{ margin: "20px" }}
-          >
-            Data Science and Blockchain Blog
-          </h1>
-        </div>
+        <h1
+          className="dspyt-h1"
+          style={{ margin: "20px", textAlign: "center" }}
+        >
+          Data Science and Blockchain Blog
+        </h1>
         <div className="items-center justify-center">
           <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
             <input
