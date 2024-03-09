@@ -21,12 +21,12 @@ export default function Home({ posts, pageNumber }) {
 
   return (
     <div>
-      <PageSEO title={"Dspyt: Blog"} />
+      <PageSEO title={"Dspyt: Blog Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <div className="text-center">
           <h1
-            className="text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl"
-            style={{ margin: "20px" }}
+            className="dspyt-h1"
+            style={{ margin: "20px", textAlign: "center" }}
           >
             Data Science and Blockchain DSPYT Blog
           </h1>

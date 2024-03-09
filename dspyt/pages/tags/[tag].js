@@ -50,8 +50,8 @@ export default function Tag({ posts, tag }) {
       <BlogSEO title={`Data Science with Python ${title}`} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1
-          className="relative text-center text-4xl font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-5xl"
-          style={{ margin: "20px" }}
+          className="dspyt-h1"
+          style={{ margin: "20px", textAlign: "center" }}
         >
           Dspyt blog tag: <span> {title} </span>
         </h1>
