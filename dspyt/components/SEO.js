@@ -38,21 +38,3 @@ export const PageSEO = ({ title, description }) => {
 export const BlogSEO = ({ title, description }) => {
   return <CommonSEO title={title} description={description} ogType="article" />;
 };
-
-// not used
-export const TagSEO = ({ title, description }) => {
-  const router = useRouter();
-  return (
-    <>
-      <CommonSEO title={title} description={description} />
-      <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title={`${description} - RSS feed`}
-          href={`${siteMetadata.siteUrl}${router.asPath}/feed.xml`}
-        />
-      </Head>
-    </>
-  );
-};

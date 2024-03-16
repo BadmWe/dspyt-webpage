@@ -52,6 +52,16 @@ export default function AuthorLayout({ frontMatter, children }) {
                   <TwitterIcon />
                 </Link>
               )}
+              {github && (
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={github}
+                  className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                >
+                  <GitHubIcon />
+                </Link>
+              )}
               {instagram && (
                 <Link
                   target="_blank"
@@ -70,16 +80,6 @@ export default function AuthorLayout({ frontMatter, children }) {
                   className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
                 >
                   <LinkedInIcon />
-                </Link>
-              )}
-              {github && (
-                <Link
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={github}
-                  className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                >
-                  <GitHubIcon />
                 </Link>
               )}
             </div>
