@@ -6,14 +6,9 @@ twitter: "https://twitter.com/DmitriFedotov"
 linkedin: "https://www.linkedin.com/in/dmitrii-fedotov"
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
+title: "Dmitrii Fedotov Dspyt DAO profile"
 description: "Fluent in Python, JavaScript, React and NextJs. Passionate badminton player, merging tech and sports innovation to drive positive change."
 ---
-
-<h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
-    Dmitrii Fedotov Dspyt DAO profile
-</h1>
-
-<div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
 
 Hello, I am Dmitrii Fedotov — a professional Spanish badminton player and the creative mind behind [WebBadminton platform](https://twitter.com/WebBadminton4u). My journey has been a unique blend of athleticism and technology, reflecting my passion for both sports and innovation.
 
@@ -24,5 +19,3 @@ In addition to my endeavors in sports and technology, I have played a crucial ro
 I am honored to have received recognition from prominent entities in the blockchain space, including Filecoin, Uniswap, Algorand, Near, Fuel Blockchain, Ceramic, and PARSIQ. These accolades underscore the innovative approach and technological expertise I bring to projects, contributing to the evolution of digital finance and blockchain technology.
 
 As I continue to make strides in both sports and technology, my unwavering dedication remains focused on fostering innovation and making a lasting impact at the intersection of sports and the digital world. Join me on this exciting journey as we explore new horizons in badminton and contribute to the ever-evolving landscape of technology.
-
-</div>

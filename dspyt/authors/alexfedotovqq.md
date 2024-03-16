@@ -7,14 +7,9 @@ twitter: https://twitter.com/AlexFedotovqq
 linkedin: /
 instagram: /
 github: https://github.com/AlexFedotovqq
+title: "Alexander Fedotov DspytDAO profile"
 description: "Fluent in Python, JavaScript, React, and NextJs. Shaping digital finance's future and fostering blockchain innovation with TradeCoin."
 ---
-
-<h1 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
-   Alexander Fedotov DspytDAO profile
-</h1>
-
-<div className="mt-6 max-w-xl text-base leading-7 dark:text-gray-100 text-gray-700 lg:max-w-none">
 
 I am pleased to introduce myself as Alexander Fedotov, the visionary force driving the captivating [TradeCoin](https://tradecoin.dev/) project. My profound enthusiasm for the captivating realm of cryptocurrencies and the groundbreaking blockchain technology has fueled an extraordinary odyssey that has ultimately led me to my current position.
 
@@ -22,15 +17,8 @@ My multifaceted skill set spans a spectrum of programming languages, including b
 
 Remaining steadfast in my commitment to the [TradeCoin](https://tradecoin.dev/) project, I persist as an indispensable contributor, channeling my unwavering dedication towards sculpting the future landscape of digital finance and propelling innovation within the intricate realms of blockchain technology. The ongoing pursuit of excellence propels me to continuously push boundaries and elevate the [TradeCoin](https://tradecoin.dev/) project to unprecedented heights in the ever-evolving blockchain arena.
 
-</div>
-<h2 className="mt-2 text-3xl font-bold tracking-tight text-center text-gray-900 sm:text-4xl">
-Links to TradeCoin
-</h2>
-
-<div className="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
+## Links to TradeCoin
 
 - [TradeCoin Website](https://tradecoin.dev/)
 - [TradeCoin Twitter](https://twitter.com/_TradeCoin_)
 - [TradeCoin Instagram](https://www.instagram.com/_tradecoin_/)
-
-</div>

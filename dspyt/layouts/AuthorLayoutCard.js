@@ -16,6 +16,7 @@ export default function AuthorLayout({ frontMatter, children }) {
     linkedin,
     github,
     instagram,
+    title,
     description,
   } = frontMatter;
 
@@ -25,7 +26,6 @@ export default function AuthorLayout({ frontMatter, children }) {
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />
-
       <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700">
         <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
           <div className="card">
@@ -85,7 +85,12 @@ export default function AuthorLayout({ frontMatter, children }) {
             </div>
           </div>
           <div className="prose max-w-none pt-8 pb-8 pr-8 pl-8 dark:prose-dark lg:col-span-2">
-            {children}
+            <h1 className="mt-2 font-bold tracking-tight text-center text-gray-900 text-3xl sm:text-4xl">
+              {title}
+            </h1>
+            <div className="mt-6 text-base leading-7 dark:text-gray-100 text-gray-700 max-w-none">
+              {children}
+            </div>
           </div>
         </div>
       </div>

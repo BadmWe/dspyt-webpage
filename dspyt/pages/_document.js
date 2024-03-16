@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en" className="scroll-smooth">
+      <Html lang="en">
         <Head />
         <meta charSet="UTF-8" />
         <link rel="icon" href="/big-data-svgrepo.svg" />
