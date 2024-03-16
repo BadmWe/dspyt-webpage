@@ -19,7 +19,7 @@ tags:
   ]
 ---
 
-If you want to edit or publish an article, then this post is especially for you!
+If you want to edit or publish an article, then this post is especially valuable for you!
 
 ## Guidelines for style and standards of excellence
 
@@ -41,10 +41,11 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 14. Cross-posting is only permissible if you set the canonical URL on those platforms to direct to the DSPYT-CodeVerse post
 15. Thoroughly review and edit your article, then review it once more for good measure
 
-## Create Markdown 
+## Create Markdown
 
 You can create markdown on dspyt.com at `/markdown` route.
-- [Create markdown](/markdown)
+
+- [Create markdown](https://dspyt.com/markdown)
 
 ## How to submit (The easiest way)
 
