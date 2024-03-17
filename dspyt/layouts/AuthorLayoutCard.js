@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { BlogSEO } from "@/components/SEO";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
-import Instagram from "@/components/SocialMediaIcons/Instagram";
+import Instagram from "@/components/SocialMediaIcons/InstagramIcon";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
 
