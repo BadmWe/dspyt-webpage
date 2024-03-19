@@ -18,9 +18,9 @@ const people = [
     role: "Lead Developer",
     imageUrl: "/authors/ava.webp",
     twitterUrl: "https://twitter.com/DmitriFedotov",
-    linkedinUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/dmitrii-fedotov/",
     githubUrl: "https://github.com/BadmWe/",
-    InstagramUrl: "",
+    InstagramUrl: "https://www.instagram.com/dmitry.fov/",
     authors: "/profile/dmitrii-fedotov",
   },
   {

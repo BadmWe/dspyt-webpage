@@ -131,7 +131,7 @@ if __name__ == '__main__':
     main()
 ```
 
-Do not forget to edit the created TOKEN and APP_NAME that you obtain through Heroku.
+Do not forget to edit the created `TOKEN` and `APP_NAME` that you obtain through Heroku.
 
 ## Deploying Heroku python telegram bot
 
@@ -139,7 +139,7 @@ Besides, we create a Procfile that contains the following line:
 
 `web: python3 bot.py`
 
-Our folder should contain three files: `Procifle`, the python script (in this case `bot.py`), and `requirements.txt`.
+Our folder should contain three files: `Procfile`, the python script (in this case `bot.py`), and `requirements.txt`.
 
 Finally, we deploy a python telegram bot on Heroku:
 
