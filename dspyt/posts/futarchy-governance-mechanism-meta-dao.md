@@ -1,7 +1,7 @@
 ---
 title: "Futarchy - a form of governance, mechanism of the Meta-DAO"
 date: "February 25, 2024"
-excerpt: "What is Futarchy and How It Works. Why futarchy may be better than other forms of governance, participating in MetaDAO"
+excerpt: "What is Futarchy and How It Works. Why futarchy may be better than other forms of governance, participating in MetaDAO."
 cover_image: "/images/posts/defi/futarchy.webp"
 authors: ["dspytdao"]
 tags:
@@ -24,7 +24,7 @@ tags:
   ]
 ---
 
-The Meta-DAO is a new kind of organization. It uses futarchy, a system where markets make decisions. **As such, it sidesteps existing challenges with governance, such as voter apathy and political capture.**  It divides the decision-making process into two stages: the guidance stage and the execution stage. In the guidance stage, the community poses a decision-making question.
+The Meta-DAO is a new kind of organization. It uses futarchy, a system where markets make decisions. **As such, it sidesteps existing challenges with governance, such as voter apathy and political capture.** It divides the decision-making process into two stages: the guidance stage and the execution stage. In the guidance stage, the community poses a decision-making question.
 **The Meta-DAO - An organization governed by markets, not politics**
 
 ## What is Futarchy and How It Works
@@ -40,19 +40,19 @@ Futarchy is a form of government proposed by economist Robin Hanson, in which el
 Let's consider a hypothetical scenario where a university is contemplating whether to invest in expanding its online course offerings. If the university were to implement a futarchy governance system, it could proceed as follows:
 
 1. Market Creation
-The university would create two markets related to the decision at hand: one for **"Expand Online Courses"** and another for **"Maintain Current Course Offerings Only."**
+   The university would create two markets related to the decision at hand: one for **"Expand Online Courses"** and another for **"Maintain Current Course Offerings Only."**
 
 2. Trading Period
-Investors, which could include faculty, students, administrators, and external stakeholders, are allowed to trade in these markets for a set period, 10 days.
+   Investors, which could include faculty, students, administrators, and external stakeholders, are allowed to trade in these markets for a set period, 10 days.
 
 3. Evaluation
-At the end of the trading period, the university examines the time-weighted average price (TWAP) of the university's stock in both markets.
+   At the end of the trading period, the university examines the time-weighted average price (TWAP) of the university's stock in both markets.
 
 4. Decision Making
-If the TWAP is higher in the "Expand Online Courses" market, the university decides to proceed with the expansion. Conversely, if the TWAP is higher in the **"Maintain Current Course Offerings Only"** market, the university decides not to expand online courses.
+   If the TWAP is higher in the "Expand Online Courses" market, the university decides to proceed with the expansion. Conversely, if the TWAP is higher in the **"Maintain Current Course Offerings Only"** market, the university decides not to expand online courses.
 
 5. Reversion of Trades
-All trades made in the market that did not align with the chosen outcome are reverted. For instance, if the decision is to expand online courses, all trades made in the **"Maintain Current Course Offerings Only"** market would be reverted.
+   All trades made in the market that did not align with the chosen outcome are reverted. For instance, if the decision is to expand online courses, all trades made in the **"Maintain Current Course Offerings Only"** market would be reverted.
 
 ![vote](/images/posts/defi/vote.webp)
 
@@ -184,7 +184,6 @@ Project proposals should generally be raised by entrepreneurs who are accountabl
 ## Conclusion
 
 Futarchy represents a bold experiment in governance that seeks to overcome traditional limitations of democratic decision-making. By leveraging prediction markets, futarchy offers a promising framework for more effective and data-driven policy choices. However, its success ultimately depends on addressing critical challenges and ensuring transparency, fairness, and the integrity of the decision-making process.
-
 
 ## Useful links
 
