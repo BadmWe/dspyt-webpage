@@ -2,7 +2,7 @@
 
 [Dspyt-CodeVerse](https://dspyt.com) is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem. Our primary focus is on empowering developers and enthusiasts in the Blockchain, Python, JavaScript, and Next.js communities by providing them with resources, mentorship, and opportunities to collaborate on exciting projects. By bringing together talented individuals from diverse backgrounds, we aim to strengthen the Web3 community and create a lasting impact on decentralized technology adoption worldwide.
 
-![image](https://github.com/BadmWe/dspyt-webpage/assets/108738511/4e3d55b6-9949-4658-b642-3abb8c7ae3c3)
+![Dspyt Main Page](https://github.com/BadmWe/dspyt-webpage/assets/108738511/5ac3a48a-c245-46d6-9463-ec91cb6f5d27)
 
 Our mission involves the following key areas:
 
@@ -23,7 +23,7 @@ We are currently collaborating with several open-source projects in Ethereum, Al
 - **[Dspyt AI](https://github.com/dspytdao/dspytai)**: Dapp that utilizes on-chain data to model potential price fluctuations in real-time.
 - **[TradeCoin](https://github.com/AlexFedotovqq/TradeCoin)**: TradeCoin provides DeFi tools for token holders & businesses to buy, trade, create, and secure crypto assets with confidence.
 
-We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains and broader ecosystem to cover topics in article and video:
+We have also collaborated with Ceramic, TrueBlocks, Unstoppable Domains, and the broader ecosystem to cover topics in articles and video:
 
 - ["What is a blockchain address?"](https://dspyt.com/what-is-blockchain-address)
 - ["Simple Blockchain data indexing with TrueBlocks"](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
@@ -48,23 +48,23 @@ How to submit v2:
 
 You can use the button on the top, in the right corner
 
-![image](https://github.com/BadmWe/dspyt-webpage/assets/88692544/5591135c-0bcb-4f5e-ba18-af56583fe272)
+![Blog Post Button](https://github.com/BadmWe/dspyt-webpage/assets/108738511/e7ec4c90-2a4b-4b02-9120-afd05d5073a3)
 
 ## Navigation, Design, Screenshots
 
 We have 2 versions on our website: dark and white
 
-![Dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/620e690a-e06c-49c3-9895-2100381a9f47)
+![Dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/05d1e1b4-da44-4b8f-9b8a-ef656c36a55b)
 
-![White mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/7a9d4963-9bab-4d94-a17f-d9f471bdfc04)
+![White mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/a9720573-e4af-4908-9882-38d46ca9e806)
 
-Blog page: people can suggest their content and after verification it will be published
+Blog page: users can suggest their content and after verification, it will be published
 
-![Blog, dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/a8b6fca4-da47-40c9-bc16-b0460fdbe54a)
+![Blog, dark mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/5ff00b30-91b4-4607-aa2e-871e8aba084a)
 
-![Blog, white mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/f1942edc-d0fa-46d7-9a7e-658e85abbb58)
+![Blog, white mode](https://github.com/BadmWe/dspyt-webpage/assets/108738511/f0372cdb-cadb-4916-a77c-c93f4708f975)
 
-You can find out who the author if a particular post is; the user can click on the author of the post and view his profile
+You can find out who the author of a particular post is; the user can click on the author of the post and view his profile
 
 ![Dark mode profile](https://github.com/BadmWe/dspyt-webpage/assets/108738511/5b28c27c-2189-4fb5-a061-bf73f7f1a6ae)
 

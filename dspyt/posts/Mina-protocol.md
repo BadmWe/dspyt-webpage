@@ -35,7 +35,7 @@ Blockchain technology has transformed the way we store data, bringing about new 
 
 ## Understanding Mina Protocol
 
-Mina Protocol is a next-generation blockchain powered by Zero Knowledge Proofs (ZKPs). ZKPs allow users to prove the validity of information without revealing the actual data itself. This approach ensures that the entire Mina blockchain remains incredibly lightweight and easily verifiable. Unlike traditional blockchains, Mina Protocol's blockchain is designed to be roughly the size of a few tweets, making it accessible to anyone with limited resources - a unique characteristic that.
+Mina Protocol is a next-generation blockchain powered by Zero Knowledge Proofs (ZKPs). ZKPs allow users to prove the validity of information without revealing the actual data itself. This approach ensures that the entire Mina blockchain remains incredibly lightweight and easily verifiable. Unlike traditional blockchains, Mina Protocol's blockchain is designed to be roughly the size of a few tweets, making it accessible to anyone with limited resources.
 
 ## Getting Started in the Mina Ecosystem
 

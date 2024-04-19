@@ -69,8 +69,10 @@ function HomePage() {
   return (
     <div>
       <PageSEO title={"Dspyt: Markdown"} />
+      <div class="grid relative mx-auto items-center justify-center ml-4 mr-4">
+      <div class="text-center sm:max-w-xl">
       <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
-      <p className="text-center mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">
+      <p className="mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">
         It is important to follow all the rules for writing an article, the
         rules and submission methods are available here. How to use commands
         correctly in markdown? All information is available via the question
@@ -78,8 +80,9 @@ function HomePage() {
         <a href="https://dspyt.com/faq" className="text-indigo-600">
           here
         </a>
-        .
       </p>
+      </div>
+      </div>
       <label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
         Select a preview image
         <input
@@ -92,9 +95,11 @@ function HomePage() {
       <MDEditor
         value={markdown}
         preview="edit"
+        height="100%"
         maxHeight={2000}
-        minHeight={700}
+        minHeight={500}
         highlightEnable={false}
+        visibleDragbar={false}
         onChange={setMarkdown}
         onDrop={async (event) => {
           await onImagePasted(event.dataTransfer, setMarkdown);
