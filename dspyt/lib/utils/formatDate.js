@@ -7,7 +7,6 @@ const formatDate = (date) => {
     day: "numeric",
   };
   const now = new Date(date).toLocaleDateString(siteMetadata.locale, options);
-
   return now;
 };
 

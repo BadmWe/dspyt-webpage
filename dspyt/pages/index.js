@@ -4,7 +4,7 @@ import { useState } from "react";
 import { StarIcon } from "@heroicons/react/20/solid";
 
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
-import Instagram from "@/components/SocialMediaIcons/Instagram";
+import InstagramIcon from "@/components/SocialMediaIcons/InstagramIcon";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
 import Hero from "@/components/Hero";
@@ -128,7 +128,7 @@ export default function Home({ posts }) {
                     href={person.InstagramUrl}
                     className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
                   >
-                    <Instagram />
+                    <InstagramIcon />
                   </Link>
                 </li>
                 <li>
