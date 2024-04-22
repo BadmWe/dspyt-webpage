@@ -211,16 +211,14 @@ export async function getStaticProps() {
 
   posts = posts.slice(0, 6);
 
-  for (let i = 0; i < posts.length; i++) {
-    const obj = posts[i];
-    const name =
-      obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
-
+  for (const obj of posts) {
+    const name = obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
+  
     const authorResults = await getFileBySlug("authors", name);
-
-    posts[i].authorName = authorResults.frontMatter.name;
-    posts[i].authorAvatar = authorResults.frontMatter.avatar;
-    posts[i].authorSlug = authorResults.frontMatter.slug;
+  
+    obj.authorName = authorResults.frontMatter.name;
+    obj.authorAvatar = authorResults.frontMatter.avatar;
+    obj.authorSlug = authorResults.frontMatter.slug;
   }
 
   return { props: { posts } };

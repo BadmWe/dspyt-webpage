@@ -25,17 +25,16 @@ export async function getStaticProps({ params }) {
     post.tags.map((tag) => convertToSlug(tag)).includes(params.tag)
   );
 
-  for (let i = 0; i < filteredPosts.length; i++) {
-    const obj = filteredPosts[i];
+for (const obj of filteredPosts) {
     const name = obj.authors?.length > 0 ? obj.authors[0] : "dspytdao";
-
+  
     const authorResults = await getFileBySlug("authors", name);
-
-    filteredPosts[i].authorName = authorResults.frontMatter.name;
-    filteredPosts[i].authorAvatar = authorResults.frontMatter.avatar;
-    filteredPosts[i].authorSlug = authorResults.frontMatter.slug;
+  
+    obj.authorName = authorResults.frontMatter.name;
+    obj.authorAvatar = authorResults.frontMatter.avatar;
+    obj.authorSlug = authorResults.frontMatter.slug;
   }
-
+  
   return { props: { posts: filteredPosts, tag: params.tag } };
 }
 

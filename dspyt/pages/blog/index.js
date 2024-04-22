@@ -88,16 +88,15 @@ export default function Home({ posts, lastPage }) {
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("posts");
 
-  for (let i = 0; i < posts.length; i++) {
-    const obj = posts[i];
+for (const obj of posts) {
     const name =
       obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
-
+  
     const authorResults = await getFileBySlug("authors", name);
-
-    posts[i].authorName = authorResults.frontMatter.name;
-    posts[i].authorAvatar = authorResults.frontMatter.avatar;
-    posts[i].authorSlug = authorResults.frontMatter.slug;
+  
+    obj.authorName = authorResults.frontMatter.name;
+    obj.authorAvatar = authorResults.frontMatter.avatar;
+    obj.authorSlug = authorResults.frontMatter.slug;
   }
 
   const lastPage = Math.ceil(posts.length / POSTS_PER_PAGE) - 1;
