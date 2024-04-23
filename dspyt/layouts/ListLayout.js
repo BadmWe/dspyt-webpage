@@ -95,7 +95,7 @@ export default function ListLayout({
           })}
         </ul>
       </div>
-      {pagination && pagination.totalPages > 1 && !searchValue && (
+      {pagination?.totalPages > 1 && !searchValue && (
         <Pagination
           currentPage={pagination.currentPage}
           totalPages={pagination.totalPages}

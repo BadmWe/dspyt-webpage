@@ -42,14 +42,14 @@ export default function Home({ posts, lastPage }) {
 
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {searchValue &&
-            filteredBlogPosts.map((post, index) => (
-              <Post key={index} post={post} slug={post.slug} />
+            filteredBlogPosts.map((post) => (
+              <Post key={post.slug} post={post} slug={post.slug} />
             ))}
           {!searchValue &&
             posts
               .slice(0, POSTS_PER_PAGE)
-              .map((post, index) => (
-                <Post key={index} post={post} slug={post.slug} />
+              .map((post) => (
+                <Post key={post.slug} post={post} slug={post.slug} />
               ))}
         </div>
 
@@ -88,12 +88,12 @@ export default function Home({ posts, lastPage }) {
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("posts");
 
-for (const obj of posts) {
+  for (const obj of posts) {
     const name =
       obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
-  
+
     const authorResults = await getFileBySlug("authors", name);
-  
+
     obj.authorName = authorResults.frontMatter.name;
     obj.authorAvatar = authorResults.frontMatter.avatar;
     obj.authorSlug = authorResults.frontMatter.slug;

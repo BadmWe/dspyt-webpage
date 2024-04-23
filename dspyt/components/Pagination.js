@@ -46,3 +46,8 @@ export default function Pagination({ totalPages, currentPage }) {
     </div>
   );
 }
+
+Pagination.propTypes = {
+  totalPages: PropTypes.number.isRequired,
+  currentPage: PropTypes.number.isRequired,
+};

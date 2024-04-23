@@ -49,12 +49,12 @@ export default function Home({ posts, pageNumber }) {
           {!searchValue &&
             posts
               .slice(startPostNumber, endPostNumber)
-              .map((post, index) => (
-                <Post key={index} post={post} slug={post.slug} />
+              .map((post) => (
+                <Post key={post.slug} post={post} slug={post.slug} />
               ))}
           {searchValue &&
-            filteredBlogPosts.map((post, index) => (
-              <Post key={index} post={post} slug={post.slug} />
+            filteredBlogPosts.map((post) => (
+              <Post key={post.slug} post={post} slug={post.slug} />
             ))}
         </div>
         {!searchValue && (
@@ -73,7 +73,7 @@ export default function Home({ posts, pageNumber }) {
               </p>
             </div>
             <div className="flex-1 flex justify-between sm:justify-end">
-              {pageNumber < 2 ? null : (
+              {pageNumber >= 2 && (
                 <Link href={`/blog/${pageNumber - 1}`}>
                   <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                     Previous
@@ -81,15 +81,15 @@ export default function Home({ posts, pageNumber }) {
                 </Link>
               )}
 
-              {pageNumber === 1 ? (
+              {pageNumber === 1 && (
                 <Link href={`/blog/`}>
                   <div className="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                     Previous
                   </div>
                 </Link>
-              ) : null}
+              )}
 
-              {endPostNumber >= posts.length ? null : (
+              {endPostNumber < posts.length && (
                 <Link href={`/blog/${pageNumber + 1}`}>
                   <div className="relative inline-flex items-center ml-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300">
                     Next
@@ -124,14 +124,14 @@ export async function getStaticProps(context) {
   const posts = await getAllFilesFrontMatter("posts");
   const pageNumber = parseInt(page);
 
-  for (const obj of posts) {
-    const name = obj.authors?.length > 0 ? obj.authors[0] : "dspytdao";
-  
+  for (const post of posts) {
+    const name = post.authors?.length > 0 ? post.authors[0] : "dspytdao";
+
     const authorResults = await getFileBySlug("authors", name);
-  
-    obj.authorName = authorResults.frontMatter.name;
-    obj.authorAvatar = authorResults.frontMatter.avatar;
-    obj.authorSlug = authorResults.frontMatter.slug;
+
+    post.authorName = authorResults.frontMatter.name;
+    post.authorAvatar = authorResults.frontMatter.avatar;
+    post.authorSlug = authorResults.frontMatter.slug;
   }
 
   return {
