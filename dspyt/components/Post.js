@@ -30,8 +30,8 @@ export default function Post({ post, slug }) {
       />
       <div className="flex flex-1 bg-white p-6 flex-col justify-between">
         <p className="flex-wrap break-words">
-          {tags?.map((tag, index) => (
-            <Tag text={tag} key={index} />
+          {tags?.map((tag) => (
+            <Tag text={tag} key={tag} />
           ))}
         </p>
         <div className="block mt-2">

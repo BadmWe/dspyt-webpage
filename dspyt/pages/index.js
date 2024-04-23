@@ -68,8 +68,8 @@ export default function Home({ posts }) {
       <Hero />
       <h2 className="dspyt-h2">Data Science and Blockchain</h2>
       <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
-        {posts?.map((post, index) => (
-          <Post key={index} post={post} slug={post.slug} />
+        {posts?.map((post) => (
+          <Post key={post.slug} post={post} slug={post.slug} />
         ))}
       </div>
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
@@ -211,14 +211,15 @@ export async function getStaticProps() {
 
   posts = posts.slice(0, 6);
 
-  for (const obj of posts) {
-    const name = obj.authors && obj.authors.length > 0 ? obj.authors[0] : "dspytdao";
-  
+  for (const post of posts) {
+    const name =
+      post.authors && post.authors.length > 0 ? post.authors[0] : "dspytdao";
+
     const authorResults = await getFileBySlug("authors", name);
-  
-    obj.authorName = authorResults.frontMatter.name;
-    obj.authorAvatar = authorResults.frontMatter.avatar;
-    obj.authorSlug = authorResults.frontMatter.slug;
+
+    post.authorName = authorResults.frontMatter.name;
+    post.authorAvatar = authorResults.frontMatter.avatar;
+    post.authorSlug = authorResults.frontMatter.slug;
   }
 
   return { props: { posts } };
