@@ -225,5 +225,5 @@ export async function getStaticProps() {
 }
 
 HomePage.propTypes = {
-  posts: PropTypes.object.isRequired,
+  posts: PropTypes.array.isRequired,
 };

@@ -144,6 +144,6 @@ export async function getStaticProps(context) {
 }
 
 BlogPage.propTypes = {
-  posts: PropTypes.object.isRequired,
+  posts: PropTypes.array.isRequired,
   pageNumber: PropTypes.number.isRequired,
 };

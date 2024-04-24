@@ -106,6 +106,6 @@ export async function getStaticProps() {
 }
 
 BlogIndexPage.propTypes = {
-  posts: PropTypes.object.isRequired,
+  posts: PropTypes.array.isRequired,
   lastPage: PropTypes.number.isRequired,
 };

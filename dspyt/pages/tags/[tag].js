@@ -75,6 +75,6 @@ export default function Tag({ posts, tag }) {
 }
 
 Tag.propTypes = {
-  posts: PropTypes.object.isRequired,
+  posts: PropTypes.array.isRequired,
   tag: PropTypes.string.isRequired,
 };
