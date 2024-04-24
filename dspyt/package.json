@@ -10,10 +10,10 @@
     "lint": "prettier --write \"**/*.{js,jsx}\""
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.6",
+    "@headlessui/react": "^1.7.19",
     "@heroicons/react": "^2.1.3",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
-    "@next/env": "14.1.3",
+    "@next/env": "14.2.2",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.0",
     "@uiw/react-md-editor": "^4.0.4",
@@ -24,7 +24,7 @@
     "image-size": "1.1.1",
     "marked": "12.0.1",
     "mdx-bundler": "^10.0.1",
-    "next": "14.1.3",
+    "next": "14.2.2",
     "next-remove-imports": "^1.0.12",
     "next-sitemap": "^4.2.3",
     "next-themes": "^0.3.0",
@@ -42,8 +42,8 @@
     "xdm": "^3.4.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.18",
-    "eslint": "8.57.0",
+    "autoprefixer": "10.4.19",
+    "eslint": "9.1.1",
     "eslint-config-prettier": "^9.0.0",
     "postcss": "^8.4.38",
     "prettier": "3.x",
