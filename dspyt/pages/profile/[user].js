@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
 import { getFileBySlug } from "@/lib/mdx";
 import { getAllProfiles } from "@/lib/profiles";
@@ -31,3 +33,7 @@ export default function Profile({ profile }) {
     />
   );
 }
+
+Profile.propTypes = {
+  profile: PropTypes.object.isRequired,
+};

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import PropTypes from "prop-types";
 
 import { BlogSEO } from "@/components/SEO";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
@@ -97,3 +98,8 @@ export default function AuthorLayout({ frontMatter, children }) {
     </div>
   );
 }
+
+AuthorLayout.propTypes = {
+  frontMatter: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
+};

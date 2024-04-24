@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 import { useState } from "react";
 
 import Post from "@/components/Post";
@@ -8,7 +9,7 @@ import SearchIcon from "@/components/icons/SearchIcon";
 
 const POSTS_PER_PAGE = 9;
 
-export default function Home({ posts, lastPage }) {
+export default function BlogIndexPage({ posts, lastPage }) {
   const [searchValue, setSearchValue] = useState("");
 
   const filteredBlogPosts = posts.filter((frontMatter) => {
@@ -103,3 +104,8 @@ export async function getStaticProps() {
 
   return { props: { posts, lastPage } };
 }
+
+BlogIndexPage.propTypes = {
+  posts: PropTypes.object.isRequired,
+  lastPage: PropTypes.number.isRequired,
+};

@@ -1,7 +1,8 @@
+import { StarIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import Link from "next/link";
+import PropTypes from "prop-types";
 import { useState } from "react";
-import { StarIcon } from "@heroicons/react/20/solid";
 
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
 import InstagramIcon from "@/components/SocialMediaIcons/InstagramIcon";
@@ -45,7 +46,7 @@ const people = [
   },
 ];
 
-export default function Home({ posts }) {
+export default function HomePage({ posts }) {
   const [email, setEmail] = useState("");
 
   const handleSubmit = async (event) => {
@@ -62,22 +63,20 @@ export default function Home({ posts }) {
     });
     alert("Email was submitted: " + email);
   };
+
   return (
     <div>
       <PageSEO />
       <Hero />
       <h2 className="dspyt-h2">Data Science and Blockchain</h2>
       <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
-        {posts?.map((post) => (
+        {posts.map((post) => (
           <Post key={post.slug} post={post} slug={post.slug} />
         ))}
       </div>
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
         <h2 className="dspyt-h2">Meet our team</h2>
-        <ul
-          role="list"
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-        >
+        <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
               <Image
@@ -95,7 +94,7 @@ export default function Home({ posts }) {
               <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
                 {person.role}
               </p>
-              <ul role="list" className="mt-6 flex justify-center gap-x-6">
+              <ul className="mt-6 flex justify-center gap-x-6">
                 <li>
                   <span className="sr-only">Twitter</span>
                   <Link
@@ -224,3 +223,7 @@ export async function getStaticProps() {
 
   return { props: { posts } };
 }
+
+HomePage.propTypes = {
+  posts: PropTypes.object.isRequired,
+};

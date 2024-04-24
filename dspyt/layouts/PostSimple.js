@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import Link from "@/components/Link";
 import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
@@ -68,3 +70,10 @@ export default function PostLayout({ frontMatter, next, prev, children }) {
     </SectionContainer>
   );
 }
+
+LayoutWrapper.propTypes = {
+  frontMatter: PropTypes.object.isRequired,
+  prev: PropTypes.object,
+  next: PropTypes.object,
+  children: PropTypes.node.isRequired,
+};

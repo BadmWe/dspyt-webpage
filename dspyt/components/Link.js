@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 
 const CustomLink = ({ href, ...rest }) => {
   const isInternalLink = href?.startsWith("/");
@@ -21,6 +22,11 @@ const CustomLink = ({ href, ...rest }) => {
       {" "}
     </a>
   );
+};
+
+CustomLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  rest: PropTypes.object,
 };
 
 export default CustomLink;
