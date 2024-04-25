@@ -1,7 +1,9 @@
-import Tag from "@/components/Tag";
-import formatDate from "@/lib/utils/formatDate";
 import Image from "next/legacy/image";
 import Link from "next/link";
+import PropTypes from "prop-types";
+
+import Tag from "@/components/Tag";
+import formatDate from "@/lib/utils/formatDate";
 
 export default function Post({ post, slug }) {
   const {
@@ -67,3 +69,8 @@ export default function Post({ post, slug }) {
     </div>
   );
 }
+
+Post.propTypes = {
+  post: PropTypes.object.isRequired,
+  slug: PropTypes.string.isRequired,
+};

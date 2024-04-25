@@ -69,21 +69,20 @@ function HomePage() {
   return (
     <div>
       <PageSEO title={"Dspyt: Markdown"} />
-      <div class="grid relative mx-auto items-center justify-center ml-4 mr-4">
-      <div class="text-center sm:max-w-xl">
-      <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
-      <p className="mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">
-        It is important to follow all the rules for writing an article, the
-        rules and submission methods are available here. How to use commands
-        correctly in markdown? All information is available via the question
-        mark button in the top panel of the markdown{" "}
-        <a href="https://dspyt.com/faq" className="text-indigo-600">
-          here
-        </a>
-      </p>
+      <div className="grid relative mx-auto items-center justify-center ml-4 mr-4">
+        <div className="text-center sm:max-w-xl">
+          <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
+          <p className="mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">
+            It is important to follow all the rules for writing an article. All
+            information is available{" "}
+            <a href="https://dspyt.com/faq" className="text-indigo-600">
+              here
+            </a>
+          </p>
+        </div>
       </div>
-      </div>
-      <label className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
+
+      <label className="inline-flex mb-3 ml-8 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out">
         Select a preview image
         <input
           type="file"
@@ -92,6 +91,7 @@ function HomePage() {
           className="hidden"
         />
       </label>
+
       <MDEditor
         value={markdown}
         preview="edit"
@@ -102,15 +102,17 @@ function HomePage() {
         visibleDragbar={false}
         onChange={setMarkdown}
         onDrop={async (event) => {
-          await onImagePasted(event.dataTransfer, setMarkdown);
           event.preventDefault();
+          await onImagePasted(event.dataTransfer, setMarkdown);
         }}
         style={{
           minHeight: "500px",
+          marginLeft: 6,
+          marginRight: 6,
         }}
       />
       <button
-        className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out absolute"
+        className="flex items-center justify-center mx-auto mt-3 rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out"
         onClick={() => exportUserInfo(markdown)}
       >
         Create markdown

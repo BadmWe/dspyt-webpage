@@ -1,14 +1,15 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 import { useState } from "react";
 
+import SearchIcon from "@/components/icons/SearchIcon";
 import Post from "@/components/Post";
 import { PageSEO } from "@/components/SEO";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
-import SearchIcon from "@/components/icons/SearchIcon";
 
 const POSTS_PER_PAGE = 9;
 
-export default function Home({ posts, pageNumber }) {
+export default function BlogPage({ posts, pageNumber }) {
   const startPostNumber = pageNumber * POSTS_PER_PAGE;
   const endPostNumber = startPostNumber + POSTS_PER_PAGE;
 
@@ -141,3 +142,8 @@ export async function getStaticProps(context) {
     },
   };
 }
+
+BlogPage.propTypes = {
+  posts: PropTypes.array.isRequired,
+  pageNumber: PropTypes.number.isRequired,
+};

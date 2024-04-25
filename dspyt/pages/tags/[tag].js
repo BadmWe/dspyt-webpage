@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 
 import Post from "@/components/Post";
@@ -63,7 +64,7 @@ export default function Tag({ posts, tag }) {
           <div
             onClick={() => setPage(page + 1)}
             onKeyDown={() => setPage(page + 1)}
-            className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300"
+            className="relative inline-flex items-center mt-4 px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-300 cursor-pointer"
           >
             Load More Posts
           </div>
@@ -72,3 +73,8 @@ export default function Tag({ posts, tag }) {
     </div>
   );
 }
+
+Tag.propTypes = {
+  posts: PropTypes.array.isRequired,
+  tag: PropTypes.string.isRequired,
+};

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import Image from "@/components/Image";
 import { BlogSEO } from "@/components/SEO";
 
@@ -34,3 +36,8 @@ export default function AuthorLayout({ frontMatter, children }) {
     </div>
   );
 }
+
+AuthorLayout.propTypes = {
+  frontMatter: PropTypes.object.isRequired,
+  children: PropTypes.node.isRequired,
+};

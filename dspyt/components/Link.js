@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 
 const CustomLink = ({ href, ...rest }) => {
   const isInternalLink = href?.startsWith("/");
@@ -16,11 +17,12 @@ const CustomLink = ({ href, ...rest }) => {
     return <div href={href} {...rest} />;
   }
 
-  return (
-    <a target="_blank" rel="noopener noreferrer" href={href} {...rest}>
-      {" "}
-    </a>
-  );
+  return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />;
+};
+
+CustomLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  rest: PropTypes.object,
 };
 
 export default CustomLink;
