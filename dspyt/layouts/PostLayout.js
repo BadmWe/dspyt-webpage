@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 
 import ImageDspyt from "@/components/Image";
 import PageTitle from "@/components/PageTitle";
@@ -171,3 +172,11 @@ export default function PostLayout({
     </SectionContainer>
   );
 }
+
+PostLayout.propTypes = {
+  frontMatter: PropTypes.object.isRequired,
+  authorDetails: PropTypes.object.isRequired,
+  prev: PropTypes.object,
+  next: PropTypes.object,
+  children: PropTypes.node.isRequired,
+};

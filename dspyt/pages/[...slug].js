@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
 import PageTitle from "@/components/PageTitle";
 import {
@@ -38,7 +40,7 @@ export async function getStaticProps({ params }) {
   return { props: { post, authorDetails, prev, next } };
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function BlogPost({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post;
   return (
     <div>
@@ -60,3 +62,10 @@ export default function Blog({ post, authorDetails, prev, next }) {
     </div>
   );
 }
+
+BlogPost.propTypes = {
+  post: PropTypes.object,
+  authorDetails: PropTypes.object,
+  prev: PropTypes.object,
+  next: PropTypes.object,
+};

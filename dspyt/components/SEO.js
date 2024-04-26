@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import PropTypes from "prop-types";
 
 import siteMetadata from "@/components/siteMetadata";
 
@@ -35,6 +36,16 @@ export const PageSEO = ({ title, description }) => {
   return <CommonSEO title={title} description={description} />;
 };
 
+PageSEO.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
+
 export const BlogSEO = ({ title, description }) => {
   return <CommonSEO title={title} description={description} ogType="article" />;
+};
+
+BlogSEO.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
