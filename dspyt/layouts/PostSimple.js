@@ -71,7 +71,7 @@ export default function PostLayout({ frontMatter, next, prev, children }) {
   );
 }
 
-LayoutWrapper.propTypes = {
+PostLayout.propTypes = {
   frontMatter: PropTypes.object.isRequired,
   prev: PropTypes.object,
   next: PropTypes.object,

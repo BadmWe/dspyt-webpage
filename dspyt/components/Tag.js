@@ -1,5 +1,7 @@
-import { convertToSlug } from "@/lib/utils/convertToSlug";
 import Link from "next/link";
+import PropTypes from "prop-types";
+
+import { convertToSlug } from "@/lib/utils/convertToSlug";
 
 const Tag = ({
   text,
@@ -33,3 +35,10 @@ const Tag = ({
 };
 
 export default Tag;
+
+Tag.propTypes = {
+  text: PropTypes.string.isRequired,
+  textRounded: PropTypes.string.isRequired,
+  paddingUpDown: PropTypes.string.isRequired,
+  paddingLeftRight: PropTypes.array.isRequired,
+};

@@ -17,7 +17,11 @@ const CustomLink = ({ href, ...rest }) => {
     return <div href={href} {...rest} />;
   }
 
-  return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />;
+  return (
+    <Link target="_blank" href={href}>
+      <div {...rest} />
+    </Link>
+  );
 };
 
 CustomLink.propTypes = {

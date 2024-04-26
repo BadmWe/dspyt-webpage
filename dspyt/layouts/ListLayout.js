@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 
 import Link from "@/components/Link";
@@ -6,10 +7,10 @@ import Tag from "@/components/Tag";
 import formatDate from "@/lib/utils/formatDate";
 
 export default function ListLayout({
-  posts,
   title,
-  initialDisplayPosts = [],
+  posts,
   pagination,
+  initialDisplayPosts = [],
 }) {
   const [searchValue, setSearchValue] = useState("");
 
@@ -104,3 +105,10 @@ export default function ListLayout({
     </div>
   );
 }
+
+ListLayout.propTypes = {
+  title: PropTypes.string.isRequired,
+  posts: PropTypes.array.isRequired,
+  pagination: PropTypes.object.isRequired,
+  initialDisplayPosts: PropTypes.array.isRequired,
+};
