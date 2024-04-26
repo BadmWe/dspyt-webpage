@@ -18,9 +18,9 @@ const CustomLink = ({ href, ...rest }) => {
   }
 
   return (
-    <Link target="_blank" href={href}>
-      <div {...rest} />
-    </Link>
+    <a target="_blank" href={href}>
+      <span {...rest} />
+    </a>
   );
 };
 

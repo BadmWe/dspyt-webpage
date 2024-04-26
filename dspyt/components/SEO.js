@@ -37,8 +37,8 @@ export const PageSEO = ({ title, description }) => {
 };
 
 PageSEO.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export const BlogSEO = ({ title, description }) => {
@@ -46,6 +46,6 @@ export const BlogSEO = ({ title, description }) => {
 };
 
 BlogSEO.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
