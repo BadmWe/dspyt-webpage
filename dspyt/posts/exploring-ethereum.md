@@ -14,6 +14,10 @@ tags:
     "ethplorer",
     "interface",
     "smart contracts",
+    "blockscout",
+    "Bitquery",
+    "javascript",
+    "typescript",
   ]
 ---
 
@@ -58,6 +62,13 @@ Finally, [BlockScout](https://www.blockscout.com/) is a powerful open source pro
 [BlockScout Ethereum Mainnet API](https://eth.blockscout.com/api-docs) example in typescript:
 
 ```ts
+export type CountersContract = {
+  gas_usage_count: string;
+  token_transfers_count: string;
+  transactions_count: string;
+  validations_count: string;
+};
+
 const query = `https://eth.blockscout.com/api/v2/addresses/${address}/counters`;
 const response: Response = await fetch(query);
 const body: CountersContract = await response.json();
