@@ -38,7 +38,7 @@ export default Tag;
 
 Tag.propTypes = {
   text: PropTypes.string.isRequired,
-  textRounded: PropTypes.string.isRequired,
-  paddingUpDown: PropTypes.string.isRequired,
-  paddingLeftRight: PropTypes.array.isRequired,
+  textRounded: PropTypes.string,
+  paddingUpDown: PropTypes.string,
+  paddingLeftRight: PropTypes.string,
 };

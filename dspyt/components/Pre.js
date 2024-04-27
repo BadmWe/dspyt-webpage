@@ -1,6 +1,7 @@
+import PropTypes from "prop-types";
 import { useRef, useState } from "react";
 
-const Pre = (props) => {
+export default function Pre({ children }) {
   const textInput = useRef(null);
   const [hovered, setHovered] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -64,9 +65,11 @@ const Pre = (props) => {
         </button>
       )}
 
-      <pre>{props.children}</pre>
+      <pre>{children}</pre>
     </div>
   );
-};
+}
 
-export default Pre;
+Pre.propTypes = {
+  children: PropTypes.node.isRequired,
+};

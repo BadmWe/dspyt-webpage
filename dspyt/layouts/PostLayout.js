@@ -24,7 +24,7 @@ const postDateTemplate = {
 
 export default function PostLayout({
   frontMatter,
-  authorDetails,
+  authorDetailsList,
   next,
   prev,
   children,
@@ -65,7 +65,7 @@ export default function PostLayout({
             <dt className="sr-only">Authors</dt>
             <dd>
               <ul className="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
-                {authorDetails?.map((author) => (
+                {authorDetailsList.map((author) => (
                   <li className="flex items-center space-x-2" key={author.name}>
                     {author.avatar && (
                       <ImageDspyt
@@ -175,7 +175,7 @@ export default function PostLayout({
 
 PostLayout.propTypes = {
   frontMatter: PropTypes.object.isRequired,
-  authorDetails: PropTypes.object.isRequired,
+  authorDetailsList: PropTypes.array.isRequired,
   prev: PropTypes.object,
   next: PropTypes.object,
   children: PropTypes.node.isRequired,

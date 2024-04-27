@@ -36,11 +36,11 @@ export async function getStaticProps({ params }) {
     const authorResults = await getFileBySlug("authors", [author]);
     return authorResults.frontMatter;
   });
-  const authorDetails = await Promise.all(authorPromise);
-  return { props: { post, authorDetails, prev, next } };
+  const authorDetailsList = await Promise.all(authorPromise);
+  return { props: { post, authorDetailsList, prev, next } };
 }
 
-export default function BlogPost({ post, authorDetails, prev, next }) {
+export default function BlogPost({ post, authorDetailsList, prev, next }) {
   const { mdxSource, toc, frontMatter } = post;
   return (
     <div>
@@ -50,7 +50,7 @@ export default function BlogPost({ post, authorDetails, prev, next }) {
           toc={toc}
           mdxSource={mdxSource}
           frontMatter={frontMatter}
-          authorDetails={authorDetails}
+          authorDetailsList={authorDetailsList}
           prev={prev}
           next={next}
         />
@@ -65,7 +65,7 @@ export default function BlogPost({ post, authorDetails, prev, next }) {
 
 BlogPost.propTypes = {
   post: PropTypes.object,
-  authorDetails: PropTypes.object,
+  authorDetailsList: PropTypes.array.isRequired,
   prev: PropTypes.object,
   next: PropTypes.object,
 };

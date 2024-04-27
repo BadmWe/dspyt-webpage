@@ -32,13 +32,20 @@ const CommonSEO = ({
   );
 };
 
+CommonSEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  ogImage: PropTypes.string,
+  ogType: PropTypes.string,
+};
+
 export const PageSEO = ({ title, description }) => {
   return <CommonSEO title={title} description={description} />;
 };
 
 PageSEO.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export const BlogSEO = ({ title, description }) => {
@@ -46,6 +53,6 @@ export const BlogSEO = ({ title, description }) => {
 };
 
 BlogSEO.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  description: PropTypes.string,
 };

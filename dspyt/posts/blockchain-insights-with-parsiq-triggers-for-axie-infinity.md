@@ -2,6 +2,7 @@
 title: "Great blockchain insights with PARSIQ triggers for AXS"
 date: "November 21, 2021"
 excerpt: "In this project we utilize PARSIQ Smart Triggers and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Bsc."
+authors: ["pavel-fedotov"]
 cover_image: "/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
 tags:
   [
