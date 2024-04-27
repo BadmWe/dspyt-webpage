@@ -1,9 +1,4 @@
-/**
- * @typedef TocHeading
- * @prop {string} value
- * @prop {number} depth
- * @prop {string} url
- */
+import PropTypes from "prop-types";
 
 /**
  * Generates an inline table of contents
@@ -20,14 +15,15 @@
  * }} props
  *
  */
-const TOCInline = ({
+
+export default function TOCInline({
   toc,
-  indentDepth = 3,
-  fromHeading = 1,
-  toHeading = 6,
-  asDisclosure = false,
-  exclude = "",
-}) => {
+  indentDepth,
+  fromHeading,
+  toHeading,
+  asDisclosure,
+  exclude,
+}) {
   const re = Array.isArray(exclude)
     ? new RegExp("^(" + exclude.join("|") + ")$", "i")
     : new RegExp("^(" + exclude + ")$", "i");
@@ -53,7 +49,7 @@ const TOCInline = ({
   );
 
   return (
-    <>
+    <div>
       {asDisclosure ? (
         <details open>
           <summary className="ml-6 pt-2 pb-2 text-xl font-bold">
@@ -64,8 +60,15 @@ const TOCInline = ({
       ) : (
         tocList
       )}
-    </>
+    </div>
   );
-};
+}
 
-export default TOCInline;
+TOCInline.propTypes = {
+  toc: PropTypes.array.isRequired,
+  indentDepth: 3,
+  fromHeading: 1,
+  toHeading: 6,
+  asDisclosure: false,
+  exclude: "",
+};

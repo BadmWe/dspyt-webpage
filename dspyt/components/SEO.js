@@ -32,6 +32,13 @@ const CommonSEO = ({
   );
 };
 
+CommonSEO.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  ogImage: PropTypes.string,
+  ogType: PropTypes.string,
+};
+
 export const PageSEO = ({ title, description }) => {
   return <CommonSEO title={title} description={description} />;
 };

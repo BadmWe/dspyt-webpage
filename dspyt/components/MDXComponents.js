@@ -1,5 +1,7 @@
 import { getMDXComponent } from "mdx-bundler/client";
+import PropTypes from "prop-types";
 import { useMemo } from "react";
+
 import Image from "./Image";
 import CustomLink from "./Link";
 import Pre from "./Pre";
@@ -20,4 +22,10 @@ export const MDXLayoutRenderer = ({ layout, mdxSource, ...rest }) => {
   const MDXLayout = useMemo(() => getMDXComponent(mdxSource), [mdxSource]);
 
   return <MDXLayout layout={layout} components={MDXComponents} {...rest} />;
+};
+
+MDXLayoutRenderer.propTypes = {
+  layout: PropTypes.string.isRequired,
+  mdxSource: PropTypes.string.isRequired,
+  rest: PropTypes.object,
 };
