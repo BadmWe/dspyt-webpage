@@ -94,7 +94,6 @@ function HomePage() {
         className="inline-flex mb-3 ml-12 rounded-md bg-indigo-600 px-2 py-2 text-sm font-semibold text-white cursor-pointer shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transform transition-transform duration-300 ease-in-out"
       >
         Select a preview image
-        <input type="file" accept="image/*" className="hidden" />
       </button>
 
       <MDEditor
