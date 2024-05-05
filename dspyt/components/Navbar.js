@@ -31,30 +31,27 @@ export default function Navbar() {
               </div>
 
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start ml-5 md:ml-10">
-                <Link href={"/"} legacyBehavior>
-                  <div className="flex-shrink-0 flex items-center">
-                    <Image
-                      height={32}
-                      width={120}
-                      src={Logo}
-                      alt="Dspyt : Data Science with Python"
-                    />
-                  </div>
+                <Link href={"/"}>
+                  <Image
+                    lazy="true"
+                    height={32}
+                    width={120}
+                    src={Logo}
+                    alt="Dspyt : Data Science with Python"
+                    className="flex items-center"
+                  />
                 </Link>
 
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <Link key={`${item.name}Link`} href={item.href} passHref>
-                        <p
-                          key={`${item.name}text`}
-                          className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium text-base md:text-lg md:ml-5"
-                        >
-                          {item.name}
-                        </p>
-                      </Link>
-                    ))}
-                  </div>
+                <div className="flex space-x-4 sm:block sm:ml-6">
+                  {navigation.map((item) => (
+                    <Link
+                      key={`${item.name}Link`}
+                      href={item.href}
+                      className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium text-base md:text-lg md:ml-5"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
                 </div>
               </div>
               <Link
