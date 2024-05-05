@@ -19,15 +19,15 @@ const CommonSEO = ({
         property="og:url"
         content={`${siteMetadata.siteUrl}${router.asPath}`}
       />
-      <meta name="description" content={description} />
+      <meta property="description" content={description} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={ogImage} />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content={siteMetadata.twitter} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={ogImage} />
+      <meta property="twitter:card" content="summary" />
+      <meta property="twitter:site" content={siteMetadata.twitter} />
+      <meta property="twitter:title" content={title} />
+      <meta property="twitter:description" content={description} />
+      <meta property="twitter:image" content={ogImage} />
     </Head>
   );
 };
