@@ -41,11 +41,11 @@ Mina Protocol is a next-generation blockchain powered by Zero Knowledge Proofs (
 
 To begin your journey in the Mina Protocol ecosystem, follow these steps:
 
-1. **Run a Mina Protocol Node**: The first step is to understand the role of [node operators](https://minaprotocol.com/node-operators) on Mina blockchain. Mina is secured by proof-of-stake consensus. Unlike other legacy protocols, any participant can validate transactions like a full node — making decentralization possible. And here, node operators can play two roles: they can produce blocks, and/or they can produce SNARKs.
+1. **Run Mina Protocol Node**: The first step is to understand the role of [node operators](https://minaprotocol.com/node-operators) on Mina blockchain. Mina is secured by proof-of-stake consensus. Unlike other legacy protocols, any participant can validate transactions like a full node — making decentralization possible. And here, node operators can play two roles: they can produce blocks, and/or they can produce SNARKs.
 
 2. **Create a Wallet**: Once the node is installed, create a wallet to securely store your MINA tokens. Your wallet will serve as your gateway to participating in transactions, staking, and delegating. Ensure you keep your wallet credentials safe and back up your wallet for added security.
 
-3. **Join the Mina Communities**: Engaging with the vibrant Mina communities is crucial for gaining insights, support, and connecting with like-minded individuals. Join the official Mina Discord, Telegram, and Reddit communities to become part of the growing ecosystem. These platforms provide valuable resources, tutorials, and discussions to help you navigate the Mina Protocol.
+3. **Join Mina Communities**: Engaging with the vibrant Mina communities is crucial for gaining insights, support, and connecting with like-minded individuals. Join the official Mina Discord, Telegram, and Reddit communities to become part of the growing ecosystem. These platforms provide valuable resources, tutorials, and discussions to help you navigate the Mina Protocol.
 
 4. **Explore Mina Projects**: The Mina ecosystem is home to a diverse range of projects being built on top of the protocol. Keep an eye out for decentralized finance (DeFi) applications, privacy-focused tools, NFT platforms, and much more. Exploring these projects not only expands your understanding of the Mina ecosystem but also presents opportunities for collaboration or innovation.
 
@@ -91,3 +91,9 @@ Mina Protocol is a game-changer in the blockchain landscape, offering a lightwei
 3. [Mina Protocol Discord](https://discord.com/invite/minaprotocol)
 4. [Mina Protocol Telegram](https://t.me/minaprotocol)
 5. [Mina Protocol Reddit](https://www.reddit.com/r/MinaProtocol/)
+
+## Related Links and Posts
+
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/Zero-Knowledge-proofs-on-Mina-zkPassport)
+- [Connecting Auro Wallet to Your Website](https://dspyt.com/connecting-auro-wallet-to-your-website)
+- [Unlock the Secrets of Zero Knowledge Technology with Lauri Peltonen](https://dspyt.com/zero-knowledge-technology)

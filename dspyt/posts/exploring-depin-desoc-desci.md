@@ -55,3 +55,12 @@ Meanwhile, DeSoc presents an empowering opportunity, with the potential for brea
 The momentum behind DeSci is driven by the alignment of crypto incentives with scientific research objectives, offering transformative potential in areas such as research funding for longevity, rare disease treatments, and space exploration. The integration of token sales and decentralized autonomous organizations (DAOs) aims to revolutionize scientific innovation and address inefficiencies in the existing research funding system.
 
 As investors and enthusiasts explore opportunities beyond DeFi in the crypto market, monitoring the development and adoption of DePIN, DeSci, and DeSoc will provide valuable insights into their transformative capabilities. These critical, non-financial sectors offer a broader perspective on the diverse potential within the decentralized ecosystem, contributing to the evolution and maturation of the crypto space.
+
+## Related Links and Posts
+
+- [Demystifying the Filecoin Virtual Machine (FVM)](https://dspyt.com/Filecoin-architecture)
+- [Empowering DeFi with Synthetic Assets](https://dspyt.com/synthetix-unleashing-the-power)
+- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf)
+- [Unlock the Secrets of Zero Knowledge Technology with Lauri Peltonen](https://dspyt.com/zero-knowledge-technology)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)

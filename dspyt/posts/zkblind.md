@@ -23,7 +23,7 @@ tags:
     "Security",
     "Blockchain",
     "Web3",
-    "zkBind",
+    "zkBlind",
   ]
 authors: ["pavel-fedotov"]
 ---
@@ -55,3 +55,15 @@ For more detailed information, and to access the ZkBlindNextJs project, please v
 We are thrilled to offer this innovative solution that prioritizes privacy, security, and authentication for individuals. Join us in leveraging the power of Zero-Knowledge Proofs with ZkBlind NextJs.
 
 Stay tuned for updates and features as we continue to enhance the capabilities of ZkBlind NextJs.
+
+## Related Links and Posts
+
+- [Demystifying the Filecoin Virtual Machine (FVM)](https://dspyt.com/Filecoin-architecture)
+- [Simple App with Ceramic Data Model and Unstoppable Domains](https://dspyt.com/simple-app-with-ceramic-data-model-and-unstoppable-domains)
+- [Empowering DeFi with Synthetic Assets](https://dspyt.com/synthetix-unleashing-the-power)
+- [The Optimism Ecosystem and RetroPGF: Nurturing Innovation and Impact](https://dspyt.com/optimism-ecosystem-and-retro-pgf)
+- [Unlock the Secrets of Zero Knowledge Technology with Lauri Peltonen](https://dspyt.com/zero-knowledge-technology)
+- [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
+- [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
+- [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/Zero-Knowledge-proofs-on-Mina-zkPassport)

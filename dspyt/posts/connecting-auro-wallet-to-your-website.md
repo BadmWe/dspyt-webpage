@@ -11,6 +11,7 @@ tags:
     "Decentralized Finance",
     "DeFi",
     "Mina",
+    "Mina Community",
     "Blockchain",
     "Wallet",
     "Privacy",
@@ -168,3 +169,4 @@ That&apos;s it! You have successfully integrated the Auro Wallet connection func
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
 - [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/Zero-Knowledge-proofs-on-Mina-zkPassport)
