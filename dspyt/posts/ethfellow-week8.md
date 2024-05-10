@@ -12,24 +12,29 @@ tags:
     "nextjs",
     "etherscan",
     "vercel",
+    "deployment",
     "UI",
     "smart contracts",
   ]
 ---
 
-Our focus remained on the development of Ethereum Contract Explorer, which is a comprehensive tool designed to facilitate the exploration of Ethereum contracts and their associated data. The objective of this project is to offer users a user-friendly interface that simplifies the process of exploring Ethereum contracts.
+Our focus remained on the development of ethereum smart contract explorer, which is a comprehensive tool designed to facilitate the exploration of ethereum contracts and their associated data.
+
+The objective of this project is to offer users a user-friendly interface that simplifies the process of exploring ethereum smart contracts.
 
 This week we deployed the application on vercel available at: [https://next-js-explorer-sigma.vercel.app/](https://next-js-explorer-sigma.vercel.app/).
 
 ![vercel deployment results](/images/posts/explorer/vercel8.webp)
 
-Here are some of the key features of the Ethereum Contract Explorer:
+## Ethereum smart contract explorer features
 
-Contract Search: The application allows users to search for Ethereum contracts by their address. Once a contract is found, users can view its details such as the contract's ABI.
+Here are some of the key features of ethereum smart contract explorer:
 
-Transactions: Users can view the latest transactions associated with a particular contract, including their receiver, sender, and gas used.
+- Contract Search: The application allows users to search for Ethereum contracts by their address. Once a contract is found, users can view its details such as the contract's ABI and ethereum balance.
 
-Current state: The application also displays all the current states for a contract, along with their parameters.
+- Transactions: Users can view the latest transactions associated with a particular contract, including transaction hashes for a receiver, a sender, and gas amount used.
+
+- Current state: The application also displays all the current states for a contract, along with their parameters.
 
 Overall, the Ethereum Contract Explorer simplifies the process of exploring Ethereum contracts and their associated data. It provides a user-friendly interface that allows users to quickly and easily access important information about contracts and their transactions, events, and functions.
 

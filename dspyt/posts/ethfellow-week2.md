@@ -1,12 +1,13 @@
 ---
 title: "Exploring Ethereum Contracts and Their Associated Data"
 date: "February 16, 2023"
-excerpt: "This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data."
+excerpt: "This week we began to work on Ethereum Smart Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data."
 cover_image: "/images/posts/explorer/pexels-oluwaseun-duncan-226232.webp"
-authors: ["dspytdao"]
+authors: ["dspytdao", "pavel-fedotov"]
 tags:
   [
     "Ethereum",
+    "evm",
     "smart contracts",
     "explorer",
     "blockscout",
@@ -14,12 +15,18 @@ tags:
     "etherscan",
     "vercel",
     "tailwind",
+    "data",
+    "dao",
   ]
 ---
 
-This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. We set up the development environment and began coding the project. We started by developing the basic user interface for exploring Ethereum contracts. This included creating the application in Next js and Tailwind, a simple home page, navbar and search bar. We also worked on implementing scalable application and search functionality.
+This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. We set up the development environment and began coding the project.
 
-Next, we will continue developing the detailed information view and begin working on the network activity view for each contract. This will allow users to search for contracts based on various criteria such as address, transaction hash, contract name, etc., view detailed information about each contract such as the code, deployed transactions, storage and execution costs, etc., and monitor the network activity of a contract over a period of time. We are excited to see how this project progresses in the upcoming weeks!
+We started developing the basic user interface for exploring Ethereum contracts. This included creating the application in Next js and Tailwind, a simple home page, a navbar and a search bar. We also refactored the code to much easier implement a scalable application in the near future and integrated search functionality.
+
+Next, we will continue developing the detailed information dashboard and begin working on the network activity display for each contract. This will allow users to search for contracts based on various criteria such as address, transaction hash, contract name, and view detailed information about each contract such as the code, deployed transactions, storage and execution costs.
+
+Monitoring network activity of a contract over a period of time is a major feature that should enable more utility in context of the decentralized governance organizations.
 
 Follow our progress on GitHub at [https://github.com/Pfed-prog/NextJsExplorer](https://github.com/Pfed-prog/NextJsExplorer) and stay tuned for more updates!
 
