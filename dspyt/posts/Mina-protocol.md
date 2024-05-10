@@ -41,7 +41,7 @@ Mina Protocol is a next-generation blockchain powered by Zero Knowledge Proofs (
 
 To begin your journey in the Mina Protocol ecosystem, follow these steps:
 
-1. **Install the Mina Protocol Node**: The first step is to download and install the Mina Protocol node software. This software allows you to interact with the Mina network, participate in the consensus mechanism, and earn rewards for securing the blockchain.
+1. **Run a Mina Protocol Node**: The first step is to understand the role of [node operators](https://minaprotocol.com/node-operators) on Mina blockchain. Mina is secured by proof-of-stake consensus. Unlike other legacy protocols, any participant can validate transactions like a full node — making decentralization possible. And here, node operators can play two roles: they can produce blocks, and/or they can produce SNARKs.
 
 2. **Create a Wallet**: Once the node is installed, create a wallet to securely store your MINA tokens. Your wallet will serve as your gateway to participating in transactions, staking, and delegating. Ensure you keep your wallet credentials safe and back up your wallet for added security.
 

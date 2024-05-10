@@ -3,7 +3,7 @@ title: "Connecting Auro Wallet to Your Website"
 date: "January 25, 2024"
 excerpt: "Open your website, ensure Auro Wallet is installed, click Connect Wallet, and verify displayed wallet address upon connection."
 cover_image: "/images/posts/auro/auro.webp"
-authors: ["alexfedotovqq"]
+authors: ["alexfedotovqq", "pavel-fedotov"]
 tags:
   [
     "Auro Wallet",
@@ -17,10 +17,11 @@ tags:
     "Cryptocurrency Wallet",
     "Frontend Development",
     "NextJs",
+    "react",
   ]
 ---
 
-In this guide, I will tell you about the process of connecting Auro Wallet to your website. This guide is based on the [TradeCoin project](https://tradecoin.dev/)
+In this guide, I will tell you about the process of connecting Auro Wallet to your react project. This guide is based on the [TradeCoin](https://tradecoin.dev/) codebase.
 
 ## Prerequisites
 
