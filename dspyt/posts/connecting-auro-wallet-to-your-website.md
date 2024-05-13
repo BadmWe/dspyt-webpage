@@ -3,7 +3,7 @@ title: "Connecting Auro Wallet to Your Website"
 date: "January 25, 2024"
 excerpt: "Open your website, ensure Auro Wallet is installed, click Connect Wallet, and verify displayed wallet address upon connection."
 cover_image: "/images/posts/auro/auro.webp"
-authors: ["alexfedotovqq"]
+authors: ["alexfedotovqq", "pavel-fedotov"]
 tags:
   [
     "Auro Wallet",
@@ -11,16 +11,18 @@ tags:
     "Decentralized Finance",
     "DeFi",
     "Mina",
+    "Mina Community",
     "Blockchain",
     "Wallet",
     "Privacy",
     "Cryptocurrency Wallet",
     "Frontend Development",
     "NextJs",
+    "react",
   ]
 ---
 
-In this guide, I will tell you about the process of connecting Auro Wallet to your website. This guide is based on the [TradeCoin project](https://tradecoin.dev/)
+In this guide, I will tell you about the process of connecting Auro Wallet to your react project. This guide is based on the [TradeCoin](https://tradecoin.dev/) codebase.
 
 ## Prerequisites
 
@@ -167,3 +169,4 @@ That&apos;s it! You have successfully integrated the Auro Wallet connection func
 - [How to illustrate log returns vs simple returns](https://dspyt.com/simple-returns-log-return-and-volatility-simple-introduction)
 - [A How to EfficientNet Classification](https://dspyt.com/efficientnet-classification)
 - [Cross-sectional data – An easy introduction](https://dspyt.com/cross-sectional-data-an-easy-introduction)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/Zero-Knowledge-proofs-on-Mina-zkPassport)

@@ -3,7 +3,7 @@ title: "Exploring Ethereum Network with Etherscan and BlockScout"
 date: "February 9, 2023"
 excerpt: "Powerful tools for exploring Ethereum networks and their associated contracts provide users with an easy-to-use interface for searching and exploring contracts."
 cover_image: "/images/posts/explorer/pexels-pixabay-163064.webp"
-authors: ["pavel-fedotov"]
+authors: ["dspytdao", "pavel-fedotov"]
 tags:
   [
     "Ethereum",
@@ -54,6 +54,8 @@ const body = await response.json();
 ## Bitquery
 
 [Bitquery](https://explorer.bitquery.io/) is an Ethereum block explorer that provides users with an easy-to-use interface for searching and exploring Ethereum contracts and their associated data. It allows users to search for contracts based on various criteria such as address, transaction hash, contract name. Additionally, it provides detailed information about each contract such as the code, deployed transactions, storage and execution costs. It also offers advanced analytics such as gas usage and other metrics that can be used to analyze the performance of the network.
+
+However, [this stack overflow thread](https://stackoverflow.com/questions/70784272/bitquery-wrong-data-not-real-time) does not seem to promise accurate data.
 
 ## BlockScout
 
