@@ -12,10 +12,21 @@ description: "Fluent in Python, JavaScript, React and NextJs. Passionate badmint
 
 Hello, I am Dmitrii Fedotov — a professional Spanish badminton player and the creative mind behind [WebBadminton platform](https://twitter.com/WebBadminton4u). My journey has been a unique blend of athleticism and technology, reflecting my passion for both sports and innovation.
 
-On the badminton court, I have dedicated myself to achieving excellence, showcasing not only my skills but also a competitive spirit that drives me to push boundaries. Beyond the world of sports, I have ventured into the realm of technology, bringing my creativity to life through the WebBadminton platform. This project is a testament to my commitment to enhancing the sports experience through digital means, fostering a sense of community among badminton enthusiasts.
+In addition to my endeavors in sports and technology, I have played a crucial role in the Dspyt project. My skill set includes proficiency in programming languages like Python, JavaScript, React, and NextJs—tools that have been instrumental in shaping the success of the project.
 
-In addition to my endeavors in sports and technology, I have played a crucial role in the Dspyt project. My skill set includes proficiency in programming languages like Rust, Solidity, Python, JavaScript, React, and NextJs—tools that have been instrumental in shaping the success of the project.
+I am honored to have received recognition from prominent entities in the blockchain space, including Filecoin, Uniswap, Algorand. These accolades underscore the innovative approach and technological expertise I bring to projects, contributing to the evolution of digital finance and blockchain technology.
 
-I am honored to have received recognition from prominent entities in the blockchain space, including Filecoin, Uniswap, Algorand, Near, Fuel Blockchain, Ceramic, and PARSIQ. These accolades underscore the innovative approach and technological expertise I bring to projects, contributing to the evolution of digital finance and blockchain technology.
+Participated with Dspyt - into CodeVerse in Gitcoin Rounds
 
-As I continue to make strides in both sports and technology, my unwavering dedication remains focused on fostering innovation and making a lasting impact at the intersection of sports and the digital world. Join me on this exciting journey as we explore new horizons in badminton and contribute to the ever-evolving landscape of technology.
+- GG20 Hackhaton Alumni
+- Gitcoin Retro Grant
+- Aave GHO Round
+- Web3 Community and Education round
+
+[Won bounty from gitcoin and ocean marketplace](https://app.buidlbox.io/projects/gitcoinanalysis)
+and made
+[Gitcoin Beta Round Analysis](https://dspyt.com/gitcoinbetaroundanalysis)
+
+[Completed Filecoin grant](https://github.com/BadmWe/WebBadminton)
+
+Participated in MetaDao Hackathon and created a big research - understanding Futarchy - governance mechanism. Research on the Futarchy governance mechanism provides insights into governance structures and their impact on human behavior within digital ecosystems. [Read more](https://dspyt.com/futarchy-governance-mechanism-meta-dao)
