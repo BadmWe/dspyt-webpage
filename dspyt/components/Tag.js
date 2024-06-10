@@ -18,7 +18,7 @@ const Tag = ({
         <span
           className={
             textRounded +
-            " bg-emerald-400 dark:bg-blue-100 font-medium uppercase text-xs hover:text-indigo-700 text-stone-100 dark:hover:text-primary-400"
+            " bg-emerald-400 dark:bg-blue-100 font-medium uppercase text-xs hover:text-indigo-700 text-stone-100 dark:text-blue-900 dark:hover:text-primary-400"
           }
           style={{
             paddingTop: paddingUpDown,
