@@ -110,11 +110,17 @@ export default function PostLayout({
               {children}
             </div>
             <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
-              <Link href={discussUrl(slug)} rel="nofollow" className="hover:text-gray-900">
+              <Link
+                href={discussUrl(slug)}
+                rel="nofollow"
+                className="hover:text-gray-900"
+              >
                 Discuss on Twitter
               </Link>
               {` • `}
-              <Link href={editUrl(fileName)} className="hover:text-gray-900">View on GitHub</Link>
+              <Link href={editUrl(fileName)} className="hover:text-gray-900">
+                View on GitHub
+              </Link>
             </div>
           </div>
           <footer>

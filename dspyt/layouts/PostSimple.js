@@ -25,9 +25,7 @@ export default function PostLayout({ frontMatter, next, prev, children }) {
                   </dd>
                 </div>
               </dl>
-              <div className="dspyt-h3xl">
-                {title}
-              </div>
+              <div className="dspyt-h3xl">{title}</div>
             </div>
           </header>
           <div

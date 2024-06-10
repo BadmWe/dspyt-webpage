@@ -54,9 +54,7 @@ export default function BlogPost({ post, authorDetailsList, prev, next }) {
           next={next}
         />
       ) : (
-        <div className="mt-24 dspyt-h3xl">
-          Under Construction
-        </div>
+        <div className="mt-24 dspyt-h3xl">Under Construction</div>
       )}
     </div>
   );

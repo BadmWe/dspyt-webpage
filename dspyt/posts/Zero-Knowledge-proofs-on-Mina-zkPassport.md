@@ -171,4 +171,4 @@ By incorporating these elements, Mina, zkPassport, and SoulBound NFTs are collec
 
 ## More Information
 
-[Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETHBucharest 2024](https://docs.google.com/presentation/d/1OmJJgzk4iFbKexqBw87oU7oh4H9lXlFFh3eas0EF9y8/edit?usp=sharing)
+[Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETH Bucharest 2024](https://docs.google.com/presentation/d/1OmJJgzk4iFbKexqBw87oU7oh4H9lXlFFh3eas0EF9y8/edit?usp=sharing)

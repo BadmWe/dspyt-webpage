@@ -25,10 +25,7 @@ export default function BlogPage({ posts, pageNumber }) {
     <div>
       <PageSEO title={"Dspyt: Blog Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
-        <h1
-          className="dspyt-h3xl"
-          style={{ margin: "20px" }}
-        >
+        <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Blog
         </h1>
 
