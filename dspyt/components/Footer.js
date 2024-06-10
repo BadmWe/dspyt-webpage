@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-import DiscordIcon from "./SocialMediaIcons/DiscordIcon";
+import DiscordIcon from "@/components/SocialMediaIcons/DiscordIcon";
 import GitHubIcon from "@/components/SocialMediaIcons/GitHubIcon";
 import LinkedInIcon from "@/components/SocialMediaIcons/LinkedInIcon";
 import TwitterIcon from "@/components/SocialMediaIcons/TwitterIcon";
-import YouTubeIcon from "./SocialMediaIcons/YouTubeIcon";
+import YouTubeIcon from "@/components/SocialMediaIcons/YouTubeIcon";
 
 const navigation = [
   {
