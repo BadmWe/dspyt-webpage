@@ -2,7 +2,7 @@
 title: "ETH Belgrade 2024: ZKPs on Mina, zkPassport and SoulBound NFTs"
 date: "June 11, 2024"
 excerpt: "Web3 identity and social experiences are being enhanced through the introduction of non-transferable soulbound tokens, the usage of the Mina Protocol, zkPassport and zkOracles."
-cover_image: "/images/posts/mina/ETHBelgrade2024.webp"
+cover_image: "/images/posts/Mina/ETHBelgrade2024.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
