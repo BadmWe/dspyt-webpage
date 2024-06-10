@@ -106,7 +106,7 @@ export default function PostLayout({
             </dd>
           </dl>
           <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
-            <div className="prose prose-zinc prose-strong:text-zinc-800 lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
+            <div className="prose prose-zinc prose-strong:text-zinc-800 dark:prose-strong:text-white lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
               {children}
             </div>
             <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
