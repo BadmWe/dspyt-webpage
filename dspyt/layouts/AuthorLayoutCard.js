@@ -27,7 +27,7 @@ export default function AuthorLayout({ frontMatter, children }) {
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />
-      <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700 transition-all">
         <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
           <div className="card">
             <Image
