@@ -50,10 +50,10 @@ export default function Tag({ posts, tag }) {
       <BlogSEO title={`Data Science with Python ${title}`} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1
-          className="dspyt-h1"
-          style={{ margin: "20px", textAlign: "center" }}
+          className="dspyt-h3xl"
+          style={{ margin: "20px" }}
         >
-          Dspyt blog tag: <span> {title} </span>
+          Dspyt: <span> {title} </span>
         </h1>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.slice(0, lastPost).map((post) => (

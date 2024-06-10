@@ -35,7 +35,7 @@ export default function PostLayout({
       <BlogSEO title={title} description={excerpt} />
       <ScrollTopAndComment />
       <article>
-        <header className="pt-6 xl:pb-6">
+        <header className="pt-6 xl:pb-6 transition-all">
           <div className="space-y-1 text-center">
             <dt className="sr-only">Published on</dt>
             <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
@@ -50,9 +50,12 @@ export default function PostLayout({
             <ImageDspyt
               className="mx-auto rounded-lg"
               width={460}
-              height={150}
+              height={220}
               src={cover_image}
               alt={title}
+              style={{
+                maxHeight: "220px",
+              }}
             />
           </div>
         </header>
@@ -103,12 +106,12 @@ export default function PostLayout({
             </dd>
           </dl>
           <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
-            <div className="prose max-w-none pb-8 dark:prose-dark">
+            <div className="prose prose-zinc lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
               {children}
             </div>
             <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
               <Link href={discussUrl(slug)} rel="nofollow">
-                {"Discuss on Twitter"}
+                Discuss on Twitter
               </Link>
               {` • `}
               <Link href={editUrl(fileName)}>View on GitHub</Link>

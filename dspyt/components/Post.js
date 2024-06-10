@@ -42,7 +42,7 @@ export default function Post({ post, slug }) {
               {title}
             </p>
           </Link>
-          <p className="mt-3 text-base text-gray-500 tracking-wide">{excerpt}</p>
+          <p className="mt-3 text-base text-gray-500 tracking-wide leading-7">{excerpt}</p>
         </div>
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
