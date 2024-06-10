@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .dspyt-h1 {
-  @apply text-4xl sm:text-6xl sm:text-left font-bold tracking-tight text-gray-900 dark:text-gray-100;
+  @apply text-4xl sm:text-6xl sm:text-left font-bold tracking-tight text-blue-950 dark:text-gray-100;
 }
 
-.dspyt-h2 {
-  @apply text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14;
+.dspyt-h3xl {
+  @apply text-center text-3xl font-extrabold tracking-tight text-cyan-950 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14;
 }
 
 .card {

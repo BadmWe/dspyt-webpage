@@ -23,8 +23,8 @@ export default function BlogIndexPage({ posts, lastPage }) {
       <PageSEO title={"Dspyt: Blog Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1
-          className="dspyt-h1"
-          style={{ margin: "20px", textAlign: "center" }}
+          className="dspyt-h3xl"
+          style={{ margin: "20px" }}
         >
           Data Science and Blockchain Blog
         </h1>

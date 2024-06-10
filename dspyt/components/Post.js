@@ -36,13 +36,13 @@ export default function Post({ post, slug }) {
             <Tag text={tag} key={tag} />
           ))}
         </p>
-        <div className="block mt-2">
+        <div className="block mt-3">
           <Link href={`/${slug}`}>
-            <p className="text-xl font-semibold text-gray-900 hover:text-primary-600 dark:hover:text-primary-400">
+            <p className="text-xl font-semibold text-gray-900 hover:text-primary-500 dark:hover:text-primary-400">
               {title}
             </p>
           </Link>
-          <p className="mt-3 text-base text-gray-500">{excerpt}</p>
+          <p className="mt-3 text-base text-gray-500 tracking-wide">{excerpt}</p>
         </div>
         <div className="mt-6 flex items-center">
           <div className="flex-shrink-0">
@@ -58,7 +58,7 @@ export default function Post({ post, slug }) {
           </div>
           <div className="ml-3">
             <Link href={`/profile/${authorSlug}`}>
-              <p className="text-sm font-medium text-gray-900">{authorName}</p>
+              <p className="text-sm font-medium text-gray-900 hover:text-green-700">{authorName}</p>
             </Link>
             <div className="flex space-x-1 text-sm text-gray-500">
               <time dateTime={date}>{formatDate(date)}</time>
