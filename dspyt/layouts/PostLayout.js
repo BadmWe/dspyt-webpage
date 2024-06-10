@@ -81,7 +81,7 @@ export default function PostLayout({
                     <dl className="whitespace-nowrap text-l font-medium leading-5">
                       <dt className="sr-only">Name</dt>
                       <Link href={`/profile/${author.slug}`}>
-                        <dd className="text-gray-900 dark:text-gray-100 hover:text-cyan-600">
+                        <dd className="text-gray-800 dark:text-gray-100 hover:text-cyan-800">
                           {author.name}
                         </dd>
                       </Link>
@@ -106,15 +106,15 @@ export default function PostLayout({
             </dd>
           </dl>
           <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
-            <div className="prose prose-zinc lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
+            <div className="prose prose-zinc prose-strong:text-zinc-800 lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
               {children}
             </div>
             <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
-              <Link href={discussUrl(slug)} rel="nofollow">
+              <Link href={discussUrl(slug)} rel="nofollow" className="hover:text-gray-900">
                 Discuss on Twitter
               </Link>
               {` • `}
-              <Link href={editUrl(fileName)}>View on GitHub</Link>
+              <Link href={editUrl(fileName)} className="hover:text-gray-900">View on GitHub</Link>
             </div>
           </div>
           <footer>
