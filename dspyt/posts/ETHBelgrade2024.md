@@ -1,12 +1,14 @@
 ---
 title: "ETH Belgrade 2024: ZKPs on Mina, zkPassport and SoulBound NFTs"
 date: "June 11, 2024"
-excerpt: "Web3 identity and social experiences are being enhanced through the introduction of non-transferable soulbound tokens, the usage of the Mina Protocol, zkPassport and zkOracles."
+excerpt: "The Mina Protocol incorporates innovative features such as non-transferable soulbound tokens, zero-knowledge proofs, zkOracles, VRFs, and off-chain data handling to address key challenges in Web3, enhance scalability, bolster identity systems, and enable more powerful and private zkApps."
 cover_image: "/images/posts/Mina/ETHBelgrade2024.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
     "Decentralized",
+    "zkOracles",
+    "ETH Belgrade 2024",
     "Ethereum",
     "Mina",
     "blockchain",
@@ -85,6 +87,13 @@ The incorporation of VRFs (Verifiable Random Functions) will provide secure and 
 
 ZKON's zkOracle services supply accurate and tamper-proof price data, which is essential for financial applications, smart contracts, and DeFi platforms. This ensures that all price-sensitive operations are based on accurate and up-to-date information, reducing the risk of errors and manipulation.
 
+## Conclusion
+
+The integration of zero-knowledge proofs (ZKPs) on Mina blockchain, zkPassport, and SoulBound NFTs presents promising advancements in decentralized identity systems, off-chain data handling, and randomness events. These innovations showcase the potential to enhance Web3's social experience, foster trust networks, and bolster sybil-resistant governance systems. With its focus on scalability, decentralization, and security, Mina blockchain stands out as a unique and innovative player in the blockchain space, offering new possibilities for blockchain applications. This article covers the key features and potential applications of ZKPs on Mina, zkPassports, SoulBound NFTs, and their implications for the future of decentralized identity and off-chain data handling.
+
 ## More Information
 
-[Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETH Belgrade 2024](https://docs.google.com/presentation/d/1UPEqP54cvfAE_UtR_zHtQyVorYSnbSaijlEvV72kwig/edit?usp=sharing)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETH Belgrade 2024](https://docs.google.com/presentation/d/1UPEqP54cvfAE_UtR_zHtQyVorYSnbSaijlEvV72kwig/edit?usp=sharing)
+- [Mina Protocol: Unlocking the Power of the Mini-Blockchain Ecosystem](https://dspyt.com/Mina-protocol)
+- [Connecting Auro Wallet to Your Website](https://dspyt.com/connecting-auro-wallet-to-your-website)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/Zero-Knowledge-proofs-on-Mina-zkPassport)
