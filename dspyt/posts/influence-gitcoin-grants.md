@@ -14,6 +14,7 @@ tags:
     "ethereum",
     "public goods",
     "OSS",
+    "qf",
     "digital innovation",
     "quadratic Funding",
   ]

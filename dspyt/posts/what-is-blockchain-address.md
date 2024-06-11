@@ -11,7 +11,12 @@ tags:
     "Ethereum",
     "wallet",
     "private key",
+    "public key",
+    "keypair",
     "cryptocurrency",
+    "cryptocurrency assets",
+    "hierarchical deterministic framework",
+    "asymmetric encryption",
   ]
 ---
 

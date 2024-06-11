@@ -8,13 +8,19 @@ tags:
     "stablecoins",
     "DeFi",
     "USDC",
+    "USD Coin",
     "Circle",
     "finance",
     "API",
     "commodity",
     "treasury",
     "EUROC",
+    "Euro Coin",
     "blockchain",
+    "liquidity solution",
+    "fiat",
+    "P2P",
+    "DApps",
   ]
 ---
 

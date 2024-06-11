@@ -16,8 +16,12 @@ tags:
     "etherscan",
     "vercel",
     "tailwind",
+    "user interface",
+    "blockchain",
     "data",
+    "blockchain data",
     "dao",
+    "daos",
   ]
 ---
 

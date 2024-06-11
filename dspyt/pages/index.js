@@ -31,7 +31,6 @@ const people = [
     twitterUrl: "https://twitter.com/pfedprog",
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",
-    InstagramUrl: "",
     authors: "/profile/pavel-fedotov",
   },
   {
@@ -39,9 +38,7 @@ const people = [
     role: "Front-End developer",
     imageUrl: "/authors/avasasha.webp",
     twitterUrl: "https://twitter.com/AlexFedotovqq",
-    linkedinUrl: "",
     githubUrl: "https://github.com/AlexFedotovqq",
-    InstagramUrl: "",
     authors: "/profile/alexfedotovqq",
   },
 ];
@@ -95,53 +92,61 @@ export default function HomePage({ posts }) {
                 {person.role}
               </p>
               <ul className="mt-6 flex justify-center gap-x-6">
-                <li>
-                  <span className="sr-only">Twitter</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.twitterUrl}
-                    className="text-gray-800 hover:text-gray-600 dark:text-gray-100"
-                    passHref
-                  >
-                    <TwitterIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">Github</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.githubUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <GitHubIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">Instagram</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.InstagramUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                  >
-                    <InstagramIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">LinkedIn</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.linkedinUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <LinkedInIcon />
-                  </Link>
-                </li>
+                {person.twitterUrl && (
+                  <li>
+                    <span className="sr-only">Twitter</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.twitterUrl}
+                      className="text-gray-800 hover:text-gray-600 dark:text-gray-100"
+                      passHref
+                    >
+                      <TwitterIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.githubUrl && (
+                  <li>
+                    <span className="sr-only">Github</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.githubUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
+                    >
+                      <GitHubIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.InstagramUrl && (
+                  <li>
+                    <span className="sr-only">Instagram</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.InstagramUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    >
+                      <InstagramIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.linkedinUrl && (
+                  <li>
+                    <span className="sr-only">LinkedIn</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.linkedinUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
+                    >
+                      <LinkedInIcon />
+                    </Link>
+                  </li>
+                )}
               </ul>
             </li>
           ))}
@@ -190,11 +195,11 @@ export default function HomePage({ posts }) {
             <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
           </div>
           <div className="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3 dark:text-gray-300">
-            <span className="font-medium text-gray-900 dark:text-gray-100">
+            <span className="font-medium text-gray-900 dark:text-gray-100 mr-1">
               Rated 5 stars
-            </span>{" "}
-            by over{" "}
-            <span className="font-medium text-indigo-600 dark:text-gray-100">
+            </span>
+            by over
+            <span className="ml-1 font-medium text-indigo-600 dark:text-gray-100">
               300 beta users
             </span>
           </div>

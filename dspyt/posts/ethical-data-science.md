@@ -6,20 +6,21 @@ cover_image: "/images/posts/ethicaldata/ethicaldata.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
-  "responsible data use",
-  "ethical data science",
-  "GDPR",
-  "IT",
-  "data science",
-  "fair data analysis",
-  "data privacy",
-  "ai",
-  "ethical AI practices",
-  "data security measures",
-  "transparent data processing",
-  "HIPAA",
-  "security",
-  "ethics",
+    "responsible data use",
+    "ethical data science",
+    "GDPR",
+    "IT",
+    "data science",
+    "fair data analysis",
+    "data privacy",
+    "ai",
+    "ethical AI practices",
+    "data security measures",
+    "transparency",
+    "transparent data processing",
+    "HIPAA",
+    "security",
+    "ethics",
   ]
 ---
 

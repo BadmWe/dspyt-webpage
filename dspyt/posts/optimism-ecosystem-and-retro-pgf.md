@@ -17,6 +17,8 @@ tags:
     "retropgf",
     "retropgf3",
     "public goods",
+    "innovation",
+    "transparency",
   ]
 ---
 

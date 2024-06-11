@@ -15,6 +15,7 @@ tags:
     "blockchain",
     "data",
     "AI",
+    "qf",
     "pandas",
     "numpy",
     "matplotlib",

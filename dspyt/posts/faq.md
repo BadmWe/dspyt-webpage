@@ -9,7 +9,9 @@ tags:
     "blockchain",
     "faq",
     "SEO",
+    "Dspyt SEO",
     "data",
+    "blockchain data",
     "Web3",
     "blog",
     "dspyt",
@@ -60,8 +62,6 @@ You can create markdown on dspyt at `/markdown` route.
 ## Tags
 
 Integrate appropriate tags for your article to improve page SEO.
-
-Example:
 
 ```md
 tags: [
