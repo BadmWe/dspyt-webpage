@@ -27,8 +27,6 @@ export default function BlogIndexPage({ posts }) {
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter("authors");
 
-  console.log(posts);
-
   for (const obj of posts) {
     const name = obj.slug;
     const authorResults = await getFileBySlug("authors", name);
