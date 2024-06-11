@@ -9,6 +9,7 @@ import Logo from "@/public/DSPYT.svg";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Blog", href: "/blog" },
+  { name: "Profiles", href: "/profiles" },
 ];
 
 export default function Navbar() {
