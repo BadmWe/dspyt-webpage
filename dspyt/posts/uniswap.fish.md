@@ -6,12 +6,18 @@ cover_image: "/images/posts/uniswap/uniswap-fish.webp"
 tags:
   [
     "uniswap",
+    "Uniswap V3",
+    "Uniswap V3 Fee Calculator",
+    "Liquidity Position Histogram",
+    "Correlation Chart",
     "DeFi",
     "blockchain",
     "statistics",
     "amm",
     "dex",
+    "Liquidity",
     "Liquidity Providers",
+    "Uniswap.fish",
     "ethereum",
     "open-source",
   ]

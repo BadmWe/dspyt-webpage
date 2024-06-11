@@ -8,7 +8,6 @@ tags:
   [
     "Decentralized",
     "zkOracles",
-    "ETH Belgrade 2024",
     "Ethereum",
     "Mina",
     "blockchain",
@@ -31,6 +30,8 @@ tags:
     "Blockchain Development",
     "Mina Community",
     "Blockchain Innovation",
+    "ETH event",
+    "ETH Belgrade 2024",
   ]
 ---
 

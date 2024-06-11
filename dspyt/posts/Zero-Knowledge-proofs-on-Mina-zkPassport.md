@@ -27,6 +27,8 @@ tags:
     "Blockchain Development",
     "Mina Community",
     "Blockchain Innovation",
+    "ETH event",
+    "ETH Bucharest 2024",
   ]
 authors: ["pavel-fedotov"]
 ---
