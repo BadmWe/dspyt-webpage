@@ -16,6 +16,7 @@ tags:
     "Arbitrum Foundation",
     "hackathon",
     "Ethereum",
+    "ETH event",
   ]
 ---
 

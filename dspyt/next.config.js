@@ -67,6 +67,11 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+      {
+        source: "/2021/06/22/moscow-city-hack-easy-recommending-system-in-flask",
+        destination: "/",
+        permanent: true,
+      },
     ];
   },
 };

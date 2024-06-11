@@ -16,10 +16,15 @@ tags:
     "base64",
     "github",
     "Elasticbean",
+    "encoding",
+    "http",
+    "BytesIO",
+    "web app",
+    "github pipeline",
   ]
 ---
 
-If you're looking for a fun and easy way to generate QR codes, Python is the perfect language for you. With Python, you can create QR codes in minutes, and you can use them to create fun and interesting things like websites and apps. You can also use Python to create simple QR code generators, which is perfect for creating quick and easy QR codes. All you need to do is input a few basic parameters, and you'll be able to generate a QR code that looks and feels amazing!
+If you are looking for a fun and easy way to generate QR codes, Python is the perfect language for you. With Python, you can create QR codes in minutes, and you can use them to create fun and interesting things like websites and apps. You can also use Python to create simple QR code generators, which is perfect for creating quick and easy QR codes. All you need to do is input a few basic parameters, and you'll be able to generate a QR code that looks and feels amazing!
 
 In this article we develop web application in Flask python to generate qr code with the help of `qrcode` python library. Next, we host the application on AWS Elastic Beanstalk with GitHub pipeline. Therefore you only need to copy the code and configure AWS pipeline to deploy following application.
 
