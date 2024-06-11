@@ -9,6 +9,7 @@ tags:
     "Decentralized Finance",
     "Flash Loans",
     "AAVE",
+    "AAVE governance",
     "DeFi",
     "Crypto",
     "Governance Token",

@@ -9,6 +9,7 @@ tags:
     "Python",
     "sklearn",
     "pipeline",
+    "sklearn pipeline",
     "NumPy",
     "AI",
     "pip",
@@ -19,6 +20,7 @@ tags:
     "Pandas",
     "machine learning",
     "DecisionTreeRegressor",
+    "read_csv",
   ]
 ---
 

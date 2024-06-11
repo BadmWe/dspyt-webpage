@@ -10,10 +10,12 @@ tags:
     "ethical hacking",
     "security",
     "Newbie CTF",
+    "Newbie CTF 2019",
     "pyjail",
     "bash",
     "data",
     "built-in methods",
+    "getattr",
   ]
 ---
 

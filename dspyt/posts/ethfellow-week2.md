@@ -8,8 +8,9 @@ tags:
   [
     "Ethereum",
     "evm",
-    "smart contracts",
     "explorer",
+    "evm explorer",
+    "smart contracts",
     "blockscout",
     "nextjs",
     "etherscan",
@@ -22,7 +23,11 @@ tags:
 
 This week saw the beginning of work on Ethereum Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data. We set up the development environment and began coding the project.
 
+## User Interface
+
 We started developing the basic user interface for exploring Ethereum contracts. This included creating the application in Next js and Tailwind, a simple home page, a navbar and a search bar. We also refactored the code to much easier implement a scalable application in the near future and integrated search functionality.
+
+## Future plans
 
 Next, we will continue developing the detailed information dashboard and begin working on the network activity display for each contract. This will allow users to search for contracts based on various criteria such as address, transaction hash, contract name, and view detailed information about each contract such as the code, deployed transactions, storage and execution costs.
 

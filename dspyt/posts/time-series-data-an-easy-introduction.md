@@ -18,6 +18,8 @@ tags:
     "Stock prices",
     "macroeconomic aggregates",
     "statsmodels",
+    "matplotlib",
+    "acf",
   ]
 ---
 
