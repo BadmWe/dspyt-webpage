@@ -44,6 +44,13 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 14. Cross-posting is only permissible if you set the canonical URL on those platforms to direct to the DSPYT-CodeVerse post
 15. Thoroughly review and edit your article, then review it once more for good measure
 
+## Submission Process: Overview
+
+1. Fork repository to your personal GitHub account
+2. Implement modifications to your fork / copy of the dspyt-web repository
+3. Propose a pull request from your version to the main branch of dspyt-web repository
+4. Await feedback and authorization. Dspyt team will provide valuable feedback as soon as possible.
+
 ## Create Markdown
 
 You can create markdown on dspyt at `/markdown` route.
@@ -63,16 +70,7 @@ tags: [
 ]
 ```
 
-In particular, we are expanding Dspyt delegate program.
-
-If your post covers governance and DAOs, please, include the keywords: `governance`, `DAO`, as well the names of the ecosystems and the proposal related keywords.
-
-## Submission Process
-
-1. Fork repository to your personal GitHub account
-2. Implement modifications to your fork / copy of the dspyt-web repository
-3. Propose a pull request from your version to the main branch of dspyt-web repository
-4. Await feedback and authorization. Dspyt team will provide valuable feedback as soon as possible.
+In particular, we are expanding Dspyt delegate program. If your post covers governance and DAOs, please, include the keywords: `governance`, `DAO`, as well the names of the ecosystems and the proposal related keywords.
 
 ## Dspyt Approval
 
