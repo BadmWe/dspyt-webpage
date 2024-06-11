@@ -67,11 +67,7 @@ In particular, we are expanding Dspyt delegate program.
 
 If your post covers governance and DAOs, please, include the keywords: `governance`, `DAO`, as well the names of the ecosystems and the proposal related keywords.
 
-## How to submit (The easiest way)
-
-- [Follow this google link and fill out the form.](https://docs.google.com/forms/d/1c-T15H41dhtt0qUm-ZtLcDCBTr5pABz2SEodtkMsKdI/edit)
-
-## How to submit v2
+## Submission Process
 
 1. Fork repository to your personal GitHub account
 2. Implement modifications to your fork / copy of the dspyt-web repository
