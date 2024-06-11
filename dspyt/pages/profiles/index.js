@@ -38,7 +38,7 @@ export async function getStaticProps() {
   return { props: { posts } };
 }
 
-BlogIndexPage.propTypes = {
+ProfilesPage.propTypes = {
   posts: PropTypes.array.isRequired,
   lastPage: PropTypes.number.isRequired,
 };

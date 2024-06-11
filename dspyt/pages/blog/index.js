@@ -4,8 +4,8 @@ import { useState } from "react";
 
 import Post from "@/components/Post";
 import { PageSEO } from "@/components/SEO";
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import SearchIcon from "@/components/icons/SearchIcon";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 
 const POSTS_PER_PAGE = 9;
 

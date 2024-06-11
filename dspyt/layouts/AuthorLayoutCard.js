@@ -41,8 +41,10 @@ export default function AuthorLayout({ frontMatter, children }) {
               {name}
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-400">{`${company}`}</p>
-            <div className="flex space-x-4 justify-center py-3">
+            {company && (
+              <p className="text-gray-500 dark:text-gray-400 px-4">{`${company}`}</p>
+            )}
+            <div className="flex space-x-4 justify-center py-4">
               {twitter && (
                 <Link
                   target="_blank"
