@@ -6,13 +6,15 @@ cover_image: "/images/posts/defi/aavemain.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
+    "AAVE",
+    "governance",
+    "AAVE governance",
+    "governance forum",
     "governance participation",
     "Low participation rates",
     "Enhancing legitimacy in DAOs",
-    "AAVE",
-    "daos",
+    "dao",
     "defi",
-    "governance",
     "AAVE Protocol participation rates",
     "Encouraging delegate participation",
     "analytics",
@@ -33,44 +35,41 @@ The implications of such low participation rates are profound. They cast doubt o
 
 ## The core objective of the Dspyt initiative is twofold
 
-1. **Increase Participation Rates in On-Chain Voting**
+- **Increase Participation Rates in On-Chain Voting**
 
 Through targeted interventions and incentives, Dspyt aims to substantially elevate the current 2.4% participation rate among AAVE token holders. Defined by Messari as
 
 ![messari power](/images/posts/defi/power-messari.webp)
 
-2. **Enhance DAO Legitimacy**
+- **Enhance DAO Legitimacy**
 
 By fostering a more engaged and committed community, Dspyt endeavors to enhance the legitimacy of AAVE's decision-making processes, thereby fortifying the platform's governance framework.
 
 ## To achieve these objectives, the Dspyt project has outlined a comprehensive plan
 
-1. **Data collection**
+- **Data collection**
 
-- Collect data on Aave Protocol token holders and their participation in governance proposals voting. Compare with collected data from [Karma](https://aave.karmahq.xyz/), and [Tally](https://www.tally.xyz/gov/aave/delegates?sort=votes) using python selenium.
+  - Collect data on Aave Protocol token holders and their participation in governance proposals voting. Compare with collected data from [Karma](https://aave.karmahq.xyz/), and [Tally](https://www.tally.xyz/gov/aave/delegates?sort=votes) using python selenium.
 
-2. **Analytics**
+- **Analytics**
 
-- Conduct comprehensive analytics on Aave Protocol's on-chain voting participation rates.
-- Examine correlations between variables related to participation patterns to provide recommendations and insights.
-- Analyze how [Karma](https://aave.karmahq.xyz/), [Tally](https://www.tally.xyz/gov/aave/delegates?sort=votes), and Snapshot affect participation in on-chain voting, which categories of users take part more often, and who publishes proposals most often.
+  - Conduct comprehensive analytics on Aave Protocol's on-chain voting participation rates.
+  - Examine correlations between variables related to participation patterns to provide recommendations and insights.
+  - Analyze how [Karma](https://aave.karmahq.xyz/), [Tally](https://www.tally.xyz/gov/aave/delegates?sort=votes), and Snapshot affect participation in on-chain voting, which categories of users take part more often, and who publishes proposals most often.
 
 Using this data, it will be possible to reach inactive users and draw a conclusion on how to attract more users to take part in governance.
 
-3. **Delegate Outreach and Encouragement**
+- **Delegate Outreach and Encouragement**
 
-- Proactively engage with delegates within the AAVE community to foster active participation and solicit feedback.
-- Introduce mechanisms such as potential nomination withdrawal to streamline the delegate selection process and enhance accountability.
+  - Proactively engage with delegates within the AAVE community to foster active participation and solicit feedback.
+  - Introduce mechanisms such as potential nomination withdrawal to streamline the delegate selection process and enhance accountability.
 
-4. **Educational Content Creation**
+- **Educational Content Creation**
 
-- Provide straightforward articles (on [Twitter](https://twitter.com/dspytdao) and [dspyt.com](https://dspyt.com/)) on how AAVE works and **why to actively participate in governance.**
-- Governance allows token holders to shape the direction and decisions of the AAVE Protocol. By taking part, individuals contribute to the collective decision-making process, ensuring a more inclusive and representative governance model.
-- Token holders have a direct impact on the evolution of AAVE, influencing decisions related to features, functionalities, and security enhancements.
-
-This includes decisions related to lending and borrowing parameters, interest rates, and other critical financial parameters that can impact the value of AAVE tokens.
-
-- By participating in governance, individuals may earn rewards such as tokens or non-fungible assets, enhancing the overall value proposition for community involvement.
+  - Provide straightforward articles (on [Twitter](https://twitter.com/dspytdao) and [dspyt.com](https://dspyt.com/)) on how AAVE works and **why to actively participate in governance.**
+  - Governance allows token holders to shape the direction and decisions of the AAVE Protocol. By taking part, individuals contribute to the collective decision-making process, ensuring a more inclusive and representative governance model.
+  - Token holders have a direct impact on the evolution of AAVE, influencing decisions related to features, functionalities, and security enhancements. This includes decisions related to lending and borrowing parameters, interest rates, and other critical financial parameters that can impact the value of AAVE tokens.
+  - By participating in governance, individuals may earn rewards such as tokens or non-fungible assets, enhancing the overall value proposition for community involvement.
 
 ## Conclusion
 

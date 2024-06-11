@@ -7,6 +7,9 @@ authors: ["dspytdao"]
 tags:
   [
     "gitcoin",
+    "gitcoin governance",
+    "Gitcoin Beta Round",
+    "grant funding",
     "python",
     "blockchain",
     "data",
@@ -17,6 +20,7 @@ tags:
     "seaborn",
     "plotly",
     "statsmodels",
+    "DataFrame",
   ]
 ---
 
