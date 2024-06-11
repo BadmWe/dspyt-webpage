@@ -6,10 +6,10 @@ import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 
 const POSTS_PER_PAGE = 9;
 
-export default function BlogIndexPage({ posts }) {
+export default function ProfilesPage({ posts }) {
   return (
     <div>
-      <PageSEO title={"Dspyt: Blog Page"} />
+      <PageSEO title={"Dspyt: Profiles Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Profiles
