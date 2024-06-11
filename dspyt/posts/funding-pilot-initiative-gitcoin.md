@@ -6,6 +6,14 @@ cover_image: "/images/posts/gitcoingrants/allogitcoin.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
+    "Gitcoin governance",
+    "gitcoin",
+    "gitcoin dao",
+    "governance",
+    "dao",
+    "snapshot vote",
+    "Gitcoin Citizens",
+    "Gitcoin Citizens Round",
     "Funding distribution",
     "Market rates impact",
     "Retroactive funding",
@@ -70,4 +78,6 @@ Ultimately, the success of Gitcoin's QF Pilot Initiative hinges on its ability t
 
 In conclusion, Gitcoin's Quadratic Funding Pilot Initiative represents a bold step towards reimagining the future of decentralized funding and community governance. Through strategic partnerships, innovative experimentation, and a steadfast commitment to its core values, Gitcoin is poised to unlock new possibilities and drive positive change within its vibrant ecosystem. As this initiative unfolds, it serves as a testament to the transformative power of collaboration, experimentation, and collective action in shaping the future of open-source development and community-driven initiatives.
 
-More on [Gitcoin](https://gov.gitcoin.co/t/gcp-004-passed-gitcoin-citizens-round/13462)
+## More information
+
+- [Gitcoin Citizens Round](https://gov.gitcoin.co/t/gcp-004-passed-gitcoin-citizens-round/13462)

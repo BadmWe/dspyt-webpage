@@ -5,7 +5,10 @@ excerpt: "The Arbitrum DAO has launched the Long Term Incentives Pilot Program t
 cover_image: "/images/posts/arbitrum/ltipp.webp"
 tags:
   [
+    "governance",
+    "dao",
     "Arbitrum DAO",
+    "Arbitrum governance",
     "Long Term Incentives Pilot Program",
     "protocol incentivization",
     "incentive structures",
@@ -14,7 +17,6 @@ tags:
     "AIP",
     "sustainable incentivization",
     "program design",
-    "governance",
     "fund distribution",
     "Hedgey platform",
     "program leadership",

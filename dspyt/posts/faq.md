@@ -3,19 +3,22 @@ title: "How to post your content on DSPYT"
 date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content DSPYT. If you want to edit or publish an article, then this post is especially for you!"
 cover_image: "/images/posts/faq/contentpreview.webp"
-authors: ["dmitrii-fedotov"]
+authors: ["dmitrii-fedotov", "pavel-fedotov"]
 tags:
   [
     "blockchain",
     "faq",
+    "SEO",
     "data",
     "Web3",
     "blog",
     "dspyt",
     "content",
     "github",
-    "publish",
+    "publish on dspyt",
     "data science",
+    "guidelines",
+    "dspyt tags",
   ]
 ---
 
@@ -32,7 +35,7 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 5. Introduce original data visualizations as required
 6. Do not directly link to images; instead, add images to the directory
 7. Steer clear of clickbait headlines
-8. Don’t make typographical errors
+8. Do not make typographical errors
 9. Construct a descriptive, evergreen URL path (filename) for your post
 10. Implement code blocks, and take advantage of our support for syntax highlighting in popular programming languages
 11. You may incorporate tasteful links back to your personal site and projects
@@ -43,9 +46,26 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 
 ## Create Markdown
 
-You can create markdown on dspyt.com at `/markdown` route.
+You can create markdown on dspyt at `/markdown` route.
 
 - [Create markdown](https://dspyt.com/markdown)
+
+## Tags
+
+Integrate appropriate tags for your article to improve page SEO.
+
+Example:
+
+```md
+tags: [
+"blockchain",
+"dspyt",
+]
+```
+
+In particular, we are expanding Dspyt delegate program.
+
+If your post covers governance and DAOs, please, include the keywords: `governance`, `DAO`, as well the names of the ecosystems and the proposal related keywords.
 
 ## How to submit (The easiest way)
 
