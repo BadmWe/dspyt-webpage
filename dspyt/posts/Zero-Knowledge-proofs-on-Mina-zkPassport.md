@@ -27,6 +27,8 @@ tags:
     "Blockchain Development",
     "Mina Community",
     "Blockchain Innovation",
+    "ETH event",
+    "ETH Bucharest 2024",
   ]
 authors: ["pavel-fedotov"]
 ---
@@ -171,4 +173,7 @@ By incorporating these elements, Mina, zkPassport, and SoulBound NFTs are collec
 
 ## More Information
 
-[Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETHBucharest 2024](https://docs.google.com/presentation/d/1OmJJgzk4iFbKexqBw87oU7oh4H9lXlFFh3eas0EF9y8/edit?usp=sharing)
+- [Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs presentation slides at ETH Bucharest 2024](https://docs.google.com/presentation/d/1OmJJgzk4iFbKexqBw87oU7oh4H9lXlFFh3eas0EF9y8/edit?usp=sharing)
+- [Mina Protocol: Unlocking the Power of the Mini-Blockchain Ecosystem](https://dspyt.com/Mina-protocol)
+- [Connecting Auro Wallet to Your Website](https://dspyt.com/connecting-auro-wallet-to-your-website)
+- [ETH Belgrade 2024: ZKPs on Mina, zkPassport and SoulBound NFTs](https://dspyt.com/ETHBelgrade2024)

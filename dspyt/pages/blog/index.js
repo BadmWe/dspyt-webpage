@@ -4,8 +4,8 @@ import { useState } from "react";
 
 import Post from "@/components/Post";
 import { PageSEO } from "@/components/SEO";
-import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 import SearchIcon from "@/components/icons/SearchIcon";
+import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 
 const POSTS_PER_PAGE = 9;
 
@@ -22,10 +22,7 @@ export default function BlogIndexPage({ posts, lastPage }) {
     <div>
       <PageSEO title={"Dspyt: Blog Page"} />
       <div className="relative max-w-7xl mx-auto mt-10">
-        <h1
-          className="dspyt-h1"
-          style={{ margin: "20px", textAlign: "center" }}
-        >
+        <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Blog
         </h1>
         <div className="items-center justify-center">

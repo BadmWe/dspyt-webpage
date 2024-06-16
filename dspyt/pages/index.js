@@ -31,7 +31,6 @@ const people = [
     twitterUrl: "https://twitter.com/pfedprog",
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",
-    InstagramUrl: "",
     authors: "/profile/pavel-fedotov",
   },
   {
@@ -39,9 +38,7 @@ const people = [
     role: "Front-End developer",
     imageUrl: "/authors/avasasha.webp",
     twitterUrl: "https://twitter.com/AlexFedotovqq",
-    linkedinUrl: "",
     githubUrl: "https://github.com/AlexFedotovqq",
-    InstagramUrl: "",
     authors: "/profile/alexfedotovqq",
   },
 ];
@@ -68,14 +65,14 @@ export default function HomePage({ posts }) {
     <div>
       <PageSEO />
       <Hero />
-      <h2 className="dspyt-h2">Data Science and Blockchain</h2>
+      <h2 className="dspyt-h3xl">Data Science and Blockchain</h2>
       <div className="grid relative mx-auto mt-12 max-w-lg gap-5 lg:ml-5 lg:mr-5 lg:grid-cols-3 lg:max-w-none">
         {posts.map((post) => (
           <Post key={post.slug} post={post} slug={post.slug} />
         ))}
       </div>
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8 mt-20">
-        <h2 className="dspyt-h2">Meet our team</h2>
+        <h2 className="dspyt-h3xl">Meet our team</h2>
         <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {people.map((person) => (
             <li key={person.name}>
@@ -88,60 +85,68 @@ export default function HomePage({ posts }) {
                 loading="lazy"
               />
 
-              <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-gray-100">
+              <h3 className="mt-6 text-base font-semibold text-gray-900 dark:text-gray-100 hover:text-cyan-600">
                 <Link href={person.authors}>{person.name}</Link>
               </h3>
-              <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
+              <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
                 {person.role}
               </p>
               <ul className="mt-6 flex justify-center gap-x-6">
-                <li>
-                  <span className="sr-only">Twitter</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.twitterUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <TwitterIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">Github</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.githubUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <GitHubIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">Instagram</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.InstagramUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                  >
-                    <InstagramIcon />
-                  </Link>
-                </li>
-                <li>
-                  <span className="sr-only">LinkedIn</span>
-                  <Link
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={person.linkedinUrl}
-                    className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
-                    passHref
-                  >
-                    <LinkedInIcon />
-                  </Link>
-                </li>
+                {person.twitterUrl && (
+                  <li>
+                    <span className="sr-only">Twitter</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.twitterUrl}
+                      className="text-gray-800 hover:text-gray-600 dark:text-gray-100"
+                      passHref
+                    >
+                      <TwitterIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.githubUrl && (
+                  <li>
+                    <span className="sr-only">Github</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.githubUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
+                    >
+                      <GitHubIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.InstagramUrl && (
+                  <li>
+                    <span className="sr-only">Instagram</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.InstagramUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                    >
+                      <InstagramIcon />
+                    </Link>
+                  </li>
+                )}
+                {person.linkedinUrl && (
+                  <li>
+                    <span className="sr-only">LinkedIn</span>
+                    <Link
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={person.linkedinUrl}
+                      className="text-gray-900 hover:text-gray-700 dark:text-gray-100"
+                      passHref
+                    >
+                      <LinkedInIcon />
+                    </Link>
+                  </li>
+                )}
               </ul>
             </li>
           ))}
@@ -149,7 +154,7 @@ export default function HomePage({ posts }) {
       </div>
       <div className="grid relative mx-auto items-center justify-center ml-4 mr-4 mt-10">
         <div className="mt-20 text-center sm:max-w-xl">
-          <h2 className="dspyt-h2">Join the newsletter!</h2>
+          <h2 className="dspyt-h3xl">Join the newsletter!</h2>
           <p className="text-center mt-10 text-2xl leading-6 text-gray-600 dark:text-gray-300">
             Subscribe to get the latest content by email.
           </p>
@@ -190,11 +195,11 @@ export default function HomePage({ posts }) {
             <StarIcon className="h-5 w-5 text-yellow-400" aria-hidden="true" />
           </div>
           <div className="min-w-0 flex-1 pl-5 py-1 text-sm sm:py-3 dark:text-gray-300">
-            <span className="font-medium text-gray-900 dark:text-gray-100">
+            <span className="font-medium text-gray-900 dark:text-gray-100 mr-1">
               Rated 5 stars
-            </span>{" "}
-            by over{" "}
-            <span className="font-medium text-indigo-600 dark:text-gray-100">
+            </span>
+            by over
+            <span className="ml-1 font-medium text-indigo-600 dark:text-gray-100">
               300 beta users
             </span>
           </div>

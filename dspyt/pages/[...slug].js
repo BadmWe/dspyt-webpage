@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
-import PageTitle from "@/components/PageTitle";
 import {
   formatSlug,
   getAllFilesFrontMatter,
@@ -55,9 +54,7 @@ export default function BlogPost({ post, authorDetailsList, prev, next }) {
           next={next}
         />
       ) : (
-        <div className="mt-24 text-center">
-          <PageTitle>Under Construction</PageTitle>
-        </div>
+        <div className="mt-24 dspyt-h3xl">Under Construction</div>
       )}
     </div>
   );

@@ -3,19 +3,24 @@ title: "How to post your content on DSPYT"
 date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content DSPYT. If you want to edit or publish an article, then this post is especially for you!"
 cover_image: "/images/posts/faq/contentpreview.webp"
-authors: ["dmitrii-fedotov"]
+authors: ["dmitrii-fedotov", "pavel-fedotov"]
 tags:
   [
     "blockchain",
     "faq",
+    "SEO",
+    "Dspyt SEO",
     "data",
+    "blockchain data",
     "Web3",
     "blog",
     "dspyt",
     "content",
     "github",
-    "publish",
+    "publish on dspyt",
     "data science",
+    "guidelines",
+    "dspyt tags",
   ]
 ---
 
@@ -32,7 +37,7 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 5. Introduce original data visualizations as required
 6. Do not directly link to images; instead, add images to the directory
 7. Steer clear of clickbait headlines
-8. Don’t make typographical errors
+8. Do not make typographical errors
 9. Construct a descriptive, evergreen URL path (filename) for your post
 10. Implement code blocks, and take advantage of our support for syntax highlighting in popular programming languages
 11. You may incorporate tasteful links back to your personal site and projects
@@ -41,22 +46,31 @@ We maintain stringent standards when it comes to the caliber of articles we rele
 14. Cross-posting is only permissible if you set the canonical URL on those platforms to direct to the DSPYT-CodeVerse post
 15. Thoroughly review and edit your article, then review it once more for good measure
 
-## Create Markdown
-
-You can create markdown on dspyt.com at `/markdown` route.
-
-- [Create markdown](https://dspyt.com/markdown)
-
-## How to submit (The easiest way)
-
-- [Follow this google link and fill out the form.](https://docs.google.com/forms/d/1c-T15H41dhtt0qUm-ZtLcDCBTr5pABz2SEodtkMsKdI/edit)
-
-## How to submit v2
+## Submission Process: Overview
 
 1. Fork repository to your personal GitHub account
 2. Implement modifications to your fork / copy of the dspyt-web repository
 3. Propose a pull request from your version to the main branch of dspyt-web repository
 4. Await feedback and authorization. Dspyt team will provide valuable feedback as soon as possible.
+
+## Create Markdown
+
+You can create markdown on dspyt at `/markdown` route.
+
+- [Create markdown](https://dspyt.com/markdown)
+
+## Tags
+
+Integrate appropriate tags for your article to improve page SEO.
+
+```md
+tags: [
+"blockchain",
+"dspyt",
+]
+```
+
+In particular, we are expanding Dspyt delegate program. If your post covers governance and DAOs, please, include the keywords: `governance`, `DAO`, as well the names of the ecosystems and the proposal related keywords.
 
 ## Dspyt Approval
 

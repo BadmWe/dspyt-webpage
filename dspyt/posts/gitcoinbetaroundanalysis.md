@@ -7,16 +7,22 @@ authors: ["dspytdao"]
 tags:
   [
     "gitcoin",
+    "DAO",
+    "gitcoin governance",
+    "Gitcoin Beta Round",
+    "grant funding",
     "python",
     "blockchain",
     "data",
     "AI",
+    "qf",
     "pandas",
     "numpy",
     "matplotlib",
     "seaborn",
     "plotly",
     "statsmodels",
+    "DataFrame",
   ]
 ---
 
@@ -63,14 +69,14 @@ This data represents various rounds of grants provided by an organization or pla
 ```python
 data.describe()
     Total projects
-count	19.000000
-mean	52.789474
-std	70.348007
-min	0.000000
-25%	9.500000
-50%	31.000000
-75%	61.000000
-max	283.000000
+count 19.000000
+mean 52.789474
+std 70.348007
+min 0.000000
+25% 9.500000
+50% 31.000000
+75% 61.000000
+max 283.000000
 ```
 
 This output shows the descriptive statistics of the 'Total projects' column of the DataFrame 'data'.

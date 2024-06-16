@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 import Link from "@/components/Link";
-import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
 import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
@@ -26,9 +25,7 @@ export default function PostLayout({ frontMatter, next, prev, children }) {
                   </dd>
                 </div>
               </dl>
-              <div>
-                <PageTitle>{title}</PageTitle>
-              </div>
+              <div className="dspyt-h3xl">{title}</div>
             </div>
           </header>
           <div

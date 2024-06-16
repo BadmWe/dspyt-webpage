@@ -2,7 +2,6 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 
 import ImageDspyt from "@/components/Image";
-import PageTitle from "@/components/PageTitle";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
 import SectionContainer from "@/components/SectionContainer";
 import { BlogSEO } from "@/components/SEO";
@@ -36,7 +35,7 @@ export default function PostLayout({
       <BlogSEO title={title} description={excerpt} />
       <ScrollTopAndComment />
       <article>
-        <header className="pt-6 xl:pb-6">
+        <header className="pt-6 xl:pb-6 transition-all">
           <div className="space-y-1 text-center">
             <dt className="sr-only">Published on</dt>
             <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
@@ -47,13 +46,16 @@ export default function PostLayout({
                 )}
               </time>
             </dd>
-            <PageTitle>{title}</PageTitle>
+            <h1 className="dspyt-h3xl pb-5">{title}</h1>
             <ImageDspyt
               className="mx-auto rounded-lg"
               width={460}
               height={220}
               src={cover_image}
               alt={title}
+              style={{
+                maxHeight: "220px",
+              }}
             />
           </div>
         </header>
@@ -79,7 +81,7 @@ export default function PostLayout({
                     <dl className="whitespace-nowrap text-l font-medium leading-5">
                       <dt className="sr-only">Name</dt>
                       <Link href={`/profile/${author.slug}`}>
-                        <dd className="text-gray-900 dark:text-gray-100">
+                        <dd className="text-gray-800 dark:text-gray-100 hover:text-cyan-800">
                           {author.name}
                         </dd>
                       </Link>
@@ -104,15 +106,21 @@ export default function PostLayout({
             </dd>
           </dl>
           <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
-            <div className="prose max-w-none pb-8 dark:prose-dark">
+            <div className="prose prose-zinc prose-strong:text-zinc-800 dark:prose-strong:text-white lg:prose-lg xl:prose-xl max-w-none pb-8 dark:prose-dark">
               {children}
             </div>
             <div className="pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
-              <Link href={discussUrl(slug)} rel="nofollow">
-                {"Discuss on Twitter"}
+              <Link
+                href={discussUrl(slug)}
+                rel="nofollow"
+                className="hover:text-gray-900"
+              >
+                Discuss on Twitter
               </Link>
               {` • `}
-              <Link href={editUrl(fileName)}>{"View on GitHub"}</Link>
+              <Link href={editUrl(fileName)} className="hover:text-gray-900">
+                View on GitHub
+              </Link>
             </div>
           </div>
           <footer>
@@ -140,7 +148,7 @@ export default function PostLayout({
                       <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                         Previous Article
                       </h2>
-                      <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      <div className="text-primary-700 dark:text-primary-500 hover:text-primary-500 dark:hover:text-primary-400 mt-1">
                         <Link href={`/${prev.slug}`}>{prev.title}</Link>
                       </div>
                     </div>
@@ -150,7 +158,7 @@ export default function PostLayout({
                       <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                         Next Article
                       </h2>
-                      <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                      <div className="text-primary-700 dark:text-primary-500 hover:text-primary-500 dark:hover:text-primary-400 mt-1">
                         <Link href={`/${next.slug}`}>{next.title}</Link>
                       </div>
                     </div>
@@ -161,7 +169,7 @@ export default function PostLayout({
             <div className="pt-4 xl:pt-8">
               <Link
                 href="/blog"
-                className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                className="font-mono tracking-tight text-primary-700 dark:text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               >
                 &larr; Back to the blog
               </Link>

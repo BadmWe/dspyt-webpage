@@ -14,6 +14,7 @@ tags:
     "API",
     "2Captcha",
     "solving software",
+    "2captcha-python",
   ]
 ---
 

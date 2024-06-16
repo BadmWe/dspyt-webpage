@@ -13,6 +13,13 @@ tags:
     "kaggle",
     "forecasting",
     "Time Dependence",
+    "Bitcoin",
+    "cryptocurrency",
+    "Stock prices",
+    "macroeconomic aggregates",
+    "statsmodels",
+    "matplotlib",
+    "acf",
   ]
 ---
 

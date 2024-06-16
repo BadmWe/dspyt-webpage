@@ -10,12 +10,16 @@ tags:
     "programming challenges",
     "tech teamwork",
     "product development journey",
+    "ETHIndia",
     "ETHIndia 2023",
     "Devfolio hackathon",
     "Arbitrum",
     "Arbitrum Foundation",
+    "Arbitrum DAO",
     "hackathon",
     "Ethereum",
+    "ETH event",
+    "Ethereum event",
   ]
 ---
 

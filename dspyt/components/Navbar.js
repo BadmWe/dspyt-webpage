@@ -1,4 +1,8 @@
-import { Disclosure } from "@headlessui/react";
+import {
+  DisclosureButton,
+  DisclosurePanel,
+  Disclosure,
+} from "@headlessui/react";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -9,6 +13,7 @@ import Logo from "@/public/DSPYT.svg";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Blog", href: "/blog" },
+  { name: "Profiles", href: "/profiles" },
 ];
 
 export default function Navbar() {
@@ -20,14 +25,14 @@ export default function Navbar() {
             <div className="relative flex items-center justify-between h-16 md:h-20">
               <div className="inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <DisclosureButton className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
                     <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
-                </Disclosure.Button>
+                </DisclosureButton>
               </div>
 
               <div className="flex-1 flex items-center sm:items-stretch sm:justify-start ml-5 md:ml-10">
@@ -67,7 +72,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <DisclosurePanel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Link
@@ -79,7 +84,7 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-          </Disclosure.Panel>
+          </DisclosurePanel>
         </div>
       )}
     </Disclosure>

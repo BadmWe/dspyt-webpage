@@ -78,7 +78,7 @@ function HomePage() {
       <PageSEO title={"Dspyt: Markdown"} />
       <div className="grid relative mx-auto items-center justify-center ml-4 mr-4">
         <div className="text-center sm:max-w-xl">
-          <h1 className="dspyt-h2 mt-6">Create Markdown Dspyt</h1>
+          <h1 className="dspyt-h3xl mt-6">Create Markdown Dspyt</h1>
           <p className="mt-2 sm:mt-6 text-sm sm:text-lg lg:text-xl leading-7 text-gray-600 dark:text-gray-300">
             It is important to follow all the rules for writing an article. All
             information is available{" "}

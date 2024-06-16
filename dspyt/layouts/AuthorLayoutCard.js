@@ -27,7 +27,7 @@ export default function AuthorLayout({ frontMatter, children }) {
         title={`About - ${name}`}
         description={`${name}: ${description}`}
       />
-      <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700">
+      <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700 transition-all">
         <div className="items-start space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0">
           <div className="card">
             <Image
@@ -41,8 +41,10 @@ export default function AuthorLayout({ frontMatter, children }) {
               {name}
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-400">{`${company}`}</p>
-            <div className="flex space-x-4 justify-center py-3">
+            {company && (
+              <p className="text-gray-500 dark:text-gray-400 px-4">{`${company}`}</p>
+            )}
+            <div className="flex space-x-4 justify-center py-4">
               {twitter && (
                 <Link
                   target="_blank"

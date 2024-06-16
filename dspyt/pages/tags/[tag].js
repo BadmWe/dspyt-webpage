@@ -47,13 +47,13 @@ export default function Tag({ posts, tag }) {
   const title = tag.charAt(0).toUpperCase() + tag.split("-").join(" ").slice(1);
   return (
     <div>
-      <BlogSEO title={`Data Science with Python ${title}`} />
+      <BlogSEO
+        title={`Data Science with Python ${title}`}
+        description={`Data Science with Python ${title} tag`}
+      />
       <div className="relative max-w-7xl mx-auto mt-10">
-        <h1
-          className="dspyt-h1"
-          style={{ margin: "20px", textAlign: "center" }}
-        >
-          Dspyt blog tag: <span> {title} </span>
+        <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
+          Dspyt: <span> {title} </span>
         </h1>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.slice(0, lastPost).map((post) => (

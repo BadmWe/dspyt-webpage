@@ -1,8 +1,8 @@
 ---
 title: ""
-date: "October 1, 2022"
+date: "January 1, 2024"
 excerpt: ""
 cover_image: "/images/posts/"
-time_read: "5 min"
-tags: [""]
+authors: ["dspytdao"]
+tags: ["Decentralized", "Ethereum"]
 ---
