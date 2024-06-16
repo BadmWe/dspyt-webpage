@@ -35,7 +35,7 @@ const people = [
   },
   {
     name: "Alexander Fedotov",
-    role: "Front-End developer",
+    role: "Front-End Developer",
     imageUrl: "/authors/avasasha.webp",
     twitterUrl: "https://twitter.com/AlexFedotovqq",
     githubUrl: "https://github.com/AlexFedotovqq",
