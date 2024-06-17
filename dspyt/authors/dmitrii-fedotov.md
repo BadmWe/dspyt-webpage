@@ -1,13 +1,13 @@
 ---
 name: "Dmitrii Fedotov"
-avatar: "/authors/DmitriiAva.webp"
+avatar: "/authors/dmitrii-ava-nft.webp"
 company: "Dspyt"
 twitter: "https://twitter.com/DmitriFedotov"
 linkedin: "https://www.linkedin.com/in/dmitrii-fedotov"
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
 title: "Dmitrii Fedotov - Dspyt DAO profile"
-description: "Fluent in Python, JavaScript, React and NextJs. Passionate badminton player, merging tech and sports innovation to drive positive change."
+description: "Hello, I'm Dmitrii Fedotov, a  tech innovator, excels in sports and programming. Explore my journey in sports, tech, and blockchain at WebBadminton and Dspyt."
 ---
 
 Hello, I am Dmitrii Fedotov — a professional Spanish badminton player and the creative mind behind [WebBadminton platform](https://twitter.com/WebBadminton4u). My journey has been a unique blend of athleticism and technology, reflecting my passion for both sports and innovation.

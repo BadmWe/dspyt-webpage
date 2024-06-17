@@ -17,7 +17,7 @@ const people = [
   {
     name: "Dmitrii Fedotov",
     role: "Lead Developer",
-    imageUrl: "/authors/ava.webp",
+    imageUrl: "/authors/ava-dmitrii.webp",
     twitterUrl: "https://twitter.com/DmitriFedotov",
     linkedinUrl: "https://www.linkedin.com/in/dmitrii-fedotov/",
     githubUrl: "https://github.com/BadmWe/",
@@ -27,7 +27,7 @@ const people = [
   {
     name: "Pavel Fedotov",
     role: "Advisor",
-    imageUrl: "/authors/profile.webp",
+    imageUrl: "/authors/pavel-ava.webp",
     twitterUrl: "https://twitter.com/pfedprog",
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",
@@ -36,7 +36,7 @@ const people = [
   {
     name: "Alexander Fedotov",
     role: "Front-End Developer",
-    imageUrl: "/authors/avasasha.webp",
+    imageUrl: "/authors/ava-sasha.webp",
     twitterUrl: "https://twitter.com/AlexFedotovqq",
     githubUrl: "https://github.com/AlexFedotovqq",
     authors: "/profile/alexfedotovqq",
