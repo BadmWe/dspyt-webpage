@@ -1,6 +1,6 @@
 ---
 name: "Dmitrii Fedotov"
-avatar: "/authors/dmitrii-ava-nft.webp"
+avatar: "/authors/dmitrii-ava-profile-page.webp"
 smallAvatar: "/authors/ava-dmitrii.webp"
 company: "Dspyt"
 twitter: "https://twitter.com/DmitriFedotov"
