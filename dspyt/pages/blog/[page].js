@@ -127,7 +127,7 @@ export async function getStaticProps(context) {
     const authorResults = await getFileBySlug("authors", name);
 
     post.authorName = authorResults.frontMatter.name;
-    post.authorAvatar = authorResults.frontMatter.avatar;
+    post.authorAvatar = authorResults.frontMatter.smallAvatar;
     post.authorSlug = authorResults.frontMatter.slug;
   }
 

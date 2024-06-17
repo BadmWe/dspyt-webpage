@@ -32,7 +32,7 @@ export async function getStaticProps({ params }) {
     const authorResults = await getFileBySlug("authors", name);
 
     obj.authorName = authorResults.frontMatter.name;
-    obj.authorAvatar = authorResults.frontMatter.avatar;
+    obj.authorAvatar = authorResults.frontMatter.smallAvatar;
     obj.authorSlug = authorResults.frontMatter.slug;
   }
 

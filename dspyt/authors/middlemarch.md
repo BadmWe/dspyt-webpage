@@ -1,6 +1,7 @@
 ---
 name: "Middlemarch.eth"
 avatar: "/authors/middlemarch.webp"
+smallAvatar: "/authors/middlemarch.webp"
 company: "Facet, Ethscriptions, Capsule 21, Genius"
 twitter: "https://twitter.com/dumbnamenumbers"
 linkedin: ""

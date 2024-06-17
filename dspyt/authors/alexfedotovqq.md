@@ -1,13 +1,14 @@
 ---
 name: Alexander Fedotov
-avatar: /authors/sasha-ava-profile-page.webp
+avatar: "/authors/sasha-ava-profile-page.webp"
+smallAvatar: "/authors/ava-sasha.webp"
 company: "Fedotov, LLC"
 email: alexkekfedotov@gmail.com
-twitter: https://twitter.com/AlexFedotovqq
+twitter: "https://twitter.com/AlexFedotovqq"
 linkedin: /
 instagram: /
-github: https://github.com/AlexFedotovqq
-title: "Alexander Fedotov -DspytDAO profile"
+github: "https://github.com/AlexFedotovqq"
+title: "Alexander Fedotov - DspytDAO profile"
 description: "Fluent in Python, JavaScript, React, and NextJs. Shaping digital finance's future and fostering blockchain innovation with TradeCoin."
 ---
 

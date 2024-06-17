@@ -1,6 +1,7 @@
 ---
 name: "Web3Basketball"
 avatar: "/authors/9GfGBdln_400x400.webp"
+smallAvatar: "/authors/9GfGBdln_400x400.webp"
 linkedin: /
 instagram: /
 twitter: "https://twitter.com/Web3Basketball"

@@ -13,9 +13,11 @@ export default function Post({ post, slug }) {
     cover_image,
     tags,
     authorName,
-    authorAvatar,
     authorSlug,
+    authorAvatar,
   } = post;
+
+  console.log(post);
 
   return (
     <div

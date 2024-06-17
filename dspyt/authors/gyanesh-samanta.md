@@ -1,6 +1,7 @@
 ---
 name: "Gyanesh Samanta"
 avatar: "/images/posts/ethIndia/mainpage.webp"
+smallAvatar: "/images/posts/ethIndia/mainpage.webp"
 company: "Gyanesh Samanta"
 twitter: "https://twitter.com/samanta_gyanesh"
 linkedin: "https://www.linkedin.com/in/gyanesh-samanta/"
