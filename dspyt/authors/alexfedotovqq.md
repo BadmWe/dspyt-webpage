@@ -7,7 +7,7 @@ twitter: https://twitter.com/AlexFedotovqq
 linkedin: /
 instagram: /
 github: https://github.com/AlexFedotovqq
-title: "Alexander Fedotov DspytDAO profile"
+title: "Alexander Fedotov - DspytDAO profile"
 description: "Fluent in Python, JavaScript, React, and NextJs. Shaping digital finance's future and fostering blockchain innovation with TradeCoin."
 ---
 

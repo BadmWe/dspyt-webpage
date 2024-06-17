@@ -7,7 +7,7 @@ twitter: https://twitter.com/pfedprog
 instagram: /
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
-title: "Pavel Fedotov Dspyt DAO profile"
+title: "Pavel Fedotov - Dspyt DAO profile"
 description: "Fullstack blockchain developer with over 3 years of experience in Rust, Solidity, Python, JavaScript, React and NextJs."
 ---
 

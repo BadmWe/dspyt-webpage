@@ -4,7 +4,7 @@ avatar: "/authors/9GfGBdln_400x400.webp"
 linkedin: /
 instagram: /
 twitter: "https://twitter.com/Web3Basketball"
-title: "Web3Basketball DspytDAO profile"
+title: "Web3Basketball - DspytDAO profile"
 description: "Web3Basketball Dapp focuses on the sport of Basketball and contains an item store to track and ledger the delivery of basketball equipment."
 ---
 

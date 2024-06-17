@@ -6,7 +6,7 @@ twitter: "https://twitter.com/DmitriFedotov"
 linkedin: "https://www.linkedin.com/in/dmitrii-fedotov"
 instagram: "https://www.instagram.com/dmitry.fov/"
 github: "https://github.com/BadmWe/"
-title: "Dmitrii Fedotov Dspyt DAO profile"
+title: "Dmitrii Fedotov - Dspyt DAO profile"
 description: "Fluent in Python, JavaScript, React and NextJs. Passionate badminton player, merging tech and sports innovation to drive positive change."
 ---
 

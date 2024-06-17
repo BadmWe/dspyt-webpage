@@ -8,7 +8,7 @@ linkedin: "https://www.linkedin.com/company/dspytdao/"
 instagram: /
 github: "https://github.com/dspytdao"
 title: "DspytDAO - Fostering Innovation and Education in Web3 Technologies"
-description: "a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem."
+description: "Dspyt is a community-driven platform for data science and blockchain enthusiasts to explore trends and share insights."
 ---
 
 DspytDAO is a forward-thinking organization committed to promoting open-source initiatives and fostering innovation in the rapidly evolving Web3 ecosystem.

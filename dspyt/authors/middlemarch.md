@@ -6,7 +6,7 @@ twitter: "https://twitter.com/dumbnamenumbers"
 linkedin: ""
 instagram: ""
 github: "https://github.com/0xFacet/facet-vm"
-title: "Middlemarch.eth Profile"
+title: "Middlemarch.eth - Dspyt DAO profile"
 description: "Facet co-founder, Ethscriptions co-founder, Capsule 21 co-founder, Genius.com co-founder & former CEO"
 ---
 

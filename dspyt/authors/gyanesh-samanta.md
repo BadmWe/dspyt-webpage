@@ -6,7 +6,7 @@ twitter: "https://twitter.com/samanta_gyanesh"
 linkedin: "https://www.linkedin.com/in/gyanesh-samanta/"
 instagram: "/"
 github: "https://github.com/GyaneshSamanta"
-title: "Gyanesh Samanta Dspyt DAO profile"
+title: "Gyanesh Samanta - Dspyt DAO profile"
 description: "Unleashing data for product excellence. Visualize tailored solutions, elevate with synchronized insights, and drive innovation."
 ---
 
