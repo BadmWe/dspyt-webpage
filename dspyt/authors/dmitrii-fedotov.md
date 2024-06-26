@@ -17,17 +17,17 @@ In addition to my endeavors in sports and technology, I have played a crucial ro
 
 I am honored to have received recognition from prominent entities in the blockchain space, including Filecoin, Uniswap, Algorand. These accolades underscore the innovative approach and technological expertise I bring to projects, contributing to the evolution of digital finance and blockchain technology.
 
-Participated with Dspyt - into CodeVerse in Gitcoin Rounds
+Participated with Dspyt - into CodeVerse in Gitcoin Rounds:
 
-- GG20 Hackhaton Alumni
-- Gitcoin Retro Grant
-- Aave GHO Round
-- Web3 Community and Education round
+- GG20 Hackhaton Alumni;
+- Gitcoin Retro Grant;
+- Aave GHO Round;
+- Web3 Community and Education round.
 
 [Won bounty from gitcoin and ocean marketplace](https://app.buidlbox.io/projects/gitcoinanalysis)
-and made
-[Gitcoin Beta Round Analysis](https://dspyt.com/gitcoinbetaroundanalysis)
+for completing
+[Gitcoin Beta Round Analysis](https://dspyt.com/gitcoinbetaroundanalysis).
 
-[Completed Filecoin grant](https://github.com/BadmWe/WebBadminton)
+[Completed Filecoin grant](https://github.com/BadmWe/WebBadminton).
 
-Participated in MetaDao Hackathon and created a big research - understanding Futarchy - governance mechanism. Research on the Futarchy governance mechanism provides insights into governance structures and their impact on human behavior within digital ecosystems. [Read more](https://dspyt.com/futarchy-governance-mechanism-meta-dao)
+During MetaDao Hackathon created a research - [understanding Futarchy - governance mechanism](https://dspyt.com/futarchy-governance-mechanism-meta-dao). Research on the Futarchy governance mechanism provides insights into governance structures and their impact on human behavior within digital ecosystems.
