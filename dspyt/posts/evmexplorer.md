@@ -1,5 +1,5 @@
 ---
-title: "EVM Explorer - A New Tool from the Dspyt Team for Data Transactions"
+title: "EVM Explorer - Tracking Smart Contract Transaction Data"
 date: "June 17, 2024"
 excerpt: "Discover EVM Explorer by Dspyt Team: an open-source tool for exploring and analyzing smart contracts across multiple EVM chains. Explore now!"
 cover_image: "/images/posts/evmexplorer/previewexplorer.webp"
@@ -25,7 +25,7 @@ tags:
     "smart contract data",
     "blockchain",
     "analyze transaction patterns",
-    ]
+  ]
 ---
 
 We are excited to announce the release of [EVM Explorer](https://evmexplorer.com/), a powerful, open-source web interface designed to streamline the exploration and analysis of blockchain data. Utilizing the BlockScout API and viem library, EVM Explorer enables users to delve into transaction patterns and user behaviors across multiple EVM chains.
@@ -64,7 +64,6 @@ Key features:
 - Value
 - Fee
 - Result
-
 
 ## Explorer Page
 
@@ -107,7 +106,7 @@ We value your feedback! If you have any suggestions for improving our platform, 
 
 Dive into the world of EVM data with EVM Explorer and make your blockchain exploration more efficient and insightful.
 
-## Useful Link
+## Useful Links
 
 - [Delegate Arbitrum Tokens to Dspyt Team](https://www.tally.xyz/profile/0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0)
 - [Evm Explorer](https://evmexplorer.com/)
