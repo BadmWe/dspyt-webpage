@@ -17,8 +17,6 @@ export default function Post({ post, slug }) {
     authorAvatar,
   } = post;
 
-  console.log(post);
-
   return (
     <div
       key={title}

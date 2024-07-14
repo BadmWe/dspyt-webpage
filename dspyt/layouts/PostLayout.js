@@ -71,7 +71,7 @@ export default function PostLayout({
                   <li className="flex items-center space-x-2" key={author.name}>
                     {author.avatar && (
                       <ImageDspyt
-                        src={author.avatar}
+                        src={author.smallAvatar}
                         width="38"
                         height="38"
                         alt="avatar"
