@@ -25,7 +25,7 @@ tags:
     "smart contract data",
     "blockchain",
     "analyze transaction patterns",
-    ]
+  ]
 ---
 
 We are excited to announce the release of [EVM Explorer](https://evmexplorer.com/), a powerful, open-source web interface designed to streamline the exploration and analysis of blockchain data. Utilizing the BlockScout API and viem library, EVM Explorer enables users to delve into transaction patterns and user behaviors across multiple EVM chains.
@@ -50,6 +50,11 @@ After you click the submit button, you will see transactions.
 
 ![Address Data](images/posts/evmexplorer/addressdata.webp)
 
+Users can view the 50 latest transactions associated with an address, including their receiver, sender, contract method called, eth or matic value, fees, and the gas used.
+
+- Fees: display gas fee cost in USD.
+- Transaction Method and Type: colored to reflect the mix of coin transfer, token transfer, and contract call
+
 Key features:
 
 - Balance
@@ -65,10 +70,30 @@ Key features:
 - Fee
 - Result
 
+## Transaction page
+
+Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
+
+![Transaction page](images/posts/evmexplorer/transactionpage.webp)
+
+## Blocks page
+
+Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and Average Gas per Transaction. Display all the transactions in the block with their receiver, sender, gas used, and value in USD.
+
+- Token Transfers
+
+**We fetch Uniswap's best price - volume, a unique feature.**
+
+![Blocks page](images/posts/evmexplorer/blockspage.webp)
+
+- Number of Transactions
+- Number of Token Transfers
+- Average Gas per Transactions
+- Gas Usage
 
 ## Explorer Page
 
-[Explorer Page](https://evmexplorer.com/explorer)
+The [Explorer Page](https://evmexplorer.com/explorer) Explorer Page contains links to popular sets of smart contracts:
 
 - AAVE
 - Compound
@@ -85,21 +110,20 @@ For instance, clicking on ERC20 will display detailed information about contract
 
 Key features:
 
-- Holders
-- Price for one token
+- Contract Name
+- Token Name
+- Number of Holders
+- Price for one token in USD
+- Uniswap best price fetch
 - 24h Volume
-- % of CIRC market cap
-- Address
-- Transactions
-- Token Transfers
-- Average Gas per Transactions
-- Gas Usage
-
-![Optimism Token Data](images/posts/evmexplorer/optokendata.webp)
+- % of circulating market cap
+- Contract address
+- Block Number Timestamp
+- Chain Id
 
 Example of Copied PNG Image
 
-![Copy Optimism Token Data](images/posts/evmexplorer/copydataimage.webp)
+![Copy Arbitrum Token Data](images/posts/evmexplorer/tokeninfo.webp)
 
 ## Conclusion
 
