@@ -50,6 +50,11 @@ After you click the submit button, you will see transactions.
 
 ![Address Data](images/posts/evmexplorer/addressdata.webp)
 
+Users can view the 50 latest transactions associated with an address, including their receiver, sender, contract method called, eth or matic value, fees, and the gas used.
+
+- Fees: display gas fee cost in USD.
+- Transaction Method and Type: colored to reflect the mix of coin transfer, token transfer, and contract call
+
 Key features:
 
 - Balance
@@ -73,6 +78,27 @@ In addition, for smart contracts aggregate data should also be available:
 - Gas Usage
 
 ![Optimism Token Data](images/posts/evmexplorer/optokendata.webp)
+
+## Transaction page
+
+Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
+
+![Transaction page](images/posts/evmexplorer/transactionpage.webp)
+
+## Blocks page
+
+Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and Average Gas per Transaction. Display all the transactions in the block with their receiver, sender, gas used, and value in USD.
+
+- Token Transfers
+
+**We fetch Uniswap's best price - volume, a unique feature.**
+
+![Blocks page](images/posts/evmexplorer/blockspage.webp)
+
+- Number of Transactions
+- Number of Token Transfers
+- Average Gas per Transactions
+- Gas Usage
 
 ## Explorer Page
 
@@ -99,8 +125,11 @@ Available data:
 
 - Contract Name
 - Token Name
+- Number of Contract Name
+- Token Name
 - Number of Holders
-- Price for one token in USD
+- Price for one token in USD in USD
+- Uniswap best price fetch
 - 24h Volume
 - % of circulating market cap
 - Contract address
@@ -109,7 +138,7 @@ Available data:
 
 Example of Copied PNG Image
 
-![Copy Optimism Token Data](images/posts/evmexplorer/copydataimage.webp)
+![Copy Arbitrum Token Data](images/posts/evmexplorer/tokeninfo.webp)
 
 ## Conclusion
 
