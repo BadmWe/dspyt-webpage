@@ -89,10 +89,6 @@ Block number, transaction type, receiver, contract method call details, sender, 
 
 Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and Average Gas per Transaction. Display all the transactions in the block with their receiver, sender, gas used, and value in USD.
 
-- Token Transfers
-
-**We fetch Uniswap's best price - volume, a unique feature.**
-
 ![Blocks page](images/posts/evmexplorer/blockspage.webp)
 
 - Number of Transactions
@@ -111,11 +107,11 @@ Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and
 - TokenSets
 - Uniswap
 
-![Explore Page](images/posts/evmexplorer/explorepage.webp)
+![EVMExplorer Explorer Page](images/posts/evmexplorer/explorepage.webp)
 
 For instance, clicking on ERC20 will display detailed information about ERC20 contracts and networks.
 
-![Erc20](images/posts/evmexplorer/erc20data.webp)
+![EVMExplorer Erc20](images/posts/evmexplorer/erc20data.webp)
 
 ## Copy token data as an image
 
