@@ -5,7 +5,6 @@ smallAvatar: "/authors/pavel-ava-small.webp"
 company: "Dspyt"
 email: pfedprog@gmail.com
 twitter: https://twitter.com/pfedprog
-instagram: /
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
 title: "Pavel Fedotov - Dspyt DAO profile"

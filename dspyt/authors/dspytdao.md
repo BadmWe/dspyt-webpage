@@ -6,7 +6,6 @@ company: "Dspyt"
 email: "dspytdao@gmail.com"
 twitter: "https://twitter.com/dspytdao"
 linkedin: "https://www.linkedin.com/company/dspytdao/"
-instagram: /
 github: "https://github.com/dspytdao"
 title: "DspytDAO - Fostering Innovation and Education in Web3 Technologies"
 description: "Dspyt is a community-driven platform for data science and blockchain enthusiasts to explore trends and share insights."

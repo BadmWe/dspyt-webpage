@@ -1,5 +1,5 @@
 ---
-title: "EVM Explorer - A New Tool from the Dspyt Team for Data Transactions"
+title: "EVM Explorer - Tracking Smart Contract Transaction Data"
 date: "June 17, 2024"
 excerpt: "Discover EVM Explorer by Dspyt Team: an open-source tool for exploring and analyzing smart contracts across multiple EVM chains. Explore now!"
 cover_image: "/images/posts/evmexplorer/previewexplorer.webp"
@@ -70,6 +70,15 @@ Key features:
 - Fee
 - Result
 
+In addition, for smart contracts aggregate data should also be available:
+
+- Number of Transactions
+- Number of Token Transfers
+- Average Gas per Transactions
+- Gas Usage
+
+![Optimism Token Data](images/posts/evmexplorer/optokendata.webp)
+
 ## Transaction page
 
 Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
@@ -93,7 +102,7 @@ Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and
 
 ## Explorer Page
 
-The [Explorer Page](https://evmexplorer.com/explorer) Explorer Page contains links to popular sets of smart contracts:
+The [Explorer Page](https://evmexplorer.com/explorer) contains link to popular sets of smart contracts: Explorer Page contains links to popular sets of smart contracts:
 
 - AAVE
 - Compound
@@ -104,16 +113,22 @@ The [Explorer Page](https://evmexplorer.com/explorer) Explorer Page contains lin
 
 ![Explore Page](images/posts/evmexplorer/explorepage.webp)
 
+For instance, clicking on ERC20 will display detailed information about ERC20 contracts and networks.
+
 ![Erc20](images/posts/evmexplorer/erc20data.webp)
 
-For instance, clicking on ERC20 will display detailed information about contracts and networks. Selecting any contract will lead you to a page with token information, making it easy to copy data or export it as a PNG image with just one click.
+## Copy token data as an image
 
-Key features:
+Selecting ERC20, ERC721 or ERC1155 token contract will lead you to a page with an easy to copy and export data as text data or PNG image with just one click.
+
+Available data:
 
 - Contract Name
 - Token Name
+- Number of Contract Name
+- Token Name
 - Number of Holders
-- Price for one token in USD
+- Price for one token in USD in USD
 - Uniswap best price fetch
 - 24h Volume
 - % of circulating market cap
@@ -131,7 +146,7 @@ We value your feedback! If you have any suggestions for improving our platform, 
 
 Dive into the world of EVM data with EVM Explorer and make your blockchain exploration more efficient and insightful.
 
-## Useful Link
+## Useful Links
 
 - [Delegate Arbitrum Tokens to Dspyt Team](https://www.tally.xyz/profile/0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0)
 - [Evm Explorer](https://evmexplorer.com/)
