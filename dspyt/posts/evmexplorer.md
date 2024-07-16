@@ -28,7 +28,7 @@ tags:
   ]
 ---
 
-We are excited to announce the release of [EVM Explorer](https://evmexplorer.com/), a powerful, open-source web interface designed to streamline the exploration and analysis of blockchain data. Utilizing the BlockScout API and viem library, EVM Explorer enables users to delve into transaction patterns and user behaviors across multiple EVM chains.
+We are excited to announce the release of [EVM Explorer](https://evmexplorer.com/), a powerful, open-source web interface designed to streamline the exploration and analysis of blockchain data. Utilizing the BlockScout API and viem library, EVM Explorer enables users to delve into transaction patterns and user behavior across multiple EVM chains.
 
 ## What is EVM Explorer?
 
@@ -102,7 +102,7 @@ Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and
 
 ## Explorer Page
 
-The [Explorer Page](https://evmexplorer.com/explorer) contains link to popular sets of smart contracts: Explorer Page contains links to popular sets of smart contracts:
+[Explorer Page](https://evmexplorer.com/explorer) contains links to popular sets of smart contracts:
 
 - AAVE
 - Compound
@@ -149,4 +149,4 @@ Dive into the world of EVM data with EVM Explorer and make your blockchain explo
 ## Useful Links
 
 - [Delegate Arbitrum Tokens to Dspyt Team](https://www.tally.xyz/profile/0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0)
-- [Evm Explorer](https://evmexplorer.com/)
+- [EVM Explorer](https://evmexplorer.com/)
