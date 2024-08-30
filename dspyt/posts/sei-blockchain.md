@@ -1,7 +1,7 @@
 ---
 title: "SEI Blockchain: Latest Developments, Bridging, and Swapping Guide"
 date: "August 30, 2024"
-excerpt: "Learn how to easily add SEI on Metamask and access SEI through KuCoin. Swap tokens on SEI using DragonSwap and bridge tokens through Stargate Finance"
+excerpt: "Learn how to easily add SEI on Metamask and access SEI through KuCoin. Swap tokens on SEI using DragonSwap and bridge tokens through Stargate Finance."
 cover_image: "/images/posts/defi/sei.webp"
 authors: ["pavel-fedotov"]
 tags:
@@ -21,12 +21,18 @@ tags:
     "transactions",
     "DragonSwap",
     "Stargate",
+    "finance",
+    "native token",
+    "cosmos",
+    "sei ecosystem",
   ]
 ---
 
 Sei Ecosystem is the epicenter of technological advancement, bringing together creative minds and industry leaders to drive the future of Sei's blockchain technology.
 
 To add SEI on Metamask, you can use the Chainlist website to easily add SEI on Metamask, utilizing the information available at [Chainlist SEI](https://chainlist.org/?chain=713715&search=SEI).
+
+Additionally, to explore the SEI blockchain and its transactions, you can use the SEI Block Explorer available at [seitrace.com](https://seitrace.com).
 
 ## Obtain SEI through KuCoin
 
@@ -45,4 +51,4 @@ If you are interested in bridging tokens, you can explore Stargate Finance, whic
 
 ## Recent Developments
 
-For more information about SEI blockchain and its recent developments, you can refer to the [Creator Fund blog post](https://blog.sei.io/sei-creator-fund-round-2-creative-media-and-ip-development) and the [Gitcoin Round page](https://builder.gitcoin.co/#/chains/1329/rounds/9). Additionally, to explore the SEI blockchain and its transactions, you can use the SEI Block Explorer available at [seitrace.com](https://seitrace.com).
+For more information about SEI blockchain and its recent developments, you can refer to the [Creator Fund blog post](https://blog.sei.io/sei-creator-fund-round-2-creative-media-and-ip-development) and the [Gitcoin Round page](https://builder.gitcoin.co/#/chains/1329/rounds/9).
