@@ -3,12 +3,14 @@ title: "Simple Blockchain data indexing with TrueBlocks"
 date: "April 27, 2022"
 excerpt: "In this article we discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database."
 cover_image: "/images/posts/trueblocks/pexels-vitaly-vlasov-1342460-e1658960499878.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "TrueBlocks",
     "Indexer",
     "data",
     "IPFS",
+    "data storage",
     "GitCoin",
     "Ethereum",
     "database",

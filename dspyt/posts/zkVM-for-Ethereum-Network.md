@@ -30,8 +30,6 @@ As the Ethereum network continues to evolve, it is crucial to explore the securi
 
 Recent comprehensive audits by Hexens and Spearbit have highlighted critical vulnerabilities within Polygon's zkEVM system, emphasizing the security challenges faced. While zkEVM verifies the validity of smart contract execution using zero-knowledge proofs, significant potential advantages include increased L1 throughput, lower transaction and gas fees, and improved security. However, it is essential to address the identified vulnerabilities to ensure the overall security and integrity of the Ethereum network.
 
-Moreover, a study by X Tang revealed potential security risks for smart contracts deployed on Ethereum during migration to Arbitrum, emphasizing the need for thorough analysis and mitigation strategies.
-
 ### Ethereum Adoption in Developing Countries
 
 Exploring the potential for Ethereum to be adopted in developing countries is crucial for global inclusivity and access to decentralized finance. The much required research should delve into user experience, the regulatory landscape, and required infrastructure, aiming to identify opportunities for sustainable and impactful Ethereum adoption. Understanding the challenges, such as regulatory barriers and infrastructure limitations, will be key in developing strategies to overcome these hurdles.

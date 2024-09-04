@@ -21,6 +21,7 @@ tags:
     "Encryption",
     "Privacy",
     "Security",
+    "Identity",
     "Blockchain",
     "Web3",
     "zkBlind",
