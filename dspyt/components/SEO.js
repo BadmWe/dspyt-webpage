@@ -14,13 +14,18 @@ const CommonSEO = ({
   return (
     <Head>
       <title>{title}</title>
-      <meta property="og:title" content={siteMetadata.title} />
+      <link
+        rel="canonical"
+        href={`${siteMetadata.siteUrl}${router.asPath}`}
+        key="canonical"
+      />
       <meta
         property="og:url"
         content={`${siteMetadata.siteUrl}${router.asPath}`}
       />
-      <meta property="description" content={description} />
+      <meta name="description" content={description} />
       <meta property="og:description" content={description} />
+      <meta property="og:title" content={siteMetadata.title} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={ogImage} />
       <meta property="twitter:card" content="summary" />
