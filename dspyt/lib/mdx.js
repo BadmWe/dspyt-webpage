@@ -134,6 +134,5 @@ export async function getAllFilesFrontMatter(folder) {
         console.log(frontmatter.title, frontmatter.title.length, "characters");
     }
   });
-
   return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date));
 }

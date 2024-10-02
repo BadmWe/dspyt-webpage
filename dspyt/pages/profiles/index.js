@@ -16,7 +16,7 @@ export default function ProfilesPage({ posts }) {
         </h1>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.slice(0, POSTS_PER_PAGE).map((post) => (
-            <Post key={post.slug} post={post} slug={"/profile/" + post.slug} />
+            <Post key={post.slug} post={post} slug={"profile/" + post.slug} />
           ))}
         </div>
       </div>
