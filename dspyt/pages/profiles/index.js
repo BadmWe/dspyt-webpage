@@ -10,7 +10,7 @@ export default function ProfilesPage({ posts }) {
   return (
     <div>
       <PageSEO
-        title={`Dspyt Profiles Page - Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
+        title={`Profiles - Data Science & Blockchain Insights for Programming Enthusiasts`}
       />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
