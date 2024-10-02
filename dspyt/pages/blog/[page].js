@@ -24,13 +24,12 @@ export default function BlogPage({ posts, pageNumber }) {
   return (
     <div>
       <PageSEO
-        title={`Dspyt Blog Page ${pageNumber} - Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
+        title={`Blockchain Insights Hub for Programming Enthusiasts Blog Page ${pageNumber}`}
       />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Blog
         </h1>
-
         <div className="items-center justify-center">
           <div className="relative mt-6 ml-20 mr-20 sm:ml-50 sm:mr-50 lg:ml-80 lg:mr-80">
             <input

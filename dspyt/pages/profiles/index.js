@@ -9,7 +9,9 @@ const POSTS_PER_PAGE = 9;
 export default function ProfilesPage({ posts }) {
   return (
     <div>
-      <PageSEO title={"Dspyt: Profiles Page"} />
+      <PageSEO
+        title={`Dspyt Profiles Page - Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
+      />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Profiles

@@ -48,7 +48,7 @@ export default function Tag({ posts, tag }) {
   return (
     <div>
       <BlogSEO
-        title={`Dspyt ${title} - Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
+        title={`${title} - Blockchain Insights Hub for Programming Enthusiasts`}
         description={`Dspyt ${title}: Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
       />
       <div className="relative max-w-7xl mx-auto mt-10">
