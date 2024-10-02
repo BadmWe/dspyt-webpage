@@ -1,5 +1,6 @@
 export const siteMetadata = {
-  title: "DSPYT: Data Science with Python",
+  title:
+    "Dspyt - Data Science & Blockchain Insights Hub for Programming Enthusiasts",
   author: "Pavel Fedotov",
   headerTitle: "Dspyt",
   description:

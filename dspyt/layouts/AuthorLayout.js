@@ -9,7 +9,7 @@ export default function AuthorLayout({ frontMatter, children }) {
   return (
     <div>
       <BlogSEO
-        title={`About - ${name}`}
+        title={`Background Info: ${name} - Learn About Dspyt DAO Profile`}
         description={`${name}: ${description}`}
       />
 
