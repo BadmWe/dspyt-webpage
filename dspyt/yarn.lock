@@ -2680,10 +2680,10 @@ markdown-table@^3.0.0:
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.3.tgz#e6331d30e493127e031dd385488b5bd326e4a6bd"
   integrity sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==
 
-marked@13.0.2:
-  version "13.0.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-13.0.2.tgz#d5d05bd2683a85cb9cc6afbe5240e3a8bffcb92a"
-  integrity sha512-J6CPjP8pS5sgrRqxVRvkCIkZ6MFdRIjDkwUwgJ9nL2fbmM6qGQeB2C16hi8Cc9BOzj6xXzy0jyi0iPIfnMHYzA==
+marked@14.1.2:
+  version "14.1.2"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-14.1.2.tgz#3cbc26b2d6832be32b75ae0746e0968c781b6156"
+  integrity sha512-f3r0yqpz31VXiDB/wj9GaOB0a2PRLQl6vJmXiFrniNwjkKdvakqJRULhjFKJpxOchlCRiG5fcacoUZY5Xa6PEQ==
 
 mdast-util-definitions@^5.0.0:
   version "5.1.2"
