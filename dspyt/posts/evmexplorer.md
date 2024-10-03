@@ -46,7 +46,9 @@ Search, Discover, and Track contracts by their address on 8 EVM chains: Ethereum
 
 Simply paste the contract address, select a network, and click the Submit button to view transactions.
 
-After you click the submit button, you will see transactions.
+After you click the submit button, you will be redirected to a page related to an address.
+
+## Blockchain Address page
 
 ![Address Data](images/posts/evmexplorer/addressdata.webp)
 
@@ -79,6 +81,8 @@ In addition, for smart contracts aggregate data should also be available:
 
 ![Optimism Token Data](images/posts/evmexplorer/optokendata.webp)
 
+![Arbitrum Token Data](images/posts/evmexplorer/blockspage.webp)
+
 ## Transaction page
 
 Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
@@ -88,8 +92,6 @@ Block number, transaction type, receiver, contract method call details, sender, 
 ## Blocks page
 
 Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and Average Gas per Transaction. Display all the transactions in the block with their receiver, sender, gas used, and value in USD.
-
-![Blocks page](images/posts/evmexplorer/blockspage.webp)
 
 - Number of Transactions
 - Number of Token Transfers
