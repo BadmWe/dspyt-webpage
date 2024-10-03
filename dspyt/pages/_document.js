@@ -12,6 +12,7 @@ class MyDocument extends Document {
             media="(prefers-color-scheme: light)"
             content="#fff"
           />
+          <meta name="robots" content="all" />
         </Head>
         <body className="bg-blue-100 text-green-950 antialiased dark:bg-cyan-950 dark:text-white">
           <Main />

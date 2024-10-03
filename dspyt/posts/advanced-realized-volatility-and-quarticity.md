@@ -3,6 +3,7 @@ title: "How to implement Realized Volatility python"
 date: "April 25, 2022"
 excerpt: "Volatility estimators are especially valuable in modelling financial returns and capturing time-variability of financial series."
 cover_image: "/images/posts/quarticity/pexels-pixabay-210607.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "Python",

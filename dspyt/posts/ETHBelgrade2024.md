@@ -17,6 +17,7 @@ tags:
     "wallet",
     "DeFi",
     "Privacy",
+    "identity",
     "security",
     "Mina Protocol",
     "Mini-Blockchain",

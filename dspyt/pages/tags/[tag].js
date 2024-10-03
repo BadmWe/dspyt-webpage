@@ -48,8 +48,8 @@ export default function Tag({ posts, tag }) {
   return (
     <div>
       <BlogSEO
-        title={`Data Science with Python ${title}`}
-        description={`Data Science with Python ${title} tag`}
+        title={`${title} - Blockchain Insights Hub for Programming Enthusiasts`}
+        description={`Dspyt ${title}: Data Science & Blockchain Insights Hub for Programming Enthusiasts`}
       />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>

@@ -14,6 +14,7 @@ tags:
     "defi",
     "Privacy",
     "security",
+    "identity",
     "decentralized",
     "Mina Protocol",
     "Mini-Blockchain",

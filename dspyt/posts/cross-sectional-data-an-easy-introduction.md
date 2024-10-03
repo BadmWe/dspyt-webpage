@@ -3,6 +3,7 @@ title: "Cross-sectional data – An easy introduction"
 date: "April 20, 2022"
 excerpt: "In this article we are introducing the concept of cross sectional data. A cross sectional data example consists of a sample of units at a given point in time."
 cover_image: "/images/posts/cross/image.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "cross sectional data",

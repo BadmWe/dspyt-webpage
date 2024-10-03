@@ -1,9 +1,10 @@
 export const siteMetadata = {
-  title: "DSPYT: Data Science with Python",
+  title:
+    "Dspyt - Data Science & Blockchain Insights Hub for Programming Enthusiasts",
   author: "Pavel Fedotov",
   headerTitle: "Dspyt",
   description:
-    "Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics.",
+    "Data Science with Python and blockchain DAO. We cover econometrics, python programming, blockchain technology and many more topics",
   theme: "system", // system, dark or light
   ogType: "website",
   ogImageUrl: "https://dspyt.com/DSPYT.png",

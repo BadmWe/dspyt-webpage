@@ -3,6 +3,7 @@ title: "How to bypass CAPTCHA in python"
 date: "23 November, 2022"
 excerpt: "Captcha is a test to determine whether or not the user is human. 2Captcha is the best provider of automatic captcha solving software on the market now."
 cover_image: "/images/posts/captcha/pexels-christina-morillo-1181263.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "Python",

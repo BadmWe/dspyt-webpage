@@ -9,10 +9,9 @@ export default function AuthorLayout({ frontMatter, children }) {
   return (
     <div>
       <BlogSEO
-        title={`About - ${name}`}
+        title={`Background Info: ${name} - Learn About Dspyt DAO Profile`}
         description={`${name}: ${description}`}
       />
-
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center pb-8 pt-10">

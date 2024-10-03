@@ -17,6 +17,7 @@ tags:
     "Wallet",
     "Mina Wallet",
     "Privacy",
+    "identity",
     "Cryptocurrency Wallet",
     "Frontend Development",
     "NextJs",

@@ -10,6 +10,7 @@ tags:
     "XDC",
     "XRC",
     "DeFi",
+    "finance",
     "AMM",
     "finance",
     "ERC-20",

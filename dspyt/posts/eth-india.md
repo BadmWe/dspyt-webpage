@@ -3,7 +3,7 @@ title: "How we won at ETHIndia'23"
 date: "December 17, 2023"
 excerpt: "Experience ETHIndia'23: teams navigate ideation to triumph, fueled by caffeine and camaraderie. Witness thrill, innovation, and sweet success."
 cover_image: "/images/posts/ethIndia/mainpage.webp"
-authors: ["gyanesh-samanta"]
+authors: ["gyanesh-samanta", "dspytdao"]
 tags:
   [
     "hackathon experience",

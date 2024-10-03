@@ -24,7 +24,7 @@ export default function AuthorLayout({ frontMatter, children }) {
   return (
     <div>
       <BlogSEO
-        title={`About - ${name}`}
+        title={`Background Information: ${name} - Learn About Dspyt DAO Profile`}
         description={`${name}: ${description}`}
       />
       <div className="divide-y mt-2 divide-gray-200 dark:divide-gray-700 transition-all">

@@ -9,14 +9,16 @@ const POSTS_PER_PAGE = 9;
 export default function ProfilesPage({ posts }) {
   return (
     <div>
-      <PageSEO title={"Dspyt: Profiles Page"} />
+      <PageSEO
+        title={`Profiles - Data Science & Blockchain Insights for Programming Enthusiasts`}
+      />
       <div className="relative max-w-7xl mx-auto mt-10">
         <h1 className="dspyt-h3xl" style={{ margin: "20px" }}>
           Data Science and Blockchain Profiles
         </h1>
         <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           {posts.slice(0, POSTS_PER_PAGE).map((post) => (
-            <Post key={post.slug} post={post} slug={"/profile/" + post.slug} />
+            <Post key={post.slug} post={post} slug={"profile/" + post.slug} />
           ))}
         </div>
       </div>

@@ -3,6 +3,7 @@ title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
 excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
 cover_image: "/images/posts/aurora/aurora.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "aurora",
