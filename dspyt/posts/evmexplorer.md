@@ -109,11 +109,11 @@ Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and
 - TokenSets
 - Uniswap
 
-![EVMExplorer Explorer Page](images/posts/evmexplorer/explorepage.webp)
+![EVM Explorer Explorer Page](images/posts/evmexplorer/explorepage.webp)
 
 For instance, clicking on ERC20 will display detailed information about ERC20 contracts and networks.
 
-![EVMExplorer Erc20](images/posts/evmexplorer/erc20data.webp)
+![EVM Explorer Erc20](images/posts/evmexplorer/erc20data.webp)
 
 ## Copy token data as an image
 
