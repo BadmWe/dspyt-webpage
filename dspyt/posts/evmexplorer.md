@@ -91,23 +91,22 @@ Block number, transaction type, receiver, contract method call details, sender, 
 
 ## Blocks page
 
-Block miner and date. Aggregate data for total Gas Usage, Trasactions count, and Average Gas per Transaction. Display all the transactions in the block with their receiver, sender, gas used, and value in USD.
+On the Blocks page, users can access essential information such as the block miner and date, providing insight into the blockchain's operations. For example, [20,898,767 Ethereum mainnet block](https://evmexplorer.com/blocks/mainnet/20898767) is displayed below.
 
-- Number of Transactions
-- Number of Token Transfers
-- Average Gas per Transactions
-- Gas Usage
+![Blocks Page](images/posts/evmexplorer/blocksPageMainnet.webp)
+
+Additionally, aggregate data is prominently displayed, including the total Gas Usage, Transactions count, and Average Gas per Transaction, offering a comprehensive overview of the block's activity. Furthermore, the page showcases detailed transaction data with information on the receiver, sender, gas used, and transaction value in USD. Users can also track metrics such as the Number of Transactions, Number of Token Transfers, Average Gas per Transaction, and Gas Usage, enabling a deeper understanding of the block's transactions and network performance.
 
 ## Explorer Page
 
 [Explorer Page](https://evmexplorer.com/explorer) contains links to popular sets of smart contracts:
 
-- AAVE
-- Compound
-- ENS
-- ERC20
-- TokenSets
-- Uniswap
+- [AAVE](https://evmexplorer.com/explore/Aave)
+- [Compound Finance](https://evmexplorer.com/explore/Compound)
+- [ENS Domains](https://evmexplorer.com/explore/ENS%20Domains)
+- [ERC 20 tokens](https://evmexplorer.com/explore/ERC20)
+- [Token Sets](https://evmexplorer.com/explore/Token%20Sets)
+- [Uniswap](https://evmexplorer.com/explore/Uniswap)
 
 ![EVM Explorer Explorer Page](images/posts/evmexplorer/explorepage.webp)
 
