@@ -27,7 +27,11 @@ function MyApp({ Component, pageProps }) {
         gtag('config', '${process.env.NEXT_PUBLIC_GA}');
     `}
       </Script>
-
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2394818173100484"
+        crossorigin="anonymous"
+      />
       <Navbar />
       <Component {...pageProps} />
       <Footer />
