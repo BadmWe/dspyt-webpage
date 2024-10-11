@@ -61,24 +61,18 @@ After you click the submit button, you will be redirected to a page related to a
 
 ![Address Data](images/posts/evmexplorer/addressdata.webp)
 
+The address page displays the header with a balance in Eth token as well as an address hash and an ens name.
+
 Users can view the 50 latest transactions associated with an address, including their receiver, sender, contract method called, eth or matic value, fees, and the gas used.
 
 - Fees: display gas fee cost in USD.
-- Transaction Method and Type: colored to reflect the mix of coin transfer, token transfer, and contract call
-
-Key features:
-
-- Balance
-- Hash
-- Block
-- Timestamp
-- Method Call
-- From
-- To
+- Transaction Method and Type: colored to reflect the mix of coin transfer, token transfer, and contract call.
+- Transaction Hash
+- Transaction Block
+- Transaction Timestamp
 - Gas Used
 - Gas Price
-- Value
-- Fee
+- Transaction Value in USD
 - Result
 
 In addition, for smart contracts aggregate data should also be available:
@@ -88,13 +82,17 @@ In addition, for smart contracts aggregate data should also be available:
 - Average Gas per Transactions
 - Gas Usage
 
+For example, [Optimism (OP) governance token page](https://evmexplorer.com/contracts/optimism/0x4200000000000000000000000000000000000042):
+
 ![Optimism Token Data](images/posts/evmexplorer/optokendata.webp)
+
+[Arbitrum (ARB) governance token page](https://evmexplorer.com/contracts/arbitrum/0x912ce59144191c1204e64559fe8253a0e49e6548):
 
 ![Arbitrum Token Data](images/posts/evmexplorer/blockspage.webp)
 
 ## Transaction page
 
-Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
+The transaction page contains Block number, transaction type, receiver, contract method call details, sender, gas used in USD, and token transfers details.
 
 ![Transaction page](images/posts/evmexplorer/transactionpage.webp)
 
