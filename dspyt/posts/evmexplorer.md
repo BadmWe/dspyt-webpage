@@ -81,6 +81,7 @@ In addition, for smart contracts aggregate data should also be available:
 - Number of Token Transfers
 - Average Gas per Transactions
 - Gas Usage
+- Number of Validations
 
 For example, [Optimism (OP) governance token page](https://evmexplorer.com/contracts/optimism/0x4200000000000000000000000000000000000042):
 
@@ -89,6 +90,8 @@ For example, [Optimism (OP) governance token page](https://evmexplorer.com/contr
 [Arbitrum (ARB) governance token page](https://evmexplorer.com/contracts/arbitrum/0x912ce59144191c1204e64559fe8253a0e49e6548):
 
 ![Arbitrum Token Data](images/posts/evmexplorer/blockspage.webp)
+
+For Number of Validations examples, please, have a look at [Lido Execution Layer Rewards Vault](https://evmexplorer.com/contracts/mainnet/0x388C818CA8B9251b393131C08a736A67ccB19297).
 
 ## Transaction page
 
@@ -154,3 +157,5 @@ Dive into the world of EVM data with EVM Explorer and make your blockchain explo
 
 - [Delegate Arbitrum Tokens to Dspyt Team](https://www.tally.xyz/profile/0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0)
 - [EVM Explorer](https://evmexplorer.com/)
+- [Optimism Curia Governance Dashboard](https://optimism.curiahub.xyz/)
+- [Optimism Agora](https://vote.optimism.io/)

@@ -6,7 +6,7 @@ company: "Facet, Ethscriptions, Capsule 21, Genius"
 twitter: "https://twitter.com/dumbnamenumbers"
 github: "https://github.com/0xFacet/facet-vm"
 title: "Middlemarch.eth - Dspyt DAO profile"
-description: "Facet co-founder, Ethscriptions co-founder, Capsule 21 co-founder, Genius.com co-founder & former CEO"
+description: "Facet co-founder, Ethscriptions co-founder, Capsule 21 co-founder, Genius.com co-founder & former CEO."
 ---
 
 ## About me
