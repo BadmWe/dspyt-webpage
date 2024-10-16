@@ -107,7 +107,7 @@ For a Number of Validations example, please, have a look at [Lido Execution Laye
 
 ## Transaction page
 
-The transaction page contains a block number, transaction type, transaction timestamp, receiver, contract method call name and details, sender,transaction value in USD, gas fee cost in USD and token transfers details.
+The transaction page contains a block number, transaction type, transaction timestamp, receiver, contract method call name and details, sender, transaction value in USD, gas fee cost in USD and token transfers details.
 
 For instance, have a look at Vitalik's [swap transaction](https://evmexplorer.com/transactions/mainnet/0x8c973ec1f829663aa22b37d6a1c76a8e31c647ae80f17fbec1596c678f393bec) with Meta Aggregation Router V2.
 
