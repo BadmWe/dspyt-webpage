@@ -57,7 +57,7 @@ Simply paste the contract address, select a network, and click the Submit button
 
 Let's navigate to Vitalik's ethereum address page:
 
-![Vitalik's Address Search EVM Explorer](images/posts/evmexplorer/VitalikInSearch.webp)
+![Vitalik's Address Search EVM Explorer](images/posts/evmexplorer/vitalikInSearch.webp)
 
 After you click the submit button, you will be redirected to a page related to an address.
 
@@ -103,7 +103,7 @@ For example, [Optimism (OP) governance token page on optimism network](https://e
 
 For a Number of Validations example, please, have a look at [Lido Execution Layer Rewards Vault on Ethereum](https://evmexplorer.com/contracts/mainnet/0x388C818CA8B9251b393131C08a736A67ccB19297):
 
-![Lido smart contract Data](images/posts/evmexplorer/lido.webp)
+![Lido smart contract Data](images/posts/evmexplorer/Lido.webp)
 
 ## Transaction page
 
