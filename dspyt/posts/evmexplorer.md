@@ -2,7 +2,7 @@
 title: "EVM Explorer - Tracking Smart Contract Transaction Data"
 date: "June 17, 2024"
 excerpt: "Discover EVM Explorer by Dspyt Team: an open-source tool for exploring and analyzing smart contracts across multiple EVM chains. Explore now!"
-cover_image: "/images/posts/evmexplorer/previewexplorer.webp"
+cover_image: "/images/posts/evmexplorer/evmexplorer.webp"
 tags:
   [
     "EVMExplorer",
