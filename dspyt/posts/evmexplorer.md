@@ -184,3 +184,4 @@ Dive into the world of EVM data with EVM Explorer and make your blockchain explo
 - [EVM Explorer](https://evmexplorer.com/)
 - [Optimism Curia Governance Dashboard](https://optimism.curiahub.xyz/)
 - [Optimism Agora](https://vote.optimism.io/)
+- [Optimism Governance Agora smart contract](https://optimistic.etherscan.io/address/0xcdf27f107725988f2261ce2256bdfcde8b382b10#readProxyContract)
