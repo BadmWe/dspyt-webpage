@@ -23,7 +23,9 @@
       "Drips",
       "Project Showcase",
       "FIL-RetroPGF",
-      "Vote Aggregation"
+      "Vote Aggregation",
+      "governance",
+      "open source"
     ]
 ---
 
