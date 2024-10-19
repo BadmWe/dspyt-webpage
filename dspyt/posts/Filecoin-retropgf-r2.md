@@ -20,6 +20,10 @@
       "Tech Innovation", 
       "Developer Community", 
       "File Sharing",
+      "Drips",
+      "Project Showcase",
+      "FIL-RetroPGF",
+      "Vote Aggregation"
     ]
 ---
 
@@ -69,3 +73,6 @@ For ongoing updates and to connect with the community, follow **[Filecoin](https
 - [Blockchain Data Indexer with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Ethereum Security Data Collection Ideas](https://dspyt.com/data_collection_ideas)
 - [Filecoin RetroPGF Substack](https://filretropgf.substack.com/)
+- [FIL-RetroPGF](https://fil-retropgf.notion.site/FIL-RetroPGF-4b6f5358440043c8bb1bf53f0297541e)
+- [Stage 1: Project Showcase](https://fil-retropgf.notion.site/Stage-1-Project-Showcase-10ad0d646da18042b92fe942ebf41090)
+- [Stage 2: Application Intake Guidelines (14th October - 4th November)](https://fil-retropgf.notion.site/Stage-2-Application-Intake-Guidelines-14th-October-4th-November-394969fa60cf4b45a8d8ef5cbbfd3d7e)
