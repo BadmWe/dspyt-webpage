@@ -29,6 +29,7 @@ const CommonSEO = ({
       <meta property="og:title" content={title} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:site_name" content="Dspyt" />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:site" content={twitterImage} />
       <meta property="twitter:title" content={title} />

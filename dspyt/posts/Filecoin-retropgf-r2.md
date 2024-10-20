@@ -25,7 +25,8 @@
       "FIL-RetroPGF",
       "Vote Aggregation",
       "governance",
-      "open source"
+      "open source",
+      "retro grants",
     ]
 ---
 
