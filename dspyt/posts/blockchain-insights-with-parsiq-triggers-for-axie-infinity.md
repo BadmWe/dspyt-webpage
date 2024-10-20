@@ -7,14 +7,23 @@ cover_image: "/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
 tags:
   [
     "parsiq",
+    "smart triggers",
+    "parsiq smart triggers",
+    "Google",
+    "Google Spreadsheets",
+    "blockchain data",
     "data",
-    "smart-triggers",
     "axs",
     "data science",
     "axie infinity",
     "Ethereum",
     "Ronin Bridge",
     "binance smart chain",
+    "Binance",
+    "tokens",
+    "gaming",
+    "blockchain data analysis",
+    "data analysis",
   ]
 ---
 

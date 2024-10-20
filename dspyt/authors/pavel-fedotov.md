@@ -8,7 +8,7 @@ twitter: https://twitter.com/pfedprog
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
 title: "Pavel Fedotov - Dspyt DAO profile"
-description: "Full stack blockchain developer with over 3 years of experience in Rust, Solidity, Python, JavaScript, React and NextJs."
+description: "Full stack blockchain developer with over 4 years of experience in Rust, Solidity, Python, JavaScript, React and NextJs."
 ---
 
 Pavel Fedotov, a seasoned Full Stack Blockchain Developer with over 4 years of experience, has excelled in engineering decentralized applications using a comprehensive tech stack comprising Rust, Solidity, Python, JavaScript, TypeScript, React, and NextJs.

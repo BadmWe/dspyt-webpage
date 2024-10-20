@@ -9,6 +9,7 @@ tags:
     "Meta-DAO",
     "Futarchy",
     "Governance",
+    "Solana",
     "Cryptocurrency",
     "Meritocracy",
     "Incentivization",
@@ -21,11 +22,15 @@ tags:
     "Decentralized governance",
     "Decentralized",
     "Participating in Futarchy",
+    "TWAP",
+    "conditional vault program",
+    "tokens",
   ]
 ---
 
 The Meta-DAO is a new kind of organization. It uses futarchy, a system where markets make decisions. **As such, it sidesteps existing challenges with governance, such as voter apathy and political capture.** It divides the decision-making process into two stages: the guidance stage and the execution stage. In the guidance stage, the community poses a decision-making question.
-**The Meta-DAO - An organization governed by markets, not politics**
+
+> **The Meta-DAO - An organization governed by markets, not politics**.
 
 ## What is Futarchy and How It Works
 
