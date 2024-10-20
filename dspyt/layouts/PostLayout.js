@@ -32,7 +32,11 @@ export default function PostLayout({
     frontMatter;
   return (
     <SectionContainer>
-      <BlogSEO title={title} description={excerpt} />
+      <BlogSEO
+        title={title}
+        description={excerpt}
+        image={"https://dspyt.com" + cover_image}
+      />
       <ScrollTopAndComment />
       <article>
         <header className="pt-6 xl:pb-6 transition-all">
