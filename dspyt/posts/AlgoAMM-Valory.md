@@ -11,12 +11,15 @@ tags:
     "AI",
     "Algo AMM",
     "Defi",
+    "decentralized finance",
     "data",
     "prediction markets",
     "blockchain",
     "zkml",
     "dex",
     "amm",
+    "collective knowledge",
+    "governance mechanisms",
   ]
 ---
 

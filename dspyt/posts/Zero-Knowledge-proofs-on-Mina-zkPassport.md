@@ -1,7 +1,7 @@
 ---
 title: "Zero Knowledge proofs on Mina, zkPassport and SoulBound NFTs"
 date: "30 March, 2024"
-excerpt: "Web3 identity and social experiences are being enhanced through the introduction of non-transferable soulbound tokens, the usage of the Mina Protocol, SNARK workers, and zkPassport."
+excerpt: "Web3 identity is enhanced through the introduction of non-transferable soulbound tokens, Mina Protocol, SNARK workers and zkPassport."
 cover_image: "/images/posts/Mina/EthBucharest.webp"
 tags:
   [

@@ -1,7 +1,7 @@
 ---
 title: "Unraveling the Potential of Optimism Blockchain"
 date: "August 27, 2024"
-excerpt: "Optimism blockchain, a Layer 2 scaling solution built on top of Ethereum, aims to alleviate Ethereum's scalability issues by rolling up transactions for faster, cheaper, and more efficient processing, with substantial traction in the DeFi space."
+excerpt: "Optimism blockchain, a Layer 2 scaling solution built on top of Ethereum, aims to alleviate Ethereum's scalability issues by rolling up transactions."
 cover_image: "/images/posts/optimism/OptimismPotential.webp"
 authors: ["eric-samuel"]
 tags:
