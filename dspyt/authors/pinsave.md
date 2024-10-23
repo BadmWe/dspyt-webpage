@@ -7,7 +7,7 @@ twitter: "https://twitter.com/pinsav3"
 linkedin: "https://www.linkedin.com/company/pinsave/"
 github: "https://github.com/pinsavedao"
 title: "PinSave - DspytDAO profile"
-description: "decentralized platform that addresses the issue of centralized control over user content by empowering users with ownership and control over their content."
+description: "Decentralized platform that addresses the centralized control over user content by empowering users with ownership and control."
 ---
 
 PinSave focuses on developing a decentralized content aggregation and image sharing platform where users have ownership of their content, aiming to address the issue of current monolithic web applications retaining ownership of user content and hindering the adoption of decentralized technology.
