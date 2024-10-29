@@ -10,6 +10,7 @@ tags:
     "Python",
     "Filecoin",
     "Filecoin fvm",
+    "filecoin virtual machine",
     "Fil",
     "data",
     "sklearn",

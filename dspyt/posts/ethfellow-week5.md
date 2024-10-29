@@ -15,6 +15,7 @@ tags:
     "vercel",
     "UI",
     "defi",
+    "blockchain indexer",
   ]
 ---
 

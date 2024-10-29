@@ -19,8 +19,10 @@ tags:
     "ethereum",
     "eth",
     "filecoin",
+    "filecoin fvm",
     "Fil",
     "zora",
+    "zora blockchain",
     "base",
     "redstone",
     "blockchain data analysis",
@@ -36,7 +38,6 @@ tags:
     "Optimism blockchain",
     "EVM chains",
     "smart contract data",
-    "blockchain",
     "analyze transaction patterns",
   ]
 ---

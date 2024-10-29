@@ -15,6 +15,7 @@ tags:
     "vercel",
     "Polywrap",
     "API",
+    "blockchain indexer",
   ]
 ---
 

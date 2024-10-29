@@ -8,6 +8,7 @@
     [
       "Filecoin",
       "Filecoin fvm",
+      "filecoin virtual machine",
       "Fil",
       "RetroPGF",
       "showcase",

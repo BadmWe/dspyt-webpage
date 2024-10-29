@@ -20,6 +20,8 @@ tags:
     "amm",
     "collective knowledge",
     "governance mechanisms",
+    "uniswap yield farming",
+    "Valory",
   ]
 ---
 

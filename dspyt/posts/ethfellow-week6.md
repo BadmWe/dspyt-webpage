@@ -14,6 +14,7 @@ tags:
     "etherscan",
     "vercel",
     "Dune Dashboard",
+    "blockchain indexer",
   ]
 ---
 

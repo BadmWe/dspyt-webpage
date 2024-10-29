@@ -17,6 +17,7 @@ tags:
     "ML",
     "Finance",
     "portfolio",
+    "uniswap yield farming",
   ]
 ---
 

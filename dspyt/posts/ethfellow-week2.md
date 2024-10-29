@@ -22,6 +22,7 @@ tags:
     "blockchain data",
     "dao",
     "daos",
+    "blockchain indexer",
   ]
 ---
 

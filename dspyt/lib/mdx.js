@@ -131,7 +131,10 @@ export async function getAllFilesFrontMatter(folder) {
           : null,
       });
 
-      if (frontmatter.title.length > 70)
+      if (
+        frontmatter.excerpt &&
+        (frontmatter.title.length > 80 || frontmatter.title.length < 40)
+      )
         console.log(frontmatter.title, frontmatter.title.length, "characters");
       if (
         frontmatter.description &&

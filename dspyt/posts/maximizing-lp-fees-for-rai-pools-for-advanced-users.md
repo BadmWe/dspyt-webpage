@@ -8,6 +8,7 @@ tags:
     "liquidity pool",
     "stablecoin",
     "RAI",
+    "rai stablecoin",
     "Fuse",
     "defi",
     "Reflexer",
@@ -15,6 +16,7 @@ tags:
     "Uniswap",
     "ERC 20",
     "liquidity pair",
+    "uniswap yield farming",
   ]
 ---
 
