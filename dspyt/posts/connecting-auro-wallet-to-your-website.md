@@ -7,6 +7,7 @@ authors: ["alexfedotovqq", "pavel-fedotov"]
 tags:
   [
     "Auro Wallet",
+    "aurowallet",
     "Blockchain Integration",
     "Decentralized Finance",
     "DeFi",

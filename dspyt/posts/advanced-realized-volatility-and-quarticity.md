@@ -9,11 +9,13 @@ tags:
     "Python",
     "finance",
     "realized volatility",
+    "realized volatility formula",
     "Pandas",
     "NumPy",
     "SciPy",
     "quarticity",
     "estimators",
+    "calculate realized volatility",
   ]
 ---
 

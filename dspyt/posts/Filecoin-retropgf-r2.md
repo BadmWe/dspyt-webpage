@@ -7,6 +7,7 @@
   tags:
     [
       "Filecoin",
+      "Filecoin fvm",
       "Fil",
       "RetroPGF",
       "showcase",

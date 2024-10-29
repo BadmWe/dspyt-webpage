@@ -7,6 +7,7 @@ tags:
   [
     "Python",
     "ctf",
+    "ctf jail",
     "ethical hacking",
     "security",
     "Newbie CTF",

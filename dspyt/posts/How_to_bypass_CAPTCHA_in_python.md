@@ -12,6 +12,7 @@ tags:
     "data",
     "security",
     "reCaptcha",
+    "twocaptcha",
     "API",
     "2Captcha",
     "solving software",

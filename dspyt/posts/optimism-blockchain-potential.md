@@ -22,6 +22,8 @@ tags:
     "EVM",
     "dispute resolution process",
     "gas fees",
+    "evm chains",
+    "optimism dapps",
   ]
 ---
 

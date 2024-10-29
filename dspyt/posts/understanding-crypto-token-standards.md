@@ -11,7 +11,7 @@ tags:
     "BRC",
     "BEP",
     "SPL",
-    "blockchain",
+    "spl crypto",
     "Bitcoin",
     "BRC-20",
     "Solana",

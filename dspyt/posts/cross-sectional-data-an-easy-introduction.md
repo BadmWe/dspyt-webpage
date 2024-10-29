@@ -13,6 +13,7 @@ tags:
     "time series",
     "analysis",
     "data science",
+    "cross-sectional data examples",
   ]
 ---
 

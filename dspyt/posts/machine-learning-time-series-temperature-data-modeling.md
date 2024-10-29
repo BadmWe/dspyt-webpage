@@ -14,6 +14,7 @@ tags:
     "data",
     "time series",
     "machine learning",
+    "DecisionTreeRegressor",
   ]
 ---
 

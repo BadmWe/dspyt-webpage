@@ -14,6 +14,9 @@ tags:
     "google",
     "sitemap",
     "next-sitemap",
+    "nextjs sitemap",
+    "next js robots txt",
+    "generate metadata nextjs",
   ]
 ---
 

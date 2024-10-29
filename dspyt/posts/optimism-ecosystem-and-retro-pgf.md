@@ -18,6 +18,7 @@ tags:
     "retropgf",
     "retropgf3",
     "retro grants",
+    "optimism retropgf",
     "public goods",
     "innovation",
     "transparency",

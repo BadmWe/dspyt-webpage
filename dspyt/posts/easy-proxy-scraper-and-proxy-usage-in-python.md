@@ -10,6 +10,7 @@ tags:
     "Python",
     "aiohttp",
     "proxy server",
+    "python proxy",
     "data",
     "Bright Data",
     "data",

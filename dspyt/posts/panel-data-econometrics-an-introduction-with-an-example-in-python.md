@@ -7,6 +7,7 @@ cover_image: "/images/posts/panel/paneldata.webp"
 tags:
   [
     "panel data",
+    "python panel data",
     "time series",
     "Python",
     "econometrics",

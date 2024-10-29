@@ -11,6 +11,10 @@ tags:
     "NumPy",
     "econometrics",
     "log returns",
+    "log return formula",
+    "log returns formula",
+    "pandas log returns",
+    "simple returns",
     "statistics",
     "Realized Variance",
   ]

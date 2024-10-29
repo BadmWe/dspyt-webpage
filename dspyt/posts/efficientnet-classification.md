@@ -14,6 +14,7 @@ tags:
     "computer vision",
     "tensorflow",
     "data science",
+    "efficientnet keras",
   ]
 ---
 

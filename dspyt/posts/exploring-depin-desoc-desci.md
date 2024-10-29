@@ -20,8 +20,8 @@ tags:
     "non-financial sector",
     "blockchain",
     "infrastructure services",
-    "beyond DeFi",
     "Decentralized infrastructure services",
+    "desci projects",
   ]
 ---
 

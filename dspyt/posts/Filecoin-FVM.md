@@ -6,6 +6,7 @@ authors: ["pavel-fedotov"]
 cover_image: "/images/posts/Filecoin/Understanding the Filecoin FVM.webp"
 tags:
   [
+    "Filecoin FVM",
     "Filecoin",
     "Fil",
     "FVM",

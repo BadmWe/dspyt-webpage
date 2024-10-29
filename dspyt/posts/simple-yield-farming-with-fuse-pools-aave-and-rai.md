@@ -15,6 +15,7 @@ tags:
     "stablecoin",
     "ERC 20",
     "yield farming",
+    "aave yield farming",
   ]
 ---
 

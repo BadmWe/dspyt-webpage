@@ -19,6 +19,7 @@ tags:
     "high frequency finance",
     "Quant analysis finance",
     "cointegration stat arb",
+    "stat arb strategies",
     "algorithmic trading",
   ]
 ---
