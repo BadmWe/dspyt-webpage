@@ -19,6 +19,8 @@ tags:
     "statistics",
     "Realized Variance",
     "pct_change",
+    ".pct_change()",
+    "pandas pct_change",
   ]
 ---
 

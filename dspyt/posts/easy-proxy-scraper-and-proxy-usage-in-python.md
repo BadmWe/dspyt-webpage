@@ -8,15 +8,17 @@ tags:
   [
     "proxy",
     "Python",
+    "http",
     "aiohttp",
     "aiohttp proxy",
     "proxy server",
     "python proxy",
+    "python proxy server",
+    "proxy scraper",
+    "python http proxy",
+    "free proxy python",
     "data",
     "Bright Data",
-    "data",
-    "http",
-    "proxy scraper",
   ]
 ---
 
