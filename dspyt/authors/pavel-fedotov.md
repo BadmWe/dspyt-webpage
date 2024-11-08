@@ -22,7 +22,7 @@ I have received roughly 20m in delegated ARB token, about USD 40m, in 2 pivotal 
 - [Arbitrum Procurement Committee application](https://forum.arbitrum.foundation/t/procurement-committee-application-elections-on-snapshot/20536/3)
 - [Arbitrum Research & Development Collective application](https://forum.arbitrum.foundation/t/arbitrum-research-development-collective-elections-applications/20805/3)
 
-Presented at ETH Belgrade 2024, IPFS Camp 2024, ETH Bucharest 2024 and Web3 Family Conference.
+Presented at [ETH Belgrade 2024](https://www.youtube.com/watch?v=QmVJkYCfhak&t=966s&pp=ygUfZXRoIGJlbGdyYWRlIDIwMjQgcGF2ZWwgZmVkb3Rvdg%3D%3D), [IPFS Camp 2024](https://www.youtube.com/watch?v=RS19_6xpuEI), [ETH Bucharest 2024](https://www.youtube.com/watch?v=LFvMP7bBnhY), and [Web3 Family Conference](https://youtu.be/QIgxWPk8K00?si=Dbl7LcQSpRkJ2O33).
 
 Notable data science achievements in web3:
 
