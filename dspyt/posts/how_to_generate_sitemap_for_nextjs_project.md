@@ -17,6 +17,7 @@ tags:
     "nextjs sitemap",
     "next js robots txt",
     "generate metadata nextjs",
+    "nextjs generate sitemap",
   ]
 ---
 
