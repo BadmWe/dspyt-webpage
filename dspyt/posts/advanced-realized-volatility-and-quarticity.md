@@ -8,8 +8,10 @@ tags:
   [
     "Python",
     "finance",
+    "volatility",
     "realized volatility",
     "realized volatility formula",
+    "volatility python",
     "Pandas",
     "NumPy",
     "SciPy",
