@@ -19,6 +19,7 @@ tags:
     "statistics",
     "yield farming",
     "uniswap yield farming",
+    "yield farming guide 2021",
   ]
 ---
 

@@ -12,6 +12,7 @@ tags:
     "Facial Recognition",
     "Signal Filtering",
     "Speech Recognition",
+    "speech recognition dsp",
     "Audio Processing",
   ]
 ---
