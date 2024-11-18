@@ -25,6 +25,7 @@ tags:
     "aws qr code generator",
     "python qr code generator",
     "simple qr codes",
+    "qr code generator python",
   ]
 ---
 

@@ -13,7 +13,7 @@ tags:
     "rai stablecoin",
     "flx-rewards",
     "defi",
-    "prtocol",
+    "protocol",
     "pool",
     "Uniswap",
     "statistics",
