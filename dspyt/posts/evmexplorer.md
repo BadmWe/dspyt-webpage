@@ -185,8 +185,9 @@ Dive into the world of EVM data with EVM Explorer and make your blockchain explo
 
 ## Useful Links
 
-- [Delegate Arbitrum Tokens to Dspyt Team](https://www.tally.xyz/profile/0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0)
 - [EVM Explorer](https://evmexplorer.com/)
+- [EVM Explorer Contributions](https://www.metricsgarden.xyz/projects/0x3cb489dcb2aa68def2d7fe8e8c75959dd1e6e988d2096abcb95ce4323006094e/?tab=contributions)
+- [EVM Smart Contract Explorer](https://www.youtube.com/watch?v=Y7fGrxGWwuA)
 - [Optimism Curia Governance Dashboard](https://optimism.curiahub.xyz/)
 - [Optimism Agora](https://vote.optimism.io/)
 - [Optimism Governance Agora smart contract](https://optimistic.etherscan.io/address/0xcdf27f107725988f2261ce2256bdfcde8b382b10#readProxyContract)
