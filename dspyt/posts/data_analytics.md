@@ -16,6 +16,18 @@ tags:
     "regulation",
     "compliance",
     "blockchain",
+    "CRYPTOCURRENCY",
+    "FORCESEABLE-FRAUD",
+    "SMART-CONTRACTS",
+    "MACHINE-LEARNING",
+    "CYBERSECURITY",
+    "FORENSIC-ANALYTICS",
+    "NFT",
+    "SCAM-DETECTION",
+    "TRANSACTION-TRACKING",
+    "OPEN-SOURCE",
+    "DATA-VISUALIZATION",
+    "ETHERSCAN",
   ]
 ---
 
@@ -35,7 +47,7 @@ OFAC has identified four more virtual currency wallet addresses used by the Laza
 This expands on OFAC's April 14, 2022, identification of the initial getaway wallet address and attribution of the DPRK's Lazarus Group as the culprits of the Axie Infinity crime.
 
 We have further assembled the list of Ethereum addresses in text document on GitHub:
-[Addresses List](https://github.com/dspytdao/Eth_Data/blob/main/LazarusGroup.txt)
+[Addresses List](https://github.com/dspytdao/Eth_Data/blob/main/LazarusGroup.txt).
 
 ### Dune Analytics
 
@@ -50,22 +62,26 @@ In particular, we queried to ethereum blockchain to obtain
 [granular tabular transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusTabularTxs1322519.csv),
 [ERC721 transactions data](https://github.com/dspytdao/Eth_Data/blob/main/LazarusNFTsTxs1322436.csv).
 
-Next we transform the data into tables and graphs with the help of Dune Analytics:
-[North Korean Lazarus Group Dashboard](https://dune.com/pfedprog/lazarus)
+Next, we transform the data into tables and graphs with the help of Dune Analytics:
+[North Korean Lazarus Group Dashboard](https://dune.com/pfedprog/lazarus).
 
-_Lazarus Group Total Eth Value Deposited_
+#### Lazarus Group Total Eth Value Deposited
+
 ![Lazarus Group Total Eth Value Deposited](/images/posts/Honest/TotalEth.webp)
 
-_Deposit Share by weekly period_
+#### Deposit Share by weekly period
+
 ![Deposit Share by periodLazarus Transactions](/images/posts/Honest/DepositShareW.webp)
 
-_NFT ERC721 Deposits_
+#### NFT ERC721 Deposits
+
 ![NFT ERC721 Deposits](/images/posts/Honest/NFTs.webp)
 
-_Largest Transactions_
+#### Largest Transactions
+
 ![Granular Lazarus Tabular Data](/images/posts/Honest/Txs.webp)
 
-## Etherscan Flagged Latest Data Set
+### Etherscan Flagged Latest Data Set
 
 Etherscan is the primary blockchain explorer, search, API, and analytics portal for Ethereum, a decentralized smart contract platform.
 In order to promote equitable access to blockchain data, Etherscan gives developers with direct access to Etherscan's block explorer data and services via GET/POST requests.
@@ -75,31 +91,35 @@ We obtained the following phishing labeled addresses data sets using Dune Analyt
 [Weekly Aggregated Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
 [Tabular Etherscan Flagged Latest Data Set](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFlaggedTabular1322553.csv).
 
-Next visualize the data set with the help of Dune Analytics:
-[Etherscan Phishing Accounts Addresses Dune Analytics](https://dune.com/pfedprog/eth-sent-to-flagged-etherscam-addresses)
+Next, we visualize the data set with the help of Dune Analytics:
+[Etherscan Phishing Accounts Addresses Dune Analytics](https://dune.com/pfedprog/eth-sent-to-flagged-etherscam-addresses).
 
-_Etherscan Flagged Data Set Total Eth_
+#### Etherscan Flagged Data Set Total Eth
+
 ![Etherscan Flagged Data Set Total](/images/posts/Honest/EtherScanTE.webp)
 
-_Top Scam Addresses Receivers Latest_
+#### Top Scam Addresses Receivers Latest
+
 ![EtherScamDB Top Address Receivers Latest](/images/posts/Honest/DB.webp)
 
-_Amount of ETH sent to flagged addresses over time_
+#### Amount of ETH sent to flagged addresses over time
+
 ![Amount of ETH sent to flagged addresses over time](/images/posts/Honest/graph.webp)
 
-## Phishing & Scams going through Bitly Data Set
+### Phishing & Scams going through Bitly Data Set
 
 According to Ranjeet Vidwans, in case of shortened links scams, the real domain name of the website is hidden behind random letters and digits when URL shorteners compress a link. These random numbers include no information that would alert the receiver that they were visiting a malicious link or being sent to a spoofing website where their credentials may be stolen. Since the majority of people don't know any better or can't resist, compromised shortened URLs appear in phishing emails and on social media postings, which would normally discourage some people from clicking.
 
-Here is a [medium article](https://medium.com/mycrypto/following-an-ethereum-phishing-scam-down-the-rabbit-hole-9790484c3431)detailing an example of phishing attack using Bitly links. Below we scrapped the Bitly data sets initially provided by [409h Dune Analytics User](https://dune.com/409h):
+Here is a [medium article](https://medium.com/mycrypto/following-an-ethereum-phishing-scam-down-the-rabbit-hole-9790484c3431) detailing an example of phishing attack using Bitly links. Below we scrapped the Bitly data sets initially provided by [409h Dune Analytics User](https://dune.com/409h):
 [Weekly Aggregated Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/EtherScanFLagged1322553.csv),
 [Tabular Bitly Deposits DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyDepositsTabular810.csv),
 [Weekly Aggregated Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsWeekly815.csv),
 [Tabular Bitly Withdrawals DataSet](https://github.com/dspytdao/Eth_Data/blob/main/bitlyWithdrawalsTabular812.csv).
 
-[Bitly Fraud Dune Analytics](https://dune.com/pfedprog/phishingandscams-going-through-bitly)
+[Bitly Fraud Dune Analytics](https://dune.com/pfedprog/phishingandscams-going-through-bitly).
 
-_Bitly 2017-2019_
+#### Bitly 2017-2019
+
 ![Bitly phishing Data](/images/posts/Honest/Bitly.webp)
 
 On further research we noticed more recent similar scams: [OpenSea phishing scam swindled millions in NFTs](https://www.pcgamer.com/opensea-phishing-scam-swindled-millions-in-nfts/) and [Scam Alert: OpenSea Phishing Emails](https://news.trendmicro.com/2022/03/12/scam-alert-opensea-phishing-emails/) that require more thorough investigation.
@@ -108,9 +128,9 @@ On further research we noticed more recent similar scams: [OpenSea phishing scam
 
 ### Suspicious address data
 
-[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea **Minting** Scam
+[OpenseaPhishing437073.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing437073.csv) - OpenSea Minting Scam
 
-[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - **All** ERC721 NFTs transactions to a suspicious address
+[OpenseaPhishing1320652.csv](https://github.com/dspytdao/Eth_Data/blob/main/OpenseaPhishing1320652.csv) - All ERC721 NFTs transactions to a suspicious address
 
 [Premium Dataset. Hourly Crypto Market Anomaly Score: Ocean Protocol](https://market.oceanprotocol.com/asset/did:op:0d3c8845df538dff98a08e0cc9d572cf4703d9324eb5887e91e9c8d97474e8ae)
 
