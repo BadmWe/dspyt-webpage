@@ -10,6 +10,7 @@ tags:
     "zkOracles",
     "Ethereum",
     "Mina",
+    "zkon",
     "blockchain",
     "ZKPs",
     "NFTs",
