@@ -8,6 +8,7 @@ tags:
     "farming guide",
     "defi",
     "RAI",
+    "rai stablecoin",
     "Fuse",
     "Reflexer",
     "AAVE",
@@ -15,6 +16,9 @@ tags:
     "stablecoin",
     "ERC 20",
     "yield farming",
+    "yield farming guide 2021",
+    "aave yield farming",
+    "uniswap yield farming",
   ]
 ---
 

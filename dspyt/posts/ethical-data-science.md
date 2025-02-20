@@ -21,6 +21,8 @@ tags:
     "HIPAA",
     "security",
     "ethics",
+    "ethics of data science",
+    "data science code of ethics",
   ]
 ---
 

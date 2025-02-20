@@ -6,12 +6,16 @@ authors: ["pavel-fedotov"]
 cover_image: "/images/posts/Filecoin/Understanding the Filecoin FVM.webp"
 tags:
   [
+    "Filecoin FVM",
     "Filecoin",
+    "filecoin virtual machine",
+    "Fil",
     "FVM",
     "ethereum",
     "data",
     "ipfs",
     "blockchain",
+    "hardhat blockchain",
     "wasm",
     "web3",
     "remix",

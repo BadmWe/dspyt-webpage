@@ -9,6 +9,7 @@ tags:
     "aurora",
     "near",
     "evm",
+    "near evm",
     "near-protocol",
     "L2",
     "web3",

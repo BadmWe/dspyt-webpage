@@ -14,6 +14,7 @@ tags:
     "UI",
     "modal",
     "blockscout",
+    "blockchain indexer",
   ]
 ---
 

@@ -18,6 +18,7 @@ tags:
     "Bitquery",
     "javascript",
     "typescript",
+    "blockchain indexer",
   ]
 ---
 

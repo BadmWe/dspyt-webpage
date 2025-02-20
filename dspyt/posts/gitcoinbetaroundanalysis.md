@@ -1,5 +1,5 @@
 ---
-title: "Gitcoin beta round data analysis"
+title: "Gitcoin Beta Round Statistics: An In-Depth Analysis of Grant Funding Trends"
 date: "May 15, 2023"
 excerpt: "We explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We analyze grants in each round and its statistics."
 cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.webp"

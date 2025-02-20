@@ -1,5 +1,5 @@
 ---
-title: "How to python check proxy with aiohttp"
+title: "Ultimate Guide to Python Proxy Scraping with AIOHTTP: Optimize Proxies"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
 cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
@@ -8,13 +8,17 @@ tags:
   [
     "proxy",
     "Python",
+    "http",
     "aiohttp",
+    "aiohttp proxy",
     "proxy server",
+    "python proxy",
+    "python proxy server",
+    "proxy scraper",
+    "python http proxy",
+    "free proxy python",
     "data",
     "Bright Data",
-    "data",
-    "http",
-    "proxy scraper",
   ]
 ---
 

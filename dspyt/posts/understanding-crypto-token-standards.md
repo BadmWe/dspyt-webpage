@@ -2,7 +2,7 @@
 title: "Understanding Crypto Token Standards: ERC vs BRC vs BEP vs SPL"
 date: "10 December, 2023"
 excerpt: "Explore crypto token standards like ERC, BRC, BEP, and SPL in our guide. From Ethereum smart contracts to Bitcoin fungibility, discover future dynamics."
-authors: ["dmitrii-fedotov"]
+authors: ["dmitrii-fedotov", "dspytdao"]
 cover_image: "/images/posts/cryptostandarts/btc.webp"
 tags:
   [
@@ -11,16 +11,26 @@ tags:
     "BRC",
     "BEP",
     "SPL",
-    "blockchain",
+    "spl crypto",
     "Bitcoin",
+    "BRC-20",
     "Solana",
+    "Solana Program Library",
+    "Binance",
+    "Binance Smart Chain",
+    "BEP-20",
+    "BEP-2",
     "NFTS",
     "Fungible",
+    "Token Standard",
     "Token Standards",
+    "tokens",
+    "Request for Comment",
+    "Enhancement Proposal",
   ]
 ---
 
-In the ever-evolving landscape of blockchain technology, the role of token standards cannot be overstated. These standards serve as the blueprint for the creation and interaction of digital assets, ensuring seamless functionality within their respective ecosystems. In this guide, we delve into the distinctions between some prominent token standards—ERC, BRC, BEP, and SPL—and unravel the mechanics behind their operation.
+In the ever-evolving landscape of blockchain technology, the role of token standards cannot be overstated. These standards serve as the blueprint for the creation and interaction of digital assets, ensuring seamless functionality within their respective ecosystems. In this guide, we delve into the distinctions between some prominent token standards — ERC, BRC, BEP, and SPL - and unravel the mechanics behind their operation.
 
 ## What Is a Token Standard?
 
@@ -56,10 +66,10 @@ Distinguishing between coins and tokens is crucial. While coins like $BTC and $E
 
 Token Categories
 
-Utility Tokens: (e.g., BAT, FIL)
-Security Tokens: (e.g., POLY, PROPS)
-Governance Tokens: (e.g., MKR, UNI)
-Stablecoins: (e.g., USDT, DAI, USDC)
+- Utility Tokens: (e.g., BAT, FIL)
+- Security Tokens: (e.g., POLY, PROPS)
+- Governance Tokens: (e.g., MKR, UNI)
+- Stablecoins: (e.g., USDT, DAI, USDC)
 
 ## Fungible vs Non-Fungible
 

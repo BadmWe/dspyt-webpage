@@ -2,10 +2,14 @@
 title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
+authors: ["pavel-fedotov"]
 cover_image: "/images/posts/panel/paneldata.webp"
 tags:
   [
     "panel data",
+    "panel data example",
+    "python panel data",
+    "time series",
     "Python",
     "econometrics",
     "data",
@@ -14,10 +18,15 @@ tags:
     "regression",
     "pandas",
     "matplotlib",
+    "cross sectional",
+    "cross sectional data",
+    "eviews",
+    "missing values",
+    "kaggle",
   ]
 ---
 
-Panel data (or longitudinal data) comprises [time series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit in a data set. In other words, in panel data, we consider the same [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) units over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
+Panel data (or longitudinal data) comprises [time series](https://dspyt.com/time-series-data-an-easy-introduction) for each [cross sectional unit](https://dspyt.com/cross-sectional-data-an-easy-introduction) in a data set. In other words, in panel data, we consider the same [cross sectional units](https://dspyt.com/cross-sectional-data-an-easy-introduction) over multiple time points. Examples include units such as countries, cities, firms, households, individuals. In this context, we can think of pure [time series](https://dspyt.com/time-series-data-an-easy-introduction) and pure [cross sectional data](https://dspyt.com/cross-sectional-data-an-easy-introduction) as a subset of panel data with only one dimension.
 
 In this article, we discuss panel data python and panel data regression python. We also provide the python panel data examples illustrating the econometrics concepts.
 
@@ -35,7 +44,7 @@ A variable denoted by X indexed by two subscripts i and t, where i runs from 1 t
 
 ## Advantages and Disadvantages of Panel data
 
-There are numerous benefits of panel data over [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) and time-series data:
+There are numerous benefits of panel data over cross sectional and time-series data:
 
 - In panel data multiple observations of the same entities allow us to control for unobserved characteristics.
 - Panel data facilitates causal inference which would be difficult with one cross-section or time-series data set.
@@ -45,7 +54,7 @@ Nevertheless, for a data scientist, it might be difficult to obtain panel data s
 
 ## Types of Panel data
 
-We can consider panel data as balanced or unbalanced. If each [cross sectional](https://dspyt.com/cross-sectional-data-an-easy-introduction) unit is observed in all time periods panel data is balanced. While an unbalanced data set is one where units are not observed in all time periods and contain missing values.
+We can consider panel data as balanced or unbalanced. If each cross sectional unit is observed in all time periods panel data is balanced. While an unbalanced data set is one where units are not observed in all time periods and contain missing values.
 
 Econometricians also separate panel data into a wide or a long one. In a wide panel data a row or a column represents one observational unit for all points in time, while in a long panel data a row or a column holds one observation per period.
 

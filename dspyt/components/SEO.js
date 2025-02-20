@@ -8,6 +8,7 @@ const CommonSEO = ({
   title = siteMetadata.title,
   description = siteMetadata.description,
   ogImage = siteMetadata.ogImageUrl,
+  twitterImage = siteMetadata.twitter,
   ogType = siteMetadata.ogType,
 }) => {
   const router = useRouter();
@@ -25,11 +26,12 @@ const CommonSEO = ({
       />
       <meta name="description" content={description} />
       <meta property="og:description" content={description} />
-      <meta property="og:title" content={siteMetadata.title} />
+      <meta property="og:title" content={title} />
       <meta property="og:type" content={ogType} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:site_name" content="Dspyt" />
       <meta property="twitter:card" content="summary" />
-      <meta property="twitter:site" content={siteMetadata.twitter} />
+      <meta property="twitter:site" content={twitterImage} />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={ogImage} />
@@ -53,8 +55,16 @@ PageSEO.propTypes = {
   description: PropTypes.string,
 };
 
-export const BlogSEO = ({ title, description }) => {
-  return <CommonSEO title={title} description={description} ogType="article" />;
+export const BlogSEO = ({ title, description, image }) => {
+  return (
+    <CommonSEO
+      title={title}
+      description={description}
+      ogImage={image}
+      twitterImage={image}
+      ogType="article"
+    />
+  );
 };
 
 BlogSEO.propTypes = {

@@ -1,5 +1,5 @@
 ---
-title: "What is a blockchain address?"
+title: "Blockchain Addresses Explained: Your Guide to Bitcoin and Wallet Security"
 date: "November 15, 2022"
 excerpt: "A blockchain address resembles a bank account. A blockchain address acts as a digital location for cryptocurrency."
 cover_image: "/images/posts/blockchain_address/0.webp"
@@ -25,6 +25,8 @@ You may have heard of the digital currency known as Bitcoin, but what exactly is
 <div className="flex justify-center">
     <iframe width="600" height="350" src="https://www.youtube.com/embed/MoQa_zdmoKs?autoplay=1&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;fullscreen"></iframe>
 </div>
+
+## What is a blockchain address?
 
 A blockchain address for cryptocurrency assets resembles a bank account. Each address is distinct and consists of 26–35 alphanumeric characters.
 To send or receive data from one address to another, they are generated from the private key. In essence, it alludes to a particular spot on the network where cryptographic assets can be sent.

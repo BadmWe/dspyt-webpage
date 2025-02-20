@@ -15,12 +15,16 @@ tags:
     "wagmi",
     "ethers",
     "refactoring",
+    "evm explorer",
+    "blockscout",
+    "JavaScript",
+    "React",
   ]
 ---
 
 This week I explored and refactored an archived open source Ethereum explorer called [Contraktor](https://github.com/wslyvh/contraktor). The project had not been updated in some time and was not working properly, so I took it upon myself to bring it back to life.
 
-## [Contraktor](https://github.com/wslyvh/contraktor)
+## Contraktor
 
 Contraktor is an open source Ethereum explorer that provides users with the ability to browse through common DeFi projects or any other verified smart contract from Etherscan, find related smart contracts on different networks, and visualize and interact with the contract's resources and state. It is written in JavaScript and uses React for the frontend and Node.js for the backend.
 
@@ -28,9 +32,9 @@ Contraktor is an excellent tool for developers who are looking to explore and in
 
 Overall, Contraktor is a powerful tool that can be used by developers to quickly explore and interact with the Ethereum blockchain.
 
-## Updated [NextJs Ethereum Explorer](https://github.com/Pfed-prog/NextJsExplorer)
+## Updated NextJs Ethereum Explorer
 
-The explorer provides users with the ability to browse through common DeFi projects or any other verified smart contract from Etherscan, find related smart contracts on different networks, and visualize and interact with the contract's resources and state. To achieve this, I connected Rainbowkit Wagmi Ethers to the explorer and refactored the types in Typescript.
+[NextJs Ethereum Explorer](https://github.com/Pfed-prog/NextJsExplorer) provides users with the ability to browse through common DeFi projects or any other verified smart contract from Etherscan, find related smart contracts on different networks, and visualize and interact with the contract's resources and state. To achieve this, I connected Rainbowkit Wagmi Ethers to the explorer and refactored the types in Typescript.
 
 In addition, I discovered a really great [npm package `@studydefi/money-legos`](https://www.npmjs.com/package/@studydefi/money-legos) that provides users with the mainnet addresses, ABIs, and Solidity interfaces for popular DeFi protocols. This was a great discovery and will make it much easier for developers to work with DeFi protocols in their own projects.
 

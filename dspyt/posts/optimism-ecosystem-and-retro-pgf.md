@@ -6,6 +6,7 @@ cover_image: "/images/posts/optimism/retropgf3.webp"
 tags:
   [
     "optimism",
+    "optimism collective",
     "optimism governance",
     "dao",
     "Ethereum",
@@ -16,9 +17,12 @@ tags:
     "community",
     "retropgf",
     "retropgf3",
+    "retro grants",
+    "optimism retropgf",
     "public goods",
     "innovation",
     "transparency",
+    "community",
   ]
 ---
 

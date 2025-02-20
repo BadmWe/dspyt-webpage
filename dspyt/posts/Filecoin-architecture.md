@@ -7,6 +7,9 @@ cover_image: "/images/posts/Filecoin/FVM.webp"
 tags:
   [
     "Filecoin",
+    "Filecoin FVM",
+    "filecoin virtual machine",
+    "Fil",
     "FVM",
     "ethereum",
     "data",

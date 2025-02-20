@@ -1,16 +1,26 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Post from "@/components/Post";
 import { PageSEO } from "@/components/SEO";
 import SearchIcon from "@/components/icons/SearchIcon";
 import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
+import { useRouter } from "next/router";
 
 const POSTS_PER_PAGE = 9;
 
 export default function BlogIndexPage({ posts, lastPage }) {
+  const router = useRouter();
+  const { search } = router.query;
+
   const [searchValue, setSearchValue] = useState("");
+
+  useEffect(() => {
+    if (router.isReady && search) {
+      setSearchValue(search);
+    }
+  }, [router.isReady]);
 
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent =
@@ -33,7 +43,7 @@ export default function BlogIndexPage({ posts, lastPage }) {
               aria-label="Search articles"
               type="text"
               onChange={(e) => setSearchValue(e.target.value)}
-              placeholder="Search articles"
+              placeholder={search ?? "Search articles"}
               className="block w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-900 dark:bg-gray-800 dark:text-gray-100"
             />
             <SearchIcon />

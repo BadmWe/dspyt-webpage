@@ -130,8 +130,31 @@ export async function getAllFilesFrontMatter(folder) {
           ? new Date(frontmatter.date).toISOString()
           : null,
       });
-      if (frontmatter.title.length > 70)
+
+      if (
+        frontmatter.excerpt &&
+        (frontmatter.title.length > 80 || frontmatter.title.length < 40)
+      )
         console.log(frontmatter.title, frontmatter.title.length, "characters");
+      if (
+        frontmatter.description &&
+        (frontmatter.description.length > 155 ||
+          frontmatter.description.length < 70)
+      )
+        console.log(
+          frontmatter.title,
+          frontmatter.description.length,
+          "description characters"
+        );
+      if (
+        frontmatter.excerpt &&
+        (frontmatter.excerpt.length > 160 || frontmatter.excerpt.length < 70)
+      )
+        console.log(
+          frontmatter.title,
+          frontmatter.excerpt.length,
+          "excerpt characters"
+        );
     }
   });
   return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date));

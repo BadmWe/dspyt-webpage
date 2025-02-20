@@ -20,6 +20,10 @@ tags:
     "Uniswap.fish",
     "ethereum",
     "open-source",
+    "uniswap v3 calculator",
+    "uniswap fee calculator",
+    "uniswap yield farming",
+    "uniswap fees calculator",
   ]
 ---
 

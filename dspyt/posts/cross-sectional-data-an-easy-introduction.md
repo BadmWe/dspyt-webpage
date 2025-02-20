@@ -6,13 +6,16 @@ cover_image: "/images/posts/cross/image.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
-    "cross sectional data",
     "data",
     "kaggle",
     "econometrics",
     "time series",
     "analysis",
     "data science",
+    "cross sectional data",
+    "cross section data example",
+    "cross sectional regression",
+    "cross-sectional data examples",
   ]
 ---
 

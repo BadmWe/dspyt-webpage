@@ -8,18 +8,17 @@ tags:
   [
     "Evolution of quantitative trading",
     "arbitrage",
-    "it",
     "content",
     "Financial market dynamics",
-    "blog",
-    "dspyt",
     "finance",
     "pairs trading in finance",
     "cointegration",
     "high frequency finance",
     "Quant analysis finance",
     "cointegration stat arb",
+    "stat arb strategies",
     "algorithmic trading",
+    "statistical arbitrage python",
   ]
 ---
 

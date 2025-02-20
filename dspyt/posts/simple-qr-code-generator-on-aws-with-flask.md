@@ -3,6 +3,7 @@ title: "Simple QR code generator on AWS with Flask"
 date: "April 28, 2022"
 excerpt: "Web application in Flask python to generate qr code for Casper network. We host the application at on AWS Elasticbean with GitHub pipeline."
 cover_image: "/images/posts/qr code/pexels-ron-lach-9784240.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "Python",
@@ -21,6 +22,10 @@ tags:
     "BytesIO",
     "web app",
     "github pipeline",
+    "aws qr code generator",
+    "python qr code generator",
+    "simple qr codes",
+    "qr code generator python",
   ]
 ---
 

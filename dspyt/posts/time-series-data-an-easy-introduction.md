@@ -20,6 +20,7 @@ tags:
     "statsmodels",
     "matplotlib",
     "acf",
+    "plot_pacf",
   ]
 ---
 

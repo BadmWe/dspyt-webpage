@@ -10,12 +10,16 @@ tags:
     "RAI",
     "Reflexer",
     "stablecoin",
+    "rai stablecoin",
     "flx-rewards",
     "defi",
-    "prtocol",
+    "protocol",
     "pool",
     "Uniswap",
     "statistics",
+    "yield farming",
+    "uniswap yield farming",
+    "yield farming guide 2021",
   ]
 ---
 

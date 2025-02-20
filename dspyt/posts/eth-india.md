@@ -1,5 +1,5 @@
 ---
-title: "How we won at ETHIndia'23"
+title: "How We Built CrossDrop in 50 Hours: Insights from ETHIndia 2023"
 date: "December 17, 2023"
 excerpt: "Experience ETHIndia'23: teams navigate ideation to triumph, fueled by caffeine and camaraderie. Witness thrill, innovation, and sweet success."
 cover_image: "/images/posts/ethIndia/mainpage.webp"

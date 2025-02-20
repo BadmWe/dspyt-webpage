@@ -1,5 +1,5 @@
 ---
-title: "How to post your content on DSPYT"
+title: "A Comprehensive Guide to Publishing Content on DSPYT: Best Practices and Tips"
 date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content DSPYT. If you want to edit or publish an article, then this post is especially for you!"
 cover_image: "/images/posts/faq/contentpreview.webp"

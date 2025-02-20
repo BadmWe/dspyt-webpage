@@ -1,5 +1,5 @@
 ---
-title: "Connecting Auro Wallet to Your Website"
+title: "Auro Wallet Integration in React: Complete Guide for Developers"
 date: "January 25, 2024"
 excerpt: "Open your website, ensure Auro Wallet is installed, click Connect Wallet, and verify displayed wallet address upon connection."
 cover_image: "/images/posts/auro/auro.webp"
@@ -7,6 +7,7 @@ authors: ["alexfedotovqq", "pavel-fedotov"]
 tags:
   [
     "Auro Wallet",
+    "aurowallet",
     "Blockchain Integration",
     "Decentralized Finance",
     "DeFi",
@@ -22,6 +23,7 @@ tags:
     "Frontend Development",
     "NextJs",
     "react",
+    "mina protocol wallet",
   ]
 ---
 

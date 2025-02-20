@@ -6,7 +6,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 DIR = os.path.abspath(os.path.join(
-    script_dir, '..', 'dspyt',  'public', 'images', 'posts', 'evmexplorer',))
+    script_dir, '..', 'dspyt',  'public', 'images', 'posts', 'mina',))
 
 files = os.listdir(DIR)
 

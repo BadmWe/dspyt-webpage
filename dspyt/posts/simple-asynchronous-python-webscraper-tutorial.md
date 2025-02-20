@@ -3,6 +3,7 @@ title: "How to implement asyncio python tutorial"
 date: "December 27, 2021"
 excerpt: "Asyncio python tutorial: smart way to efficiently handle tasks like network or input / output, especially for a time-consuming task to complete."
 cover_image: "/images/posts/asyncio/pexels-thisisengineering-3861969-1-e1629301351687.webp"
+authors: ["pavel-fedotov"]
 tags:
   [
     "Python",
@@ -15,6 +16,10 @@ tags:
     "await",
     "functools",
     "asynchronous",
+    "asyncio python tutorial",
+    "python asyncio tutorial",
+    "python async tutorial",
+    "python async await tutorial",
   ]
 ---
 

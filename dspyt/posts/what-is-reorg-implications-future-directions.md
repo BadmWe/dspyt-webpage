@@ -3,7 +3,7 @@ title: "What is a reorg? Implications and Future Directions"
 date: "February 15, 2024"
 excerpt: "What exactly is a reorg? Find out how implementing strong fork choice rules and innovative solutions can boost network security and resilience."
 cover_image: "/images/posts/ethIndia/reorg-post.webp"
-authors: ["dmitrii-fedotov"]
+authors: ["dmitrii-fedotov", "pavel-fedotov"]
 tags:
   [
     "chain reorganizations",
@@ -16,13 +16,14 @@ tags:
     "resilience",
     "main chain",
     "Ethereum",
+    "Ethereum reorg",
     "Beacon Chain",
-    "SEO",
     "blockchain",
     "implications",
     "node costs",
     "Proof-of-Stake",
     "transaction confirmations",
+    "what is a reorg",
   ]
 ---
 
@@ -82,7 +83,7 @@ The transition to a resilient future requires blockchain communities to embrace 
 
 - ### The Shift to Proof-of-Stake Consensus
 
-The transition to Proof-of-Stake consensus mechanisms, exemplified by Ethereum's Beacon Chain, holds promise for reducing the incidence of reorgs and enhancing network security. Proof-of-Stake consensus mechanisms  prioritize network security, scalability, and energy efficiency, paving the way for a resilient future.
+The transition to Proof-of-Stake consensus mechanisms, exemplified by Ethereum's Beacon Chain, holds promise for reducing the incidence of reorgs and enhancing network security. Proof-of-Stake consensus mechanisms prioritize network security, scalability, and energy efficiency, paving the way for a resilient future.
 
 ## Gasper Fork Choice Rule and Enhancing Network Security
 

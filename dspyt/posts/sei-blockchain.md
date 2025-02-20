@@ -8,23 +8,35 @@ tags:
   [
     "SEI Blockchain",
     "sei",
-    "blockchain",
+    "swap",
+    "sei swap",
     "KuCoin",
     "Metamask",
     "ChainList",
     "AMM",
     "defi",
     "Bridge",
-    "swap",
-    "Gitcoin",
     "Block Explorer",
     "transactions",
     "DragonSwap",
     "Stargate",
+    "stargate swap",
     "finance",
+    "derivatives",
     "native token",
     "cosmos",
     "sei ecosystem",
+    "Sei Foundation",
+    "gitcoin",
+    "QF",
+    "quadratic funding",
+    "funding",
+    "sei creator fund",
+    "creator fund",
+    "grants stack",
+    "karma gap",
+    "gaming",
+    "Filament",
   ]
 ---
 
@@ -51,4 +63,10 @@ If you are interested in bridging tokens, you can explore Stargate Finance, whic
 
 ## Recent Developments
 
-For more information about SEI blockchain and its recent developments, you can refer to the [Creator Fund blog post](https://blog.sei.io/sei-creator-fund-round-2-creative-media-and-ip-development) and the [Gitcoin Round page](https://builder.gitcoin.co/#/chains/1329/rounds/9).
+The Sei ecosystem has been actively expanding and providing opportunities through various initiatives, including the Sei Creator Fund. The Sei Creator Fund, with a significant 10 million in funding, has been supporting projects and individuals contributing to Sei's creator ecosystem. Recently, Round #2 of the fund has been announced, focusing on [Creative Media and IP Development](https://blog.sei.io/sei-creator-fund-round-2-creative-media-and-ip-development), offering a 250,000 matching pool to support relevant projects and individuals. This round aims to encourage consistent content creation and establish a strong brand presence within the ecosystem.
+
+To apply for the fund, individuals are required to create a profile on [Builder](https://builder.gitcoin.co/#/chains/1329/rounds/9) (if not already done) and then apply on Gitcoin’s Grants Stack. The fund utilizes Quadratic Funding (QF) through Gitcoin Grants Stack, which is a crowd-funding mechanism where community members make donations that act as votes on where to allocate funds. The approach rewards projects based on the number of people who have donated, capturing community needs and incentivizing smaller contributors. Moreover, the Sei Foundation has partnered with Karma GAP, requiring grantees to share their progress and explain how they utilized funds via milestone tracking to be eligible for future rounds.
+
+In addition to the Creator Fund, other developments within the Sei ecosystem include the successful seed funding of Filament, a hybrid decentralized exchange (DEX) for derivatives on the Sei Network. Furthermore, Sei has launched the Sei GG gaming competition and announced Creator Fund Rounds #3 and #4, indicating a vibrant and expanding ecosystem.
+
+Overall, these developments highlight the commitment of the Sei ecosystem to foster innovation and development, leveraging various funding and support mechanisms to encourage participation and contribution from the community.

@@ -1,7 +1,7 @@
 ---
 title: "Final touches NextJS Explorer: deploying on vercel"
 date: "March 31, 2023"
-excerpt: "The Ethereum Contract Explorer, is a comprehensive tool that simplifies the process of exploring Ethereum contracts. This week we finnaly deployed it to vercel."
+excerpt: "The Ethereum Contract Explorer, is a comprehensive tool that simplifies the process of exploring Ethereum contracts."
 cover_image: "/images/posts/explorer/pexels-tony-jimenez-12247840.webp"
 authors: ["dspytdao"]
 tags:
@@ -15,6 +15,7 @@ tags:
     "deployment",
     "UI",
     "smart contracts",
+    "blockchain indexer",
   ]
 ---
 

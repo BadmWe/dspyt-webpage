@@ -16,6 +16,8 @@ tags:
     "database",
     "timestamp",
     "blockchain",
+    "blockchain indexer",
+    "blockchain indexing",
   ]
 ---
 
