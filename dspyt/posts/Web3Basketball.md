@@ -2,7 +2,7 @@
 title: "Unlocking the Benefits of Basketball: the Future of Sports with Web3 Technology"
 date: "November 19, 2022"
 excerpt: "Basketball is one of the most popular sports in the world. Millions of people watch the sport, and thousands of supporters attend games."
-cover_image: "/images/posts/web3basketball/1.webp"
+cover_image: "https://dspyt.com/images/posts/web3basketball/1.webp"
 authors: ["web3basketball"]
 tags:
   [
@@ -72,7 +72,7 @@ We can see that basketball players tend to be young, single men. Others who play
 
 In addition, 11,115 of the 20,000 poll respondents are between the ages of 19 and 29. The second is the group of adults aged from 29 to 39 and then 39 to 60 comes third, and lastly, the group of 60 plus. This indicates that many young individuals, regardless of their marital status, are interested in the NBA.
 
-![Statistics on the number of women and men, as well as statistics on age](/images/posts/web3basketball/3.webp)
+![Statistics on the number of women and men, as well as statistics on age](https://dspyt.com/images/posts/web3basketball/3.webp)
 
 ## **77% of viewers watch basketball live**
 
@@ -80,37 +80,37 @@ There have been many outstanding games in NBA history, and some games are simply
 
 15,322 (77%) of those surveyed watch basketball games live or on television. 4,678 people (23% of the total population) claimed not to watch basketball games live or on television.
 
-![Viewers watch basketball live](/images/posts/web3basketball/4.webp)
+![Viewers watch basketball live](https://dspyt.com/images/posts/web3basketball/4.webp)
 
 ## **Basketball Fans Follow and Watch NBA Games**
 
 Basketball is a sport that approximately 69% of the respondents say they enjoy. This demonstrates how popular and widely seen basketball is. Basketball games are watched by many people, but not everyone is a fan. Because of this, 30% of poll respondents don't consider themselves basketball aficionados.
 
-![Basketball Fans Follow and Watch NBA Games](/images/posts/web3basketball/5.webp)
+![Basketball Fans Follow and Watch NBA Games](https://dspyt.com/images/posts/web3basketball/5.webp)
 
 A typical basketball team consists of 12 players, with five of them always on the court. Additionally, any number of substitutions are allowed. The positions of the five players are point guard, shooting guard, small forward, power forward, and center.
 
 People were asked to rate how knowledgeable they were about basketball regulations. 31% of respondents indicated that their understanding is at a professional level. 27% of respondents claimed to be at the intermediate level, while 24% said they merely have fair knowledge. Aside from these people, 10% claimed to have mediocre expertise, and less than 10% said they were completely ignorant of the regulations.
 
-![Level of play](/images/posts/web3basketball/6.webp)
+![Level of play](https://dspyt.com/images/posts/web3basketball/6.webp)
 
 A typical NBA season involves 82 games for each team. The playoffs are open to eight teams from each of the two leagues. The Nine-Ten Game winner will play the Seven-Eight Game loser in a play-in game. The winner of that game will therefore receive the conference's eighth seed in the playoffs. There are consequently over 100 NBA games.
 
 When asked if they follow NBA games, 24% responded that they "always" do so. Conversely, 23% said they "often" follow the games, 29% said they "sometimes," 13% said they "rarely," and 11% said they never follow any NBA games.
 
-![If they follow NBA games](/images/posts/web3basketball/7.webp)
+![If they follow NBA games](https://dspyt.com/images/posts/web3basketball/7.webp)
 
 When asked how often they watch NBA games live or on television, 26% of the respondents said that they do so on average from one to three times every day. 19% of people watch the games for longer than three hours each day. Additionally, 7% watch a few times every month and 18% only watch the games once a week. Aside from these responses, 11% watch NBA games around twice a year, and 6% only watch the games on a monthly basis.
 
 The results of this data demonstrate how much interest there is in NBA games, whether they are broadcast live or on TV.
 
-![How often they watch NBA games live or on television](/images/posts/web3basketball/8.webp)
+![How often they watch NBA games live or on television](https://dspyt.com/images/posts/web3basketball/8.webp)
 
 The majority (59%) of respondents who were asked if they paid for tickets to live NBA games or live streaming subscriptions responded that they did. 41% of respondents said they don't pay for any of the aforementioned, though.
 
 The outcome of this data demonstrates that not everyone can afford live NBA game tickets or live streaming subscriptions.
 
-![If they paid for tickets to live NBA games or live streaming subscriptions](/images/posts/web3basketball/9.webp)
+![If they paid for tickets to live NBA games or live streaming subscriptions](https://dspyt.com/images/posts/web3basketball/9.webp)
 
 ## **Los Angeles Lakers: The Favorite Team of NBA Fans**
 
@@ -118,7 +118,7 @@ There are numerous teams, but only a select number are receiving media attention
 
 The majority of respondents' (30%) preferred team is the Los Angeles Lakers. The Philadelphia 76ers are in third place, followed by the Atlanta Hawks (12%) and Portland Trail (13%). Numerous survey respondents' lists of preferred teams included the remaining 26 teams as well. However, 7% of respondents admitted that they have no preferred team.
 
-![The Favorite Team of NBA Fans](/images/posts/web3basketball/10.webp)
+![The Favorite Team of NBA Fans](https://dspyt.com/images/posts/web3basketball/10.webp)
 
 ## **Lebron James: The NBA’s Best Player**
 
@@ -126,11 +126,11 @@ A few names have a clear connection to basketball. Lebron James, one of the grea
 
 The basketball players and talents listed above have all put in a lot of effort to get to where they are now in terms of skill and reputation.
 
-![The NBA’s Best Player](/images/posts/web3basketball/11.webp)
+![The NBA’s Best Player](https://dspyt.com/images/posts/web3basketball/11.webp)
 
 When it comes to their preferred players, some basketball fans have biases. 37% of respondents said they supported the team that their favorite players were on because they liked them. Additionally, 27% of respondents said that it is a coincidence in some way that their favorite players are on their favorite clubs.
 
-![Favorite player and team](/images/posts/web3basketball/12.webp)
+![Favorite player and team](https://dspyt.com/images/posts/web3basketball/12.webp)
 
 However, 16% of respondents prefer to consider the team's overall performance and play style. But 7% usually focus on the team management. The remainder retorted that their favorite team and player were distinct from one another.
 

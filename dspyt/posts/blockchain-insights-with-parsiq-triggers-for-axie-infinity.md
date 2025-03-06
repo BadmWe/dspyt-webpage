@@ -3,7 +3,7 @@ title: "Great blockchain insights with PARSIQ triggers for AXS"
 date: "November 21, 2021"
 excerpt: "In this project we utilize PARSIQ Smart Triggers and Google Spreadsheets integration to track and visualize AXS token transfers on Ethereum and Bsc."
 authors: ["pavel-fedotov"]
-cover_image: "/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
+cover_image: "https://dspyt.com/images/posts/parsiq/axieinfinityfeature-e1658960475261.webp"
 tags:
   [
     "parsiq",
@@ -35,7 +35,7 @@ On April 28 2021 the game has made a significant update introducing Ronin Bridge
 
 The idea for the project comes from the fact that on the Binance Exchange the highest earning product in Locked staking is AXS with an estimated APY of 131.25% far outperforming any similar product on the exchange.
 
-![AXS APY Binance](/images/posts/parsiq/140820286-7b9a6fd7-2635-4095-9783-1931f02ea1ac.webp)
+![AXS APY Binance](https://dspyt.com/images/posts/parsiq/140820286-7b9a6fd7-2635-4095-9783-1931f02ea1ac.webp)
 
 In order to justify such returns the company would usually rely on large inflows and minor outflows from the cryptocurrency. Therefore, monitoring the most liquid day-to-day endpoints provides an indicator of the success of the staking solution.
 
@@ -78,43 +78,43 @@ end
 
 Parsiq Primitives:
 
-![Parsiq Primitives](/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.webp)
+![Parsiq Primitives](https://dspyt.com/images/posts/parsiq/140822828-30294eb4-e2d0-40ed-a3a7-e46cc74794bf.webp)
 
 Parsiq Table:
 
-![Parsiq Table](/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.webp)
+![Parsiq Table](https://dspyt.com/images/posts/parsiq/140823112-159f545c-bcb1-4177-9f4d-97e7c1eb9a36.webp)
 
-![Parsiq Table 2](/images/posts/parsiq/140822678-717d0201-4b88-4ba4-9dd6-378ff47500cf.webp)
+![Parsiq Table 2](https://dspyt.com/images/posts/parsiq/140822678-717d0201-4b88-4ba4-9dd6-378ff47500cf.webp)
 
 ## Ethereum Axie Infinity Analysis
 
 There are 231 AXS token transactions in our ethereum dataset. Only 46 are from Ronin and Binance accounts.
 
-![AXS transactions accounts](/images/posts/parsiq/140833808-441336cc-4383-43b4-a40c-067279d44e0a.webp)
+![AXS transactions accounts](https://dspyt.com/images/posts/parsiq/140833808-441336cc-4383-43b4-a40c-067279d44e0a.webp)
 
 Meanwhile, the rest 80% are coming to Ronin and Binance accounts.
 
-![Ronin and Binance accounts](/images/posts/parsiq/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.webp)
+![Ronin and Binance accounts](https://dspyt.com/images/posts/parsiq/140834230-60f4fdaa-1ebd-4ddd-ba82-ded30833aebc.webp)
 
 There are also more transactions to the native staking solution rather than Binance by a factor of 2. Nevertheless, when we analyze the volume of outflows vs. inflows the sum of outflows dominate.
 
-![the volume of outflows vs. inflows](/images/posts/parsiq/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.webp)
+![the volume of outflows vs. inflows](https://dspyt.com/images/posts/parsiq/140838512-fdd1d2bb-97ab-45e3-98ba-31a70fd61d57.webp)
 
 This would indicate more incoming users and one or few significant withdrawals from Binance. We look at the more granular data and notice that one account is responsible for such bleak snapshot of AXS flows.
 
-![snapshot of AXS flows](/images/posts/parsiq/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.webp)
+![snapshot of AXS flows](https://dspyt.com/images/posts/parsiq/140838840-b8bff3aa-e094-453f-805e-8171dff13f87.webp)
 
 Furthermore, we plot full ethereum dataset value of transactions against time. When plotted the inflows have a lot of spikes and more numerous for Binance.
 
-![snapshot of AXS flows](/images/posts/parsiq/140849815-79710dd7-80db-4ae8-8070-70d36c1cf141.webp)
+![snapshot of AXS flows](https://dspyt.com/images/posts/parsiq/140849815-79710dd7-80db-4ae8-8070-70d36c1cf141.webp)
 
 While the outflows are more steady.
 
-![outflows data](/images/posts/parsiq/140850027-cab9d8b4-02cb-4f46-af99-ffdc9ac723f8.webp)
+![outflows data](https://dspyt.com/images/posts/parsiq/140850027-cab9d8b4-02cb-4f46-af99-ffdc9ac723f8.webp)
 
 This picture is very similar for only AXS. With two spikes in Binance outflows against 0 in Ronin Bridge.
 
-![Ronin Bridge](/images/posts/parsiq/140851348-01692e99-9051-4da4-aa0a-de281140f1d5.webp)
+![Ronin Bridge](https://dspyt.com/images/posts/parsiq/140851348-01692e99-9051-4da4-aa0a-de281140f1d5.webp)
 
 We would need to further incorporate more data in our analysis to determine the scope of weekly and monthly flows in AXS token.
 
@@ -122,17 +122,17 @@ We would need to further incorporate more data in our analysis to determine the 
 
 In our BSC dataset we have 157 observations. The count of transactions is in favour of outflows from Binance Hot Wallets.
 
-![Binance Dataset](/images/posts/parsiq/140844882-8a1650fc-ebbf-4913-9605-426e091543fb.webp)
+![Binance Dataset](https://dspyt.com/images/posts/parsiq/140844882-8a1650fc-ebbf-4913-9605-426e091543fb.webp)
 
 Whereas the sum of transferred AXS value out of Binance is nearly identical to the inflows.
 
-![AXS inflows Binance](/images/posts/parsiq/140845336-028a5cb7-c38a-483e-9b4b-5ace63128f93.webp)
+![AXS inflows Binance](https://dspyt.com/images/posts/parsiq/140845336-028a5cb7-c38a-483e-9b4b-5ace63128f93.webp)
 
 ## Comparison of AXS on BSC and Ethereum
 
 The volume of transactions is much greater on Ethereum of AXS than on Binance Smart Chain.
 
-![The volume of transactions](/images/posts/parsiq/140845836-17679545-5f28-4065-bd0f-1597593be00f.webp)
+![The volume of transactions](https://dspyt.com/images/posts/parsiq/140845836-17679545-5f28-4065-bd0f-1597593be00f.webp)
 
 ## Score of the addresses (in-built PARSIQ function)
 

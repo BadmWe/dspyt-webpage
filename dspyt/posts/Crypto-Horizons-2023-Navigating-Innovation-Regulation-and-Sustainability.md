@@ -2,7 +2,7 @@
 title: "Crypto Horizons 2023: Innovation, Regulation, and Sustainability"
 date: "December 13, 2023"
 excerpt: "The crypto landscape is dynamic, marked by innovation, tech advancements, and regulatory shifts. We explore the state of the crypto market as of December 2023."
-cover_image: "/images/posts/horizons/blocknews.webp"
+cover_image: "https://dspyt.com/images/posts/horizons/blocknews.webp"
 authors: ["alexfedotovqq"]
 tags:
   [

@@ -2,7 +2,7 @@
 title: "Streamlining Freelance Agreements, Algorand Smart Contracts"
 date: "June 22, 2022"
 excerpt: "Algorand's smart contracts revolutionize freelancer-client agreements, solving challenges and securing payments efficiently."
-cover_image: "/images/posts/algorand/Anime_Pastel_Dream_Create_an_image_of_an_Algorand_smart_contra_0.webp"
+cover_image: "https://dspyt.com/images/posts/algorand/Anime_Pastel_Dream_Create_an_image_of_an_Algorand_smart_contra_0.webp"
 tags:
   [
     "blockchain",

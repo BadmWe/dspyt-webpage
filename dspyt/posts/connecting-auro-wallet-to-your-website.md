@@ -2,7 +2,7 @@
 title: "Auro Wallet Integration in React: Complete Guide for Developers"
 date: "January 25, 2024"
 excerpt: "Open your website, ensure Auro Wallet is installed, click Connect Wallet, and verify displayed wallet address upon connection."
-cover_image: "/images/posts/auro/auro.webp"
+cover_image: "https://dspyt.com/images/posts/auro/auro.webp"
 authors: ["alexfedotovqq", "pavel-fedotov"]
 tags:
   [
@@ -152,15 +152,15 @@ Open your website in a browser, ensure that the Auro Wallet is installed, and cl
 
 - Step `1`
 
-![Auro Wallet 1](/images/posts/auro/1.webp)
+![Auro Wallet 1](https://dspyt.com/images/posts/auro/1.webp)
 
 - Step `2`
 
-![Auro Wallet 2](/images/posts/auro/2.webp)
+![Auro Wallet 2](https://dspyt.com/images/posts/auro/2.webp)
 
 - Step `3`
 
-![Auro Wallet 3](/images/posts/auro/3.webp)
+![Auro Wallet 3](https://dspyt.com/images/posts/auro/3.webp)
 
 That&apos;s it! You have successfully integrated the Auro Wallet connection function
 

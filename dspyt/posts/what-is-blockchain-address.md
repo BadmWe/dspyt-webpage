@@ -2,7 +2,7 @@
 title: "Blockchain Addresses Explained: Your Guide to Bitcoin and Wallet Security"
 date: "November 15, 2022"
 excerpt: "A blockchain address resembles a bank account. A blockchain address acts as a digital location for cryptocurrency."
-cover_image: "/images/posts/blockchain_address/0.webp"
+cover_image: "https://dspyt.com/images/posts/blockchain_address/0.webp"
 tags:
   [
     "blockchain address",

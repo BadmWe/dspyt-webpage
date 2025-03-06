@@ -2,7 +2,7 @@
 title: "Creating Scalable and Responsive Animations with SMIL"
 date: "January 14, 2023"
 excerpt: "SMIL is a powerful, scalable, and responsive language for creating animations, making it easy to make your animations look good on any device."
-cover_image: "/images/posts/smil/pexels-uzunov-rostislav-10458835.webp"
+cover_image: "https://dspyt.com/images/posts/smil/pexels-uzunov-rostislav-10458835.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

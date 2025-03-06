@@ -2,7 +2,7 @@
 title: "Leveraging Zero-Knowledge Proofs with ZkBlind in NextJs"
 date: "May 31, 2023"
 excerpt: "ZkBlind NextJs utilizes Zero-Knowledge Proofs to offer secure and anonymous authentication for individuals without compromising their real identity."
-cover_image: "/images/posts/zkblind/zkblind.webp"
+cover_image: "https://dspyt.com/images/posts/zkblind/zkblind.webp"
 tags:
   [
     "Zero-Knowledge Proofs",

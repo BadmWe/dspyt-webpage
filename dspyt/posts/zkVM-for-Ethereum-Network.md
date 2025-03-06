@@ -2,7 +2,7 @@
 title: "Ethereum's zkEVM/zkVM: Security & Potential for Developing"
 date: "February 8, 2024"
 excerpt: "Security implications of zkEVM/zkVM, Ethereum adoption in developing countries, and staking infrastructure research for the Ethereum network."
-cover_image: "/images/posts/defi/Default_Create_an_animestyle_illustration_of_a_futuristic_city_0.webp"
+cover_image: "https://dspyt.com/images/posts/defi/Default_Create_an_animestyle_illustration_of_a_futuristic_city_0.webp"
 tags:
   [
     "zkEVM",

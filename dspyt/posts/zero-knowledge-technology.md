@@ -2,7 +2,7 @@
 title: "Unlock the Secrets of Zero Knowledge Technology with Lauri Peltonen"
 date: "December 11, 2023"
 excerpt: "Unlock the mysteries of Zero Knowledge technology with Lauri Peltonen! Join his interactive lectures to grasp ZK basics and explore real-world applications."
-cover_image: "/images/posts/zeroknowledge/zerophoto.webp"
+cover_image: "https://dspyt.com/images/posts/zeroknowledge/zerophoto.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

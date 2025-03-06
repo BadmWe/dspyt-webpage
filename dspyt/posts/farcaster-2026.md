@@ -2,7 +2,7 @@
 title: "Farcaster 2026: Empowering Decentralized Social Media Users"
 date: "January 23, 2025"
 excerpt: "Discover how Farcaster is transforming social media by prioritizing user ownership, data privacy, and community engagement for a decentralized future."
-cover_image: "/images/posts/farcaster/image.webp"
+cover_image: "https://dspyt.com/images/posts/farcaster/image.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

@@ -2,7 +2,7 @@
 title: "What is a reorg? Implications and Future Directions"
 date: "February 15, 2024"
 excerpt: "What exactly is a reorg? Find out how implementing strong fork choice rules and innovative solutions can boost network security and resilience."
-cover_image: "/images/posts/ethIndia/reorg-post.webp"
+cover_image: "https://dspyt.com/images/posts/ethIndia/reorg-post.webp"
 authors: ["dmitrii-fedotov", "pavel-fedotov"]
 tags:
   [
