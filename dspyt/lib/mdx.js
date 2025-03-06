@@ -159,3 +159,30 @@ export async function getAllFilesFrontMatter(folder) {
   });
   return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date));
 }
+
+export async function getAllFilesContent(folder) {
+  const prefixPaths = path.join(root, folder);
+
+  const files = getAllFilesRecursively(prefixPaths);
+
+  const allFrontMatter = [];
+
+  files.forEach((file) => {
+    // Replace is needed to work on Windows
+    const fileName = file.slice(prefixPaths.length + 1).replace(/\\/g, "/");
+    // Remove Unexpected File
+    if (path.extname(fileName) !== ".md" && path.extname(fileName) !== ".mdx") {
+      return;
+    }
+    const source = fs.readFileSync(file, "utf8");
+    const { data: frontmatter, content: content } = matter(source);
+
+    allFrontMatter.push({
+      ...frontmatter,
+      slug: formatSlug(fileName),
+      date: frontmatter.date ? new Date(frontmatter.date).toISOString() : null,
+      content: content,
+    });
+  });
+  return allFrontMatter.sort((a, b) => dateSortDesc(a.date, b.date));
+}
