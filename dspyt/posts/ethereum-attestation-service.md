@@ -2,7 +2,7 @@
 title: "Ethereum Attestation Service (EAS): Building Trust in a Decentralized World"
 date: "December 15, 2024"
 excerpt: "EAS revolutionizes trust in the decentralized world by enabling verifiable digital attestations and facilitating secure identity verification."
-cover_image: "/images/posts/ethereum/eas.webp"
+cover_image: "https://dspyt.com/images/posts/ethereum/eas.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

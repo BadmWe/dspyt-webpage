@@ -92,7 +92,6 @@ async function GeneratedRssFeed() {
     image: `${siteUrl}/DSPYT.png`,
     favicon: `${siteUrl}/big-data-svgrepo.svg`,
     copyright: `Copyright ${siteTitle} All rights reserved`,
-    generator: "Feed for Node.js", // option (default: https://github.com/jpmonette/feed)
     updated: new Date(),
     feedLinks: {
       json: `${siteUrl}/rss/feed.json`,
@@ -109,13 +108,13 @@ async function GeneratedRssFeed() {
   posts.forEach((post) => {
     feed.addItem({
       title: post.title,
-      id: `${siteUrl}/${post.slug}/`,
-      link: `${siteUrl}/${post.slug}/`,
+      id: `${siteUrl}/${post.slug}`,
+      link: `${siteUrl}/${post.slug}`,
       description: marked(post.excerpt),
       content: marked(post.content),
       author: [
         {
-          name: post?.authors?.length > 0 ? post.authors[0] : "dspytdao",
+          name: post?.authors?.length > 0 ? post.authors[0] : "Dspyt Dao",
           /* email: email,
           link: siteUrl, */
         },
