@@ -3,6 +3,7 @@ name: "Dmitrii Fedotov"
 avatar: "/authors/dmitrii-ava-profile-page.webp"
 smallAvatar: "/authors/ava-dmitrii.webp"
 company: "Dspyt"
+email: fedotovdmitrii@dspyt.com
 twitter: "https://twitter.com/DmitriFedotov"
 linkedin: "https://www.linkedin.com/in/dmitrii-fedotov"
 instagram: "https://www.instagram.com/dmitry.fov/"
