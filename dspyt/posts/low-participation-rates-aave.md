@@ -2,7 +2,7 @@
 title: "Addressing Low Participation Rates in AAVE Governance"
 date: "February 11, 2024"
 excerpt: "AAVE Governance: Low Participation Rates. How Dspyt could increase AAVE participation rates by 2.4%, increase legitimacy, promote decision-making in DeFi."
-cover_image: "/images/posts/defi/aavemain.webp"
+cover_image: "https://dspyt.com/images/posts/defi/aavemain.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
@@ -25,7 +25,7 @@ tags:
 
 In the realm of decentralized autonomous organizations (DAOs), participation in governance processes is paramount to ensuring the legitimacy and effectiveness of decision-making. However, many DAOs face a common challenge: low participation rates among token holders in on-chain voting. AAVE Protocol, a leading decentralized finance (DeFi) platform, is no exception, with its participation rates currently stagnating at a mere 2.4% of token holders, as reported by [Messari](https://messari.io/project/aave/governance/on-chain).
 
-![messari participation rates](/images/posts/defi/messari.webp)
+![messari participation rates](https://dspyt.com/images/posts/defi/messari.webp)
 
 ## The Challenge of Low Participation Rates in DAO Governance
 
@@ -39,7 +39,7 @@ The implications of such low participation rates are profound. They cast doubt o
 
 Through targeted interventions and incentives, Dspyt aims to substantially elevate the current 2.4% participation rate among AAVE token holders. Defined by Messari as
 
-![messari power](/images/posts/defi/power-messari.webp)
+![messari power](https://dspyt.com/images/posts/defi/power-messari.webp)
 
 - **Enhance DAO Legitimacy**
 

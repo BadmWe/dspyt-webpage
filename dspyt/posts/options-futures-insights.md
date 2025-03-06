@@ -2,7 +2,7 @@
 title: "Options & Futures Dynamics: Unaveling Market Intricacies"
 date: "February 7, 2024"
 excerpt: "Options and futures markets are complex yet rewarding financial derivatives. Traders use them to speculate on price changes or hedge against risks."
-cover_image: "/images/posts/defi/Anime_Pastel_Dream_Futuristic_market_trader_overseeing_a_compl_0.webp"
+cover_image: "https://dspyt.com/images/posts/defi/Anime_Pastel_Dream_Futuristic_market_trader_overseeing_a_compl_0.webp"
 tags:
   [
     "Futures Options Market",

@@ -3,7 +3,7 @@ title: "Synthetix: Empowering DeFi with Synthetic Assets"
 date: "18 December, 2023"
 excerpt: "Explore Synthetix: DeFi on Ethereum. Diverse synthetic assets, decentralized trading, and the SNX token power the future of finance."
 authors: ["dmitrii-fedotov"]
-cover_image: "/images/posts/defi/synthetix.webp"
+cover_image: "https://dspyt.com/images/posts/defi/synthetix.webp"
 tags:
   [
     "ethereum",
@@ -40,7 +40,7 @@ One of the primary advantages of synthetic assets is the ability to trade 24/7, 
 
 Central to the Synthetix ecosystem is its native utility token, SNX. This token serves a dual purpose, acting both as collateral for the issuance of synthetic assets and as a governance tool. SNX holders play a vital role in maintaining the stability and security of the platform by staking their tokens. In return, they earn rewards and contribute to the collateral pool, facilitating the issuance of synths.
 
-![Token](/images/posts/defi/crypto.webp)
+![Token](https://dspyt.com/images/posts/defi/crypto.webp)
 
 Beyond its role as collateral, the SNX token plays a crucial part in the governance of the Synthetix protocol. Decisions related to protocol upgrades, parameter adjustments, and other critical matters are determined through a decentralized governance model. SNX holders, proportionate to their holdings, actively participate in the decision-making process, creating a truly democratic governance structure.
 

@@ -2,7 +2,7 @@
 title: "Futarchy - a form of governance, mechanism of the Meta-DAO"
 date: "February 25, 2024"
 excerpt: "What is Futarchy and How It Works. Why futarchy may be better than other forms of governance, participating in MetaDAO."
-cover_image: "/images/posts/defi/futarchy.webp"
+cover_image: "https://dspyt.com/images/posts/defi/futarchy.webp"
 authors: ["dmitrii-fedotov", "dspytdao"]
 tags:
   [
@@ -59,7 +59,7 @@ Let's consider a hypothetical scenario where a university is contemplating wheth
 5. Reversion of Trades
    All trades made in the market that did not align with the chosen outcome are reverted. For instance, if the decision is to expand online courses, all trades made in the **"Maintain Current Course Offerings Only"** market would be reverted.
 
-![vote](/images/posts/defi/vote.webp)
+![vote](https://dspyt.com/images/posts/defi/vote.webp)
 
 This approach allows the university to harness the wisdom of the crowd, as reflected in the market prices, to make decisions that are in the best interest of its stakeholders.
 
@@ -81,28 +81,28 @@ MetaDao is composed of 3 open source programs on the Solana blockchain.
 
 All programs are open-source and verifiable.
 
-![opensource](/images/posts/defi/opensource.webp)
+![opensource](https://dspyt.com/images/posts/defi/opensource.webp)
 
 Before minting conditional tokens, someone needs to create a conditional vault. Conditional vaults are each tied to a specific underlying token and settlement authority. In our case, the underlying token would be either META or USDC, and the settlement authority would always be the Meta-DAO.
 
-![futarchy dao](/images/posts/defi/metadao.webp)
+![futarchy dao](https://dspyt.com/images/posts/defi/metadao.webp)
 
 Once a vault is created, anyone can deposit underlying tokens in exchange for conditional tokens. You receive **two types of conditional tokens:** ones that are redeemable for underlying tokens if the vault is finalized and ones that are redeemable for underlying tokens if the vault is reverted.
 
 For example, if you deposit 100 USDC into a vault, you will receive 100 conditional-on-finalize USDC and 100 conditional-on-revert USDC.
 
-![dollars](/images/posts/defi/dollars.webp)
+![dollars](https://dspyt.com/images/posts/defi/dollars.webp)
 
 - At any time, the settlement authority can either finalize or revert a vault.
 - The finalization and reverting are mutually exclusive, total vault liabilities will never exceed total assets.
 
-![revert](/images/posts/defi/revert.webp)
+![revert](https://dspyt.com/images/posts/defi/revert.webp)
 
 - For each proposal, the Meta-DAO creates two **vaults**: one for USDC and one for META. If a proposal passes, it finalizes both vaults. If a proposal fails, it reverts both vaults.
 
 - So we call the **conditional-on-finalize** tokens **conditional-on-pass** tokens and the **conditional-on-revert** tokens conditional-on-fail tokens.
 
-![third](/images/posts/defi/third.webp)
+![third](https://dspyt.com/images/posts/defi/third.webp)
 
 This allows traders to express opinions like, “This token would be worth $110 if the proposal passes, but it’s only worth $100 if the proposal fails.”
 
@@ -118,7 +118,7 @@ Compared to the other ways of making decisions, markets have several benefits. W
 
 - Adaptability: Futarchy allows for flexibility and adaptation, as decisions can be adjusted based on evolving market predictions.
 
-![futarchy dao](/images/posts/defi/size_graphic.webp)
+![futarchy dao](https://dspyt.com/images/posts/defi/size_graphic.webp)
 
 ### Markets are good for several theoretical reasons
 
@@ -162,13 +162,13 @@ In MetaDAO, individuals can participate in various roles:
 
 When an entrepreneur raises a project proposal, they specify a budget. That budget can be allocated however the entrepreneur sees fit. Some entrepreneurs may decide to hire more cyber-agents and pay less per cyber-agent. Others may decide to hire fewer cyber agents and pay more individual compensation.
 
-![meta dao participate](/images/posts/defi/finishmetadao.webp)
+![meta dao participate](https://dspyt.com/images/posts/defi/finishmetadao.webp)
 
 ### Proposals and How to Participate
 
 We can classify proposals by their area and scope. Along the area axis, we have **business proposals** and **operations proposals**. Along the scope axis, we have **projects** and **direct actions**.
 
-![proposals](/images/posts/defi/Proposals.webp)
+![proposals](https://dspyt.com/images/posts/defi/Proposals.webp)
 
 Business projects are how the Meta-DAO converts financial capital into revenue-generating products. Business direct actions operate over those products, tweaking parameters in the pursuit of customer satisfaction and profitability. Operations projects and direct actions support the business, ensuring that the Meta-DAO has the right people and resources to create new products and manage existing ones.
 

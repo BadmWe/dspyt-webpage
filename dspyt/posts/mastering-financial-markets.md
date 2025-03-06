@@ -2,7 +2,7 @@
 title: "Statistical Arbitrage: Mastering Financial Markets"
 date: "December 29, 2023"
 excerpt: "Explore statistical arbitrage for financial opportunities. Pairs trading, cointegration, and mean reversion strategies. Optimize with data-driven insights."
-cover_image: "/images/posts/navigating/trading.webp"
+cover_image: "https://dspyt.com/images/posts/navigating/trading.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

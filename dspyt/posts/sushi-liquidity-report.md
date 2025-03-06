@@ -2,7 +2,7 @@
 title: "SushiSwap LIDO wstETH/DAI liquidity pool incentive program"
 date: "March 22, 2023"
 excerpt: "We assess SushiSwap's wstETH/DAI liquidity pool incentive program. The incentive program offered rewards to liquidity providers."
-cover_image: "/images/posts/sushi/c3a57e0f4518f6002f3fe2ed000a1e17.webp"
+cover_image: "https://dspyt.com/images/posts/sushi/c3a57e0f4518f6002f3fe2ed000a1e17.webp"
 authors: ["dspytdao"]
 tags:
   [
@@ -35,19 +35,19 @@ Users can provide wstETH (wrapped stETH) as liquidity to the respective pool to 
 
 The pool will be allocated 200,000 LDO for the first month, with up to 13,500 SUSHI allocated from SushiSwap as well."
 
-![twitter](/images/posts/sushi/twitter.webp)
+![twitter](https://dspyt.com/images/posts/sushi/twitter.webp)
 
 ## Weekly Staking Volume of wstETH/DAI Over Time - Incentive Program : 2021/08/18 - 2021-09-18
 
-![stakingVolume](/images/posts/sushi/stakingVolume.webp)
+![stakingVolume](https://dspyt.com/images/posts/sushi/stakingVolume.webp)
 
 ## Average Monthly SLP Deposit Amount
 
-![Average Monthly SLP Deposit Amount](/images/posts/sushi/avdep.webp)
+![Average Monthly SLP Deposit Amount](https://dspyt.com/images/posts/sushi/avdep.webp)
 
 ## Average Monthly SLP Depositors
 
-![Average Monthly SLP Depositors](/images/posts/sushi/avMdep.webp)
+![Average Monthly SLP Depositors](https://dspyt.com/images/posts/sushi/avMdep.webp)
 
 ## Analysis
 
@@ -55,15 +55,15 @@ The first look at the above graphs leads to the conclusion that this program was
 
 ## Weekly Net Deposit Volume (Deposit minus Withdrawal) of wstETH/DAI SLP Tokens - Incentive Program : 2021/08/18 - 2021-09-18
 
-![Weekly Net Deposit Volume](/images/posts/sushi/balance.webp)
+![Weekly Net Deposit Volume](https://dspyt.com/images/posts/sushi/balance.webp)
 
 ## Depositors vs Unstakers from wstETH/DAI Yield Farm
 
-![Depositors vs Unstakers from wstETH/DAI Yield Farm](/images/posts/sushi/depVsUnstakers.webp)
+![Depositors vs Unstakers from wstETH/DAI Yield Farm](https://dspyt.com/images/posts/sushi/depVsUnstakers.webp)
 
 ## Weekly Cumulative Deposit / Withdraw / Current Farm Balance (Net Deposit)
 
-![Weekly Cumulative Deposit](/images/posts/sushi/netDeposits.webp)
+![Weekly Cumulative Deposit](https://dspyt.com/images/posts/sushi/netDeposits.webp)
 
 ## Findings
 

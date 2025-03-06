@@ -2,7 +2,7 @@
 title: "How We Built CrossDrop in 50 Hours: Insights from ETHIndia 2023"
 date: "December 17, 2023"
 excerpt: "Experience ETHIndia'23: teams navigate ideation to triumph, fueled by caffeine and camaraderie. Witness thrill, innovation, and sweet success."
-cover_image: "/images/posts/ethIndia/mainpage.webp"
+cover_image: "https://dspyt.com/images/posts/ethIndia/mainpage.webp"
 authors: ["gyanesh-samanta", "dspytdao"]
 tags:
   [
@@ -28,19 +28,19 @@ The first 2 hours are pure excitement, it's finally begun- you find your idea, y
 Next 5 hours, You hit your first hurdle, rethink your sponsor tracks, and question your initial idea. Your teammate hits a bump.
 with a certain integration/ technical challenge. You're thrown off your track. But it's no sweat, head in the game.
 
-![Travel](/images/posts/ethIndia/travel.webp)
+![Travel](https://dspyt.com/images/posts/ethIndia/travel.webp)
 
 You get a jump scare and start counting your hours, 42 more, 41 more, 40 left. You start to feel some pains that weren't there before, but you're fine. You think to yourself, If I can maintain the pace and stability I can break my personal record, ship a complete end-to-end solution within the 50 hours.
 
 Next 10 hours in, you start to believe you'll reach the end goal, piece of cake, you got this. You get going on some caffeine and nicotine, but it's all good, you can power through the travel exhaustion because your time in Bangalore is limited.
 
-![Legion](/images/posts/ethIndia/legion.webp)
+![Legion](https://dspyt.com/images/posts/ethIndia/legion.webp)
 
 It's 9 pm now, feels like it's 3am, you all share a sad dinner rethinking your presence, the body pains kick in, the motivation seems dimmer as you take the next bite of your dinner, maybe a short nap, you see a hundred-people lined up on the mattress and think, it wouldn't hurt if I layed down for a while right? Calm the brain, forget my problems of implementation for a while.
 
 No, the team's working, the devs who came from all over the world are on the bean bags, you take a second look at your ETHIndia bracelet. You're back in the game.
 
-![ethIndia Bands](/images/posts/ethIndia/bands.webp)
+![ethIndia Bands](https://dspyt.com/images/posts/ethIndia/bands.webp)
 
 "Alright, huddle up, we got an odd 30 hours left, how do we make the best out of the V1 we currently have?" Initiates a 2 hour long discussion that seems to complicate the problem further than it solves.
 
@@ -75,42 +75,42 @@ You wash your face, drink some water, caffeine, nicotine, back to the races.
 
 Here comes the challenging part, even if you're building something in deep tech, you always have to present your pitch in something like 4 mins, depending on which sponsor you are presenting to, you need to tailor your pitch in that direction. One size fits all, just ain't true here.
 
-![ETH India 23 Judjing](/images/posts/ethIndia/judjing.webp)
+![ETH India 23 Judjing](https://dspyt.com/images/posts/ethIndia/judjing.webp)
 
 Now you're done with the judging, you manage to scrape through all the pitches with a smile, hiding away all your pain and anguish from the sleeplessness, but the sudden human interaction has propelled a new energy within you. You are excited to showcase your usecase and the tech to people who are genuinely interested to know more about it.
 
 You stood through the lines of judging, demonstrated your project successfully to a bunch of people. Now it's time to wait.
 You just find the nearest bean bag and (possibly) pass out.
 
-![eth India Rest](/images/posts/ethIndia/rest.webp)
+![eth India Rest](https://dspyt.com/images/posts/ethIndia/rest.webp)
 
 It's almost 5, you catch up with your friends, get to know some more people, say goodbye to a few who are leaving early, that's when it strikes, the grandstand opens up and the winner declaration is about to begin
 
-![ETHIndia](/images/posts/ethIndia/ETHIndia.webp)
+![ETHIndia](https://dspyt.com/images/posts/ethIndia/ETHIndia.webp)
 
 But wait---
 
-![ethIndia Singing](/images/posts/ethIndia/singing.webp)
+![ethIndia Singing](https://dspyt.com/images/posts/ethIndia/singing.webp)
 
 There's some singing, some cheering, a few short speeches to wake everyone up before the judging results are showcased.
 But first, the demo's of the finalist teams.
 
 There were 13 Finalists this year, who presented their projects in front of everyone.
 
-![ethIndia Poster](/images/posts/ethIndia/poster.webp)
+![ethIndia Poster](https://dspyt.com/images/posts/ethIndia/poster.webp)
 
 Finally, the moment shines, you read as fast as your eyes can through the sponsor prizes, and there it is.
 
-![ethIndia Thread](/images/posts/ethIndia/thread.webp)
+![ethIndia Thread](https://dspyt.com/images/posts/ethIndia/thread.webp)
 
 All your efforts for the past 50 odd hours are worth it now. You feel the peace to fall asleep on your way back to Delhi after a awesome weekend of Builder Energy.
 
 Kudos to Priyadarsh S S Siddhardha Varma K for pulling through all 50 hours and being an amazing team.
-Couldn't have done it without Divya Ranjan . 🙏 Literal God.
+Couldn't have done it without Divya Ranjan. 🙏 Literal God.
 Lastly, Kudos to all the builders, would love to hear and connect with you guys!
 Hosted by Devfolio , Ethereum Foundation
 Mention - The Arbitrum Foundation
-Thanks for travelling to KTPO to meet us - Eshaan Bhardwaj , Ratanshi Puri
+Thanks for travelling to KTPO to meet us - Eshaan Bhardwaj, Ratanshi Puri
 
 ## References and Related posts
 

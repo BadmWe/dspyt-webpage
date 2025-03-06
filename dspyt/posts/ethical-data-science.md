@@ -2,7 +2,7 @@
 title: "Ethics in Data Science: Principles and Guidelines"
 date: "December 24, 2023"
 excerpt: "Ethical data science principles: transparency, fairness, and accountability. Navigate responsible decision-making in the data-driven era."
-cover_image: "/images/posts/ethicaldata/ethicaldata.webp"
+cover_image: "https://dspyt.com/images/posts/ethicaldata/ethicaldata.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
@@ -32,7 +32,7 @@ In the age of big data, where information serves as the driving force behind inn
 
 One of the foundational principles of ethical data science is transparency. Organizations must be open and honest about the data they collect, how it is used, and the methods employed in its processing. Transparency builds trust among users, stakeholders, and the general public, fostering a sense of accountability. This principle requires organizations to disclose their data collection practices, detailing what types of data are collected, how it is obtained, and the purposes for which it is used.
 
-![Data Collection](/images/posts/ethicaldata/collection.webp)
+![Data Collection](https://dspyt.com/images/posts/ethicaldata/collection.webp)
 
 Moreover, transparency extends to the algorithms and models employed in data processing. Data scientists must provide clear explanations of their methodologies, enabling stakeholders to understand how decisions are made. Transparent algorithms empower users to question and challenge outcomes, fostering accountability and reducing the risk of biased or discriminatory results.
 
@@ -48,7 +48,7 @@ Additionally, organizations should implement mechanisms for ongoing monitoring a
 
 Respecting individuals' privacy rights is a cornerstone of ethical data science. As organizations collect and process vast amounts of personal information, they must implement robust measures to safeguard this data from unauthorized access and use. Adherence to data protection regulations, such as the General Data Protection Regulation (GDPR) and the Health Insurance Portability and Accountability Act (HIPAA), is not only a legal requirement but also a moral imperative.
 
-![GDPR](/images/posts/ethicaldata/gdpr.webp)
+![GDPR](https://dspyt.com/images/posts/ethicaldata/gdpr.webp)
 
 Ethical data scientists prioritize data anonymization and encryption techniques to protect sensitive information. They implement access controls and regularly assess and update security measures to stay ahead of evolving threats. Moreover, organizations must communicate clearly with users about their data protection practices, seeking informed consent before collecting and processing personal information.
 

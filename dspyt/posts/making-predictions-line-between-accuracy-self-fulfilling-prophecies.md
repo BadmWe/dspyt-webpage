@@ -2,20 +2,20 @@
 title: "Making Predictions: Accuracy and Self-Fulfilling Prophecies"
 date: "December 21, 2023"
 excerpt: "Explore the dance of prediction accuracy and the impact of self-fulfilling prophecies in this insightful exploration. Uncover the nuances of forecasting."
-cover_image: "/images/posts/cybersecurity/fantasy.webp"
+cover_image: "https://dspyt.com/images/posts/cybersecurity/fantasy.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
-  "making predictions",
-  "accuracy in forecasting",
-  "it",
-  "predictive models",
-  "media influence",
-  "balancing accuracy",
-  "forecasting limitations",
-  "statistical prowess",
-  "wisdom in forecasting",
-  "media",
+    "making predictions",
+    "accuracy in forecasting",
+    "it",
+    "predictive models",
+    "media influence",
+    "balancing accuracy",
+    "forecasting limitations",
+    "statistical prowess",
+    "wisdom in forecasting",
+    "media",
   ]
 ---
 

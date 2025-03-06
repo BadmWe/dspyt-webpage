@@ -2,7 +2,7 @@
 title: "Understanding RetroPGF: A New Era of Funding for Public Goods"
 date: "November 27, 2024"
 excerpt: "RetroPGF redefines public goods funding by rewarding past contributions, empowering communities, and enhancing governance."
-cover_image: "/images/posts/optimism/RetroPGF.webp"
+cover_image: "https://dspyt.com/images/posts/optimism/RetroPGF.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

@@ -37,6 +37,6 @@ yarn-error.log*
 /public/sitemap-0.xml
 
 # rss
-/public/atom.xml
-/public/feed.xml
-/public/feed.json
+/public/rss/atom.xml
+/public/rss/feed.xml
+/public/rss/feed.json

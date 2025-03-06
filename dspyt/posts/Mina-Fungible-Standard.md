@@ -2,7 +2,7 @@
 title: "Enhancing the Security of the Mina Fungible Token Standard: Veridise Audit"
 date: "November 8, 2024"
 excerpt: "The Veridise audit of the Mina Fungible Token Standard highlights critical vulnerabilities and risks, denial-of-service attacks and centralization issues."
-cover_image: "/images/posts/Mina/auditReport.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/auditReport.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

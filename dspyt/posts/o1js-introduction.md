@@ -2,7 +2,7 @@
 title: "Unlocking the Future of Zero-Knowledge Applications with o1js"
 date: "January 17, 2025"
 excerpt: "With the rise of zero-knowledge proofs, developers are empowered to create applications that safeguard user privacy while still enabling valuable interactions."
-cover_image: "/images/posts/Mina/o1jsDocs.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/o1jsDocs.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

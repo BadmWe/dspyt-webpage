@@ -2,7 +2,7 @@
 title: "SEI Blockchain: Latest Developments, Bridging, and Swapping Guide"
 date: "August 30, 2024"
 excerpt: "Learn how to easily add SEI on Metamask and access SEI through KuCoin. Swap tokens on SEI using DragonSwap and bridge tokens through Stargate Finance."
-cover_image: "/images/posts/defi/sei.webp"
+cover_image: "https://dspyt.com/images/posts/defi/sei.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

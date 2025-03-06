@@ -2,7 +2,7 @@
 title: "Guide to maximizing Liquidity Pool RAI fees"
 date: "November 20, 2021"
 excerpt: "We choose liquidity pools on Uniswap V3 and obtain tokens for the best liquidity pair using Aave V2 and Fuse Pools"
-cover_image: "/images/posts/reflexer/maxlp.webp"
+cover_image: "https://dspyt.com/images/posts/reflexer/maxlp.webp"
 tags:
   [
     "liquidity pool",
@@ -40,7 +40,7 @@ Next we multiply the value from the previous step by the commission. The higher 
 
 The table with results:
 
-![Reflexer Table](/images/posts/reflexer/1586897961.webp)
+![Reflexer Table](https://dspyt.com/images/posts/reflexer/1586897961.webp)
 
 We find that the RAI/DAI pair with 0.01% commission has the highest opportunity for liquidity providers at the moment due to the enormous amount of volume compared to the 10 times lower amount of total value lent.
 

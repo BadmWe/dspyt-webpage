@@ -2,7 +2,7 @@
 title: "Nurturing Digital Public Goods: Gitcoin Grants and Quadratic Funding"
 date: "December 14, 2023"
 excerpt: "Explore how Gitcoin Grants and Quadratic Funding transform digital public goods. Discover how Gitcoin empowers communities to collaboratively fund and build."
-cover_image: "/images/posts/gitcoingrants/picturegitcoin.webp"
+cover_image: "https://dspyt.com/images/posts/gitcoingrants/picturegitcoin.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

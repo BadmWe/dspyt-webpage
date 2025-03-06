@@ -2,7 +2,7 @@
 title: "Explore New Horizons in Swap Fee Monitoring on Uniswap"
 date: "August 28, 2023"
 excerpt: "Uniswap.fish offers Uniswap V3 Fee Calculator, Liquidity Position Histogram, and Correlation Chart, to assist traders and liquidity providers on the Uniswap."
-cover_image: "/images/posts/uniswap/uniswap-fish.webp"
+cover_image: "https://dspyt.com/images/posts/uniswap/uniswap-fish.webp"
 tags:
   [
     "uniswap",
@@ -33,13 +33,13 @@ In the world of decentralized finance (DeFi), Uniswap is known as one of the lea
 
 A standout feature of Uniswap.fish is its [Uniswap V3 Fee Calculator](https://uniswap.fish/). This tool allows users to calculate fees associated with trading and liquidity provision on Uniswap V3. The calculator offers a user-friendly interface where you can input the deposit amount in USD, select the specific pair and pool, and adjust the lower and upper prices according to your preferences.
 
-![Uniswap V3 Fee Calculator](/images/posts/uniswap/UniswapCalculator.webp)
+![Uniswap V3 Fee Calculator](https://dspyt.com/images/posts/uniswap/UniswapCalculator.webp)
 
 ## Liquidity Position Histogram and Correlation Charts
 
 In addition to the fee calculator, Uniswap.fish provides a Liquidity Position Histogram that can significantly aid traders and liquidity providers. This feature offers visual representations of historical liquidity positions for a better understanding of liquidity concentration. By analyzing the liquidity position histogram, users can identify areas of high liquidity and make informed trading decisions.
 
-![Liquidity Position Histogram and Correlation Charts](/images/posts/uniswap/UniswapFishPair.webp)
+![Liquidity Position Histogram and Correlation Charts](https://dspyt.com/images/posts/uniswap/UniswapFishPair.webp)
 
 Another valuable feature of [Uniswap.fish](https://uniswap.fish/) is the Correlation Chart. This chart allows users to analyze the correlation between different liquidity positions, enabling them to identify potential opportunities for arbitrage or hedging strategies. By highlighting the relationships between liquidity positions, the correlation chart enhances traders' ability to optimize their trading strategies.
 

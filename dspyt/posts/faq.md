@@ -2,7 +2,7 @@
 title: "A Comprehensive Guide to Publishing Content on DSPYT: Best Practices and Tips"
 date: "November 4, 2023"
 excerpt: "In this post you will learn how to post your content DSPYT. If you want to edit or publish an article, then this post is especially for you!"
-cover_image: "/images/posts/faq/contentpreview.webp"
+cover_image: "https://dspyt.com/images/posts/faq/contentpreview.webp"
 authors: ["dmitrii-fedotov", "pavel-fedotov"]
 tags:
   [
@@ -80,7 +80,7 @@ Typically, we will respond promptly, usually within a few days. We may add comme
 
 Upon receiving approval, we will merge your pull request! Once it's merged, our system will initiate site rebuilding, and your story will be accessible to the public.
 
-![Approved](/images/posts/faq/approved.webp)
+![Approved](https://dspyt.com/images/posts/faq/approved.webp)
 
 ## References and Related posts
 

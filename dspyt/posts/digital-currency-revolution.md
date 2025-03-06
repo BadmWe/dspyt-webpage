@@ -2,7 +2,7 @@
 title: "CBDCs: Shaping Digital Finance - Motivations, Challenges, Initiatives"
 date: "December 16, 2023"
 excerpt: "Explore the finance future with CBDCs. Uncover benefits, global initiatives, and their impact on policies. Join us in navigating the digital currency landscape."
-cover_image: "/images/posts/defi/CBDC.webp"
+cover_image: "https://dspyt.com/images/posts/defi/CBDC.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

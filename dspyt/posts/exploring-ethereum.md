@@ -2,7 +2,7 @@
 title: "Exploring Ethereum Network with Etherscan and BlockScout"
 date: "February 9, 2023"
 excerpt: "Powerful tools for exploring Ethereum networks and their associated contracts provide users with an easy-to-use interface for searching and exploring contracts."
-cover_image: "/images/posts/explorer/pexels-pixabay-163064.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-pixabay-163064.webp"
 authors: ["dspytdao", "pavel-fedotov"]
 tags:
   [

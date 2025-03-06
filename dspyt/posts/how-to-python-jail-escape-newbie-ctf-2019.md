@@ -2,7 +2,7 @@
 title: "How to Python jail escape (Newbie CTF 2019)"
 date: "May 1, 2022"
 excerpt: "Python jail escape: a challenge with one of the lowest points in the Newbie CTF 2019 which we solve in this article. We use built-in methods."
-cover_image: "/images/posts/jailescape/image-e1658960653261.webp"
+cover_image: "https://dspyt.com/images/posts/jailescape/image-e1658960653261.webp"
 tags:
   [
     "Python",
@@ -24,7 +24,7 @@ Python jail escape: a challenge with one of the lowest points in the Newbie CTF 
 
 The jail is basically a set of python code that is executed on the python process when the user executes certain commands, in this case entering specific lines of text. This is possible since Python allows passing parameters to the application. In this particular case, the script only checks if the command passed is not banned.
 
-![Python jail Escape](/images/posts/jailescape/image-2.webp)
+![Python jail Escape](https://dspyt.com/images/posts/jailescape/image-2.webp)
 
 ## Python Jail escape: Code
 
