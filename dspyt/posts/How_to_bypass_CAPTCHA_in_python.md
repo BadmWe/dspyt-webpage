@@ -102,7 +102,7 @@ solver = TwoCaptcha(**config)
 - `apiKey` argument - your api key
 - `softId` argument - your software ID obtained after publishing in [2captcha software catalog](https://2captcha.com?from=16036084software/add)
 
-![2captcha software catalog](/images/posts/captcha/add.webp)
+![2captcha software catalog](https://dspyt.com/images/posts/captcha/add.webp)
 
 - `callback` argument - web server URL that receives the captcha recognition result
 - `defaultTimeout` argument - polling timeout in seconds for all captcha types except ReCaptcha

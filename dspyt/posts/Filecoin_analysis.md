@@ -9,6 +9,7 @@ tags:
     "data science",
     "climate change",
     "climate",
+    "sustainability",
     "green energy",
     "renewable energy",
     "global data center",

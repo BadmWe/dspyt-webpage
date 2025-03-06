@@ -9,6 +9,7 @@ tags:
     "Filecoin FVM",
     "Filecoin",
     "filecoin virtual machine",
+    "green technology",
     "Fil",
     "FVM",
     "ethereum",

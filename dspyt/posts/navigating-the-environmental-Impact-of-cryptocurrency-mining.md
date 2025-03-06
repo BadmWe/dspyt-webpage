@@ -7,6 +7,8 @@ authors: ["alexfedotovqq"]
 tags:
   [
     "Cryptocurrency",
+    "climate",
+    "climate change",
     "Bitcoin",
     "Blockchain",
     "Cryptocurrency Mining",
