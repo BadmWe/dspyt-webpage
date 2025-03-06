@@ -74,8 +74,10 @@ async function getAllFilesContent(folder) {
 async function GeneratedRssFeed() {
   const posts = await getAllFilesContent("posts");
 
-  const siteTitle = "Dspyt Title";
-  const siteDesc = "Dspyt Description";
+  const siteTitle =
+    "Dspyt - Data Science & Blockchain Insights Hub for Programming Enthusiasts";
+  const siteDesc =
+    "Dspyt.com is an online hub focused on data science and blockchain technology, specifically tailored for programming enthusiasts.";
   const siteUrl = "https://dspyt.com";
   const defaultLocale = "en";
   const author = "Dspyt Inc.";
