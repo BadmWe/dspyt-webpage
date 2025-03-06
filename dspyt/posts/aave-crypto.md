@@ -2,7 +2,7 @@
 title: "AAVE Crypto: Empowering Decentralized Finance through Innovation"
 date: "January 7, 2024"
 excerpt: "Explore AAVE Crypto's DeFi revolution with flash loans, variable rates, and decentralized governance. Experience financial inclusivity and innovation."
-cover_image: "/images/posts/defi/aavearticle.webp"
+cover_image: "https://dspyt.com/images/posts/defi/aavearticle.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

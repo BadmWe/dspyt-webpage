@@ -2,7 +2,7 @@
 title: "EVM Explorer - Tracking Smart Contract Transaction Data"
 date: "June 17, 2024"
 excerpt: "Discover EVM Explorer by Dspyt Team: an open-source tool for exploring and analyzing smart contracts across multiple EVM chains. Explore now!"
-cover_image: "/images/posts/evmexplorer/evmexplorer.webp"
+cover_image: "https://dspyt.com/images/posts/evmexplorer/evmexplorer.webp"
 tags:
   [
     "EVMExplorer",
@@ -50,25 +50,25 @@ We are excited to announce the release of [EVM Explorer](https://evmexplorer.com
 
 EVM Explorer is a versatile tool that simplifies the process of exploring and analyzing smart contracts. With its intuitive interface, users can access detailed information and statistics about smart contracts, user addresses, token balances, transactions, and blocks.
 
-![Main Page](images/posts/evmexplorer/mainpageevm.webp)
+![Main Page](https://dspyt.com/images/posts/evmexplorer/mainpageevm.webp)
 
 ## Discover and track EVM smart contract data
 
 Search, Discover, and Track contracts by their address on 9 EVM chains: Ethereum Mainnet, Optimism, Base, Mode Network, Zora, Redstone, Polygon, Arbitrum and Filecoin.
 
-![Choose Network](images/posts/evmexplorer/choosenetwork.webp)
+![Choose Network](https://dspyt.com/images/posts/evmexplorer/choosenetwork.webp)
 
 Simply paste the contract address, select a network, and click the Submit button to view transactions.
 
 Let's navigate to Vitalik's ethereum address page:
 
-![Vitalik's Address Search EVM Explorer](images/posts/evmexplorer/vitalikInSearch.webp)
+![Vitalik's Address Search EVM Explorer](https://dspyt.com/images/posts/evmexplorer/vitalikInSearch.webp)
 
 After you click the submit button, you will be redirected to a page related to an address.
 
 ## Blockchain Address page
 
-![Vitalik.eth Data](images/posts/evmexplorer/vitalik.webp)
+![Vitalik.eth Data](https://dspyt.com/images/posts/evmexplorer/vitalik.webp)
 
 [Vitalik's Ethereum address page](https://evmexplorer.com/contracts/mainnet/0xd8da6bf26964af9d7eed9e03e53415d37aa96045) displays a balance of ETH token in US Dollars as well as an address hash and an ENS name.
 
@@ -100,15 +100,15 @@ In addition, for smart contracts aggregate data should also be available:
 
 For example, [Optimism (OP) governance token page on optimism network](https://evmexplorer.com/contracts/optimism/0x4200000000000000000000000000000000000042):
 
-![Optimism ERC20 Token Data](images/posts/evmexplorer/optokendata.webp)
+![Optimism ERC20 Token Data](https://dspyt.com/images/posts/evmexplorer/optokendata.webp)
 
 [Arbitrum (ARB) governance token page on arbitrum network](https://evmexplorer.com/contracts/arbitrum/0x912ce59144191c1204e64559fe8253a0e49e6548):
 
-![Arbitrum ERC20 Token Data](images/posts/evmexplorer/arbitrum.webp)
+![Arbitrum ERC20 Token Data](https://dspyt.com/images/posts/evmexplorer/arbitrum.webp)
 
 For a Number of Validations example, please, have a look at [Lido Execution Layer Rewards Vault on Ethereum](https://evmexplorer.com/contracts/mainnet/0x388C818CA8B9251b393131C08a736A67ccB19297):
 
-![Lido smart contract Data](images/posts/evmexplorer/Lido.webp)
+![Lido smart contract Data](https://dspyt.com/images/posts/evmexplorer/Lido.webp)
 
 ## Transaction page
 
@@ -116,13 +116,13 @@ The transaction page contains a block number, transaction type, transaction time
 
 For instance, have a look at Vitalik's [swap transaction](https://evmexplorer.com/transactions/mainnet/0x8c973ec1f829663aa22b37d6a1c76a8e31c647ae80f17fbec1596c678f393bec) with Meta Aggregation Router V2.
 
-![Vitalik Transaction page](images/posts/evmexplorer/vitalikTransactionSwap.webp)
+![Vitalik Transaction page](https://dspyt.com/images/posts/evmexplorer/vitalikTransactionSwap.webp)
 
 ## Blocks page
 
 On the Blocks page, users can access essential information such as block number, block miner, block timestamp, providing insight into the blockchain's operations. For example, [20,898,767 Ethereum mainnet block](https://evmexplorer.com/blocks/mainnet/20898767) is displayed below.
 
-![Blocks Page](images/posts/evmexplorer/blocksPageMainnet.webp)
+![Blocks Page](https://dspyt.com/images/posts/evmexplorer/blocksPageMainnet.webp)
 
 Additionally, aggregate data is prominently displayed, including the total **Gas Usage**, **Transactions count**, and **Average Gas per Transaction**, offering a comprehensive overview of the block's activity. Furthermore, the page showcases detailed transaction data with information on the receiver, sender, gas used, and transaction value in USD similar to transaction data available on an **address page**.
 
@@ -144,15 +144,15 @@ Additionally, aggregate data is prominently displayed, including the total **Gas
 - [Velodrome Finance](https://evmexplorer.com/explore/Velodrome%20Finance)
 - [Token Sets](https://evmexplorer.com/explore/Token%20Sets)
 
-![EVM Explorer Explorer Page](images/posts/evmexplorer/explorer.webp)
+![EVM Explorer Explorer Page](https://dspyt.com/images/posts/evmexplorer/explorer.webp)
 
 For instance, clicking on [ERC20 rectangle](https://evmexplorer.com/explore/ERC20) will display detailed information about ERC20 contracts and networks.
 
-![EVM Explorer Erc20](images/posts/evmexplorer/erc20.webp)
+![EVM Explorer Erc20](https://dspyt.com/images/posts/evmexplorer/erc20.webp)
 
 You can also search contracts by name and a chain:
 
-![EVM Explorer Erc20 Search](images/posts/evmexplorer/erc20Search.webp)
+![EVM Explorer Erc20 Search](https://dspyt.com/images/posts/evmexplorer/erc20Search.webp)
 
 ## Token data as an image and consise report
 
@@ -160,7 +160,7 @@ Selecting an ERC20, ERC721 or ERC1155 token contract will lead you to an address
 
 An Example of Copied PNG Image, particularly popular on Social Networks:
 
-![Copy Arbitrum Token Data](images/posts/evmexplorer/tokeninfo.webp)
+![Copy Arbitrum Token Data](https://dspyt.com/images/posts/evmexplorer/tokeninfo.webp)
 
 Available data:
 

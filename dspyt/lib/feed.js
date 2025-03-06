@@ -95,9 +95,9 @@ async function GeneratedRssFeed() {
     generator: "Feed for Node.js", // option (default: https://github.com/jpmonette/feed)
     updated: new Date(),
     feedLinks: {
-      json: `${siteUrl}rss/feed.json`,
-      rss2: `${siteUrl}rss/feed.xml`,
-      atom: `${siteUrl}rss/feed.xml`,
+      json: `${siteUrl}/rss/feed.json`,
+      rss2: `${siteUrl}/rss/feed.xml`,
+      atom: `${siteUrl}/rss/feed.xml`,
     },
     author: {
       name: author,
@@ -121,6 +121,7 @@ async function GeneratedRssFeed() {
         },
       ],
       date: new Date(post.date),
+      image: post.cover_image,
     });
   });
 
