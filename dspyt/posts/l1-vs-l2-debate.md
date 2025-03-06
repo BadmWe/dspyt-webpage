@@ -11,7 +11,6 @@ tags:
     "L2",
     "Ethereum",
     "Devconflict",
-    "Kiwi writing contest",
     "gas fees",
     "Proof of Stake",
     "Scalability",
@@ -23,10 +22,6 @@ tags:
   ]
 authors: ["pavel-fedotov"]
 ---
-
-_This post is taking part in the [Devconflict x Kiwi writing contest](https://paragraph.xyz/@kiwi-updates/arena-devconflict-writing-contest)._
-
-## Introduction
 
 Ethereum has emerged as a robust platform for decentralized applications, leading the charge in the world of blockchain technology. However, as the network matures, it faces pressing challenges that threaten its efficiency, scalability, and usability. One pivotal debate within the Ethereum community centers around the question: **Should we prioritize Layer 1 (L1) enhancements or embrace the potential of Layer 2 (L2) solutions?** This discussion was fundamentally addressed at Devconflict, where thought leaders clashed over the merits and drawbacks of both approaches.
 

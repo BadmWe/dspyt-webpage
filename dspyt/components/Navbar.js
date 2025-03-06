@@ -42,7 +42,7 @@ export default function Navbar() {
                     height={32}
                     width={120}
                     src={Logo}
-                    alt="Dspyt : Data Science with Python"
+                    alt="Dspyt: Data Science with Python"
                   />
                 </Link>
 

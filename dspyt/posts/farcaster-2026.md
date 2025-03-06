@@ -24,8 +24,6 @@ tags:
   ]
 ---
 
-_This post is taking part in the Farcaster 2026 writing contest._
-
 In the ever-evolving digital landscape, the concept of decentralized social media networks is gaining traction as a response to the centralized control and data exploitation practices of traditional social media platforms. One such network that has captured the attention of the Web3 community is Farcaster, a decentralized and open-source alternative that promises to revolutionize the way we communicate and share information online.
 
 As we look ahead to 2026, here are several potential pathways for Farcaster to amplify its growth and solidify its place in the decentralized social media landscape.
