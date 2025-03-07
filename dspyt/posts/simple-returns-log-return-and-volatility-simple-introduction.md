@@ -84,7 +84,7 @@ def realized_volatility(series):
 df.groupby(df.index.date).agg(realized_volatility)
 ```
 
-![realized volatility](/images/posts/logreturns/rv.webp)
+![realized volatility](https://dspyt.com/images/posts/logreturns/rv.webp)
 
 ## Realized Variance
 
