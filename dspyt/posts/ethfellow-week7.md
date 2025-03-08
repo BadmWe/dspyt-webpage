@@ -2,7 +2,7 @@
 title: "Improving NextJS Ethereum Explorer: Contract UI Improvements"
 date: "March 24, 2023"
 excerpt: "We enhanced NextJS Explorer by adding latest transactions and a modal for functions, current state, events, constructor, views, fallbacks and payables."
-cover_image: "https://dspyt.com/images/posts/explorer/pexels-clément-proust-16038653.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-clement-proust-16038653.webp"
 authors: ["dspytdao"]
 tags:
   [
