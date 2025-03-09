@@ -3,7 +3,7 @@ title: "Unlock the Power of Decentralization with PinSave"
 date: "24 December, 2022"
 excerpt: "Experience the benefits of decentralized storage, smart contracts, and creator ownership of intellectual property to protect and monetize your content."
 authors: ["pavel-fedotov"]
-cover_image: "https://dspyt.com/images/posts/Pinsave/Pin Save.webp"
+cover_image: "https://dspyt.com/images/posts/Pinsave/PinSave.webp"
 tags:
   [
     "IPFS",
