@@ -2,7 +2,7 @@
 title: "ETHBucharest 2025 Hackathon: Building Blockchain Solutions for Real-World Impact"
 date: "March 15, 2025"
 excerpt: "Join the ETHBucharest 2025 Hackathon to build impactful blockchain solutions for real-world challenges, with prizes totaling over $29,000."
-cover_image: "/images/posts/ethereum/ETHBucharest2025.webp"
+cover_image: "https://dspyt.com/images/posts/ethereum/ETHBucharest2025.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -25,6 +25,16 @@ tags:
     "Real World Impact",
   ]
 ---
+
+In an era where blockchain technology is often synonymous with speculative trends, ETHBucharest 2025 is flipping the script. From April 2–5, developers, entrepreneurs, and visionaries will converge at Romania's National Library to tackle societal challenges head-on—not with abstract ideas, but with actionable solutions rooted in transparency, traceability, and ownership.
+
+This isn't just another hackathon. ETHBucharest 2025 challenges participants to answer a critical question: How can blockchain reshape systems we interact with daily? Imagine academic credentials that can't be falsified, supply chains that expose unethical practices in real time, or voting systems where every ballot is immutable. These aren't hypotheticals—they're the benchmarks for this year's projects, which must pair technical ingenuity with real-world viability.
+
+For the first time, teams will submit not just code, but a business plan, bridging the gap between prototype and product. It's a call to attract not only developers but marketers, strategists, and storytellers—because solving tomorrow's problems demands more than technical prowess.
+
+With $29,000+ in prizes, sponsor-backed bounties, and post-hackathon grants from industry giants like Arbitrum and Uniswap, ETHBucharest 2025 isn't just about building tools — it's about launching legacies.
+
+Join us as we unpack how this event is redefining blockchain's role in society, one line of code (and a solid business model) at a time.
 
 ## Event Highlights
 
@@ -70,6 +80,8 @@ All hackers receive free access to the **ETHBucharest Conference 2025**, featuri
 - Max 4 members, including non-developers (marketers, business strategists).
 
 - IRL team formation session on April 2.
+
+- Register on [DoraHacks](https://dorahacks.io/hackathon/ethbucharest/detail).
 
 ### Quotes
 
