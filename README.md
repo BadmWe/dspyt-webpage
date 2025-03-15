@@ -18,7 +18,7 @@ Our mission involves the following key areas:
 
 We are currently collaborating with several open-source projects in Ethereum, Algorand, Near, Fuel and blockchain communities:
 
-- **[Pin Save EVM](https://github.com/pinsavedao/PinSave-EVM)**: EVM compatible version of Pin Save. Decentralized Pinterest.
+- **[PinSave EVM](https://github.com/pinsavedao/PinSave-EVM)**: EVM compatible version of PinSave. Decentralized Pinterest.
 - **[Algo AMM](https://github.com/dspytdao/Algo_AMM)**: Automated Prediction Market Maker on Algorand.
 - **[Dspyt AI](https://github.com/dspytdao/dspytai)**: Dapp that utilizes on-chain data to model potential price fluctuations in real-time.
 - **[TradeCoin](https://github.com/AlexFedotovqq/TradeCoin)**: TradeCoin provides DeFi tools for token holders & businesses to buy, trade, create, and secure crypto assets with confidence.

@@ -14,12 +14,13 @@ tags:
     "Social Media Decentralization",
     "PinSave",
     "Pin Save",
+    "Ethereum",
   ]
 ---
 
-In today's digital landscape, [PinSave](https://pinsave.app) is pioneering a decentralized image sharing and content aggregation platform, putting the control firmly into the hands of its users .
+In today's digital landscape, [PinSave](https://pinsave.app) is pioneering a decentralized image sharing and content aggregation platform, putting the control firmly into the hands of its users.
 
-## Addressing Crucial Problems: Pin Save's Unique Market Approach
+## Addressing Crucial Problems: PinSave's Unique Market Approach
 
 In a determined quest to address monumental issues faced by monolithic online counterparts, PinSave's groundbreaking model integrates decentralized storage, smart contracts, and creator ownership of intellectual property. This revolutionizes the paradigm for content creators and communities, distinctly setting PinSave apart from traditional platforms .
 

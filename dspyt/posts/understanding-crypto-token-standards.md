@@ -96,7 +96,7 @@ In the realm of blockchain, knowledge is not static but a dynamic force shaping 
 
 ## Related Links and Posts
 
-- [Pin Save EVM GitHub repository](https://github.com/dspytdao/PinSave-EVM)
+- [PinSave EVM GitHub repository](https://github.com/dspytdao/PinSave-EVM)
 - [What is a blockchain address](https://dspyt.com/what-is-blockchain-address)
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)
