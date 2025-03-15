@@ -26,11 +26,11 @@ tags:
   ]
 ---
 
-In an era where blockchain technology is often synonymous with speculative trends, ETHBucharest 2025 is flipping the script. From April 2–5, developers, entrepreneurs, and visionaries will converge at Romania's National Library to tackle societal challenges head-on—not with abstract ideas, but with actionable solutions rooted in transparency, traceability, and ownership.
+In an era where blockchain technology is often synonymous with speculative trends, ETHBucharest 2025 is flipping the script. From April 2–5, developers, entrepreneurs, and visionaries will converge at Romania's National Library to tackle societal challenges head-on — not with abstract ideas, but with actionable solutions rooted in transparency, traceability, and ownership.
 
-This isn't just another hackathon. ETHBucharest 2025 challenges participants to answer a critical question: How can blockchain reshape systems we interact with daily? Imagine academic credentials that can't be falsified, supply chains that expose unethical practices in real time, or voting systems where every ballot is immutable. These aren't hypotheticals—they're the benchmarks for this year's projects, which must pair technical ingenuity with real-world viability.
+This isn't just another hackathon. ETHBucharest 2025 challenges participants to answer a critical question: How can blockchain reshape systems we interact with daily? Imagine academic credentials that can't be falsified, supply chains that expose unethical practices in real time, or voting systems where every ballot is immutable. These aren't hypotheticals — they're the benchmarks for this year's projects, which must pair technical ingenuity with real-world viability.
 
-For the first time, teams will submit not just code, but a business plan, bridging the gap between prototype and product. It's a call to attract not only developers but marketers, strategists, and storytellers—because solving tomorrow's problems demands more than technical prowess.
+For the first time, teams will submit not just code, but a business plan, bridging the gap between prototype and product. It's a call to attract not only developers but marketers, strategists, and storytellers — because solving tomorrow's problems demands more than technical prowess.
 
 With $29,000+ in prizes, sponsor-backed bounties, and post-hackathon grants from industry giants like Arbitrum and Uniswap, ETHBucharest 2025 isn't just about building tools — it's about launching legacies.
 
@@ -67,9 +67,9 @@ Judging criteria include technical excellence, innovation, and real-world adopti
 
 **Key Dates**:
 
-- April 2: Workshops (12 PM–8 PM).
+- April 2: Workshops (12 PM – 8 PM).
 
-- April 3–5: Hackathon (8 AM–12 AM daily).
+- April 3–5: Hackathon (8 AM – 12 AM daily).
 
 - April 5: Submissions close at 10 AM.
 
@@ -85,7 +85,7 @@ All hackers receive free access to the **ETHBucharest Conference 2025**, featuri
 
 ### Quotes
 
-> ETHBucharest 2025 isn't just about code — it's about building solutions that matter. We’re excited to see multidisciplinary teams tackle real-world problems with blockchain's transformative power.
+> ETHBucharest 2025 isn't just about code — it's about building solutions that matter. We are excited to see multidisciplinary teams tackle real-world problems with blockchain's transformative power.
 > – Alina Popescu, Organizer, ETHBucharest
 
 ## Join the Innovation
