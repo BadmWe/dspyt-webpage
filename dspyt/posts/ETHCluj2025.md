@@ -2,7 +2,7 @@
 title: "ETHCluj 2025: Shaping the Future of Ethereum and Web3 in Cluj-Napoca"
 date: "March 16, 2025"
 excerpt: "ETHCluj 2025 (June 26-28) unites developers & Web3 leaders exploring Ethereum’s DeFi, AI & DAO innovations to drive decentralized solutions."
-cover_image: "/images/posts/ethereum/ETHCluj2025.webp"
+cover_image: "https://dspyt.com/images/posts/ethereum/ETHCluj2025.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
