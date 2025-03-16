@@ -14,7 +14,7 @@ import { getAllFilesFrontMatter, getFileBySlug } from "@/lib/mdx";
 const people = [
   {
     name: "Dmitrii Fedotov",
-    role: "Lead Developer",
+    role: "Author",
     imageUrl: "/authors/ava-dmitrii.webp",
     twitterUrl: "https://twitter.com/DmitriFedotov",
     linkedinUrl: "https://www.linkedin.com/in/dmitrii-fedotov/",
@@ -24,8 +24,8 @@ const people = [
   },
   {
     name: "Pavel Fedotov",
-    role: "Advisor",
-    imageUrl: "/authors/pavel-ava.webp",
+    role: "Founder",
+    imageUrl: "/authors/pavel-fedotov.webp",
     twitterUrl: "https://twitter.com/pfedprog",
     linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
     githubUrl: "https://github.com/pfed-prog",

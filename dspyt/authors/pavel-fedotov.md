@@ -1,8 +1,8 @@
 ---
 name: Pavel Fedotov
-avatar: "/authors/pavel-ava-profile-page.webp"
-smallAvatar: "/authors/pavel-ava-small.webp"
-company: "Dspyt"
+avatar: "/authors/pavel-fedotov.webp"
+smallAvatar: "/authors/pavel-fedotov.webp"
+company: "Dspyt Inc."
 email: pavel@dspyt.com
 twitter: https://twitter.com/pfedprog
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
