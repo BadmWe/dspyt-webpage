@@ -2,7 +2,7 @@
 title: "Unveiling the Long Term Incentives Pilot Program"
 date: "February 12, 2024"
 excerpt: "The Arbitrum DAO has launched the Long Term Incentives Pilot Program to revolutionize protocol incentivization."
-cover_image: "/images/posts/arbitrum/ltipp.webp"
+cover_image: "https://dspyt.com/images/posts/arbitrum/ltipp.webp"
 tags:
   [
     "governance",

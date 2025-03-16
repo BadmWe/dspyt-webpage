@@ -2,7 +2,7 @@
 title: "Gitcoin Beta Round Statistics: An In-Depth Analysis of Grant Funding Trends"
 date: "May 15, 2023"
 excerpt: "We explore the data from Gitcoin Beta Round and gain insights into the grant funding process. We analyze grants in each round and its statistics."
-cover_image: "/images/posts/betaround/Demoday Project Invitation_Project_ZKBlind.webp"
+cover_image: "https://dspyt.com/images/posts/betaround/Demoday-Project-Invitation_Project_ZKBlind.webp"
 authors: ["dspytdao"]
 tags:
   [
@@ -48,7 +48,7 @@ Here is the data on rounds:
 data
 ```
 
-![data](/images/posts/betaround/stats1.webp)
+![data](https://dspyt.com/images/posts/betaround/stats1.webp)
 
 ```python
 data.info()
@@ -99,7 +99,7 @@ plt.ylabel("Frequency")
 plt.show()
 ```
 
-![data2](/images/posts/betaround/stats2.webp)
+![data2](https://dspyt.com/images/posts/betaround/stats2.webp)
 This code creates a histogram of the 'Total projects' column of the DataFrame 'data'. The 'Total projects' column contains the number of projects funded in each round of the grants program.
 
 The histogram shows the distribution of the number of projects funded across the different rounds. The x-axis represents the `Total projects``, and the y-axis represents the frequency of the number of rounds with a particular number of projects funded.The histogram is divided into 5 bars.
@@ -116,7 +116,7 @@ The histogram also shows that the distribution of the "Total projects" variable 
 data2
 ```
 
-![data3](/images/posts/betaround/stats3.webp)
+![data3](https://dspyt.com/images/posts/betaround/stats3.webp)
 
 This data connected with rowdfunding platform or grant program. It contains various columns with information about the grants, such as:
 
@@ -137,7 +137,7 @@ The data also includes columns related to the crowdfunding platform's metadata, 
 data2.info()
 ```
 
-![data5](/images/posts/betaround/stats5.webp)
+![data5](https://dspyt.com/images/posts/betaround/stats5.webp)
 
 This is a pandas DataFrame with 19 rows and 41 columns. Each row represents a different funding round for a project, and each column provides information about that round or project.
 
@@ -221,7 +221,7 @@ The columns include:
 data2.describe()
 ```
 
-![data6](/images/posts/betaround/stats6.webp)
+![data6](https://dspyt.com/images/posts/betaround/stats6.webp)
 
 This is the summary statistics for some of the columns in the pandas DataFrame.
 
@@ -290,7 +290,7 @@ plt.ylabel("Frequency")
 plt.show()
 ```
 
-![data21](/images/posts/betaround/plot21.webp)
+![data21](https://dspyt.com/images/posts/betaround/plot21.webp)
 
 This is a histogram of the "amountUSD" column from the pandas Beta Round Data Set DataFrame.
 
@@ -309,7 +309,7 @@ summary = data2.describe()
 print(summary)
 ```
 
-![data70](/images/posts/betaround/stats7.webp)
+![data70](https://dspyt.com/images/posts/betaround/stats7.webp)
 
 This is the summary statistics for additional columns in the pandas DataFrame "data2": "createdAtBlock", "updatedAtBlock", "applicationMetadata.
 applicationSchema", "metadata.description", and
@@ -331,7 +331,7 @@ plt.title('Correlation Matrix')
 plt.show()
 ```
 
-![matrix](/images/posts/betaround/matrix.webp)
+![matrix](https://dspyt.com/images/posts/betaround/matrix.webp)
 
 This is a correlation matrix showing the correlation coefficients between pairs of columns in the pandas Beta Round Data Set DataFrame.
 
@@ -347,7 +347,7 @@ The correlation matrix can be used to identify which columns are strongly correl
 datavotes
 ```
 
-![datavotes](/images/posts/betaround/stats8.webp)
+![datavotes](https://dspyt.com/images/posts/betaround/stats8.webp)
 
 This data represent transactions made on a blockchain platform, related to grant funding for projects. Each row in the dataset represents a single transaction, with various pieces of information related to that transaction, such as the transaction ID, block number, and project ID.
 
@@ -359,7 +359,7 @@ Other columns, such as "voter" and "grantAddress," provide additional context ab
 datavotes.info()
 ```
 
-![datavotesstat](/images/posts/betaround/votesstat.webp)
+![datavotesstat](https://dspyt.com/images/posts/betaround/votesstat.webp)
 
 This is a Pandas DataFrame object that contains data related to transactions made on a blockchain platform. The DataFrame has 41507 rows and 12 columns. Each row represents a single transaction, and the columns provide information about that transaction, such as the transaction ID, block number, project ID, and voter.
 
@@ -371,7 +371,7 @@ Overall, this DataFrame provides a structured way to work with the transaction d
 datavotes.describe()
 ```
 
-![datavotesstat](/images/posts/betaround/statdatavotes.webp)
+![datavotesstat](https://dspyt.com/images/posts/betaround/statdatavotes.webp)
 
 This is a summary of some of the key statistics for the "blockNumber", "applicationId", and "amountUSD" columns of the DataFrame:
 
@@ -386,20 +386,20 @@ datavotes = datavotes.merge(data, left_on='roundId', right_on='Round ID')
 datavotes.sort_values(['roundId', 'blockNumber'], ascending=[True, True])
 ```
 
-![datavot](/images/posts/betaround/vot.webp)
+![datavot](https://dspyt.com/images/posts/betaround/vot.webp)
 
 ```python
 datavotes['cummul'] = datavotes.groupby('roundId')['amountUSD'].cumsum()
 datavotes
 ```
 
-![data2](/images/posts/betaround/ko.webp)
+![data2](https://dspyt.com/images/posts/betaround/ko.webp)
 
 ```python
 px.scatter(datavotes, x = datavotes.blockNumber, y = datavotes.amountUSD, color="Round name",  marginal_x="histogram", marginal_y="rug")
 ```
 
-![newplot](/images/posts/betaround/newplot1.webp)
+![newplot](https://dspyt.com/images/posts/betaround/newplot1.webp)
 
 The scatter plot shows the relationship between blockNumber and amountUSD, with the points colored by Round name. The blockNumber is the block number of Ethereum blockchain where a vote was cast, while amountUSD is the amount of USD equivalent of the vote. The scatter plot shows how the amount of USD equivalent of the votes changes over time i.e., block number, and whether there are any patterns or trends in the data.
 
@@ -409,7 +409,7 @@ The color of the points indicate which round or source the votes came from. The 
 px.scatter(datavotes, x = datavotes.blockNumber, y = datavotes.cummul, color="Round name",  marginal_x="histogram", marginal_y="rug")
 ```
 
-![newplot2](/images/posts/betaround/newplot2.webp)
+![newplot2](https://dspyt.com/images/posts/betaround/newplot2.webp)
 
 The scatter plot shows the relationship between blockNumber and cummul, with the points colored by Round name.
 cummul is a cumulative sum of some quantity, and Round name refers to a round of voting or funding. The scatter plot shows how the cumulative sum changes over time i.e., block number for each round, and whether there are any patterns or trends in the data.
@@ -422,7 +422,7 @@ We have loaded data here datavotes.to_csv('dataframe.csv') You can buy them by c
 dataoverall
 ```
 
-![overall](/images/posts/betaround/overall.webp)
+![overall](https://dspyt.com/images/posts/betaround/overall.webp)
 
 This is a sample of rows from the original DataFrame, with various columns and their associated values listed for each row. Each row represents a single transaction on a blockchain platform.
 
@@ -447,7 +447,7 @@ The "NaN" values in some of the columns suggest that there may be missing data i
 dataoverall.info()
 ```
 
-![overall2](/images/posts/betaround/overall2.webp)
+![overall2](https://dspyt.com/images/posts/betaround/overall2.webp)
 
 This is a dataset with 29 entries and 41 columns, containing information about crowdfunding campaigns. The columns include details such as the ID of the campaign, the amount of money raised in, the number of votes received, the type of token used, the start and end times for the campaign, and various metadata such as the name and description of the campaign, eligibility requirements, and configurations. There are also several columns with missing data.
 
@@ -455,7 +455,7 @@ This is a dataset with 29 entries and 41 columns, containing information about c
 dataoverall.describe()
 ```
 
-![overallstat](/images/posts/betaround/overa.webp)
+![overallstat](https://dspyt.com/images/posts/betaround/overa.webp)
 
 This data shows various statistics for 29 crowdfunding campaigns. Here is an explanation of each column:
 
@@ -488,7 +488,7 @@ df = pd.read_csv('../Untitled Folder/overall.csv')
 df.describe()
 ```
 
-![overall](/images/posts/betaround/overallstatis.webp)
+![overall](https://dspyt.com/images/posts/betaround/overallstatis.webp)
 
 ```python
 plt.hist(df['amountUSD'])
@@ -498,7 +498,7 @@ plt.title('Histogram of Amount Donated')
 plt.show()
 ```
 
-![table](/images/posts/betaround/table.webp)
+![table](https://dspyt.com/images/posts/betaround/table.webp)
 
 This is the summary statistics table that was previously shown.
 
@@ -556,7 +556,7 @@ model = sm.OLS(y, X).fit()
 print(model.summary())
 ```
 
-![statsover](/images/posts/betaround/statsover.webp)
+![statsover](https://dspyt.com/images/posts/betaround/statsover.webp)
 
 This is a summary table of the results of a linear regression model that was fitted to the data. The model predicts the amount of money raised in US dollars (the dependent variable) using two independent variables: the number of votes received and the number of unique contributors to the campaign.
 

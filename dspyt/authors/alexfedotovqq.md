@@ -3,7 +3,7 @@ name: Alexander Fedotov
 avatar: "/authors/sasha-ava-profile-page.webp"
 smallAvatar: "/authors/ava-sasha.webp"
 company: "Fedotov, LLC"
-email: alexkekfedotov@gmail.com
+email: alexander@dspyt.com
 twitter: "https://twitter.com/AlexFedotovqq"
 github: "https://github.com/AlexFedotovqq"
 title: "Alexander Fedotov - DspytDAO profile"

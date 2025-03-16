@@ -2,23 +2,23 @@
 title: "Unlocking the Secrets of AI Success in the Modern World"
 date: "December 21, 2023"
 excerpt: "Unlock AI success: from data foundations to strategic implementation. Explore ethics and collaboration shaping the future of artificial intelligence."
-cover_image: "/images/posts/cybersecurity/AI.webp"
+cover_image: "https://dspyt.com/images/posts/cybersecurity/AI.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [
-  "AI success",
-  "modern world",
-  "artificial intelligence",
-  "strategic planning",
-  "ethical considerations",
-  "ai",
-  "collaborative efforts",
-  "data-driven",
-  "algorithms",
-  "computing power",
-  "deep learning",
-  "security",
-  "it",
+    "AI success",
+    "modern world",
+    "artificial intelligence",
+    "strategic planning",
+    "ethical considerations",
+    "ai",
+    "collaborative efforts",
+    "data-driven",
+    "algorithms",
+    "computing power",
+    "deep learning",
+    "security",
+    "it",
   ]
 ---
 

@@ -2,7 +2,7 @@
 title: "DeFi Dynamics: Liquidity Boosts, Security Challenges"
 date: "December 16, 2023"
 excerpt: "Discover DeFi's dynamic landscape with insights on protocols, liquidity, and security. A comprehensive view of the evolving decentralized financial ecosystem."
-cover_image: "/images/posts/defi/defi.webp"
+cover_image: "https://dspyt.com/images/posts/defi/defi.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

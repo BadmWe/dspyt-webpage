@@ -2,7 +2,7 @@
 title: "Getting Started with o1js: A Beginner's Guide to Zero Knowledge Programming"
 date: "January 18, 2025"
 excerpt: "The o1js TypeScript library facilitates the creation of zero knowledge proofs and zk smart contracts on the Mina blockchain."
-cover_image: "/images/posts/Mina/TypesMina.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/TypesMina.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

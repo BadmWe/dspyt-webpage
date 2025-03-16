@@ -2,7 +2,7 @@
 title: "XRC Swap: Unlocking Liquidity with an Automated Market Maker"
 date: "January 11, 2023"
 excerpt: "XRC-Swap is a decentralized protocol for automated token exchange on XDC, providing trustless, permissionless access to liquidity."
-cover_image: "/images/posts/xrcswap/image.webp"
+cover_image: "https://dspyt.com/images/posts/xrcswap/image.webp"
 authors: ["alexfedotovqq"]
 tags:
   [

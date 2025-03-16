@@ -2,7 +2,7 @@
 title: "Gitcoin's Pilot Initiative with Allo Protocol"
 date: "February 12, 2024"
 excerpt: "Gitcoin's Quadratic Funding Pilot Initiative with Allo Protocol revolutionizes community-driven funding. Explore motivations, strategies, and outcomes."
-cover_image: "/images/posts/gitcoingrants/allogitcoin.webp"
+cover_image: "https://dspyt.com/images/posts/gitcoingrants/allogitcoin.webp"
 authors: ["dmitrii-fedotov"]
 tags:
   [

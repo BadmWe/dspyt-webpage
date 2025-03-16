@@ -2,7 +2,7 @@
 title: "Ultimate Guide to Python Proxy Scraping with AIOHTTP: Optimize Proxies"
 date: "May 2, 2022"
 excerpt: "A proxy server is a remote server through which you connect to obfuscate your initial address. The proxy overlays your authentic IP address."
-cover_image: "/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
+cover_image: "https://dspyt.com/images/posts/proxy/proxy-proxy-server-proxy-online-proxy-proxy-site-proxy-list-768x575.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -30,7 +30,7 @@ Please note that to optimize your proxy scrapping process, we highly recommend u
 
 A proxy server is a remote server through which you connect to obfuscate your initial address. Since the proxy hides and overlays your authentic IP address with its IP, the destination server can only see the IP of the proxy. Hence, if you rotate proxies with each request, the endpoint will recognize them as separate ones since they are coming from different IP addresses. Thus, you increase the speed and chance of obtaining data for research.
 
-![python proxy server](/images/posts/proxy/Proxy-Server.webp)
+![python proxy server](https://dspyt.com/images/posts/proxy/Proxy-Server.webp)
 
 ## Where is my proxy?
 
@@ -242,7 +242,7 @@ Nevertheless, free proxy servers will quickly get flagged since too many people 
 
 For more reliable service we recommend paid residential proxy servers that [Bright Data](https://get.brightdata.com/lp1656) provides. Formerly known as Luminaty the third-party service has a well-written api documentation for python that you can use to manage your proxies.
 
-![python proxy server api](/images/posts/proxy/image-5.webp)
+![python proxy server api](https://dspyt.com/images/posts/proxy/image-5.webp)
 
 ## Related Posts
 

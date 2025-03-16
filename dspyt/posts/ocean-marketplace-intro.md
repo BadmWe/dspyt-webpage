@@ -2,7 +2,7 @@
 title: "Ocean Datatokens: Unleashing the Power of Data Economics"
 date: "February 25, 2022"
 excerpt: "Dspyt introduces Ocean V3 innovative datatoken concept, Ocean Market, Balancer AMM Pool Design to revolutionize data economy, with veOCEAN introduction."
-cover_image: "/images/posts/defi/ocean.webp"
+cover_image: "https://dspyt.com/images/posts/defi/ocean.webp"
 authors: ["dspytdao"]
 tags:
   [

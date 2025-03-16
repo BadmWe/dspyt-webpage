@@ -2,7 +2,7 @@
 title: "ETH Belgrade 2024: ZKPs on Mina, zkPassport and SoulBound NFTs"
 date: "June 11, 2024"
 excerpt: "The Mina Protocol incorporates innovative features such as non-transferable soulbound tokens, zero-knowledge proofs, zkOracles, VRFs, and off-chain data."
-cover_image: "/images/posts/Mina/ETHBelgrade2024.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/ETHBelgrade2024.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

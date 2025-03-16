@@ -2,7 +2,7 @@
   title: "FIL-RetroPGF Round 2: Key Dates and Overview"
   date: "09.24.2024"
   excerpt: "The Filecoin community is launching RetroPGF 2, a grant initiative aimed at rewarding impactful contributions within the Filecoin ecosystem."
-  cover_image: "/images/posts/Filecoin/retro-pgf2.webp"
+  cover_image: "https://dspyt.com/images/posts/Filecoin/retro-pgf2.webp"
   authors: ["alexfedotovqq"]
   tags:
     [

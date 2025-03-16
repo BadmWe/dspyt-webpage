@@ -2,7 +2,7 @@
 title: "Exploring and Refactoring Contraktor - Ethereum Explorer"
 date: "February 25, 2023"
 excerpt: "Refactored an archived open source Ethereum explorer called Contraktor, connecting Rainbowkit, Wagmi and Ethers to the explorer."
-cover_image: "/images/posts/explorer/explorer.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/explorer.webp"
 authors: ["dspytdao"]
 tags:
   [

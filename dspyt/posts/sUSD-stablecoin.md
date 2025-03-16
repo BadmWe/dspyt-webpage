@@ -2,7 +2,7 @@
 title: "Revolutionizing the Stablecoin Market: The Rise of sUSD"
 date: "November 12, 2024"
 excerpt: "sUSD is a pioneering yield-bearing, RWA-backed synthetic stablecoin on the Solana blockchain that offers users a 4-5% yield through U.S. Treasury Bills."
-cover_image: "/images/posts/solana/Solayer.webp"
+cover_image: "https://dspyt.com/images/posts/solana/Solayer.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

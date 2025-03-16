@@ -2,7 +2,7 @@
 title: "Farcaster 2026: Empowering Decentralized Social Media Users"
 date: "January 23, 2025"
 excerpt: "Discover how Farcaster is transforming social media by prioritizing user ownership, data privacy, and community engagement for a decentralized future."
-cover_image: "/images/posts/farcaster/image.webp"
+cover_image: "https://dspyt.com/images/posts/farcaster/image.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -23,8 +23,6 @@ tags:
     "MARKETING STRATEGIES",
   ]
 ---
-
-_This post is taking part in the Farcaster 2026 writing contest._
 
 In the ever-evolving digital landscape, the concept of decentralized social media networks is gaining traction as a response to the centralized control and data exploitation practices of traditional social media platforms. One such network that has captured the attention of the Web3 community is Farcaster, a decentralized and open-source alternative that promises to revolutionize the way we communicate and share information online.
 

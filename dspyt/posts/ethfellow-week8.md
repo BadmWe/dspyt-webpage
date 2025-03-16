@@ -2,7 +2,7 @@
 title: "Final touches NextJS Explorer: deploying on vercel"
 date: "March 31, 2023"
 excerpt: "The Ethereum Contract Explorer, is a comprehensive tool that simplifies the process of exploring Ethereum contracts."
-cover_image: "/images/posts/explorer/pexels-tony-jimenez-12247840.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-tony-jimenez-12247840.webp"
 authors: ["dspytdao"]
 tags:
   [
@@ -25,7 +25,7 @@ The objective of this project is to offer users a user-friendly interface that s
 
 This week we deployed the application on vercel available at: [https://next-js-explorer-sigma.vercel.app/](https://next-js-explorer-sigma.vercel.app/).
 
-![vercel deployment results](/images/posts/explorer/vercel8.webp)
+![vercel deployment results](https://dspyt.com/images/posts/explorer/vercel8.webp)
 
 ## Ethereum smart contract explorer features
 

@@ -3,7 +3,7 @@ title: "How to Panel data python – An easy introduction"
 date: "May 5, 2022"
 excerpt: "We are introducing the concept of a panel data and illustrate the example of panel data with python on the WHO births data set."
 authors: ["pavel-fedotov"]
-cover_image: "/images/posts/panel/paneldata.webp"
+cover_image: "https://dspyt.com/images/posts/panel/paneldata.webp"
 tags:
   [
     "panel data",
@@ -62,7 +62,7 @@ Econometricians also separate panel data into a wide or a long one. In a wide pa
 
 An example of a wide unbalanced panel data set is [World Health Organization crude birth rates data set available on Kaggle](https://www.kaggle.com/pavfedotov/birth-rate). For 10 of 239 countries and regions crude birth observations span 60 years from 1960 to 2019 while for others only a few periods. The large amount of missing values is likely due to the high administrative cost of collecting the necessary information.
 
-![WHO crude birth rates per 1000](/images/posts/panel/paneldata2.webp)
+![WHO crude birth rates per 1000](https://dspyt.com/images/posts/panel/paneldata2.webp)
 
 In the table above, we display crude birth rates for first 10 countries and regions in alphabetical order. We observe that United Arab Emirates, Antigua and Barbuda and Australia have no missing data points for from 1960 to 1980.
 
@@ -83,7 +83,7 @@ df = pd.read_csv('file.csv', skiprows=3, /
 df.describe()
 ```
 
-![Panel Data Dspyt](/images/posts/panel/paneldata3.webp)
+![Panel Data Dspyt](https://dspyt.com/images/posts/panel/paneldata3.webp)
 
 ## Panel data python with Pandas
 
@@ -101,7 +101,7 @@ df.iloc[:,:10].plot(subplots=True, figsize=(20,60))
 plt.show()
 ```
 
-![Panel data python with Pandas](/images/posts/panel/paneldata4.webp)
+![Panel data python with Pandas](https://dspyt.com/images/posts/panel/paneldata4.webp)
 
 ## Panel data python: data transformation
 
@@ -120,7 +120,7 @@ df['year'] = pd.Categorical(year)
 df.head()
 ```
 
-![Panel Data Dspyt](/images/posts/panel/paneldata5.webp)
+![Panel Data Dspyt](https://dspyt.com/images/posts/panel/paneldata5.webp)
 
 ## Panel data analysis
 
@@ -144,7 +144,7 @@ pooled_res = mod.fit()
 print(pooled_res)
 ```
 
-![Panel Data Python: Pooled OLS regression Dspyt](/images/posts/panel/paneldata6.webp)
+![Panel Data Python: Pooled OLS regression Dspyt](https://dspyt.com/images/posts/panel/paneldata6.webp)
 
 ## References and Related Posts
 

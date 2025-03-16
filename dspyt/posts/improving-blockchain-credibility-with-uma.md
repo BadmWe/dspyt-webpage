@@ -2,7 +2,7 @@
 title: "Improving Blockchain Credibility with UMA"
 date: "November 23, 2021"
 excerpt: "Coordination tool that brings the community together and outlines the roadmap for the project development has immediate potential."
-cover_image: "/images/posts/uma/uma.webp"
+cover_image: "https://dspyt.com/images/posts/uma/uma.webp"
 tags:
   [
     "kpi options",

@@ -3,7 +3,7 @@ title: "Demystifying the Filecoin Virtual Machine (FVM)"
 date: "December 14, 2023"
 excerpt: "Unveiling the Architecture and Potential of the Filecoin Virtual Machine: Empowering Smart Contract Execution and Interoperability."
 authors: ["pavel-fedotov"]
-cover_image: "/images/posts/Filecoin/FVM.webp"
+cover_image: "https://dspyt.com/images/posts/Filecoin/FVM.webp"
 tags:
   [
     "Filecoin",

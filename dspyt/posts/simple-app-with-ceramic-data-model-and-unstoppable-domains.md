@@ -2,7 +2,7 @@
 title: "Simple App with Ceramic Data Model and Unstoppable Domains - DSPYT"
 date: "April 24, 2022"
 excerpt: "Ceramic allows users to have complete ownership over their data by providing decentralized technologies for authentication and data storage."
-cover_image: "/images/posts/ceramic/pexels-antonio-batinic-4164418.webp"
+cover_image: "https://dspyt.com/images/posts/ceramic/pexels-antonio-batinic-4164418.webp"
 tags:
   [
     "javascript",
@@ -274,7 +274,7 @@ When initialized, `DataModels` component does the following:
 7. Finally, `getSkillsPage` constructs and returns the overall page layout combining loading messages, form, and display components.
 8. The `DataModels` component is exported at the end, making it available for import in other parts of the application.
 
-![Ceramic Unstoppable Domains skills page](/images/posts/ceramic/qyg4dep.webp)
+![Ceramic Unstoppable Domains skills page](https://dspyt.com/images/posts/ceramic/qyg4dep.webp)
 
 ## Related Posts
 

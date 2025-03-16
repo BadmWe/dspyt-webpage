@@ -2,11 +2,13 @@
 title: "Navigating the Environmental Impact of Cryptocurrency Mining"
 date: "December 27, 2023"
 excerpt: "The world of cryptocurrency has rapidly evolved, presenting both innovative opportunities and, notably, raising concerns about its environmental impact."
-cover_image: "/images/posts/navigating/navigating.webp"
+cover_image: "https://dspyt.com/images/posts/navigating/navigating.webp"
 authors: ["alexfedotovqq"]
 tags:
   [
     "Cryptocurrency",
+    "climate",
+    "climate change",
     "Bitcoin",
     "Blockchain",
     "Cryptocurrency Mining",

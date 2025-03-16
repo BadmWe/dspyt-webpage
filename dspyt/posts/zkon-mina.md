@@ -2,7 +2,7 @@
 title: "zkOracles on Mina: Bridging On-Chain and Off-Chain Data with ZK Technology"
 date: "January 1, 2025"
 excerpt: "ZKON's zkOracle revolutionizes the blockchain landscape by securely connecting decentralized applications to off-chain data through MPC and ZK methods."
-cover_image: "/images/posts/Mina/zkon.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/zkon.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

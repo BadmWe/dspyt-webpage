@@ -2,7 +2,7 @@
 title: "Improving NextJS Ethereum Explorer: Contract UI Improvements"
 date: "March 24, 2023"
 excerpt: "We enhanced NextJS Explorer by adding latest transactions and a modal for functions, current state, events, constructor, views, fallbacks and payables."
-cover_image: "/images/posts/explorer/pexels-clément-proust-16038653.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-clement-proust-16038653.webp"
 authors: ["dspytdao"]
 tags:
   [
@@ -30,13 +30,13 @@ A modal is a graphical user interface element that appears on top of the rest of
 
 The contract interface was also improved to provide more detailed information about the contract such as the code, current states, events, contract balance and functions.
 
-![Functions modal](/images/posts/explorer/modal7.webp)
+![Functions modal](https://dspyt.com/images/posts/explorer/modal7.webp)
 
 Additionally, we added 10 latest transactions for the contract and improved the UI to display the correct amount of ethereum and number of tokens in the contract.
 
-![NextJS Ethereum Explorer interface: part 1](/images/posts/explorer/interface7.webp)
+![NextJS Ethereum Explorer interface: part 1](https://dspyt.com/images/posts/explorer/interface7.webp)
 
-![NextJS Ethereum Explorer interface: part 2](</images/posts/explorer/interface7(1).webp>)
+![NextJS Ethereum Explorer interface: part 2](https://dspyt.com/images/posts/explorer/interface8.webp)
 
 ## Further Resources and Related Posts
 

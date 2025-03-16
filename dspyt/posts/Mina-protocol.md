@@ -2,7 +2,7 @@
 title: "Mina Protocol: Unlocking the Power of the Mini-Blockchain Ecosystem"
 date: "4 July, 2023"
 excerpt: "Mina Protocol infrastructure is revolutionizing blockchain technology and opening up new opportunities for decentralized systems."
-cover_image: "/images/posts/Mina/Mina-protocol-portada.webp"
+cover_image: "https://dspyt.com/images/posts/Mina/Mina-protocol-portada.webp"
 tags:
   [
     "Mina",

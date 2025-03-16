@@ -2,7 +2,7 @@
 title: "Ethereum Security Data Analytics - DSPYT"
 date: "27 September, 2022"
 excerpt: "We collect and analyze the Ethereum blockchain data with Python and Dune Analytics, particularly focusing on Lazarus Group."
-cover_image: "/images/posts/Honest/dataAnalytics.webp"
+cover_image: "https://dspyt.com/images/posts/Honest/dataAnalytics.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -67,19 +67,19 @@ Next, we transform the data into tables and graphs with the help of Dune Analyti
 
 #### Lazarus Group Total Eth Value Deposited
 
-![Lazarus Group Total Eth Value Deposited](/images/posts/Honest/TotalEth.webp)
+![Lazarus Group Total Eth Value Deposited](https://dspyt.com/images/posts/Honest/TotalEth.webp)
 
 #### Deposit Share by weekly period
 
-![Deposit Share by periodLazarus Transactions](/images/posts/Honest/DepositShareW.webp)
+![Deposit Share by periodLazarus Transactions](https://dspyt.com/images/posts/Honest/DepositShareW.webp)
 
 #### NFT ERC721 Deposits
 
-![NFT ERC721 Deposits](/images/posts/Honest/NFTs.webp)
+![NFT ERC721 Deposits](https://dspyt.com/images/posts/Honest/NFTs.webp)
 
 #### Largest Transactions
 
-![Granular Lazarus Tabular Data](/images/posts/Honest/Txs.webp)
+![Granular Lazarus Tabular Data](https://dspyt.com/images/posts/Honest/Txs.webp)
 
 ### Etherscan Flagged Latest Data Set
 
@@ -96,15 +96,15 @@ Next, we visualize the data set with the help of Dune Analytics:
 
 #### Etherscan Flagged Data Set Total Eth
 
-![Etherscan Flagged Data Set Total](/images/posts/Honest/EtherScanTE.webp)
+![Etherscan Flagged Data Set Total](https://dspyt.com/images/posts/Honest/EtherScanTE.webp)
 
 #### Top Scam Addresses Receivers Latest
 
-![EtherScamDB Top Address Receivers Latest](/images/posts/Honest/DB.webp)
+![EtherScamDB Top Address Receivers Latest](https://dspyt.com/images/posts/Honest/DB.webp)
 
 #### Amount of ETH sent to flagged addresses over time
 
-![Amount of ETH sent to flagged addresses over time](/images/posts/Honest/graph.webp)
+![Amount of ETH sent to flagged addresses over time](https://dspyt.com/images/posts/Honest/graph.webp)
 
 ### Phishing & Scams going through Bitly Data Set
 
@@ -120,7 +120,7 @@ Here is a [medium article](https://medium.com/mycrypto/following-an-ethereum-phi
 
 #### Bitly 2017-2019
 
-![Bitly phishing Data](/images/posts/Honest/Bitly.webp)
+![Bitly phishing Data](https://dspyt.com/images/posts/Honest/Bitly.webp)
 
 On further research we noticed more recent similar scams: [OpenSea phishing scam swindled millions in NFTs](https://www.pcgamer.com/opensea-phishing-scam-swindled-millions-in-nfts/) and [Scam Alert: OpenSea Phishing Emails](https://news.trendmicro.com/2022/03/12/scam-alert-opensea-phishing-emails/) that require more thorough investigation.
 

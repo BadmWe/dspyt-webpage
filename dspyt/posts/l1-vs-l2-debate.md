@@ -1,8 +1,8 @@
 ---
-title: "The Great Debate: L1 vs. L2 in Ethereum’s Future"
+title: "The Great Debate: L1 vs. L2 in Ethereum's Future"
 date: "11 November, 2024"
 excerpt: "The debate over Ethereum's future emphasizes prioritizing Layer 2 solutions for scalability and cost-efficiency while balancing decentralization."
-cover_image: "/images/posts/ethereum/Ethereum_L1_vs_L2_debate.webp"
+cover_image: "https://dspyt.com/images/posts/ethereum/Ethereum_L1_vs_L2_debate.webp"
 tags:
   [
     "Layer 1",
@@ -11,7 +11,6 @@ tags:
     "L2",
     "Ethereum",
     "Devconflict",
-    "Kiwi writing contest",
     "gas fees",
     "Proof of Stake",
     "Scalability",
@@ -23,10 +22,6 @@ tags:
   ]
 authors: ["pavel-fedotov"]
 ---
-
-_This post is taking part in the [Devconflict x Kiwi writing contest](https://paragraph.xyz/@kiwi-updates/arena-devconflict-writing-contest)._
-
-## Introduction
 
 Ethereum has emerged as a robust platform for decentralized applications, leading the charge in the world of blockchain technology. However, as the network matures, it faces pressing challenges that threaten its efficiency, scalability, and usability. One pivotal debate within the Ethereum community centers around the question: **Should we prioritize Layer 1 (L1) enhancements or embrace the potential of Layer 2 (L2) solutions?** This discussion was fundamentally addressed at Devconflict, where thought leaders clashed over the merits and drawbacks of both approaches.
 
@@ -42,11 +37,11 @@ However, optimizing L1 has its limitations. Increasing block sizes or reducing b
 
 Layer 2 refers to protocols built atop the Ethereum blockchain aimed at increasing transaction speeds and reducing costs without changing the underlying protocol. Solutions such as Rollups (Optimistic and ZK-Rollups) are at the forefront of this development. With Ethereum currently handling approximately 13 transactions per second (TPS) and a maximum of 24 TPS, L2 solutions can scale this significantly.
 
-![L2BEAT: Ethereum TPS](/images/posts/ethereum/L2Beat-TPS.webp)
+![L2BEAT: Ethereum TPS](https://dspyt.com/images/posts/ethereum/L2Beat-TPS.webp)
 
 As demonstrated by [L2BEAT](https://l2beat.com/scaling/summary), there are now at least 116 rollups scaling a cumulative total of about 337 transactions per second, reflecting a significant improvement from previous metrics.
 
-![L2BEAT: TPS Total](/images/posts/ethereum/TPS-Total.webp)
+![L2BEAT: TPS Total](https://dspyt.com/images/posts/ethereum/TPS-Total.webp)
 
 ## Introducing PeerDAS
 

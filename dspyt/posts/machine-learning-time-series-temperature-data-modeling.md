@@ -2,7 +2,7 @@
 title: "Machine Learning time series python - Data Science with Python"
 date: "March 4, 2021"
 excerpt: "Sklearn python pipeline with multiple regression models using traditional and established libraries like numpy, pandas, scipy and sklearn."
-cover_image: "/images/posts/temperature/pexels-tom-fisk-6060188-scaled-e1629300731444.webp"
+cover_image: "https://dspyt.com/images/posts/temperature/pexels-tom-fisk-6060188-scaled-e1629300731444.webp"
 tags:
   [
     "Python",
@@ -22,7 +22,7 @@ This post is a write up on machine learning time series python pipeline using tr
 
 We base the post on our experience gained in machine learning competition [Pressure predictor](https://unearthed.solutions/u/competitions/pressure-predictor) for Australian based platform Unearthed, where dspyt team took 11th place out of 55 competitors on a private leaderboard. The company is very strict about the data and code that they provided. You can try the platform in Evergreen Challenges: [Exploration Data Science](https://unearthed.solutions/u/competitions/evergreen/exploration-data-science) and [HYDROSAVER](https://unearthed.solutions/u/competitions/evergreen/hydrosaver).
 
-![Dspyt team Machine Learning Leaderboard](/images/posts/temperature/score.jpg)
+![Dspyt team Machine Learning Leaderboard](https://dspyt.com/images/posts/temperature/score.jpg)
 
 ## Loading Libraries for Python pipeline
 

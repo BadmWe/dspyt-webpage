@@ -2,7 +2,7 @@
 title: "Simple Blockchain data indexing with TrueBlocks"
 date: "April 27, 2022"
 excerpt: "In this article we discuss Blockchain data indexing. Blockchain is a type of a shared database that differs from a typical database."
-cover_image: "/images/posts/trueblocks/pexels-vitaly-vlasov-1342460-e1658960499878.webp"
+cover_image: "https://dspyt.com/images/posts/trueblocks/pexels-vitaly-vlasov-1342460-e1658960499878.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -31,7 +31,7 @@ For example, the transaction data in a Bitcoin Block contains information about 
 
 A blockchain database utilizes blockchain technology to create an immutable ledger of transactions. The first block in the chain is called the Genesis block. As each new block or transaction is recorded, it is added to the previous one to form a chain of data records or a blockchain. As a result, a blockchain contains every transaction recorded since the ledger was started. Blockchain data in a crypto space tends to be represented as a Merkle tree.
 
-![Simple Blockchain data indexing with TrueBlocks](/images/posts/trueblocks/R2H51P1-768x489.webp)
+![Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/images/posts/trueblocks/R2H51P1-768x489.webp)
 
 ## Data Storage
 

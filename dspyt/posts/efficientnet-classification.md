@@ -2,7 +2,7 @@
 title: "A How to efficientnet Keras Classification"
 date: "April 29, 2022"
 excerpt: "We discuss Convolutional Neural Networks, data augmentation, efficientnet classification and how to achieve 100% accuracy."
-cover_image: "/images/posts/efficientnet/pexels-medhat-ayad-383568.webp"
+cover_image: "https://dspyt.com/images/posts/efficientnet/pexels-medhat-ayad-383568.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -20,7 +20,7 @@ tags:
 
 Humans, unlike computers, make sense of what they see based on their experiences, memories, and biological structure. The human brain extracts and analyzes humongous volumes of data using visual cues. To understand the true effect of sight, 40% of our nerve fibers are linked to the retina, and 90% of the information transmitted to the brain is visual. In fact, research at 3M Corporation concluded that we process visuals 60,000 times faster than text.
 
-![efficientnet Keras](/images/posts/efficientnet/pexels-pixabay-35550-2.webp)
+![efficientnet Keras](https://dspyt.com/images/posts/efficientnet/pexels-pixabay-35550-2.webp)
 
 ## Computer Vision Tasks with EfficientNet Keras Classification
 
@@ -28,7 +28,7 @@ To begin with, image classification is a fundamental task that assesses an entir
 
 Furthermore, the more advanced task of separating pixels in an image to a particular object or class requires computer vision techniques and methods. Data scientists and computer vision specialists refer to such tasks as "semantic segmentation" or "dense prediction." Semantic segmentation is particularly popular in autonomous vehicles such as cars, drones, and planes, in addition to medical image diagnosis.
 
-![Computer Vision Tasks with efficientnet Keras classification](/images/posts/efficientnet/image.webp)
+![Computer Vision Tasks with efficientnet Keras classification](https://dspyt.com/images/posts/efficientnet/image.webp)
 
 In this post, we will discuss convolutional neural networks, data augmentation, EfficientNet, and how to achieve nearly 100% accuracy on a classification of several classes of images potentially across multiple datasets. Understanding Deep Convolutional Neural Networks (ConvNets or CNNs) are at the center of computer vision and in my view, deep learning applications.
 
@@ -170,7 +170,7 @@ model.summary()
 
 Finally, we combine the augmentation pipeline, the data generator and our model to estimate the class of the image. On the fourth epoch the model reaches 100%. On the withheld dataset the model generated comparable 99.6%.
 
-![Efficientnet Ketas training results](/images/posts/efficientnet/image-1-1024x344.webp)
+![Efficientnet Ketas training results](https://dspyt.com/images/posts/efficientnet/image-1-1024x344.webp)
 
 ## Summary
 

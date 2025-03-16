@@ -2,7 +2,7 @@
 title: "Aurora — EVM on the NEAR Protocol blockchain"
 date: "April 22, 2022"
 excerpt: "Aurora delivers Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs."
-cover_image: "/images/posts/aurora/aurora.webp"
+cover_image: "https://dspyt.com/images/posts/aurora/aurora.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -40,9 +40,9 @@ DAO is an entity owned and managed by their collective membership with no centra
 
 The bootstrap Council consists of Aurora Labs, the entity that has developed and maintains the Aurora protocol along with a diverse set of early investors and ecosystem partners. Holders of AURORA tokens periodically vote on the constituency of the Council.
 
-![Projects Partners in the Aurora Council](/images/posts/aurora/au1.webp)
+![Projects Partners in the Aurora Council](https://dspyt.com/images/posts/aurora/au1.webp)
 
-![The Record of Proposals Aurora](/images/posts/aurora/au2.webp)
+![The Record of Proposals Aurora](https://dspyt.com/images/posts/aurora/au2.webp)
 
 ## EVM Scaling
 
@@ -59,7 +59,7 @@ To describe in more details, when you send a transaction to an Aurora RPC endpoi
 
 ## Rainbow Bridge
 
-![Rainbow Bridge Aurora](/images/posts/aurora/au3.webp)
+![Rainbow Bridge Aurora](https://dspyt.com/images/posts/aurora/au3.webp)
 
 The Rainbow Bridge allows users to seamlessly migrate assets to NEAR developer-friendly and low-cost platform, circumventing high gas fees without compromising on speed. This is possible because the NEAR protocol is compatible with Ethereum’s smart contracts. As a result, users can move their assets from Ethereum to NEAR without having to worry about losing any of the functionality or security.
 
@@ -69,7 +69,7 @@ Stablecoins like USDT (Tether), DAI, and TUSD; wrapped assets like WBTC and WETH
 
 According to [Dune Analytics Dashboard](https://dune.com/zavodil/rainbow-bridge) as of 25 May 2022, users bridged the total assets accounting for $2,074,653,944.94. DAI, USDT and USDC constituted the most volume.
 
-![Dune Analytics Aurora Dashboard](/images/posts/aurora/au4.webp)
+![Dune Analytics Aurora Dashboard](https://dspyt.com/images/posts/aurora/au4.webp)
 
 ## Decentralized finance (DeFi) on Aurora
 
@@ -83,7 +83,7 @@ Building on NEAR enabled Bastion to have ultra-low transaction fees, greater cap
 
 Bastion chose to build on Aurora/NEAR because they believe the ecosystem has the highest sustainable growth potential. As the fastest sharded Proof-of-Stake chain with superb DevX and infrastructure tools — NEAR has all it takes to become a powerhouse in DeFi space.
 
-![Bastion Pool on Aurora](/images/posts/aurora/au5.webp)
+![Bastion Pool on Aurora](https://dspyt.com/images/posts/aurora/au5.webp)
 
 ## Conclusion
 

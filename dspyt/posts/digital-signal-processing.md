@@ -2,7 +2,7 @@
 title: "Understanding Digital Signal Processing: Applications and Innovations"
 date: "November 9, 2024"
 excerpt: "Explore Digital Signal Processing (DSP) and its transformative applications in audio, imaging, and telecommunications."
-cover_image: "/images/posts/dsp/dsp_processing_.webp"
+cover_image: "https://dspyt.com/images/posts/dsp/dsp_processing_.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

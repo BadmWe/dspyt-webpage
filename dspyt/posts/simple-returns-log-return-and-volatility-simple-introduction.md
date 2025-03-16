@@ -2,7 +2,7 @@
 title: "How to illustrate log returns vs simple returns"
 date: "May 4, 2022"
 excerpt: "In this blog post we are introducing the concepts of log returns vs simple returns, realized volatility and realized variance."
-cover_image: "/images/posts/logreturns/pexels-andrew-neel-9067435-e1629301269244.webp"
+cover_image: "https://dspyt.com/images/posts/logreturns/pexels-andrew-neel-9067435-e1629301269244.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -57,7 +57,7 @@ We call Pandas DataFrame `describe` method to generate descriptive statistics. T
 data.describe()
 ```
 
-![pandas describe descriptive statistics](/images/posts/logreturns/descriptive.webp)
+![pandas describe descriptive statistics](https://dspyt.com/images/posts/logreturns/descriptive.webp)
 
 The main advantage of log returns is that we can easily aggregate them across time, unlike simple returns. For instance, the log return for a year is the sum of the log returns of the days within the year. Additionally, log returns are symmetric around 0, and log return values can range from minus infinity to plus infinity. whereas simple returns' downside is limited to -100%, a negative movement of -25% (movement from 100 USD to 75 USD) does not reverse the losses by going +25% (75 USD to 93.75 USD).
 
@@ -84,7 +84,7 @@ def realized_volatility(series):
 df.groupby(df.index.date).agg(realized_volatility)
 ```
 
-![realized volatility](/images/posts/logreturns/rv.webp)
+![realized volatility](https://dspyt.com/images/posts/logreturns/rv.webp)
 
 ## Realized Variance
 
@@ -98,7 +98,7 @@ def realized_variance(series):
 df.groupby(df.index.date).agg(realized_variance)
 ```
 
-![realized variance](/images/posts/logreturns/rvar.webp)
+![realized variance](https://dspyt.com/images/posts/logreturns/rvar.webp)
 
 ## Summary
 

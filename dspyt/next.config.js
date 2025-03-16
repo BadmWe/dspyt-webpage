@@ -2,6 +2,18 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "dspyt.com",
+      },
+    ],
+    minimumCacheTTL: 31536000,
+    unoptimized: true,
+  },
+
   async redirects() {
     return [
       {

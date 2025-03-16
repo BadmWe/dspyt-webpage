@@ -2,7 +2,7 @@
 title: "Cross-sectional data – An easy introduction"
 date: "April 20, 2022"
 excerpt: "In this article we are introducing the concept of cross sectional data. A cross sectional data example consists of a sample of units at a given point in time."
-cover_image: "/images/posts/cross/image.webp"
+cover_image: "https://dspyt.com/images/posts/cross/image.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -45,7 +45,7 @@ Cross sectional data analysis is a powerful tool that can be used to understand 
 
 We demonstrate a cross sectional data example for econometric analysis with the help of Python. The table below contains a [cross sectional data example on Titanic passengers on April 15th, 1912](https://www.kaggle.com/c/titanic).
 
-![Titanic cross sectional data example](/images/posts/cross/image-1.webp)
+![Titanic cross sectional data example](https://dspyt.com/images/posts/cross/image-1.webp)
 
 The variables include PassengerID - passenger identification number, Survived - indicator of survival, Pclass - ticket class, Name, Sex, Age in years, SibSp - the number of siblings/spouses aboard the Titanic, Parch - the number of parents / children aboard the Titanic, Ticket number, Fare, Cabin number and Embarked - Port of Embarkation. Survival and Sex variables are binary (zero-one) and indicate features of the individual.
 
@@ -57,7 +57,7 @@ The fact that the ordering of the data does not matter for an analysis is a key 
 
 Different variables sometimes correspond to different time periods in cross sectional data examples. For example, to assess the housing market in Melbourne and determine the key price determinants we can study the relationship between the price of houses over a certain period. Such cross sectional data example is also [available on Kaggle](https://www.kaggle.com/dansbecker/melbourne-housing-snapshot).
 
-![Melbourne Housing Snapshot cross sectional data example](/images/posts/cross/image-2-1024x327.webp)
+![Melbourne Housing Snapshot cross sectional data example](https://dspyt.com/images/posts/cross/image-2-1024x327.webp)
 
 The variable Price is a price in dollars which is the target of our study. The fact that prices correspond to different dates, does not lead to any special problems in treating this information as a cross sectional data set. The creators of the data set ordered the observations alphabetically by suburb, but such ordering does not affect further cross sectional analysis.
 

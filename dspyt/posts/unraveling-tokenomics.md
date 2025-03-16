@@ -2,7 +2,7 @@
 title: "Decoding Tokenomics: Guide to Cryptocurrency Economics"
 date: "December 15, 2023"
 excerpt: "This comprehensive guide aims to demystify the intricate world of tokenomics—the economic models underlying cryptocurrencies and tokens."
-cover_image: "/images/posts/tokenomics/tokenomics.webp"
+cover_image: "https://dspyt.com/images/posts/tokenomics/tokenomics.webp"
 authors: ["alexfedotovqq"]
 tags:
   [

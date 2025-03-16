@@ -2,7 +2,7 @@
 title: "SEI Blockchain: Latest Developments, Bridging, and Swapping Guide"
 date: "August 30, 2024"
 excerpt: "Learn how to easily add SEI on Metamask and access SEI through KuCoin. Swap tokens on SEI using DragonSwap and bridge tokens through Stargate Finance."
-cover_image: "/images/posts/defi/sei.webp"
+cover_image: "https://dspyt.com/images/posts/defi/sei.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -40,7 +40,7 @@ tags:
   ]
 ---
 
-Sei Ecosystem is the epicenter of technological advancement, bringing together creative minds and industry leaders to drive the future of Sei's blockchain technology.
+Sei Ecosystem is the epicenter of technological advancement, bringing together creative minds and industry leaders to drive the future of Sei blockchain technology.
 
 To add SEI on Metamask, you can use the Chainlist website to easily add SEI on Metamask, utilizing the information available at [Chainlist SEI](https://chainlist.org/?chain=713715&search=SEI).
 

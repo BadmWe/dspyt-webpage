@@ -2,7 +2,7 @@
 title: "Optimizing Human Infrastructure in Digital Governance"
 date: "October 23, 2024"
 excerpt: "The digital landscape continues to evolve at a rapid pace, with blockchain technology and decentralized finance (DeFi) ecosystems."
-cover_image: "/images/posts/infra/pexels-suissounet-29028366.webp"
+cover_image: "https://dspyt.com/images/posts/infra/pexels-suissounet-29028366.webp"
 authors: ["pavel-fedotov"]
 tags:
   [

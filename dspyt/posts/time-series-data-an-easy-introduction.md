@@ -2,7 +2,7 @@
 title: "Kaggle time series data – An easy introduction"
 date: "April 10, 2022"
 excerpt: "A time series is a collection of observations on at least one variable ordered along single dimension, time. Time series forecasting is invaluable method."
-cover_image: "/images/posts/time-series/Time_series_of_norm_of_difference-map_increment_Δ_during_solving_random_3-SAT_instance.webp"
+cover_image: "https://dspyt.com/images/posts/time-series/Time_series_of_norm_of_difference-map_increment.webp"
 tags:
   [
     "Python",
@@ -26,7 +26,7 @@ tags:
 
 A time series is a collection of observations on at least one variable ordered along single dimension, time. A time series data demonstrates properties such as large data size, abundant attributes and continuity. Time series forecasting is particularly useful in an analysis of a trend and forecasting in macroeconomics. In the field of finance time series data assists in forecasting volatility and an average price.
 
-![Bitcoin price Kaggle time series data example](/images/posts/time-series/time-series.webp)
+![Bitcoin price Kaggle time series data example](https://dspyt.com/images/posts/time-series/time-series.webp)
 
 ## Kaggle Time Series Data Examples
 
@@ -83,13 +83,13 @@ The pandas method`head(2)` displays first 2 rows of the data, meanwhile `info()`
 df.head(2)
 ```
 
-![python pandas head method](/images/posts/time-series/head.webp)
+![python pandas head method](https://dspyt.com/images/posts/time-series/head.webp)
 
 ```python
 df.info()
 ```
 
-![python pandas info method](/images/posts/time-series/info.webp)
+![python pandas info method](https://dspyt.com/images/posts/time-series/info.webp)
 
 ## Visualization
 
@@ -101,7 +101,7 @@ plt.savefig('plot.png')# to save the plot
 plt.show()
 ```
 
-![python matplotlib NIFTY 50 time-series plot](/images/posts/time-series/plot.webp)
+![python matplotlib NIFTY 50 time-series plot](https://dspyt.com/images/posts/time-series/plot.webp)
 
 Moreover, we can plot the data set and conduct a time series analysis using partial auto-correlation and auto-correlation plots that we will cover in details in the future:
 
@@ -112,7 +112,7 @@ data = df[(df.index.minute==25)&(df.index.hour==15)]
 data.head(2)
 ```
 
-![python pandas head method on NIFTY50](/images/posts/time-series/nifty50head.webp)
+![python pandas head method on NIFTY50](https://dspyt.com/images/posts/time-series/nifty50head.webp)
 
 ## Autocorrelation plots
 
@@ -124,7 +124,7 @@ plt.savefig('acf.png')
 plt.show()
 ```
 
-![python autocorrelation plot NIFTY50](/images/posts/time-series/acf.webp)
+![python autocorrelation plot NIFTY50](https://dspyt.com/images/posts/time-series/acf.webp)
 
 ```python
 plot_pacf(data['close'])
@@ -132,7 +132,7 @@ plt.savefig('pacf.png')
 plt.show()
 ```
 
-![python partial autocorrelation plot NIFTY50](/images/posts/time-series/pacf.webp)
+![python partial autocorrelation plot NIFTY50](https://dspyt.com/images/posts/time-series/pacf.webp)
 
 Clearly there is evidence for time-dependence and serial correlation. Hence, we should convert the prices to a log-price due to the property of symmetry around zero and difference the data for stationarity.
 
@@ -151,7 +151,7 @@ plt.savefig('log.png')
 plt.show()
 ```
 
-![time series plot of log-price with matplotlib](/images/posts/time-series/fplot.webp)
+![time series plot of log-price with matplotlib](https://dspyt.com/images/posts/time-series/fplot.webp)
 
 We also provide comparative descriptive statistics. In a normal distribution mean equals median.
 
@@ -159,7 +159,7 @@ We also provide comparative descriptive statistics. In a normal distribution mea
 data.describe()
 ```
 
-![time series pandas python comparative statistics](/images/posts/time-series/cdescribe.webp)
+![time series pandas python comparative statistics](https://dspyt.com/images/posts/time-series/cdescribe.webp)
 
 ```python
 plot_pacf(data['log_return'].dropna())
@@ -167,7 +167,7 @@ plt.savefig('dacf.png')
 plt.show()
 ```
 
-![python differenced time-series autocorrelation plot NIFTY50](/images/posts/time-series/dacf.webp)
+![python differenced time-series autocorrelation plot NIFTY50](https://dspyt.com/images/posts/time-series/dacf.webp)
 
 ```python
 plot_acf(data['log_return'].dropna())
@@ -175,7 +175,7 @@ plt.savefig('dpacf.png')
 plt.show()
 ```
 
-![python differenced time-series partial autocorrelation plot NIFTY50](/images/posts/time-series/dpacf.webp)
+![python differenced time-series partial autocorrelation plot NIFTY50](https://dspyt.com/images/posts/time-series/dpacf.webp)
 
 The plot of differenced log-returns exhibits a constant mean, variance and auto-correlation function.
 

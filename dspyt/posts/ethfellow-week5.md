@@ -2,7 +2,7 @@
 title: "Enhancing User Experience: NextJs Explorer UI Improvements"
 date: "March 10, 2023"
 excerpt: "Our platform has enhanced the user experience. New colours and buttons, restructured layout, and a feature to view transaction details."
-cover_image: "/images/posts/explorer/pexels-lukas-577210.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-lukas-577210.webp"
 authors: ["dspytdao"]
 tags:
   [
@@ -25,21 +25,21 @@ As our society continues to rely heavily on technology, the value of a user-frie
 
 Our team has been working tirelessly to make the platform more engaging and intuitive for our users. We are pleased to announce that we have added new colors and buttons, restructured the layout, and added a feature to view the transaction details of a contract.
 
-![defi contracts](/images/posts/explorer/explorer_5.webp)
+![defi contracts](https://dspyt.com/images/posts/explorer/explorer_5.webp)
 
-![organization contracts](/images/posts/explorer/org_5.webp)
+![organization contracts](https://dspyt.com/images/posts/explorer/org_5.webp)
 
 ## Search Card
 
 One of our main goals was to improve the search card experience. We recognized that users were spending too much time trying to search for information on the platform, so we optimized the search card to make it more efficient.
 
-![nextjs explorer homepage](/images/posts/explorer/home_5.webp)
+![nextjs explorer homepage](https://dspyt.com/images/posts/explorer/home_5.webp)
 
 ## Transaction Details
 
 Our new feature to view the transaction details of a contract was also received with excitement by our users who were seeking a more comprehensive transaction view.
 
-![detailed contract](/images/posts/explorer/contract_5.webp)
+![detailed contract](https://dspyt.com/images/posts/explorer/contract_5.webp)
 
 ## Upcoming Features
 

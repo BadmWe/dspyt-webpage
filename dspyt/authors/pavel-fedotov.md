@@ -1,9 +1,9 @@
 ---
 name: Pavel Fedotov
-avatar: "/authors/pavel-ava-profile-page.webp"
-smallAvatar: "/authors/pavel-ava-small.webp"
-company: "Dspyt"
-email: pfedprog@gmail.com
+avatar: "/authors/pavel-fedotov.webp"
+smallAvatar: "/authors/pavel-fedotov.webp"
+company: "Dspyt Inc."
+email: pavel@dspyt.com
 twitter: https://twitter.com/pfedprog
 linkedin: https://www.linkedin.com/in/pavel-fedotov-pinsave/
 github: https://github.com/pfed-prog
@@ -15,9 +15,9 @@ Pavel Fedotov is a seasoned Full Stack Blockchain Developer with over four years
 
 ## Professional Achievements
 
-### Pin Save
+### PinSave
 
-- Played a key role in the development of [Pin Save](https://pinsave.app/), a decentralized version of Pinterest that focuses on user privacy and data ownership.
+- Played a key role in the development of [PinSave](https://pinsave.app/), a decentralized version of Pinterest that focuses on user privacy and data ownership.
 - Completed a grant from Filecoin to enhance decentralized identity solutions (ERC-725), integrating it with emerging NFT standards, thereby advancing the landscape of digital identity in Web3.
 - Secured a RetroPGF grant from the Optimism Foundation, achieving an impressive [25 ballots](https://vote.optimism.io/retropgf/3/application/0xc613e2a991ce0dbcf8fae1d6128e67543da9710e14831112fba654cc8fe8c389) for impactful contributions to the decentralized ecosystem.
 

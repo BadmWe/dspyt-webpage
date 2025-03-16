@@ -2,7 +2,7 @@
 title: "How to Bypass CAPTCHA in Python: A Complete Guide Using 2Captcha"
 date: "23 November, 2022"
 excerpt: "Captcha is a test to determine whether or not the user is human. 2Captcha is the best provider of automatic captcha solving software on the market now."
-cover_image: "/images/posts/captcha/pexels-christina-morillo-1181263.webp"
+cover_image: "https://dspyt.com/images/posts/captcha/pexels-christina-morillo-1181263.webp"
 authors: ["pavel-fedotov"]
 tags:
   [
@@ -49,22 +49,22 @@ Since 2Captcha provides cheap and highly accurate translations of captchas, any 
 
 First, we navigate to the website and click the yellow "Sign Up" button on the upper right side of the screen.
 
-![2Captcha captcha solver](/images/posts/captcha/captcha.webp)
+![2Captcha captcha solver](https://dspyt.com/images/posts/captcha/captcha.webp)
 
 After this, we can select an option if we want to sign up with a Facebook or Google account or choose the email option, which is to create a 2captcha.com account.
 
-![2Captcha captcha solver sign up](/images/posts/captcha/signup.webp)
+![2Captcha captcha solver sign up](https://dspyt.com/images/posts/captcha/signup.webp)
 
 Next, we choose the role of the customer on the 2captcha website.
 
-![2Captcha captcha solver role](/images/posts/captcha/role.webp)
+![2Captcha captcha solver role](https://dspyt.com/images/posts/captcha/role.webp)
 
 The page redirects us to the account page where we obtain the necessary api key.
 
-![2Captcha captcha solver api key](/images/posts/captcha/api_key.webp)
+![2Captcha captcha solver api key](https://dspyt.com/images/posts/captcha/api_key.webp)
 
 We also add funds for our account to purchase the captcha solving service. The payment options include PayPro Global: Visa, MasterCard, Amex, Wire transfer, USDT/USDC through TRC20, Payments via popular payment methods: PIX, Boleto, Sofort, AliPay, iDeal and Bitcoin.
-![2Captcha captcha solver payment options](/images/posts/captcha/payment.webp)
+![2Captcha captcha solver payment options](https://dspyt.com/images/posts/captcha/payment.webp)
 
 ## How to bypass CAPTCHA in python
 
@@ -102,7 +102,7 @@ solver = TwoCaptcha(**config)
 - `apiKey` argument - your api key
 - `softId` argument - your software ID obtained after publishing in [2captcha software catalog](https://2captcha.com?from=16036084software/add)
 
-![2captcha software catalog](/images/posts/captcha/add.webp)
+![2captcha software catalog](https://dspyt.com/images/posts/captcha/add.webp)
 
 - `callback` argument - web server URL that receives the captcha recognition result
 - `defaultTimeout` argument - polling timeout in seconds for all captcha types except ReCaptcha

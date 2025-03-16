@@ -3,7 +3,7 @@ title: "Understanding Crypto Token Standards: ERC vs BRC vs BEP vs SPL"
 date: "10 December, 2023"
 excerpt: "Explore crypto token standards like ERC, BRC, BEP, and SPL in our guide. From Ethereum smart contracts to Bitcoin fungibility, discover future dynamics."
 authors: ["dmitrii-fedotov", "dspytdao"]
-cover_image: "/images/posts/cryptostandarts/btc.webp"
+cover_image: "https://dspyt.com/images/posts/cryptostandarts/btc.webp"
 tags:
   [
     "Ethereum",
@@ -44,7 +44,7 @@ Many crypto token formats feature acronyms like "RC" (Request for Comment) or "E
 
 Ethereum, a powerhouse in the blockchain space, boasts widely adopted token standards such as ERC-20, ERC-721, ERC-777, and ERC-1155. These standards facilitate the creation of smart contracts, and while anyone can create an ERC token, it involves adhering to the Ethereum Improvement Proposal process.
 
-![Ethereum](images/posts/cryptostandarts/green.webp)
+![Ethereum](https://dspyt.com/images/posts/cryptostandarts/green.webp)
 
 ## Bitcoin's BRC Tokens
 
@@ -58,7 +58,7 @@ Binance Smart Chain introduces BEP-20 as a token standard, allowing developers t
 
 Within the Solana ecosystem, token standards reside in the Solana Program Library (SPL). SPL tokens exhibit significant variability in functionality—ranging from NFTs to fungible tokens with limited circulating supply.
 
-![Solana](images/posts/cryptostandarts/solana.webp)
+![Solana](https://dspyt.com/images/posts/cryptostandarts/solana.webp)
 
 ## Crypto Coin Vs Token
 
@@ -76,7 +76,7 @@ Token Categories
 Fungible: Tokens like $GMX are interchangeable, allowing for the exchange of one identical token for another.
 Non-Fungible: Unique tokens, where one cannot be exchanged for another due to distinct characteristics. This is exemplified by NFTs within the blockchain space.
 
-![Fungible](images/posts/cryptostandarts/fungible.webp)
+![Fungible](https://dspyt.com/images/posts/cryptostandarts/fungible.webp)
 
 In navigating the world of crypto token standards, recognizing these nuances becomes essential for making informed decisions in building and managing your digital asset portfolio. Stay tuned for future narratives as we continue to explore the dynamic landscape of blockchain technology.
 
@@ -92,11 +92,11 @@ As we traverse this evolving landscape, the significance of fungible and non-fun
 
 In the realm of blockchain, knowledge is not static but a dynamic force shaping the narratives of the future. Stay tuned for continued exploration and insights into the ever-evolving world of crypto token standards, where each acronym tells a story of collaboration, innovation, and the decentralized future that lies ahead.
 
-![Game over](images/posts/cryptostandarts/conclusion.webp)
+![Game over](https://dspyt.com/images/posts/cryptostandarts/conclusion.webp)
 
 ## Related Links and Posts
 
-- [Pin Save EVM GitHub repository](https://github.com/dspytdao/PinSave-EVM)
+- [PinSave EVM GitHub repository](https://github.com/dspytdao/PinSave-EVM)
 - [What is a blockchain address](https://dspyt.com/what-is-blockchain-address)
 - [Simple Blockchain data indexing with TrueBlocks](https://dspyt.com/blockchain-data-indexer-with-trueblocks)
 - [Web3Basketball - Basketball Dapp](https://dspyt.com/Web3Basketball)

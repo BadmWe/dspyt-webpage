@@ -2,7 +2,7 @@
 title: "Exploring Ethereum Contracts and Their Associated Data"
 date: "February 16, 2023"
 excerpt: "This week we began to work on Ethereum Smart Contract Explorer, a comprehensive tool for exploring Ethereum contracts and their associated data."
-cover_image: "/images/posts/explorer/pexels-oluwaseun-duncan-226232.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-oluwaseun-duncan-226232.webp"
 authors: ["dspytdao", "pavel-fedotov"]
 tags:
   [

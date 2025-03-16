@@ -2,7 +2,7 @@
 title: "Exploring Ethereum: Developing an Open Source Contract Explorer"
 date: "March 3, 2023"
 excerpt: "This week I had a call with Jordan Ellis from Polywrap who provided me with valuable insight into contract explorers in the open-source ecosystem."
-cover_image: "/images/posts/explorer/pexels-markus-spiske-225769.webp"
+cover_image: "https://dspyt.com/images/posts/explorer/pexels-markus-spiske-225769.webp"
 authors: ["dspytdao"]
 tags:
   [

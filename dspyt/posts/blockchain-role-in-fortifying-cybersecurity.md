@@ -2,7 +2,7 @@
 title: "The Crucial Alliance: Blockchain's Role in Fortifying Cybersecurity"
 date: "December 16, 2023"
 excerpt: "Blockchain tech, a potent ally against cyber threats, counters evolving challenges in scale and sophistication, bolstering the fight against adversaries."
-cover_image: "/images/posts/cybersecurity/cybersecurity.webp"
+cover_image: "https://dspyt.com/images/posts/cybersecurity/cybersecurity.webp"
 authors: ["alexfedotovqq"]
 tags:
   [
