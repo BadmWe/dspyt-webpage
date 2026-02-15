@@ -91,7 +91,7 @@ export default function AuthorLayout({ frontMatter, children }) {
             <h1 className="mt-2 font-bold tracking-tight text-center text-gray-900 text-3xl sm:text-4xl">
               {title}
             </h1>
-            <div className="mt-6 text-base leading-7 dark:text-gray-100 text-gray-700 max-w-none">
+            <div className="mt-6 text-base leading-7 dark:text-gray-100 text-gray-700 max-w-none lg:mr-8">
               {children}
             </div>
           </div>

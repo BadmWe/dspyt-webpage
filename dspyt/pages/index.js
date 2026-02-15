@@ -27,7 +27,7 @@ const people = [
     role: "Founder",
     imageUrl: "/authors/pavel-fedotov.webp",
     twitterUrl: "https://twitter.com/pfedprog",
-    linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-pinsave/",
+    linkedinUrl: "https://www.linkedin.com/in/pavel-fedotov-dspyt/",
     githubUrl: "https://github.com/pfed-prog",
     authors: "/profile/pavel-fedotov",
   },

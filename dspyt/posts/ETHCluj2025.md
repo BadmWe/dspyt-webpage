@@ -111,7 +111,7 @@ _Impact:_
 
 ## Partners & Sponsors
 
-ETHCluj 2025 is backed by industry leaders like **AKASHA**, **QuickNode**, and **OpenZeppelin**, alongside community partners including **ETH Belgrade**, **ETHPorto**, and **ETHRome**.
+ETHCluj 2025 is backed by industry leaders like **AKASHA** and **Argent**, alongside community partners including **Ethereum Cat Herders**, **ETH Belgrade**, **ETHPorto**, and **ETHRome**.
 
 ### Connect with ETHCluj
 
